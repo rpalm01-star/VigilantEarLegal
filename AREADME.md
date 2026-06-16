@@ -2,7 +2,7 @@
 
 **Effective Date:** June 6, 2026
 
-**VigilantEar** is an advanced, ultra-high-performance Android acoustic research and accessibility tool engineered to provide real-time directional and spatial awareness for the deaf and hard-of-hearing (D/HH) community. Traditional sound recognition software only identifies *what* a sound is; VigilantEar acts as a comprehensive tactical radar, combining edge-computed machine learning with sophisticated acoustic physics to track exactly *where* a sound originates, its estimated distance, and its absolute path trajectory.
+**VigilantEar** is an advanced, ultra-high-performance Android acoustic research and accessibility tool engineered to provide real-time directional and spatial awareness for the deaf and hard-of-hearing (D/HH) community. Traditional sound recognition software only identifies *what* a sound is. **VigilantEar tells you where it is, who's making it, and what they're saying.** It acts as a comprehensive tactical radar, combining edge-computed machine learning with sophisticated acoustic physics to track exactly *where* a sound originates, its estimated distance, its absolute path trajectory, and the separated, translated words of individual speakers.
 
 ---
 
@@ -17,6 +17,7 @@ To support users worldwide, the platform features a complete native localization
 - **French (Français)**
 - **German (Deutsch)**
 - **Japanese (日本語)**
+- **Arabic (العربية)**
 
 All tactical overlays, HUD alerts, and preference menus adjust dynamically to system locales.
 
@@ -30,6 +31,8 @@ All tactical overlays, HUD alerts, and preference menus adjust dynamically to sy
 - **Shazam Integration**: Real-time environmental music identification mapped dynamically onto the spatial radar.
 - **Acoustic Radar HUD**: A fully live tactical dashboard providing real-time telemetry on system power, network capability, processing latency, and FPS (analysis Hz), alongside a directional grid tracking environmental acoustic targets by bearing and energy.
 - **Geographic Road Snapping**: Projects relative mathematical acoustic bearings onto global GPS coordinates, intelligently snapping real-time vehicle vectors to verified streets.
+- **Speaker Mode (Live Directional Captions)**: Transcribes the people talking near you into caption rows, one per voice. On-device speaker diarization separates voices with distinct colors and scrolling lines, accompanied by directional arrows pointing to the speaker's location.
+- **Live On-Device Translation**: Transcribes and translates foreign speech in real-time. The entire pipeline—hearing, separating speakers, transcribing, and translating—runs entirely on the device without cloud dependency.
 
 ---
 
