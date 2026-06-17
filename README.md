@@ -2,9 +2,9 @@
 
 *An acoustic radar for people who can't hear.*
 
-Most sound-recognition apps tell you *what* a sound is. **VigilantEar tells you where it is, who's making it, and what they're saying** — turning an iPhone into a real-time map of the sound around you, built for the deaf and hard-of-hearing (D/HH) community.
+An app built specifically for the Deaf/HH community! Most sound-recognition apps tell you *what* a sound is. **VigilantEar tells you where it is, who's making it, and what they're saying** — turning an iPhone into a real-time sonic tricorder to visually describe the sound around you.
 
-A siren's direction and distance. A knock behind you. The people in a conversation, drawn as separate voices on a ring — each one captioned, color-coded by speaker, with an arrow to where they're standing. And if someone is speaking a language you don't read, their words arrive **translated into yours.**
+A siren's direction and distance. A knock behind you. The people in a conversation, drawn as separate transcribed voices — each one captioned and directionally places by speaker. If someone is speaking a language you don't read then their words arrive **translated into yours.**
 
 Everything runs on the device. Nothing is recorded, cached, or sent anywhere.
 
@@ -13,10 +13,10 @@ Everything runs on the device. Nothing is recorded, cached, or sent anywhere.
 ## Who it's for
 
 - **Deaf and hard-of-hearing users** who want situational awareness of sound — not just "a sound happened," but *what, where, who,* and *what was said.*
-- Anyone who needs **live captions with direction and speaker separation**, or **on-device translation** of the people around them.
+- Anyone who needs **live captions with direction and speaker separation**, or **on-device translation** of your friends sitting nearby.
 - Acoustic-research and accessibility tinkerers interested in on-device sound localization.
 
-> VigilantEar is an accessibility **aid**, not a certified life-safety device. See the disclaimer below.
+> VigilantEar is an accessibility **aid**, not a certified life-safety device.
 
 ---
 
@@ -26,24 +26,43 @@ Everything runs on the device. Nothing is recorded, cached, or sent anywhere.
 Using the iPhone's stereo microphones, VigilantEar estimates the **bearing and rough distance** of sounds around you and places them as live dots on a heading-up radar ring and map. Move, and the dots hold their real-world position. This is the core: spatial awareness of a world you can't hear.
 
 ### 🚨 It recognizes important sounds — and warns you
-An on-device classifier identifies **300+ everyday sounds** and watches five critical categories — **sirens, alarms, doorbells/knocks, a person nearby, and severe weather.** When one fires, you get a clear on-screen alert and an optional **push notification**, even when the app is in the background or your phone is asleep. Turn the alert categories off and the engine fully hibernates while backgrounded, to save battery.
+An on-device classifier identifies **300+ everyday sounds** and watches the critical categories — **sirens, alarms, doorbells/knocks, a person nearby, and severe weather.** When one fires, you get a clear on-screen alert and an optional **push notification**, even when the app is in the background or your phone is asleep. Turn all of the alert categories off and the engine fully hibernates while backgrounded to save battery.
 
-Severe-weather warnings come from official public feeds — the US **NWS**, the European **MeteoAlarm** network, and **China's CMA** — automatically narrowed to the feeds that actually cover where you are.
+Severe-weather warnings come from official public feeds: the United States' **NWS** is built in for free; the European **MeteoAlarm** network and **China's CMA** are part of Premium. Feeds are automatically narrowed to the ones that actually cover where you are.
 
-### 💬 Speaker Mode — live, directional captions
-Turn on **Speaker Mode** and VigilantEar transcribes the people talking near you into **caption rows, one per voice.** On-device speaker diarization tells the voices apart, so each person keeps their own color and their own line of scrollback — *who* is saying *what* — with a small arrow pointing to where they actually are in the room. The live speaker is highlighted; older lines dim and age out.
+### 💬 Speaker Mode — live, directional captions *(Premium)*
+Turn on **Speaker Mode** and VigilantEar transcribes the people talking near you into **caption blocks, one per voice.** On-device speaker diarization tells the voices apart, so each person keeps their own block and quirky icon — *who* is saying *what* — with a small circle on the inner ring directing you to their room position. The live speaker is highlighted; older text scrolls away slowly or as space for new text is needed.
 
-### 🌐 Live translation — read a language you can't hear, in your own
-Tell VigilantEar the **languages you might hear**, and it transcribes that speech and renders it **in your language**, live, with a 🌐 marker and a gentle fade-in. The whole chain — hear → separate speakers → transcribe → translate → display — runs **entirely on the device**; the only network moment is a one-time language-pack download. For a deaf person with a friend who speaks another language, this means reading their side of the conversation in real time.
+### 🌐 Speaker Auto-Translate — read a language you can't hear, in your own *(Premium)*
+With Speaker Mode on, when a nearby person speaks another language, VigilantEar detects it and renders their captions **in your language**, live, with their "from" language identification in the title bar of their block. The whole chain — hear → separate speakers → transcribe → translate → display — runs **entirely on the device**; the only network moment is a one-time language-pack download from Apple. For a deaf person with a friend who speaks another language, this means reading their side of the conversation in real time **without having to know about and choose that language beforehand**.
 
-### 🎵 Music & broadcast awareness
-**ShazamKit** identifies music playing around you and surfaces the title, re-checking automatically when the song changes. And when a voice looks like it's coming from a TV or radio rather than a person in the room, it's tagged with a **📻** instead of being mistaken for someone present — the words still show, just labeled honestly.
+### 🎵 Music & broadcast awareness *(Premium)*
+**ShazamKit** identifies music playing around you and displays the title with automatic song change signature detection. And when a voice looks like it's coming from a TV or radio rather than a person in the room, it's tagged with a **📻** instead of being mistaken for someone present — the words still show; they are just labeled honestly.
 
-### 🛰️ Constellation — many iPhones, one shared ear *(experimental)*
-With two or more Ultra-Wideband iPhones, **Constellation** pairs them so they can sense each other's position (via Apple's Nearby Interaction / UWB) and, eventually, fuse what they each hear into a single, far more precise picture of where a sound is coming from — a kind of distributed, passive **synthetic-aperture sonar.** It's opt-in, off by default, and gated to devices with the right hardware.
+### 🛰️ Constellation — many iPhones, one shared ear *(Premium)*
+With two or more Ultra-Wideband-enabled iPhones (most since iPhone 11), The **Constellation** mode pairs them so they can sense each other's position (via Apple's Nearby Interaction / UWB) and fuse what they each hear into a single, far more precise picture of where a sound is coming from — a kind of distributed, passive **synthetic-aperture sonar.** It's gated to devices with the right hardware.
 
 ### 🗺️ Maps, roads & path prediction
-Sound bearings are projected onto real GPS coordinates and drawn on a MapKit view. Vehicle sounds are **snapped to nearby streets** (via OpenStreetMap road data) and their paths predicted, so a passing car reads as moving *along the road* rather than drifting through buildings.
+Sound bearings are projected onto real GPS coordinates and drawn on a map view. Vehicle sounds are **snapped to nearby streets** (via open-source road data feeds) and their paths predicted, so a passing car reads as moving *along the road* rather than drifting through buildings.  (Try out the fire truck demo to preview it.)
+
+---
+
+## Free & Premium
+
+The safety core is **free, forever**:
+
+- **Local sound alerts** — alarms, sirens, doorbells/knocks, and a person nearby — detected on-device, with on-screen and push warnings.
+- **NWS severe-weather warnings** for the United States.
+
+A one-time **Premium unlock** — with a free trial to start, and **not a subscription** — adds the full situational-awareness layer:
+
+- **Speaker Mode** — live, directional, per-speaker captions.
+- **Speaker Auto-Translate** — on-device translation of nearby speech into your language.
+- **Constellation** — multi-iPhone shared hearing over Ultra-Wideband.
+- **Music ID** — ShazamKit song recognition.
+- **International weather feeds** — Europe (MeteoAlarm) and China (CMA).
+
+Free or Premium, **everything runs on the device** — the tier only changes which features are unlocked, never where your audio goes.
 
 ---
 
@@ -71,7 +90,7 @@ graph TD
 
 ## Privacy
 
-- **On-device, always.** All classification, spatial math, transcription, diarization, and translation happen on your iPhone. Raw audio is never recorded, cached, or transmitted.
+- **On-device, always.** All classification, spatial math, transcription, diarization  (speaker signature/identification), and translation happen on your iPhone. Raw audio is never recorded, cached, or transmitted.
 - **Transcripts are ephemeral.** Captions live in memory for the session and are not persisted or uploaded.
 - **No telemetry.** No analytics, crash logs, or usage data are sent to any server.
 
@@ -89,7 +108,7 @@ Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](S
 
 ## Localization
 
-Fully localized — interface, alerts, and captions — into **English, Spanish, Portuguese, French, German, Japanese, and Simplified Chinese**, following the system locale.
+Fully localized — interface, alerts, and captions — into **English, Spanish, Portuguese, French, German, Arabic, Japanese, and Simplified Chinese** (8 languages).  They follow the system locale setting or can be chosen manually in the app.
 
 ---
 
