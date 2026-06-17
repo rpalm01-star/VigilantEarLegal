@@ -1,74 +1,80 @@
 # Soporte de VigilantEar 👂🛰️
 
-Gracias por usar **VigilantEar**. Nuestra misión es proporcionar una mayor conciencia situacional a través de la detección avanzada de eventos acústicos y alertas de emergencia en tiempo real.
+Gracias por usar **VigilantEar**. Nuestra misión es brindar una mayor conciencia situacional mediante la detección avanzada de eventos acústicos y alertas de emergencia en tiempo real.
 
-## Contáctenos
+## Contáctanos
 
-Si experimenta problemas técnicos, tiene preguntas sobre la precisión de las alertas o desea proporcionar comentarios, comuníquese con nosotros por correo electrónico a:
+Si tienes problemas técnicos, dudas sobre la precisión de las alertas o quieres darnos tu opinión, escríbenos por correo electrónico a:
 
-**Correo Electrónico:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
+**Correo electrónico:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 
-## Preguntas Frecuentes
+## Preguntas frecuentes
 
 ### ¿Cómo funciona VigilantEar en segundo plano?
 
-VigilantEar escucha solo cuando usted activa la monitorización. Funciona eficientemente en segundo plano y envía vibraciones o alertas visuales cuando detecta sonidos importantes.
+VigilantEar escucha únicamente cuando activas el monitoreo. Funciona de manera eficiente en segundo plano y envía vibraciones o alertas visuales cuando detecta sonidos importantes.
 
-### ¿VigilantEar agota mi batería?
+### ¿VigilantEar consume mucha batería?
 
-No. VigilantEar usa muy poca batería. Optimizamos la aplicación cuidadosamente para que pueda ejecutarla todo el día sin preocupaciones.
+No. VigilantEar usa muy poca batería. Optimizamos la app con cuidado para que puedas usarla todo el día sin preocupaciones.
 
-Aquí está exactamente cómo mantenemos el uso de la batería bajo:  
-- Usamos modelos de aprendizaje automático eficientes en el dispositivo que no necesitan casi nada de energía.  
-- Dejamos de escuchar automáticamente cuando la aplicación no está en primer plano si usted desactiva todas las alertas en el panel de configuración.
-- Evitamos casi todas las llamadas de datos en la nube y mantenemos el procesamiento en su teléfono.  
-- Agregamos aceleración inteligente (throttling) para reducir los requisitos de procesamiento.
-- Nuestros algoritmos son matemáticas de precisión que se ejecutan fuera del hilo de la pantalla y se ejecutan solo cuando es necesario.
+Así es exactamente como mantenemos bajo el consumo de batería:  
+- Usamos modelos de aprendizaje automático eficientes que se ejecutan en el dispositivo y casi no requieren energía.  
+- Dejamos de escuchar automáticamente cuando la app no está en primer plano si desactivas todas las alertas en el panel de ajustes.
+- Evitamos casi todas las llamadas de datos a la nube y mantenemos el procesamiento en tu teléfono.  
+- Agregamos una regulación inteligente para reducir los requisitos de procesamiento.
+- Nuestros algoritmos son cálculos matemáticos de precisión que se ejecutan fuera del hilo de la pantalla y solo cuando es necesario.
 
-### ¿Por qué la aplicación no detecta sirenas?
+### ¿Por qué la app no detecta las sirenas?
 
-Asegúrese de haber otorgado permisos de **Micrófono** en la Configuración de su teléfono. VigilantEar requiere acceso activo al micrófono para procesar las firmas acústicas. Además, asegúrese de que su dispositivo no esté en "Modo Silencioso" si desea respuesta háptica (vibración).
+Asegúrate de haber otorgado los permisos de **Micrófono** en los Ajustes de tu teléfono. VigilantEar necesita acceso activo al micrófono para procesar las firmas acústicas. Además, asegúrate de que tu dispositivo no esté en "Modo silencio" si deseas recibir respuesta háptica.
 
 ### ¿Qué tan precisas son las alertas meteorológicas?
 
-VigilantEar consulta los canales oficiales del gobierno CAP (Protocolo de Alerta Común). Las alertas son tan precisas como los datos proporcionados por el Servicio Meteorológico Nacional y otras agencias internacionales. La simulación de ubicación o los retrasos en la red pueden afectar ocasionalmente la frecuencia de actualización.
+VigilantEar consulta los feeds oficiales gubernamentales del protocolo CAP (Common Alerting Protocol). Las alertas son tan precisas como los datos que proporcionan el Servicio Meteorológico Nacional (NWS) y otras agencias internacionales. La simulación de ubicación o los retrasos de la red pueden afectar ocasionalmente la frecuencia de actualización.
 
-### ¿La aplicación funciona en segundo plano?
+### ¿La app funciona en segundo plano?
 
 Sí, VigilantEar está diseñada para monitorear eventos acústicos críticos mientras está en segundo plano, siempre que los permisos necesarios estén habilitados.
 
-### ¿Qué controlan los interruptores de alerta?
+### ¿Qué controlan los interruptores de alertas?
 
-Los interruptores de alerta principales en el **menú de configuración** controlan si VigilantEar le envía una notificación de alerta cuando detecta sonidos coincidentes.  
+Los interruptores principales de alertas en el **menú de ajustes** controlan si VigilantEar te envía una notificación de alerta cuando detecta sonidos coincidentes.  
 
-Estos interruptores solo afectan las notificaciones enviadas mientras la aplicación está en segundo plano o no está activamente abierta. **No** afectan la visualización de alertas en pantalla cuando la aplicación está abierta y en primer plano.
+Estos interruptores solo afectan las notificaciones que se envían mientras la app está en segundo plano o no está abierta activamente. **No** afectan la visualización de alertas en pantalla cuando la app está abierta y en primer plano.
 
 Los interruptores principales son:  
-- **Alertas de Sirena** — Sirenas de vehículos de emergencia (policía, bomberos, ambulancias, etc.)  
-- **Alarmas** — Detectores de humo y alarmas de incendio  
+- **Alertas de sirenas** — Sirenas de vehículos de emergencia (policía, bomberos, ambulancia, etc.)  
+- **Alarmas** — Detectores de humo y alarmas contra incendios  
 - **Golpes** — Golpes en la puerta y timbres
-- **Alertas Meteorológicas** — Advertencias de clima severo de fuentes gubernamentales oficiales  
-- **Alertas de Personas** — Personas cercanas (en entornos tranquilos)  
+- **Alertas meteorológicas** — Avisos de clima severo de fuentes oficiales gubernamentales  
+- **Alertas de personas** — Personas cercanas (en entornos silenciosos)  
 
-### ¿Cómo administro las Fuentes de Datos externas y Shazam?
+### ¿Qué es gratis y qué es Premium?
 
-Además de las alertas acústicas principales basadas en el micrófono, puede habilitar canales de datos externos adicionales en el menú de **Fuentes de Datos (Data Sources)**:
-- **Shazam (Identificación de Música)** — Identificación de música ambiental en tiempo real mapeada dinámicamente en su radar espacial.
-- **Canales Meteorológicos Externos** — Fuentes de datos meteorológicos internacionales adicionales como MeteoGate (Europa) y canales CMA/MEM (China).  
+Las funciones de seguridad esenciales son **gratuitas, para siempre**: alertas de sonido locales (sirenas, alarmas, golpes y timbres, una persona cercana) y los avisos de clima severo del **NWS** de EE. UU.
 
-### ¿Cómo deshabilito el micrófono cuando la aplicación no está en primer plano?
+Un desbloqueo **Premium** único — con una prueba gratuita para empezar, y que **no** es una suscripción — agrega el Modo Hablante, la Traducción Automática del Hablante, Constellation, Music ID (Shazam) y los feeds meteorológicos internacionales. Todo sigue ejecutándose en tu dispositivo; Premium solo cambia qué funciones están desbloqueadas, nunca a dónde va tu audio.
 
-La aplicación deja de usar el micrófono completamente en modo de segundo plano cuando *todos* los interruptores de alerta están apagados a través del panel de configuración de la aplicación. No escucha ni envía notificaciones en segundo plano cuando todos los interruptores están deshabilitados. Cuando al menos una alerta está habilitada, el micrófono está habilitado para la recopilación de sonido en segundo plano.
+### ¿Cómo administro Shazam y los feeds meteorológicos internacionales?
 
-### ¿Por qué la aplicación no detecta constantemente *todos* los sonidos?
+Forman parte de Premium y se encuentran en el menú **Premium Features**:
+- **Shazam (Music ID)** — Identificación de música ambiental en tiempo real, mapeada dinámicamente en tu radar espacial.
+- **Feeds meteorológicos internacionales** — Fuentes adicionales más allá del NWS gratuito de EE. UU.: Europa (MeteoAlarm) y China (CMA).  
 
-Los sonidos agudos como las alarmas y las sirenas de los camiones de bomberos son relativamente fáciles de detectar para el motor de procesamiento ML de sonido. Los sonidos de banda ancha (como motores de automóviles o neumáticos) son más difíciles, pero hacemos un trabajo adecuado (aunque imperfecto) teniendo en cuenta las capacidades limitadas del teléfono en sí. Los algoritmos de Diferencia de Tiempo de Llegada (TDOA) solo son precisos dada la corta distancia entre los micrófonos.
+### ¿Cómo desactivo el micrófono cuando la app no está en primer plano?
+
+La app deja de usar el micrófono por completo en modo de segundo plano cuando *todos* los interruptores de alertas están desactivados desde el panel de ajustes de la app. No escucha ni envía notificaciones en segundo plano cuando todos los interruptores están desactivados. Cuando al menos una alerta está activada, el micrófono se habilita para la captación de sonido en segundo plano.
+
+### ¿Por qué la app no detecta *todos* los sonidos de forma constante?
+
+Los sonidos agudos, como las alarmas y las sirenas de los camiones de bomberos, son relativamente fáciles de detectar para el motor de procesamiento de sonido con ML. Los sonidos de banda ancha (como los motores de los autos o las llantas) son más difíciles, pero hacemos un trabajo adecuado (aunque imperfecto) considerando las capacidades limitadas del propio teléfono. Los algoritmos de Diferencia de Tiempo de Llegada (TDOA) tienen una precisión limitada dada la corta distancia entre los micrófonos.
 
 ---
 
-*VigilantEar es una herramienta de accesibilidad construida con cuidado. Por favor, úsela responsablemente.* 
+*VigilantEar es una herramienta de accesibilidad creada con dedicación. Por favor, úsala de manera responsable.* 
 
-Hecho con ❤️ para la comunidad S/HH y la investigación acústica.
+Hecha con ❤️ para la comunidad D/HH y la investigación acústica.
 
 © 2026 Wingdings, Inc.
 Todos los derechos reservados

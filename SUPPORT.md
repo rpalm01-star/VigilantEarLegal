@@ -50,11 +50,17 @@ The main toggles are:
 - **Weather Alerts** — Severe weather warnings from official government sources  
 - **People Alerts** — People closeby (in quiet environments)  
 
-### How do I manage external Data Sources and Shazam?
+### What's free, and what's Premium?
 
-In addition to the main microphone-based acoustic alerts, you can enable additional external data feeds in the **Data Sources** menu:
+The core safety features are **free, forever**: local sound alerts (sirens, alarms, knocks and doorbells, a person nearby) and U.S. **NWS** severe-weather warnings.
+
+A one-time **Premium** unlock — with a free trial to start, and **not** a subscription — adds Speaker Mode, Speaker Auto-Translate, Constellation, Music ID (Shazam), and the international weather feeds. Everything still runs on your device; Premium only changes which features are unlocked, never where your audio goes.
+
+### How do I manage Shazam and the international weather feeds?
+
+These are part of Premium and live in the **Premium Features** menu:
 - **Shazam (Music ID)** — Real-time environmental music identification mapped dynamically onto your spatial radar.
-- **External Weather Feeds** — Additional international weather data sources like MeteoGate (Europe) and CMA/MEM feeds (China).  
+- **International Weather Feeds** — Additional sources beyond the free U.S. NWS: Europe (MeteoAlarm) and China (CMA).  
 
 ### How do I disable the microphone when the app is not in the foreground?
 
