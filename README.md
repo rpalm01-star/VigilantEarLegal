@@ -4,7 +4,7 @@
 
 An app built specifically for the Deaf/HH community! Most sound-recognition apps tell you *what* a sound is. **Vigilant Ear tells you where it is, who's making it, and what they're saying** — turning an iPhone into a real-time sonic tricorder to visually describe the sound around you.
 
-A siren's direction and distance. A knock behind you. The people in a conversation, drawn as separate transcribed voices — each one captioned and directionally places by speaker. If someone is speaking a language you don't read then their words arrive **translated into yours.**
+A siren's direction and distance. A knock behind you. The people in a conversation, drawn as separate transcribed voices — each one captioned and directionally placed by speaker. If someone is speaking a language you don't read then their words arrive **translated into yours.**
 
 Everything runs on the device. Nothing is recorded, cached, or sent anywhere.
 
