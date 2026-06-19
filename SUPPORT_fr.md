@@ -1,6 +1,6 @@
-# Assistance VigilantEar 👂🛰️
+# Assistance Vigilant Ear 👂🛰️
 
-Merci d'utiliser **VigilantEar**. Notre mission est de fournir une conscience accrue de votre environnement grâce à la détection avancée d'événements acoustiques et à des alertes d'urgence en temps réel.
+Merci d'utiliser **Vigilant Ear**. Notre mission est de fournir une conscience accrue de votre environnement grâce à la détection avancée d'événements acoustiques et à des alertes d'urgence en temps réel.
 
 ## Nous contacter
 
@@ -10,13 +10,13 @@ Si vous rencontrez des problèmes techniques, si vous avez des questions sur la 
 
 ## Foire aux questions
 
-### Comment VigilantEar fonctionne-t-il en arrière-plan ?
+### Comment Vigilant Ear fonctionne-t-il en arrière-plan ?
 
-VigilantEar n'écoute que lorsque vous activez la surveillance. L'application s'exécute efficacement en arrière-plan et envoie des vibrations ou des alertes visuelles lorsqu'elle détecte des sons importants.
+Vigilant Ear n'écoute que lorsque vous activez la surveillance. L'application s'exécute efficacement en arrière-plan et envoie des vibrations ou des alertes visuelles lorsqu'elle détecte des sons importants.
 
-### VigilantEar vide-t-il ma batterie ?
+### Vigilant Ear vide-t-il ma batterie ?
 
-Non. VigilantEar consomme très peu de batterie. Nous avons soigneusement optimisé l'application pour que vous puissiez l'utiliser toute la journée sans souci.
+Non. Vigilant Ear consomme très peu de batterie. Nous avons soigneusement optimisé l'application pour que vous puissiez l'utiliser toute la journée sans souci.
 
 Voici exactement comment nous maintenons une faible consommation de batterie :  
 - Nous utilisons des modèles d'apprentissage automatique embarqués et efficaces qui ne nécessitent presque aucune énergie.  
@@ -27,19 +27,19 @@ Voici exactement comment nous maintenons une faible consommation de batterie :
 
 ### Pourquoi l'application ne détecte-t-elle pas les sirènes ?
 
-Assurez-vous d'avoir accordé les autorisations **Microphone** dans les Réglages de votre téléphone. VigilantEar a besoin d'un accès actif au microphone pour traiter les signatures acoustiques. Veillez également à ce que votre appareil ne soit pas en « mode Silencieux » si vous souhaitez recevoir un retour haptique.
+Assurez-vous d'avoir accordé les autorisations **Microphone** dans les Réglages de votre téléphone. Vigilant Ear a besoin d'un accès actif au microphone pour traiter les signatures acoustiques. Veillez également à ce que votre appareil ne soit pas en « mode Silencieux » si vous souhaitez recevoir un retour haptique.
 
 ### Quelle est la précision des alertes météo ?
 
-VigilantEar interroge les flux officiels CAP (Common Alerting Protocol) des autorités publiques. Les alertes sont aussi précises que les données fournies par le National Weather Service et d'autres agences internationales. La simulation de localisation ou les délais réseau peuvent occasionnellement affecter la fréquence des mises à jour.
+Vigilant Ear interroge les flux officiels CAP (Common Alerting Protocol) des autorités publiques. Les alertes sont aussi précises que les données fournies par le National Weather Service et d'autres agences internationales. La simulation de localisation ou les délais réseau peuvent occasionnellement affecter la fréquence des mises à jour.
 
 ### L'application fonctionne-t-elle en arrière-plan ?
 
-Oui, VigilantEar est conçue pour surveiller les événements acoustiques critiques en arrière-plan, à condition que les autorisations nécessaires soient activées.
+Oui, Vigilant Ear est conçue pour surveiller les événements acoustiques critiques en arrière-plan, à condition que les autorisations nécessaires soient activées.
 
 ### Que contrôlent les boutons d'alerte ?
 
-Les principaux boutons d'alerte du **menu des réglages** déterminent si VigilantEar vous envoie ou non une notification d'alerte lorsqu'elle détecte des sons correspondants.  
+Les principaux boutons d'alerte du **menu des réglages** déterminent si Vigilant Ear vous envoie ou non une notification d'alerte lorsqu'elle détecte des sons correspondants.  
 
 Ces boutons n'affectent que les notifications envoyées lorsque l'application est en arrière-plan ou n'est pas activement ouverte. Ils n'affectent **pas** l'affichage des alertes à l'écran lorsque l'application est ouverte et au premier plan.
 
@@ -72,7 +72,7 @@ Les sons aigus comme les alarmes et les sirènes de camions de pompiers sont rel
 
 ---
 
-*VigilantEar est un outil d'accessibilité conçu avec soin. Veuillez l'utiliser de manière responsable.* 
+*Vigilant Ear est un outil d'accessibilité conçu avec soin. Veuillez l'utiliser de manière responsable.* 
 
 Conçu avec ❤️ pour la communauté (D/HH) et la recherche acoustique.
 

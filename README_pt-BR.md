@@ -1,8 +1,8 @@
-# VigilantEar 👂🛡️ (Edição Apple)
+# Vigilant Ear 👂🛡️ (Edição Apple)
 
 *Um radar acústico para quem não pode ouvir.*
 
-Um aplicativo criado especificamente para a comunidade Surda/com deficiência auditiva! A maioria dos apps de reconhecimento de som diz *o que* é um som. **O VigilantEar diz onde ele está, quem o está produzindo e o que essa pessoa está dizendo** — transformando um iPhone num tricorder sônico em tempo real para descrever visualmente o som à sua volta.
+Um aplicativo criado especificamente para a comunidade Surda/com deficiência auditiva! A maioria dos apps de reconhecimento de som diz *o que* é um som. **O Vigilant Ear diz onde ele está, quem o está produzindo e o que essa pessoa está dizendo** — transformando um iPhone num tricorder sônico em tempo real para descrever visualmente o som à sua volta.
 
 A direção e a distância de uma sirene. Uma batida atrás de você. As pessoas em uma conversa, desenhadas como vozes transcritas e separadas — cada uma legendada e posicionada direcionalmente por quem fala. Se alguém estiver falando um idioma que você não lê, suas palavras chegam **traduzidas para o seu.**
 
@@ -16,14 +16,14 @@ Tudo é executado no dispositivo. Nada é gravado, armazenado em cache ou enviad
 - Qualquer pessoa que precise de **legendas ao vivo com direção e separação de quem fala**, ou de **tradução no dispositivo** dos amigos sentados por perto.
 - Entusiastas de pesquisa acústica e acessibilidade interessados em localização de som no dispositivo.
 
-> O VigilantEar é um **recurso** de acessibilidade, não um dispositivo certificado de segurança crítica.
+> O Vigilant Ear é um **recurso** de acessibilidade, não um dispositivo certificado de segurança crítica.
 
 ---
 
 ## O que ele faz
 
 ### 🧭 Ele enxerga o som — direção e distância
-Usando os microfones estéreo do iPhone, o VigilantEar estima a **direção e a distância aproximada** dos sons à sua volta e os posiciona como pontos ao vivo em um anel de radar e em um mapa orientados pela sua direção. Mova-se, e os pontos mantêm sua posição no mundo real. Essa é a essência: consciência espacial de um mundo que você não pode ouvir.
+Usando os microfones estéreo do iPhone, o Vigilant Ear estima a **direção e a distância aproximada** dos sons à sua volta e os posiciona como pontos ao vivo em um anel de radar e em um mapa orientados pela sua direção. Mova-se, e os pontos mantêm sua posição no mundo real. Essa é a essência: consciência espacial de um mundo que você não pode ouvir.
 
 ### 🚨 Ele reconhece sons importantes — e avisa você
 Um classificador no dispositivo identifica **mais de 300 sons do dia a dia** e monitora as categorias críticas — **sirenes, alarmes, campainhas/batidas, uma pessoa por perto e clima severo.** Quando uma delas dispara, você recebe um alerta claro na tela e uma **notificação push** opcional, mesmo com o app em segundo plano ou o telefone em repouso. Desative todas as categorias de alerta e o motor hiberna completamente em segundo plano para economizar bateria.
@@ -31,10 +31,10 @@ Um classificador no dispositivo identifica **mais de 300 sons do dia a dia** e m
 Os avisos de clima severo vêm de feeds públicos oficiais: o **NWS** dos Estados Unidos já vem incluído gratuitamente; a rede europeia **MeteoAlarm** e a **CMA** da China fazem parte do Premium. Os feeds são automaticamente restringidos àqueles que realmente cobrem o local onde você está.
 
 ### 💬 Modo Interlocutor — legendas direcionais ao vivo *(Premium)*
-Ative o **Modo Interlocutor** e o VigilantEar transcreve as pessoas que conversam por perto em **blocos de legenda, um por voz.** A separação de vozes no dispositivo distingue quem fala, então cada pessoa mantém seu próprio bloco e ícone peculiar — *quem* está dizendo *o quê* — com um pequeno círculo no anel interno indicando a posição dela no ambiente. A pessoa que está falando no momento é destacada; o texto mais antigo desliza lentamente para fora ou conforme se precisa de espaço para texto novo.
+Ative o **Modo Interlocutor** e o Vigilant Ear transcreve as pessoas que conversam por perto em **blocos de legenda, um por voz.** A separação de vozes no dispositivo distingue quem fala, então cada pessoa mantém seu próprio bloco e ícone peculiar — *quem* está dizendo *o quê* — com um pequeno círculo no anel interno indicando a posição dela no ambiente. A pessoa que está falando no momento é destacada; o texto mais antigo desliza lentamente para fora ou conforme se precisa de espaço para texto novo.
 
 ### 🌐 Tradução Automática do Interlocutor — leia em seu idioma uma língua que você não pode ouvir *(Premium)*
-Com o Modo Interlocutor ativado, quando uma pessoa por perto fala outro idioma, o VigilantEar o detecta e exibe as legendas dela **no seu idioma**, ao vivo, com a identificação da língua de origem na barra de título do bloco dela. Toda a cadeia — ouvir → separar quem fala → transcrever → traduzir → exibir — é executada **inteiramente no dispositivo**; o único momento de rede é um download único de pacote de idioma da Apple. Para uma pessoa surda com um amigo que fala outra língua, isso significa ler o lado dele da conversa em tempo real **sem precisar saber qual é esse idioma e escolhê-lo de antemão**.
+Com o Modo Interlocutor ativado, quando uma pessoa por perto fala outro idioma, o Vigilant Ear o detecta e exibe as legendas dela **no seu idioma**, ao vivo, com a identificação da língua de origem na barra de título do bloco dela. Toda a cadeia — ouvir → separar quem fala → transcrever → traduzir → exibir — é executada **inteiramente no dispositivo**; o único momento de rede é um download único de pacote de idioma da Apple. Para uma pessoa surda com um amigo que fala outra língua, isso significa ler o lado dele da conversa em tempo real **sem precisar saber qual é esse idioma e escolhê-lo de antemão**.
 
 ### 🎵 Consciência de música e transmissões *(Premium)*
 O **ShazamKit** identifica a música tocando à sua volta e exibe o título, com detecção automática de assinatura quando a música muda. E quando uma voz parece vir de uma TV ou rádio, em vez de uma pessoa presente no ambiente, ela é marcada com um **📻** em vez de ser confundida com alguém presente — as palavras ainda aparecem; elas apenas são identificadas com honestidade.
@@ -68,7 +68,7 @@ Gratuito ou Premium, **tudo é executado no dispositivo** — o nível apenas mu
 
 ## Como funciona (por dentro)
 
-O VigilantEar é um pipeline **local-first, no dispositivo**. O áudio bruto é capturado em uma tap de alta prioridade, copiado e distribuído para atores de processamento independentes sem nunca travar a interface:
+O Vigilant Ear é um pipeline **local-first, no dispositivo**. O áudio bruto é capturado em uma tap de alta prioridade, copiado e distribuído para atores de processamento independentes sem nunca travar a interface:
 
 ```mermaid
 graph TD
@@ -114,7 +114,7 @@ Totalmente localizado — interface, alertas e legendas — em **inglês, espanh
 
 ## Status e isenção de responsabilidade
 
-O VigilantEar é um **recurso experimental de acessibilidade acústica**, não um utilitário certificado de segurança crítica. A resolução da localização varia conforme o ambiente, o clima, o vento e o hardware do microfone. **Mantenha sempre sua consciência ambiental normal** — não dependa dele como sua única fonte de informações de segurança.
+O Vigilant Ear é um **recurso experimental de acessibilidade acústica**, não um utilitário certificado de segurança crítica. A resolução da localização varia conforme o ambiente, o clima, o vento e o hardware do microfone. **Mantenha sempre sua consciência ambiental normal** — não dependa dele como sua única fonte de informações de segurança.
 
 ---
 

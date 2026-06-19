@@ -1,8 +1,8 @@
-# VigilantEar 👂🛡️ (Android Edition)
+# Vigilant Ear 👂🛡️ (Android Edition)
 
 **Effective Date:** June 6, 2026
 
-**VigilantEar** is an advanced, ultra-high-performance Android acoustic research and accessibility tool engineered to provide real-time directional and spatial awareness for the deaf and hard-of-hearing (D/HH) community. Traditional sound recognition software only identifies *what* a sound is. **VigilantEar tells you where it is, who's making it, and what they're saying.** It acts as a comprehensive tactical radar, combining edge-computed machine learning with sophisticated acoustic physics to track exactly *where* a sound originates, its estimated distance, its absolute path trajectory, and the separated, translated words of individual speakers.
+**Vigilant Ear** is an advanced, ultra-high-performance Android acoustic research and accessibility tool engineered to provide real-time directional and spatial awareness for the deaf and hard-of-hearing (D/HH) community. Traditional sound recognition software only identifies *what* a sound is. **Vigilant Ear tells you where it is, who's making it, and what they're saying.** It acts as a comprehensive tactical radar, combining edge-computed machine learning with sophisticated acoustic physics to track exactly *where* a sound originates, its estimated distance, its absolute path trajectory, and the separated, translated words of individual speakers.
 
 ---
 
@@ -38,7 +38,7 @@ All tactical overlays, HUD alerts, and preference menus adjust dynamically to sy
 
 ## 🧬 Core Architecture & The Neural Math Engine
 
-VigilantEar on Android utilizes a highly optimized **Native SoundML Architecture** built around C++ processing and the Oboe real-time audio engine to ensure lowest possible latency across diverse hardware.
+Vigilant Ear on Android utilizes a highly optimized **Native SoundML Architecture** built around C++ processing and the Oboe real-time audio engine to ensure lowest possible latency across diverse hardware.
 
 ```mermaid
 graph TD
@@ -79,17 +79,17 @@ To maintain a completely unblocked UI thread while continuously handling a high-
 ## 📊 Privacy & Security Guardrails
 
 - **Local-First Isolation**: All audio classifications, spectral math, and bearing projections happen exclusively on-device. Raw audio streams are never recorded, cached, or transmitted under any condition.
-- **No Remote Telemetry or Diagnostics**: VigilantEar is designed to operate entirely locally on your device. We do not collect, transmit, or store any remote telemetry, crash logs, diagnostic records, or usage analytics on our servers.
+- **No Remote Telemetry or Diagnostics**: Vigilant Ear is designed to operate entirely locally on your device. We do not collect, transmit, or store any remote telemetry, crash logs, diagnostic records, or usage analytics on our servers.
 
 ---
 
 ## ⚖️ Disclaimer
 
-VigilantEar is an experimental acoustic research and spatial accessibility aid. It is not certified as a life-safety utility. Tracking resolution can fluctuate dynamically based on regional topology, prevailing weather, wind conditions, and microphone hardware calibration. Users must always maintain normal environmental awareness.
+Vigilant Ear is an experimental acoustic research and spatial accessibility aid. It is not certified as a life-safety utility. Tracking resolution can fluctuate dynamically based on regional topology, prevailing weather, wind conditions, and microphone hardware calibration. Users must always maintain normal environmental awareness.
 
 **Contact Email:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 
-VigilantEar is an accessibility tool built with care. Please use it responsibly.
+Vigilant Ear is an accessibility tool built with care. Please use it responsibly.
 
 Made with ❤️ for the D/HH community and acoustic research.
 

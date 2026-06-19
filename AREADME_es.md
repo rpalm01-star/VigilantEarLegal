@@ -1,8 +1,8 @@
-# VigilantEar 👂🛡️ (Edición para Android)
+# Vigilant Ear 👂🛡️ (Edición para Android)
 
 **Fecha de vigencia:** 6 de junio de 2026
 
-**VigilantEar** es una herramienta de accesibilidad e investigación acústica avanzada de ultra alto rendimiento para Android, diseñada para proporcionar conciencia espacial y direccional en tiempo real a la comunidad de personas sordas y con problemas de audición (D/HH). El software tradicional de reconocimiento de sonido solo identifica *qué* es un sonido. **VigilantEar te dice dónde está, quién lo está haciendo y qué están diciendo.** Actúa como un radar táctico integral, combinando el aprendizaje automático computado en el borde con física acústica sofisticada para rastrear exactamente *dónde* se origina un sonido, su distancia estimada, la trayectoria absoluta de su ruta y las palabras traducidas y separadas de los hablantes individuales.
+**Vigilant Ear** es una herramienta de accesibilidad e investigación acústica avanzada de ultra alto rendimiento para Android, diseñada para proporcionar conciencia espacial y direccional en tiempo real a la comunidad de personas sordas y con problemas de audición (D/HH). El software tradicional de reconocimiento de sonido solo identifica *qué* es un sonido. **Vigilant Ear te dice dónde está, quién lo está haciendo y qué están diciendo.** Actúa como un radar táctico integral, combinando el aprendizaje automático computado en el borde con física acústica sofisticada para rastrear exactamente *dónde* se origina un sonido, su distancia estimada, la trayectoria absoluta de su ruta y las palabras traducidas y separadas de los hablantes individuales.
 
 ---
 
@@ -38,7 +38,7 @@ Todas las superposiciones tácticas, las alertas HUD y los menús de preferencia
 
 ## 🧬 Arquitectura Principal y el Motor Matemático Neuronal
 
-VigilantEar en Android utiliza una **Arquitectura SoundML Nativa** altamente optimizada, construida alrededor de procesamiento C++ y el motor de audio en tiempo real Oboe para asegurar la menor latencia posible en diverso hardware.
+Vigilant Ear en Android utiliza una **Arquitectura SoundML Nativa** altamente optimizada, construida alrededor de procesamiento C++ y el motor de audio en tiempo real Oboe para asegurar la menor latencia posible en diverso hardware.
 
 ```mermaid
 graph TD
@@ -79,17 +79,17 @@ Para mantener un hilo de interfaz de usuario (UI) completamente desbloqueado mie
 ## 📊 Barandillas de Privacidad y Seguridad
 
 - **Aislamiento Local Primero**: Todas las clasificaciones de audio, matemáticas espectrales y proyecciones de rumbo ocurren exclusivamente en el dispositivo. Los flujos de audio crudo nunca se graban, almacenan en caché ni transmiten bajo ninguna condición.
-- **Sin Telemetría o Diagnósticos Remotos**: VigilantEar está diseñado para operar completamente de forma local en tu dispositivo. No recopilamos, transmitimos ni almacenamos telemetría remota, registros de fallos, registros de diagnóstico o análisis de uso en nuestros servidores.
+- **Sin Telemetría o Diagnósticos Remotos**: Vigilant Ear está diseñado para operar completamente de forma local en tu dispositivo. No recopilamos, transmitimos ni almacenamos telemetría remota, registros de fallos, registros de diagnóstico o análisis de uso en nuestros servidores.
 
 ---
 
 ## ⚖️ Descargo de Responsabilidad
 
-VigilantEar es una ayuda experimental de accesibilidad espacial e investigación acústica. No está certificado como una utilidad de seguridad de vida. La resolución del seguimiento puede fluctuar dinámicamente según la topología regional, el clima predominante, las condiciones del viento y la calibración del hardware del micrófono. Los usuarios siempre deben mantener una conciencia ambiental normal.
+Vigilant Ear es una ayuda experimental de accesibilidad espacial e investigación acústica. No está certificado como una utilidad de seguridad de vida. La resolución del seguimiento puede fluctuar dinámicamente según la topología regional, el clima predominante, las condiciones del viento y la calibración del hardware del micrófono. Los usuarios siempre deben mantener una conciencia ambiental normal.
 
 **Correo Electrónico de Contacto:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 
-VigilantEar es una herramienta de accesibilidad construida con cuidado. Por favor, úsala con responsabilidad.
+Vigilant Ear es una herramienta de accesibilidad construida con cuidado. Por favor, úsala con responsabilidad.
 
 Hecho con ❤️ para la comunidad D/HH y la investigación acústica.
 

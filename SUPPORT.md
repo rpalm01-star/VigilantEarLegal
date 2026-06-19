@@ -1,6 +1,6 @@
-# VigilantEar Support 👂🛰️
+# Vigilant Ear Support 👂🛰️
 
-Thank you for using **VigilantEar**. Our mission is to provide enhanced situational awareness through advanced acoustic event detection and real-time emergency alerts.
+Thank you for using **Vigilant Ear**. Our mission is to provide enhanced situational awareness through advanced acoustic event detection and real-time emergency alerts.
 
 ## Contact Us
 
@@ -10,13 +10,13 @@ If you are experiencing technical issues, have questions about alert accuracy, o
 
 ## Frequently Asked Questions
 
-### How does VigilantEar work in the background?
+### How does Vigilant Ear work in the background?
 
-VigilantEar listens only when you turn on monitoring. It runs efficiently in the background and sends vibrations or visual alerts when it detects important sounds.
+Vigilant Ear listens only when you turn on monitoring. It runs efficiently in the background and sends vibrations or visual alerts when it detects important sounds.
 
-### Does VigilantEar drain my battery?
+### Does Vigilant Ear drain my battery?
 
-No. VigilantEar uses very little battery. We optimized the app carefully so you can run it all day without worry.
+No. Vigilant Ear uses very little battery. We optimized the app carefully so you can run it all day without worry.
 
 Here is exactly how we keep battery use low:  
 - We use efficient on-device machine learning models that need almost no power.  
@@ -27,19 +27,19 @@ Here is exactly how we keep battery use low:
 
 ### Why isn't the app detecting sirens?
 
-Ensure that you have granted **Microphone** permissions in your phone Settings. VigilantEar requires active microphone access to process acoustic signatures. Also, ensure your device is not in "Silent Mode" if you want haptic feedback.
+Ensure that you have granted **Microphone** permissions in your phone Settings. Vigilant Ear requires active microphone access to process acoustic signatures. Also, ensure your device is not in "Silent Mode" if you want haptic feedback.
 
 ### How accurate are the weather alerts?
 
-VigilantEar polls official government CAP (Common Alerting Protocol) feeds. Alerts are as accurate as the data provided by the National Weather Service and other international agencies. Location simulation or network delays may occasionally affect update frequency.
+Vigilant Ear polls official government CAP (Common Alerting Protocol) feeds. Alerts are as accurate as the data provided by the National Weather Service and other international agencies. Location simulation or network delays may occasionally affect update frequency.
 
 ### Does the app work in the background?
 
-Yes, VigilantEar is designed to monitor for critical acoustic events while in the background, provided the necessary permissions are enabled.
+Yes, Vigilant Ear is designed to monitor for critical acoustic events while in the background, provided the necessary permissions are enabled.
 
 ### What do the alert toggles control?
 
-The main alert toggles in the **settings menu** control whether VigilantEar sends a notification alert to you when it detects matching sounds.  
+The main alert toggles in the **settings menu** control whether Vigilant Ear sends a notification alert to you when it detects matching sounds.  
 
 These toggles only affect notifications sent while the app is in the background or not actively open. They do **not** affect on-screen alert display when the app is open and in the foreground.
 
@@ -72,7 +72,7 @@ Acute sounds like alarms and firetruck sirens are relatively easy for the sound 
 
 ---
 
-*VigilantEar is an accessibility tool built with care. Please use it responsibly.* 
+*Vigilant Ear is an accessibility tool built with care. Please use it responsibly.* 
 
 Made with ❤️ for the D/HH community and acoustic research.
 

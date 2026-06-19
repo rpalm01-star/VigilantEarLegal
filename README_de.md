@@ -1,8 +1,8 @@
-# VigilantEar 👂🛡️ (Apple-Edition)
+# Vigilant Ear 👂🛡️ (Apple-Edition)
 
 *Ein akustisches Radar für Menschen, die nicht hören können.*
 
-Eine App, die eigens für die Gehörlosen- und Schwerhörigen-Community entwickelt wurde! Die meisten Geräuscherkennungs-Apps sagen dir, *was* ein Geräusch ist. **VigilantEar sagt dir, wo es ist, wer es verursacht und was gesagt wird** — und verwandelt ein iPhone in einen akustischen Echtzeit-Tricorder, der die Geräusche um dich herum visuell beschreibt.
+Eine App, die eigens für die Gehörlosen- und Schwerhörigen-Community entwickelt wurde! Die meisten Geräuscherkennungs-Apps sagen dir, *was* ein Geräusch ist. **Vigilant Ear sagt dir, wo es ist, wer es verursacht und was gesagt wird** — und verwandelt ein iPhone in einen akustischen Echtzeit-Tricorder, der die Geräusche um dich herum visuell beschreibt.
 
 Die Richtung und Entfernung einer Sirene. Ein Klopfen hinter dir. Die Personen in einem Gespräch, dargestellt als einzeln transkribierte Stimmen — jede mit Untertiteln versehen und nach Sprecher räumlich verortet. Und wenn jemand eine Sprache spricht, die du nicht lesen kannst, kommen seine Worte **in deine Sprache übersetzt** bei dir an.
 
@@ -16,14 +16,14 @@ Alles läuft auf dem Gerät. Nichts wird aufgezeichnet, zwischengespeichert oder
 - Alle, die **Live-Untertitel mit Richtungsangabe und Sprechertrennung** benötigen oder die **On-Device-Übersetzung** von Freundinnen und Freunden, die in der Nähe sitzen.
 - Tüftlerinnen und Tüftler aus den Bereichen Akustikforschung und Barrierefreiheit, die sich für Geräuschortung auf dem Gerät interessieren.
 
-> VigilantEar ist eine **Hilfe** zur Barrierefreiheit, kein zertifiziertes lebensrettendes Gerät.
+> Vigilant Ear ist eine **Hilfe** zur Barrierefreiheit, kein zertifiziertes lebensrettendes Gerät.
 
 ---
 
 ## Was sie kann
 
 ### 🧭 Sie sieht Geräusche — Richtung & Entfernung
-Mithilfe der Stereomikrofone des iPhones schätzt VigilantEar **Richtung und ungefähre Entfernung** von Geräuschen in deiner Umgebung und platziert sie als Live-Punkte auf einem nach Blickrichtung ausgerichteten Radarring und einer Karte. Wenn du dich bewegst, behalten die Punkte ihre reale Position bei. Das ist der Kern: räumliches Bewusstsein für eine Welt, die du nicht hören kannst.
+Mithilfe der Stereomikrofone des iPhones schätzt Vigilant Ear **Richtung und ungefähre Entfernung** von Geräuschen in deiner Umgebung und platziert sie als Live-Punkte auf einem nach Blickrichtung ausgerichteten Radarring und einer Karte. Wenn du dich bewegst, behalten die Punkte ihre reale Position bei. Das ist der Kern: räumliches Bewusstsein für eine Welt, die du nicht hören kannst.
 
 ### 🚨 Sie erkennt wichtige Geräusche — und warnt dich
 Ein Klassifizierer auf dem Gerät erkennt **über 300 Alltagsgeräusche** und überwacht die kritischen Kategorien — **Sirenen, Alarme, Türklingeln/Klopfen, eine Person in der Nähe und Unwetter.** Wird eines davon ausgelöst, erhältst du eine deutliche Warnung auf dem Bildschirm und optional eine **Push-Benachrichtigung**, selbst wenn die App im Hintergrund läuft oder dein Telefon im Ruhezustand ist. Schaltest du alle Warnkategorien aus, geht die Engine im Hintergrund vollständig in den Ruhezustand, um Akku zu sparen.
@@ -31,10 +31,10 @@ Ein Klassifizierer auf dem Gerät erkennt **über 300 Alltagsgeräusche** und ü
 Unwetterwarnungen stammen aus offiziellen öffentlichen Feeds: Der US-amerikanische **NWS** ist kostenlos integriert; das europäische **MeteoAlarm**-Netzwerk und Chinas **CMA** sind Teil von Premium. Die Feeds werden automatisch auf diejenigen eingegrenzt, die deinen aktuellen Standort tatsächlich abdecken.
 
 ### 💬 Sprechermodus — Live-Untertitel mit Richtungsangabe *(Premium)*
-Aktiviere den **Sprechermodus**, und VigilantEar transkribiert die Personen, die in deiner Nähe sprechen, in **Untertitelblöcke, einen pro Stimme.** Die Sprecherdiarisierung auf dem Gerät unterscheidet die Stimmen, sodass jede Person ihren eigenen Block und ihr eigenes charakteristisches Symbol behält — *wer* sagt *was* — mit einem kleinen Kreis auf dem inneren Ring, der dich zu ihrer Position im Raum leitet. Die gerade sprechende Person wird hervorgehoben; älterer Text scrollt langsam weg oder wird ausgeblendet, sobald Platz für neuen Text benötigt wird.
+Aktiviere den **Sprechermodus**, und Vigilant Ear transkribiert die Personen, die in deiner Nähe sprechen, in **Untertitelblöcke, einen pro Stimme.** Die Sprecherdiarisierung auf dem Gerät unterscheidet die Stimmen, sodass jede Person ihren eigenen Block und ihr eigenes charakteristisches Symbol behält — *wer* sagt *was* — mit einem kleinen Kreis auf dem inneren Ring, der dich zu ihrer Position im Raum leitet. Die gerade sprechende Person wird hervorgehoben; älterer Text scrollt langsam weg oder wird ausgeblendet, sobald Platz für neuen Text benötigt wird.
 
 ### 🌐 Sprecher-Auto-Übersetzung — lies in deiner eigenen Sprache, was du nicht hören kannst *(Premium)*
-Ist der Sprechermodus aktiv und spricht eine Person in der Nähe eine andere Sprache, erkennt VigilantEar dies und gibt ihre Untertitel **in deiner Sprache** wieder, in Echtzeit, mit der Angabe ihrer Ausgangssprache in der Titelzeile ihres Blocks. Die gesamte Kette — hören → Sprecher trennen → transkribieren → übersetzen → anzeigen — läuft **vollständig auf dem Gerät**; der einzige Netzwerkmoment ist ein einmaliger Download eines Sprachpakets von Apple. Für eine gehörlose Person mit einem Freund, der eine andere Sprache spricht, bedeutet das, dessen Gesprächsbeitrag in Echtzeit mitlesen zu können — **ohne diese Sprache vorab kennen und auswählen zu müssen.**
+Ist der Sprechermodus aktiv und spricht eine Person in der Nähe eine andere Sprache, erkennt Vigilant Ear dies und gibt ihre Untertitel **in deiner Sprache** wieder, in Echtzeit, mit der Angabe ihrer Ausgangssprache in der Titelzeile ihres Blocks. Die gesamte Kette — hören → Sprecher trennen → transkribieren → übersetzen → anzeigen — läuft **vollständig auf dem Gerät**; der einzige Netzwerkmoment ist ein einmaliger Download eines Sprachpakets von Apple. Für eine gehörlose Person mit einem Freund, der eine andere Sprache spricht, bedeutet das, dessen Gesprächsbeitrag in Echtzeit mitlesen zu können — **ohne diese Sprache vorab kennen und auswählen zu müssen.**
 
 ### 🎵 Musik- & Sendungserkennung *(Premium)*
 **ShazamKit** erkennt Musik, die um dich herum läuft, und zeigt den Titel an, mit automatischer Erkennung des Liedwechsels anhand der Signatur. Und wenn eine Stimme eher aus einem Fernseher oder Radio als von einer Person im Raum zu kommen scheint, wird sie mit einem **📻** gekennzeichnet, statt fälschlicherweise für eine anwesende Person gehalten zu werden — die Worte werden weiterhin angezeigt, sie sind nur ehrlich als solche ausgewiesen.
@@ -68,7 +68,7 @@ Ob kostenlos oder Premium — **alles läuft auf dem Gerät.** Die Stufe ändert
 
 ## So funktioniert sie (unter der Haube)
 
-VigilantEar ist eine **lokal-zuerst arbeitende Pipeline auf dem Gerät.** Rohaudio wird über einen Tap mit hoher Priorität erfasst, kopiert und an unabhängige Verarbeitungs-Akteure verteilt, ohne dabei jemals die Benutzeroberfläche ins Stocken zu bringen:
+Vigilant Ear ist eine **lokal-zuerst arbeitende Pipeline auf dem Gerät.** Rohaudio wird über einen Tap mit hoher Priorität erfasst, kopiert und an unabhängige Verarbeitungs-Akteure verteilt, ohne dabei jemals die Benutzeroberfläche ins Stocken zu bringen:
 
 ```mermaid
 graph TD
@@ -114,7 +114,7 @@ Vollständig lokalisiert — Benutzeroberfläche, Warnungen und Untertitel — i
 
 ## Status & Haftungsausschluss
 
-VigilantEar ist eine **experimentelle akustische Hilfe zur Barrierefreiheit**, kein zertifiziertes lebensrettendes Hilfsmittel. Die Ortungsgenauigkeit variiert je nach Umgebung, Wetter, Wind und Mikrofon-Hardware. **Behalte stets deine gewohnte Aufmerksamkeit für deine Umgebung bei** — verlasse dich nicht als einzige Sicherheitsquelle darauf.
+Vigilant Ear ist eine **experimentelle akustische Hilfe zur Barrierefreiheit**, kein zertifiziertes lebensrettendes Hilfsmittel. Die Ortungsgenauigkeit variiert je nach Umgebung, Wetter, Wind und Mikrofon-Hardware. **Behalte stets deine gewohnte Aufmerksamkeit für deine Umgebung bei** — verlasse dich nicht als einzige Sicherheitsquelle darauf.
 
 ---
 

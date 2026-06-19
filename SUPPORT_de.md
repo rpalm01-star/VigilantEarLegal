@@ -1,6 +1,6 @@
-# VigilantEar Support 👂🛰️
+# Vigilant Ear Support 👂🛰️
 
-Vielen Dank, dass Sie **VigilantEar** verwenden. Unsere Mission ist es, durch fortschrittliche akustische Ereigniserkennung und Echtzeit-Notfallwarnungen ein besseres Situationsbewusstsein zu ermöglichen.
+Vielen Dank, dass Sie **Vigilant Ear** verwenden. Unsere Mission ist es, durch fortschrittliche akustische Ereigniserkennung und Echtzeit-Notfallwarnungen ein besseres Situationsbewusstsein zu ermöglichen.
 
 ## Kontakt
 
@@ -10,13 +10,13 @@ Wenn Sie technische Probleme haben, Fragen zur Genauigkeit der Warnungen stellen
 
 ## Häufig gestellte Fragen
 
-### Wie funktioniert VigilantEar im Hintergrund?
+### Wie funktioniert Vigilant Ear im Hintergrund?
 
-VigilantEar hört nur dann zu, wenn Sie die Überwachung einschalten. Die App läuft effizient im Hintergrund und sendet Vibrationen oder visuelle Warnungen, sobald sie wichtige Geräusche erkennt.
+Vigilant Ear hört nur dann zu, wenn Sie die Überwachung einschalten. Die App läuft effizient im Hintergrund und sendet Vibrationen oder visuelle Warnungen, sobald sie wichtige Geräusche erkennt.
 
-### Verbraucht VigilantEar meinen Akku?
+### Verbraucht Vigilant Ear meinen Akku?
 
-Nein. VigilantEar benötigt nur sehr wenig Akkuleistung. Wir haben die App sorgfältig optimiert, sodass Sie sie den ganzen Tag bedenkenlos laufen lassen können.
+Nein. Vigilant Ear benötigt nur sehr wenig Akkuleistung. Wir haben die App sorgfältig optimiert, sodass Sie sie den ganzen Tag bedenkenlos laufen lassen können.
 
 So halten wir den Akkuverbrauch genau niedrig:  
 - Wir verwenden effiziente Machine-Learning-Modelle direkt auf dem Gerät, die nahezu keinen Strom benötigen.  
@@ -27,19 +27,19 @@ So halten wir den Akkuverbrauch genau niedrig:
 
 ### Warum erkennt die App keine Sirenen?
 
-Stellen Sie sicher, dass Sie in den Einstellungen Ihres Telefons die Berechtigung für das **Mikrofon** erteilt haben. VigilantEar benötigt aktiven Mikrofonzugriff, um akustische Signaturen zu verarbeiten. Achten Sie außerdem darauf, dass sich Ihr Gerät nicht im „Lautlos-Modus“ befindet, wenn Sie haptisches Feedback wünschen.
+Stellen Sie sicher, dass Sie in den Einstellungen Ihres Telefons die Berechtigung für das **Mikrofon** erteilt haben. Vigilant Ear benötigt aktiven Mikrofonzugriff, um akustische Signaturen zu verarbeiten. Achten Sie außerdem darauf, dass sich Ihr Gerät nicht im „Lautlos-Modus“ befindet, wenn Sie haptisches Feedback wünschen.
 
 ### Wie genau sind die Wetterwarnungen?
 
-VigilantEar ruft offizielle behördliche CAP-Feeds (Common Alerting Protocol) ab. Die Warnungen sind so genau wie die Daten, die vom National Weather Service und anderen internationalen Behörden bereitgestellt werden. Standortsimulation oder Netzwerkverzögerungen können die Aktualisierungshäufigkeit gelegentlich beeinträchtigen.
+Vigilant Ear ruft offizielle behördliche CAP-Feeds (Common Alerting Protocol) ab. Die Warnungen sind so genau wie die Daten, die vom National Weather Service und anderen internationalen Behörden bereitgestellt werden. Standortsimulation oder Netzwerkverzögerungen können die Aktualisierungshäufigkeit gelegentlich beeinträchtigen.
 
 ### Funktioniert die App im Hintergrund?
 
-Ja, VigilantEar ist darauf ausgelegt, kritische akustische Ereignisse auch im Hintergrund zu überwachen, sofern die erforderlichen Berechtigungen aktiviert sind.
+Ja, Vigilant Ear ist darauf ausgelegt, kritische akustische Ereignisse auch im Hintergrund zu überwachen, sofern die erforderlichen Berechtigungen aktiviert sind.
 
 ### Was steuern die Warnungs-Schalter?
 
-Die Haupt-Warnungsschalter im **Einstellungsmenü** steuern, ob VigilantEar Ihnen eine Benachrichtigung sendet, wenn passende Geräusche erkannt werden.  
+Die Haupt-Warnungsschalter im **Einstellungsmenü** steuern, ob Vigilant Ear Ihnen eine Benachrichtigung sendet, wenn passende Geräusche erkannt werden.  
 
 Diese Schalter wirken sich nur auf Benachrichtigungen aus, die gesendet werden, während die App im Hintergrund oder nicht aktiv geöffnet ist. Sie haben **keinen** Einfluss auf die Anzeige von Warnungen auf dem Bildschirm, wenn die App geöffnet und im Vordergrund ist.
 
@@ -72,7 +72,7 @@ Markante Geräusche wie Alarme und Feuerwehrsirenen lassen sich von der ML-Engin
 
 ---
 
-*VigilantEar ist ein mit Sorgfalt entwickeltes Hilfsmittel für Barrierefreiheit. Bitte verwenden Sie es verantwortungsvoll.* 
+*Vigilant Ear ist ein mit Sorgfalt entwickeltes Hilfsmittel für Barrierefreiheit. Bitte verwenden Sie es verantwortungsvoll.* 
 
 Mit ❤️ erstellt für die D/HH-Community und die akustische Forschung.
 

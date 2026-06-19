@@ -1,8 +1,8 @@
-# VigilantEar 👂🛡️ (Édition Apple)
+# Vigilant Ear 👂🛡️ (Édition Apple)
 
 *Un radar acoustique pour celles et ceux qui n'entendent pas.*
 
-Une application conçue spécifiquement pour la communauté Sourde et malentendante ! La plupart des applis de reconnaissance sonore vous disent *ce qu'est* un son. **VigilantEar vous dit où il se trouve, qui le produit et ce qu'il dit** — transformant un iPhone en véritable tricordeur sonique en temps réel pour décrire visuellement les sons qui vous entourent.
+Une application conçue spécifiquement pour la communauté Sourde et malentendante ! La plupart des applis de reconnaissance sonore vous disent *ce qu'est* un son. **Vigilant Ear vous dit où il se trouve, qui le produit et ce qu'il dit** — transformant un iPhone en véritable tricordeur sonique en temps réel pour décrire visuellement les sons qui vous entourent.
 
 La direction et la distance d'une sirène. Un coup frappé derrière vous. Les personnes d'une conversation, représentées comme des voix transcrites distinctes — chacune sous-titrée et placée directionnellement selon le locuteur. Si quelqu'un parle une langue que vous ne lisez pas, ses paroles vous parviennent **traduites dans la vôtre.**
 
@@ -16,14 +16,14 @@ Tout fonctionne sur l'appareil. Rien n'est enregistré, mis en cache ni envoyé 
 - Toute personne ayant besoin de **sous-titres en direct avec direction et séparation des locuteurs**, ou d'une **traduction sur l'appareil** des amis assis à proximité.
 - Les passionnés de recherche acoustique et d'accessibilité que la localisation sonore sur l'appareil intéresse.
 
-> VigilantEar est une **aide** à l'accessibilité, et non un dispositif certifié de sécurité des personnes.
+> Vigilant Ear est une **aide** à l'accessibilité, et non un dispositif certifié de sécurité des personnes.
 
 ---
 
 ## Ce qu'elle fait
 
 ### 🧭 Elle voit le son — direction et distance
-À l'aide des microphones stéréo de l'iPhone, VigilantEar estime le **relèvement et la distance approximative** des sons qui vous entourent et les place sous forme de points en direct sur un anneau radar orienté selon votre cap et sur une carte. Déplacez-vous, et les points conservent leur position réelle dans l'espace. C'est l'essentiel : une conscience spatiale d'un monde que vous ne pouvez pas entendre.
+À l'aide des microphones stéréo de l'iPhone, Vigilant Ear estime le **relèvement et la distance approximative** des sons qui vous entourent et les place sous forme de points en direct sur un anneau radar orienté selon votre cap et sur une carte. Déplacez-vous, et les points conservent leur position réelle dans l'espace. C'est l'essentiel : une conscience spatiale d'un monde que vous ne pouvez pas entendre.
 
 ### 🚨 Elle reconnaît les sons importants — et vous alerte
 Un classificateur embarqué identifie **plus de 300 sons du quotidien** et surveille les catégories critiques — **sirènes, alarmes, sonnettes/coups frappés, présence d'une personne à proximité et intempéries.** Lorsqu'une alerte se déclenche, vous recevez un avertissement clair à l'écran et, en option, une **notification push**, même lorsque l'appli est en arrière-plan ou que votre téléphone est en veille. Désactivez toutes les catégories d'alerte et le moteur se met entièrement en veille prolongée en arrière-plan pour économiser la batterie.
@@ -31,10 +31,10 @@ Un classificateur embarqué identifie **plus de 300 sons du quotidien** et surve
 Les avertissements d'intempéries proviennent de flux publics officiels : le **NWS** des États-Unis est intégré gratuitement ; le réseau européen **MeteoAlarm** et le **CMA** chinois font partie de Premium. Les flux sont automatiquement réduits à ceux qui couvrent réellement l'endroit où vous vous trouvez.
 
 ### 💬 Mode Locuteur — sous-titres directionnels en direct *(Premium)*
-Activez le **Mode Locuteur** et VigilantEar transcrit les personnes qui parlent près de vous sous forme de **blocs de sous-titres, un par voix.** La diarisation des locuteurs sur l'appareil distingue les voix, de sorte que chaque personne conserve son propre bloc et son icône singulière — *qui* dit *quoi* — avec un petit cercle sur l'anneau intérieur vous indiquant sa position dans la pièce. Le locuteur actif est mis en évidence ; le texte plus ancien défile lentement ou à mesure que la place est nécessaire pour un nouveau texte.
+Activez le **Mode Locuteur** et Vigilant Ear transcrit les personnes qui parlent près de vous sous forme de **blocs de sous-titres, un par voix.** La diarisation des locuteurs sur l'appareil distingue les voix, de sorte que chaque personne conserve son propre bloc et son icône singulière — *qui* dit *quoi* — avec un petit cercle sur l'anneau intérieur vous indiquant sa position dans la pièce. Le locuteur actif est mis en évidence ; le texte plus ancien défile lentement ou à mesure que la place est nécessaire pour un nouveau texte.
 
 ### 🌐 Traduction automatique du Locuteur — lisez dans votre langue ce que vous ne pouvez pas entendre *(Premium)*
-Avec le Mode Locuteur activé, lorsqu'une personne à proximité parle une autre langue, VigilantEar la détecte et affiche ses sous-titres **dans votre langue**, en direct, avec l'identification de sa langue « source » dans la barre de titre de son bloc. Toute la chaîne — entendre → séparer les locuteurs → transcrire → traduire → afficher — s'exécute **entièrement sur l'appareil** ; le seul moment réseau est un téléchargement unique d'un pack de langue auprès d'Apple. Pour une personne sourde dont un ami parle une autre langue, cela signifie lire sa part de la conversation en temps réel **sans avoir à connaître et à choisir cette langue au préalable**.
+Avec le Mode Locuteur activé, lorsqu'une personne à proximité parle une autre langue, Vigilant Ear la détecte et affiche ses sous-titres **dans votre langue**, en direct, avec l'identification de sa langue « source » dans la barre de titre de son bloc. Toute la chaîne — entendre → séparer les locuteurs → transcrire → traduire → afficher — s'exécute **entièrement sur l'appareil** ; le seul moment réseau est un téléchargement unique d'un pack de langue auprès d'Apple. Pour une personne sourde dont un ami parle une autre langue, cela signifie lire sa part de la conversation en temps réel **sans avoir à connaître et à choisir cette langue au préalable**.
 
 ### 🎵 Conscience de la musique et des diffusions *(Premium)*
 **ShazamKit** identifie la musique qui joue autour de vous et affiche le titre, avec détection automatique des changements de morceau par signature. Et lorsqu'une voix semble provenir d'une télévision ou d'une radio plutôt que d'une personne présente dans la pièce, elle est marquée d'un **📻** au lieu d'être prise pour quelqu'un sur place — les paroles s'affichent toujours, elles sont simplement étiquetées honnêtement.
@@ -68,7 +68,7 @@ Gratuit ou Premium, **tout fonctionne sur l'appareil** — le palier ne change q
 
 ## Comment ça marche (sous le capot)
 
-VigilantEar est un pipeline **local d'abord, sur l'appareil**. L'audio brut est capté sur une prise haute priorité, copié et réparti vers des acteurs de traitement indépendants sans jamais bloquer l'interface :
+Vigilant Ear est un pipeline **local d'abord, sur l'appareil**. L'audio brut est capté sur une prise haute priorité, copié et réparti vers des acteurs de traitement indépendants sans jamais bloquer l'interface :
 
 ```mermaid
 graph TD
@@ -114,7 +114,7 @@ Entièrement localisée — interface, alertes et sous-titres — en **anglais, 
 
 ## Statut et avertissement
 
-VigilantEar est une **aide expérimentale à l'accessibilité acoustique**, et non un utilitaire certifié de sécurité des personnes. La précision de localisation varie selon l'environnement, la météo, le vent et le matériel microphone. **Conservez toujours votre vigilance environnementale habituelle** — ne vous y fiez pas comme unique source d'information de sécurité.
+Vigilant Ear est une **aide expérimentale à l'accessibilité acoustique**, et non un utilitaire certifié de sécurité des personnes. La précision de localisation varie selon l'environnement, la météo, le vent et le matériel microphone. **Conservez toujours votre vigilance environnementale habituelle** — ne vous y fiez pas comme unique source d'information de sécurité.
 
 ---
 

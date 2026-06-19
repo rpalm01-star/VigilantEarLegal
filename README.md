@@ -1,8 +1,8 @@
-# VigilantEar 👂🛡️ (Apple Edition)
+# Vigilant Ear 👂🛡️ (Apple Edition)
 
 *An acoustic radar for people who can't hear.*
 
-An app built specifically for the Deaf/HH community! Most sound-recognition apps tell you *what* a sound is. **VigilantEar tells you where it is, who's making it, and what they're saying** — turning an iPhone into a real-time sonic tricorder to visually describe the sound around you.
+An app built specifically for the Deaf/HH community! Most sound-recognition apps tell you *what* a sound is. **Vigilant Ear tells you where it is, who's making it, and what they're saying** — turning an iPhone into a real-time sonic tricorder to visually describe the sound around you.
 
 A siren's direction and distance. A knock behind you. The people in a conversation, drawn as separate transcribed voices — each one captioned and directionally places by speaker. If someone is speaking a language you don't read then their words arrive **translated into yours.**
 
@@ -16,14 +16,14 @@ Everything runs on the device. Nothing is recorded, cached, or sent anywhere.
 - Anyone who needs **live captions with direction and speaker separation**, or **on-device translation** of your friends sitting nearby.
 - Acoustic-research and accessibility tinkerers interested in on-device sound localization.
 
-> VigilantEar is an accessibility **aid**, not a certified life-safety device.
+> Vigilant Ear is an accessibility **aid**, not a certified life-safety device.
 
 ---
 
 ## What it does
 
 ### 🧭 It sees sound — direction & distance
-Using the iPhone's stereo microphones, VigilantEar estimates the **bearing and rough distance** of sounds around you and places them as live dots on a heading-up radar ring and map. Move, and the dots hold their real-world position. This is the core: spatial awareness of a world you can't hear.
+Using the iPhone's stereo microphones, Vigilant Ear estimates the **bearing and rough distance** of sounds around you and places them as live dots on a heading-up radar ring and map. Move, and the dots hold their real-world position. This is the core: spatial awareness of a world you can't hear.
 
 ### 🚨 It recognizes important sounds — and warns you
 An on-device classifier identifies **300+ everyday sounds** and watches the critical categories — **sirens, alarms, doorbells/knocks, a person nearby, and severe weather.** When one fires, you get a clear on-screen alert and an optional **push notification**, even when the app is in the background or your phone is asleep. Turn all of the alert categories off and the engine fully hibernates while backgrounded to save battery.
@@ -31,10 +31,10 @@ An on-device classifier identifies **300+ everyday sounds** and watches the crit
 Severe-weather warnings come from official public feeds: the United States' **NWS** is built in for free; the European **MeteoAlarm** network and **China's CMA** are part of Premium. Feeds are automatically narrowed to the ones that actually cover where you are.
 
 ### 💬 Speaker Mode — live, directional captions *(Premium)*
-Turn on **Speaker Mode** and VigilantEar transcribes the people talking near you into **caption blocks, one per voice.** On-device speaker diarization tells the voices apart, so each person keeps their own block and quirky icon — *who* is saying *what* — with a small circle on the inner ring directing you to their room position. The live speaker is highlighted; older text scrolls away slowly or as space for new text is needed.
+Turn on **Speaker Mode** and Vigilant Ear transcribes the people talking near you into **caption blocks, one per voice.** On-device speaker diarization tells the voices apart, so each person keeps their own block and quirky icon — *who* is saying *what* — with a small circle on the inner ring directing you to their room position. The live speaker is highlighted; older text scrolls away slowly or as space for new text is needed.
 
 ### 🌐 Speaker Auto-Translate — read a language you can't hear, in your own *(Premium)*
-With Speaker Mode on, when a nearby person speaks another language, VigilantEar detects it and renders their captions **in your language**, live, with their "from" language identification in the title bar of their block. The whole chain — hear → separate speakers → transcribe → translate → display — runs **entirely on the device**; the only network moment is a one-time language-pack download from Apple. For a deaf person with a friend who speaks another language, this means reading their side of the conversation in real time **without having to know about and choose that language beforehand**.
+With Speaker Mode on, when a nearby person speaks another language, Vigilant Ear detects it and renders their captions **in your language**, live, with their "from" language identification in the title bar of their block. The whole chain — hear → separate speakers → transcribe → translate → display — runs **entirely on the device**; the only network moment is a one-time language-pack download from Apple. For a deaf person with a friend who speaks another language, this means reading their side of the conversation in real time **without having to know about and choose that language beforehand**.
 
 ### 🎵 Music & broadcast awareness *(Premium)*
 **ShazamKit** identifies music playing around you and displays the title with automatic song change signature detection. And when a voice looks like it's coming from a TV or radio rather than a person in the room, it's tagged with a **📻** instead of being mistaken for someone present — the words still show; they are just labeled honestly.
@@ -68,7 +68,7 @@ Free or Premium, **everything runs on the device** — the tier only changes whi
 
 ## How it works (under the hood)
 
-VigilantEar is a **local-first, on-device** pipeline. Raw audio is captured on a high-priority tap, copied, and fanned out to independent processing actors without ever stalling the UI:
+Vigilant Ear is a **local-first, on-device** pipeline. Raw audio is captured on a high-priority tap, copied, and fanned out to independent processing actors without ever stalling the UI:
 
 ```mermaid
 graph TD
@@ -114,7 +114,7 @@ Fully localized — interface, alerts, and captions — into **English, Spanish,
 
 ## Status & disclaimer
 
-VigilantEar is an **experimental acoustic-accessibility aid**, not a certified life-safety utility. Localization resolution varies with surroundings, weather, wind, and microphone hardware. **Always maintain your normal environmental awareness** — don't rely on it as your only source of safety information.
+Vigilant Ear is an **experimental acoustic-accessibility aid**, not a certified life-safety utility. Localization resolution varies with surroundings, weather, wind, and microphone hardware. **Always maintain your normal environmental awareness** — don't rely on it as your only source of safety information.
 
 ---
 

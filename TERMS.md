@@ -1,18 +1,18 @@
-# Terms of Service for VigilantEar 👂🛰️
+# Terms of Service for Vigilant Ear 👂🛰️
 
 **Effective Date:** June 6, 2026
 
 ## 1. Acceptance of Terms
 
-By downloading, installing, or using the VigilantEar mobile application ("App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.
+By downloading, installing, or using the Vigilant Ear mobile application ("App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.
 
 ## 2. Description of Service
 
-VigilantEar is an assistive application designed to provide real-time acoustic awareness and directional guidance for deaf and hard-of-hearing individuals. The App uses your device’s microphone and location services to detect sounds (such as sirens and vehicles) and display their approximate direction and distance on a map.
+Vigilant Ear is an assistive application designed to provide real-time acoustic awareness and directional guidance for deaf and hard-of-hearing individuals. The App uses your device’s microphone and location services to detect sounds (such as sirens and vehicles) and display their approximate direction and distance on a map.
 
 ## 3. Important Safety Disclaimer
 
-**VigilantEar is an assistive tool only.** It is **not** a replacement for:
+**Vigilant Ear is an assistive tool only.** It is **not** a replacement for:
 
 - Normal visual awareness
 - Professional hearing assistance
@@ -29,7 +29,7 @@ WE DO NOT WARRANT THAT THE APP WILL BE UNINTERRUPTED, ERROR-FREE, OR COMPLETELY 
 
 ## 5. Limitation of Liability
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, **VigilantEar**, ITS DEVELOPERS, AND ITS PARENT COMPANY SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO PERSONAL INJURY, LOSS OF PROFITS, DATA LOSS, OR ANY OTHER DAMAGES ARISING OUT OF OR RELATED TO THE USE OR INABILITY TO USE THE APP.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, **Vigilant Ear**, ITS DEVELOPERS, AND ITS PARENT COMPANY SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO PERSONAL INJURY, LOSS OF PROFITS, DATA LOSS, OR ANY OTHER DAMAGES ARISING OUT OF OR RELATED TO THE USE OR INABILITY TO USE THE APP.
 
 IN NO EVENT SHALL OUR TOTAL LIABILITY EXCEED THE AMOUNT YOU PAID FOR THE APP (IF ANY).
 
@@ -44,7 +44,7 @@ You agree to:
 
 ## 7. Intellectual Property
 
-All content, design, code, and trademarks in the App are owned by VigilantEar or its licensors. You may not copy, modify, distribute, or reverse engineer any part of the App without prior written permission.
+All content, design, code, and trademarks in the App are owned by Vigilant Ear or its licensors. You may not copy, modify, distribute, or reverse engineer any part of the App without prior written permission.
 
 ## 8. Termination
 
@@ -66,7 +66,7 @@ If you have any questions about these Terms, please contact us at:
 
 ---
 
-*VigilantEar is an accessibility tool built with care. Please use it responsibly.* 
+*Vigilant Ear is an accessibility tool built with care. Please use it responsibly.* 
 
 Made with ❤️ for the D/HH community and acoustic research.
 

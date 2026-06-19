@@ -1,28 +1,28 @@
-# Privacy Policy for VigilantEar 👂🛰️
+# Privacy Policy for Vigilant Ear 👂🛰️
 
 **Effective Date:** June 7, 2026
 
 ## Introduction
 
-VigilantEar ("we", "us", or "our") is committed to protecting your privacy. This Privacy Policy explains what information the app processes, what stays on your device, and when limited data may be sent over the internet to provide specific features.
+Vigilant Ear ("we", "us", or "our") is committed to protecting your privacy. This Privacy Policy explains what information the app processes, what stays on your device, and when limited data may be sent over the internet to provide specific features.
 
 ## Privacy at a Glance
 
 - **Core acoustic detection runs on your device.** Sound classification, directional tracking, and alert logic are designed to work locally using your phone's microphone and sensors.
 - **We do not sell your data** and we do not use advertising or behavioral analytics SDKs.
-- **We do not store or upload audio recordings.** Microphone audio is processed in real time for detection; it is not saved as a sound file by VigilantEar.
+- **We do not store or upload audio recordings.** Microphone audio is processed in real time for detection; it is not saved as a sound file by Vigilant Ear.
 - **Some features use the internet** — maps, severe-weather feeds, optional music identification, road data, app-store purchases, and (on iOS) minimal diagnostic logging. These are described below.
 - **You stay in control.** You can disable Shazam music identification, turn off alert categories, revoke permissions in system settings, or stop background listening at any time.
 
 ## Information Processed on Your Device
 
-With your permission, VigilantEar accesses the following **locally**:
+With your permission, Vigilant Ear accesses the following **locally**:
 
 - **Microphone audio** — Used in real time to detect environmental sounds (sirens, vehicles, doorbells, people nearby, etc.) and trigger alerts.
 - **Location** — Used to place detected sounds and weather-alert areas on the map and to improve directional guidance.
 - **Device orientation and motion** — Used to improve bearing accuracy.
 
-This on-device processing is the heart of the app. Competitor apps often stream audio to the cloud for analysis and monetization. VigilantEar is built differently: your acoustic awareness pipeline is designed to run on the phone itself.
+This on-device processing is the heart of the app. Competitor apps often stream audio to the cloud for analysis and monetization. Vigilant Ear is built differently: your acoustic awareness pipeline is designed to run on the phone itself.
 
 ## Network & Third-Party Services
 
@@ -53,7 +53,7 @@ We choose these services to deliver map, weather, music-label, and purchase func
 
 ### No Remote Telemetry or Diagnostics
 
-VigilantEar is designed to operate entirely locally on your device. We do not collect, transmit, or store any remote telemetry, crash logs, diagnostic records, or usage analytics on our servers. All processing is kept local to your hardware.
+Vigilant Ear is designed to operate entirely locally on your device. We do not collect, transmit, or store any remote telemetry, crash logs, diagnostic records, or usage analytics on our servers. All processing is kept local to your hardware.
 
 ## What We Do Not Do
 
@@ -76,7 +76,7 @@ You can:
 
 ## Platform Guidelines
 
-VigilantEar follows Apple App Store and Google Play privacy requirements. We update this policy when our practices or platform obligations change.
+Vigilant Ear follows Apple App Store and Google Play privacy requirements. We update this policy when our practices or platform obligations change.
 
 ## Changes to This Policy
 
@@ -90,8 +90,8 @@ If you have questions about this Privacy Policy, contact us at:
 
 ---
 
-❤️ VigilantEar is built with love and respect for the Deaf and hard-of-hearing community. Your trust matters to us.
+❤️ Vigilant Ear is built with love and respect for the Deaf and hard-of-hearing community. Your trust matters to us.
 
-*VigilantEar is an accessibility tool built with care. Please use it responsibly.*
+*Vigilant Ear is an accessibility tool built with care. Please use it responsibly.*
 
 © 2026 Wingdings, Inc. · All rights reserved

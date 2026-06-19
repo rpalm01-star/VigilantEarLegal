@@ -1,6 +1,6 @@
-# Suporte do VigilantEar 👂🛰️
+# Suporte do Vigilant Ear 👂🛰️
 
-Obrigado por usar o **VigilantEar**. Nossa missão é proporcionar maior percepção da situação ao seu redor por meio de detecção avançada de eventos acústicos e alertas de emergência em tempo real.
+Obrigado por usar o **Vigilant Ear**. Nossa missão é proporcionar maior percepção da situação ao seu redor por meio de detecção avançada de eventos acústicos e alertas de emergência em tempo real.
 
 ## Fale conosco
 
@@ -10,13 +10,13 @@ Se você estiver enfrentando problemas técnicos, tiver dúvidas sobre a precis�
 
 ## Perguntas frequentes
 
-### Como o VigilantEar funciona em segundo plano?
+### Como o Vigilant Ear funciona em segundo plano?
 
-O VigilantEar só escuta quando você ativa o monitoramento. Ele funciona de forma eficiente em segundo plano e envia vibrações ou alertas visuais quando detecta sons importantes.
+O Vigilant Ear só escuta quando você ativa o monitoramento. Ele funciona de forma eficiente em segundo plano e envia vibrações ou alertas visuais quando detecta sons importantes.
 
-### O VigilantEar consome muita bateria?
+### O Vigilant Ear consome muita bateria?
 
-Não. O VigilantEar usa muito pouca bateria. Otimizamos o aplicativo com cuidado para que você possa usá-lo o dia inteiro sem preocupações.
+Não. O Vigilant Ear usa muito pouca bateria. Otimizamos o aplicativo com cuidado para que você possa usá-lo o dia inteiro sem preocupações.
 
 Veja exatamente como mantemos o consumo de bateria baixo:  
 - Usamos modelos eficientes de aprendizado de máquina que rodam no próprio dispositivo e quase não consomem energia.  
@@ -27,19 +27,19 @@ Veja exatamente como mantemos o consumo de bateria baixo:
 
 ### Por que o aplicativo não está detectando sirenes?
 
-Verifique se você concedeu a permissão de **Microfone** nas Configurações do seu telefone. O VigilantEar precisa de acesso ativo ao microfone para processar assinaturas acústicas. Além disso, certifique-se de que o dispositivo não esteja no "Modo Silencioso" se quiser receber feedback tátil.
+Verifique se você concedeu a permissão de **Microfone** nas Configurações do seu telefone. O Vigilant Ear precisa de acesso ativo ao microfone para processar assinaturas acústicas. Além disso, certifique-se de que o dispositivo não esteja no "Modo Silencioso" se quiser receber feedback tátil.
 
 ### Qual é a precisão dos alertas meteorológicos?
 
-O VigilantEar consulta feeds oficiais do governo no formato CAP (Common Alerting Protocol). Os alertas são tão precisos quanto os dados fornecidos pelo National Weather Service e por outras agências internacionais. Simulação de localização ou atrasos de rede podem ocasionalmente afetar a frequência das atualizações.
+O Vigilant Ear consulta feeds oficiais do governo no formato CAP (Common Alerting Protocol). Os alertas são tão precisos quanto os dados fornecidos pelo National Weather Service e por outras agências internacionais. Simulação de localização ou atrasos de rede podem ocasionalmente afetar a frequência das atualizações.
 
 ### O aplicativo funciona em segundo plano?
 
-Sim, o VigilantEar foi projetado para monitorar eventos acústicos críticos em segundo plano, desde que as permissões necessárias estejam habilitadas.
+Sim, o Vigilant Ear foi projetado para monitorar eventos acústicos críticos em segundo plano, desde que as permissões necessárias estejam habilitadas.
 
 ### O que controlam os botões de alerta?
 
-Os principais botões de alerta no **menu de configurações** controlam se o VigilantEar envia uma notificação de alerta para você quando detecta sons correspondentes.  
+Os principais botões de alerta no **menu de configurações** controlam se o Vigilant Ear envia uma notificação de alerta para você quando detecta sons correspondentes.  
 
 Esses botões afetam apenas as notificações enviadas enquanto o aplicativo está em segundo plano ou não está aberto ativamente. Eles **não** afetam a exibição de alertas na tela quando o aplicativo está aberto e em primeiro plano.
 
@@ -72,7 +72,7 @@ Sons agudos como alarmes e sirenes de caminhões de bombeiros são relativamente
 
 ---
 
-*O VigilantEar é uma ferramenta de acessibilidade desenvolvida com cuidado. Use-a com responsabilidade.* 
+*O Vigilant Ear é uma ferramenta de acessibilidade desenvolvida com cuidado. Use-a com responsabilidade.* 
 
 Feito com ❤️ para a comunidade D/HH e para a pesquisa acústica.
 

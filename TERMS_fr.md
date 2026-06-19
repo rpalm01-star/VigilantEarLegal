@@ -1,18 +1,18 @@
-# Conditions d'utilisation de VigilantEar 👂🛰️
+# Conditions d'utilisation de Vigilant Ear 👂🛰️
 
 **Date d'entrée en vigueur :** 6 juin 2026
 
 ## 1. Acceptation des conditions
 
-En téléchargeant, installant ou utilisant l'application mobile VigilantEar ("Application"), vous acceptez d'être lié par ces Conditions d'utilisation ("Conditions"). Si vous n'acceptez pas ces Conditions, n'utilisez pas l'Application.
+En téléchargeant, installant ou utilisant l'application mobile Vigilant Ear ("Application"), vous acceptez d'être lié par ces Conditions d'utilisation ("Conditions"). Si vous n'acceptez pas ces Conditions, n'utilisez pas l'Application.
 
 ## 2. Description du service
 
-VigilantEar est une application d'assistance conçue pour fournir une conscience acoustique en temps réel et des indications directionnelles aux personnes sourdes et malentendantes. L'Application utilise le microphone et les services de localisation de votre appareil pour détecter les sons (tels que les sirènes et les véhicules) et afficher leur direction et distance approximatives sur une carte.
+Vigilant Ear est une application d'assistance conçue pour fournir une conscience acoustique en temps réel et des indications directionnelles aux personnes sourdes et malentendantes. L'Application utilise le microphone et les services de localisation de votre appareil pour détecter les sons (tels que les sirènes et les véhicules) et afficher leur direction et distance approximatives sur une carte.
 
 ## 3. Avertissement de sécurité important
 
-**VigilantEar est uniquement un outil d'assistance.** Ce n'est **pas** un remplacement pour :
+**Vigilant Ear est uniquement un outil d'assistance.** Ce n'est **pas** un remplacement pour :
 
 - La conscience visuelle normale
 - L'assistance auditive professionnelle
@@ -29,7 +29,7 @@ NOUS NE GARANTISSONS PAS QUE L'APPLICATION SERA ININTERROMPUE, EXEMPTE D'ERREURS
 
 ## 5. Limitation de responsabilité
 
-DANS TOUTE LA MESURE PERMISE PAR LA LOI, **VigilantEar**, SES DÉVELOPPEURS ET SA SOCIÉTÉ MÈRE NE SAURAIENT ÊTRE TENUS RESPONSABLES DE TOUT DOMMAGE INDIRECT, ACCESSOIRE, SPÉCIAL, CONSÉCUTIF OU PUNITIF, Y COMPRIS, MAIS SANS S'Y LIMITER, LES BLESSURES CORPORELLES, LA PERTE DE PROFITS, LA PERTE DE DONNÉES OU TOUT AUTRE DOMMAGE DÉCOULANT DE OU LIÉ À L'UTILISATION OU À L'INCAPACITÉ D'UTILISER L'APPLICATION.
+DANS TOUTE LA MESURE PERMISE PAR LA LOI, **Vigilant Ear**, SES DÉVELOPPEURS ET SA SOCIÉTÉ MÈRE NE SAURAIENT ÊTRE TENUS RESPONSABLES DE TOUT DOMMAGE INDIRECT, ACCESSOIRE, SPÉCIAL, CONSÉCUTIF OU PUNITIF, Y COMPRIS, MAIS SANS S'Y LIMITER, LES BLESSURES CORPORELLES, LA PERTE DE PROFITS, LA PERTE DE DONNÉES OU TOUT AUTRE DOMMAGE DÉCOULANT DE OU LIÉ À L'UTILISATION OU À L'INCAPACITÉ D'UTILISER L'APPLICATION.
 
 EN AUCUN CAS, NOTRE RESPONSABILITÉ TOTALE NE DÉPASSERA LE MONTANT QUE VOUS AVEZ PAYÉ POUR L'APPLICATION (LE CAS ÉCHÉANT).
 
@@ -44,7 +44,7 @@ Vous acceptez de :
 
 ## 7. Propriété intellectuelle
 
-Tout le contenu, la conception, le code et les marques de commerce de l'Application sont la propriété de VigilantEar ou de ses concédants. Vous ne pouvez pas copier, modifier, distribuer ou faire de l'ingénierie inverse sur une quelconque partie de l'Application sans autorisation écrite préalable.
+Tout le contenu, la conception, le code et les marques de commerce de l'Application sont la propriété de Vigilant Ear ou de ses concédants. Vous ne pouvez pas copier, modifier, distribuer ou faire de l'ingénierie inverse sur une quelconque partie de l'Application sans autorisation écrite préalable.
 
 ## 8. Résiliation
 
@@ -66,7 +66,7 @@ Si vous avez des questions concernant ces Conditions, veuillez nous contacter à
 
 ---
 
-*VigilantEar est un outil d'accessibilité conçu avec soin. Veuillez l'utiliser de manière responsable.* 
+*Vigilant Ear est un outil d'accessibilité conçu avec soin. Veuillez l'utiliser de manière responsable.* 
 
 Fait avec ❤️ pour la communauté des sourds et malentendants et la recherche acoustique.
 

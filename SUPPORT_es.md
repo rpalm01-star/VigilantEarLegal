@@ -1,6 +1,6 @@
-# Soporte de VigilantEar 👂🛰️
+# Soporte de Vigilant Ear 👂🛰️
 
-Gracias por usar **VigilantEar**. Nuestra misión es brindar una mayor conciencia situacional mediante la detección avanzada de eventos acústicos y alertas de emergencia en tiempo real.
+Gracias por usar **Vigilant Ear**. Nuestra misión es brindar una mayor conciencia situacional mediante la detección avanzada de eventos acústicos y alertas de emergencia en tiempo real.
 
 ## Contáctanos
 
@@ -10,13 +10,13 @@ Si tienes problemas técnicos, dudas sobre la precisión de las alertas o quiere
 
 ## Preguntas frecuentes
 
-### ¿Cómo funciona VigilantEar en segundo plano?
+### ¿Cómo funciona Vigilant Ear en segundo plano?
 
-VigilantEar escucha únicamente cuando activas el monitoreo. Funciona de manera eficiente en segundo plano y envía vibraciones o alertas visuales cuando detecta sonidos importantes.
+Vigilant Ear escucha únicamente cuando activas el monitoreo. Funciona de manera eficiente en segundo plano y envía vibraciones o alertas visuales cuando detecta sonidos importantes.
 
-### ¿VigilantEar consume mucha batería?
+### ¿Vigilant Ear consume mucha batería?
 
-No. VigilantEar usa muy poca batería. Optimizamos la app con cuidado para que puedas usarla todo el día sin preocupaciones.
+No. Vigilant Ear usa muy poca batería. Optimizamos la app con cuidado para que puedas usarla todo el día sin preocupaciones.
 
 Así es exactamente como mantenemos bajo el consumo de batería:  
 - Usamos modelos de aprendizaje automático eficientes que se ejecutan en el dispositivo y casi no requieren energía.  
@@ -27,19 +27,19 @@ Así es exactamente como mantenemos bajo el consumo de batería:
 
 ### ¿Por qué la app no detecta las sirenas?
 
-Asegúrate de haber otorgado los permisos de **Micrófono** en los Ajustes de tu teléfono. VigilantEar necesita acceso activo al micrófono para procesar las firmas acústicas. Además, asegúrate de que tu dispositivo no esté en "Modo silencio" si deseas recibir respuesta háptica.
+Asegúrate de haber otorgado los permisos de **Micrófono** en los Ajustes de tu teléfono. Vigilant Ear necesita acceso activo al micrófono para procesar las firmas acústicas. Además, asegúrate de que tu dispositivo no esté en "Modo silencio" si deseas recibir respuesta háptica.
 
 ### ¿Qué tan precisas son las alertas meteorológicas?
 
-VigilantEar consulta los feeds oficiales gubernamentales del protocolo CAP (Common Alerting Protocol). Las alertas son tan precisas como los datos que proporcionan el Servicio Meteorológico Nacional (NWS) y otras agencias internacionales. La simulación de ubicación o los retrasos de la red pueden afectar ocasionalmente la frecuencia de actualización.
+Vigilant Ear consulta los feeds oficiales gubernamentales del protocolo CAP (Common Alerting Protocol). Las alertas son tan precisas como los datos que proporcionan el Servicio Meteorológico Nacional (NWS) y otras agencias internacionales. La simulación de ubicación o los retrasos de la red pueden afectar ocasionalmente la frecuencia de actualización.
 
 ### ¿La app funciona en segundo plano?
 
-Sí, VigilantEar está diseñada para monitorear eventos acústicos críticos mientras está en segundo plano, siempre que los permisos necesarios estén habilitados.
+Sí, Vigilant Ear está diseñada para monitorear eventos acústicos críticos mientras está en segundo plano, siempre que los permisos necesarios estén habilitados.
 
 ### ¿Qué controlan los interruptores de alertas?
 
-Los interruptores principales de alertas en el **menú de ajustes** controlan si VigilantEar te envía una notificación de alerta cuando detecta sonidos coincidentes.  
+Los interruptores principales de alertas en el **menú de ajustes** controlan si Vigilant Ear te envía una notificación de alerta cuando detecta sonidos coincidentes.  
 
 Estos interruptores solo afectan las notificaciones que se envían mientras la app está en segundo plano o no está abierta activamente. **No** afectan la visualización de alertas en pantalla cuando la app está abierta y en primer plano.
 
@@ -72,7 +72,7 @@ Los sonidos agudos, como las alarmas y las sirenas de los camiones de bomberos, 
 
 ---
 
-*VigilantEar es una herramienta de accesibilidad creada con dedicación. Por favor, úsala de manera responsable.* 
+*Vigilant Ear es una herramienta de accesibilidad creada con dedicación. Por favor, úsala de manera responsable.* 
 
 Hecha con ❤️ para la comunidad D/HH y la investigación acústica.
 

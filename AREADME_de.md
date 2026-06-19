@@ -1,8 +1,8 @@
-# VigilantEar 👂🛡️ (Android Edition)
+# Vigilant Ear 👂🛡️ (Android Edition)
 
 **Inkrafttreten:** 6. Juni 2026
 
-**VigilantEar** ist ein fortschrittliches, ultra-leistungsstarkes Akustikforschungs- und Barrierefreiheits-Tool für Android, das entwickelt wurde, um der Gehörlosen- und Schwerhörigen-Community (D/HH) in Echtzeit direktionales und räumliches Bewusstsein zu bieten. Herkömmliche Geräuscherkennungssoftware identifiziert nur, *was* ein Geräusch ist. **VigilantEar sagt Ihnen, wo es ist, wer es macht und was sie sagen.** Es fungiert als umfassendes taktisches Radar, das Edge-Computed Machine Learning mit ausgefeilter akustischer Physik kombiniert, um genau zu verfolgen, *woher* ein Geräusch stammt, seine geschätzte Entfernung, seinen absoluten Pfadverlauf und die getrennten, übersetzten Wörter einzelner Sprecher.
+**Vigilant Ear** ist ein fortschrittliches, ultra-leistungsstarkes Akustikforschungs- und Barrierefreiheits-Tool für Android, das entwickelt wurde, um der Gehörlosen- und Schwerhörigen-Community (D/HH) in Echtzeit direktionales und räumliches Bewusstsein zu bieten. Herkömmliche Geräuscherkennungssoftware identifiziert nur, *was* ein Geräusch ist. **Vigilant Ear sagt Ihnen, wo es ist, wer es macht und was sie sagen.** Es fungiert als umfassendes taktisches Radar, das Edge-Computed Machine Learning mit ausgefeilter akustischer Physik kombiniert, um genau zu verfolgen, *woher* ein Geräusch stammt, seine geschätzte Entfernung, seinen absoluten Pfadverlauf und die getrennten, übersetzten Wörter einzelner Sprecher.
 
 ---
 
@@ -38,7 +38,7 @@ Alle taktischen Overlays, HUD-Warnungen und Einstellungsmenüs passen sich dynam
 
 ## 🧬 Kernarchitektur & Die Neurale Mathematik-Engine
 
-VigilantEar auf Android nutzt eine hochoptimierte **Native SoundML-Architektur**, die um C++-Verarbeitung und die Oboe-Echtzeit-Audio-Engine herum aufgebaut ist, um die geringstmögliche Latenz auf unterschiedlicher Hardware zu gewährleisten.
+Vigilant Ear auf Android nutzt eine hochoptimierte **Native SoundML-Architektur**, die um C++-Verarbeitung und die Oboe-Echtzeit-Audio-Engine herum aufgebaut ist, um die geringstmögliche Latenz auf unterschiedlicher Hardware zu gewährleisten.
 
 ```mermaid
 graph TD
@@ -79,17 +79,17 @@ Um einen vollständig unblockierten UI-Thread aufrechtzuerhalten und gleichzeiti
 ## 📊 Datenschutz & Sicherheitsleitplanken
 
 - **Local-First Isolation**: Alle Audioklassifizierungen, Spektralmathematik und Peilungsprojektionen erfolgen ausschließlich auf dem Gerät. Rohe Audiostreams werden unter keinen Umständen jemals aufgezeichnet, zwischengespeichert oder übertragen.
-- **Keine Remote-Telemetrie oder Diagnose**: VigilantEar ist so konzipiert, dass es vollständig lokal auf Ihrem Gerät funktioniert. Wir sammeln, übertragen oder speichern keine Remote-Telemetrie, Absturzprotokolle, Diagnoseaufzeichnungen oder Nutzungsanalysen auf unseren Servern.
+- **Keine Remote-Telemetrie oder Diagnose**: Vigilant Ear ist so konzipiert, dass es vollständig lokal auf Ihrem Gerät funktioniert. Wir sammeln, übertragen oder speichern keine Remote-Telemetrie, Absturzprotokolle, Diagnoseaufzeichnungen oder Nutzungsanalysen auf unseren Servern.
 
 ---
 
 ## ⚖️ Haftungsausschluss
 
-VigilantEar ist eine experimentelle Akustikforschungs- und räumliche Barrierefreiheits-Hilfe. Es ist nicht als lebensrettendes Hilfsmittel zertifiziert. Die Auflösung der Verfolgung kann basierend auf der regionalen Topologie, dem vorherrschenden Wetter, den Windbedingungen und der Kalibrierung der Mikrofonhardware dynamisch schwanken. Benutzer müssen stets ein normales Umgebungsbewusstsein aufrechterhalten.
+Vigilant Ear ist eine experimentelle Akustikforschungs- und räumliche Barrierefreiheits-Hilfe. Es ist nicht als lebensrettendes Hilfsmittel zertifiziert. Die Auflösung der Verfolgung kann basierend auf der regionalen Topologie, dem vorherrschenden Wetter, den Windbedingungen und der Kalibrierung der Mikrofonhardware dynamisch schwanken. Benutzer müssen stets ein normales Umgebungsbewusstsein aufrechterhalten.
 
 **Kontakt-E-Mail:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 
-VigilantEar ist ein mit Sorgfalt entwickeltes Tool für die Barrierefreiheit. Bitte verwenden Sie es verantwortungsbewusst.
+Vigilant Ear ist ein mit Sorgfalt entwickeltes Tool für die Barrierefreiheit. Bitte verwenden Sie es verantwortungsbewusst.
 
 Gemacht mit ❤️ für die D/HH-Community und die Akustikforschung.
 

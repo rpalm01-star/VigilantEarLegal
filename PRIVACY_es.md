@@ -1,28 +1,28 @@
-# Política de Privacidad de VigilantEar 👂🛰️
+# Política de Privacidad de Vigilant Ear 👂🛰️
 
 **Fecha de vigencia:** 7 de junio de 2026
 
 ## Introducción
 
-VigilantEar ("nosotros", "nos" o "nuestro") se compromete a proteger su privacidad. Esta Política de Privacidad explica qué información procesa la aplicación, qué permanece en su dispositivo y cuándo se pueden enviar datos limitados a través de Internet para proporcionar funciones específicas.
+Vigilant Ear ("nosotros", "nos" o "nuestro") se compromete a proteger su privacidad. Esta Política de Privacidad explica qué información procesa la aplicación, qué permanece en su dispositivo y cuándo se pueden enviar datos limitados a través de Internet para proporcionar funciones específicas.
 
 ## Privacidad de un vistazo
 
 - **La detección acústica central se ejecuta en su dispositivo.** La clasificación de sonido, el seguimiento direccional y la lógica de alertas están diseñados para funcionar localmente utilizando el micrófono y los sensores de su teléfono.
 - **No vendemos sus datos** y no utilizamos SDK de publicidad ni de análisis de comportamiento.
-- **No almacenamos ni subimos grabaciones de audio.** El audio del micrófono se procesa en tiempo real para la detección; VigilantEar no lo guarda como un archivo de sonido.
+- **No almacenamos ni subimos grabaciones de audio.** El audio del micrófono se procesa en tiempo real para la detección; Vigilant Ear no lo guarda como un archivo de sonido.
 - **Algunas funciones utilizan Internet**: mapas, alertas de clima severo, identificación opcional de música, datos de carreteras, compras en la tienda de aplicaciones y (en iOS) registros de diagnóstico mínimos. Estos se describen a continuación.
 - **Usted mantiene el control.** Puede desactivar la identificación de música de Shazam, apagar categorías de alerta, revocar permisos en la configuración del sistema o detener la escucha en segundo plano en cualquier momento.
 
 ## Información procesada en su dispositivo
 
-Con su permiso, VigilantEar accede a lo siguiente **localmente**:
+Con su permiso, Vigilant Ear accede a lo siguiente **localmente**:
 
 - **Audio del micrófono**: se utiliza en tiempo real para detectar sonidos ambientales (sirenas, vehículos, timbres de puertas, personas cercanas, etc.) y activar alertas.
 - **Ubicación**: se utiliza para ubicar los sonidos detectados y las áreas de alerta meteorológica en el mapa y para mejorar la orientación direccional.
 - **Orientación y movimiento del dispositivo**: se utiliza para mejorar la precisión de la dirección.
 
-Este procesamiento en el dispositivo es el corazón de la aplicación. Las aplicaciones de la competencia a menudo transmiten audio a la nube para su análisis y monetización. VigilantEar se ha creado de manera diferente: su sistema de reconocimiento acústico está diseñado para ejecutarse en el propio teléfono.
+Este procesamiento en el dispositivo es el corazón de la aplicación. Las aplicaciones de la competencia a menudo transmiten audio a la nube para su análisis y monetización. Vigilant Ear se ha creado de manera diferente: su sistema de reconocimiento acústico está diseñado para ejecutarse en el propio teléfono.
 
 ## Red y servicios de terceros
 
@@ -53,7 +53,7 @@ Elegimos estos servicios para ofrecer funciones de mapa, clima, etiqueta de mús
 
 ### Sin telemetría ni diagnósticos remotos
 
-VigilantEar está diseñado para funcionar de manera completamente local en su dispositivo. No recopilamos, transmitimos ni almacenamos ninguna telemetría remota, registros de fallos, registros de diagnóstico ni análisis de uso en nuestros servidores. Todo el procesamiento se realiza localmente en su hardware.
+Vigilant Ear está diseñado para funcionar de manera completamente local en su dispositivo. No recopilamos, transmitimos ni almacenamos ninguna telemetría remota, registros de fallos, registros de diagnóstico ni análisis de uso en nuestros servidores. Todo el procesamiento se realiza localmente en su hardware.
 
 ## Lo que no hacemos
 
@@ -76,7 +76,7 @@ Usted puede:
 
 ## Pautas de la plataforma
 
-VigilantEar cumple con los requisitos de privacidad de Apple App Store y Google Play. Actualizamos esta política cuando cambian nuestras prácticas u obligaciones de la plataforma.
+Vigilant Ear cumple con los requisitos de privacidad de Apple App Store y Google Play. Actualizamos esta política cuando cambian nuestras prácticas u obligaciones de la plataforma.
 
 ## Cambios a esta política
 
@@ -90,8 +90,8 @@ Si tiene preguntas sobre esta Política de Privacidad, contáctenos en:
 
 ---
 
-❤️ VigilantEar está construido con amor y respeto por la comunidad sorda y con problemas de audición. Su confianza es importante para nosotros.
+❤️ Vigilant Ear está construido con amor y respeto por la comunidad sorda y con problemas de audición. Su confianza es importante para nosotros.
 
-*VigilantEar es una herramienta de accesibilidad construida con cuidado. Por favor, úsela responsablemente.*
+*Vigilant Ear es una herramienta de accesibilidad construida con cuidado. Por favor, úsela responsablemente.*
 
 © 2026 Wingdings, Inc. · Todos los derechos reservados

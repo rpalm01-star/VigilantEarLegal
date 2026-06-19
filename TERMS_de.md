@@ -1,18 +1,18 @@
-# Nutzungsbedingungen für VigilantEar 👂🛰️
+# Nutzungsbedingungen für Vigilant Ear 👂🛰️
 
 **Gültig ab:** 6. Juni 2026
 
 ## 1. Annahme der Bedingungen
 
-Durch das Herunterladen, die Installation oder die Nutzung der mobilen VigilantEar-Anwendung ("App") erklären Sie sich mit diesen Nutzungsbedingungen ("Bedingungen") einverstanden. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, nutzen Sie die App bitte nicht.
+Durch das Herunterladen, die Installation oder die Nutzung der mobilen Vigilant Ear-Anwendung ("App") erklären Sie sich mit diesen Nutzungsbedingungen ("Bedingungen") einverstanden. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, nutzen Sie die App bitte nicht.
 
 ## 2. Beschreibung des Dienstes
 
-VigilantEar ist eine unterstützende Anwendung, die entwickelt wurde, um gehörlosen und schwerhörigen Personen ein akustisches Bewusstsein in Echtzeit und eine Richtungsführung zu bieten. Die App nutzt das Mikrofon und die Ortungsdienste Ihres Geräts, um Geräusche (wie Sirenen und Fahrzeuge) zu erkennen und deren ungefähre Richtung sowie Entfernung auf einer Karte anzuzeigen.
+Vigilant Ear ist eine unterstützende Anwendung, die entwickelt wurde, um gehörlosen und schwerhörigen Personen ein akustisches Bewusstsein in Echtzeit und eine Richtungsführung zu bieten. Die App nutzt das Mikrofon und die Ortungsdienste Ihres Geräts, um Geräusche (wie Sirenen und Fahrzeuge) zu erkennen und deren ungefähre Richtung sowie Entfernung auf einer Karte anzuzeigen.
 
 ## 3. Wichtiger Sicherheitshinweis
 
-**VigilantEar ist nur ein unterstützendes Werkzeug.** Es ist **kein** Ersatz für:
+**Vigilant Ear ist nur ein unterstützendes Werkzeug.** Es ist **kein** Ersatz für:
 
 - Normale visuelle Aufmerksamkeit
 - Professionelle Hörhilfen
@@ -29,7 +29,7 @@ WIR GARANTIEREN NICHT, DASS DIE APP UNUNTERBROCHEN, FEHLERFREI ODER VÖLLIG PRÄ
 
 ## 5. Haftungsbeschränkung
 
-SOWEIT GESETZLICH ZULÄSSIG, HAFTEN **VigilantEar**, SEINE ENTWICKLER UND SEINE MUTTERGESELLSCHAFT NICHT FÜR INDIREKTE, ZUFÄLLIGE, BESONDERE, FOLGE- ODER STRAFSCHÄDEN, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF PERSONENSCHÄDEN, ENTGANGENEN GEWINN, DATENVERLUST ODER ANDERE SCHÄDEN, DIE SICH AUS DER NUTZUNG ODER DER UNMÖGLICHKEIT DER NUTZUNG DER APP ERGEBEN ODER DAMIT ZUSAMMENHÄNGEN.
+SOWEIT GESETZLICH ZULÄSSIG, HAFTEN **Vigilant Ear**, SEINE ENTWICKLER UND SEINE MUTTERGESELLSCHAFT NICHT FÜR INDIREKTE, ZUFÄLLIGE, BESONDERE, FOLGE- ODER STRAFSCHÄDEN, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF PERSONENSCHÄDEN, ENTGANGENEN GEWINN, DATENVERLUST ODER ANDERE SCHÄDEN, DIE SICH AUS DER NUTZUNG ODER DER UNMÖGLICHKEIT DER NUTZUNG DER APP ERGEBEN ODER DAMIT ZUSAMMENHÄNGEN.
 
 IN KEINEM FALL ÜBERSTEIGT UNSERE GESAMTHAFTUNG DEN BETRAG, DEN SIE (GEGEBENENFALLS) FÜR DIE APP BEZAHLT HABEN.
 
@@ -44,7 +44,7 @@ Sie stimmen zu:
 
 ## 7. Geistiges Eigentum
 
-Alle Inhalte, Designs, Codes und Marken in der App sind Eigentum von VigilantEar oder seinen Lizenzgebern. Ohne vorherige schriftliche Genehmigung dürfen Sie keinen Teil der App kopieren, modifizieren, verbreiten oder einem Reverse Engineering unterziehen.
+Alle Inhalte, Designs, Codes und Marken in der App sind Eigentum von Vigilant Ear oder seinen Lizenzgebern. Ohne vorherige schriftliche Genehmigung dürfen Sie keinen Teil der App kopieren, modifizieren, verbreiten oder einem Reverse Engineering unterziehen.
 
 ## 8. Kündigung
 
@@ -66,7 +66,7 @@ Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter:
 
 ---
 
-*VigilantEar ist ein mit Sorgfalt entwickeltes Hilfsmittel für die Barrierefreiheit. Bitte nutzen Sie es verantwortungsvoll.* 
+*Vigilant Ear ist ein mit Sorgfalt entwickeltes Hilfsmittel für die Barrierefreiheit. Bitte nutzen Sie es verantwortungsvoll.* 
 
 Mit ❤️ für die Gehörlosen- und Schwerhörigen-Community und die akustische Forschung entwickelt.
 

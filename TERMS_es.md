@@ -1,18 +1,18 @@
-# Términos de Servicio de VigilantEar 👂🛰️
+# Términos de Servicio de Vigilant Ear 👂🛰️
 
 **Fecha de Vigencia:** 6 de junio de 2026
 
 ## 1. Aceptación de los Términos
 
-Al descargar, instalar o utilizar la aplicación móvil VigilantEar ("Aplicación"), usted acepta estar sujeto a estos Términos de Servicio ("Términos"). Si no está de acuerdo con estos Términos, no utilice la Aplicación.
+Al descargar, instalar o utilizar la aplicación móvil Vigilant Ear ("Aplicación"), usted acepta estar sujeto a estos Términos de Servicio ("Términos"). Si no está de acuerdo con estos Términos, no utilice la Aplicación.
 
 ## 2. Descripción del Servicio
 
-VigilantEar es una aplicación de asistencia diseñada para proporcionar conciencia acústica en tiempo real y orientación direccional para personas sordas y con problemas de audición. La Aplicación utiliza el micrófono de su dispositivo y los servicios de ubicación para detectar sonidos (como sirenas y vehículos) y mostrar su dirección y distancia aproximadas en un mapa.
+Vigilant Ear es una aplicación de asistencia diseñada para proporcionar conciencia acústica en tiempo real y orientación direccional para personas sordas y con problemas de audición. La Aplicación utiliza el micrófono de su dispositivo y los servicios de ubicación para detectar sonidos (como sirenas y vehículos) y mostrar su dirección y distancia aproximadas en un mapa.
 
 ## 3. Aviso Importante de Seguridad
 
-**VigilantEar es solo una herramienta de asistencia.** **No** reemplaza:
+**Vigilant Ear es solo una herramienta de asistencia.** **No** reemplaza:
 
 - La conciencia visual normal
 - La asistencia auditiva profesional
@@ -29,7 +29,7 @@ NO GARANTIZAMOS QUE LA APLICACIÓN SERÁ ININTERRUMPIDA, LIBRE DE ERRORES O COMP
 
 ## 5. Limitación de Responsabilidad
 
-EN LA MEDIDA MÁXIMA PERMITIDA POR LA LEY, **VigilantEar**, SUS DESARROLLADORES Y SU EMPRESA MATRIZ NO SERÁN RESPONSABLES POR NINGÚN DAÑO INDIRECTO, INCIDENTAL, ESPECIAL, CONSECUENTE O PUNITIVO, INCLUYENDO PERO NO LIMITADO A LESIONES PERSONALES, PÉRDIDA DE GANANCIAS, PÉRDIDA DE DATOS O CUALQUIER OTRO DAÑO QUE SURJA DE O ESTÉ RELACIONADO CON EL USO O LA INCAPACIDAD DE USAR LA APLICACIÓN.
+EN LA MEDIDA MÁXIMA PERMITIDA POR LA LEY, **Vigilant Ear**, SUS DESARROLLADORES Y SU EMPRESA MATRIZ NO SERÁN RESPONSABLES POR NINGÚN DAÑO INDIRECTO, INCIDENTAL, ESPECIAL, CONSECUENTE O PUNITIVO, INCLUYENDO PERO NO LIMITADO A LESIONES PERSONALES, PÉRDIDA DE GANANCIAS, PÉRDIDA DE DATOS O CUALQUIER OTRO DAÑO QUE SURJA DE O ESTÉ RELACIONADO CON EL USO O LA INCAPACIDAD DE USAR LA APLICACIÓN.
 
 EN NINGÚN CASO NUESTRA RESPONSABILIDAD TOTAL EXCEDERÁ LA CANTIDAD QUE USTED PAGÓ POR LA APLICACIÓN (SI LA HUBIERA).
 
@@ -44,7 +44,7 @@ Usted acepta:
 
 ## 7. Propiedad Intelectual
 
-Todo el contenido, diseño, código y marcas comerciales en la Aplicación son propiedad de VigilantEar o sus licenciantes. No puede copiar, modificar, distribuir ni aplicar ingeniería inversa a ninguna parte de la Aplicación sin permiso previo por escrito.
+Todo el contenido, diseño, código y marcas comerciales en la Aplicación son propiedad de Vigilant Ear o sus licenciantes. No puede copiar, modificar, distribuir ni aplicar ingeniería inversa a ninguna parte de la Aplicación sin permiso previo por escrito.
 
 ## 8. Terminación
 
@@ -66,7 +66,7 @@ Si tiene alguna pregunta sobre estos Términos, comuníquese con nosotros en:
 
 ---
 
-*VigilantEar es una herramienta de accesibilidad construida con cuidado. Por favor, úsela responsablemente.* 
+*Vigilant Ear es una herramienta de accesibilidad construida con cuidado. Por favor, úsela responsablemente.* 
 
 Hecho con ❤️ para la comunidad S/HH (sordos/problemas de audición) y la investigación acústica.
 
