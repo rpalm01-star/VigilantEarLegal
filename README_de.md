@@ -1,125 +1,125 @@
-# Vigilant Ear 👂🛡️ (Apple-Edition)
+# Vigilant Ear 👂🛡️ (Apple Edition)
 
 *Ein akustisches Radar für Menschen, die nicht hören können.*
 
-Eine App, die eigens für die Gehörlosen- und Schwerhörigen-Community entwickelt wurde! Die meisten Geräuscherkennungs-Apps sagen dir, *was* ein Geräusch ist. **Vigilant Ear sagt dir, wo es ist, wer es verursacht und was gesagt wird** — und verwandelt ein iPhone in einen akustischen Echtzeit-Tricorder, der die Geräusche um dich herum visuell beschreibt.
+Eine App, die speziell für die Gehörlosen-/Schwerhörigen-Community entwickelt wurde! Die meisten Klangerkennung-Apps zeigen Ihnen *was* ein Geräusch ist. **Vigilant Ear sagt Ihnen, wo es sich befindet, wer es verursacht und was dabei gesagt wird** — und verwandelt ein iPhone in einen Echtzeit-Sonic-Tricorder, der Ihre akustische Umgebung visuell beschreibt.
 
-Die Richtung und Entfernung einer Sirene. Ein Klopfen hinter dir. Die Personen in einem Gespräch, dargestellt als einzeln transkribierte Stimmen — jede mit Untertiteln versehen und nach Sprecher räumlich verortet. Und wenn jemand eine Sprache spricht, die du nicht lesen kannst, kommen seine Worte **in deine Sprache übersetzt** bei dir an.
+Die Richtung und Entfernung einer Sirene. Ein Klopfen hinter Ihnen. Die Menschen in einem Gespräch, als separate transkribierte Stimmen dargestellt — jede mit Untertiteln und richtungsbezogener Zuordnung zum Sprecher. Wenn jemand in einer Sprache spricht, die Sie nicht lesen, werden seine Worte **in Ihre Sprache übersetzt.**
 
-Alles läuft auf dem Gerät. Nichts wird aufgezeichnet, zwischengespeichert oder irgendwohin gesendet.
-
----
-
-## Für wen sie gedacht ist
-
-- **Gehörlose und schwerhörige Nutzerinnen und Nutzer**, die ein Situationsbewusstsein für Geräusche wünschen — nicht nur „ein Geräusch ist aufgetreten", sondern *was, wo, wer* und *was gesagt wurde.*
-- Alle, die **Live-Untertitel mit Richtungsangabe und Sprechertrennung** benötigen oder die **On-Device-Übersetzung** von Freundinnen und Freunden, die in der Nähe sitzen.
-- Tüftlerinnen und Tüftler aus den Bereichen Akustikforschung und Barrierefreiheit, die sich für Geräuschortung auf dem Gerät interessieren.
-
-> Vigilant Ear ist eine **Hilfe** zur Barrierefreiheit, kein zertifiziertes lebensrettendes Gerät.
+Alles läuft auf dem Gerät. Nichts wird aufgezeichnet, zwischengespeichert oder gesendet.
 
 ---
 
-## Was sie kann
+## Für wen ist die App gedacht?
 
-### 🧭 Sie sieht Geräusche — Richtung & Entfernung
-Mithilfe der Stereomikrofone des iPhones schätzt Vigilant Ear **Richtung und ungefähre Entfernung** von Geräuschen in deiner Umgebung und platziert sie als Live-Punkte auf einem nach Blickrichtung ausgerichteten Radarring und einer Karte. Wenn du dich bewegst, behalten die Punkte ihre reale Position bei. Das ist der Kern: räumliches Bewusstsein für eine Welt, die du nicht hören kannst.
+- **Gehörlose und schwerhörige Nutzer**, die eine Situationswahrnehmung von Klängen möchten — nicht nur „ein Geräusch ist passiert", sondern *was, wo, wer* und *was wurde gesagt.*
+- Alle, die **Live-Untertitel mit Richtungsangabe und Sprechertrennung** benötigen, oder eine **gerätegestützte Übersetzung** von Freunden in ihrer unmittelbaren Nähe wünschen.
+- Akustik-Forscher und Barrierefreiheits-Enthusiasten, die sich für gerätegestützte Klanglokalisierung interessieren.
 
-### 🚨 Sie erkennt wichtige Geräusche — und warnt dich
-Ein Klassifizierer auf dem Gerät erkennt **über 300 Alltagsgeräusche** und überwacht die kritischen Kategorien — **Sirenen, Alarme, Türklingeln/Klopfen, eine Person in der Nähe und Unwetter.** Wird eines davon ausgelöst, erhältst du eine deutliche Warnung auf dem Bildschirm und optional eine **Push-Benachrichtigung**, selbst wenn die App im Hintergrund läuft oder dein Telefon im Ruhezustand ist. Schaltest du alle Warnkategorien aus, geht die Engine im Hintergrund vollständig in den Ruhezustand, um Akku zu sparen.
+> Vigilant Ear ist ein Barrierefreiheits-**Hilfsmittel**, kein zertifiziertes Lebensschutzgerät.
 
-Unwetterwarnungen stammen aus offiziellen öffentlichen Feeds: Der US-amerikanische **NWS** ist kostenlos integriert; das europäische **MeteoAlarm**-Netzwerk und Chinas **CMA** sind Teil von Premium. Die Feeds werden automatisch auf diejenigen eingegrenzt, die deinen aktuellen Standort tatsächlich abdecken.
+---
 
-### 💬 Sprechermodus — Live-Untertitel mit Richtungsangabe *(Premium)*
-Aktiviere den **Sprechermodus**, und Vigilant Ear transkribiert die Personen, die in deiner Nähe sprechen, in **Untertitelblöcke, einen pro Stimme.** Die Sprecherdiarisierung auf dem Gerät unterscheidet die Stimmen, sodass jede Person ihren eigenen Block und ihr eigenes charakteristisches Symbol behält — *wer* sagt *was* — mit einem kleinen Kreis auf dem inneren Ring, der dich zu ihrer Position im Raum leitet. Die gerade sprechende Person wird hervorgehoben; älterer Text scrollt langsam weg oder wird ausgeblendet, sobald Platz für neuen Text benötigt wird.
+## Was die App kann
 
-### 🌐 Sprecher-Auto-Übersetzung — lies in deiner eigenen Sprache, was du nicht hören kannst *(Premium)*
-Ist der Sprechermodus aktiv und spricht eine Person in der Nähe eine andere Sprache, erkennt Vigilant Ear dies und gibt ihre Untertitel **in deiner Sprache** wieder, in Echtzeit, mit der Angabe ihrer Ausgangssprache in der Titelzeile ihres Blocks. Die gesamte Kette — hören → Sprecher trennen → transkribieren → übersetzen → anzeigen — läuft **vollständig auf dem Gerät**; der einzige Netzwerkmoment ist ein einmaliger Download eines Sprachpakets von Apple. Für eine gehörlose Person mit einem Freund, der eine andere Sprache spricht, bedeutet das, dessen Gesprächsbeitrag in Echtzeit mitlesen zu können — **ohne diese Sprache vorab kennen und auswählen zu müssen.**
+### 🧭 Sie sieht Klang — Richtung & Entfernung
+Mithilfe der Stereomikrofone des iPhones schätzt Vigilant Ear die **Richtung und ungefähre Entfernung** von Klängen in Ihrer Umgebung und stellt sie als Live-Punkte auf einem Heading-up-Radar-Ring und einer Karte dar. Wenn Sie sich bewegen, behalten die Punkte ihre reale Position bei. Dies ist der Kern der App: räumliches Bewusstsein einer Welt, die Sie nicht hören können.
 
-### 🎵 Musik- & Sendungserkennung *(Premium)*
-**ShazamKit** erkennt Musik, die um dich herum läuft, und zeigt den Titel an, mit automatischer Erkennung des Liedwechsels anhand der Signatur. Und wenn eine Stimme eher aus einem Fernseher oder Radio als von einer Person im Raum zu kommen scheint, wird sie mit einem **📻** gekennzeichnet, statt fälschlicherweise für eine anwesende Person gehalten zu werden — die Worte werden weiterhin angezeigt, sie sind nur ehrlich als solche ausgewiesen.
+### 🚨 Sie erkennt wichtige Geräusche — und warnt Sie
+Ein geräteseitiger Klassifikator identifiziert **über 300 alltägliche Geräusche** und überwacht die kritischen Kategorien — **Sirenen, Alarme, Türklingeln/Klopfen, eine Person in der Nähe und Unwetterwarnungen.** Wenn eines davon ausgelöst wird, erhalten Sie einen deutlichen Bildschirm-Alarm und eine optionale **Push-Benachrichtigung**, auch wenn die App im Hintergrund läuft oder Ihr Telefon im Ruhezustand ist. Schalten Sie alle Alarmkategorien aus, und die Engine wechselt vollständig in den Ruhezustand im Hintergrund, um den Akku zu schonen.
 
-### 🛰️ Constellation — viele iPhones, ein gemeinsames Ohr *(Premium)*
-Mit zwei oder mehr Ultra-Wideband-fähigen iPhones (die meisten seit dem iPhone 11) koppelt der **Constellation**-Modus die Geräte, sodass sie die Position der jeweils anderen erfassen können (über Apples Nearby Interaction / UWB) und das, was sie jeweils hören, zu einem einzigen, weitaus präziseren Bild davon zusammenfügen, woher ein Geräusch kommt — eine Art verteiltes, passives **Synthetic-Aperture-Sonar.** Die Funktion ist auf Geräte mit der passenden Hardware beschränkt.
+Unwetterwarnungen stammen aus offiziellen öffentlichen Feeds: Der US-amerikanische **NWS** ist kostenlos integriert; das europäische **MeteoGate**-Netzwerk und **Chinas CMA** sind Teil von Premium. Die Feeds werden automatisch auf die eingeschränkt, die Ihren aktuellen Standort tatsächlich abdecken.
+
+### 💬 Speaker Mode — Live-Untertitel mit Richtungsangabe *(Premium)*
+Aktivieren Sie **Speaker Mode**, und Vigilant Ear transkribiert die Personen, die in Ihrer Nähe sprechen, in **Untertitelblöcke, einen pro Stimme.** Die geräteseitige Sprecherdiarisierung unterscheidet die Stimmen voneinander, sodass jede Person ihren eigenen Block und ein markantes Symbol erhält — *wer* sagt *was* — mit einem kleinen Kreis auf dem inneren Ring, der Sie zu ihrer Position im Raum führt. Der aktive Sprecher wird hervorgehoben; älterer Text scrollt langsam weg oder wenn Platz für neuen Text benötigt wird.
+
+### 🌐 Speaker Auto-Translate — eine Sprache lesen, die Sie nicht hören, in Ihrer eigenen *(Premium)*
+Bei aktiviertem Speaker Mode erkennt Vigilant Ear, wenn eine Person in der Nähe eine andere Sprache spricht, und zeigt deren Untertitel **in Ihrer Sprache** an — live, mit der Kennzeichnung der Ausgangssprache in der Titelleiste des Blocks. Die gesamte Kette — hören → Sprecher trennen → transkribieren → übersetzen → anzeigen — läuft **vollständig auf dem Gerät**; der einzige Netzwerkmoment ist ein einmaliger Sprachpaket-Download von Apple. Für eine gehörlose Person mit einem Freund, der eine andere Sprache spricht, bedeutet dies, dessen Gesprächsanteil in Echtzeit lesen zu können, **ohne diese Sprache vorher kennen und auswählen zu müssen**.
+
+### 🎵 Musik- und Rundfunkbewusstsein *(Premium)*
+**ShazamKit** identifiziert Musik in Ihrer Umgebung und zeigt den Titel mit automatischer Erkennung von Songwechsel-Signaturen an. Und wenn eine Stimme eher von einem Fernseher oder Radio zu kommen scheint als von einer Person im Raum, wird sie mit einem **📻** gekennzeichnet, anstatt fälschlicherweise als anwesende Person erkannt zu werden — die Wörter werden weiterhin angezeigt, aber ehrlich gekennzeichnet.
+
+### 🛰️ Constellation — mehrere iPhones, ein gemeinsames Ohr *(Premium)*
+Mit zwei oder mehr Ultra-Wideband-fähigen iPhones (die meisten seit iPhone 11) koppelt der **Constellation**-Modus diese Geräte, sodass sie die jeweilige Position des anderen erkennen können (via Apple's Nearby Interaction / UWB) und das, was jedes von ihnen hört, zu einem einzigen, weit präziseren Bild der Schallherkunft zusammenführen — eine Art verteiltes, passives **synthetisches Apertur-Sonar.** Dieses Feature ist auf Geräte mit der entsprechenden Hardware beschränkt.
 
 ### 🗺️ Karten, Straßen & Wegvorhersage
-Geräuschrichtungen werden auf reale GPS-Koordinaten projiziert und in einer Kartenansicht dargestellt. Fahrzeuggeräusche werden **an nahegelegene Straßen angeheftet** (über quelloffene Straßendaten-Feeds) und ihre Wege vorhergesagt, sodass ein vorbeifahrendes Auto als Bewegung *entlang der Straße* erscheint, statt durch Gebäude zu driften. (Probiere die Feuerwehrauto-Demo aus, um es vorab zu erleben.)
+Schallpeilungen werden auf echte GPS-Koordinaten projiziert und in einer Kartenansicht dargestellt. Fahrzeuggeräusche werden **auf nahegelegene Straßen eingerastet** (über Open-Source-Straßendaten-Feeds) und ihre Wege vorhergesagt, sodass ein vorbeifahrendes Auto als *entlang der Straße fahrend* und nicht als durch Gebäude driftend erscheint. (Probieren Sie die Feuerwehrauto-Demo, um eine Vorschau zu erhalten.)
 
 ---
 
 ## Kostenlos & Premium
 
-Der Sicherheitskern ist **für immer kostenlos**:
+Der Sicherheitskern ist **kostenlos, für immer**:
 
-- **Lokale Geräuschwarnungen** — Alarme, Sirenen, Türklingeln/Klopfen und eine Person in der Nähe — auf dem Gerät erkannt, mit Warnungen auf dem Bildschirm und per Push.
+- **Lokale Klangwarnungen** — Alarme, Sirenen, Türklingeln/Klopfen und eine Person in der Nähe — geräteseitig erkannt, mit Bildschirm- und Push-Warnungen.
 - **NWS-Unwetterwarnungen** für die Vereinigten Staaten.
 
-Eine einmalige **Premium-Freischaltung** — mit kostenloser Testphase zum Start und **kein Abonnement** — ergänzt die vollständige Ebene des Situationsbewusstseins:
+Ein einmaliges **Premium-Upgrade** — mit einer kostenlosen Testphase zu Beginn, und **kein Abonnement** — fügt die vollständige Situationswahrnehmungs-Ebene hinzu:
 
-- **Sprechermodus** — Live-Untertitel mit Richtungsangabe, pro Sprecher.
-- **Sprecher-Auto-Übersetzung** — Übersetzung von Sprache in der Nähe in deine Sprache, auf dem Gerät.
+- **Speaker Mode** — Live-Untertitel mit Richtungsangabe, pro Sprecher.
+- **Speaker Auto-Translate** — gerätegestützte Übersetzung naher Sprache in Ihre Sprache.
 - **Constellation** — gemeinsames Hören über mehrere iPhones via Ultra-Wideband.
-- **Musikerkennung** — Lieder­erkennung mit ShazamKit.
-- **Internationale Wetter-Feeds** — Europa (MeteoAlarm) und China (CMA).
+- **Music ID** — ShazamKit-Musikerkennung.
+- **Internationale Wetter-Feeds** — Europa (MeteoGate) und China (CMA).
 
-Ob kostenlos oder Premium — **alles läuft auf dem Gerät.** Die Stufe ändert nur, welche Funktionen freigeschaltet sind, niemals, wohin dein Audio gelangt.
+Ob kostenlos oder Premium, **alles läuft auf dem Gerät** — die Stufe ändert nur, welche Funktionen freigeschaltet sind, nicht, wohin Ihre Audiodaten gehen.
 
 ---
 
-## So funktioniert sie (unter der Haube)
+## So funktioniert es (unter der Haube)
 
-Vigilant Ear ist eine **lokal-zuerst arbeitende Pipeline auf dem Gerät.** Rohaudio wird über einen Tap mit hoher Priorität erfasst, kopiert und an unabhängige Verarbeitungs-Akteure verteilt, ohne dabei jemals die Benutzeroberfläche ins Stocken zu bringen:
+Vigilant Ear ist eine **local-first, gerätegestützte** Pipeline. Rohaudio wird über einen hochpriorisierten Tap erfasst, kopiert und ohne Unterbrechung der Benutzeroberfläche an unabhängige Verarbeitungsaktoren verteilt:
 
 ```mermaid
 graph TD
-    A["Stereo-Mikrofon-Tap"] --> B["16-kHz-Downsampling-Gate"]
-    B --> C["Geräuschklassifizierer (Apple Neural Engine)"]
-    B --> D["TDOA / Beamforming → Richtung & Entfernung"]
-    B --> E["Sprecherdiarisierung (WeSpeaker, ANE) → wer"]
-    E --> F["Spracherkennung (SpeechAnalyzer) → Worte"]
-    F --> G["Übersetzung auf dem Gerät → deine Sprache"]
-    C & D & F & G --> H["Radarring · Untertitel · Karte · Warnungen"]
+    A["Stereo mic tap"] --> B["16 kHz downsample gate"]
+    B --> C["Sound classifier (Apple Neural Engine)"]
+    B --> D["TDOA / beamforming → bearing & distance"]
+    B --> E["Speaker diarization (WeSpeaker, ANE) → who"]
+    E --> F["Speech recognition (SpeechAnalyzer) → words"]
+    F --> G["On-device translation → your language"]
+    C & D & F & G --> H["Radar ring · captions · map · alerts"]
 ```
 
-- **Räumliche Berechnungen** — schnelle Fourier-Transformationen, Time-Difference-of-Arrival und Doppler-Tracking laufen in abgekoppelten Hintergrundtasks.
-- **Sprache** — `SpeechAnalyzer`/`SpeechTranscriber` aus iOS 26 übernehmen die Transkription; **WeSpeaker**-Embeddings gruppieren das Audio in einzelne Stimmen; Apples **Translation**-Framework erledigt die Übersetzung auf dem Gerät.
-- **Nebenläufigkeit** — die strikte Isolation von Swift 6 hält den Mikrofon-Tap, die akustischen Berechnungen und die `CADisplayLink`-Render-Schleife der Karte sauber getrennt, sodass die Benutzeroberfläche flüssig bleibt (angestrebtes Marker-Gleiten bei 60 FPS), während alles andere im Hintergrund auf Hochtouren läuft.
-- **Effizienz** — das 16-kHz-Downsampling-Gate reduziert die Datenmenge, die der Klassifizierer verarbeitet, um rund 80 % und hält so den aktiven Ressourcenbedarf gering — und den „immer hörenden" Hintergrundmodus noch geringer.
+- **Räumliche Mathematik** — Schnelle Fourier-Transformationen, Time-Difference-of-Arrival und Doppler-Tracking laufen auf abgetrennten Hintergrundaufgaben.
+- **Sprache** — iOS 26's `SpeechAnalyzer`/`SpeechTranscriber` übernehmen die Transkription; **WeSpeaker**-Einbettungen clustern das Audio in verschiedene Stimmen; Apples **Translation**-Framework übernimmt die gerätegestützte Übersetzung.
+- **Parallelität** — Swift 6's strikte Isolation hält den Mikrofon-Tap, die akustische Mathematik und den `CADisplayLink`-Render-Loop der Karte sauber getrennt, sodass die Benutzeroberfläche flüssig bleibt (Ziel: 60 FPS Marker-Gleiten), während alles andere im Hintergrund läuft.
+- **Effizienz** — Das 16-kHz-Downsampling-Gate reduziert die Datenmenge, die der Klassifikator verarbeitet, um ~80%, was den aktiven Speicherbedarf gering hält und den „always-listening"-Hintergrundmodus noch schlanker macht.
 
 ---
 
 ## Datenschutz
 
-- **Immer auf dem Gerät.** Sämtliche Klassifizierung, räumliche Berechnungen, Transkription, Diarisierung (Sprechersignatur/-identifikation) und Übersetzung finden auf deinem iPhone statt. Rohaudio wird niemals aufgezeichnet, zwischengespeichert oder übertragen.
-- **Transkripte sind flüchtig.** Untertitel bleiben für die Dauer der Sitzung im Arbeitsspeicher und werden nicht dauerhaft gespeichert oder hochgeladen.
-- **Keine Telemetrie.** Es werden keine Analyse-, Absturz- oder Nutzungsdaten an irgendeinen Server gesendet.
+- **Auf dem Gerät, immer.** Alle Klassifizierung, räumliche Mathematik, Transkription, Diarisierung (Sprecher-Signatur/Identifikation) und Übersetzung finden auf Ihrem iPhone statt. Rohaudio wird niemals aufgezeichnet, zwischengespeichert oder übertragen.
+- **Transkripte sind flüchtig.** Untertitel leben für die Dauer der Sitzung im Arbeitsspeicher und werden weder gespeichert noch hochgeladen.
+- **Kein Telemetrie.** Keine Analysen, Absturzprotokolle oder Nutzungsdaten werden an einen Server gesendet.
 
-Alle Details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+Vollständige Details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
 
 ---
 
 ## Hardware & Plattformen
 
-- **iPhone (vollständiges Erlebnis).** Für die Richtungsbestimmung wird ein iPhone mit Stereomikrofon benötigt. Empfohlen wird iPhone 13 oder neuer.
-- **iPad (nur Untertitel).** iPads stellen nur einen einzelnen Audiokanal bereit, transkribieren und untertiteln daher zwar, können aber keine Richtung berechnen — gut geeignet als stationäre Anzeige auf großem Bildschirm.
-- **Constellation** benötigt **Ultra-Wideband** — iPhone 11 oder neuer, ausgenommen die SE- und „e"-Modelle.
+- **iPhone (vollständige Erfahrung).** Ein iPhone mit Stereomikrofon ist für die Richtungsbestimmung erforderlich. Empfohlen wird iPhone 13 oder neuer.
+- **iPad (nur Untertitel).** iPads stellen nur einen einzelnen Audiokanal bereit, sodass sie transkribieren und Untertitel anzeigen können, aber keine Richtungsberechnung durchführen — ideal für ein stationäres Großbilddisplay.
+- **Constellation** benötigt **Ultra-Wideband** — iPhone 11 oder neuer, außer SE- und „e"-Modellen.
 
 ---
 
 ## Lokalisierung
 
-Vollständig lokalisiert — Benutzeroberfläche, Warnungen und Untertitel — in **Englisch, Spanisch, Portugiesisch, Französisch, Deutsch, Arabisch, Japanisch und vereinfachtes Chinesisch** (8 Sprachen). Sie richten sich nach der Spracheinstellung des Systems oder können in der App manuell gewählt werden.
+Vollständig lokalisiert — Benutzeroberfläche, Warnungen und Untertitel — in **Englisch, Spanisch, Portugiesisch, Französisch, Deutsch, Arabisch, Japanisch und Vereinfachtes Chinesisch** (8 Sprachen). Sie folgen der Systemspracheinstellung oder können manuell in der App ausgewählt werden.
 
 ---
 
 ## Status & Haftungsausschluss
 
-Vigilant Ear ist eine **experimentelle akustische Hilfe zur Barrierefreiheit**, kein zertifiziertes lebensrettendes Hilfsmittel. Die Ortungsgenauigkeit variiert je nach Umgebung, Wetter, Wind und Mikrofon-Hardware. **Behalte stets deine gewohnte Aufmerksamkeit für deine Umgebung bei** — verlasse dich nicht als einzige Sicherheitsquelle darauf.
+Vigilant Ear ist ein **experimentelles akustisches Barrierefreiheits-Hilfsmittel**, kein zertifiziertes Lebensschutz-Werkzeug. Die Lokalisierungsauflösung variiert je nach Umgebung, Wetter, Wind und Mikrofonhardware. **Behalten Sie stets Ihre normale Umgebungswahrnehmung bei** — verlassen Sie sich nicht ausschließlich auf diese App als Ihre einzige Sicherheitsinformationsquelle.
 
 ---
 
 **Kontakt:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 
-Mit ❤️ für die D/HH-Community und die Akustikforschung erstellt.
+Mit ❤️ für die D/HH-Community und die akustische Forschung entwickelt.
 
 © 2026 Wingdings, Inc. All rights reserved.

@@ -28,7 +28,7 @@ Using the iPhone's stereo microphones, Vigilant Ear estimates the **bearing and 
 ### 🚨 It recognizes important sounds — and warns you
 An on-device classifier identifies **300+ everyday sounds** and watches the critical categories — **sirens, alarms, doorbells/knocks, a person nearby, and severe weather.** When one fires, you get a clear on-screen alert and an optional **push notification**, even when the app is in the background or your phone is asleep. Turn all of the alert categories off and the engine fully hibernates while backgrounded to save battery.
 
-Severe-weather warnings come from official public feeds: the United States' **NWS** is built in for free; the European **MeteoAlarm** network and **China's CMA** are part of Premium. Feeds are automatically narrowed to the ones that actually cover where you are.
+Severe-weather warnings come from official public feeds: the United States' **NWS** is built in for free; the European **MeteoGate** network and **China's CMA** are part of Premium. Feeds are automatically narrowed to the ones that actually cover where you are.
 
 ### 💬 Speaker Mode — live, directional captions *(Premium)*
 Turn on **Speaker Mode** and Vigilant Ear transcribes the people talking near you into **caption blocks, one per voice.** On-device speaker diarization tells the voices apart, so each person keeps their own block and quirky icon — *who* is saying *what* — with a small circle on the inner ring directing you to their room position. The live speaker is highlighted; older text scrolls away slowly or as space for new text is needed.
@@ -60,7 +60,7 @@ A one-time **Premium unlock** — with a free trial to start, and **not a subscr
 - **Speaker Auto-Translate** — on-device translation of nearby speech into your language.
 - **Constellation** — multi-iPhone shared hearing over Ultra-Wideband.
 - **Music ID** — ShazamKit song recognition.
-- **International weather feeds** — Europe (MeteoAlarm) and China (CMA).
+- **International weather feeds** — Europe (MeteoGate) and China (CMA).
 
 Free or Premium, **everything runs on the device** — the tier only changes which features are unlocked, never where your audio goes.
 

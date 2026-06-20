@@ -30,7 +30,7 @@ When you use certain features — or when the app needs them to function — **l
 
 *   **Map display**
     *   *What is sent:* Map tile requests; your map viewport and approximate location as needed to render the map
-    *   *Provider:* Google Maps (Android) · Apple Maps / MapKit (iOS)
+    *   *Provider:* Apple Maps / MapKit
 *   **Severe weather alerts**
     *   *What is sent:* Requests to public CAP/Atom weather feeds; your general region may be inferred from feed selection and device location
     *   *Provider:* U.S. National Weather Service, MeteoGate, WMO, and related public alert sources
@@ -42,7 +42,7 @@ When you use certain features — or when the app needs them to function — **l
     *   *Provider:* OpenStreetMap contributors via Overpass API
 *   **Subscriptions & purchases**
     *   *What is sent:* Purchase tokens and subscription status
-    *   *Provider:* Google Play (Android) · Apple App Store (iOS)
+    *   *Provider:* Apple App Store
 *   **In-app legal documents**
     *   *What is sent:* Standard web requests when you open Privacy Policy, Terms, or Support pages in the app
     *   *Provider:* GitHub Pages (document hosting)
@@ -68,7 +68,7 @@ We do **not**:
 
 You can:
 
-- **Revoke permissions** (microphone, location, notifications) in iOS Settings or Android system settings
+- **Revoke permissions** (microphone, location, notifications) in iOS Settings
 - **Disable Shazam music identification** in app preferences
 - **Turn off individual alert categories** (sirens, weather, doorbells, etc.)
 - **Stop background listening** when all alert categories are disabled
@@ -76,7 +76,7 @@ You can:
 
 ## Platform Guidelines
 
-Vigilant Ear follows Apple App Store and Google Play privacy requirements. We update this policy when our practices or platform obligations change.
+Vigilant Ear follows Apple App Store privacy requirements and Apple's guidelines for apps serving people with accessibility needs. We update this policy when our practices or platform obligations change.
 
 ## Changes to This Policy
 

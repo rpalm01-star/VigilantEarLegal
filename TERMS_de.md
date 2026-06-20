@@ -1,64 +1,64 @@
 # Nutzungsbedingungen für Vigilant Ear 👂🛰️
 
-**Gültig ab:** 6. Juni 2026
+**Datum des Inkrafttretens:** 6. Juni 2026
 
 ## 1. Annahme der Bedingungen
 
-Durch das Herunterladen, die Installation oder die Nutzung der mobilen Vigilant Ear-Anwendung ("App") erklären Sie sich mit diesen Nutzungsbedingungen ("Bedingungen") einverstanden. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, nutzen Sie die App bitte nicht.
+Durch das Herunterladen, Installieren oder Verwenden der mobilen Anwendung Vigilant Ear („App") stimmen Sie zu, an diese Nutzungsbedingungen („Bedingungen") gebunden zu sein. Wenn Sie diesen Bedingungen nicht zustimmen, verwenden Sie die App nicht.
 
 ## 2. Beschreibung des Dienstes
 
-Vigilant Ear ist eine unterstützende Anwendung, die entwickelt wurde, um gehörlosen und schwerhörigen Personen ein akustisches Bewusstsein in Echtzeit und eine Richtungsführung zu bieten. Die App nutzt das Mikrofon und die Ortungsdienste Ihres Geräts, um Geräusche (wie Sirenen und Fahrzeuge) zu erkennen und deren ungefähre Richtung sowie Entfernung auf einer Karte anzuzeigen.
+Vigilant Ear ist eine Hilfsanwendung, die darauf ausgelegt ist, gehörlosen und schwerhörigen Personen eine Echtzeit-Akustikwahrnehmung und Richtungsführung zu bieten. Die App verwendet das Mikrofon und die Standortdienste Ihres Geräts, um Geräusche (wie Sirenen und Fahrzeuge) zu erkennen und deren ungefähre Richtung und Entfernung auf einer Karte anzuzeigen.
 
 ## 3. Wichtiger Sicherheitshinweis
 
-**Vigilant Ear ist nur ein unterstützendes Werkzeug.** Es ist **kein** Ersatz für:
+**Vigilant Ear ist ausschließlich ein Hilfsmittel.** Es ist **kein** Ersatz für:
 
-- Normale visuelle Aufmerksamkeit
-- Professionelle Hörhilfen
-- Rettungsdienste
+- Normale visuelle Wahrnehmung
+- Professionelle Hörhilfe
+- Notfalldienste
 - Ihr eigenes Urteilsvermögen
 
-Die App erkennt möglicherweise nicht alle Geräusche, und die Richtungsschätzungen sind nur Näherungswerte. **Nutzen Sie immer Ihre eigene visuelle Bestätigung und Ihr eigenes Urteilsvermögen.** Verlassen Sie sich zu Ihrer Sicherheit niemals ausschließlich auf diese App.
+Die App erkennt möglicherweise nicht alle Geräusche, und Richtungsschätzungen sind ungefähr. **Verwenden Sie stets Ihre eigene visuelle Bestätigung und Ihr Urteilsvermögen.** Verlassen Sie sich niemals ausschließlich auf diese App für Ihre Sicherheit.
 
-## 4. Keine Garantie
+## 4. Keine Gewährleistung
 
-DIE APP WIRD "WIE BESEHEN" UND "WIE VERFÜGBAR" OHNE JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GARANTIE BEREITGESTELLT, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIE DER MARKTGÄNGIGKEIT, DER EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND DER NICHTVERLETZUNG VON RECHTEN DRITTER.
+DIE APP WIRD „WIE BESEHEN" UND „WIE VERFÜGBAR" OHNE JEGLICHE GEWÄHRLEISTUNGEN JEGLICHER ART, WEDER AUSDRÜCKLICH NOCH STILLSCHWEIGEND, BEREITGESTELLT, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF GEWÄHRLEISTUNGEN DER MARKTGÄNGIGKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG VON RECHTEN DRITTER.
 
-WIR GARANTIEREN NICHT, DASS DIE APP UNUNTERBROCHEN, FEHLERFREI ODER VÖLLIG PRÄZISE FUNKTIONIERT.
+WIR GEWÄHRLEISTEN NICHT, DASS DIE APP UNUNTERBROCHEN, FEHLERFREI ODER VOLLSTÄNDIG KORREKT SEIN WIRD.
 
 ## 5. Haftungsbeschränkung
 
-SOWEIT GESETZLICH ZULÄSSIG, HAFTEN **Vigilant Ear**, SEINE ENTWICKLER UND SEINE MUTTERGESELLSCHAFT NICHT FÜR INDIREKTE, ZUFÄLLIGE, BESONDERE, FOLGE- ODER STRAFSCHÄDEN, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF PERSONENSCHÄDEN, ENTGANGENEN GEWINN, DATENVERLUST ODER ANDERE SCHÄDEN, DIE SICH AUS DER NUTZUNG ODER DER UNMÖGLICHKEIT DER NUTZUNG DER APP ERGEBEN ODER DAMIT ZUSAMMENHÄNGEN.
+IM GRÖSSTMÖGLICHEN GESETZLICH ZULÄSSIGEN UMFANG HAFTEN **Vigilant Ear**, SEINE ENTWICKLER UND SEINE MUTTERGESELLSCHAFT NICHT FÜR INDIREKTE, ZUFÄLLIGE, BESONDERE, FOLGE- ODER STRAFSCHADENERSATZFORDERUNGEN, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF PERSONENSCHÄDEN, GEWINNVERLUSTE, DATENVERLUSTE ODER SONSTIGE SCHÄDEN, DIE AUS ODER IM ZUSAMMENHANG MIT DER NUTZUNG ODER DER UNFÄHIGKEIT ZUR NUTZUNG DER APP ENTSTEHEN.
 
-IN KEINEM FALL ÜBERSTEIGT UNSERE GESAMTHAFTUNG DEN BETRAG, DEN SIE (GEGEBENENFALLS) FÜR DIE APP BEZAHLT HABEN.
+IN KEINEM FALL ÜBERSTEIGT UNSERE GESAMTHAFTUNG DEN BETRAG, DEN SIE FÜR DIE APP BEZAHLT HABEN (FALLS ZUTREFFEND).
 
-## 6. Pflichten des Nutzers
+## 6. Nutzerverantwortlichkeiten
 
-Sie stimmen zu:
+Sie verpflichten sich:
 
-- Die App verantwortungsvoll und in Übereinstimmung mit allen geltenden Gesetzen zu nutzen
-- Sich nicht auf die App als einziges Mittel zur Wahrnehmung der Umgebung zu verlassen
-- Die App auf die neueste Version zu aktualisieren
-- Alle Fehler oder Probleme, auf die Sie stoßen, zu melden
+- Die App verantwortungsvoll und in Übereinstimmung mit allen geltenden Gesetzen zu verwenden
+- Sich nicht ausschließlich auf die App als Ihr einziges Mittel zur Situationswahrnehmung zu verlassen
+- Die App auf die neueste Version aktuell zu halten
+- Alle Fehler oder Probleme, die Sie feststellen, zu melden
 
 ## 7. Geistiges Eigentum
 
-Alle Inhalte, Designs, Codes und Marken in der App sind Eigentum von Vigilant Ear oder seinen Lizenzgebern. Ohne vorherige schriftliche Genehmigung dürfen Sie keinen Teil der App kopieren, modifizieren, verbreiten oder einem Reverse Engineering unterziehen.
+Alle Inhalte, Designs, Codes und Marken in der App gehören Vigilant Ear oder seinen Lizenzgebern. Sie dürfen keinen Teil der App ohne vorherige schriftliche Genehmigung kopieren, modifizieren, verteilen oder zurückentwickeln.
 
 ## 8. Kündigung
 
-Wir behalten uns das Recht vor, Ihren Zugang zur App jederzeit, mit oder ohne Vorankündigung und aus beliebigem Grund zu kündigen oder auszusetzen.
+Wir behalten uns das Recht vor, Ihren Zugang zur App jederzeit, mit oder ohne Vorankündigung, aus beliebigem Grund zu beenden oder auszusetzen.
 
-## 9. Geltendes Recht
+## 9. Anwendbares Recht
 
-Diese Bedingungen unterliegen den Gesetzen des Bundesstaates **Florida** und werden in Übereinstimmung mit diesen ausgelegt, ohne Rücksicht auf die Bestimmungen des Kollisionsrechts.
+Diese Bedingungen unterliegen den Gesetzen des Bundesstaates **Florida** und werden in Übereinstimmung mit diesen ausgelegt, ohne Rücksicht auf dessen Kollisionsrechtbestimmungen.
 
 ## 10. Änderungen der Bedingungen
 
-Wir können diese Bedingungen von Zeit zu Zeit aktualisieren. Wir werden die Benutzer über wesentliche Änderungen durch Aktualisierung des oben genannten Gültigkeitsdatums informieren. Ihre fortgesetzte Nutzung der App nach solchen Änderungen stellt die Annahme der neuen Bedingungen dar.
+Wir können diese Bedingungen von Zeit zu Zeit aktualisieren. Wir werden Nutzer über wesentliche Änderungen informieren, indem wir das obige Datum des Inkrafttretens aktualisieren. Ihre fortgesetzte Nutzung der App nach solchen Änderungen gilt als Zustimmung zu den neuen Bedingungen.
 
-## 11. Kontakt
+## 11. Kontaktieren Sie uns
 
 Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter:
 
@@ -66,9 +66,9 @@ Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter:
 
 ---
 
-*Vigilant Ear ist ein mit Sorgfalt entwickeltes Hilfsmittel für die Barrierefreiheit. Bitte nutzen Sie es verantwortungsvoll.* 
+*Vigilant Ear ist ein Barrierefreiheits-Werkzeug, das mit Sorgfalt entwickelt wurde. Bitte verwenden Sie es verantwortungsbewusst.*
 
-Mit ❤️ für die Gehörlosen- und Schwerhörigen-Community und die akustische Forschung entwickelt.
+Mit ❤️ für die D/HH-Community und die akustische Forschung entwickelt.
 
 © 2026 Wingdings, Inc.
-Alle Rechte vorbehalten
+All rights reserved

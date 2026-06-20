@@ -60,7 +60,7 @@ A one-time **Premium** unlock — with a free trial to start, and **not** a subs
 
 These are part of Premium and live in the **Premium Features** menu:
 - **Shazam (Music ID)** — Real-time environmental music identification mapped dynamically onto your spatial radar.
-- **International Weather Feeds** — Additional sources beyond the free U.S. NWS: Europe (MeteoAlarm) and China (CMA).  
+- **International Weather Feeds** — Additional sources beyond the free U.S. NWS: Europe (MeteoGate) and China (CMA).  
 
 ### How do I disable the microphone when the app is not in the foreground?
 

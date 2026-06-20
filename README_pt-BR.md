@@ -1,49 +1,49 @@
 # Vigilant Ear 👂🛡️ (Edição Apple)
 
-*Um radar acústico para quem não pode ouvir.*
+*Um radar acústico para quem não consegue ouvir.*
 
-Um aplicativo criado especificamente para a comunidade Surda/com deficiência auditiva! A maioria dos apps de reconhecimento de som diz *o que* é um som. **O Vigilant Ear diz onde ele está, quem o está produzindo e o que essa pessoa está dizendo** — transformando um iPhone num tricorder sônico em tempo real para descrever visualmente o som à sua volta.
+Um aplicativo desenvolvido especificamente para a comunidade Surda/DA! A maioria dos aplicativos de reconhecimento de som diz *o que* é um som. **O Vigilant Ear diz onde ele está, quem está fazendo e o que estão dizendo** — transformando um iPhone em um tricorder sônico em tempo real para descrever visualmente os sons ao seu redor.
 
-A direção e a distância de uma sirene. Uma batida atrás de você. As pessoas em uma conversa, desenhadas como vozes transcritas e separadas — cada uma legendada e posicionada direcionalmente por quem fala. Se alguém estiver falando um idioma que você não lê, suas palavras chegam **traduzidas para o seu.**
+A direção e a distância de uma sirene. Uma batida atrás de você. As pessoas em uma conversa, representadas como vozes transcritas separadas — cada uma com legenda e posicionamento direcional por falante. Se alguém está falando em um idioma que você não lê, as palavras chegam **traduzidas para o seu.**
 
-Tudo é executado no dispositivo. Nada é gravado, armazenado em cache ou enviado para lugar algum.
+Tudo roda no dispositivo. Nada é gravado, armazenado em cache ou enviado a nenhum lugar.
 
 ---
 
 ## Para quem é
 
-- **Pessoas surdas e com deficiência auditiva** que querem consciência situacional do som — não apenas "um som aconteceu", mas *o quê, onde, quem* e *o que foi dito.*
-- Qualquer pessoa que precise de **legendas ao vivo com direção e separação de quem fala**, ou de **tradução no dispositivo** dos amigos sentados por perto.
-- Entusiastas de pesquisa acústica e acessibilidade interessados em localização de som no dispositivo.
+- **Usuários Surdos e com deficiência auditiva** que desejam consciência situacional dos sons — não apenas "um som aconteceu", mas *o quê, onde, quem* e *o que foi dito.*
+- Qualquer pessoa que precise de **legendas ao vivo com direção e separação de falantes**, ou **tradução no dispositivo** de amigos sentados por perto.
+- Pesquisadores acústicos e entusiastas de acessibilidade interessados em localização de som no dispositivo.
 
-> O Vigilant Ear é um **recurso** de acessibilidade, não um dispositivo certificado de segurança crítica.
+> Vigilant Ear é um **auxílio** de acessibilidade, não um dispositivo certificado de segurança de vida.
 
 ---
 
 ## O que ele faz
 
 ### 🧭 Ele enxerga o som — direção e distância
-Usando os microfones estéreo do iPhone, o Vigilant Ear estima a **direção e a distância aproximada** dos sons à sua volta e os posiciona como pontos ao vivo em um anel de radar e em um mapa orientados pela sua direção. Mova-se, e os pontos mantêm sua posição no mundo real. Essa é a essência: consciência espacial de um mundo que você não pode ouvir.
+Usando os microfones estéreo do iPhone, o Vigilant Ear estima o **rumo e a distância aproximada** dos sons ao seu redor e os posiciona como pontos ao vivo em um anel de radar com cabeçote fixo e no mapa. Mova-se, e os pontos mantêm sua posição no mundo real. Este é o núcleo: consciência espacial de um mundo que você não pode ouvir.
 
-### 🚨 Ele reconhece sons importantes — e avisa você
-Um classificador no dispositivo identifica **mais de 300 sons do dia a dia** e monitora as categorias críticas — **sirenes, alarmes, campainhas/batidas, uma pessoa por perto e clima severo.** Quando uma delas dispara, você recebe um alerta claro na tela e uma **notificação push** opcional, mesmo com o app em segundo plano ou o telefone em repouso. Desative todas as categorias de alerta e o motor hiberna completamente em segundo plano para economizar bateria.
+### 🚨 Ele reconhece sons importantes — e o avisa
+Um classificador no dispositivo identifica **mais de 300 sons cotidianos** e monitora as categorias críticas — **sirenes, alarmes, campainhas/batidas, uma pessoa próxima e clima severo.** Quando um deles é ativado, você recebe um alerta claro na tela e uma **notificação push** opcional, mesmo quando o aplicativo está em segundo plano ou seu telefone está bloqueado. Desative todas as categorias de alerta e o motor hiberna completamente em segundo plano para economizar bateria.
 
-Os avisos de clima severo vêm de feeds públicos oficiais: o **NWS** dos Estados Unidos já vem incluído gratuitamente; a rede europeia **MeteoAlarm** e a **CMA** da China fazem parte do Premium. Os feeds são automaticamente restringidos àqueles que realmente cobrem o local onde você está.
+Alertas de mau tempo provêm de feeds públicos oficiais: o **NWS** dos Estados Unidos está integrado gratuitamente; a rede europeia **MeteoGate** e o **CMA** da China fazem parte do Premium. Os feeds são automaticamente filtrados para os que realmente cobrem onde você está.
 
-### 💬 Modo Interlocutor — legendas direcionais ao vivo *(Premium)*
-Ative o **Modo Interlocutor** e o Vigilant Ear transcreve as pessoas que conversam por perto em **blocos de legenda, um por voz.** A separação de vozes no dispositivo distingue quem fala, então cada pessoa mantém seu próprio bloco e ícone peculiar — *quem* está dizendo *o quê* — com um pequeno círculo no anel interno indicando a posição dela no ambiente. A pessoa que está falando no momento é destacada; o texto mais antigo desliza lentamente para fora ou conforme se precisa de espaço para texto novo.
+### 💬 Speaker Mode — legendas ao vivo e direcionais *(Premium)*
+Ative o **Speaker Mode** e o Vigilant Ear transcreve as pessoas que falam perto de você em **blocos de legenda, um por voz.** A diarização de falantes no dispositivo distingue as vozes, para que cada pessoa mantenha seu próprio bloco e ícone exclusivo — *quem* está dizendo *o quê* — com um pequeno círculo no anel interno indicando sua posição na sala. O falante ativo é destacado; textos mais antigos rolam lentamente ou conforme o espaço para novos textos é necessário.
 
-### 🌐 Tradução Automática do Interlocutor — leia em seu idioma uma língua que você não pode ouvir *(Premium)*
-Com o Modo Interlocutor ativado, quando uma pessoa por perto fala outro idioma, o Vigilant Ear o detecta e exibe as legendas dela **no seu idioma**, ao vivo, com a identificação da língua de origem na barra de título do bloco dela. Toda a cadeia — ouvir → separar quem fala → transcrever → traduzir → exibir — é executada **inteiramente no dispositivo**; o único momento de rede é um download único de pacote de idioma da Apple. Para uma pessoa surda com um amigo que fala outra língua, isso significa ler o lado dele da conversa em tempo real **sem precisar saber qual é esse idioma e escolhê-lo de antemão**.
+### 🌐 Speaker Auto-Translate — leia um idioma que você não pode ouvir, no seu próprio *(Premium)*
+Com o Speaker Mode ativado, quando uma pessoa próxima fala outro idioma, o Vigilant Ear o detecta e renderiza as legendas **no seu idioma**, ao vivo, com a identificação do idioma de origem na barra de título do bloco. Toda a cadeia — ouvir → separar falantes → transcrever → traduzir → exibir — roda **inteiramente no dispositivo**; o único momento de rede é um download único de pacote de idioma da Apple. Para uma pessoa surda com um amigo que fala outro idioma, isso significa ler o lado da conversa dele em tempo real **sem precisar saber de antemão e escolher aquele idioma.**
 
-### 🎵 Consciência de música e transmissões *(Premium)*
-O **ShazamKit** identifica a música tocando à sua volta e exibe o título, com detecção automática de assinatura quando a música muda. E quando uma voz parece vir de uma TV ou rádio, em vez de uma pessoa presente no ambiente, ela é marcada com um **📻** em vez de ser confundida com alguém presente — as palavras ainda aparecem; elas apenas são identificadas com honestidade.
+### 🎵 Identificação de música e transmissões *(Premium)*
+O **ShazamKit** identifica músicas tocando ao seu redor e exibe o título com detecção automática de mudança de assinatura de música. E quando uma voz parece vir de uma TV ou rádio em vez de uma pessoa na sala, ela é marcada com um **📻** em vez de ser confundida com alguém presente — as palavras ainda aparecem; elas são apenas rotuladas honestamente.
 
 ### 🛰️ Constellation — muitos iPhones, um ouvido compartilhado *(Premium)*
-Com dois ou mais iPhones com Ultra-Wideband (a maioria desde o iPhone 11), o modo **Constellation** os pareia para que possam perceber a posição uns dos outros (via Nearby Interaction / UWB da Apple) e combinar o que cada um ouve em uma imagem única e muito mais precisa de onde um som está vindo — uma espécie de **sonar de abertura sintética** passivo e distribuído. Seu uso é restrito a dispositivos com o hardware adequado.
+Com dois ou mais iPhones habilitados para Ultra-Wideband (maioria desde o iPhone 11), o modo **Constellation** os emparelha para que possam perceber a posição um do outro (via Nearby Interaction / UWB da Apple) e fundir o que cada um ouve em uma imagem única e muito mais precisa de onde um som está vindo — uma espécie de **sonar de abertura sintética** distribuído e passivo. Restrito a dispositivos com o hardware adequado.
 
-### 🗺️ Mapas, ruas e previsão de trajeto
-As direções dos sons são projetadas em coordenadas GPS reais e desenhadas em uma visualização de mapa. Os sons de veículos são **encaixados nas ruas próximas** (via feeds de dados de vias de código aberto) e seus trajetos são previstos, de modo que um carro passando seja lido como movendo-se *ao longo da rua* em vez de vagar através dos prédios. (Experimente a demonstração do caminhão de bombeiros para ter uma prévia.)
+### 🗺️ Mapas, vias e previsão de trajeto
+Os rumos de som são projetados em coordenadas GPS reais e desenhados em uma visualização de mapa. Sons de veículos são **fixados às ruas próximas** (via feeds de dados de estradas de código aberto) e seus trajetos são previstos, de modo que um carro passando aparece se movendo *pela rua* em vez de derivar pelos prédios. (Experimente a demonstração do caminhão de bombeiros para visualizar.)
 
 ---
 
@@ -51,48 +51,48 @@ As direções dos sons são projetadas em coordenadas GPS reais e desenhadas em 
 
 O núcleo de segurança é **gratuito, para sempre**:
 
-- **Alertas locais de som** — alarmes, sirenes, campainhas/batidas e uma pessoa por perto — detectados no dispositivo, com avisos na tela e por push.
-- **Avisos de clima severo do NWS** para os Estados Unidos.
+- **Alertas de som locais** — alarmes, sirenes, campainhas/batidas e uma pessoa próxima — detectados no dispositivo, com avisos na tela e por push.
+- **Alertas de mau tempo NWS** para os Estados Unidos.
 
-Um desbloqueio **Premium** único — com um teste gratuito para começar, e **não uma assinatura** — adiciona toda a camada de consciência situacional:
+Um **desbloqueio Premium** único — com um período de avaliação gratuito para começar, e **não uma assinatura** — adiciona a camada completa de consciência situacional:
 
-- **Modo Interlocutor** — legendas ao vivo, direcionais e por interlocutor.
-- **Tradução Automática do Interlocutor** — tradução no dispositivo da fala próxima para o seu idioma.
-- **Constellation** — audição compartilhada entre vários iPhones via Ultra-Wideband.
-- **ID de Música** — reconhecimento de músicas com o ShazamKit.
-- **Feeds internacionais de clima** — Europa (MeteoAlarm) e China (CMA).
+- **Speaker Mode** — legendas ao vivo, direcionais e por falante.
+- **Speaker Auto-Translate** — tradução no dispositivo da fala próxima para o seu idioma.
+- **Constellation** — audição compartilhada entre múltiplos iPhones via Ultra-Wideband.
+- **Music ID** — reconhecimento de músicas pelo ShazamKit.
+- **Feeds internacionais de clima** — Europa (MeteoGate) e China (CMA).
 
-Gratuito ou Premium, **tudo é executado no dispositivo** — o nível apenas muda quais recursos estão desbloqueados, nunca para onde vai o seu áudio.
+Gratuito ou Premium, **tudo roda no dispositivo** — o plano só muda quais recursos são desbloqueados, nunca para onde seu áudio vai.
 
 ---
 
-## Como funciona (por dentro)
+## Como funciona (por baixo dos panos)
 
-O Vigilant Ear é um pipeline **local-first, no dispositivo**. O áudio bruto é capturado em uma tap de alta prioridade, copiado e distribuído para atores de processamento independentes sem nunca travar a interface:
+Vigilant Ear é um pipeline **local, no dispositivo**. O áudio bruto é capturado em um tap de alta prioridade, copiado e distribuído para atores de processamento independentes sem nunca travar a interface:
 
 ```mermaid
 graph TD
-    A["Tap do microfone estéreo"] --> B["Gate de downsampling a 16 kHz"]
-    B --> C["Classificador de som (Apple Neural Engine)"]
-    B --> D["TDOA / beamforming → direção e distância"]
-    B --> E["Separação de vozes (WeSpeaker, ANE) → quem"]
-    E --> F["Reconhecimento de fala (SpeechAnalyzer) → palavras"]
-    F --> G["Tradução no dispositivo → seu idioma"]
-    C & D & F & G --> H["Anel de radar · legendas · mapa · alertas"]
+    A["Stereo mic tap"] --> B["16 kHz downsample gate"]
+    B --> C["Sound classifier (Apple Neural Engine)"]
+    B --> D["TDOA / beamforming → bearing & distance"]
+    B --> E["Speaker diarization (WeSpeaker, ANE) → who"]
+    E --> F["Speech recognition (SpeechAnalyzer) → words"]
+    F --> G["On-device translation → your language"]
+    C & D & F & G --> H["Radar ring · captions · map · alerts"]
 ```
 
-- **Matemática espacial** — transformadas rápidas de Fourier, Time-Difference-of-Arrival e rastreamento de Doppler rodam em tarefas de segundo plano destacadas.
-- **Fala** — o `SpeechAnalyzer`/`SpeechTranscriber` do iOS 26 cuidam da transcrição; os embeddings do **WeSpeaker** agrupam o áudio em vozes distintas; o framework de **Translation** da Apple faz a tradução no dispositivo.
-- **Concorrência** — o isolamento estrito do Swift 6 mantém a tap do microfone, a matemática acústica e o loop de renderização do `CADisplayLink` do mapa nitidamente separados, de modo que a interface permaneça fluida (meta de 60 FPS de deslize do marcador) enquanto todo o resto roda a pleno vapor em segundo plano.
-- **Eficiência** — o gate de downsampling a 16 kHz reduz em cerca de 80% os dados que o classificador vê, mantendo leve a pegada ativa e ainda mais leve o modo "sempre ouvindo" em segundo plano.
+- **Matemática espacial** — transformadas rápidas de Fourier, Diferença de Tempo de Chegada (TDOA) e rastreamento Doppler rodam em tarefas separadas em segundo plano.
+- **Fala** — `SpeechAnalyzer`/`SpeechTranscriber` do iOS 26 tratam da transcrição; embeddings do **WeSpeaker** agrupam o áudio em vozes distintas; o framework **Translation** da Apple realiza a tradução no dispositivo.
+- **Concorrência** — o isolamento estrito do Swift 6 mantém o tap do microfone, a matemática acústica e o loop de renderização `CADisplayLink` do mapa separados de forma limpa, de modo que a interface permanece fluida (meta de 60 FPS para o deslizamento de marcadores) enquanto todo o resto roda em alta carga no segundo plano.
+- **Eficiência** — o gate de downsampling para 16 kHz reduz os dados que o classificador processa em ~80%, mantendo o consumo ativo leve e o modo "sempre ouvindo" em segundo plano ainda mais leve.
 
 ---
 
 ## Privacidade
 
-- **No dispositivo, sempre.** Toda a classificação, matemática espacial, transcrição, separação de vozes (assinatura/identificação de quem fala) e tradução acontecem no seu iPhone. O áudio bruto nunca é gravado, armazenado em cache ou transmitido.
-- **As transcrições são efêmeras.** As legendas vivem na memória durante a sessão e não são persistidas nem enviadas.
-- **Sem telemetria.** Nenhum dado de análise, log de falhas ou de uso é enviado a qualquer servidor.
+- **No dispositivo, sempre.** Toda classificação, matemática espacial, transcrição, diarização (assinatura/identificação de falante) e tradução acontecem no seu iPhone. O áudio bruto nunca é gravado, armazenado em cache ou transmitido.
+- **As transcrições são efêmeras.** As legendas vivem na memória durante a sessão e não são persistidas ou enviadas.
+- **Sem telemetria.** Nenhum dado analítico, log de falha ou dado de uso é enviado a nenhum servidor.
 
 Detalhes completos: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
 
@@ -100,26 +100,26 @@ Detalhes completos: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT
 
 ## Hardware e plataformas
 
-- **iPhone (experiência completa).** Um iPhone com microfone estéreo é necessário para a localização de direção. Recomenda-se iPhone 13 ou mais recente.
-- **iPad (apenas legendas).** Os iPads expõem um único canal de áudio, então transcrevem e legendam, mas não conseguem calcular direção — uma boa opção para uma tela grande fixa.
-- **Constellation** precisa de **Ultra-Wideband** — iPhone 11 ou posterior, excluindo os modelos SE e "e".
+- **iPhone (experiência completa).** Um iPhone com microfones estéreo é necessário para localização direcional. Recomendado iPhone 13 ou mais recente.
+- **iPad (apenas legendas).** iPads expõem um único canal de áudio, portanto transcrevem e legendam, mas não conseguem calcular direção — uma boa opção para uma tela grande e estacionária.
+- **Constellation** requer **Ultra-Wideband** — iPhone 11 ou posterior, exceto os modelos SE e "e".
 
 ---
 
-## Localização de idiomas
+## Localização
 
-Totalmente localizado — interface, alertas e legendas — em **inglês, espanhol, português, francês, alemão, árabe, japonês e chinês simplificado** (8 idiomas). Eles seguem a configuração de localidade do sistema ou podem ser escolhidos manualmente no app.
+Totalmente localizado — interface, alertas e legendas — em **inglês, espanhol, português, francês, alemão, árabe, japonês e chinês simplificado** (8 idiomas). Seguem a configuração de localidade do sistema ou podem ser escolhidos manualmente no aplicativo.
 
 ---
 
-## Status e isenção de responsabilidade
+## Status e aviso legal
 
-O Vigilant Ear é um **recurso experimental de acessibilidade acústica**, não um utilitário certificado de segurança crítica. A resolução da localização varia conforme o ambiente, o clima, o vento e o hardware do microfone. **Mantenha sempre sua consciência ambiental normal** — não dependa dele como sua única fonte de informações de segurança.
+Vigilant Ear é um **auxílio acústico-de-acessibilidade experimental**, não um utilitário certificado de segurança de vida. A resolução de localização varia conforme o entorno, o clima, o vento e o hardware do microfone. **Mantenha sempre sua consciência ambiental normal** — não confie nele como sua única fonte de informação de segurança.
 
 ---
 
 **Contato:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 
-Feito com ❤️ para a comunidade D/HH e a pesquisa acústica.
+Feito com ❤️ para a comunidade S/DA e para pesquisa acústica.
 
 © 2026 Wingdings, Inc. All rights reserved.
