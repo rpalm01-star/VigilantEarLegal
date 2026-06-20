@@ -61,18 +61,14 @@ Carried forward from SharedSoundStore:
 
 ### Star topology (initial)
 
-```mermaid
-graph TD
-    HUB["HUB DEVICE"]
-    HUB --> CM["ConstellationManager — transport, UWB, wire"]
-    HUB --> SSS["SharedSoundStore — safety fusion, UI"]
-    HUB --> FE["ConstellationFusionEngine — geometry + acoustic"]
-    HUB --> AC["AcousticCoordinator — ingest fused to HUD"]
-    N1["NODE — local pipeline"] -->|MCSession metadata| HUB
-    N2["NODE — local pipeline"] -->|MCSession metadata| HUB
-    HUB -->|optional audio on demand| N1
-    HUB -->|optional audio on demand| N2
-```
+**Hub device**
+
+- ConstellationManager: transport, UWB, wire
+- SharedSoundStore: safety fusion, UI
+- ConstellationFusionEngine: geometry + acoustic math
+- AcousticCoordinator: ingest fused output to HUD
+
+**Nodes** send MCSession metadata to the hub. Hub may request optional audio on high-interest events.
 
 ### Responsibility split
 
@@ -111,37 +107,19 @@ Existing 1-byte framing in ConstellationManager.Wire:
 
 ### New types
 
-    struct PeerPose: Codable, Sendable {
-        let deviceID: String
-        let lat: Double
-        let lon: Double
-        let headingDegrees: Double      // true north, from MicrophoneManager
-        let accuracyMeters: Double
-        let timestamp: Date
-    }
+**PeerPose** fields: deviceID, lat, lon, headingDegrees (true north from MicrophoneManager), accuracyMeters, timestamp
 
-    struct FusedSourceUpdate: Codable, Sendable {
-        let clusterKey: String
-        let canonicalLabel: String
-        let lat: Double
-        let lon: Double
-        let bearingDegrees: Double
-        let rangeMeters: Double
-        let confidence: Double
-        let contributingDevices: [String]
-        let fusionMethod: String      // rayIntersection, multilateration, srpPhat
-        let isApproaching: Bool
-        let timestamp: Date
-    }
+**FusedSourceUpdate** fields: clusterKey, canonicalLabel, lat, lon, bearingDegrees, rangeMeters, confidence, contributingDevices, fusionMethod (rayIntersection / multilateration / srpPhat), isApproaching, timestamp
 
 ### Extended SharedSoundEvent fields
 
-    // Add to existing SharedSoundEvent (backward-compatible decode)
-    let localBearingDegrees: Double       // device-relative TDOA bearing
-    let compassBearingDegrees: Double?    // true-north when GPS + heading valid
-    let dopplerRate: Float?
-    let peakFrequencyHz: Double?
-    let captureTimestamp: Date            // audio frame time, not lastUpdateTime
+Add to existing SharedSoundEvent (backward-compatible decode):
+
+- localBearingDegrees (device-relative TDOA bearing)
+- compassBearingDegrees (true-north when GPS + heading valid)
+- dopplerRate
+- peakFrequencyHz
+- captureTimestamp (audio frame time, not lastUpdateTime)
 
 ---
 
@@ -377,44 +355,39 @@ Work is organized into 8 PR-sized steps. Each step lists **goal**, **files to to
 
 ## Data Flow (Target State)
 
-```mermaid
-graph TD
-    A["AVAudioEngine tap"] --> B["AcousticProcessingPipeline"]
-    B --> C["AcousticCoordinator.ingest"]
-    C --> D["MapManager — local targets"]
-    C --> E["SharedSoundStore.broadcastIfNeeded"]
-    E --> F["ConstellationManager"]
-    F --> G["MCSession to peers"]
-    G --> H["SharedSoundStore.ingestRemote"]
-    G --> I["ConstellationFusionEngine.ingestRemote"]
-    J["MicrophoneManager 1 Hz pose"] --> F
-    J --> K["ConstellationFusionEngine.updateGeometry"]
-    L["Heartbeat 1 Hz"] --> M["ConstellationFusionEngine.fuse"]
-    M --> N["Map / Sonar HUD / Direction Ring"]
-    M --> O["ConstellationManager.broadcastFused — hub optional"]
-```
+1. AVAudioEngine tap to AcousticProcessingPipeline (GCC-PHAT bearing, ML, Doppler, GPS)
+2. AcousticCoordinator.ingest to MapManager (local targets) and SharedSoundStore.broadcastIfNeeded
+3. ConstellationManager sends over MCSession to peers
+4. Peers: SharedSoundStore.ingestRemote (safety) and ConstellationFusionEngine.ingestRemote
+5. MicrophoneManager publishes pose at 1 Hz to ConstellationManager and fusion engine geometry update
+6. Heartbeat at 1 Hz: ConstellationFusionEngine.fuse to Map / Sonar HUD / Direction Ring
+7. Hub optionally broadcasts fused updates back to nodes
 
 ---
 
 ## File Index (Planned Additions)
 
-    apple/VigilantEar/VigilantEar/Sources/
-    ├── Constellation/                          NEW directory
-    │   ├── ConstellationGeometry.swift
-    │   ├── ConstellationFusionEngine.swift
-    │   ├── ConstellationTracker.swift
-    │   ├── FusedSource.swift
-    │   └── SRPPhatEngine.swift                 optional split from FFTProcessor
-    ├── Simulators/
-    │   └── ConstellationSimulator.swift        NEW
-    └── Managers/
-        └── ConstellationManager.swift          extend wire + feed fusion
+**New Sources/Constellation/**
 
-    apple/VigilantEar/VigilantEarTests/
-    └── Constellation/                          NEW
-        ├── ConstellationGeometryTests.swift
-        ├── RayIntersectionTests.swift
-        └── MultilaterationTests.swift
+- ConstellationGeometry.swift
+- ConstellationFusionEngine.swift
+- ConstellationTracker.swift
+- FusedSource.swift
+- SRPPhatEngine.swift (optional split from FFTProcessor)
+
+**New Sources/Simulators/**
+
+- ConstellationSimulator.swift
+
+**Modify**
+
+- Sources/Managers/ConstellationManager.swift (extend wire + feed fusion)
+
+**New VigilantEarTests/Constellation/**
+
+- ConstellationGeometryTests.swift
+- RayIntersectionTests.swift
+- MultilaterationTests.swift
 
 ---
 
