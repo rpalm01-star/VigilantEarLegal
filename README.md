@@ -8,6 +8,12 @@ A siren's direction and distance. A knock behind you. The people in a conversati
 
 Everything runs on the device. Nothing is recorded, cached, or sent anywhere.
 
+- 🧭 **Direction, not just detection.** Most apps tell you *what* a sound is — Vigilant Ear shows you *where* it is, *who's* making it, and *what they're saying.*
+- 🔒 **Private by design.** All recognition, captioning, and translation happen on your iPhone. Nothing is recorded or sent anywhere.
+- 🛰️ **More phones, one shared ear.** Constellation links Ultra-Wideband iPhones to fuse what each one hears into a sharper, directional picture.
+- 🔋 **Light on battery.** An always-listening mode that hibernates when idle — engineered to run light enough to leave on.
+- 👁️ **Made for the Deaf/HoH community.** Haptics, high-contrast visuals, and color-independent cues throughout.
+
 ---
 
 ## Who it's for
