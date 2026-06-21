@@ -145,9 +145,20 @@ Work is organized into 8 PR-sized steps. Each step lists **goal**, **files to to
 
 ---
 
-### Step 1 — Wire + Pose Foundation
+### Step 1 — Wire + Pose Foundation + Mesh HUD (in progress)
 
-**Goal:** Richer metadata on the mesh without changing fusion logic yet. Every phone publishes its pose; sound events carry bearing, heading, and Doppler.
+**Goal:** Richer metadata on the mesh without changing fusion logic yet. Every phone publishes its pose; sound events carry bearing, heading, and Doppler. **Acoustic HUD** shows live mesh debug at the **top** of the sonar panel.
+
+**Implemented (2026-06-20):**
+
+- Wire kinds: `telemetry=3`, `syncPing=7`, `syncPong=8`
+- `MeshTelemetry` broadcast at 1 Hz (pose, heading, pitch/roll, GPS accuracy, battery, thermal, monotonic + wall clock)
+- Controller election: lexicographically lowest `VE-xxxx` is CONTROLLER; others NODE
+- Clock sync: hub NTP-style ping/pong every 3 s; offset + RTT on hub, offset estimate on nodes
+- `ConstellationMeshHUDSection` at top of Acoustic HUD (orange dot = controller, cyan = node)
+- Per-device stats: HDG, TILT, GPS accuracy, UWB dist/bearing/age, SYNC quality (OK / DRIFT / STALE / SOLO)
+
+**Still TODO in Step 1:**
 
 **Files:**
 
