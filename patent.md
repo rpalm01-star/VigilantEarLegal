@@ -31,48 +31,34 @@ This is the property that most sharply distinguishes the system from prior-art d
 
 ---
 
-### Claim 1 — Distributed Asynchronous Threat Boosting
-* **Why it matters:** The siren you almost didn't hear is the one that kills you. A distant or muffled emergency sound often sits *just below* what one phone will alert on — especially in traffic, wind, or with the device in a pocket. Array gain is how the group catches what any single ear missed, before the user has to guess whether to look behind them.
+### Claim 1 — Distributed Time Sync & UWB-Anchored Bearing Fusion
+* **Why it matters:** This is the core accessibility payoff. One phone can tell you *something* happened; two phones can tell you **where**. Acting in concert across phones — firing or sampling in phase — needs a shared time reference, and bearing fusion needs a spatial baseline.
+* **Concept:** Acting in concert across phones needs a shared time reference, and recovering location from bearings needs geometry. Classic arrays demand surveyed positions and wired sync; hand-held phones have neither.
+* **Mechanism:** An **NTP-style ping/pong** over the local P2P mesh (`handleSyncPing`/`handleSyncPong`) estimates each node's clock offset to schedule actions on a shared monotonic timeline. Concurrently, each node derives a compass-referenced bearing from local stereo GCC-PHAT TDOA. The mesh **ray-intersects** the bearings, correcting the inter-phone **baseline with UWB ranging** when phones are in range (~9 m). Output: a single located source.
+* **Why it's unique:** A usable shared clock and bearing-fusion array assembled ad-hoc from hand-held consumer phones over a P2P mesh. UWB supplies the baseline a fixed array gets from its mounts.
+* **Honest scope:** This demonstrates coordinated scheduling (millisecond-domain offset) and bearings-only triangulation, not microsecond live-audio TDOA multilateration.
+
+### Claim 2 — Distributed Asynchronous Threat Boosting (Array Gain)
+* **Why it matters:** The siren you almost didn't hear is the one that kills you. A distant or muffled emergency sound often sits *just below* what one phone will alert on. Array gain catches what any single ear missed.
 * **Concept:** Traditional systems require an event to breach a hard threshold on a single microphone. Our mesh broadcasts *sub-threshold* detections (gate: `confidence > revealThreshold * 0.5`) to peers as metadata.
-* **Mechanism:** A probabilistic-OR fusion `1 − (1 − a)(1 − b)` (in `ConstellationFusionEngine.intersectPair`) combines the confidence scores of the same event heard by different nodes. Two faint detections that each miss their own gate can fuse into one actionable event when the **geometry-weighted** fused confidence crosses the per-profile reveal threshold (`AcousticCoordinator` alert path). This is distinct from `SharedSoundStore`'s additive co-heard confirmation — that path never gates local alerts. *(Illustrative: 0.40 + 0.40 → 0.64. Real gates are per-profile, and the fused confidence is further weighted by geometry, GPS accuracy, and ray residual.)*
-* **Why it's unique:** It operates on **asynchronous metadata, not raw audio** — one ~few-hundred-byte `SharedSoundEvent` per detection vs. ~32 KB/s/node to stream PCM (the Demo Director prints the measured figure live). This is a **statistical** analog of array gain — boosting marginal detections in the *confidence* domain — **not** coherent waveform summing / beamforming.
-* **Caveat:** Statistical, not coherent, gain. Requires ≥2 nodes hearing the same event within the fusion window, with sufficient bearing separation for the fusion engine to produce a fused confidence.
+* **Mechanism:** A probabilistic-OR fusion `1 − (1 − a)(1 − b)` combines the confidence scores of the same event heard by different nodes. Two faint detections that each miss their own gate can fuse into one actionable event when the **geometry-weighted** fused confidence crosses the reveal threshold.
+* **Why it's unique:** It operates on **asynchronous metadata, not raw audio** — one ~few-hundred-byte `SharedSoundEvent` per detection vs. ~32 KB/s/node to stream PCM.
+* **Caveat:** Statistical, not coherent, gain. Requires ≥2 nodes hearing the same event within the fusion window.
 
-### Claim 2 — Mesh-Aware Distributed AGC
-* **Why it matters:** Urban noise doesn't just make sounds harder to hear — it makes them harder to *place*. A loud horn reflected off a building can look like it's coming from the wrong block on a distant phone, sending the user the wrong way. Self-leveling the array from shared environment data keeps the map honest in the noisy streets where Deaf users actually walk.
-* **Concept:** A loud event near one phone makes distant phones pick up multipath echoes that pollute the spatial map.
-* **Mechanism:** Each node broadcasts its local acoustic environment (`audioAmbient`, `audioSpeech`, `audioNoiseFloor`). `ConstellationManager.updateGlobalAcousticEnvironment` computes a **global noise floor** (averaged, so one noisy node can't desensitize the array) and a **global duck target** (the MAX speech RMS across nodes). `AudioEnvironmentObserver` retunes each node's local AGC to match. Telemetry is **staleness-filtered** (a quiet-but-connected peer ages out after ~6 s) and recomputed on the 1 Hz tick.
-* **Why it's unique:** The array self-levels from shared metadata alone — no raw-audio streaming.
-* **Caveat:** Needs ≥2 connected nodes with recent telemetry. The multipath-suppression benefit is mechanistic; it is best *shown* with a live 2–3-phone desk demo (one loud node, watch a distant node's gain duck), which the code supports but does not numerically self-validate.
+### Claim 3 — Resiliency & Anti-Spoofing Protocol
+* **Why it matters:** An array that drops a peer the moment the link hiccups is useless in the real world (elevators, crowds). Additionally, an acoustic mesh must protect itself against adversarial nodes injecting false threat metadata or spoofing GPS coordinates to trigger false spatial alarms.
+* **Mechanism (Jamming):** The Constellation link is connectionless and self-healing — a 1 Hz heartbeat + 15 s wire-liveness window holds a peer through a jam, and packets resume with no re-pairing.
+* **Mechanism (Spoof Cordon):** `ConstellationManager.detectGpsSpoof` flags a node whose GPS teleports at an impossible ground speed (>~80 m/s) while its UWB range to a peer holds steady; the node's telemetry then falls back to its **last trusted position**, so peers + fusion keep the array on real geometry instead of the spoofed GPS.
 
-### Claim 3A — Coordinated Mesh Timing
-* **Why it matters:** A mesh that can't act together is just separate alarms going off at random times. Shared timing lets the group fire, sample, or inject in concert — so coordinated demonstrations (and future coordinated sensing) actually behave as one array, not a bag of phones.
-* **Concept:** Acting in concert across phones — firing or sampling in phase — needs a shared time reference. Classic coherent arrays demand microsecond sync and surveyed positions; hand-held phones have neither.
-* **Mechanism:** An **NTP-style ping/pong** over the local P2P mesh (`handleSyncPing`/`handleSyncPong`) estimates each node's clock offset; coordinated actions (e.g. an audio injection) are then scheduled on a **shared monotonic-nanosecond timeline** (`DispatchTime.uptimeNanoseconds`) so every node fires phase-aligned.
-* **Why it's unique:** A usable shared clock from consumer phones over an ad-hoc P2P mesh — no GPS-disciplined oscillator, no wired PTP, no infrastructure. Coordinated actions ride one timeline.
-* **Honest scope:** The offset is a **millisecond-domain estimate bounded by the live round-trip time** — the *nanosecond* granularity is the **scheduling clock**, not the offset precision. This demonstrates **coordinated playback**, not microsecond cross-phone sample alignment of live mic streams (i.e. not live TDOA).
+### Claim 4 — Secure Metadata Payloads
+* **Why it matters:** Deaf users coordinate with the people around them constantly — captions and short text need to move phone-to-phone when LTE doesn't, without waiting on a server. Communicating acoustic events across consumer devices must not leak raw audio or identifiable voice data.
+* **Mechanism:** Captions/text and acoustic metadata relay peer-to-peer over the same UWB-anchored P2P channel. The mesh transmits only highly compressed, one-way semantic descriptors (e.g., `ML label`, `confidence`, `timestamp`, `bearing`). Raw audio never leaves the device.
 
-### Claim 3B — UWB-Anchored Bearing Fusion
-* **Why it matters:** This is the core accessibility payoff. One phone can tell you *something* happened; two phones can tell you **where** — behind you, to your left, approaching from the cross street. Bearing fusion is how "alert" becomes "orient," which is what a hearing person gets for free and a Deaf person doesn't.
-* **Concept:** One phone hears only a **bearing** — a direction, not a place. Two phones hearing one source from different angles can recover its **location**.
-* **Mechanism:** Each node derives one compass-referenced bearing from its **own local stereo GCC-PHAT TDOA** (`FFTProcessor`) and shares it as metadata with a confidence. The mesh **ray-intersects** the two bearings (`ConstellationGeometry.intersectRays`), correcting the inter-phone **baseline with UWB ranging** when phones are in range (~9 m), and fuses the two confidences via the Claim-1 noisy-OR. Output: a single located source with a residual + a fused confidence neither phone could produce alone. Every fused source is tagged `.rayIntersection`.
-  * **GPS-spoof cordon:** `ConstellationManager.detectGpsSpoof` flags a node whose GPS teleports at an impossible ground speed (>~80 m/s) while its UWB range to a peer holds steady; the node's telemetry then falls back to its **last trusted position**, so peers + fusion keep the array on real geometry instead of the spoofed GPS.
-* **Why it's unique:** A bearing-fusion array assembled ad-hoc from hand-held phones — UWB supplies the baseline a fixed array gets from its mounts, so the phones can be anywhere, and the geometry survives active GPS spoofing.
-* **Honest scope:** This is **bearings-only triangulation, not TDOA multilateration and not a coherent synthetic aperture.** Today's solver fuses 2 bearings (`.rayIntersection`); a 3+-phone **over-determined least-squares** solve (`.triangulationLSQ`) is a defined future path that needs a 3rd app-running phone to validate. Bearings are field-accurate; **range** is GPS/UWB-baseline-limited (close-range range leans on UWB; wide-baseline orientation is GPS-limited). For an acoustic source, TDOA multilateration would require µs cross-phone sync we don't have, and SRP-PHAT would require raw-audio streaming that contradicts Claim 1 — both are deliberately out of scope.
-
-### Supporting mechanisms
-
-* **Mesh resiliency (packet jamming)**
-  * **Why it matters:** An array that drops a peer the moment the link hiccups is useless in the real world — elevators, crowds, RF congestion. Self-healing keeps the safety net up when the network gets ugly.
-  * **Mechanism:** the Constellation link is connectionless and self-healing — a 1 Hz heartbeat + 15 s wire-liveness window holds a peer through a jam, and packets resume with no re-pairing (`NetworkMeshLink`).
-
-* **Secure mesh payloads**
-  * **Why it matters:** Deaf users coordinate with the people around them constantly — captions and short text need to move phone-to-phone when LTE doesn't, without waiting on a server.
-  * **Mechanism:** captions/text relay peer-to-peer over the same UWB-anchored P2P channel as ranging + sync — no cell/Wi-Fi infrastructure (`broadcastCaption`).
-
-* **On-device translation + neural TTS**
-  * **Why it matters:** A multilingual group shouldn't need cloud round-trips to understand each other in the field. On-device translate + speak keeps latency human and keeps the conversation off the wire.
-  * **Mechanism:** mesh text is translated and synthesized entirely on-device (`TTSAudioGenerator` + the Translation framework), fully offline.
+### Claim 5 — On-Device Synthesis & Mesh-Aware Distributed AGC
+* **Why it matters:** Urban noise makes sounds harder to place. A loud horn reflected off a building can look like it's coming from the wrong block. Furthermore, a multilingual group shouldn't need cloud round-trips to understand each other.
+* **Mechanism (AGC):** Each node broadcasts its local acoustic environment (`audioAmbient`, `audioSpeech`, `audioNoiseFloor`). `ConstellationManager.updateGlobalAcousticEnvironment` computes a **global noise floor** and a **global duck target** (MAX speech RMS). `AudioEnvironmentObserver` retunes each node's local AGC to match.
+* **Mechanism (Synthesis):** Mesh text is translated and synthesized entirely on-device (`TTSAudioGenerator` + the Translation framework), fully offline.
+* **Why it's unique:** The array self-levels from shared metadata alone, and translation + speech synthesis is handled on edge devices adapting to the shared acoustic baseline.
 
 ---
 
@@ -82,14 +68,14 @@ The original plan proposed three demo *options* (ghost-node log replay; 3-simula
 
 | Demo | Proves | How |
 |---|---|---|
-| **Sub-Threshold Boost** | Claim 1 | Two sub-threshold detections fuse via noisy-OR across nodes; prints the measured metadata-vs-PCM byte contrast. |
-| **Distributed AGC** | Claim 2 | Reads the live global floor + max-speech duck + this node's retuned AGC. |
-| **Time-Synced Fire** | Claim 3A | Fires one sound on the shared ns clock; reports the RTT-bounded offset estimate. |
-| **Triangulation Sim** | Claim 3B | Runs the **real** `ConstellationFusionEngine` on two synthetic bearings (one with a 2° heading error) to a known truth point; reports metres-from-truth. Deterministic, no peer — boardroom-safe. |
-| **Triangulation Live-Desk** | Claim 3B | Two real phones hear one external sound (e.g. a third device's speaker); reads the live fused source. The real product path. |
-| **GPS Spoofing** | Claim 3B | Teleports the GPS; the real detector flags it and the cordon holds the last trusted fix. |
-| **Packet Jamming** | Supporting | Drops outbound packets; the link recovers with no re-pairing. |
-| **V1/V2 Text · V1/V2 TTS** | Supporting | Caption relay over the mesh; on-device translate + TTS. |
+| **Time-Synced Fire** | Claim 1 | Fires one sound on the shared ns clock; reports the RTT-bounded offset estimate. |
+| **Triangulation Sim** | Claim 1 | Runs the **real** `ConstellationFusionEngine` on two synthetic bearings (one with a 2° heading error) to a known truth point; reports metres-from-truth. Deterministic, no peer — boardroom-safe. |
+| **Triangulation Live-Desk** | Claim 1 | Two real phones hear one external sound (e.g. a third device's speaker); reads the live fused source. The real product path. |
+| **Sub-Threshold Boost** | Claim 2 | Two sub-threshold detections fuse via noisy-OR across nodes; prints the measured metadata-vs-PCM byte contrast. |
+| **GPS Spoofing** | Claim 3 | Teleports the GPS; the real detector flags it and the cordon holds the last trusted fix. |
+| **Packet Jamming** | Claim 3 | Drops outbound packets; the link recovers with no re-pairing. |
+| **V1/V2 Text · V1/V2 TTS** | Claim 4 & 5 | Caption relay over the mesh (Claim 4); on-device translate + TTS (Claim 5). |
+| **Distributed AGC** | Claim 5 | Reads the live global floor + max-speech duck + this node's retuned AGC. |
 
 **Recommendation:** Use **Triangulation Sim** and the metadata-byte readout for deterministic, repeatable proof (CI-friendly), and the **Live-Desk** demos (Triangulation Live-Desk, Distributed AGC, GPS Spoofing) on 2–3 real phones for investor/examiner demonstrations — the HUD visualizes the fusion live.
 
