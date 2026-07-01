@@ -1,0 +1,5 @@
+# Patent strategy / PPA working docs — MUST NOT be published to this public repo.
+# Kept out of version control to avoid a printed-publication disclosure before filing.
+patent.md
+patent/
+*.ppa.md
