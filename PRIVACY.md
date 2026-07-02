@@ -33,9 +33,9 @@ When you use certain features — or when the app needs them to function — **l
     *   *Provider:* Apple Maps / MapKit
 *   **Severe weather alerts**
     *   *What is sent:* Requests to public CAP/Atom weather feeds; your general region may be inferred from feed selection and device location
-    *   *Provider:* U.S. National Weather Service, MeteoGate, WMO, and related public alert sources
+    *   *Provider:* U.S. National Weather Service, MeteoGate, WMO, Korea Meteorological Administration, and related public alert sources
 *   **Music identification (optional)**
-    *   *What is sent:* Short audio fingerprints when music is detected and Shazam is enabled (can be turned off in settings)
+    *   *What is sent:* Short audio fingerprints — never raw audio — when music is detected and Shazam is enabled (can be turned off in settings)
     *   *Provider:* Apple Shazam / ShazamKit
 *   **Road context**
     *   *What is sent:* Anonymous Overpass API queries based on map sector around your location
