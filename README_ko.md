@@ -1,4 +1,4 @@
-# Vigilant Ear 👂🛡️ (Apple Edition)
+# Vigilant Ear 👂️ (Apple Edition)
 
 *소리를 들을 수 없는 사람들을 위한 음향 레이더.*
 
