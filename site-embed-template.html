@@ -1,0 +1,120 @@
+<!--
+  Google Sites embed template for vigilantear.wingdingssocial.com doc pages.
+
+  Renders a markdown file from this repo (via raw.githubusercontent.com) with
+  marked.js + GitHub dark styling on the site's black background.
+
+  To wire a page: Google Sites editor → Insert → Embed → Embed code → paste
+  this whole file, then change ONLY the `const file = '...'` line below to the
+  target .md filename. To update an existing page: double-click the embed →
+  </> Edit code → replace.
+
+  Maintenance notes (learned the hard way, 2026-07-05):
+  - marked is PINNED. Loading "latest" broke every code block into
+    "[object Object]" when marked v13 changed the renderer API. If you bump the
+    version, re-check a page that has fenced code blocks and tables.
+  - The GitHub CSS must be the -dark variant. The auto variant follows the
+    visitor's light/dark preference, which put near-black text on our black
+    background for light-mode visitors.
+-->
+<!-- Google Translate Widget -->
+<div id="google_translate_element" style="padding: 20px 40px 0 40px; background: #000000; text-align: right;"></div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<!-- GitHub Markdown styling — DARK variant pinned explicitly.
+     (The auto variant follows the visitor's light/dark setting, which made
+     GitHub's near-black light-mode text render on our black background.) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown-dark.min.css">
+
+<style>
+  /* Contrast fixes for GitHub-dark styles sitting on a pure #000 page:
+     GitHub assumes #0d1117 — its table borders / zebra rows are invisible on black. */
+  .markdown-body { color-scheme: dark; }
+  .markdown-body table th,
+  .markdown-body table td { border: 1px solid #4a545e; }
+  .markdown-body table th { background-color: rgba(255, 255, 255, 0.12); }
+  .markdown-body table tr { background-color: transparent; }
+  .markdown-body table tr:nth-child(2n) { background-color: rgba(255, 255, 255, 0.06); }
+  .markdown-body pre { background-color: #161b22; border: 1px solid #30363d; }
+  .markdown-body code:not(pre code) { background-color: rgba(255, 255, 255, 0.14); }
+</style>
+
+<!-- Container (increase min-height if your README + diagram is very tall) -->
+<div id="readme-container" class="markdown-body"
+     style="width: 100%;
+            min-height: 1950px;        /* ← drag the embed box taller in Google Sites if needed */
+            padding: 40px 40px;
+            box-sizing: border-box;
+            background: #000000;">
+</div>
+
+<!-- marked is PINNED to a major version: v13 changed the renderer API, and loading
+     "latest" is what broke code blocks into [object Object]. -->
+<script src="https://cdn.jsdelivr.net/npm/marked@16/lib/marked.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+
+<script>
+  // === CHANGE ONLY THESE THREE LINES ===
+  const owner  = 'rpalm01-star';
+  const repo   = 'VigilantEarLegal';
+  const branch = 'main';
+  const file   = 'iOSDynamicSoundPacks.md';
+
+  const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${file}`;
+
+  const escapeHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+  // Custom renderer so ```mermaid blocks become diagrams.
+  // marked v13+ passes a token OBJECT ({ text, lang }), not (code, infostring).
+  marked.use({
+    renderer: {
+      code(token) {
+        const lang = (token.lang || '').toLowerCase().trim();
+        if (lang === 'mermaid') {
+          return `<pre class="mermaid">${escapeHtml(token.text)}</pre>`;
+        }
+        return `<pre><code class="language-${lang}">${escapeHtml(token.text)}</code></pre>`;
+      }
+    }
+  });
+
+  // Mermaid setup — dark theme to match the page
+  mermaid.initialize({
+    startOnLoad: false,
+    theme: 'dark',
+    flowchart: { useMaxWidth: true }
+  });
+
+  fetch(rawUrl)
+    .then(response => {
+      if (!response.ok) throw new Error('Failed to load file');
+      return response.text();
+    })
+    .then(markdown => {
+      const container = document.getElementById('readme-container');
+
+      // Render Markdown + Mermaid blocks
+      container.innerHTML = marked.parse(markdown);
+
+      // Fix relative images
+      container.querySelectorAll('img').forEach(img => {
+        if (img.src && !img.src.startsWith('http')) {
+          const base = `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/`;
+          img.src = base + img.getAttribute('src').replace(/^\.?\//, '');
+        }
+      });
+
+      // Render the Mermaid diagram(s)
+      mermaid.run();
+    })
+    .catch(err => {
+      console.error(err);
+      document.getElementById('readme-container').innerHTML =
+        `<p style="color:#d32f2f; padding:40px;">Could not load the .md file — is the repo public?</p>`;
+    });
+</script>
