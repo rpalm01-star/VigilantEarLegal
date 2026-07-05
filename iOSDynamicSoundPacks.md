@@ -73,6 +73,10 @@ This controls how each sound looks and feels in the app — one entry per class,
     "hapticCount": 1,
     "category": "animal",
     "icon": "bird"
+  },
+  "Background": {
+    "category": "ignored",
+    "threshold": 1.1
   }
 }
 ```
@@ -90,7 +94,7 @@ Every key is optional — omit anything and a sensible default applies:
 | `threshold` | Confidence (0–1) required before the sound registers. Raise it if a class false-alarms; lower it if it's missed | `0.5` |
 | `maxRange` | Rough maximum detection range shown on the map, in feet | `150` |
 
-You don't need an entry for your `Background` class — just leave it out and it will never alert (its detections fall below any configured sound).
+**Your `Background` class needs the special entry shown above**: `"threshold": 1.1` makes it impossible to report (confidence never exceeds 1.0), so it silently absorbs ambient audio instead of ever showing up as a detection. Don't just omit it — an unlisted class still gets the default 0.5 threshold and *would* appear in the app as a generic sound.
 
 ## Step 5 — Zip it
 
