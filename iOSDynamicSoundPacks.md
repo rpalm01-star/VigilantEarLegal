@@ -8,6 +8,23 @@ Custom packs **stack on top of** the built-in detector. Turning a pack on never 
 
 ---
 
+## Hard requirements — get these exactly right
+
+A pack that ignores any of these will import but behave badly (constant false alerts, or nothing detected). These are not suggestions:
+
+1. **Include a `Background` class — mandatory, not optional.** Your model must have a class trained on your real ambient environments (quiet room, street, the fan running). Fill it with 15+ real recordings and mark it with `"category": "ignored"` and `"threshold": 1.1` in `profiles.json`. **Without a Background class your pack will fire constantly on silence** — a sound classifier is forced to pick one of its classes for every moment of audio, so with no "none of these" bucket it labels your quiet room as whatever it most resembles.
+2. **Trim silence out of your training clips.** A clip labeled "Owl" that is 20 seconds of silence with one hoot teaches the model that *silence is an owl*. Crop clips tight to the target sound, or the model learns the gaps.
+3. **Name the model file exactly `model.mlmodel` or `model.mlpackage`.** Any other name → import fails.
+4. **Use a Create ML *Sound Classification* model.** Image/text/tabular models are rejected.
+5. **`profiles.json` keys must exactly match the model's class labels** — i.e. your training folder names, case and underscores included.
+6. **Add `gateClasses`** (see below). Without it, music and TV will trigger the pack. This is the single biggest false-alarm control.
+7. **Zip the files at the top level** (or inside one folder — no deeper). `pack.json` must be findable.
+8. **Balance your classes.** Don't give one class 100 clips and another 10 — the model will lean toward the big one. Cap generously-sampled classes so counts are within ~3× of each other.
+
+The rest of this guide walks through each of these in order.
+
+---
+
 ## Step 1 — Gather training audio
 
 Make a folder for each sound you want recognized, named for that sound, and fill it with example recordings:
