@@ -60,7 +60,7 @@ Your model is a *specialist*: it's good at telling *which* of your sounds it's h
 
 `gateClasses` chains them: **your pack's detections are only reported when Apple's model is *concurrently* hearing one of the listed built-in categories.** A bird pack gates on Apple's bird labels, so if Apple doesn't think there's a bird, your pack stays silent — no matter how confident it is. This single line eliminates the vast majority of music, TV, and quiet-room false alarms, because Apple's model scores those far below the gate. Leave it out and the pack runs ungated (fine for testing, chatty in the real world).
 
-Useful built-in labels for a **bird** pack: `bird`, `bird_vocalization`, `bird_chirp_tweet`, `bird_squawk`, `pigeon_dove_coo`, `crow_caw`, `owl_hoot`, `bird_flapping`, `fowl`, `rooster_crow`. Other pack types pick their own gates from Apple's [Sound Analysis sound identifiers](https://developer.apple.com/documentation/soundanalysis/sn_classifier_identifier_version1) — e.g. a dog-breed pack gates on `dog_bark`/`dog_howl`, a vehicle pack on `vehicle`/`engine`.
+The complete built-in bird-like set for a **bird** pack (use all of them — more gate coverage catches more real birds): `bird`, `fowl`, `bird_vocalization`, `bird_chirp_tweet`, `bird_squawk`, `pigeon_dove_coo`, `crow_caw`, `owl_hoot`, `bird_flapping`, `chicken`, `chicken_cluck`, `rooster_crow`, `turkey_gobble`, `duck_quack`, `goose_honk`. Other pack types pick their own gates from Apple's [Sound Analysis sound identifiers](https://developer.apple.com/documentation/soundanalysis/sn_classifier_identifier_version1) — e.g. a dog-breed pack gates on `dog_bark`/`dog_howl`, a vehicle pack on `vehicle`/`engine`.
 
 ## Step 4 — Write `profiles.json` (optional, recommended)
 
