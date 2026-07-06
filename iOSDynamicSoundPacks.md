@@ -60,7 +60,19 @@ Your model is a *specialist*: it's good at telling *which* of your sounds it's h
 
 `gateClasses` chains them: **your pack's detections are only reported when Apple's model is *concurrently* hearing one of the listed built-in categories.** A bird pack gates on Apple's bird labels, so if Apple doesn't think there's a bird, your pack stays silent — no matter how confident it is. This single line eliminates the vast majority of music, TV, and quiet-room false alarms, because Apple's model scores those far below the gate. Leave it out and the pack runs ungated (fine for testing, chatty in the real world).
 
-The complete built-in bird-like set for a **bird** pack (use all of them — more gate coverage catches more real birds): `bird`, `fowl`, `bird_vocalization`, `bird_chirp_tweet`, `bird_squawk`, `pigeon_dove_coo`, `crow_caw`, `owl_hoot`, `bird_flapping`, `chicken`, `chicken_cluck`, `rooster_crow`, `turkey_gobble`, `duck_quack`, `goose_honk`. Other pack types pick their own gates from Apple's [Sound Analysis sound identifiers](https://developer.apple.com/documentation/soundanalysis/sn_classifier_identifier_version1) — e.g. a dog-breed pack gates on `dog_bark`/`dog_howl`, a vehicle pack on `vehicle`/`engine`.
+Gate a **bird** pack on the *generic* Apple bird labels plus any specific ones your model can actually name: `bird`, `fowl`, `bird_vocalization`, `bird_chirp_tweet`, `bird_squawk`, `bird_flapping` — and, if your pack has the matching species, `crow_caw` and `pigeon_dove_coo`. Other pack types pick their own gates from Apple's [Sound Analysis sound identifiers](https://developer.apple.com/documentation/soundanalysis/sn_classifier_identifier_version1) — e.g. a dog-breed pack gates on `dog_bark`/`dog_howl`, a vehicle pack on `vehicle`/`engine`.
+
+### `muteClasses` — defer to Apple on sounds your model can't name
+
+`gateClasses` opens your pack when Apple thinks there's a bird. But Apple can *specifically* name some birds your model may not cover — a duck, goose, owl, turkey, chicken, or rooster. If Apple hears a duck and your pack has no duck class, your model will force-sort that quack into its nearest species and confidently call it the wrong bird. That's a misidentification, not a false alarm from silence — and `gateClasses` alone won't stop it, because a duck also trips the generic `bird` gate.
+
+`muteClasses` fixes it: **when Apple is confident about one of these labels, your pack stays silent for that moment** and defers to Apple's specific call. List the built-in labels for sounds you *don't* cover:
+
+```json
+"muteClasses": ["owl_hoot", "duck_quack", "goose_honk", "turkey_gobble", "chicken", "chicken_cluck", "rooster_crow"]
+```
+
+Rule of thumb: a specific Apple bird label goes in **`gateClasses`** if your model has a matching (or better) class for it, and in **`muteClasses`** if it doesn't. Everything Apple can name that you can't → mute it, and let Apple be right.
 
 ## Step 4 — Write `profiles.json` (optional, recommended)
 
