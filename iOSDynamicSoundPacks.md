@@ -79,7 +79,7 @@ Your model is a *specialist*: it's good at telling *which* of your sounds it's h
 
 **Gating is only available when Apple already has a category near your sound.** If your pack is for something Apple's ~300-class model doesn't know — a specific factory machine, a medical-device beep, a custom doorbell — there is no built-in label to gate on, so you leave `gateClasses` out and the pack runs ungated. That's expected, not a mistake. For those packs your **Background class stops being one defense among several and becomes the only thing standing between you and constant false alerts** — so invest heavily in it (lots of real ambient recordings) and raise your per-class thresholds.
 
-Gate a **bird** pack on the *generic* Apple bird labels plus any specific ones your model can actually name: `bird`, `fowl`, `bird_vocalization`, `bird_chirp_tweet`, `bird_squawk`, `bird_flapping` — and, if your pack has the matching species, `crow_caw` and `pigeon_dove_coo`. Other pack types pick their own gates from Apple's [Sound Analysis sound identifiers](https://developer.apple.com/documentation/soundanalysis/sn_classifier_identifier_version1) — e.g. a dog-breed pack gates on `dog_bark`/`dog_howl`, a vehicle pack on `vehicle`/`engine`.
+Gate a **bird** pack on the *generic* Apple bird labels plus any specific ones your model can actually name: `bird`, `fowl`, `bird_vocalization`, `bird_chirp_tweet`, `bird_squawk`, `bird_flapping` — and, if your pack has the matching species, `crow_caw` and `pigeon_dove_coo`. Other pack types pick their own gates from the [full list of built-in sound identifiers](#appendix-built-in-sound-identifiers-ios-265) in the appendix below — e.g. a dog-breed pack gates on `dog_bark`/`dog_howl`, a vehicle pack on `engine`/`truck`.
 
 ### `muteClasses` — defer to Apple on sounds your model can't name
 
@@ -182,3 +182,90 @@ A couple of built-in behaviors to know about: custom pack detections are **not**
 ## Updating a pack
 
 Retrain or edit, re-zip, and import again with the same `id` in `pack.json` — the old version is replaced in place.
+
+---
+
+## Appendix: Built-in Sound Identifiers (iOS 26.5)
+
+These are the built-in sound categories Apple's on-device Sound Analysis classifier can recognize — the labels available for `gateClasses` and `muteClasses` above. Apple no longer publishes this list on their developer site, so the table below was read directly from the classifier on-device (`SNClassifierIdentifier.version1`).
+
+**Known classifications as of July 2026 (iOS 26.5) — 303 labels.** Apple can add, remove, or rename these in any OS update, so treat this as a point-in-time snapshot: gating on a label that a future OS drops simply means that gate never fires (your pack stays silent), and a newly added label won't exist until you gate on it. Use the exact spelling shown (lowercase, underscores).
+
+| # | Identifier | Identifier | Identifier | Identifier |
+|---|---|---|---|---|
+| 1 | `accordion` | `crowd` | `humming` | `singing_bowl` |
+| 2 | `acoustic_guitar` | `crumpling_crinkling` | `insect` | `sink_filling_washing` |
+| 3 | `air_conditioner` | `crushing` | `keyboard_musical` | `siren` |
+| 4 | `air_horn` | `crying_sobbing` | `keys_jangling` | `sitar` |
+| 5 | `aircraft` | `cutlery_silverware` | `knock` | `skateboard` |
+| 6 | `airplane` | `cymbal` | `laughter` | `skiing` |
+| 7 | `alarm_clock` | `didgeridoo` | `lawn_mower` | `slap_smack` |
+| 8 | `ambulance_siren` | `disc_scratching` | `lion_roar` | `slurp` |
+| 9 | `applause` | `dishes_pots_pans` | `liquid_dripping` | `smoke_detector` |
+| 10 | `artillery_fire` | `dog` | `liquid_filling_container` | `snake_hiss` |
+| 11 | `babble` | `dog_bark` | `liquid_pouring` | `snake_rattle` |
+| 12 | `baby_crying` | `dog_bow_wow` | `liquid_sloshing` | `snare_drum` |
+| 13 | `baby_laughter` | `dog_growl` | `liquid_splashing` | `sneeze` |
+| 14 | `bagpipes` | `dog_howl` | `liquid_spraying` | `snicker` |
+| 15 | `banjo` | `dog_whimper` | `liquid_squishing` | `snoring` |
+| 16 | `basketball_bounce` | `door` | `liquid_trickle_dribble` | `speech` |
+| 17 | `bass_drum` | `door_bell` | `mallet_percussion` | `squeak` |
+| 18 | `bass_guitar` | `door_slam` | `mandolin` | `steel_guitar_slide_guitar` |
+| 19 | `bassoon` | `door_sliding` | `marimba_xylophone` | `steelpan` |
+| 20 | `bathtub_filling_washing` | `double_bass` | `mechanical_fan` | `stream_burbling` |
+| 21 | `battle_cry` | `drawer_open_close` | `microwave_oven` | `subway_metro` |
+| 22 | `bee_buzz` | `drill` | `mosquito_buzz` | `synthesizer` |
+| 23 | `beep` | `drum` | `motorboat_speedboat` | `tabla` |
+| 24 | `bell` | `drum_kit` | `motorcycle` | `tambourine` |
+| 25 | `belly_laugh` | `duck_quack` | `music` | `tap` |
+| 26 | `bicycle` | `electric_guitar` | `nose_blowing` | `tearing` |
+| 27 | `bicycle_bell` | `electric_piano` | `oboe` | `telephone` |
+| 28 | `bird` | `electric_shaver` | `ocean` | `telephone_bell_ringing` |
+| 29 | `bird_chirp_tweet` | `electronic_organ` | `orchestra` | `theremin` |
+| 30 | `bird_flapping` | `elk_bugle` | `organ` | `thump_thud` |
+| 31 | `bird_squawk` | `emergency_vehicle` | `owl_hoot` | `thunder` |
+| 32 | `bird_vocalization` | `engine` | `percussion` | `thunderstorm` |
+| 33 | `biting` | `engine_accelerating_revving` | `person_running` | `tick` |
+| 34 | `blender` | `engine_idling` | `person_shuffling` | `tick_tock` |
+| 35 | `boat_water_vehicle` | `engine_knocking` | `person_walking` | `timpani` |
+| 36 | `boiling` | `engine_starting` | `piano` | `toilet_flush` |
+| 37 | `booing` | `eruption` | `pig_oink` | `toothbrush` |
+| 38 | `boom` | `finger_snapping` | `pigeon_dove_coo` | `traffic_noise` |
+| 39 | `bowed_string_instrument` | `fire` | `playing_badminton` | `train` |
+| 40 | `bowling_impact` | `fire_crackle` | `playing_hockey` | `train_horn` |
+| 41 | `brass_instrument` | `fire_engine_siren` | `playing_squash` | `train_wheels_squealing` |
+| 42 | `breathing` | `firecracker` | `playing_table_tennis` | `train_whistle` |
+| 43 | `burp` | `fireworks` | `playing_tennis` | `trombone` |
+| 44 | `bus` | `flute` | `playing_volleyball` | `truck` |
+| 45 | `camera` | `fly_buzz` | `plucked_string_instrument` | `trumpet` |
+| 46 | `car_horn` | `foghorn` | `police_siren` | `tuning_fork` |
+| 47 | `car_passing_by` | `fowl` | `power_tool` | `turkey_gobble` |
+| 48 | `cat` | `french_horn` | `power_windows` | `typewriter` |
+| 49 | `cat_meow` | `frog` | `printer` | `typing` |
+| 50 | `cat_purr` | `frog_croak` | `race_car` | `typing_computer_keyboard` |
+| 51 | `cello` | `frying_food` | `rail_transport` | `ukulele` |
+| 52 | `chainsaw` | `gargling` | `railroad_car` | `underwater_bubbling` |
+| 53 | `chatter` | `gasp` | `rain` | `vacuum_cleaner` |
+| 54 | `cheering` | `giggling` | `raindrop` | `vehicle_skidding` |
+| 55 | `chewing` | `glass_breaking` | `rapping` | `vibraphone` |
+| 56 | `chicken` | `glass_clink` | `ratchet_and_pawl` | `violin_fiddle` |
+| 57 | `chicken_cluck` | `glockenspiel` | `rattle_instrument` | `water` |
+| 58 | `children_shouting` | `gong` | `reverse_beeps` | `water_pump` |
+| 59 | `chime` | `goose_honk` | `ringtone` | `water_tap_faucet` |
+| 60 | `choir_singing` | `guitar` | `rooster_crow` | `waterfall` |
+| 61 | `chopping_food` | `guitar_strum` | `rope_skipping` | `whale_vocalization` |
+| 62 | `chopping_wood` | `guitar_tapping` | `rowboat_canoe_kayak` | `whispering` |
+| 63 | `chuckle_chortle` | `gunshot_gunfire` | `sailing` | `whistling` |
+| 64 | `church_bell` | `gurgling` | `saw` | `whoosh_swoosh_swish` |
+| 65 | `civil_defense_siren` | `hair_dryer` | `saxophone` | `wind` |
+| 66 | `clapping` | `hammer` | `scissors` | `wind_chime` |
+| 67 | `clarinet` | `hammond_organ` | `screaming` | `wind_instrument` |
+| 68 | `click` | `harmonica` | `scuba_diving` | `wind_noise_microphone` |
+| 69 | `clock` | `harp` | `sea_waves` | `wind_rustling_leaves` |
+| 70 | `coin_dropping` | `harpsichord` | `sewing_machine` | `wood_cracking` |
+| 71 | `cough` | `hedge_trimmer` | `sheep_bleat` | `writing` |
+| 72 | `cow_moo` | `helicopter` | `shofar` | `yell` |
+| 73 | `cowbell` | `hi_hat` | `shout` | `yodeling` |
+| 74 | `coyote_howl` | `hiccup` | `sigh` | `zipper` |
+| 75 | `cricket_chirp` | `horse_clip_clop` | `silence` | `zither` |
+| 76 | `crow_caw` | `horse_neigh` | `singing` |  |
