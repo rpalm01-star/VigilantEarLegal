@@ -44,13 +44,23 @@ A tiny manifest describing the pack:
   "name": "SoCal Birder's Companion",
   "version": "1.0",
   "author": "Your Name",
-  "classes": ["Mourning_Dove", "House_Finch", "Background"]
+  "classes": ["Mourning_Dove", "House_Finch", "Background"],
+  "gateClasses": ["bird", "bird_vocalization", "bird_chirp_tweet", "pigeon_dove_coo", "crow_caw"]
 }
 ```
 
 - **`name`** is required — it's what appears in the app's pack list.
 - **`id`** identifies the pack for updates: re-importing a pack with the same `id` replaces the old version in place. Any unique reverse-DNS-style string works.
 - **`classes`** is documentation for humans. The app reads the true class list from the model itself, so a mismatch won't break anything (it's just noted in the log).
+- **`gateClasses`** (optional, strongly recommended) is the single most effective tool for stopping false positives. See below.
+
+### `gateClasses` — let Apple's model be your bouncer
+
+Your model is a *specialist*: it's good at telling *which* of your sounds it's hearing, but it has no idea what "not one of my sounds" is (that's what the Background class helps with). Apple's built-in classifier is a *generalist* trained on ~300 everyday sounds — it's very good at the coarse question "is there a bird at all?"
+
+`gateClasses` chains them: **your pack's detections are only reported when Apple's model is *concurrently* hearing one of the listed built-in categories.** A bird pack gates on Apple's bird labels, so if Apple doesn't think there's a bird, your pack stays silent — no matter how confident it is. This single line eliminates the vast majority of music, TV, and quiet-room false alarms, because Apple's model scores those far below the gate. Leave it out and the pack runs ungated (fine for testing, chatty in the real world).
+
+Useful built-in labels for a **bird** pack: `bird`, `bird_vocalization`, `bird_chirp_tweet`, `bird_squawk`, `pigeon_dove_coo`, `crow_caw`, `owl_hoot`, `bird_flapping`, `fowl`, `rooster_crow`. Other pack types pick their own gates from Apple's [Sound Analysis sound identifiers](https://developer.apple.com/documentation/soundanalysis/sn_classifier_identifier_version1) — e.g. a dog-breed pack gates on `dog_bark`/`dog_howl`, a vehicle pack on `vehicle`/`engine`.
 
 ## Step 4 — Write `profiles.json` (optional, recommended)
 
@@ -134,7 +144,8 @@ A couple of built-in behaviors to know about: custom pack detections are **not**
 | "No model.mlpackage or model.mlmodel found" | The model file has a different name. Rename it to exactly `model.mlmodel` (or `model.mlpackage`). |
 | "The model is not a sound classifier…" | The model isn't a Create ML **Sound Classification** model — image/text/tabular models can't be used. Retrain with the Sound Classification template. |
 | Pack imports but a sound never triggers | Its confidence isn't reaching the threshold. Lower that class's `threshold` (try `0.35`), and add more varied training clips. |
-| A sound triggers constantly on ambient noise | Add (or expand) the `Background` class with recordings of the false-triggering environment, retrain, and re-import. You can also raise that class's `threshold`. |
+| A sound triggers constantly on ambient noise, music, or TV | Add `gateClasses` to `pack.json` (see above) — this is the biggest lever by far. Also add/expand the `Background` class with recordings of the offending environment, then retrain and re-import. Raising the class `threshold` (e.g. `0.8`) helps too. |
+| Real sounds are detected, but so are a few wrong ones | Two consecutive detections are already required, and `gateClasses` filters most noise. For the stragglers, nudge that specific class's `threshold` up toward `0.85–0.9`. |
 | Names/haptics from profiles.json don't apply | The keys in `profiles.json` must match the model's class labels (your training folder names) exactly, including case and underscores. |
 
 ## Updating a pack
