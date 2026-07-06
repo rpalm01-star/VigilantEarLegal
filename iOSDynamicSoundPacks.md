@@ -68,7 +68,7 @@ A tiny manifest describing the pack:
 
 - **`name`** is required — it's what appears in the app's pack list.
 - **`id`** identifies the pack for updates: re-importing a pack with the same `id` replaces the old version in place. Any unique reverse-DNS-style string works.
-- **`classes`** is documentation for humans. The app reads the true class list from the model itself, so a mismatch won't break anything (it's just noted in the log).
+- **`classes`** is documentation only. The app reads the true class list from the model itself, so a mismatch won't break anything (it's just noted in the log).
 - **`gateClasses`** (optional, strongly recommended) is the single most effective tool for stopping false positives. See below.
 
 ### `gateClasses` — let Apple's model be your bouncer
