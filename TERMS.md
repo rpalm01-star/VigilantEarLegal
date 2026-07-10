@@ -70,5 +70,8 @@ If you have any questions about these Terms, please contact us at:
 
 Made with ❤️ for the D/HH community and acoustic research.
 
-© 2026 Wingdings, Inc.
-All rights reserved
+![Wingdings, Inc.](https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/WingdingsLogo.png)
+
+**© 2026 Wingdings, Inc.**  
+All rights reserved.  
+Patent Pending

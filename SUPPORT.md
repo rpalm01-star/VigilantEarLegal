@@ -76,5 +76,8 @@ Acute sounds like alarms and firetruck sirens are relatively easy for the sound 
 
 Made with ❤️ for the D/HH community and acoustic research.
 
-© 2026 Wingdings, Inc.
-All rights reserved
+![Wingdings, Inc.](https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/WingdingsLogo.png)
+
+**© 2026 Wingdings, Inc.**  
+All rights reserved.  
+Patent Pending
