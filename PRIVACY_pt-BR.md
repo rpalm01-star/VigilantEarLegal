@@ -1,97 +1,110 @@
 # Política de Privacidade do Vigilant Ear 👂🛰️
 
-**Data de Vigência:** 7 de junho de 2026
+**Data de vigência:** 11 de julho de 2026
 
 ## Introdução
 
-Vigilant Ear ("nós", "nos" ou "nosso") está comprometido em proteger sua privacidade. Esta Política de Privacidade explica quais informações o aplicativo processa, o que permanece no seu dispositivo e quando dados limitados podem ser enviados pela internet para fornecer recursos específicos.
+O Vigilant Ear (“nós”, “nos” ou “nosso”) está comprometido em proteger sua privacidade. Esta Política de Privacidade explica quais informações o app processa, o que permanece no seu dispositivo e quando dados limitados podem ser enviados pela internet para fornecer recursos específicos.
 
-## Privacidade em Resumo
+## Privacidade em resumo
 
-- **A detecção acústica principal roda no seu dispositivo.** Classificação de som, rastreamento direcional e lógica de alertas são projetados para funcionar localmente usando o microfone e os sensores do seu celular.
-- **Não vendemos seus dados** e não usamos SDKs de publicidade ou análise comportamental.
-- **Não armazenamos nem enviamos gravações de áudio.** O áudio do microfone é processado em tempo real para detecção; ele não é salvo como arquivo de som pelo Vigilant Ear.
-- **Alguns recursos usam a internet** — mapas, feeds de alertas meteorológicos, identificação de música opcional, dados de vias, compras na loja de aplicativos e (no iOS) registro de diagnóstico mínimo. Esses são descritos a seguir.
-- **Você mantém o controle.** Você pode desabilitar a identificação de música do Shazam, desativar categorias de alertas, revogar permissões nas configurações do sistema ou parar a escuta em segundo plano a qualquer momento.
+- **A detecção acústica central roda no seu dispositivo.** Classificação de som, rastreamento direcional, legendas ao vivo e lógica de alertas são projetados para funcionar localmente usando o microfone e os sensores do seu telefone.
+- **Não vendemos seus dados** e não usamos publicidade nem SDKs de análise comportamental.
+- **Não armazenamos nem enviamos gravações de áudio.** O áudio do microfone é processado em tempo real para detecção e (quando habilitado) legendas; o Vigilant Ear não o salva como arquivo de som para reprodução posterior ou análise na nuvem.
+- **Alguns recursos usam a internet** — mapas, feeds de clima severo, identificação opcional de música, dados de vias, compras na loja de apps, tráfego opcional de malha multi-telefone entre *seus* dispositivos e carregamento de páginas legais no app. Estes são descritos abaixo.
+- **Você permanece no controle.** Você pode desativar a identificação de música do Shazam, desligar categorias de alerta, deixar o Constellation desligado, revogar permissões nas configurações do sistema ou interromper a escuta em segundo plano a qualquer momento.
 
-## Informações Processadas no Seu Dispositivo
+## Informações processadas no seu dispositivo
 
 Com sua permissão, o Vigilant Ear acessa o seguinte **localmente**:
 
-- **Áudio do microfone** — Usado em tempo real para detectar sons ambientais (sirenes, veículos, campainhas, pessoas próximas, etc.) e acionar alertas.
-- **Localização** — Usada para posicionar sons detectados e áreas de alertas meteorológicos no mapa e para melhorar a orientação direcional.
+- **Áudio do microfone** — Usado em tempo real para detectar sons ambientais (sirenes, veículos, campainhas, choro de bebê, pessoas por perto etc.), estimar direção e (quando o Speaker Mode está ligado) produzir legendas ao vivo e tradução opcional no dispositivo.
+- **Reconhecimento de fala (no dispositivo)** — Quando as legendas estão habilitadas, os frameworks de fala do seu dispositivo transcrevem a fala próxima em texto no telefone. O texto da legenda é mostrado ao vivo e não é arquivado pelo Vigilant Ear como histórico permanente de transcrição; logs de debug não incluem conteúdo de legenda.
+- **Localização** — Usada para posicionar sons detectados e áreas de alerta meteorológico no mapa e para melhorar a orientação direcional.
 - **Orientação e movimento do dispositivo** — Usados para melhorar a precisão do rumo.
+- **Câmera (opcional)** — Usada somente se você abrir a visualização AR da câmera “ver o som”, para que os marcadores possam ser fixados na prévia ao vivo da câmera. Os frames da câmera são usados para exibição no dispositivo; o Vigilant Ear não os envia para reconhecimento de som.
+- **Apple Watch (opcional)** — Quando um companion do Watch está disponível, rótulos de alerta e pistas de direção podem ser retransmitidos ao Watch emparelhado para que você possa olhar o pulso.
 
-Esse processamento no dispositivo é o coração do aplicativo. Aplicativos concorrentes geralmente transmitem o áudio para a nuvem para análise e monetização. O Vigilant Ear é construído de forma diferente: seu pipeline de consciência acústica é projetado para rodar no próprio celular.
+Este processamento no dispositivo é o coração do app. Apps concorrentes frequentemente enviam áudio para a nuvem para análise e monetização. O Vigilant Ear é construído de forma diferente: seu pipeline de consciência acústica é projetado para rodar no próprio telefone.
 
-## Rede e Serviços de Terceiros
+## Rede e serviços de terceiros
 
-Quando você usa determinados recursos — ou quando o aplicativo precisa deles para funcionar — **dados limitados podem sair do seu dispositivo** e ser tratados por serviços de terceiros sob suas próprias políticas de privacidade:
+Quando você usa certos recursos — ou quando o app precisa deles para funcionar — **dados limitados podem sair do seu dispositivo** e ser tratados por serviços de terceiros sob as próprias políticas de privacidade deles:
 
 *   **Exibição de mapa**
-    *   *O que é enviado:* Requisições de blocos de mapa; seu viewport de mapa e localização aproximada, conforme necessário para renderizar o mapa
+    *   *O que é enviado:* solicitações de tiles de mapa; sua viewport do mapa e localização aproximada conforme necessário para renderizar o mapa
     *   *Provedor:* Apple Maps / MapKit
-*   **Alertas de mau tempo**
-    *   *O que é enviado:* Requisições a feeds públicos de clima CAP/Atom; sua região geral pode ser inferida pela seleção de feed e localização do dispositivo
-    *   *Provedor:* U.S. National Weather Service, MeteoGate, WMO e fontes públicas de alertas relacionadas
-*   **Identificação de música (opcional)**
-    *   *O que é enviado:* Impressões digitais de áudio curtas quando uma música é detectada e o Shazam está habilitado (pode ser desativado nas configurações)
+*   **Alertas de clima severo**
+    *   *O que é enviado:* solicitações a feeds públicos CAP/Atom de clima; sua região geral pode ser inferida a partir da seleção do feed e da localização do dispositivo
+    *   *Provedor:* U.S. National Weather Service, MeteoGate (Europa), China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), fontes públicas relacionadas à WMO e feeds públicos de alerta semelhantes
+*   **Identificação de música (opcional, Power Pack+)**
+    *   *O que é enviado:* fingerprints curtos de áudio — nunca áudio bruto — quando música é detectada e o Shazam está habilitado (pode ser desligado nas configurações)
     *   *Provedor:* Apple Shazam / ShazamKit
-*   **Contexto viário**
-    *   *O que é enviado:* Consultas anônimas à API Overpass com base no setor do mapa ao redor da sua localização
-    *   *Provedor:* Colaboradores do OpenStreetMap via API Overpass
-*   **Assinaturas e compras**
-    *   *O que é enviado:* Tokens de compra e status da assinatura
+*   **Contexto de vias**
+    *   *O que é enviado:* consultas anônimas à Overpass API com base no setor do mapa ao redor da sua localização
+    *   *Provedor:* contribuidores do OpenStreetMap via Overpass API
+*   **Compras e entitlements**
+    *   *O que é enviado:* tokens de compra e status de entitlement / teste do desbloqueio opcional único do Power Pack+ (não é assinatura)
     *   *Provedor:* Apple App Store
-*   **Documentos legais no aplicativo**
-    *   *O que é enviado:* Requisições web padrão quando você abre as páginas de Política de Privacidade, Termos ou Suporte no aplicativo
-    *   *Provedor:* GitHub Pages (hospedagem de documentos)
+*   **Malha Constellation (opcional, Power Pack+)**
+    *   *O que é enviado:* quando você habilita o Constellation multi-telefone, os dispositivos participantes trocam metadados acústicos necessários para um quadro compartilhado — por exemplo pose relativa / ranging Ultra-Wideband onde disponível, rumos, rótulos de som e texto efêmero de legenda. O tráfego é peer-to-peer entre os telefones que você vincula; a Wingdings não opera um relay de malha na nuvem para este pipeline de áudio.
+    *   *Provedor:* frameworks da Apple (p. ex. Network / Nearby Interaction) entre seus dispositivos
+*   **Documentos legais no app**
+    *   *O que é enviado:* solicitações web padrão quando você abre as páginas de Política de Privacidade, Termos, Suporte ou README do produto no app
+    *   *Provedor:* GitHub (hospedagem de documentos)
 
-Escolhemos esses serviços para fornecer funcionalidade de mapa, clima, identificação de música e compras. **A Wingdings não recebe seu áudio do microfone, histórico de localização ou informações de contato desses provedores.**
+Escolhemos esses serviços para entregar funcionalidade de mapa, clima, rótulo musical, compra e multi-dispositivo. **A Wingdings não recebe seu áudio de microfone, histórico contínuo de localização nem informações de contato desses provedores.**
 
-## O Que a Wingdings Coleta
+## O que a Wingdings coleta
 
-### Sem Telemetria ou Diagnósticos Remotos
+### Sem telemetria remota ou diagnósticos
 
-O Vigilant Ear é projetado para operar inteiramente de forma local no seu dispositivo. Não coletamos, transmitimos nem armazenamos qualquer telemetria remota, logs de falhas, registros de diagnóstico ou análises de uso em nossos servidores. Todo o processamento é mantido local no seu hardware.
+O Vigilant Ear é projetado para operar inteiramente de forma local no seu dispositivo. Não coletamos, transmitimos nem armazenamos telemetria remota, logs de crash, registros de diagnóstico ou análise de uso em servidores da Wingdings. Logs de debug **locais** opcionais podem ser gravados no dispositivo para solução de problemas; eles não são enviados pelo app como pipeline de telemetria, e o texto de legenda não é incluído no conteúdo de debug exportado.
 
-## O Que Não Fazemos
+## O que não fazemos
 
-**Não** fazemos:
+Nós **não**:
 
-- Vender ou alugar suas informações pessoais
-- Armazenar gravações de áudio ambiental em nossos servidores
-- Executar redes de anúncios, rastreadores entre aplicativos ou SDKs de perfil comportamental
-- Enviar seu rastro de localização contínuo para a Wingdings
+- Vendemos ou alugamos suas informações pessoais
+- Armazenamos gravações de áudio ambiental em nossos servidores
+- Executamos redes de anúncios, rastreadores entre apps ou SDKs de perfil comportamental
+- Enviamos sua trilha contínua de localização para a Wingdings
+- Enviamos áudio bruto do microfone para reconhecimento de fala ou som na nuvem
 
-## Suas Escolhas e Controles
+## Suas escolhas e controles
 
 Você pode:
 
-- **Revogar permissões** (microfone, localização, notificações) nas Configurações do iOS
-- **Desabilitar a identificação de música do Shazam** nas preferências do aplicativo
-- **Desativar categorias de alertas individuais** (sirenes, clima, campainhas, etc.)
-- **Parar a escuta em segundo plano** quando todas as categorias de alertas estiverem desabilitadas
-- **Usar as demos de Alertas de Amostra** em Personalizações para visualizar notificações localmente sem indicar uma emergência real
+- **Revogar permissões** (microfone, localização, câmera, notificações, reconhecimento de fala) em Ajustes do iOS
+- **Desativar a identificação de música do Shazam** em Power Pack+ / preferências
+- **Desligar categorias individuais de alerta** (sirenes, clima, campainhas, bebê etc.)
+- **Interromper a escuta em segundo plano** quando todas as categorias de alerta estiverem desabilitadas
+- **Deixar o Constellation desligado** para que nenhum metadado de malha seja compartilhado com outros telefones
+- **Usar o Demo Mode** para pré-visualizar alertas e recursos localmente com uma marca d’água DEMO clara, sem implicar uma emergência real
 
-## Diretrizes da Plataforma
+## Diretrizes da plataforma
 
-O Vigilant Ear segue os requisitos de privacidade da Apple App Store e as diretrizes da Apple para aplicativos que atendem pessoas com necessidades de acessibilidade. Atualizamos esta política quando nossas práticas ou obrigações com a plataforma mudam.
+O Vigilant Ear segue os requisitos de privacidade da Apple App Store e as diretrizes da Apple para apps que atendem pessoas com necessidades de acessibilidade. Atualizamos esta política quando nossas práticas ou obrigações da plataforma mudam.
 
-## Alterações nesta Política
+## Alterações nesta política
 
-Podemos atualizar esta Política de Privacidade periodicamente. Alterações relevantes serão refletidas pela atualização da **Data de Vigência** no topo desta página.
+Podemos atualizar esta Política de Privacidade de tempos em tempos. Alterações materiais serão refletidas pela atualização da **Data de vigência** no topo desta página.
 
-## Fale Conosco
+## Fale conosco
 
-Se você tiver dúvidas sobre esta Política de Privacidade, entre em contato pelo:
+Se você tiver dúvidas sobre esta Política de Privacidade, entre em contato conosco em:
 
 **E-mail:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 
 ---
 
-❤️ Vigilant Ear é desenvolvido com amor e respeito pela comunidade Surda e com deficiência auditiva. Sua confiança é importante para nós.
+❤️ O Vigilant Ear é construído com amor e respeito pela comunidade Surda e com deficiência auditiva. Sua confiança importa para nós.
 
-*Vigilant Ear é uma ferramenta de acessibilidade desenvolvida com cuidado. Use-a de forma responsável.*
+*O Vigilant Ear é uma ferramenta de acessibilidade feita com cuidado. Use-o com responsabilidade.*
 
-© 2026 Wingdings, Inc. · All rights reserved
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
+  <strong>© 2026 Wingdings, Inc.</strong><br />
+  All rights reserved.<br />
+  Patent Pending
+</p>
