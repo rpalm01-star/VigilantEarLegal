@@ -1,6 +1,6 @@
 # Terms of Service for Vigilant Ear 👂🛰️
 
-**Effective Date:** June 28, 2026
+**Effective Date:** July 11, 2026
 
 ## 1. Acceptance of Terms
 
@@ -8,7 +8,7 @@ By downloading, installing, or using the Vigilant Ear mobile application ("App")
 
 ## 2. Description of Service
 
-Vigilant Ear is an assistive application designed to provide real-time acoustic awareness and directional guidance for deaf and hard-of-hearing individuals. The App uses your device’s microphone and location services to detect sounds (such as sirens and vehicles) and display their approximate direction and distance on a map.
+Vigilant Ear is an assistive application designed to provide real-time acoustic awareness and directional guidance for deaf and hard-of-hearing individuals. The App uses your device’s microphone, sensors, and (where you grant permission) location, camera, and related system services to detect sounds (such as sirens, alarms, knocks, and vehicles), estimate approximate direction and distance, show them on a map or radar, deliver optional alerts (including to Apple Watch or Live Activities where available), and — when enabled — provide on-device live captions and optional translation. Optional paid features (Power Pack+, a one-time unlock with a free trial, not a subscription) may add capabilities such as automatic translation, multi-device Constellation mesh, and music identification; free core features remain available without purchase.
 
 ## 3. Important Safety Disclaimer
 
@@ -70,8 +70,12 @@ If you have any questions about these Terms, please contact us at:
 
 Made with ❤️ for the D/HH community and acoustic research.
 
-![Wingdings, Inc.](https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png)
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" />
 
 **© 2026 Wingdings, Inc.**  
 All rights reserved.  
 Patent Pending
+
+</div>
