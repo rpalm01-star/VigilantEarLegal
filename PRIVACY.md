@@ -102,12 +102,9 @@ If you have questions about this Privacy Policy, contact us at:
 
 *Vigilant Ear is an accessibility tool built with care. Please use it responsibly.*
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" />
-
-**© 2026 Wingdings, Inc.**  
-All rights reserved.  
-Patent Pending
-
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
+  <strong>© 2026 Wingdings, Inc.</strong><br />
+  All rights reserved.<br />
+  Patent Pending
+</p>

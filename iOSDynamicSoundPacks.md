@@ -269,3 +269,13 @@ These are the built-in sound categories Apple's on-device Sound Analysis classif
 | 74 | `coyote_howl` | `hiccup` | `sigh` | `zipper` |
 | 75 | `cricket_chirp` | `horse_clip_clop` | `silence` | `zither` |
 | 76 | `crow_caw` | `horse_neigh` | `singing` |  |
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
+  <strong>© 2026 Wingdings, Inc.</strong><br />
+  All rights reserved.<br />
+  Patent Pending
+</p>
+

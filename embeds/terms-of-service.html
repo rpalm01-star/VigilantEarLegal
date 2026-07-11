@@ -1,38 +1,7 @@
 <!--
-  Google Sites embed template for vigilantear.wingdingssocial.com doc pages.
-
-  Renders a markdown file from this repo (via raw.githubusercontent.com) with
-  marked.js + GitHub dark styling on the site's black background.
-
-  To wire a page: Google Sites editor → Insert → Embed → Embed code → paste
-  this whole file, then change ONLY the `const file = '...'` line below (and
-  min-height if the page is very tall). To update an existing page: double-click
-  the embed → </> Edit code → replace the whole block.
-
-  Ready-to-paste copies (file already set) live in embeds/:
-    embeds/home.html                      → /home                     (README.md)
-    embeds/privacy-policy.html            → /privacy-policy           (PRIVACY.md)
-    embeds/support.html                   → /support                  (SUPPORT.md)
-    embeds/terms-of-service.html          → /terms-of-service         (TERMS.md)
-    embeds/dynamic-sound-packs-ios.html   → /dynamic-sound-packs-ios  (iOSDynamicSoundPacks.md)
-
-  Live-site audit 2026-07-11 (translate widget top-right):
-    /terms-of-service          HAS widget
-    /dynamic-sound-packs-ios   HAS widget (this template family)
-    /home                      MISSING — re-paste embeds/home.html
-    /privacy-policy            MISSING — re-paste embeds/privacy-policy.html
-    /support                   MISSING — re-paste embeds/support.html
-
-  Maintenance notes (learned the hard way, 2026-07-05):
-  - marked is PINNED. Loading "latest" broke every code block into
-    "[object Object]" when marked v13 changed the renderer API. If you bump the
-    version, re-check a page that has fenced code blocks and tables.
-  - The GitHub CSS must be the -dark variant. The auto variant follows the
-    visitor's light/dark preference, which put near-black text on our black
-    background for light-mode visitors.
-  - Google Translate MUST sit in this embed HTML (above the markdown container).
-    Putting <script> tags inside the .md file will not run — browsers ignore
-    scripts injected via element.innerHTML after marked.parse().
+  Ready-to-paste Google Sites embed for: /terms-of-service → TERMS.md
+  Page paste: Google Sites → edit page → double-click embed → Edit code → replace all.
+  Includes Google Translate widget (top-right) + dark markdown + mermaid.
 -->
 <!-- Google Translate Widget (top-right) -->
 <div id="google_translate_element" style="padding: 20px 40px 0 40px; background: #000000; text-align: right;"></div>
@@ -74,7 +43,7 @@ function googleTranslateElementInit() {
 <!-- Container (increase min-height if your README + diagram is very tall) -->
 <div id="readme-container" class="markdown-body"
      style="width: 100%;
-            min-height: 1950px;        /* ← drag the embed box taller in Google Sites if needed */
+            min-height: 1800px;        /* ← drag the embed box taller in Google Sites if needed */
             padding: 40px 40px;
             box-sizing: border-box;
             background: #000000;">
@@ -90,7 +59,7 @@ function googleTranslateElementInit() {
   const owner  = 'rpalm01-star';
   const repo   = 'VigilantEarLegal';
   const branch = 'main';
-  const file   = 'iOSDynamicSoundPacks.md';
+  const file   = 'TERMS.md';
 
   const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${file}`;
 
