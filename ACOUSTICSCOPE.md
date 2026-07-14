@@ -2,7 +2,7 @@
 
 The **Acoustic Scope** turns Vigilant Ear into a pocket sound-analysis instrument: a live view of everything the microphone hears, five different ways. Use it to *see* a sound's shape, measure its pitch and level, freeze and scrub back through the last half minute, and capture clips to train your own custom sound pack.
 
-Open it from the **action fan** (the spinning burst on the top rail): tap the burst, then tap the **rainbow equalizer**. The Acoustic Scope is part of **Power Pack+** (the free trial counts).
+Open it from the **action fan** (the spinning burst on the top rail): tap the burst, then tap the **equalizer** (the animated green-and-cyan bars). The Acoustic Scope is part of **Power Pack+** (the free trial counts).
 
 ---
 
