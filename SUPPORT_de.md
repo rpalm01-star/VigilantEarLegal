@@ -1,10 +1,10 @@
 # Vigilant Ear Support 👂🛰️
 
-Vielen Dank, dass Sie **Vigilant Ear** nutzen. Unsere Mission ist es, verbesserte Situationswahrnehmung durch fortschrittliche akustische Ereigniserkennung und Echtzeit-Notfallalarme bereitzustellen.
+Vielen Dank, dass Sie **Vigilant Ear** verwenden. Unsere Mission ist es, durch fortschrittliche akustische Ereigniserkennung und Echtzeit-Notfallwarnungen ein verbessertes Situationsbewusstsein zu bieten.
 
-## Kontakt
+## Kontaktiere uns
 
-Wenn Sie technische Probleme haben, Fragen zur Alarmgenauigkeit haben oder Feedback geben möchten, erreichen Sie uns per E-Mail unter:
+Wenn Sie technische Probleme haben, Fragen zur Genauigkeit von Warnungen haben oder Feedback geben möchten, erreichen Sie uns per E-Mail unter:
 
 **E-Mail:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 
@@ -12,93 +12,93 @@ Wenn Sie technische Probleme haben, Fragen zur Alarmgenauigkeit haben oder Feedb
 
 ### Wie funktioniert Vigilant Ear im Hintergrund?
 
-Vigilant Ear hört zu, wenn die Überwachung eingeschaltet ist und die erforderlichen Berechtigungen erteilt wurden. Es läuft effizient im Hintergrund und kann Haptik, Bildschirm-Alarme, optionale Push-Benachrichtigungen und (wenn gekoppelt) Apple-Watch-Richtungshinweise senden, wenn es wichtige Geräusche erkennt.
+Vigilant Ear hört zu, wenn die Überwachung eingeschaltet ist und die erforderlichen Berechtigungen erteilt wurden. Es läuft effizient im Hintergrund und kann Haptik, Bildschirmwarnungen, optionale Push-Benachrichtigungen und (wenn gekoppelt) Richtungshinweise der Apple Watch senden, wenn es wichtige Geräusche erkennt.
 
-### Entlädt Vigilant Ear meinen Akku?
+### Entlädt Vigilant Ear meine Batterie?
 
-Nein. Vigilant Ear ist so konstruiert, dass es wenig Akku verbraucht, sodass Sie es eingeschaltet lassen können.
+Nein. Vigilant Ear ist so konstruiert, dass es wenig Batterie verbraucht, sodass Sie es eingeschaltet lassen können.
 
-So halten wir den Akkuverbrauch niedrig:  
-- Effiziente geräteinterne Machine-Learning-Modelle, die wo verfügbar auf der Neural Engine laufen.  
-- Hintergrundlauschen geht in den Ruhezustand, wenn *alle* Alarmkategorien ausgeschaltet sind.  
+So halten wir den Batterieverbrauch niedrig:  
+- Effiziente On-Device Machine-Learning-Modelle, die (sofern verfügbar) auf der Neural Engine laufen.  
+- Das Zuhören im Hintergrund geht in den Ruhezustand über, wenn *alle* Warnkategorien ausgeschaltet sind.  
 - Fast die gesamte Verarbeitung bleibt auf Ihrem Telefon; das Netzwerk ist auf Karten, öffentliche Wetter-Feeds, optionale Musik-ID und Käufe beschränkt.  
-- Intelligentes Throttling reduziert die Arbeit, wenn die akustische Szene ruhig ist.  
-- Schwere Mathematik läuft abseits des Display-Threads und nur bei Bedarf.
+- Intelligente Drosselung reduziert die Arbeit, wenn die akustische Szene ruhig ist.  
+- Schwere Mathematik läuft außerhalb des Anzeige-Threads und nur, wenn sie benötigt wird.
 
 ### Warum erkennt die App keine Sirenen?
 
-Stellen Sie sicher, dass Sie die **Mikrofon**-Berechtigung in den iOS-Einstellungen erteilt haben. Vigilant Ear braucht das Mikrofon, um akustische Signaturen zu verarbeiten. Bestätigen Sie, dass **Sirene** (oder die relevante Kategorie) in den Einstellungen aktiviert ist und dass Benachrichtigungen erlaubt wurden, wenn Sie Push-Alarme erwarten. Haptik kann leiser sein, wenn das Gerät im Stummmodus ist, je nach Systemeinstellungen.
+Stellen Sie sicher, dass Sie in den iOS-Einstellungen die Berechtigung **Mikrofon** erteilt haben. Vigilant Ear benötigt das Mikrofon, um akustische Signaturen zu verarbeiten. Vergewissern Sie sich, dass **Sirene** (oder die entsprechende Kategorie) in den Einstellungen aktiviert ist und dass Benachrichtigungen zugelassen wurden, wenn Sie Push-Warnungen erwarten. Haptik kann leiser sein, wenn sich das Gerät je nach Systemeinstellungen im Stumm-Modus befindet.
 
-### Wie genau sind die Wetteralarme?
+### Wie genau sind die Wetterwarnungen?
 
-Vigilant Ear fragt offizielle staatliche CAP-Feeds (Common Alerting Protocol) ab. Alarme sind so genau wie die Daten des National Weather Service und anderer internationaler Agenturen (einschließlich Europa MeteoGate, China CMA und Korea KMA). Standortsimulation, Abdeckungslücken oder Netzwerkverzögerungen können die Update-Häufigkeit gelegentlich beeinflussen.
+Vigilant Ear fragt offizielle staatliche CAP-Feeds (Common Alerting Protocol) ab. Warnungen sind so genau wie die vom National Weather Service und anderen internationalen Agenturen (einschließlich MeteoGate Europa, CMA China und KMA Korea) bereitgestellten Daten. Standortsimulation, Abdeckungslücken oder Netzwerkverzögerungen können gelegentlich die Aktualisierungshäufigkeit beeinträchtigen.
 
 ### Funktioniert die App im Hintergrund?
 
-Ja. Vigilant Ear ist darauf ausgelegt, kritische akustische Ereignisse im Hintergrund zu überwachen, wenn die erforderlichen Berechtigungen aktiviert sind und mindestens eine Alarmkategorie eingeschaltet ist.
+Ja. Vigilant Ear ist so konzipiert, dass es im Hintergrund auf kritische akustische Ereignisse überwacht, wenn die erforderlichen Berechtigungen aktiviert sind und mindestens eine Warnkategorie eingeschaltet ist.
 
-### Was steuern die Alarm-Schalter?
+### Was steuern die Warnungsschalter?
 
-Die Alarmkategorie-Schalter in den **Einstellungen** steuern, ob Vigilant Ear diese Geräusche bei erkannten Treffern als alarmwürdig für **Benachrichtigungen** (und verwandte Zustellung) behandelt.
+Die Warnungskategorie-Schalter unter **Einstellungen** steuern, ob Vigilant Ear diese Geräusche bei Erkennung übereinstimmender Geräusche als warnungswürdig für **Benachrichtigungen** (und damit verbundene Zustellung) behandelt.
 
-Diese Schalter betreffen vor allem die **Hintergrund-/Benachrichtigungs**-Zustellung. Sie schalten **nicht** die Bildschirm-Karten- und Radar-Anzeige aus, wenn die App im Vordergrund geöffnet ist.
+Diese Schalter wirken sich hauptsächlich auf die Zustellung im **Hintergrund / bei Benachrichtigungen** aus. Sie schalten die Warnungen auf dem Bildschirm von Karte und Radar **nicht** aus, wenn die App im Vordergrund geöffnet ist.
 
-Typische Kategorien umfassen:  
-- **Sirenen-Alarme** — Einsatzfahrzeug-Sirenen (Polizei, Feuerwehr, Krankenwagen usw.)  
+Typische Kategorien sind:  
+- **Sirenenwarnungen** — Sirenen von Einsatzfahrzeugen (Polizei, Feuerwehr, Krankenwagen usw.)  
 - **Alarme** — Rauchmelder und Feueralarme  
-- **Klopfen** — Türklopfen und Türklingeln  
-- **Baby** — Babyschreien (wenn aktiviert)  
-- **Wetteralarme** — Unwetterwarnungen aus offiziellen staatlichen CAP-Quellen  
-- **Personen-Alarme** — Personen in der Nähe (oft am besten in ruhigeren Umgebungen; kann opt-in bleiben)
+- **Klopfen** — Anklopfen an Türen und Türklingeln  
+- **Baby** — Babygeschrei (wenn aktiviert)  
+- **Wetterwarnungen** — Unwetterwarnungen aus offiziellen staatlichen CAP-Quellen  
+- **Personenwarnungen** — Personen in der Nähe (oft am besten in ruhigeren Umgebungen; kann Opt-in bleiben)
 
-Die **Benachrichtigungsberechtigung** ist der systemweite Master-Schalter. Wenn Sie Benachrichtigungen auf dem Start-Verifizierungsbildschirm (oder später in den iOS-Einstellungen) ablehnen, erhalten Sie keine Push-Alarme, auch wenn einzelne Kategorien eingeschaltet sind. Bildschirm-Alarme, während die App geöffnet ist, können weiterhin erscheinen.
+Die **Benachrichtigungsberechtigung** ist der Master-Schalter auf Systemebene. Wenn Sie Benachrichtigungen auf dem Startüberprüfungsbildschirm (oder später in den iOS-Einstellungen) verweigern, erhalten Sie keine Push-Warnungen, selbst wenn einzelne Kategorien eingeschaltet sind. Bildschirmwarnungen können weiterhin angezeigt werden, während die App geöffnet ist.
 
-### Was ist kostenlos, und was ist Power Pack+?
+### Was ist kostenlos und was ist Power Pack+?
 
-Der Sicherheitskern ist **für immer kostenlos**:
+Der Sicherheitskern ist **kostenlos, für immer**:
 
-- Lokale Klangalarme (Sirenen, Alarme, Klopfen/Türklingeln, Baby, Person in der Nähe) mit Bildschirm- und optionaler Push-Zustellung  
-- **Speaker Mode** Live-Untertitel (geräteintern; mit Richtung, wo die Hardware es zulässt)  
-- Unwetter-CAP-Feeds für Ihre Region — US-**NWS**, Europa-**MeteoGate**, **China CMA** und **Korea KMA**  
-- **Demo Mode** Übungsalarme (mit Wasserzeichen, sodass sie nie wie ein Live-Notfall aussehen)  
-- **Apple Watch** Companion-Richtungshinweise und **Live Activity** (Sperrbildschirm / Dynamic Island / Watch Smart Stack), wo verfügbar  
+- Lokale Geräuschwarnungen (Sirenen, Alarme, Klopfen/Türklingeln, Baby, Person in der Nähe) mit Bildschirm- und optionaler Push-Zustellung  
+- Live-Untertitel im **Sprechermodus** (auf dem Gerät; richtungsbezogen, wo die Hardware dies zulässt)  
+- Unwetter-CAP-Feeds für Ihre Region — **NWS** in den USA, **MeteoGate** in Europa, **CMA** in China und **KMA** in Korea  
+- Übungswarnungen im **Demo-Modus** (mit Wasserzeichen, sodass sie nie wie ein echter Notfall aussehen)  
+- Richtungshinweise der **Apple Watch** als Begleiter und **Live-Aktivität** (Sperrbildschirm / Dynamic Island / Watch-Smart-Stapel), wo verfügbar  
 
-**Power Pack+** ist ein einmaliges Freischalten (**kein Abo**) mit einer **90-tägigen kostenlosen Testphase**. Es fügt hinzu:
+**Power Pack+** ist eine einmalige Freischaltung (**kein Abonnement**) mit einer **kostenlosen 90-Tage-Testversion**. Es fügt hinzu:
 
-- **Speaker Auto-Translate** — geräteinterne Übersetzung von Sprache in der Nähe in Ihre Sprache  
-- **Constellation** — gemeinsames Hören über mehrere iPhones via Ultra-Wideband  
-- **Music ID** — ShazamKit-Song-Erkennung  
+- **Automatische Sprecher-Übersetzung** — On-Device-Übersetzung von Sprache in der Nähe in Ihre Sprache  
+- **Constellation** — geteiltes Hören mit mehreren iPhones über Ultra-Wideband  
+- **Musik-ID** — ShazamKit-Songerkennung  
 
-Alles zur Erkennung läuft weiterhin auf Ihrem Gerät; Power Pack+ ändert nur, welche Funktionen freigeschaltet sind, nie wohin Rohaudio zur Analyse gesendet wird.
+Alles für die Erkennung läuft weiterhin auf Ihrem Gerät; Power Pack+ ändert nur, welche Funktionen freigeschaltet sind, niemals, wohin rohes Audio zur Analyse gesendet wird.
 
-### Wie verwalte ich Shazam und Übersetzung?
+### Wie verwalte ich Shazam und Übersetzungen?
 
-Diese befinden sich unter **Power Pack+** in der App (Action-Fan-Sparkles / Menü):
+Diese befinden sich unter **Power Pack+** in der App (Aktionsfächer-Glitzern / Menü):
 
-- **Shazam (Music ID)** — Umgebungs-Musikidentifikation auf dem räumlichen Radar (Power Pack+)  
-- **Speaker Auto-Translate** — Live-Untertitel in Ihre Sprache übersetzen (Power Pack+)  
+- **Shazam (Musik-ID)** — Erkennung von Umgebungsmusik auf dem räumlichen Radar (Power Pack+)  
+- **Automatische Sprecher-Übersetzung** — Live-Untertitel in Ihre Sprache übersetzen (Power Pack+)  
 
-Unwetter-Feeds sind **kostenlos** und werden über die Wetter-/Alarm-Einstellungen verwaltet — sie sind kein Power-Pack+-Add-on.
+Unwetter-Feeds sind **kostenlos** und werden in den Wetter- / Warneinstellungen verwaltet — sie sind kein Power Pack+-Zusatz.
 
 ### Wie deaktiviere ich das Mikrofon, wenn die App nicht im Vordergrund ist?
 
-Die App stoppt die Mikrofonnutzung für die Hintergrundüberwachung, wenn *alle* Alarmkategorie-Schalter in den Einstellungen ausgeschaltet sind. Sie hört nicht und sendet keine Hintergrund-Klangbenachrichtigungen, wenn alle Kategorien deaktiviert sind. Wenn mindestens ein Alarm aktiviert ist, kann das Mikrofon für die Hintergrund-Klangerfassung verwendet werden.
+Die App hört auf, das Mikrofon für die Hintergrundüberwachung zu verwenden, wenn *alle* Warnkategorie-Schalter in den Einstellungen ausgeschaltet sind. Sie hört nicht auf Hintergrundgeräusche und sendet keine Benachrichtigungen darüber, wenn alle Kategorien deaktiviert sind. Wenn mindestens eine Warnung aktiviert ist, kann das Mikrofon für die Audiosammlung im Hintergrund verwendet werden.
 
-Sie können den Mikrofonzugriff auch vollständig in den iOS-Einstellungen widerrufen (das stoppt alle akustischen Funktionen, einschließlich Vordergrund-Lauschen).
+Sie können den Mikrofonzugriff in den iOS-Einstellungen auch vollständig widerrufen (dadurch werden alle akustischen Funktionen gestoppt, einschließlich des Zuhörens im Vordergrund).
 
-### Warum erkennt die App nicht durchgängig *alle* Geräusche?
+### Warum erkennt die App nicht konsequent *alle* Geräusche?
 
-Akute Geräusche wie Alarme und Feuerwehrsirenen sind für die Sound-ML-Engine relativ leicht zu erkennen. Breitband-Geräusche (wie Auto-Motoren oder Reifen) sind schwerer; wir leisten angesichts der Grenzen der Telefon-Hardware eine angemessene, aber unvollkommene Arbeit. Time-Difference-of-Arrival-(TDOA)-Algorithmen sind bei dem kurzen Abstand zwischen Mikrofonen nur begrenzt präzise. Richtung braucht ein Stereo-Mikrofon-iPhone; iPads sind untertitelfokussiert ohne volle Peilung.
+Akute Geräusche wie Alarme und Feuerwehrsirenen sind für die Geräusch-ML-Engine relativ leicht zu erkennen. Breitbandige Geräusche (wie Automotoren oder Reifen) sind schwieriger; wir leisten angesichts der Hardwaregrenzen von Telefonen angemessene, aber unvollkommene Arbeit. TDOA-Algorithmen (Time Difference of Arrival) sind angesichts des kurzen Abstands zwischen den Mikrofonen nur bedingt präzise. Die Richtung erfordert ein Stereo-Mikrofon-iPhone; iPads konzentrieren sich auf Untertitel ohne volle Peilung.
 
-### Wie funktionieren Demo Mode und Übungsalarme?
+### Wie funktionieren der Demo-Modus und die Übungswarnungen?
 
-Öffnen Sie **Demo Mode** (Zauberstab), um Home- & Street-Übungssounds und andere Vorschauen auszuprobieren. Übungsereignisse sind klar mit **DEMO:** markiert, sodass sie nie als echter Notfall vorgetäuscht werden. Das Schließen von Demo Mode baut den Übungszustand ab (einschließlich temporärem GPS-Spoof, der in manchen Demos verwendet wird).
+Öffnen Sie den **Demo-Modus** (Zauberstab), um Home- & Street-Übungsgeräusche und andere Vorschauen auszuprobieren. Übungsereignisse sind deutlich als **DEMO:** markiert, sodass sie niemals einen echten Notfall vortäuschen. Beim Schließen des Demo-Modus wird der Übungsstatus abgebaut (einschließlich temporärem GPS-Spoofing, das in einigen Demos verwendet wird).
 
 ---
 
-*Vigilant Ear ist ein Barrierefreiheits-Hilfsmittel, das mit Sorgfalt gebaut wurde. Bitte nutzen Sie es verantwortungsvoll.* 
+*Vigilant Ear ist ein mit Sorgfalt entwickeltes Hilfsmittel zur Barrierefreiheit. Bitte nutzen Sie es verantwortungsbewusst.* 
 
-Made with ❤️ for the D/HH community and acoustic research.
+Gemacht mit ❤️ für die D/HH-Gemeinschaft und die Akustikforschung.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
