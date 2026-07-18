@@ -37,7 +37,7 @@ Un clasificador en el dispositivo identifica cientos de sonidos cotidianos y vig
 Las advertencias de clima severo provienen de fuentes CAP públicas oficiales — **NWS** de EE. UU., **MeteoGate** de Europa, **CMA** de China y **KMA** de Corea — gratuitas para todos los usuarios. Las fuentes se limitan a las que cubren donde te encuentras.
 
 ### ⌚ Apple Watch + Live Activity — echa un vistazo y sabe
-- **Compañero de Apple Watch** — la dirección de una alerta apunta en tu muñeca para que un vistazo te diga dónde mirar. Interfaz de usuario del Watch rediseñada con el ícono de oreja de la aplicación, diseño de HUD de amenazas y doble toque para minimizar. Las alertas aún pueden mostrar la flecha de dirección cuando la aplicación del Watch no está abierta.
+- **Compañero de Apple Watch** — la dirección de una alerta apunta en tu muñeca para que un vistazo te diga dónde mirar. Interfaz de usuario del Watch rediseñada con el ícono de oreja de la aplicación, diseño de HUD de amenazas y doble toque para descartar una alerta. Las alertas aún pueden mostrar la flecha de dirección cuando la aplicación del Watch no está abierta.
 - **Live Activity** — Vigilant Ear permanece en tu **Pantalla de bloqueo**, en el **Dynamic Island** y en el **Smart Stack del Watch**, por lo que la última alerta y su rumbo están siempre a un vistazo de distancia.
 
 ### 💬 Modo Orador — subtítulos en vivo y direccionales *(gratis)*
@@ -49,6 +49,12 @@ Con el Modo Orador activado, cuando una persona cercana habla otro idioma, Vigil
 ### 🎵 Conciencia de música y transmisiones *(Power Pack+)*
 **ShazamKit** identifica la música que se reproduce a tu alrededor y realiza un seguimiento de los cambios de canción. Cuando una voz parece provenir de un televisor o radio en lugar de una persona en la habitación, se etiqueta con un **📻** — las palabras aún se muestran; están etiquetadas honestamente.
 
+### 🎛️ Osciloscopio Acústico — vea el sonido como un ingeniero *(Power Pack+)*
+Una vista profesional del sonido a su alrededor, en vivo: espectro, espectrograma, bandas RTA de ⅓ de octava, croma y parciales armónicos — más herramientas para capturar sonidos y entrenar sus propios paquetes.
+
+### 📦 Paquetes de Sonido Personalizados — enséñele su mundo *(Power Pack+)*
+Enséñele a Vigilant Ear los sonidos que le importan — desde aves locales hasta el timbre de su portal. Los paquetes adicionales se suman a la detección integrada, sin desplazar nunca a sirenas y alarmas. Incluye una guía paso a paso en la app.
+
 ### 🛰️ Constellation — muchos iPhones, un oído compartido *(Power Pack+)*
 Con dos o más iPhones habilitados para banda ultraancha (la mayoría desde el iPhone 11), **Constellation** los empareja para que puedan detectar la posición del otro y fusionar lo que cada uno escucha en una imagen única y más precisa de dónde proviene un sonido — una matriz de escucha pasiva distribuida. Limitado a dispositivos con el hardware correcto. Los subtítulos de malla anteriores al tiempo de conexión de un compañero no se retransmiten.
 
@@ -58,8 +64,8 @@ Abre la píldora de la cámara en el riel de título y fija los sonidos detectad
 ### 🗺️ Mapas, caminos y predicción de rutas
 Los rumbos del sonido se proyectan sobre coordenadas GPS reales en el mapa. Los sonidos de vehículos pueden **ajustarse a calles cercanas** y sus trayectorias pueden predecirse para que un camión que pasa se interprete como moviéndose *a lo largo de la carretera* en lugar de a través de edificios. (Prueba la demostración del camión de bomberos).
 
-### 🪄 Playground de Práctica — pruébalo sin oídos
-El **Modo Playground** es público para todos: práctica de Hogar y Calle (golpes, alarma, bebé, sirena, clima), demostraciones de múltiples teléfonos y conversaciones, y una marca de agua clara para que la práctica nunca finja ser un evento en vivo. Cerrar el panel desarma las demostraciones limpiamente (sin suplantación de GPS atascada, sin banderas sobrantes).
+### 🪄 Zona de Pruebas — pruébalo sin oídos
+La **Zona de Pruebas** es pública para todos: práctica de Hogar y Calle (golpes, alarma, bebé, sirena, clima), demostraciones de múltiples teléfonos y conversaciones, y una marca de agua clara para que la práctica nunca finja ser un evento en vivo. Cerrar el panel desarma las demostraciones limpiamente (sin suplantación de GPS atascada, sin banderas sobrantes).
 
 ### ♿ Accesibilidad primero
 Construido para usuarios Sordos / con problemas de audición y daltónicos: señales **independientes del color**, objetivos táctiles **≥44 pt**, respeto de **Reduce Motion**, alertas multimodales (háptico + visual + Watch) y una pantalla de verificación de inicio que muestra el estado de los permisos con estados claros en verde / gris / rojo (y estados “no permitidos” en naranja quemado) — incluyendo el otorgamiento de notificaciones que actúa como el interruptor maestro de alertas.
@@ -73,7 +79,7 @@ El núcleo de seguridad es **gratis, para siempre**:
 - **Vigilancia de Hogar y Vigilancia de Calle** — alertas locales de sonido (alarmas, sirenas, golpes/timbres, bebé, persona cercana) con entrega en pantalla, háptica y notificaciones automáticas opcionales.
 - **Subtítulos en vivo** — Modo Orador, en el dispositivo, direccional donde el hardware lo permita.
 - **CAP de clima severo** — NWS, MeteoGate, CMA, KMA para tu región.
-- **Modo Demo** — alertas de práctica y vistas previas de funciones con una marca de agua DEMO.
+- **Zona de Pruebas** — alertas de práctica y vistas previas de funciones con una clara marca de agua PREVIEW.
 - **Compañero de Apple Watch y Live Activity** — dirección con solo un vistazo y última alerta.
 
 **Power Pack+** es un desbloqueo único (**no una suscripción**) con una **prueba gratuita de 90 días**. Agrega los superpoderes:
@@ -81,6 +87,8 @@ El núcleo de seguridad es **gratis, para siempre**:
 - **Speaker Auto-Translate** — traducción en el dispositivo del habla cercana a tu idioma.
 - **Constellation** — audición compartida en múltiples iPhone sobre banda ultraancha.
 - **Music ID** — reconocimiento de canciones con ShazamKit.
+- **Osciloscopio Acústico** — visualización de sonido en vivo de nivel profesional y herramientas de captura.
+- **Paquetes de Sonido Personalizados** — clasificadores adicionales que usted entrena para sus propios sonidos.
 
 Gratis o Power Pack+, **tu audio permanece en el dispositivo para su reconocimiento** — el nivel solo cambia qué funciones están desbloqueadas, nunca a dónde se envía el audio sin procesar para su análisis.
 
@@ -126,7 +134,7 @@ Detalles completos: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT
 - **Constellation** necesita **banda ultraancha** — iPhone 11 o posterior, excluyendo los modelos SE y "e".
 - **Android.** Compilación separada con radar central, alertas, subtítulos y clima; la malla Constellation es primero para iOS. Consulta las actualizaciones del sitio del producto a medida que crezca la paridad con Android.
 
-**Versión de marketing de Apple actual:** 1.0.7 (en progreso / vía de envío). Construido para el iOS moderno (era SpeechAnalyzer).
+**Versión actual en el App Store:** 1.0.7. Construido para el iOS moderno (era SpeechAnalyzer).
 
 ---
 

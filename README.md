@@ -37,7 +37,7 @@ An on-device classifier identifies hundreds of everyday sounds and watches the c
 Severe-weather warnings come from official public CAP feeds — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, and **Korea KMA** — free for all users. Feeds are narrowed to the ones that cover where you are.
 
 ### ⌚ Apple Watch + Live Activity — glance and know
-- **Apple Watch companion** — the direction of an alert points on your wrist so a glance tells you where to look. Redesigned Watch UI with the app ear icon, threat HUD layout, and double-tap to minimize. Alerts can still show the direction arrow when the Watch app is not open.
+- **Apple Watch companion** — the direction of an alert points on your wrist so a glance tells you where to look. Redesigned Watch UI with the app ear icon, threat HUD layout, and double-tap to dismiss an alert. Alerts can still show the direction arrow when the Watch app is not open.
 - **Live Activity** — Vigilant Ear stays on your **Lock Screen**, in the **Dynamic Island**, and in the **Watch Smart Stack**, so the last alert and its bearing are always one look away.
 
 ### 💬 Speaker Mode — live, directional captions *(free)*
@@ -49,6 +49,12 @@ With Speaker Mode on, when a nearby person speaks another language, Vigilant Ear
 ### 🎵 Music & broadcast awareness *(Power Pack+)*
 **ShazamKit** identifies music playing around you and tracks song changes. When a voice looks like it's coming from a TV or radio rather than a person in the room, it's tagged with a **📻** — the words still show; they're labeled honestly.
 
+### 🎛️ Acoustic Scope — see sound like an engineer *(Power Pack+)*
+A professional live view of the sound around you: spectrum, spectrogram, ⅓-octave RTA bands, chroma, and harmonic partials — plus tools to capture sounds for training your own custom packs.
+
+### 📦 Custom Sound Packs — teach it your world *(Power Pack+)*
+Teach Vigilant Ear the sounds that matter to you — from local birds to your building's door chime. Add-on packs stack on top of the built-in detection, so new sounds never crowd out sirens and alarms. A step-by-step guide is built into the app.
+
 ### 🛰️ Constellation — many iPhones, one shared ear *(Power Pack+)*
 With two or more Ultra-Wideband-enabled iPhones (most since iPhone 11), **Constellation** pairs them so they can sense each other's position and fuse what each one hears into a single, more precise picture of where a sound is coming from — a distributed, passive listening array. Gated to devices with the right hardware. Mesh captions older than a peer's connect time are not retransmitted.
 
@@ -58,8 +64,8 @@ Open the camera pill on the title rail and pin detected sounds at their real bea
 ### 🗺️ Maps, roads & path prediction
 Sound bearings project onto real GPS coordinates on the map. Vehicle sounds can be **snapped to nearby streets** and their paths predicted so a passing truck reads as moving *along the road* rather than through buildings. (Try the fire-truck demo.)
 
-### 🪄 Practice Playground — prove it without ears
-**Playground Mode** is public for everyone: Home & Street practice (knock, alarm, baby, siren, weather), multi-phone and conversation demos, and a clear watermark so practice never pretends to be a live event. Closing the panel tears demos down cleanly (no stuck GPS spoof, no leftover flags).
+### 🪄 Feature Playground — prove it without ears
+**Feature Playground** is public for everyone: Home & Street practice (knock, alarm, baby, siren, weather), multi-phone and conversation demos, and a clear watermark so practice never pretends to be a live event. Closing the panel tears demos down cleanly (no stuck GPS spoof, no leftover flags).
 
 ### ♿ Accessibility first
 Built for Deaf / hard-of-hearing and color-blind users: **color-independent** cues, **≥44 pt** tap targets, **Reduce Motion** respect, multimodal alerts (haptic + visual + Watch), and a startup verification screen that shows permission status with clear green / grey / red (and burnt-orange “disallowed”) states — including the notification grant that acts as the master alert switch.
@@ -73,7 +79,7 @@ The safety core is **free, forever**:
 - **Home Watch & Street Watch** — local sound alerts (alarms, sirens, knocks/doorbells, baby, person nearby) with on-screen, haptic, and optional push delivery.
 - **Live captions** — Speaker Mode, on-device, directional where hardware allows.
 - **Severe-weather CAP** — NWS, MeteoGate, CMA, KMA for your region.
-- **Demo Mode** — practice alerts and feature previews with a DEMO watermark.
+- **Feature Playground** — practice alerts and feature previews with a clear PREVIEW watermark.
 - **Apple Watch companion & Live Activity** — glanceable direction and last alert.
 
 **Power Pack+** is a one-time unlock (**not a subscription**) with a **90-day free trial**. It adds the superpowers:
@@ -81,6 +87,8 @@ The safety core is **free, forever**:
 - **Speaker Auto-Translate** — on-device translation of nearby speech into your language.
 - **Constellation** — multi-iPhone shared hearing over Ultra-Wideband.
 - **Music ID** — ShazamKit song recognition.
+- **Acoustic Scope** — pro-grade live sound visualization and capture tools.
+- **Custom Sound Packs** — add-on classifiers you train for your own sounds.
 
 Free or Power Pack+, **your audio stays on the device for recognition** — the tier only changes which features are unlocked, never where raw audio is sent for analysis.
 
@@ -126,7 +134,7 @@ Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](S
 - **Constellation** needs **Ultra-Wideband** — iPhone 11 or later, excluding SE and “e” models.
 - **Android.** Separate build with core radar, alerts, captions, and weather; Constellation mesh is iOS-first. See product site updates as Android parity grows.
 
-**Current Apple marketing version:** 1.0.7 (in progress / shipping track). Built for modern iOS (SpeechAnalyzer-era).
+**Current App Store version:** 1.0.7. Built for modern iOS (SpeechAnalyzer-era).
 
 ---
 
