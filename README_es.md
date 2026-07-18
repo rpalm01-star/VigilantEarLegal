@@ -46,7 +46,12 @@ Enciende el **Modo Orador** (Speaker Mode) y Vigilant Ear transcribe a las perso
 ### 🌐 Speaker Auto-Translate — tu idioma, en vivo *(Power Pack+)*
 Con el Modo Orador activado, cuando una persona cercana habla otro idioma, Vigilant Ear puede detectarlo y renderizar sus subtítulos **en tu idioma**, mostrando el idioma original en su bloque. La cadena — escuchar → separar oradores → transcribir → traducir → mostrar — se ejecuta **en el dispositivo**; el único momento de red es una descarga única del paquete de idioma desde Apple. No tienes que conocer ni elegir el otro idioma primero.
 
-Es lo más cercano que existe al **traductor universal de la ciencia ficción**: el aparato que simplemente entiende. Los traductores de auriculares le obligan a elegir primero el par de idiomas y traducen una voz a un solo oído. Vigilant Ear detecta el idioma por sí solo, sigue a cada persona que habla en la sala y los subtitula a todos en su idioma — sin auriculares, sin configuración, en su dispositivo.
+Es lo más cercano que existe al **traductor universal de la ciencia ficción**: el aparato que simplemente entiende. Vigilant Ear detecta el idioma por sí solo, sigue a cada persona que habla en la sala y los subtitula a todos en su idioma — sin auriculares, sin configuración, en su dispositivo.
+
+```mermaid
+graph LR
+    A["Solo escuchar"] --> B["Idioma detectado automáticamente"] --> C["Cada voz separada"] --> D["Toda la sala subtitulada en su idioma"]
+```
 
 ### 🎵 Conciencia de música y transmisiones *(Power Pack+)*
 **ShazamKit** identifica la música que se reproduce a tu alrededor y realiza un seguimiento de los cambios de canción. Cuando una voz parece provenir de un televisor o radio en lugar de una persona en la habitación, se etiqueta con un **📻** — las palabras aún se muestran; están etiquetadas honestamente.

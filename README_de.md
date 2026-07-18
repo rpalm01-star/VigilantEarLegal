@@ -46,7 +46,12 @@ Schalten Sie den **Sprechermodus** ein und Vigilant Ear transkribiert sprechende
 ### 🌐 Automatische Sprecher-Übersetzung — Ihre Sprache, live *(Power Pack+)*
 Wenn der Sprechermodus aktiviert ist und eine Person in der Nähe eine andere Sprache spricht, kann Vigilant Ear dies erkennen und ihre Untertitel **in Ihrer Sprache** rendern, wobei die Quellsprache auf ihrem Block angezeigt wird. Die Kette — hören → Sprecher trennen → transkribieren → übersetzen → anzeigen — läuft **auf dem Gerät**; der einzige Netzwerkmoment ist ein einmaliger Sprachpaket-Download von Apple. Sie müssen die andere Sprache vorher nicht kennen oder auswählen.
 
-Das ist das bislang Nächste am **Universalübersetzer der Science-Fiction** — dem Gerät, das einfach versteht. Ohrhörer-Übersetzer verlangen, dass Sie zuerst das Sprachpaar wählen, und übersetzen eine Stimme in ein Ohr. Vigilant Ear erkennt die Sprache selbst, folgt jeder sprechenden Person im Raum und untertitelt sie alle in Ihrer Sprache — ohne Ohrhörer, ohne Einrichtung, auf Ihrem Gerät.
+Das ist das bislang Nächste am **Universalübersetzer der Science-Fiction** — dem Gerät, das einfach versteht. Vigilant Ear erkennt die Sprache selbst, folgt jeder sprechenden Person im Raum und untertitelt sie alle in Ihrer Sprache — ohne Ohrhörer, ohne Einrichtung, auf Ihrem Gerät.
+
+```mermaid
+graph LR
+    A["Einfach zuhören"] --> B["Sprache automatisch erkannt"] --> C["Jede Stimme getrennt"] --> D["Der ganze Raum untertitelt — in Ihrer Sprache"]
+```
 
 ### 🎵 Bewusstsein für Musik & Übertragungen *(Power Pack+)*
 **ShazamKit** identifiziert Musik, die um Sie herum spielt, und verfolgt Songwechsel. Wenn eine Stimme aussieht, als käme sie eher von einem Fernseher oder Radio als von einer Person im Raum, wird sie mit einem **📻** markiert — die Wörter werden immer noch angezeigt; sie sind ehrlich gekennzeichnet.

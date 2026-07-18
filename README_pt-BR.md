@@ -46,7 +46,12 @@ Ative o **Speaker Mode** e o Vigilant Ear transcreve as pessoas conversando pert
 ### 🌐 Speaker Auto-Translate — seu idioma, ao vivo *(Power Pack+)*
 Com o Speaker Mode ativado, quando uma pessoa próxima fala outro idioma, o Vigilant Ear pode detectá-lo e renderizar suas legendas **no seu idioma**, com o idioma de origem exibido em seu bloco. A cadeia — ouvir → separar locutores → transcrever → traduzir → exibir — é executada **no dispositivo**; o único momento de rede é um download único do pacote de idiomas da Apple. Você não precisa saber ou escolher o outro idioma primeiro.
 
-É o que existe de mais próximo do **tradutor universal da ficção científica** — o aparelho que simplesmente entende. Tradutores de fone exigem que você escolha o par de idiomas primeiro e traduzem uma voz para um único ouvido. O Vigilant Ear detecta o idioma sozinho, acompanha cada pessoa falando na sala e legenda todas no seu idioma — sem fones, sem configuração, no seu aparelho.
+É o que existe de mais próximo do **tradutor universal da ficção científica** — o aparelho que simplesmente entende. O Vigilant Ear detecta o idioma sozinho, acompanha cada pessoa falando na sala e legenda todas no seu idioma — sem fones, sem configuração, no seu aparelho.
+
+```mermaid
+graph LR
+    A["Apenas ouvir"] --> B["Idioma detectado automaticamente"] --> C["Cada voz separada"] --> D["A sala inteira legendada no seu idioma"]
+```
 
 ### 🎵 Consciência de música e transmissão *(Power Pack+)*
 O **ShazamKit** identifica a música tocando ao seu redor e rastreia as mudanças de música. Quando uma voz parece estar vindo de uma TV ou rádio em vez de uma pessoa na sala, ela é marcada com um **📻** — as palavras ainda são exibidas; elas são rotuladas honestamente.

@@ -46,7 +46,12 @@ Turn on **Speaker Mode** and Vigilant Ear transcribes people talking near you in
 ### 🌐 Speaker Auto-Translate — your language, live *(Power Pack+)*
 With Speaker Mode on, when a nearby person speaks another language, Vigilant Ear can detect it and render their captions **in your language**, with the source language shown on their block. The chain — hear → separate speakers → transcribe → translate → display — runs **on the device**; the only network moment is a one-time language-pack download from Apple. You don't have to know or pick the other language first.
 
-This is the closest shipping thing to **science fiction's universal translator** — the device that simply understands. Earbud translators make you pick the language pair first and translate one voice into one ear. Vigilant Ear detects the language on its own, follows every speaker in the room, and captions them all in your language — no earbuds, no setup, on your device.
+This is the closest shipping thing to **science fiction's universal translator** — the device that simply understands. Vigilant Ear detects the language on its own, follows every speaker in the room, and captions them all in your language — no earbuds, no setup, on your device.
+
+```mermaid
+graph LR
+    A["Just listen"] --> B["Language detected automatically"] --> C["Every voice separated"] --> D["Whole room captioned in your language"]
+```
 
 ### 🎵 Music & broadcast awareness *(Power Pack+)*
 **ShazamKit** identifies music playing around you and tracks song changes. When a voice looks like it's coming from a TV or radio rather than a person in the room, it's tagged with a **📻** — the words still show; they're labeled honestly.

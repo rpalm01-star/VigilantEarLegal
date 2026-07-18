@@ -46,7 +46,12 @@ Activez le **Mode Locuteur (Speaker Mode)** et Vigilant Ear transcrit les person
 ### 🌐 Auto-traduction des locuteurs (Speaker Auto-Translate) — votre langue, en direct *(Power Pack+)*
 Avec le Mode Locuteur activé, lorsqu'une personne à proximité parle une autre langue, Vigilant Ear peut la détecter et afficher ses sous-titres **dans votre langue**, avec la langue source indiquée sur son bloc. La chaîne — écouter → séparer les locuteurs → transcrire → traduire → afficher — s'exécute **sur l'appareil** ; la seule utilisation du réseau est un téléchargement unique du pack linguistique depuis Apple. Vous n'avez pas besoin de connaître ou de choisir l'autre langue en premier.
 
-C'est ce qui se rapproche le plus du **traducteur universel de la science-fiction** — l'appareil qui comprend, tout simplement. Les traducteurs à écouteurs vous obligent à choisir d'abord la paire de langues et traduisent une voix vers une seule oreille. Vigilant Ear détecte la langue par lui-même, suit chaque personne qui parle dans la pièce et les sous-titre toutes dans votre langue — sans écouteurs, sans réglage, sur votre appareil.
+C'est ce qui se rapproche le plus du **traducteur universel de la science-fiction** — l'appareil qui comprend, tout simplement. Vigilant Ear détecte la langue par lui-même, suit chaque personne qui parle dans la pièce et les sous-titre toutes dans votre langue — sans écouteurs, sans réglage, sur votre appareil.
+
+```mermaid
+graph LR
+    A["Écouter, c'est tout"] --> B["Langue détectée automatiquement"] --> C["Chaque voix séparée"] --> D["Toute la pièce sous-titrée dans votre langue"]
+```
 
 ### 🎵 Reconnaissance de musique et de diffusion *(Power Pack+)*
 **ShazamKit** identifie la musique qui joue autour de vous et suit les changements de chanson. Lorsqu'une voix semble provenir d'une télévision ou d'une radio plutôt que d'une personne dans la pièce, elle est marquée d'une **📻** — les mots s'affichent toujours ; ils sont correctement étiquetés.
