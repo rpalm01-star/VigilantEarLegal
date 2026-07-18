@@ -39,6 +39,7 @@ Severe-weather warnings come from official public CAP feeds — U.S. **NWS**, Eu
 ### ⌚ Apple Watch + Live Activity — glance and know
 - **Apple Watch companion** — the direction of an alert points on your wrist so a glance tells you where to look. Redesigned Watch UI with the app ear icon, threat HUD layout, and double-tap to dismiss an alert. Alerts can still show the direction arrow when the Watch app is not open.
 - **Live Activity** — Vigilant Ear stays on your **Lock Screen**, in the **Dynamic Island**, and in the **Watch Smart Stack**, so the last alert and its bearing are always one look away.
+- **Partner alerts on your wrist** — when a linked Constellation partner's phone raises an alert, it can reach your Watch too, direction included. A reliability pass keeps the companion light on Watch battery all day.
 
 ### 💬 Speaker Mode — live, directional captions *(free)*
 Turn on **Speaker Mode** and Vigilant Ear transcribes people talking near you into **caption blocks, one per voice.** On-device speaker diarization keeps voices distinct — *who* is saying *what* — with a directional cue on the inner ring. The live speaker is highlighted; older text scrolls away as space is needed. Captions are free; automatic translation is the optional Power Pack+ layer.
@@ -64,6 +65,8 @@ Teach Vigilant Ear the sounds that matter to you — from local birds to your bu
 
 ### 🛰️ Constellation — many iPhones, one shared ear *(Power Pack+)*
 With two or more Ultra-Wideband-enabled iPhones (most since iPhone 11), **Constellation** pairs them so they can sense each other's position and fuse what each one hears into a single, more precise picture of where a sound is coming from — a distributed, passive listening array. Gated to devices with the right hardware. Mesh captions older than a peer's connect time are not retransmitted.
+
+**Partner messages** — send a quick text to a linked partner's phone; it lands in their caption feed and can arrive translated into their language, on-device. Messaging is age-aware: built on Apple's Declared Age Range, texting between an adult and a minor stays off unless both people have deliberately named each other. Alerts and captions are never gated — only person-to-person texting.
 
 ### 📷 Camera AR — “see the sound”
 Open the camera pill on the title rail and pin detected sounds at their real bearing in the live camera view. Markers cluster by speaker or by sound category and direction so the view stays readable; sources age-fade when they go quiet.
@@ -92,7 +95,7 @@ The safety core is **free, forever**:
 **Power Pack+** is a one-time unlock (**not a subscription**) with a **90-day free trial**. It adds the superpowers:
 
 - **Speaker Auto-Translate** — on-device translation of nearby speech into your language.
-- **Constellation** — multi-iPhone shared hearing over Ultra-Wideband.
+- **Constellation** — multi-iPhone shared hearing over Ultra-Wideband, with partner messages.
 - **Music ID** — ShazamKit song recognition.
 - **Acoustic Scope** — pro-grade live sound visualization and capture tools.
 - **Custom Sound Packs** — add-on classifiers you train for your own sounds.
@@ -141,7 +144,7 @@ Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](S
 - **Constellation** needs **Ultra-Wideband** — iPhone 11 or later, excluding SE and “e” models.
 - **Android.** Separate build with core radar, alerts, captions, and weather; Constellation mesh is iOS-first. See product site updates as Android parity grows.
 
-**Current App Store version:** 1.0.7. Built for modern iOS (SpeechAnalyzer-era).
+**Current App Store version:** 1.0.8. Built for modern iOS (SpeechAnalyzer-era).
 
 ---
 

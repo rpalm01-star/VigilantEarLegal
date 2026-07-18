@@ -39,6 +39,7 @@ Avisos de clima severo vêm de feeds públicos oficiais CAP — **NWS** dos EUA,
 ### ⌚ Apple Watch + Live Activity — olhe e saiba
 - **Companheiro do Apple Watch** — a direção de um alerta aponta em seu pulso, para que um olhar diga onde procurar. Interface do usuário do Watch redesenhada com o ícone de orelha do aplicativo, layout de HUD de ameaças e toque duplo para dispensar um alerta. Os alertas ainda podem mostrar a seta de direção quando o aplicativo do Watch não estiver aberto.
 - **Live Activity** — O Vigilant Ear permanece na sua **Tela de Bloqueio**, na **Dynamic Island** e no **Conjunto Inteligente do Watch**, para que o último alerta e sua direção estejam sempre a um olhar de distância.
+- **Alertas de parceiros no seu pulso** — quando o telefone de um parceiro vinculado do Constellation dispara um alerta, ele também pode chegar ao seu Watch, com a direção incluída. Um aprimoramento de confiabilidade mantém o companheiro leve na bateria do Watch o dia todo.
 
 ### 💬 Speaker Mode — legendas ao vivo e direcionais *(grátis)*
 Ative o **Speaker Mode** e o Vigilant Ear transcreve as pessoas conversando perto de você em **blocos de legendas, um por voz.** A diarização de locutores no dispositivo mantém as vozes distintas — *quem* está dizendo *o que* — com uma indicação direcional no anel interno. O locutor ao vivo é destacado; o texto mais antigo rola para longe conforme o espaço é necessário. As legendas são gratuitas; a tradução automática é a camada opcional do Power Pack+.
@@ -64,6 +65,8 @@ Ensine ao Vigilant Ear os sons que importam para você — dos pássaros da regi
 
 ### 🛰️ Constellation — muitos iPhones, um ouvido compartilhado *(Power Pack+)*
 Com dois ou mais iPhones habilitados para Ultra-Wideband (a maioria desde o iPhone 11), o **Constellation** os emparelha para que possam sentir a posição um do outro e fundir o que cada um ouve em uma imagem única e mais precisa de onde um som está vindo — uma matriz de escuta passiva e distribuída. Limitado a dispositivos com o hardware correto. As legendas de malha mais antigas que o tempo de conexão de um par não são retransmitidas.
+
+**Mensagens entre parceiros** — envie um texto rápido para o telefone de um parceiro vinculado; ele aparece no feed de legendas dele e pode chegar traduzido para o idioma dele, no próprio aparelho. As mensagens levam a idade em conta: com base na Faixa Etária Declarada da Apple, as mensagens entre um adulto e um menor permanecem desativadas, a menos que ambos tenham deliberadamente nomeado um ao outro. Alertas e legendas nunca são restringidos — apenas as mensagens de pessoa a pessoa.
 
 ### 📷 Câmera AR — “veja o som”
 Abra a pílula da câmera na barra de título e fixe os sons detectados em sua direção real na visualização da câmera ao vivo. Os marcadores se agrupam por locutor ou por categoria de som e direção, para que a visualização permaneça legível; as fontes desaparecem com o tempo quando ficam silenciosas.
@@ -92,7 +95,7 @@ O núcleo de segurança é **gratuito, para sempre**:
 O **Power Pack+** é um desbloqueio único (**não é uma assinatura**) com um **teste gratuito de 90 dias**. Ele adiciona os superpoderes:
 
 - **Speaker Auto-Translate** — tradução no dispositivo de fala próxima para o seu idioma.
-- **Constellation** — audição compartilhada em vários iPhones sobre Ultra-Wideband.
+- **Constellation** — audição compartilhada em vários iPhones sobre Ultra-Wideband, com mensagens entre parceiros.
 - **Identificação de Música (Music ID)** — reconhecimento de música do ShazamKit.
 - **Escopo Acústico** — visualização de som ao vivo de nível profissional e ferramentas de captura.
 - **Pacotes de Som Personalizados** — classificadores adicionais que você treina para os seus próprios sons.
@@ -141,7 +144,7 @@ Detalhes completos: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT
 - **Constellation** requer **Ultra-Wideband** — iPhone 11 ou posterior, excluindo os modelos SE e "e".
 - **Android.** Compilação separada com radar central, alertas, legendas e clima; a malha Constellation é voltada primeiramente para iOS. Veja as atualizações no site do produto conforme a paridade com o Android cresce.
 
-**Versão atual na App Store:** 1.0.7. Desenvolvido para o iOS moderno (era SpeechAnalyzer).
+**Versão atual na App Store:** 1.0.8. Desenvolvido para o iOS moderno (era SpeechAnalyzer).
 
 ---
 

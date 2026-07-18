@@ -39,6 +39,7 @@ Les alertes météorologiques extrêmes proviennent de flux publics officiels CA
 ### ⌚ Apple Watch + Live Activity — un coup d'œil et vous savez
 - **Application compagnon Apple Watch** — la direction d'une alerte pointe sur votre poignet afin qu'un coup d'œil vous dise où regarder. Interface utilisateur repensée pour la Watch avec l'icône de l'oreille de l'application, l'affichage tête haute (HUD) des menaces, et un double tapotement pour fermer une alerte. Les alertes peuvent toujours afficher la flèche de direction lorsque l'application Watch n'est pas ouverte.
 - **Live Activity (Activité en direct)** — Vigilant Ear reste sur votre **Écran de verrouillage**, dans la **Dynamic Island**, et dans le **Défilement intelligent (Smart Stack) de la Watch**, afin que la dernière alerte et son cap soient toujours à portée de regard.
+- **Alertes des partenaires à votre poignet** — lorsque le téléphone d'un partenaire Constellation associé déclenche une alerte, elle peut aussi atteindre votre Watch, direction comprise. Une passe de fiabilité garde le compagnon léger pour la batterie de la Watch toute la journée.
 
 ### 💬 Mode Locuteur (Speaker Mode) — sous-titres en direct et directionnels *(gratuit)*
 Activez le **Mode Locuteur (Speaker Mode)** et Vigilant Ear transcrit les personnes qui parlent près de vous en **blocs de sous-titres, un par voix.** La diarisation des locuteurs sur l'appareil garde les voix distinctes — *qui* dit *quoi* — avec un indicateur directionnel sur l'anneau intérieur. Le locuteur en direct est mis en surbrillance ; le texte plus ancien défile pour faire de la place. Les sous-titres sont gratuits ; la traduction automatique est le niveau Power Pack+ optionnel.
@@ -64,6 +65,8 @@ Apprenez à Vigilant Ear les sons qui comptent pour vous — des oiseaux locaux 
 
 ### 🛰️ Constellation — plusieurs iPhones, une oreille partagée *(Power Pack+)*
 Avec deux iPhones ou plus équipés de la technologie Ultra-Wideband (la plupart depuis l'iPhone 11), **Constellation** les associe afin qu'ils puissent détecter la position des autres et fusionner ce que chacun entend en une image unique et plus précise de la provenance d'un son — un réseau d'écoute distribué et passif. Restreint aux appareils dotés du matériel approprié. Les sous-titres en réseau mesh antérieurs à l'heure de connexion d'un pair ne sont pas retransmis.
+
+**Messages entre partenaires** — envoyez un court texte vers le téléphone d'un partenaire associé ; il apparaît dans son fil de sous-titres et peut arriver traduit dans sa langue, sur l'appareil. La messagerie tient compte de l'âge : fondée sur la tranche d'âge déclarée d'Apple, la messagerie entre un adulte et un mineur reste désactivée à moins que les deux ne se soient délibérément nommés l'un l'autre. Les alertes et les sous-titres ne sont jamais restreints — seuls les messages de personne à personne le sont.
 
 ### 📷 Caméra AR — « voir le son »
 Ouvrez la pastille de la caméra sur la barre de titre et épinglez les sons détectés à leur orientation réelle dans la vue en direct de la caméra. Les marqueurs se regroupent par locuteur ou par catégorie de son et par direction pour que la vue reste lisible ; les sources s'estompent avec le temps lorsqu'elles deviennent silencieuses.
@@ -92,7 +95,7 @@ Le cœur de la sécurité est **gratuit, pour toujours** :
 Le **Power Pack+** est un déblocage unique (**pas un abonnement**) avec un **essai gratuit de 90 jours**. Il ajoute les superpouvoirs suivants :
 
 - **Auto-traduction des locuteurs (Speaker Auto-Translate)** — traduction sur l'appareil de la parole environnante vers votre langue.
-- **Constellation** — audition partagée sur plusieurs iPhones via Ultra-Wideband.
+- **Constellation** — audition partagée sur plusieurs iPhones via Ultra-Wideband, avec messages entre partenaires.
 - **Music ID** — reconnaissance de chansons via ShazamKit.
 - **Oscilloscope acoustique** — visualisation sonore en direct de niveau professionnel et outils de capture.
 - **Packs de sons personnalisés** — des classificateurs additionnels que vous entraînez pour vos propres sons.
@@ -141,7 +144,7 @@ Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](S
 - **Constellation** nécessite l'**Ultra-Wideband** — iPhone 11 ou ultérieur, à l'exclusion des modèles SE et « e ».
 - **Android.** Version séparée avec le radar principal, les alertes, les sous-titres et la météo ; le réseau mesh Constellation est d'abord disponible sur iOS. Voir les mises à jour du site du produit à mesure que la parité Android progresse.
 
-**Version actuelle sur l'App Store :** 1.0.7. Conçu pour les systèmes iOS modernes (ère SpeechAnalyzer).
+**Version actuelle sur l'App Store :** 1.0.8. Conçu pour les systèmes iOS modernes (ère SpeechAnalyzer).
 
 ---
 

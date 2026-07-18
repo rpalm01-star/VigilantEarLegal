@@ -39,6 +39,7 @@ Unwetterwarnungen stammen aus offiziellen öffentlichen CAP-Feeds — **NWS** de
 ### ⌚ Apple Watch + Live-Aktivität — ein Blick und Bescheid wissen
 - **Apple Watch-Begleiter** — die Richtung einer Warnung zeigt auf Ihrem Handgelenk, sodass ein Blick Ihnen sagt, wohin Sie schauen müssen. Überarbeitete Watch-Benutzeroberfläche mit dem App-Ohr-Symbol, dem Bedrohungs-HUD-Layout und Doppeltippen, um eine Warnung zu schließen. Warnungen können den Richtungspfeil weiterhin anzeigen, wenn die Watch-App nicht geöffnet ist.
 - **Live-Aktivität** — Vigilant Ear bleibt auf Ihrem **Sperrbildschirm**, in der **Dynamic Island** und im **Smart-Stapel** der Watch, sodass die letzte Warnung und ihre Peilung immer nur einen Blick entfernt sind.
+- **Partnerwarnungen am Handgelenk** — wenn das Telefon eines verbundenen Constellation-Partners eine Warnung auslöst, kann sie auch Ihre Watch erreichen, Richtung inklusive. Ein Zuverlässigkeits-Feinschliff hält den Begleiter den ganzen Tag schonend für die Watch-Batterie.
 
 ### 💬 Sprechermodus — live, richtungsbezogene Untertitel *(kostenlos)*
 Schalten Sie den **Sprechermodus** ein und Vigilant Ear transkribiert sprechende Personen in Ihrer Nähe in **Untertitelblöcke, einen pro Stimme.** Die On-Device-Sprecherdiarisierung hält Stimmen getrennt — *wer* sagt *was* — mit einem Richtungshinweis auf dem inneren Ring. Der Live-Sprecher wird hervorgehoben; älterer Text scrollt weg, wenn Platz benötigt wird. Untertitel sind kostenlos; automatische Übersetzung ist die optionale Power Pack+-Ebene.
@@ -64,6 +65,8 @@ Bringen Sie Vigilant Ear die Geräusche bei, die für Sie zählen — von heimis
 
 ### 🛰️ Constellation — viele iPhones, ein geteiltes Ohr *(Power Pack+)*
 Mit zwei oder mehr Ultra-Wideband-fähigen iPhones (die meisten seit iPhone 11) koppelt **Constellation** diese, sodass sie die Position der anderen erfassen und das, was jedes einzelne hört, zu einem einzigen, präziseren Bild verschmelzen können, woher ein Geräusch kommt — ein verteiltes, passives Hör-Array. Beschränkt auf Geräte mit der richtigen Hardware. Mesh-Untertitel, die älter als die Verbindungszeit eines Peers sind, werden nicht erneut übertragen.
+
+**Partnernachrichten** — senden Sie einen kurzen Text an das Telefon eines verbundenen Partners; er erscheint in dessen Untertitel-Feed und kann direkt auf dem Gerät in dessen Sprache übersetzt ankommen. Die Nachrichtenfunktion berücksichtigt das Alter: Auf Basis von Apples deklariertem Altersbereich bleibt das Schreiben zwischen einem Erwachsenen und einem Minderjährigen deaktiviert, es sei denn, beide haben einander bewusst benannt. Warnungen und Untertitel werden nie eingeschränkt — nur Nachrichten von Person zu Person.
 
 ### 📷 Kamera-AR — „das Geräusch sehen“
 Öffnen Sie die Kamera-Pille auf der Titelleiste und heften Sie erkannte Geräusche an ihrer realen Peilung in der Live-Kameraansicht an. Markierungen gruppieren sich nach Sprecher oder nach Geräuschkategorie und Richtung, sodass die Ansicht lesbar bleibt; Quellen verblassen durch Alterung, wenn sie leise werden.
@@ -92,7 +95,7 @@ Der Sicherheitskern ist **kostenlos, für immer**:
 **Power Pack+** ist eine einmalige Freischaltung (**kein Abonnement**) mit einer **kostenlosen 90-Tage-Testversion**. Es fügt die Superkräfte hinzu:
 
 - **Automatische Sprecher-Übersetzung** — On-Device-Übersetzung von Sprache in der Nähe in Ihre Sprache.
-- **Constellation** — geteiltes Hören mit mehreren iPhones über Ultra-Wideband.
+- **Constellation** — geteiltes Hören mit mehreren iPhones über Ultra-Wideband, mit Partnernachrichten.
 - **Musik-ID** — ShazamKit-Songerkennung.
 - **Acoustic Scope** — professionelle Live-Klangvisualisierung und Aufnahme-Werkzeuge.
 - **Eigene Soundpakete** — Zusatz-Klassifizierer, die Sie für Ihre eigenen Geräusche trainieren.
@@ -141,7 +144,7 @@ Vollständige Details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPP
 - **Constellation** benötigt **Ultra-Wideband** — iPhone 11 oder neuer, ausgenommen SE- und „e“-Modelle.
 - **Android.** Separater Build mit Kern-Radar, Warnungen, Untertiteln und Wetter; Constellation-Mesh ist iOS-first. Siehe Produkt-Website-Updates, während die Android-Parität wächst.
 
-**Aktuelle App-Store-Version:** 1.0.7. Gebaut für modernes iOS (SpeechAnalyzer-Ära).
+**Aktuelle App-Store-Version:** 1.0.8. Gebaut für modernes iOS (SpeechAnalyzer-Ära).
 
 ---
 
