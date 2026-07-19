@@ -80,7 +80,7 @@ Sie können:
 - **Einzelne Warnkategorien ausschalten** (Sirenen, Wetter, Türklingeln, Baby usw.)
 - **Das Zuhören im Hintergrund beenden**, wenn alle Warnkategorien deaktiviert sind
 - **Constellation auslassen**, sodass keine Mesh-Metadaten mit anderen Telefonen geteilt werden
-- **Den Demo-Modus verwenden**, um Warnungen und Funktionen lokal mit einem klaren DEMO-Wasserzeichen in der Vorschau anzuzeigen, ohne einen echten Notfall zu implizieren
+- **Die Feature-Spielwiese verwenden**, um Warnungen und Funktionen lokal mit einem klaren PREVIEW-Wasserzeichen in der Vorschau anzuzeigen, ohne einen echten Notfall zu implizieren
 
 ## Plattform-Richtlinien
 

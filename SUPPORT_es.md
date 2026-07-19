@@ -60,7 +60,7 @@ El núcleo de seguridad es **gratis, para siempre**:
 - Alertas locales de sonido (sirenas, alarmas, golpes/timbres, bebé, persona cercana) con entrega en pantalla y notificación automática opcional  
 - Subtítulos en vivo del **Modo Orador** (en el dispositivo; direccional donde el hardware lo permita)  
 - Fuentes CAP de clima severo para su región — **NWS** de EE. UU., **MeteoGate** de Europa, **CMA** de China y **KMA** de Corea  
-- Alertas de práctica del **Modo Demo** (con marca de agua para que nunca parezcan una emergencia real)  
+- Alertas de práctica de la **Zona de Pruebas** (con marca de agua para que nunca parezcan una emergencia real)  
 - Señales de dirección en la aplicación complementaria de **Apple Watch** y **Live Activity** (Pantalla de bloqueo / Dynamic Island / Smart Stack del Watch), donde estén disponibles  
 
 **Power Pack+** es un desbloqueo único (**no una suscripción**) con una **prueba gratuita de 90 días**. Agrega:
@@ -90,9 +90,9 @@ También puede revocar el acceso al Micrófono por completo en la Configuración
 
 Los sonidos agudos como las alarmas y las sirenas de los camiones de bomberos son relativamente fáciles de detectar para el motor de ML de sonido. Los sonidos de banda ancha (como los motores de los automóviles o los neumáticos) son más difíciles; hacemos un trabajo adecuado pero imperfecto dados los límites de hardware del teléfono. Los algoritmos de diferencia de tiempo de llegada (TDOA) son solo un poco precisos dada la corta distancia entre los micrófonos. La dirección necesita un iPhone con micrófono estéreo; los iPads están enfocados en subtítulos sin dirección completa.
 
-### ¿Cómo funcionan el Modo Demo y las alertas de práctica?
+### ¿Cómo funcionan la Zona de Pruebas y las alertas de práctica?
 
-Abra el **Modo Demo** (varita) para probar los sonidos de práctica de Hogar y Calle y otras vistas previas. Los eventos de práctica están claramente marcados como **DEMO:** para que nunca pretendan ser una emergencia real. Cerrar el Modo Demo elimina el estado de práctica (incluida la suplantación temporal de GPS utilizada en algunas demostraciones).
+Abra la **Zona de Pruebas** (varita) para probar los sonidos de práctica de Hogar y Calle y otras vistas previas. Los eventos de práctica están claramente marcados como **PREVIEW** para que nunca pretendan ser una emergencia real. Cerrar la Zona de Pruebas elimina el estado de práctica (incluida la suplantación temporal de GPS utilizada en algunas demostraciones).
 
 ---
 

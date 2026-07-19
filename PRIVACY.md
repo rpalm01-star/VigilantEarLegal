@@ -80,7 +80,7 @@ You can:
 - **Turn off individual alert categories** (sirens, weather, doorbells, baby, etc.)
 - **Stop background listening** when all alert categories are disabled
 - **Leave Constellation off** so no mesh metadata is shared with other phones
-- **Use Demo Mode** to preview alerts and features locally with a clear DEMO watermark, without implying a real emergency
+- **Use Feature Playground** to preview alerts and features locally with a clear PREVIEW watermark, without implying a real emergency
 
 ## Platform Guidelines
 

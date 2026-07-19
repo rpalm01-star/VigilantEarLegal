@@ -60,7 +60,7 @@ The safety core is **free, forever**:
 - Local sound alerts (sirens, alarms, knocks/doorbells, baby, person nearby) with on-screen and optional push delivery  
 - **Speaker Mode** live captions (on-device; directional where hardware allows)  
 - Severe-weather CAP feeds for your region — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, and **Korea KMA**  
-- **Demo Mode** practice alerts (watermarked so they never look like a live emergency)  
+- **Feature Playground** practice alerts (watermarked so they never look like a live emergency)  
 - **Apple Watch** companion direction cues and **Live Activity** (Lock Screen / Dynamic Island / Watch Smart Stack), where available  
 
 **Power Pack+** is a one-time unlock (**not a subscription**) with a **90-day free trial**. It adds:
@@ -90,9 +90,9 @@ You can also revoke Microphone access entirely in iOS Settings (that stops all a
 
 Acute sounds like alarms and firetruck sirens are relatively easy for the sound ML engine to detect. Broadband sounds (like car engines or tires) are harder; we do an adequate but imperfect job given phone hardware limits. Time Difference of Arrival (TDOA) algorithms are only so precise given the short distance between microphones. Direction needs a stereo-mic iPhone; iPads are captions-focused without full bearing.
 
-### How do Demo Mode and practice alerts work?
+### How do Feature Playground and practice alerts work?
 
-Open **Demo Mode** (wand) to try Home & Street practice sounds and other previews. Practice events are clearly marked **DEMO:** so they never pretend to be a real emergency. Closing Demo Mode tears practice state down (including temporary GPS spoof used in some demos).
+Open **Feature Playground** (wand) to try Home & Street practice sounds and other previews. Practice events are clearly marked **PREVIEW** so they never pretend to be a real emergency. Closing Feature Playground tears practice state down (including temporary GPS spoof used in some demos).
 
 ---
 

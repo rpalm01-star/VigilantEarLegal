@@ -80,7 +80,7 @@ Você pode:
 - **Desativar categorias de alerta individuais** (sirenes, clima, campainhas, bebê, etc.)
 - **Interromper a audição em segundo plano** quando todas as categorias de alerta estiverem desativadas
 - **Deixar o Constellation desligado** para que nenhum metadado de malha seja compartilhado com outros telefones
-- **Usar o Demo Mode** para visualizar alertas e recursos localmente com uma marca d'água DEMO clara, sem implicar uma emergência real
+- **Usar a Zona de Testes** para visualizar alertas e recursos localmente com uma marca d'água PREVIEW clara, sem implicar uma emergência real
 
 ## Diretrizes da Plataforma
 

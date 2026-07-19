@@ -60,7 +60,7 @@ Der Sicherheitskern ist **kostenlos, für immer**:
 - Lokale Geräuschwarnungen (Sirenen, Alarme, Klopfen/Türklingeln, Baby, Person in der Nähe) mit Bildschirm- und optionaler Push-Zustellung  
 - Live-Untertitel im **Sprechermodus** (auf dem Gerät; richtungsbezogen, wo die Hardware dies zulässt)  
 - Unwetter-CAP-Feeds für Ihre Region — **NWS** in den USA, **MeteoGate** in Europa, **CMA** in China und **KMA** in Korea  
-- Übungswarnungen im **Demo-Modus** (mit Wasserzeichen, sodass sie nie wie ein echter Notfall aussehen)  
+- Übungswarnungen in der **Feature-Spielwiese** (mit Wasserzeichen, sodass sie nie wie ein echter Notfall aussehen)  
 - Richtungshinweise der **Apple Watch** als Begleiter und **Live-Aktivität** (Sperrbildschirm / Dynamic Island / Watch-Smart-Stapel), wo verfügbar  
 
 **Power Pack+** ist eine einmalige Freischaltung (**kein Abonnement**) mit einer **kostenlosen 90-Tage-Testversion**. Es fügt hinzu:
@@ -90,9 +90,9 @@ Sie können den Mikrofonzugriff in den iOS-Einstellungen auch vollständig wider
 
 Akute Geräusche wie Alarme und Feuerwehrsirenen sind für die Geräusch-ML-Engine relativ leicht zu erkennen. Breitbandige Geräusche (wie Automotoren oder Reifen) sind schwieriger; wir leisten angesichts der Hardwaregrenzen von Telefonen angemessene, aber unvollkommene Arbeit. TDOA-Algorithmen (Time Difference of Arrival) sind angesichts des kurzen Abstands zwischen den Mikrofonen nur bedingt präzise. Die Richtung erfordert ein Stereo-Mikrofon-iPhone; iPads konzentrieren sich auf Untertitel ohne volle Peilung.
 
-### Wie funktionieren der Demo-Modus und die Übungswarnungen?
+### Wie funktionieren die Feature-Spielwiese und die Übungswarnungen?
 
-Öffnen Sie den **Demo-Modus** (Zauberstab), um Home- & Street-Übungsgeräusche und andere Vorschauen auszuprobieren. Übungsereignisse sind deutlich als **DEMO:** markiert, sodass sie niemals einen echten Notfall vortäuschen. Beim Schließen des Demo-Modus wird der Übungsstatus abgebaut (einschließlich temporärem GPS-Spoofing, das in einigen Demos verwendet wird).
+Öffnen Sie die **Feature-Spielwiese** (Zauberstab), um Home- & Street-Übungsgeräusche und andere Vorschauen auszuprobieren. Übungsereignisse sind deutlich als **PREVIEW** markiert, sodass sie niemals einen echten Notfall vortäuschen. Beim Schließen der Feature-Spielwiese wird der Übungsstatus abgebaut (einschließlich temporärem GPS-Spoofing, das in einigen Demos verwendet wird).
 
 ---
 

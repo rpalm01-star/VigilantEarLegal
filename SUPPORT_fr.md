@@ -60,7 +60,7 @@ Le cœur de la sécurité est **gratuit, pour toujours** :
 - Alertes sonores locales (sirènes, alarmes, coups/sonnettes, bébé, personne à proximité) avec notification à l'écran et push en option  
 - Sous-titres en direct **Mode Locuteur (Speaker Mode)** (sur l'appareil ; directionnels là où le matériel le permet)  
 - Flux météo extrêmes CAP pour votre région — **NWS** aux États-Unis, **MeteoGate** en Europe, **CMA** en Chine, et **KMA** en Corée  
-- Alertes d'entraînement du **Mode Démo** (filigranées pour ne jamais ressembler à une urgence réelle)  
+- Alertes d'entraînement du **Terrain de jeu des fonctionnalités** (filigranées pour ne jamais ressembler à une urgence réelle)  
 - Indications de direction du compagnon **Apple Watch** et **Live Activity** (Écran de verrouillage / Dynamic Island / Défilement intelligent de la Watch), là où c'est disponible  
 
 Le **Power Pack+** est un déblocage unique (**pas un abonnement**) avec un **essai gratuit de 90 jours**. Il ajoute :
@@ -90,9 +90,9 @@ Vous pouvez également révoquer complètement l'accès au Microphone dans les p
 
 Les sons aigus comme les alarmes et les sirènes de camions de pompiers sont relativement faciles à détecter pour le moteur d'apprentissage automatique sonore. Les sons à large bande (comme les moteurs de voiture ou les pneus) sont plus difficiles ; nous faisons un travail adéquat mais imparfait compte tenu des limites matérielles du téléphone. Les algorithmes de Différence de Temps d'Arrivée (TDOA) n'ont qu'une précision limitée compte tenu de la courte distance entre les microphones. La direction nécessite un iPhone à microphone stéréo ; les iPads sont axés sur les sous-titres sans relèvement complet.
 
-### Comment fonctionnent le Mode Démo et les alertes d'entraînement ?
+### Comment fonctionnent le Terrain de jeu des fonctionnalités et les alertes d'entraînement ?
 
-Ouvrez le **Mode Démo (Demo Mode)** (baguette) pour essayer les sons d'entraînement Maison et Rue et d'autres aperçus. Les événements d'entraînement sont clairement marqués **DEMO:** afin qu'ils ne prétendent jamais être une véritable urgence. La fermeture du Mode Démo met fin à l'état d'entraînement (y compris la fausse position GPS temporaire utilisée dans certaines démos).
+Ouvrez le **Terrain de jeu des fonctionnalités** (baguette) pour essayer les sons d'entraînement Maison et Rue et d'autres aperçus. Les événements d'entraînement sont clairement marqués **PREVIEW** afin qu'ils ne prétendent jamais être une véritable urgence. La fermeture du Terrain de jeu des fonctionnalités met fin à l'état d'entraînement (y compris la fausse position GPS temporaire utilisée dans certaines démos).
 
 ---
 

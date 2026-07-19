@@ -80,7 +80,7 @@ Vous pouvez :
 - **Désactiver des catégories d'alerte individuelles** (sirènes, météo, sonnettes, bébé, etc.)
 - **Arrêter l'écoute en arrière-plan** lorsque toutes les catégories d'alerte sont désactivées
 - **Laisser Constellation désactivé** pour qu'aucune métadonnée mesh ne soit partagée avec d'autres téléphones
-- **Utiliser le Mode Démo** pour prévisualiser les alertes et les fonctionnalités localement avec un filigrane DEMO clair, sans impliquer de véritable urgence
+- **Utiliser le Terrain de jeu des fonctionnalités** pour prévisualiser les alertes et les fonctionnalités localement avec un filigrane PREVIEW clair, sans impliquer de véritable urgence
 
 ## Directives de la plateforme
 

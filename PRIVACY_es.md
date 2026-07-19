@@ -80,7 +80,7 @@ Usted puede:
 - **Apagar categorías de alertas individuales** (sirenas, clima, timbres, bebé, etc.)
 - **Detener la escucha en segundo plano** cuando todas las categorías de alerta están desactivadas
 - **Dejar Constellation apagado** para que no se compartan metadatos de la malla con otros teléfonos
-- **Usar el Modo Demo** para obtener una vista previa de las alertas y funciones localmente con una clara marca de agua DEMO, sin implicar una emergencia real
+- **Usar la Zona de Pruebas** para obtener una vista previa de las alertas y funciones localmente con una clara marca de agua PREVIEW, sin implicar una emergencia real
 
 ## Pautas de la Plataforma
 

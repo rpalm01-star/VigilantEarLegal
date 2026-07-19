@@ -60,7 +60,7 @@ O núcleo de segurança é **gratuito, para sempre**:
 - Alertas sonoros locais (sirenes, alarmes, batidas/campainhas, bebê, pessoa por perto) com entrega na tela e notificações push opcionais  
 - Legendas ao vivo do **Speaker Mode** (no dispositivo; direcional onde o hardware permite)  
 - Feeds CAP de clima severo para a sua região — **NWS** dos EUA, **MeteoGate** da Europa, **CMA** da China e **KMA** da Coreia  
-- Prática de alertas do **Demo Mode** (com marca d'água para que nunca pareçam uma emergência real)  
+- Prática de alertas da **Zona de Testes** (com marca d'água para que nunca pareçam uma emergência real)  
 - Dicas de direção de companheiro do **Apple Watch** e **Live Activity** (Tela de Bloqueio / Dynamic Island / Conjunto Inteligente do Watch), onde disponível  
 
 O **Power Pack+** é um desbloqueio único (**não é uma assinatura**) com um **teste gratuito de 90 dias**. Ele adiciona:
@@ -90,9 +90,9 @@ Você também pode revogar completamente o acesso ao Microfone em Ajustes do iOS
 
 Sons agudos como alarmes e sirenes de caminhões de bombeiros são relativamente fáceis de serem detectados pelo mecanismo ML de som. Sons de banda larga (como motores de carros ou pneus) são mais difíceis; nós fazemos um trabalho adequado, mas imperfeito, devido aos limites de hardware do telefone. Os algoritmos de Diferença de Tempo de Chegada (TDOA) são precisos até certo ponto, dada a curta distância entre os microfones. A direção precisa de um iPhone com microfone estéreo; iPads são focados em legendas sem rumo completo.
 
-### Como o Demo Mode e os alertas de prática funcionam?
+### Como a Zona de Testes e os alertas de prática funcionam?
 
-Abra o **Demo Mode** (varinha) para experimentar sons de prática Home & Street e outras prévias. Os eventos de prática estão claramente marcados como **DEMO:** para que nunca se passem por uma emergência real. Fechar o Demo Mode encerra o estado de prática (incluindo simulação temporária de GPS usada em algumas demonstrações).
+Abra a **Zona de Testes** (varinha) para experimentar sons de prática Home & Street e outras prévias. Os eventos de prática estão claramente marcados como **PREVIEW** para que nunca se passem por uma emergência real. Fechar a Zona de Testes encerra o estado de prática (incluindo simulação temporária de GPS usada em algumas demonstrações).
 
 ---
 
