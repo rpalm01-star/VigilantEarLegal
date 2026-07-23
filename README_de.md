@@ -89,6 +89,7 @@ Der Sicherheitskern ist **kostenlos, für immer**:
 - **Home Watch & Street Watch** — lokale Geräuschwarnungen (Alarme, Sirenen, Klopfen/Türklingeln, Baby, Person in der Nähe) mit Bildschirm-, haptischer und optionaler Push-Zustellung.
 - **Live-Untertitel** — Sprechermodus, auf dem Gerät, richtungsbezogen, wo die Hardware dies zulässt.
 - **Unwetter-CAP** — NWS, MeteoGate, CMA, KMA für Ihre Region.
+- **Erdbebenwarnungen (USGS, weltweit)** — Sie spüren eine Vibration und sehen auf Ihrer Karte das Gebiet, in dem das Beben spürbar war, wenn in der Nähe ein Erdbeben gemeldet wird. Eine Bestätigung aus dem offiziellen USGS-Feed — keine Frühwarnung: Wenn Sie ein Beben gespürt haben, sagt Ihnen dies, was es war.
 - **Feature-Spielwiese** — Übungswarnungen und Funktionsvorschauen mit klarem PREVIEW-Wasserzeichen.
 - **Apple Watch-Begleiter & Live-Aktivität** — auf einen Blick erkennbare Richtung und letzte Warnung.
 
@@ -144,7 +145,7 @@ Vollständige Details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPP
 - **Constellation** benötigt **Ultra-Wideband** — iPhone 11 oder neuer, ausgenommen SE- und „e“-Modelle.
 - **Android.** Separater Build mit Kern-Radar, Warnungen, Untertiteln und Wetter; Constellation-Mesh ist iOS-first. Siehe Produkt-Website-Updates, während die Android-Parität wächst.
 
-**Aktuelle App-Store-Version:** 1.0.8. Gebaut für modernes iOS (SpeechAnalyzer-Ära).
+**Aktuelle App-Store-Version:** 1.0.9. Gebaut für modernes iOS (SpeechAnalyzer-Ära).
 
 ---
 

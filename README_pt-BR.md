@@ -89,6 +89,7 @@ O núcleo de segurança é **gratuito, para sempre**:
 - **Home Watch e Street Watch** — alertas de som locais (alarmes, sirenes, batidas/campainhas, bebê, pessoa por perto) com entrega na tela, tátil e notificação push opcional.
 - **Legendas ao vivo** — Speaker Mode, no dispositivo, direcional onde o hardware permite.
 - **Clima severo CAP** — NWS, MeteoGate, CMA, KMA para a sua região.
+- **Alertas de terremoto (USGS, mundial)** — sinta uma vibração e veja no mapa a área que sentiu o tremor quando um terremoto for relatado por perto. Uma confirmação do feed oficial do USGS — não um alerta antecipado: se você sentiu o tremor, isto lhe diz o que foi.
 - **Zona de Testes** — alertas de prática e prévias de recursos com uma clara marca d'água PREVIEW.
 - **Companheiro do Apple Watch e Live Activity** — direção visualizável e último alerta.
 
@@ -144,7 +145,7 @@ Detalhes completos: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT
 - **Constellation** requer **Ultra-Wideband** — iPhone 11 ou posterior, excluindo os modelos SE e "e".
 - **Android.** Compilação separada com radar central, alertas, legendas e clima; a malha Constellation é voltada primeiramente para iOS. Veja as atualizações no site do produto conforme a paridade com o Android cresce.
 
-**Versão atual na App Store:** 1.0.8. Desenvolvido para o iOS moderno (era SpeechAnalyzer).
+**Versão atual na App Store:** 1.0.9. Desenvolvido para o iOS moderno (era SpeechAnalyzer).
 
 ---
 

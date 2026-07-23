@@ -89,6 +89,7 @@ graph LR
 - **Home Watch & Street Watch** — 로컬 소리 알림 (알람, 사이렌, 노크/초인종, 아기, 근처의 사람)을 화면, 햅틱 및 선택적 푸시로 전달.
 - **실시간 자막** — Speaker Mode, 기기 내, 하드웨어가 허용하는 곳에서의 방향성.
 - **악천후 CAP** — 해당 지역의 NWS, MeteoGate, CMA, KMA.
+- **지진 알림 (USGS, 전 세계)** — 근처에서 지진이 보고되면 진동으로 알려 드리고, 지진이 감지된 지역을 지도에서 확인할 수 있습니다. 공식 USGS 피드의 확인 정보이며 조기 경보가 아닙니다. 흔들림을 느꼈다면, 그것이 무엇이었는지 알려 줍니다.
 - **기능 플레이그라운드** — 명확한 PREVIEW 워터마크가 있는 연습 알림 및 기능 미리보기.
 - **Apple Watch 컴패니언 및 라이브 액티비티(Live Activity)** — 한눈에 볼 수 있는 방향과 마지막 알림.
 
@@ -144,7 +145,7 @@ graph TD
 - **Constellation**은 **초광대역(Ultra-Wideband)**이 필요합니다 — iPhone 11 이상 (SE 및 "e" 모델 제외).
 - **Android.** 핵심 레이더, 알림, 자막, 날씨가 포함된 별도의 빌드; Constellation 메시는 iOS 우선입니다. Android 패리티가 증가함에 따라 제품 사이트 업데이트를 확인하세요.
 
-**현재 App Store 버전:** 1.0.8. 최신 iOS (SpeechAnalyzer 시대)를 위해 빌드되었습니다.
+**현재 App Store 버전:** 1.0.9. 최신 iOS (SpeechAnalyzer 시대)를 위해 빌드되었습니다.
 
 ---
 
