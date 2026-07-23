@@ -37,6 +37,9 @@ When you use certain features — or when the app needs them to function — **l
 *   **Severe weather alerts**
     *   *What is sent:* Requests to public CAP/Atom weather feeds; your general region may be inferred from feed selection and device location
     *   *Provider:* U.S. National Weather Service, MeteoGate (Europe), China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), WMO-related public sources, and similar public alert feeds
+*   **Earthquake alerts**
+    *   *What is sent:* Requests for a single worldwide public earthquake summary feed — the request carries no location or region information at all; your device location is used only on-device to decide whether a reported quake is near you
+    *   *Provider:* U.S. Geological Survey (USGS) public earthquake feed
 *   **Music identification (optional, Power Pack+)**
     *   *What is sent:* Short audio fingerprints — never raw audio — when music is detected and Shazam is enabled (can be turned off in settings)
     *   *Provider:* Apple Shazam / ShazamKit

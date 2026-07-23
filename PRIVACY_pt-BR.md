@@ -37,6 +37,9 @@ Quando você usa certos recursos — ou quando o aplicativo precisa deles para f
 *   **Alertas de clima severo**
     *   *O que é enviado:* Solicitações para feeds meteorológicos públicos CAP/Atom; a sua região geral pode ser inferida a partir da seleção do feed e da localização do dispositivo
     *   *Provedor:* National Weather Service dos EUA, MeteoGate (Europa), Administração Meteorológica da China (CMA), Administração Meteorológica da Coreia (KMA), fontes públicas relacionadas à OMM e feeds públicos de alertas semelhantes
+*   **Alertas de terremoto**
+    *   *O que é enviado:* Solicitações a um único feed público mundial de resumo de terremotos — a solicitação não contém nenhuma informação de localização ou região; a localização do seu dispositivo é usada apenas no dispositivo para decidir se um terremoto relatado está perto de você
+    *   *Provedor:* Feed público de terremotos do Serviço Geológico dos EUA (USGS)
 *   **Identificação de música (opcional, Power Pack+)**
     *   *O que é enviado:* Curtas impressões digitais de áudio — nunca áudio bruto — quando a música é detectada e o Shazam está ativado (pode ser desativado nas configurações)
     *   *Provedor:* Apple Shazam / ShazamKit

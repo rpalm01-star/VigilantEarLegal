@@ -37,6 +37,9 @@ Cuando utiliza ciertas funciones — o cuando la aplicación las necesita para f
 *   **Alertas de clima severo**
     *   *Qué se envía:* Solicitudes a fuentes meteorológicas públicas CAP/Atom; se puede inferir su región general a partir de la selección de fuentes y la ubicación del dispositivo
     *   *Proveedor:* Servicio Meteorológico Nacional de EE. UU., MeteoGate (Europa), Administración Meteorológica de China (CMA), Administración Meteorológica de Corea (KMA), fuentes públicas relacionadas con la OMM y fuentes similares de alertas públicas
+*   **Alertas de terremoto**
+    *   *Qué se envía:* Solicitudes a un único feed público mundial de resumen de terremotos — la solicitud no incluye ninguna información de ubicación o región; la ubicación de su dispositivo se usa solo en el dispositivo para decidir si un terremoto reportado está cerca de usted
+    *   *Proveedor:* Feed público de terremotos del Servicio Geológico de EE. UU. (USGS)
 *   **Identificación de música (opcional, Power Pack+)**
     *   *Qué se envía:* Huellas dactilares de audio cortas — nunca audio sin procesar — cuando se detecta música y Shazam está habilitado (se puede apagar en la configuración)
     *   *Proveedor:* Apple Shazam / ShazamKit

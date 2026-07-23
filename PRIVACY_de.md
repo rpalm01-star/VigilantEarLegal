@@ -37,6 +37,9 @@ Wenn Sie bestimmte Funktionen nutzen — oder wenn die App diese zum Funktionier
 *   **Unwetterwarnungen**
     *   *Was gesendet wird:* Anfragen an öffentliche CAP/Atom-Wetter-Feeds; Ihre allgemeine Region kann aus der Feed-Auswahl und dem Gerätestandort abgeleitet werden
     *   *Anbieter:* U.S. National Weather Service, MeteoGate (Europa), China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), WMO-bezogene öffentliche Quellen und ähnliche öffentliche Warn-Feeds
+*   **Erdbebenwarnungen**
+    *   *Was gesendet wird:* Anfragen an einen einzigen weltweiten öffentlichen Erdbeben-Übersichtsfeed — die Anfrage enthält keinerlei Standort- oder Regionsinformationen; Ihr Gerätestandort wird ausschließlich auf dem Gerät verwendet, um zu entscheiden, ob ein gemeldetes Beben in Ihrer Nähe ist
+    *   *Anbieter:* Öffentlicher Erdbeben-Feed des U.S. Geological Survey (USGS)
 *   **Musikidentifikation (optional, Power Pack+)**
     *   *Was gesendet wird:* Kurze Audio-Fingerabdrücke — niemals rohes Audio — wenn Musik erkannt wird und Shazam aktiviert ist (kann in den Einstellungen ausgeschaltet werden)
     *   *Anbieter:* Apple Shazam / ShazamKit

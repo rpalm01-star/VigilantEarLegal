@@ -37,6 +37,9 @@ Lorsque vous utilisez certaines fonctionnalités — ou lorsque l'application en
 *   **Alertes météo extrêmes**
     *   *Ce qui est envoyé :* Demandes de flux météo publics CAP/Atom ; votre région générale peut être déduite de la sélection de flux et de l'emplacement de l'appareil
     *   *Fournisseur :* U.S. National Weather Service, MeteoGate (Europe), China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), sources publiques liées à l'OMM (WMO) et flux d'alertes publics similaires
+*   **Alertes sismiques**
+    *   *Ce qui est envoyé :* Des requêtes vers un unique flux public mondial de synthèse des séismes — la requête ne contient aucune information de localisation ou de région ; la position de votre appareil n'est utilisée que sur l'appareil pour déterminer si un séisme signalé est proche de vous
+    *   *Fournisseur :* Flux public de séismes de l'U.S. Geological Survey (USGS)
 *   **Identification musicale (optionnelle, Power Pack+)**
     *   *Ce qui est envoyé :* Courtes empreintes audio — jamais d'audio brut — lorsque de la musique est détectée et que Shazam est activé (peut être désactivé dans les paramètres)
     *   *Fournisseur :* Apple Shazam / ShazamKit
