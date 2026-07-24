@@ -18,6 +18,7 @@ Um Benutzer weltweit zu unterstützen, verfügt die Plattform über eine vollst�
 - **Deutsch (Deutsch)**
 - **Japanisch (日本語)**
 - **Arabisch (العربية)**
+- **Koreanisch (한국어)**
 
 Alle taktischen Overlays, HUD-Warnungen und Einstellungsmenüs passen sich dynamisch an die System-Gebietsschemas an.
 

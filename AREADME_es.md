@@ -18,6 +18,7 @@ Para apoyar a los usuarios de todo el mundo, la plataforma cuenta con una matriz
 - **Alemán (Deutsch)**
 - **Japonés (日本語)**
 - **Árabe (العربية)**
+- **Coreano (한국어)**
 
 Todas las superposiciones tácticas, las alertas HUD y los menús de preferencias se ajustan dinámicamente a las configuraciones regionales del sistema.
 
