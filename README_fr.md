@@ -55,7 +55,7 @@ graph LR
 ```
 
 ### 🎵 Reconnaissance de musique et de diffusion *(Power Pack+)*
-**ShazamKit** identifie la musique qui joue autour de vous et suit les changements de chanson. Lorsqu'une voix semble provenir d'une télévision ou d'une radio plutôt que d'une personne dans la pièce, elle est marquée d'une **📻** — les mots s'affichent toujours ; ils sont correctement étiquetés.
+**ShazamKit** identifie la musique qui joue autour de vous et suit les changements de chanson.
 
 ### 🎛️ Oscilloscope acoustique — voir le son comme un ingénieur *(Power Pack+)*
 Une vue professionnelle et en direct du son autour de vous : spectre, spectrogramme, bandes RTA au tiers d'octave, chroma et partiels harmoniques — plus des outils pour capturer des sons et entraîner vos propres packs.

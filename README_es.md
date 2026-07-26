@@ -55,7 +55,7 @@ graph LR
 ```
 
 ### 🎵 Conciencia de música y transmisiones *(Power Pack+)*
-**ShazamKit** identifica la música que se reproduce a tu alrededor y realiza un seguimiento de los cambios de canción. Cuando una voz parece provenir de un televisor o radio en lugar de una persona en la habitación, se etiqueta con un **📻** — las palabras aún se muestran; están etiquetadas honestamente.
+**ShazamKit** identifica la música que se reproduce a tu alrededor y realiza un seguimiento de los cambios de canción.
 
 ### 🎛️ Osciloscopio Acústico — vea el sonido como un ingeniero *(Power Pack+)*
 Una vista profesional del sonido a su alrededor, en vivo: espectro, espectrograma, bandas RTA de ⅓ de octava, croma y parciales armónicos — más herramientas para capturar sonidos y entrenar sus propios paquetes.

@@ -55,7 +55,7 @@ graph LR
 ```
 
 ### 🎵 Music & broadcast awareness *(Power Pack+)*
-**ShazamKit** identifies music playing around you and tracks song changes. When a voice looks like it's coming from a TV or radio rather than a person in the room, it's tagged with a **📻** — the words still show; they're labeled honestly.
+**ShazamKit** identifies music playing around you and tracks song changes.
 
 ### 🎛️ Acoustic Scope — see sound like an engineer *(Power Pack+)*
 A professional live view of the sound around you: spectrum, spectrogram, ⅓-octave RTA bands, chroma, and harmonic partials — plus tools to capture sounds for training your own custom packs.

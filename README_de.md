@@ -55,7 +55,7 @@ graph LR
 ```
 
 ### 🎵 Bewusstsein für Musik & Übertragungen *(Power Pack+)*
-**ShazamKit** identifiziert Musik, die um Sie herum spielt, und verfolgt Songwechsel. Wenn eine Stimme aussieht, als käme sie eher von einem Fernseher oder Radio als von einer Person im Raum, wird sie mit einem **📻** markiert — die Wörter werden immer noch angezeigt; sie sind ehrlich gekennzeichnet.
+**ShazamKit** identifiziert Musik, die um Sie herum spielt, und verfolgt Songwechsel.
 
 ### 🎛️ Acoustic Scope — Klang sehen wie ein Toningenieur *(Power Pack+)*
 Eine professionelle Live-Ansicht des Klangs um Sie herum: Spektrum, Spektrogramm, ⅓-Oktav-RTA-Bänder, Chroma und harmonische Teiltöne — plus Werkzeuge, um Geräusche für eigene Pakete aufzunehmen.
