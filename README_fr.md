@@ -32,7 +32,7 @@ Tout ce qui compte s'exécute sur l'appareil. L'audio n'est pas enregistré ni t
 En utilisant les microphones stéréo de l'iPhone, Vigilant Ear estime le **cap et la distance approximative** des sons autour de vous et les place sous forme de marqueurs en direct sur un anneau radar (orienté vers l'avant) et une carte. Déplacez-vous, et les marqueurs conservent leur position dans le monde réel. C'est le cœur de l'application : une conscience spatiale d'un monde que vous ne pouvez pas entendre.
 
 ### 🚨 Elle reconnaît les sons importants — et vous avertit
-Un classificateur sur l'appareil identifie des centaines de sons du quotidien et surveille les catégories critiques — **sirènes, alarmes, sonnettes/coups, pleurs de bébé, une personne à proximité, et alertes météo extrêmes.** Lorsqu'un son se déclenche, vous obtenez une alerte claire à l'écran, une **notification push** (optionnelle) et un retour **haptique** distinct, même si l'application est en arrière-plan ou que le téléphone est en veille. Les catégories critiques sont prêtes par défaut afin que l'activation des notifications ne signifie pas « tout désactiver ». Désactivez toutes les catégories d'alerte et le moteur hibernera complètement en arrière-plan pour économiser la batterie.
+Un classificateur sur l'appareil identifie des centaines de sons du quotidien et surveille les catégories critiques — **sirènes, alarmes — y compris une classe dédiée d'alarme de voiture —, sonnettes/coups, pleurs de bébé, une personne à proximité, et alertes météo extrêmes.** Lorsqu'un son se déclenche, vous obtenez une alerte claire à l'écran, une **notification push** (optionnelle) et un retour **haptique** distinct, même si l'application est en arrière-plan ou que le téléphone est en veille. Les catégories critiques sont prêtes par défaut afin que l'activation des notifications ne signifie pas « tout désactiver ». Désactivez toutes les catégories d'alerte et le moteur hibernera complètement en arrière-plan pour économiser la batterie. Une couche **Sentinel** recoupe les alertes avec des preuves indépendantes — direction, mouvement et flux publics — afin que ce qui se déclenche soit corroboré, et non la simple supposition d'un classificateur isolé.
 
 Les alertes météorologiques extrêmes proviennent de flux publics officiels CAP — **NWS** pour les États-Unis, **MeteoGate** pour l'Europe, **CMA** pour la Chine, et **KMA** pour la Corée, et ce, gratuitement pour tous les utilisateurs. Les flux sont restreints à ceux qui couvrent l'endroit où vous vous trouvez.
 
@@ -42,7 +42,7 @@ Les alertes météorologiques extrêmes proviennent de flux publics officiels CA
 - **Alertes des partenaires à votre poignet** — lorsque le téléphone d'un partenaire Constellation associé déclenche une alerte, elle peut aussi atteindre votre Watch, direction comprise. Une passe de fiabilité garde le compagnon léger pour la batterie de la Watch toute la journée.
 
 ### 💬 Mode Locuteur (Speaker Mode) — sous-titres en direct et directionnels *(gratuit)*
-Activez le **Mode Locuteur (Speaker Mode)** et Vigilant Ear transcrit les personnes qui parlent près de vous en **blocs de sous-titres, un par voix.** La diarisation des locuteurs sur l'appareil garde les voix distinctes — *qui* dit *quoi* — avec un indicateur directionnel sur l'anneau intérieur. Le locuteur en direct est mis en surbrillance ; le texte plus ancien défile pour faire de la place. Les sous-titres sont gratuits ; la traduction automatique est le niveau Power Pack+ optionnel.
+Activez le **Mode Locuteur (Speaker Mode)** et Vigilant Ear transcrit les personnes qui parlent près de vous en **blocs de sous-titres, un par voix.** La diarisation des locuteurs sur l'appareil garde les voix distinctes — *qui* dit *quoi* — avec un indicateur directionnel sur l'anneau intérieur. Le locuteur en direct est mis en surbrillance ; le texte plus ancien défile pour faire de la place. Les sous-titres sont gratuits ; la traduction automatique est le niveau Power Pack+ optionnel. Les sous-titres peuvent aussi être **lus à voix haute sur vos appareils auditifs Bluetooth** — gratuitement, dans les Préférences.
 
 ### 🌐 Auto-traduction des locuteurs (Speaker Auto-Translate) — votre langue, en direct *(Power Pack+)*
 Avec le Mode Locuteur activé, lorsqu'une personne à proximité parle une autre langue, Vigilant Ear peut la détecter et afficher ses sous-titres **dans votre langue**, avec la langue source indiquée sur son bloc. La chaîne — écouter → séparer les locuteurs → transcrire → traduire → afficher — s'exécute **sur l'appareil** ; la seule utilisation du réseau est un téléchargement unique du pack linguistique depuis Apple. Vous n'avez pas besoin de connaître ou de choisir l'autre langue en premier.
@@ -87,9 +87,9 @@ Conçu pour les utilisateurs sourds, malentendants et daltoniens : des indices *
 Le cœur de la sécurité est **gratuit, pour toujours** :
 
 - **Home Watch & Street Watch** — alertes sonores locales (alarmes, sirènes, coups/sonnettes, bébé, personne à proximité) avec notification à l'écran, haptique et push en option.
-- **Sous-titres en direct** — Mode Locuteur (Speaker Mode), sur l'appareil, directionnel là où le matériel le permet.
+- **Sous-titres en direct** — Mode Locuteur (Speaker Mode), sur l'appareil, directionnel là où le matériel le permet, avec sortie vocale optionnelle vers les appareils auditifs Bluetooth.
 - **Météo extrême CAP** — NWS, MeteoGate, CMA, KMA pour votre région.
-- **Alertes sismiques (USGS, monde entier)** — ressentez une vibration et visualisez sur votre carte la zone qui a ressenti le séisme lorsqu'un tremblement de terre est signalé à proximité. Une confirmation issue du flux officiel de l'USGS — pas une alerte précoce : si vous avez senti une secousse, ceci vous dit ce que c'était.
+- **Alertes sismiques (USGS, monde entier)** — ressentez une vibration et visualisez sur votre carte la zone qui a ressenti le séisme lorsqu'un tremblement de terre est signalé à proximité. Une confirmation issue du flux officiel de l'USGS — pas une alerte précoce : si vous avez senti une secousse, ceci vous dit ce que c'était. La détection de grondements profonds (infrasons) sur l'appareil peut armer la vérification dès que le sol bouge.
 - **Terrain de jeu des fonctionnalités** — alertes d'entraînement et aperçus des fonctionnalités avec un filigrane PREVIEW bien visible.
 - **Compagnon Apple Watch & Live Activity** — direction et dernière alerte consultables d'un coup d'œil.
 
@@ -145,7 +145,7 @@ Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](S
 - **Constellation** nécessite l'**Ultra-Wideband** — iPhone 11 ou ultérieur, à l'exclusion des modèles SE et « e ».
 - **Android.** Version séparée avec le radar principal, les alertes, les sous-titres et la météo ; le réseau mesh Constellation est d'abord disponible sur iOS. Voir les mises à jour du site du produit à mesure que la parité Android progresse.
 
-**Version actuelle sur l'App Store :** 1.0.9. Conçu pour les systèmes iOS modernes (ère SpeechAnalyzer).
+**Version actuelle sur l'App Store :** 1.0.10. Conçu pour les systèmes iOS modernes (ère SpeechAnalyzer).
 
 ---
 

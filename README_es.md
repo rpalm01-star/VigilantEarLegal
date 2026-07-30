@@ -32,7 +32,7 @@ Todo lo que importa se ejecuta en el dispositivo. El audio no se graba ni se sub
 Usando los micrófonos estéreo del iPhone, Vigilant Ear estima la **dirección y distancia aproximada** de los sonidos a tu alrededor y los coloca como marcadores en vivo en un anillo de radar con el rumbo hacia arriba y un mapa. Muévete, y los marcadores mantienen su posición en el mundo real. Este es el núcleo: conciencia espacial de un mundo que no puedes escuchar.
 
 ### 🚨 Reconoce sonidos importantes — y te advierte
-Un clasificador en el dispositivo identifica cientos de sonidos cotidianos y vigila las categorías críticas — **sirenas, alarmas, timbres/golpes, llanto de bebé, una persona cercana y clima severo.** Cuando uno se activa, recibes una alerta clara en la pantalla, una **notificación automática** opcional y un **háptico** distintivo — incluso cuando la aplicación está en segundo plano o el teléfono está suspendido. Las categorías críticas están listas de forma predeterminada, por lo que habilitar las notificaciones no significa "todo apagado". Apaga todas las categorías de alertas y el motor hiberna por completo mientras está en segundo plano para ahorrar batería.
+Un clasificador en el dispositivo identifica cientos de sonidos cotidianos y vigila las categorías críticas — **sirenas, alarmas — incluida una clase dedicada de alarma de coche —, timbres/golpes, llanto de bebé, una persona cercana y clima severo.** Cuando uno se activa, recibes una alerta clara en la pantalla, una **notificación automática** opcional y un **háptico** distintivo — incluso cuando la aplicación está en segundo plano o el teléfono está suspendido. Las categorías críticas están listas de forma predeterminada, por lo que habilitar las notificaciones no significa "todo apagado". Apaga todas las categorías de alertas y el motor hiberna por completo mientras está en segundo plano para ahorrar batería. Una capa **Sentinel** contrasta las alertas con evidencia independiente — dirección, movimiento y feeds públicos — para que lo que se dispare esté corroborado, no sea la conjetura de un clasificador aislado.
 
 Las advertencias de clima severo provienen de fuentes CAP públicas oficiales — **NWS** de EE. UU., **MeteoGate** de Europa, **CMA** de China y **KMA** de Corea — gratuitas para todos los usuarios. Las fuentes se limitan a las que cubren donde te encuentras.
 
@@ -42,7 +42,7 @@ Las advertencias de clima severo provienen de fuentes CAP públicas oficiales �
 - **Alertas de compañeros en tu muñeca** — cuando el teléfono de un compañero vinculado de Constellation emite una alerta, también puede llegar a tu Watch, con la dirección incluida. Una mejora de fiabilidad mantiene el consumo de batería del Watch ligero durante todo el día.
 
 ### 💬 Modo Orador — subtítulos en vivo y direccionales *(gratis)*
-Enciende el **Modo Orador** (Speaker Mode) y Vigilant Ear transcribe a las personas que hablan cerca de ti en **bloques de subtítulos, uno por voz.** La diarización de oradores en el dispositivo mantiene las voces distintas — *quién* dice *qué* — con una señal direccional en el anillo interior. El orador en vivo se resalta; el texto más antiguo se desplaza a medida que se necesita espacio. Los subtítulos son gratuitos; la traducción automática es la capa opcional de Power Pack+.
+Enciende el **Modo Orador** (Speaker Mode) y Vigilant Ear transcribe a las personas que hablan cerca de ti en **bloques de subtítulos, uno por voz.** La diarización de oradores en el dispositivo mantiene las voces distintas — *quién* dice *qué* — con una señal direccional en el anillo interior. El orador en vivo se resalta; el texto más antiguo se desplaza a medida que se necesita espacio. Los subtítulos son gratuitos; la traducción automática es la capa opcional de Power Pack+. Los subtítulos también pueden **leerse en voz alta en tus dispositivos auditivos Bluetooth** — gratis, en Preferencias.
 
 ### 🌐 Speaker Auto-Translate — tu idioma, en vivo *(Power Pack+)*
 Con el Modo Orador activado, cuando una persona cercana habla otro idioma, Vigilant Ear puede detectarlo y renderizar sus subtítulos **en tu idioma**, mostrando el idioma original en su bloque. La cadena — escuchar → separar oradores → transcribir → traducir → mostrar — se ejecuta **en el dispositivo**; el único momento de red es una descarga única del paquete de idioma desde Apple. No tienes que conocer ni elegir el otro idioma primero.
@@ -87,9 +87,9 @@ Construido para usuarios Sordos / con problemas de audición y daltónicos: señ
 El núcleo de seguridad es **gratis, para siempre**:
 
 - **Vigilancia de Hogar y Vigilancia de Calle** — alertas locales de sonido (alarmas, sirenas, golpes/timbres, bebé, persona cercana) con entrega en pantalla, háptica y notificaciones automáticas opcionales.
-- **Subtítulos en vivo** — Modo Orador, en el dispositivo, direccional donde el hardware lo permita.
+- **Subtítulos en vivo** — Modo Orador, en el dispositivo, direccional donde el hardware lo permita, con salida de voz opcional a dispositivos auditivos Bluetooth.
 - **CAP de clima severo** — NWS, MeteoGate, CMA, KMA para tu región.
-- **Alertas de terremoto (USGS, mundial)** — siente una vibración y ve en tu mapa la zona que notó el temblor cuando se informa de un terremoto cercano. Una confirmación del feed oficial del USGS — no una alerta temprana: si sentiste el temblor, esto te dice qué fue.
+- **Alertas de terremoto (USGS, mundial)** — siente una vibración y ve en tu mapa la zona que notó el temblor cuando se informa de un terremoto cercano. Una confirmación del feed oficial del USGS — no una alerta temprana: si sentiste el temblor, esto te dice qué fue. La detección de retumbos profundos (infrasonido) en el dispositivo puede armar la comprobación en cuanto el suelo se mueve.
 - **Zona de Pruebas** — alertas de práctica y vistas previas de funciones con una clara marca de agua PREVIEW.
 - **Compañero de Apple Watch y Live Activity** — dirección con solo un vistazo y última alerta.
 
@@ -145,7 +145,7 @@ Detalles completos: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT
 - **Constellation** necesita **banda ultraancha** — iPhone 11 o posterior, excluyendo los modelos SE y "e".
 - **Android.** Compilación separada con radar central, alertas, subtítulos y clima; la malla Constellation es primero para iOS. Consulta las actualizaciones del sitio del producto a medida que crezca la paridad con Android.
 
-**Versión actual en el App Store:** 1.0.9. Construido para el iOS moderno (era SpeechAnalyzer).
+**Versión actual en el App Store:** 1.0.10. Construido para el iOS moderno (era SpeechAnalyzer).
 
 ---
 

@@ -32,7 +32,7 @@ Alles, was wichtig ist, läuft auf dem Gerät. Audio wird zur Erkennung nicht au
 Mithilfe der Stereomikrofone des iPhones schätzt Vigilant Ear die **Peilung und ungefähre Entfernung** von Geräuschen um Sie herum und platziert sie als Live-Markierungen auf einem nach vorne ausgerichteten Radarring und einer Karte. Bewegen Sie sich, und die Markierungen behalten ihre Position in der realen Welt bei. Das ist der Kern: räumliches Bewusstsein für eine Welt, die Sie nicht hören können.
 
 ### 🚨 Es erkennt wichtige Geräusche — und warnt Sie
-Ein On-Device-Klassifikator identifiziert Hunderte von alltäglichen Geräuschen und überwacht die kritischen Kategorien — **Sirenen, Alarme, Türklingeln/Klopfen, Babygeschrei, eine Person in der Nähe und Unwetter.** Wenn einer ausgelöst wird, erhalten Sie eine klare Warnung auf dem Bildschirm, eine optionale **Push-Benachrichtigung** und eine deutliche **Haptik** — selbst wenn die App im Hintergrund läuft oder das Telefon schläft. Kritische Kategorien sind standardmäßig bereit, sodass das Aktivieren von Benachrichtigungen nicht bedeutet: „alles aus.“ Schalten Sie alle Warnkategorien aus, und die Engine geht vollständig in den Ruhezustand über, während sie im Hintergrund läuft, um Batterie zu sparen.
+Ein On-Device-Klassifikator identifiziert Hunderte von alltäglichen Geräuschen und überwacht die kritischen Kategorien — **Sirenen, Alarme — einschließlich einer eigenen Autoalarm-Klasse —, Türklingeln/Klopfen, Babygeschrei, eine Person in der Nähe und Unwetter.** Wenn einer ausgelöst wird, erhalten Sie eine klare Warnung auf dem Bildschirm, eine optionale **Push-Benachrichtigung** und eine deutliche **Haptik** — selbst wenn die App im Hintergrund läuft oder das Telefon schläft. Kritische Kategorien sind standardmäßig bereit, sodass das Aktivieren von Benachrichtigungen nicht bedeutet: „alles aus.“ Schalten Sie alle Warnkategorien aus, und die Engine geht vollständig in den Ruhezustand über, während sie im Hintergrund läuft, um Batterie zu sparen. Eine **Sentinel**-Ebene gleicht Warnungen mit unabhängigen Belegen ab — Richtung, Bewegung und öffentliche Feeds —, damit das, was auslöst, bestätigt ist und nicht die Vermutung eines einzelnen Klassifikators.
 
 Unwetterwarnungen stammen aus offiziellen öffentlichen CAP-Feeds — **NWS** der USA, **MeteoGate** in Europa, **CMA** in China und **KMA** in Korea — kostenlos für alle Benutzer. Die Feeds werden auf diejenigen eingegrenzt, die Ihren Aufenthaltsort abdecken.
 
@@ -42,7 +42,7 @@ Unwetterwarnungen stammen aus offiziellen öffentlichen CAP-Feeds — **NWS** de
 - **Partnerwarnungen am Handgelenk** — wenn das Telefon eines verbundenen Constellation-Partners eine Warnung auslöst, kann sie auch Ihre Watch erreichen, Richtung inklusive. Ein Zuverlässigkeits-Feinschliff hält den Begleiter den ganzen Tag schonend für die Watch-Batterie.
 
 ### 💬 Sprechermodus — live, richtungsbezogene Untertitel *(kostenlos)*
-Schalten Sie den **Sprechermodus** ein und Vigilant Ear transkribiert sprechende Personen in Ihrer Nähe in **Untertitelblöcke, einen pro Stimme.** Die On-Device-Sprecherdiarisierung hält Stimmen getrennt — *wer* sagt *was* — mit einem Richtungshinweis auf dem inneren Ring. Der Live-Sprecher wird hervorgehoben; älterer Text scrollt weg, wenn Platz benötigt wird. Untertitel sind kostenlos; automatische Übersetzung ist die optionale Power Pack+-Ebene.
+Schalten Sie den **Sprechermodus** ein und Vigilant Ear transkribiert sprechende Personen in Ihrer Nähe in **Untertitelblöcke, einen pro Stimme.** Die On-Device-Sprecherdiarisierung hält Stimmen getrennt — *wer* sagt *was* — mit einem Richtungshinweis auf dem inneren Ring. Der Live-Sprecher wird hervorgehoben; älterer Text scrollt weg, wenn Platz benötigt wird. Untertitel sind kostenlos; automatische Übersetzung ist die optionale Power Pack+-Ebene. Untertitel können außerdem **laut auf Ihren Bluetooth-Hörgeräten vorgelesen werden** — kostenlos, in den Einstellungen.
 
 ### 🌐 Automatische Sprecher-Übersetzung — Ihre Sprache, live *(Power Pack+)*
 Wenn der Sprechermodus aktiviert ist und eine Person in der Nähe eine andere Sprache spricht, kann Vigilant Ear dies erkennen und ihre Untertitel **in Ihrer Sprache** rendern, wobei die Quellsprache auf ihrem Block angezeigt wird. Die Kette — hören → Sprecher trennen → transkribieren → übersetzen → anzeigen — läuft **auf dem Gerät**; der einzige Netzwerkmoment ist ein einmaliger Sprachpaket-Download von Apple. Sie müssen die andere Sprache vorher nicht kennen oder auswählen.
@@ -87,9 +87,9 @@ Gebaut für gehörlose / schwerhörige und farbenblinde Benutzer: **farbunabhän
 Der Sicherheitskern ist **kostenlos, für immer**:
 
 - **Home Watch & Street Watch** — lokale Geräuschwarnungen (Alarme, Sirenen, Klopfen/Türklingeln, Baby, Person in der Nähe) mit Bildschirm-, haptischer und optionaler Push-Zustellung.
-- **Live-Untertitel** — Sprechermodus, auf dem Gerät, richtungsbezogen, wo die Hardware dies zulässt.
+- **Live-Untertitel** — Sprechermodus, auf dem Gerät, richtungsbezogen, wo die Hardware dies zulässt, mit optionaler Sprachausgabe auf Bluetooth-Hörgeräte.
 - **Unwetter-CAP** — NWS, MeteoGate, CMA, KMA für Ihre Region.
-- **Erdbebenwarnungen (USGS, weltweit)** — Sie spüren eine Vibration und sehen auf Ihrer Karte das Gebiet, in dem das Beben spürbar war, wenn in der Nähe ein Erdbeben gemeldet wird. Eine Bestätigung aus dem offiziellen USGS-Feed — keine Frühwarnung: Wenn Sie ein Beben gespürt haben, sagt Ihnen dies, was es war.
+- **Erdbebenwarnungen (USGS, weltweit)** — Sie spüren eine Vibration und sehen auf Ihrer Karte das Gebiet, in dem das Beben spürbar war, wenn in der Nähe ein Erdbeben gemeldet wird. Eine Bestätigung aus dem offiziellen USGS-Feed — keine Frühwarnung: Wenn Sie ein Beben gespürt haben, sagt Ihnen dies, was es war. Die On-Device-Erkennung tiefer Erschütterungen (Infraschall) kann die Prüfung in dem Moment scharfschalten, in dem sich der Boden bewegt.
 - **Feature-Spielwiese** — Übungswarnungen und Funktionsvorschauen mit klarem PREVIEW-Wasserzeichen.
 - **Apple Watch-Begleiter & Live-Aktivität** — auf einen Blick erkennbare Richtung und letzte Warnung.
 
@@ -145,7 +145,7 @@ Vollständige Details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPP
 - **Constellation** benötigt **Ultra-Wideband** — iPhone 11 oder neuer, ausgenommen SE- und „e“-Modelle.
 - **Android.** Separater Build mit Kern-Radar, Warnungen, Untertiteln und Wetter; Constellation-Mesh ist iOS-first. Siehe Produkt-Website-Updates, während die Android-Parität wächst.
 
-**Aktuelle App-Store-Version:** 1.0.9. Gebaut für modernes iOS (SpeechAnalyzer-Ära).
+**Aktuelle App-Store-Version:** 1.0.10. Gebaut für modernes iOS (SpeechAnalyzer-Ära).
 
 ---
 
