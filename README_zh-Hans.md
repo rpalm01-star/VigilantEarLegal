@@ -141,11 +141,11 @@ graph TD
 
 - **iPhone（完整体验）。** 需要立体声麦克风来进行测向。推荐使用 **iPhone 13 或更新机型**。
 - **Apple Watch。** 带有方向箭头的辅助提醒；支持实时活动 / 智能叠放。
-- **iPad（侧重于字幕）。** 单通道麦克风 → 有字幕但没有完整的方向。
+- **iPad（原生支持）。** 自适应布局：在大屏幕上，实时字幕显示在地图旁的半透明面板中，无人讲话时自动隐藏。单通道麦克风 → 有字幕但没有完整的方向。
 - **Constellation** 需要**超宽带 (Ultra-Wideband)** —— iPhone 11 或更高版本，不包括 SE 和 “e” 型号。
 - **Android。** 独立版本，具有核心雷达、提醒、字幕和天气；Constellation 网格是 iOS 优先。随着 Android 版的完善，请关注产品网站更新。
 
-**当前 App Store 版本：** 1.0.10。为现代 iOS（SpeechAnalyzer 时代）构建。
+**当前 App Store 版本：** 1.0.11。为现代 iOS（SpeechAnalyzer 时代）构建。
 
 ---
 

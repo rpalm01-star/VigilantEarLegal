@@ -141,11 +141,11 @@ Detalhes completos: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT
 
 - **iPhone (experiência completa).** Microfones estéreo necessários para encontrar a direção. Recomendado **iPhone 13 ou mais recente**.
 - **Apple Watch.** Alertas de companheiro com seta de direção; funciona com Live Activity / Conjunto Inteligente.
-- **iPad (focado em legendas).** Microfones de canal único → legendas sem direção completa.
+- **iPad (nativo).** Layout adaptável: na tela grande, as legendas ao vivo ganham um painel translúcido ao lado do mapa que se recolhe quando ninguém está falando. Microfones de canal único → legendas sem direção completa.
 - **Constellation** requer **Ultra-Wideband** — iPhone 11 ou posterior, excluindo os modelos SE e "e".
 - **Android.** Compilação separada com radar central, alertas, legendas e clima; a malha Constellation é voltada primeiramente para iOS. Veja as atualizações no site do produto conforme a paridade com o Android cresce.
 
-**Versão atual na App Store:** 1.0.10. Desenvolvido para o iOS moderno (era SpeechAnalyzer).
+**Versão atual na App Store:** 1.0.11. Desenvolvido para o iOS moderno (era SpeechAnalyzer).
 
 ---
 

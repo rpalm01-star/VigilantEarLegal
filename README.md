@@ -141,11 +141,11 @@ Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](S
 
 - **iPhone (full experience).** Stereo microphones required for direction-finding. Recommended **iPhone 13 or newer**.
 - **Apple Watch.** Companion alerts with direction arrow; works with Live Activity / Smart Stack.
-- **iPad (captions-focused).** Single-channel mics → captions without full direction.
+- **iPad (native).** Adaptive layout: on the big screen, live captions get a see-through panel beside the map that tucks away when nobody is talking. Single-channel mics → captions without full direction.
 - **Constellation** needs **Ultra-Wideband** — iPhone 11 or later, excluding SE and “e” models.
 - **Android.** Separate build with core radar, alerts, captions, and weather; Constellation mesh is iOS-first. See product site updates as Android parity grows.
 
-**Current App Store version:** 1.0.10. Built for modern iOS (SpeechAnalyzer-era).
+**Current App Store version:** 1.0.11. Built for modern iOS (SpeechAnalyzer-era).
 
 ---
 

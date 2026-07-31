@@ -141,11 +141,11 @@ Detalles completos: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT
 
 - **iPhone (experiencia completa).** Se requieren micrófonos estéreo para la búsqueda de dirección. Se recomienda **iPhone 13 o más reciente**.
 - **Apple Watch.** Alertas complementarias con flecha de dirección; funciona con Live Activity / Smart Stack.
-- **iPad (centrado en subtítulos).** Micrófonos de un solo canal → subtítulos sin dirección completa.
+- **iPad (nativo).** Diseño adaptable: en la pantalla grande, los subtítulos en vivo tienen un panel translúcido junto al mapa que se oculta cuando nadie habla. Micrófonos de un solo canal → subtítulos sin dirección completa.
 - **Constellation** necesita **banda ultraancha** — iPhone 11 o posterior, excluyendo los modelos SE y "e".
 - **Android.** Compilación separada con radar central, alertas, subtítulos y clima; la malla Constellation es primero para iOS. Consulta las actualizaciones del sitio del producto a medida que crezca la paridad con Android.
 
-**Versión actual en el App Store:** 1.0.10. Construido para el iOS moderno (era SpeechAnalyzer).
+**Versión actual en el App Store:** 1.0.11. Construido para el iOS moderno (era SpeechAnalyzer).
 
 ---
 

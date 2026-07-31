@@ -141,11 +141,11 @@ graph TD
 
 - **iPhone (전체 경험).** 방향 찾기를 위해 스테레오 마이크가 필요합니다. **iPhone 13 이상** 권장.
 - **Apple Watch.** 방향 화살표가 있는 컴패니언 알림; 라이브 액티비티(Live Activity) / 스마트 스택(Smart Stack)과 함께 작동.
-- **iPad (자막 중심).** 단일 채널 마이크 → 완전한 방향이 없는 자막.
+- **iPad (네이티브).** 적응형 레이아웃: 큰 화면에서는 실시간 자막이 지도 옆의 반투명 패널에 표시되며, 아무도 말하지 않으면 자동으로 숨겨집니다. 단일 채널 마이크 → 완전한 방향이 없는 자막.
 - **Constellation**은 **초광대역(Ultra-Wideband)**이 필요합니다 — iPhone 11 이상 (SE 및 "e" 모델 제외).
 - **Android.** 핵심 레이더, 알림, 자막, 날씨가 포함된 별도의 빌드; Constellation 메시는 iOS 우선입니다. Android 패리티가 증가함에 따라 제품 사이트 업데이트를 확인하세요.
 
-**현재 App Store 버전:** 1.0.10. 최신 iOS (SpeechAnalyzer 시대)를 위해 빌드되었습니다.
+**현재 App Store 버전:** 1.0.11. 최신 iOS (SpeechAnalyzer 시대)를 위해 빌드되었습니다.
 
 ---
 
