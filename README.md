@@ -145,13 +145,13 @@ Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](S
 - **Constellation** needs **Ultra-Wideband** — iPhone 11 or later, excluding SE and “e” models.
 - **Android.** Separate build with core radar, alerts, captions, and weather; Constellation mesh is iOS-first. See product site updates as Android parity grows.
 
-**Current App Store version:** 1.0.11. Built for modern iOS (SpeechAnalyzer-era).
+**Current App Store version:** 1.0.12. Built for modern iOS (SpeechAnalyzer-era).
 
 ---
 
 ## Localization
 
-Fully localized — interface, alerts, and captions — into **English, Spanish, Portuguese (Brazil), French, German, Arabic, Japanese, Simplified Chinese, and Korean** (9 languages). Follows the system locale or a manual choice in the app.
+Fully localized — interface, alerts, and captions — into **English, Spanish, Portuguese (Brazil), French, German, Arabic, Japanese, Simplified Chinese, Korean, and Russian** (10 languages). Follows the system locale or a manual choice in the app.
 
 ---
 
