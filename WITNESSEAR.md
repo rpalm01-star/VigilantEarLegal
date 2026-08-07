@@ -94,8 +94,9 @@ Episodes
 
 Episode Source Feeds (oldest first)
 Time        Conf   dBFS   Dir    By   Sound
-08:12:03    87%    −21    204°   P1   Emergency & alarms · Siren
+08:12:03    87%    −21    —      P1   Emergency & alarms · Siren
 08:12:04    71%    −25    207°   P2   Emergency & alarms · Siren
+08:14:10    64%    −34    —      P1   Household & speech · Knock
 
 Method & limits …
 
@@ -107,6 +108,8 @@ Location accuracy / simulated-GPS flags / device-state notes / exporting device 
 Attestation
 I, _______________, attest that … Signature / Date lines for ink after print.
 ```
+
+Every page carries a faint Wingdings watermark behind the content and a footer with the Wingdings mark, “© 2026 Wingdings, Inc. All rights reserved. · Patent Pending”, and the page number — an easy first check that a PDF someone hands you looks like a genuine export.
 
 **How to read it**
 
