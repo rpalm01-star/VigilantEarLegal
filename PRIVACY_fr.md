@@ -1,6 +1,6 @@
 # Politique de confidentialité de Vigilant Ear 👂🛰️
 
-**Date d'entrée en vigueur :** 11 juillet 2026
+**Date d'entrée en vigueur :** 4 août 2026
 
 ## Introduction
 
@@ -11,8 +11,8 @@ Vigilant Ear (« nous », « notre » ou « nos ») s'engage à protéger votre 
 - **La détection acoustique principale s'exécute sur votre appareil.** La classification des sons, le suivi directionnel, les sous-titres en direct et la logique d'alerte sont conçus pour fonctionner localement en utilisant le microphone et les capteurs de votre téléphone.
 - **Nous ne vendons pas vos données** et nous n'utilisons pas de SDK publicitaires ou d'analyse comportementale.
 - **Nous ne stockons ni ne téléchargeons d'enregistrements audio.** L'audio du microphone est traité en temps réel pour la détection et (lorsque cela est activé) les sous-titres ; il n'est pas sauvegardé sous forme de fichier sonore par Vigilant Ear pour une lecture ultérieure ou une analyse dans le cloud.
-- **Certaines fonctionnalités utilisent Internet** — cartes, flux météo extrêmes, identification de musique optionnelle, données routières, achats sur la boutique d'applications (app-store), trafic de maillage multi-téléphones optionnel entre *vos* appareils, et le chargement des pages légales dans l'application. Ceux-ci sont décrits ci-dessous.
-- **Vous gardez le contrôle.** Vous pouvez désactiver l'identification musicale Shazam, désactiver des catégories d'alerte, laisser Constellation désactivé, révoquer les autorisations dans les paramètres du système ou arrêter l'écoute en arrière-plan à tout moment.
+- **Certaines fonctionnalités utilisent Internet** — cartes, flux météo extrêmes, identification de musique optionnelle, données routières, achats sur la boutique d'applications (app-store), trafic de maillage multi-téléphones optionnel entre *vos* appareils, le chargement des pages légales dans l'application et (uniquement si vous choisissez d'y participer) les rapports du Research Array (réseau de recherche). Ceux-ci sont décrits ci-dessous.
+- **Vous gardez le contrôle.** Vous pouvez désactiver l'identification musicale Shazam, désactiver des catégories d'alerte, laisser Constellation désactivé, laisser le **Research Array** désactivé (il l'est par défaut), révoquer les autorisations dans les paramètres du système ou arrêter l'écoute en arrière-plan à tout moment.
 
 ## Informations traitées sur votre appareil
 
@@ -24,6 +24,7 @@ Avec votre permission, Vigilant Ear accède aux éléments suivants **localement
 - **Orientation et mouvement de l'appareil** — Utilisés pour améliorer la précision de l'orientation.
 - **Caméra (optionnelle)** — Utilisée uniquement si vous ouvrez la vue AR de la caméra « voir le son », afin que des marqueurs puissent être épinglés dans l'aperçu en direct de la caméra. Les images de la caméra sont utilisées pour l'affichage sur l'appareil ; elles ne sont pas téléchargées par Vigilant Ear pour la reconnaissance vocale.
 - **Apple Watch (optionnelle)** — Lorsqu'une application Watch compagnon est disponible, les étiquettes d'alerte et les indications de direction peuvent être relayées vers la montre appairée pour que vous puissiez jeter un coup d'œil à votre poignet.
+- **Journal sonore Witness Ear (optionnel, désactivé par défaut)** — Lorsque vous activez Witness Ear, l'application conserve un journal glissant de **24 heures, sur l'appareil**, des classifications sonores (heure, étiquette, confiance, niveau de crête, direction lorsqu'elle a été mesurée, et la position du téléphone à ce moment-là ; plus les entrées partagées par vos téléphones Constellation liés). Le journal est stocké uniquement dans le bac à sable (sandbox) privé de l'application sur ce téléphone et n'est jamais téléversé par Vigilant Ear. Il ne quitte le téléphone que dans un rapport PDF que **vous** choisissez d'exporter et de partager. Les entrées de plus de 24 heures sont supprimées automatiquement ; désactiver Witness Ear met la journalisation en pause (les entrées conservées continuent d'expirer), et la commande corbeille dans l'application supprime le journal immédiatement. Consultez le guide Witness Ear pour plus de détails.
 
 Ce traitement sur l'appareil est le cœur de l'application. Les applications concurrentes diffusent souvent l'audio dans le cloud pour l'analyser et le monétiser. Vigilant Ear est conçu différemment : votre pipeline de conscience acoustique est conçu pour fonctionner sur le téléphone lui-même.
 
@@ -50,19 +51,49 @@ Lorsque vous utilisez certaines fonctionnalités — ou lorsque l'application en
     *   *Ce qui est envoyé :* Jetons d'achat et état des droits / de l'essai pour le déverrouillage unique optionnel Power Pack+ (pas un abonnement)
     *   *Fournisseur :* Apple App Store
 *   **Réseau mesh Constellation (optionnel, Power Pack+)**
-    *   *Ce qui est envoyé :* Lorsque vous activez Constellation multi-téléphones, les appareils participants échangent les métadonnées acoustiques nécessaires pour une image partagée — par exemple, la pose relative / la télémétrie Ultra-Wideband lorsqu'elle est disponible, les directions, les étiquettes sonores et le texte des sous-titres éphémères. Le trafic se fait de pair à pair (peer-to-peer) entre les téléphones que vous liez ; Wingdings n'exploite pas de relais mesh cloud pour ce pipeline audio.
-    *   *Fournisseur :* Frameworks Apple (par ex. Network / Nearby Interaction) entre vos appareils
+    *   *Ce qui est envoyé :* Lorsque vous activez Constellation multi-téléphones, les appareils participants échangent les métadonnées acoustiques nécessaires pour une image partagée — par exemple, la pose relative / la télémétrie Ultra-Wideband lorsqu'elle est disponible, les directions, les étiquettes sonores et le texte des sous-titres éphémères. Le trafic se fait de pair à pair (peer-to-peer) **uniquement entre les téléphones qui exécutent Vigilant Ear et que vous liez pour Constellation**. Les téléphones sans l'application ne peuvent pas rejoindre ce maillage ni recevoir ces métadonnées. Wingdings n'exploite pas de relais mesh cloud pour ce pipeline audio.
+    *   *Fournisseur :* Frameworks Apple (par ex. Network / Nearby Interaction) entre vos appareils Vigilant Ear
 *   **Documents légaux intégrés à l'application**
     *   *Ce qui est envoyé :* Requêtes web standards lorsque vous ouvrez la Politique de confidentialité, les Conditions d'utilisation, le Support ou les pages README du produit dans l'application
     *   *Fournisseur :* GitHub (hébergement de documents)
+*   **Carte en direct du Research Array (consultation seule)**
+    *   *Ce qui est envoyé :* Requêtes web standards lorsque vous touchez **Map** (Carte) pour ouvrir le tableau de bord public du réseau dans votre navigateur — comme pour visiter n'importe quel site web. La consultation n'envoie rien de votre journal ni de vos détections.
+    *   *Fournisseur :* Service de recherche Wingdings (hébergement de l'application web)
+*   **Research Array (optionnel — désactivé par défaut)**
+    *   *Ce qui est envoyé :* Uniquement si vous activez la fonctionnalité : de petits rapports de détection composés uniquement de métadonnées lorsqu'un événement admissible est enregistré (heure, position approximative, caractéristiques de base du signal, version de l'application). Voir **Research Array** ci-dessous.
+    *   *Fournisseur :* Une infrastructure que nous exploitons (hébergeurs de l'application et de la base de données, comme nos hébergeurs web et Postgres). Les détails et les limites figurent dans la section Research Array.
 
-Nous choisissons ces services pour fournir des fonctionnalités de carte, de météo, d'étiquetage musical, d'achat et multi-appareils. **Wingdings ne reçoit pas l'audio de votre microphone, l'historique de localisation continu ou les informations de contact de ces fournisseurs.**
+Nous choisissons ces services pour fournir des fonctionnalités de carte, de météo, d'étiquetage musical, d'achat, multi-appareils et (lorsque vous choisissez d'y participer) de réseau de recherche (Research Array). **Wingdings ne reçoit pas l'audio de votre microphone, l'historique de localisation continu ou les informations de contact de ces fournisseurs.**
 
 ## Ce que Wingdings collecte
 
 ### Pas de télémétrie ni de diagnostics à distance
 
-Vigilant Ear est conçu pour fonctionner entièrement localement sur votre appareil. Nous ne collectons, ne transmettons ni ne stockons de données de télémétrie à distance, de journaux de plantage, de dossiers de diagnostic ou d'analyses d'utilisation sur les serveurs de Wingdings. Des journaux de débogage **locaux** optionnels peuvent être écrits sur l'appareil à des fins de dépannage ; ils ne sont pas téléchargés par l'application en tant que pipeline de télémétrie, et le texte des sous-titres n'est pas inclus dans le contenu de débogage exporté.
+Vigilant Ear est conçu pour que les fonctionnalités principales d'écoute et de sous-titrage s'exécutent sur votre appareil. Nous ne collectons **pas** d'analyses de plantage à distance, de télémétrie publicitaire ni de SDK d'analyse d'utilisation générale.
+
+Des journaux de débogage **locaux** optionnels peuvent être écrits sur l'appareil à des fins de dépannage ; ils ne sont pas téléchargés par l'application en tant que pipeline de télémétrie, et le texte des sous-titres n'est pas inclus dans le contenu de débogage exporté.
+
+**Exception — Research Array uniquement :** si vous choisissez d'y participer (voir ci-dessous), Wingdings peut recevoir les rapports d'événements limités que vous choisissez de contribuer. Cette voie n'est pas de l'analyse publicitaire ; c'est une contribution de recherche optionnelle que vous contrôlez et que vous pouvez désactiver à tout moment.
+
+## Research Array (optionnel, désactivé par défaut)
+
+Vigilant Ear peut, en option, contribuer des rapports de détection composés **uniquement de métadonnées** à un réseau de recherche qui aide à construire une image partagée des séismes et d'autres événements à basse fréquence / liés aux infrasons. **Cette fonctionnalité est désactivée par défaut et ne fonctionne que si vous l'activez** — là où l'interrupteur **Research Array** apparaît dans les préférences de l'application (ou l'étiquette équivalente dans votre langue), vous pouvez l'activer ou le désactiver à tout moment. Consulter la page publique **Map** (Carte) du réseau est distinct de la contribution et ne partage rien de votre journal.
+
+Lorsqu'elle est activée — et uniquement lorsque votre appareil enregistre un événement **admissible** (par exemple un candidat infrasonore non local ou lié à une activité sismique suffisamment fort, ou certains signaux d'audit liés aux séismes là où cette voie est activée) — l'application peut envoyer un petit rapport contenant :
+
+- l'heure de l'événement (selon l'horloge de l'appareil dans un domaine temporel global)
+- une position approximative, arrondie à environ **1 kilomètre** (pas votre adresse exacte ni une trace continue)
+- les caractéristiques de base de l'événement, comme le canal du capteur, si la voie est aérienne ou terrestre, la fréquence de crête le cas échéant, et une mesure d'intensité sans dimension (par exemple STA/LTA)
+- le type de rapport (par exemple début d'infrason, candidat sismique ou audit de confirmation de séisme)
+- la version de l'application
+
+**Ce qui n'est jamais envoyé pour le Research Array :** audio, formes d'onde, enregistrements, transcriptions, sous-titres, contacts, identifiants que l'application inventerait pour vous étiqueter, *vous*, en tant que personne ou installation, votre position GPS précise (au-delà de l'arrondi grossier ci-dessus), ni aucun enregistrement continu de vos déplacements. L'audio ne quitte jamais votre appareil, ni pour cela ni pour aucun autre usage.
+
+### Où vont les rapports
+
+Les rapports ne sont envoyés que par un **canal chiffré (HTTPS)** vers un service de recherche Wingdings que nous exploitons (hébergement de l'application et base de données). L'application ne joint **aucun identifiant de recherche par utilisateur ou par appareil** ni **aucun identifiant de compte Apple** dans la charge utile. Un secret d'application partagé peut être utilisé afin que seule notre application puisse écrire dans le service ; ce secret n'est **pas** un identifiant personnel. Des journaux standards d'hébergement et de sécurité (par exemple des métadonnées réseau de courte durée utilisées pour exploiter le service) peuvent exister comme pour tout service HTTPS ; ils ne constituent pas une fonctionnalité produit destinée à vous suivre, et nous ne les vendons pas.
+
+Désactiver le **Research Array** arrête immédiatement **tous les rapports futurs**. Cela ne supprime **pas** les rapports déjà envoyés. Comme les rapports ne portent **aucun identifiant par utilisateur ou par appareil**, nous ne pouvons pas rechercher ni effacer « tout ce que vous avez contribué » après coup — nous n'avons aucun moyen fiable de savoir quels rapports passés venaient de vous. C'est intentionnel : cela empêche le flux de recherche de devenir un historique personnel sous notre contrôle.
 
 ## Ce que nous ne faisons pas
 
@@ -73,6 +104,7 @@ Nous ne faisons **pas** :
 - Exécuter de réseaux publicitaires, de traqueurs inter-applications ou de SDK de profilage comportemental
 - Télécharger votre historique de localisation continu chez Wingdings
 - Télécharger d'audio brut de microphone pour la reconnaissance vocale ou sonore dans le cloud
+- Exiger le Research Array pour les fonctionnalités principales de l'application — il est optionnel et désactivé par défaut
 
 ## Vos choix et contrôles
 
@@ -82,7 +114,8 @@ Vous pouvez :
 - **Désactiver l'identification musicale Shazam** dans Power Pack+ / préférences
 - **Désactiver des catégories d'alerte individuelles** (sirènes, météo, sonnettes, bébé, etc.)
 - **Arrêter l'écoute en arrière-plan** lorsque toutes les catégories d'alerte sont désactivées
-- **Laisser Constellation désactivé** pour qu'aucune métadonnée mesh ne soit partagée avec d'autres téléphones
+- **Laisser Constellation désactivé** pour qu'aucune métadonnée mesh ne soit partagée avec d'autres téléphones exécutant Vigilant Ear. Les téléphones sans l'application ne peuvent pas partager ces métadonnées.
+- **Laisser le Research Array désactivé** (par défaut), ou le désactiver à tout moment dans les Réglages pour cesser de contribuer des rapports
 - **Utiliser le Terrain de jeu des fonctionnalités** pour prévisualiser les alertes et les fonctionnalités localement avec un filigrane PREVIEW clair, sans impliquer de véritable urgence
 
 ## Directives de la plateforme

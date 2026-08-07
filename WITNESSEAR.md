@@ -98,7 +98,7 @@ Time        Conf   dBFS   Dir    By   Sound
 08:12:04    71%    −25    207°   P2   Emergency & alarms · Siren
 08:14:10    64%    −34    —      P1   Household & speech · Knock
 
-Method & limits …
+Method & Limits …
 
 Integrity
 SHA-256 of the N journal rows exported in this window (JSON, sorted keys):
