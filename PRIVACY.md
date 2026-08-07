@@ -1,6 +1,6 @@
 # Privacy Policy for Vigilant Ear 👂🛰️
 
-**Effective Date:** July 11, 2026
+**Effective Date:** August 4, 2026
 
 ## Introduction
 
@@ -11,8 +11,8 @@ Vigilant Ear ("we", "us", or "our") is committed to protecting your privacy. Thi
 - **Core acoustic detection runs on your device.** Sound classification, directional tracking, live captions, and alert logic are designed to work locally using your phone's microphone and sensors.
 - **We do not sell your data** and we do not use advertising or behavioral analytics SDKs.
 - **We do not store or upload audio recordings.** Microphone audio is processed in real time for detection and (when enabled) captions; it is not saved as a sound file by Vigilant Ear for later playback or cloud analysis.
-- **Some features use the internet** — maps, severe-weather feeds, optional music identification, road data, app-store purchases, optional multi-phone mesh traffic between *your* devices, and loading of in-app legal pages. These are described below.
-- **You stay in control.** You can disable Shazam music identification, turn off alert categories, leave Constellation off, revoke permissions in system settings, or stop background listening at any time.
+- **Some features use the internet** — maps, severe-weather feeds, optional music identification, road data, app-store purchases, optional multi-phone mesh traffic between *your* devices, loading of in-app legal pages, and (only if you opt in) Research Array reports. These are described below.
+- **You stay in control.** You can disable Shazam music identification, turn off alert categories, leave Constellation off, leave **Research Array** off (it is off by default), revoke permissions in system settings, or stop background listening at any time.
 
 ## Information Processed on Your Device
 
@@ -24,6 +24,7 @@ With your permission, Vigilant Ear accesses the following **locally**:
 - **Device orientation and motion** — Used to improve bearing accuracy.
 - **Camera (optional)** — Used only if you open the camera AR “see the sound” view, so markers can be pinned in the live camera preview. Camera frames are used for on-device display; they are not uploaded by Vigilant Ear for sound recognition.
 - **Apple Watch (optional)** — When a Watch companion is available, alert labels and direction cues may be relayed to the paired Watch so you can glance at your wrist.
+- **Witness Ear sound journal (optional, off by default)** — When you turn Witness Ear on, the app keeps a rolling **24-hour, on-device** log of sound classifications (time, label, confidence, peak level, direction when measured, and the phone’s location at that moment; plus entries shared by your linked Constellation phones). The journal is stored only in the app’s private sandbox on this phone and is never uploaded by Vigilant Ear. It leaves the phone only inside a PDF report **you** choose to export and share. Entries older than 24 hours are deleted automatically; turning Witness Ear off pauses logging (kept entries still age out), and the in-app trash control deletes the log immediately. See the Witness Ear guide for details.
 
 This on-device processing is the heart of the app. Competitor apps often stream audio to the cloud for analysis and monetization. Vigilant Ear is built differently: your acoustic awareness pipeline is designed to run on the phone itself.
 
@@ -50,19 +51,49 @@ When you use certain features — or when the app needs them to function — **l
     *   *What is sent:* Purchase tokens and entitlement / trial status for the optional one-time Power Pack+ unlock (not a subscription)
     *   *Provider:* Apple App Store
 *   **Constellation mesh (optional, Power Pack+)**
-    *   *What is sent:* When you enable multi-phone Constellation, participating devices exchange acoustic metadata needed for a shared picture — for example relative pose / Ultra-Wideband ranging where available, bearings, sound labels, and ephemeral caption text. Traffic is peer-to-peer between the phones you link; Wingdings does not operate a cloud mesh relay for this audio pipeline.
-    *   *Provider:* Apple frameworks (e.g. Network / Nearby Interaction) between your devices
+    *   *What is sent:* When you enable multi-phone Constellation, participating devices exchange acoustic metadata needed for a shared picture — for example relative pose / Ultra-Wideband ranging where available, bearings, sound labels, and ephemeral caption text. Traffic is peer-to-peer **only between phones that are running Vigilant Ear and that you link for Constellation**. Phones without the app cannot join that mesh or receive that metadata. Wingdings does not operate a cloud mesh relay for this audio pipeline.
+    *   *Provider:* Apple frameworks (e.g. Network / Nearby Interaction) between your Vigilant Ear devices
 *   **In-app legal documents**
     *   *What is sent:* Standard web requests when you open Privacy Policy, Terms, Support, or product README pages in the app
     *   *Provider:* GitHub (document hosting)
+*   **Research Array live map (view-only)**
+    *   *What is sent:* Standard web requests when you tap **Map** to open the public array dashboard in your browser — like visiting any website. Viewing sends nothing from your journal or detections.
+    *   *Provider:* Wingdings research service (web application host)
+*   **Research Array (optional — off by default)**
+    *   *What is sent:* Only if you turn the feature on: small, metadata-only detection reports when a qualifying event is registered (time, approximate location, basic signal characteristics, app version). See **Research Array** below.
+    *   *Provider:* Infrastructure we operate (application host and database providers such as our web and Postgres hosts). Details and limits are in the Research Array section.
 
-We choose these services to deliver map, weather, music-label, purchase, and multi-device functionality. **Wingdings does not receive your microphone audio, continuous location history, or contact information from these providers.**
+We choose these services to deliver map, weather, music-label, purchase, multi-device, and (when you opt in) research-array functionality. **Wingdings does not receive your microphone audio, continuous location history, or contact information from these providers.**
 
 ## What Wingdings Collects
 
 ### No Remote Telemetry or Diagnostics
 
-Vigilant Ear is designed to operate entirely locally on your device. We do not collect, transmit, or store remote telemetry, crash logs, diagnostic records, or usage analytics on Wingdings servers. Optional **local** debug logs may be written on the device for troubleshooting; they are not uploaded by the app as a telemetry pipeline, and caption text is not included in exported debug content.
+Vigilant Ear is designed so that core listening and caption features run on your device. We do **not** collect remote crash analytics, advertising telemetry, or general usage analytics SDKs.
+
+Optional **local** debug logs may be written on the device for troubleshooting; they are not uploaded by the app as a telemetry pipeline, and caption text is not included in exported debug content.
+
+**Exception — Research Array only:** if you opt in (see below), Wingdings may receive the limited event reports you choose to contribute. That path is not advertising analytics; it is an optional research contribution you control and can turn off at any time.
+
+## Research Array (optional, off by default)
+
+Vigilant Ear can optionally contribute **metadata-only** detection reports to a research array that helps build a shared picture of earthquakes and other low-frequency / infrasound-related events. **This is turned off by default and only ever runs if you switch it on** — where the **Research Array** switch appears in the app's preferences (or the equivalent label in your language), you can turn it on or off at any time. Viewing the array's public **Map** page is separate from contributing and shares nothing from your log.
+
+When it is on — and only when your device registers a **qualifying** event (for example a strong enough non-local infrasound or seismic-related candidate, or certain quake-related audit signals where that path is enabled) — the app may send a small report containing:
+
+- the time of the event (using the device’s wall clock in a global time domain)
+- an approximate location, rounded to about **1 kilometre** (not your exact street address or continuous track)
+- basic characteristics of the event, such as sensor channel, whether the path is air or ground, peak frequency where applicable, and a dimensionless strength measure (for example STA/LTA)
+- the type of report (for example infrasound onset, seismic candidate, or quake confirmation audit)
+- the app version
+
+**What is never sent for Research Array:** audio, waveforms, recordings, transcripts, captions, contacts, identifiers the app invents to label *you* as a person or install, your precise GPS fix (beyond the coarse rounding above), or any continuous record of where you go. Audio never leaves your device for this or any other purpose.
+
+### Where reports go
+
+Reports are sent only over an **encrypted (HTTPS) channel** to a Wingdings research service we operate (application host and database). The app attaches **no per-user or per-device research ID** and **no Apple Account identifier** in the payload. A shared application secret may be used so only our app can write to the service; that secret is **not** a personal identifier. Standard hosting and security logs (for example short-lived network metadata used to operate the service) may exist as with any HTTPS service; they are not a product feature for tracking you, and we do not sell them.
+
+Turning **Research Array** off stops **all future** reports immediately. It does **not** delete reports already sent. Because reports carry **no per-user or per-device identifier**, we cannot look up or erase “everything you contributed” after the fact — we have no reliable way to know which past reports came from you. That is intentional: it keeps the research stream from becoming a personal history under our control.
 
 ## What We Do Not Do
 
@@ -73,6 +104,7 @@ We do **not**:
 - Run ad networks, cross-app trackers, or behavioral profiling SDKs
 - Upload your continuous location trail to Wingdings
 - Upload raw microphone audio for cloud speech or sound recognition
+- Require Research Array for core app features — it is optional and off by default
 
 ## Your Choices & Controls
 
@@ -82,7 +114,8 @@ You can:
 - **Disable Shazam music identification** in Power Pack+ / preferences
 - **Turn off individual alert categories** (sirens, weather, doorbells, baby, etc.)
 - **Stop background listening** when all alert categories are disabled
-- **Leave Constellation off** so no mesh metadata is shared with other phones
+- **Leave Constellation off** so no mesh metadata is shared with other phones running Vigilant Ear. Phones without the app cannot share that metadata.
+- **Leave Research Array off** (default), or turn it off anytime in Settings to stop contributing reports
 - **Use Feature Playground** to preview alerts and features locally with a clear PREVIEW watermark, without implying a real emergency
 
 ## Platform Guidelines
