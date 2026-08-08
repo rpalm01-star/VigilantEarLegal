@@ -1,6 +1,6 @@
 # Witness Ear — Optional 24-Hour Sound Journal & PDF Report
 
-**Witness Ear** is an optional feature of **Vigilant Ear**. It keeps a short, on-device log of sounds the app has classified around you, so you can export a simple **PDF summary report** when you need a written record—not only a live map.
+**Witness Ear** is an optional feature of **Vigilant Ear**. It keeps a short, on-device log of sounds the app has classified around you, so you can export a simple **PDF summary report** when you need a written record—not only a live map.  It records sound **events**, not audio or conversations.
 
 It is **off by default**, **free**, and designed to stay out of the way until you need it.
 
@@ -10,11 +10,11 @@ It is **off by default**, **free**, and designed to stay out of the way until yo
 
 While Vigilant Ear is monitoring, it already classifies environmental sounds (sirens, alarms, vehicles, speech-adjacent categories, and more). Witness Ear does one extra thing when you turn it on:
 
-- It **stores recent classifications** on this phone for up to **24 hours**.
-- You can **export** those events as a **PDF Summary Report** (share via Mail, Files, AirDrop, etc.).
+- It **stores recent classifications** on your phone for up to **24 hours**.
+- You can **export** those events as a **PDF Summary Report** to share via Mail, Files, AirDrop, etc.
 - You can **delete** the log at any time with the trash control. Turning Witness Ear **off** just **pauses** logging — what's already recorded is kept (and still ages out after 24 hours), so you can suspend it for a while without losing the day.
 
-There is **no separate Witness Ear “app mode”** or full dashboard yet. The control lives under **Preferences → SOUND JOURNAL**: a **Witness Ear** switch (with a small **trash** control beside it while the log holds events), plus a **PDF Summary Report** row with **Export**.
+There is **no separate Witness Ear “app mode”** or display. Controlling it lives under **Preferences → SOUND JOURNAL**: a **Witness Ear** switch (with a small **trash** control beside it while the log holds events), plus a **PDF Summary Report** row with **Export**.
 
 The report lists things like **time**, **confidence**, **peak level (dBFS)**, **direction when measured**, **which phone heard it** (this device or a linked Constellation peer), and the **sound label** grouped by sound family. It is a **pattern and awareness aid**, not a certified noise meter.
 
@@ -26,11 +26,10 @@ People use a short written log when memory and live dots are not enough:
 
 | Situation | How Witness Ear helps |
 |-----------|------------------------|
-| **Neighbor / HOA / landlord conversation** | A dated list of *what the app labeled and when*, over a night or a day, as a conversation starter—not as courtroom-grade metrology. |
+| **Neighbor / HOA / landlord discussion** | A dated list of *what the app labeled and when*, over a night or a day, as a conversation starter—not as courtroom-grade metrology. |
 | **“Was that every night or once?”** | Rolling 24 hours so you can check recency without keeping a permanent archive. |
 | **Multi-phone home (Constellation)** | Linked phones share what they hear over your **local mesh**. Shared detections can land in the journal too, so the report can show **which phone** heard an event—not only this mic. |
 | **Accessibility / awareness log** | A simple export you can send to a family member or support contact after a noisy stretch. |
-| **Your own notes** | Export, annotate offline, discard the log when done. |
 
 If you never need a PDF, leave Witness Ear **off**. Detection and alerts still work exactly as before.
 
@@ -75,18 +74,18 @@ Each phone still keeps **its own** journal file on device. There is **no cloud W
 
 ## What the PDF contains (sample shape)
 
-Exact layout may evolve; the intent is readable on paper and in Mail.
+The exact layout may evolve; the intent is a readable report via PDF or printed paper.
 
 ```
 WITNESS EAR — 24-Hour Sound Journal
 Generated Aug 7, 09:30  ·  Window Aug 6, 10:00 – Aug 7, 09:30
 Sources: this phone + Constellation peers.  Repeats within 30 s are logged once.
 
-[summary tiles]  classifier samples · episodes (60 s gap) · sound groups · span covered
-[Activity by hour]      bar chart of samples per hour
-[Sound groups]          raw labels coalesced by profile family (Music, Vehicles, …)
-[Locations]             L1, L2, … — positions grouped within ~110 m, with accuracy notes
-[Devices]               P1 (this phone, model · iOS · app build), P2 … (linked peers + model)
+[summary tiles]     classifier samples · episodes (60 s gap) · sound groups · span covered
+[Activity by hour]  bar chart of samples per hour
+[Sound groups]      raw labels coalesced by profile family (Music, Vehicles, …)
+[Locations]         L1, L2, … — positions grouped within ~110 m, with accuracy notes
+[Devices]           P1 (this phone, model · iOS · app build), P2 … (linked peers + model)
 
 Episodes
 #   Start         Length   Samples   Peak     Sounds              By
@@ -106,6 +105,7 @@ a1b2c3… (full hex digest)
 Location accuracy / simulated-GPS flags / device-state notes / exporting device / time base…
 
 Attestation
+
 I, _______________, attest that … Signature / Date lines for ink after print.
 ```
 
@@ -117,7 +117,7 @@ Every page carries a faint Wingdings watermark behind the content and a footer w
 - **Distinct episodes** — runs of samples separated by about a minute of quiet; a long continuous sound may be many samples but few episodes.
 - **Conf** — model confidence (0–100%), **not** decibels SPL.
 - **dBFS** — peak microphone level near the event, relative to that phone’s digital full scale (0 = the loudest the mic can record). Good for comparing moments; **not** calibrated dB SPL.
-- **Dir** — the sound’s absolute compass bearing (0° = north), shown **only** when a two-microphone solve actually measured one; “—” means not measured. Never inferred from how the phone was pointed.
+- **Dir** — the sound’s absolute compass bearing/direction (0° = north), shown **only** when a two-microphone solve actually measured one; “—” means not measured. Never inferred from how the phone was pointed.
 - **By** — device identifier from the **Devices** section (P1 = the exporting phone, P2… = linked peers), matching the L-ids in **Locations**.
 - **Integrity hash** — fingerprint of the on-device journal used to build the PDF; helps detect post-export edits of the event table.
 - **Attestation** — optional human signature block after print (you vouch for possession/location).
@@ -130,7 +130,7 @@ Every page carries a faint Wingdings watermark behind the content and a footer w
 |-------|--------|
 | **Default** | **Off.** No Witness Ear log until you opt in. |
 | **Where data lives** | On **this device** only, in the app’s private **Application Support** sandbox (see below). |
-| **What is stored** | Classification metadata: time, label, confidence, optional location/heading if the app already has them, optional peer id when a mesh event is merged. **Not** a continuous audio recording of the day for the journal. |
+| **What is stored** | Classification metadata: time, label, confidence, optional location/heading if the app already has them, optional peer id when a mesh event is merged. **Not** a continuous audio recording of the day for the journal or transcribed (or translated) spoken words. |
 | **Retention** | **Rolling 24 hours.** Older rows are pruned. |
 | **When you turn it off** | Logging **pauses**; stored entries are kept and still age out after 24 hours. |
 | **Delete control** | Trash on the Witness Ear row (shown while the log holds events), with a cancelable countdown. |
@@ -164,13 +164,13 @@ Witness Ear can produce an **authenticated digital ledger of acoustic metadata**
 
 ---
 
-## Disclaimers (please read)
+## Disclaimers
 
 1. **Not a certified instrument.** Phone microphones are **not** Class 1/2 sound level meters. Confidence scores and any related levels are **relative**, uncalibrated, and **must not** be presented as absolute dBA/dBC for enforcement, fines, or legal metrology. The report may still be useful as an **authenticated digital ledger of acoustic metadata** when used honestly.
 
 2. **Not a guarantee of completeness.** The log only includes what the **on-device classifiers** labeled while monitoring was active and Witness Ear was **on**. Quiet periods, muted mic, app not running, low confidence, or throttled duplicates may leave gaps. Absence of a row is **not** proof that a sound never happened.
 
-3. **Labels can be wrong.** Machine learning misclassifies. A “Siren” row means the model’s top guess at that moment—not a guaranteed emergency vehicle. Treat the PDF as **supporting notes**, not ground truth.
+3. **Labels can be wrong.** Machine learning engines can misclassify. A “Siren” row means the model’s top guess at that moment—not a guaranteed emergency vehicle. Treat the PDF as **supporting notes**, not ground truth.
 
 4. **Not a safety device.** Vigilant Ear / Witness Ear are **awareness and accessibility aids**. They do not replace human judgment, certified alarms, or official emergency services.
 
@@ -187,16 +187,15 @@ Witness Ear can produce an **authenticated digital ledger of acoustic metadata**
 ## Platform notes
 
 - **iOS / iPadOS:** Witness Ear controls ship under **Preferences → SOUND JOURNAL** as described above.
-- **Android:** A fuller “Witness Ear” surface (including richer PDF charts in development) may appear later; product packaging can differ by platform. Core idea remains: **opt-in, short retention, on-device, user-initiated export.**
 
 ---
 
 ## Good to know
 
-- Leaving Witness Ear **off** costs essentially nothing beyond normal monitoring.
-- Turning it **on** adds light local storage and occasional writes—not a second full UI.
-- **Export** builds the PDF without requiring a separate Witness Ear screen.
-- For day-to-day alerts and direction, use the main Vigilant Ear map and HUDs; use Witness Ear when you need a **portable written snapshot** of the last day.
+- Leaving Witness Ear **off** costs nothing in terms of phone CPU or battery usage.
+- Turning it **on** adds light local storage and occasional writes of events to build the report.
+- **Export** builds the PDF without requiring a separate user menu.
+- For day-to-day alerts and direction, use the main Vigilant Ear map and HUDs; use Witness Ear when you need a **portable written snapshot** of the last day's sound events.
 
 ---
 
