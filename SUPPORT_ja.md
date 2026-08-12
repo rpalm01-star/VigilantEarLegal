@@ -8,6 +8,15 @@
 
 **メール:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 
+## 動画
+
+すべて画面上に表示される短い動画です。ナレーションはありません — 聞くものはなく、すべて読めます。
+
+- **[字幕の言語を変更する](https://youtu.be/bBTjlWnbFr4)** — アプリの言語を切り替え、**Speaker Auto-Translate** をオンにする方法。ほとんどの人が見落とす手順も含みます:アプリを完全に終了して開き直すまで、字幕は以前の言語のまま届きます。
+- **[アラートの見え方](https://youtu.be/1NCXHqQ-BR8)** — 煙探知器、ドアのノック、赤ちゃんの泣き声、サイレン、悪天候、地震の確認。それぞれ方位付きです。
+
+さらに: **[チュートリアル](https://www.youtube.com/playlist?list=PLV5sYptGyafo)** · **[サンプル](https://www.youtube.com/playlist?list=PLYc8NrtyfisY)**
+
 ## よくある質問 (FAQ)
 
 ### Vigilant Ear はバックグラウンドでどのように機能しますか？

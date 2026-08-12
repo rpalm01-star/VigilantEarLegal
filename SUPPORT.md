@@ -8,6 +8,15 @@ If you are experiencing technical issues, have questions about alert accuracy, o
 
 **Email:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 
+## Videos
+
+Short videos with everything on screen and no narration — nothing to hear, all of it to read.
+
+- **[Change your caption language](https://youtu.be/bBTjlWnbFr4)** — switching the app's language and turning on **Speaker Auto-Translate**, including the step most people miss: captions keep arriving in the old language until you close the app completely and open it again.
+- **[What the alerts look like](https://youtu.be/1NCXHqQ-BR8)** — smoke detector, knock at the door, baby crying, siren, severe weather and an earthquake confirmation, each with its direction.
+
+More: **[Tutorials](https://www.youtube.com/playlist?list=PLV5sYptGyafo)** · **[Samples](https://www.youtube.com/playlist?list=PLYc8NrtyfisY)**
+
 ## Frequently Asked Questions
 
 ### How does Vigilant Ear work in the background?
