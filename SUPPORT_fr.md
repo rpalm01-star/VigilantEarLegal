@@ -8,15 +8,6 @@ Si vous rencontrez des problèmes techniques, avez des questions sur la précisi
 
 **E-mail :** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 
-## Vidéos
-
-Des vidéos courtes, tout à l'écran et sans commentaire : rien à entendre, tout à lire.
-
-- **[Changer la langue des sous-titres](https://youtu.be/bBTjlWnbFr4)** — comment changer la langue de l'app et activer **Speaker Auto-Translate**, y compris l'étape que presque tout le monde oublie : les sous-titres continuent d'arriver dans l'ancienne langue jusqu'à ce que vous fermiez complètement l'app et la rouvriez.
-- **[À quoi ressemblent les alertes](https://youtu.be/1NCXHqQ-BR8)** — détecteur de fumée, coup frappé à la porte, bébé qui pleure, sirène, intempéries et une confirmation de séisme, chacune avec sa direction.
-
-Plus : **[Tutoriels](https://www.youtube.com/playlist?list=PLV5sYptGyafo)** · **[Exemples](https://www.youtube.com/playlist?list=PLYc8NrtyfisY)**
-
 ## Foire Aux Questions (FAQ)
 
 ### Comment Vigilant Ear fonctionne-t-il en arrière-plan ?

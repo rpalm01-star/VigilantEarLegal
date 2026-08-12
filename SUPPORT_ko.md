@@ -8,15 +8,6 @@
 
 **이메일:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 
-## 동영상
-
-모든 내용이 화면에 표시되는 짧은 동영상입니다. 내레이션은 없습니다 — 들을 것은 없고, 모두 읽을 수 있습니다.
-
-- **[자막 언어 변경하기](https://youtu.be/bBTjlWnbFr4)** — 앱 언어를 바꾸고 **Speaker Auto-Translate** 를 켜는 방법. 대부분이 놓치는 단계도 포함합니다: 앱을 완전히 종료했다가 다시 열기 전까지 자막은 이전 언어로 계속 도착합니다.
-- **[알림은 이렇게 보입니다](https://youtu.be/1NCXHqQ-BR8)** — 연기 감지기, 문 두드리는 소리, 아기 울음, 사이렌, 악천후, 지진 확인. 각각 방위가 함께 표시됩니다.
-
-더 보기: **[튜토리얼](https://www.youtube.com/playlist?list=PLV5sYptGyafo)** · **[샘플](https://www.youtube.com/playlist?list=PLYc8NrtyfisY)**
-
 ## 자주 묻는 질문 (FAQ)
 
 ### 백그라운드에서 Vigilant Ear는 어떻게 작동하나요?

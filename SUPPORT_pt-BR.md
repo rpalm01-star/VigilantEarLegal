@@ -8,15 +8,6 @@ Se você estiver enfrentando problemas técnicos, tiver dúvidas sobre a precis�
 
 **E-mail:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 
-## Vídeos
-
-Vídeos curtos com tudo na tela e sem narração — nada para ouvir, tudo para ler.
-
-- **[Mudar o idioma das legendas](https://youtu.be/bBTjlWnbFr4)** — como trocar o idioma do app e ativar o **Speaker Auto-Translate**, incluindo o passo que quase todo mundo pula: as legendas continuam chegando no idioma antigo até você fechar o app por completo e abrir de novo.
-- **[Como são os alertas](https://youtu.be/1NCXHqQ-BR8)** — detector de fumaça, batida na porta, bebê chorando, sirene, tempo severo e uma confirmação de terremoto, cada um com sua direção.
-
-Mais: **[Tutoriais](https://www.youtube.com/playlist?list=PLV5sYptGyafo)** · **[Exemplos](https://www.youtube.com/playlist?list=PLYc8NrtyfisY)**
-
 ## Perguntas Frequentes
 
 ### Como o Vigilant Ear funciona em segundo plano?

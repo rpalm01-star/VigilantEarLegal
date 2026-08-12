@@ -8,15 +8,6 @@ Wenn Sie technische Probleme haben, Fragen zur Genauigkeit von Warnungen haben o
 
 **E-Mail:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 
-## Videos
-
-Kurze Videos, alles auf dem Bildschirm, ohne Sprecher — nichts zu hören, alles zum Lesen.
-
-- **[Die Sprache der Untertitel ändern](https://youtu.be/bBTjlWnbFr4)** — wie du die Sprache der App umstellst und **Speaker Auto-Translate** einschaltest, samt dem Schritt, den die meisten übersehen: Die Untertitel kommen weiter in der alten Sprache, bis du die App vollständig schließt und neu öffnest.
-- **[Wie die Warnungen aussehen](https://youtu.be/1NCXHqQ-BR8)** — Rauchmelder, Klopfen an der Tür, weinendes Baby, Sirene, Unwetter und eine Erdbebenbestätigung, jeweils mit Richtung.
-
-Mehr: **[Tutorials](https://www.youtube.com/playlist?list=PLV5sYptGyafo)** · **[Beispiele](https://www.youtube.com/playlist?list=PLYc8NrtyfisY)**
-
 ## Häufig gestellte Fragen
 
 ### Wie funktioniert Vigilant Ear im Hintergrund?
