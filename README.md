@@ -34,7 +34,7 @@ Using the iPhone's stereo microphones, Vigilant Ear estimates the **bearing and 
 ### 🚨 It recognizes important sounds — and warns you
 An on-device classifier identifies hundreds of everyday sounds and watches the critical categories — **sirens, alarms — including a dedicated car-alarm class — doorbells/knocks, baby cry, a person nearby, and severe weather.** When one fires, you get a clear on-screen alert, optional **push notification**, and a distinct **haptic** — even when the app is backgrounded or the phone is asleep. Critical categories default ready so enabling notifications doesn't mean “everything off.” Turn all alert categories off and the engine fully hibernates while backgrounded to save battery. A **Sentinel** layer cross-checks alerts against independent evidence — direction, motion, and public feeds — so what fires is corroborated, not a lone classifier guess.
 
-Severe-weather warnings come from official public CAP feeds — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, and **Korea KMA** — free for all users. Feeds are narrowed to the ones that cover where you are.
+Severe-weather warnings come from official public feeds — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, **Korea KMA**, **Japan JMA**, and **Canada ECCC** — free for all users. Feeds are narrowed to the ones that cover where you are.
 
 ### ⌚ Apple Watch + Live Activity — glance and know
 - **Apple Watch companion** — the direction of an alert points on your wrist so a glance tells you where to look. Redesigned Watch UI with the app ear icon, threat HUD layout, and double-tap to dismiss an alert. Alerts can still show the direction arrow when the Watch app is not open.
@@ -88,7 +88,7 @@ The safety core is **free, forever**:
 
 - **Home Watch & Street Watch** — local sound alerts (alarms, sirens, knocks/doorbells, baby, person nearby) with on-screen, haptic, and optional push delivery.
 - **Live captions** — Speaker Mode, on-device, directional where hardware allows, with optional spoken output to Bluetooth hearing devices.
-- **Severe-weather CAP** — NWS, MeteoGate, CMA, KMA for your region.
+- **Severe-weather alerts** — NWS, MeteoGate, CMA, KMA, JMA (Japan), ECCC (Canada) for your region.
 - **Earthquake alerts (USGS, worldwide)** — feel a buzz and see the area that felt it on your map when a quake is reported nearby. A confirmation from the official USGS feed — not an early warning: if you felt shaking, this tells you what it was. On-device deep-rumble (infrasound) sensing can arm the check the moment the ground moves.
 - **Feature Playground** — practice alerts and feature previews with a clear PREVIEW watermark.
 - **Apple Watch companion & Live Activity** — glanceable direction and last alert.

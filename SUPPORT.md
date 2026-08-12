@@ -40,7 +40,7 @@ Ensure you have granted **Microphone** permission in iOS Settings. Vigilant Ear 
 
 ### How accurate are the weather alerts?
 
-Vigilant Ear polls official government CAP (Common Alerting Protocol) feeds. Alerts are as accurate as the data provided by the National Weather Service and other international agencies (including Europe MeteoGate, China CMA, and Korea KMA). Location simulation, coverage gaps, or network delays may occasionally affect update frequency.
+Vigilant Ear polls official government CAP (Common Alerting Protocol) feeds. Alerts are as accurate as the data provided by the National Weather Service and other international agencies (including Europe MeteoGate, China CMA, Korea KMA, the Japan Meteorological Agency, and Environment and Climate Change Canada). Location simulation, coverage gaps, or network delays may occasionally affect update frequency.
 
 ### Does the app work in the background?
 
@@ -68,7 +68,7 @@ The safety core is **free, forever**:
 
 - Local sound alerts (sirens, alarms, knocks/doorbells, baby, person nearby) with on-screen and optional push delivery  
 - **Speaker Mode** live captions (on-device; directional where hardware allows)  
-- Severe-weather CAP feeds for your region — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, and **Korea KMA**  
+- Severe-weather feeds for your region — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, **Korea KMA**, **Japan JMA**, and **Canada ECCC**  
 - **Feature Playground** practice alerts (watermarked so they never look like a live emergency)  
 - **Apple Watch** companion direction cues and **Live Activity** (Lock Screen / Dynamic Island / Watch Smart Stack), where available  
 
