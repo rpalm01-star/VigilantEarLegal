@@ -37,7 +37,7 @@ Vigilant Ear («мы», «нас» или «наш») стремится защ�
     *   *Поставщик:* Apple Maps / MapKit
 *   **Оповещения о суровой погоде**
     *   *Что отправляется:* запросы к публичным лентам CAP/Atom; общий регион может выводиться из выбора ленты и местоположения устройства
-    *   *Поставщик:* U.S. National Weather Service, MeteoGate (Европа), China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), связанные с WMO публичные источники и аналогичные публичные ленты оповещений
+    *   *Поставщик:* U.S. National Weather Service, MeteoGate (Европа), China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), Japan Meteorological Agency (JMA), Environment and Climate Change Canada (ECCC), связанные с WMO публичные источники и аналогичные публичные ленты оповещений
 *   **Оповещения о землетрясениях**
     *   *Что отправляется:* запросы к единой всемирной публичной сводке землетрясений — в запросе **нет** информации о местоположении или регионе; местоположение устройства используется только на устройстве, чтобы решить, близко ли к вам зарегистрированное событие
     *   *Поставщик:* публичная лента U.S. Geological Survey (USGS)

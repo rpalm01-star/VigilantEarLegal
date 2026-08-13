@@ -34,7 +34,7 @@ Usando os microfones estéreo do iPhone, o Vigilant Ear estima a **direção e a
 ### 🚨 Ele reconhece sons importantes — e avisa você
 Um classificador no dispositivo identifica centenas de sons do dia a dia e observa as categorias críticas — **sirenes, alarmes — incluindo uma classe dedicada de alarme de carro —, campainhas/batidas, choro de bebê, uma pessoa por perto e clima severo.** Quando um é disparado, você recebe um alerta claro na tela, **notificação push** opcional e uma **resposta tátil** distinta — mesmo quando o aplicativo está em segundo plano ou o telefone está inativo. As categorias críticas vêm ativadas por padrão, portanto, ativar as notificações não significa "tudo desligado". Desligue todas as categorias de alerta e o mecanismo hiberna totalmente enquanto estiver em segundo plano para economizar bateria. Uma camada **Sentinel** cruza os alertas com evidências independentes — direção, movimento e feeds públicos — para que o que dispara seja corroborado, e não o palpite de um classificador isolado.
 
-Avisos de clima severo vêm de feeds públicos oficiais CAP — **NWS** dos EUA, **MeteoGate** da Europa, **CMA** da China e **KMA** da Coreia — gratuitos para todos os usuários. Os feeds são reduzidos àqueles que cobrem onde você está.
+Avisos de clima severo vêm de feeds públicos oficiais — **NWS** dos EUA, **MeteoGate** da Europa, **CMA** da China, **KMA** da Coreia, **JMA** do Japão e **ECCC** do Canadá — gratuitos para todos os usuários. Os feeds são reduzidos àqueles que cobrem onde você está.
 
 ### ⌚ Apple Watch + Live Activity — olhe e saiba
 - **Companheiro do Apple Watch** — a direção de um alerta aponta em seu pulso, para que um olhar diga onde procurar. Interface do usuário do Watch redesenhada com o ícone de orelha do aplicativo, layout de HUD de ameaças e toque duplo para dispensar um alerta. Os alertas ainda podem mostrar a seta de direção quando o aplicativo do Watch não estiver aberto.
@@ -88,7 +88,7 @@ O núcleo de segurança é **gratuito, para sempre**:
 
 - **Home Watch e Street Watch** — alertas de som locais (alarmes, sirenes, batidas/campainhas, bebê, pessoa por perto) com entrega na tela, tátil e notificação push opcional.
 - **Legendas ao vivo** — Speaker Mode, no dispositivo, direcional onde o hardware permite, com saída de voz opcional para dispositivos auditivos Bluetooth.
-- **Clima severo CAP** — NWS, MeteoGate, CMA, KMA para a sua região.
+- **Alertas de clima severo** — NWS, MeteoGate, CMA, KMA, JMA (Japão), ECCC (Canadá) para a sua região.
 - **Alertas de terremoto (USGS, mundial)** — sinta uma vibração e veja no mapa a área que sentiu o tremor quando um terremoto for relatado por perto. Uma confirmação do feed oficial do USGS — não um alerta antecipado: se você sentiu o tremor, isto lhe diz o que foi. A detecção de estrondos profundos (infrassom) no dispositivo pode armar a verificação no instante em que o chão se move.
 - **Zona de Testes** — alertas de prática e prévias de recursos com uma clara marca d'água PREVIEW.
 - **Companheiro do Apple Watch e Live Activity** — direção visualizável e último alerta.

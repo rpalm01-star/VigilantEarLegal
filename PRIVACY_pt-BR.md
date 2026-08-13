@@ -37,7 +37,7 @@ Quando você usa certos recursos — ou quando o aplicativo precisa deles para f
     *   *Provedor:* Apple Maps / MapKit
 *   **Alertas de clima severo**
     *   *O que é enviado:* Solicitações para feeds meteorológicos públicos CAP/Atom; a sua região geral pode ser inferida a partir da seleção do feed e da localização do dispositivo
-    *   *Provedor:* National Weather Service dos EUA, MeteoGate (Europa), Administração Meteorológica da China (CMA), Administração Meteorológica da Coreia (KMA), fontes públicas relacionadas à OMM e feeds públicos de alertas semelhantes
+    *   *Provedor:* National Weather Service dos EUA, MeteoGate (Europa), Administração Meteorológica da China (CMA), Administração Meteorológica da Coreia (KMA), Agência Meteorológica do Japão (JMA), Ambiente e Mudanças Climáticas do Canadá (ECCC), fontes públicas relacionadas à OMM e feeds públicos de alertas semelhantes
 *   **Alertas de terremoto**
     *   *O que é enviado:* Solicitações a um único feed público mundial de resumo de terremotos — a solicitação não contém nenhuma informação de localização ou região; a localização do seu dispositivo é usada apenas no dispositivo para decidir se um terremoto relatado está perto de você
     *   *Provedor:* Feed público de terremotos do Serviço Geológico dos EUA (USGS)

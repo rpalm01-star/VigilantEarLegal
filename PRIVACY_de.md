@@ -37,7 +37,7 @@ Wenn Sie bestimmte Funktionen nutzen — oder wenn die App diese zum Funktionier
     *   *Anbieter:* Apple Maps / MapKit
 *   **Unwetterwarnungen**
     *   *Was gesendet wird:* Anfragen an öffentliche CAP/Atom-Wetter-Feeds; Ihre allgemeine Region kann aus der Feed-Auswahl und dem Gerätestandort abgeleitet werden
-    *   *Anbieter:* U.S. National Weather Service, MeteoGate (Europa), China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), WMO-bezogene öffentliche Quellen und ähnliche öffentliche Warn-Feeds
+    *   *Anbieter:* U.S. National Weather Service, MeteoGate (Europa), China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), Japan Meteorological Agency (JMA), Environment and Climate Change Canada (ECCC), WMO-bezogene öffentliche Quellen und ähnliche öffentliche Warn-Feeds
 *   **Erdbebenwarnungen**
     *   *Was gesendet wird:* Anfragen an einen einzigen weltweiten öffentlichen Erdbeben-Übersichtsfeed — die Anfrage enthält keinerlei Standort- oder Regionsinformationen; Ihr Gerätestandort wird ausschließlich auf dem Gerät verwendet, um zu entscheiden, ob ein gemeldetes Beben in Ihrer Nähe ist
     *   *Anbieter:* Öffentlicher Erdbeben-Feed des U.S. Geological Survey (USGS)

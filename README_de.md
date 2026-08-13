@@ -34,7 +34,7 @@ Mithilfe der Stereomikrofone des iPhones schätzt Vigilant Ear die **Peilung und
 ### 🚨 Es erkennt wichtige Geräusche — und warnt Sie
 Ein On-Device-Klassifikator identifiziert Hunderte von alltäglichen Geräuschen und überwacht die kritischen Kategorien — **Sirenen, Alarme — einschließlich einer eigenen Autoalarm-Klasse —, Türklingeln/Klopfen, Babygeschrei, eine Person in der Nähe und Unwetter.** Wenn einer ausgelöst wird, erhalten Sie eine klare Warnung auf dem Bildschirm, eine optionale **Push-Benachrichtigung** und eine deutliche **Haptik** — selbst wenn die App im Hintergrund läuft oder das Telefon schläft. Kritische Kategorien sind standardmäßig bereit, sodass das Aktivieren von Benachrichtigungen nicht bedeutet: „alles aus.“ Schalten Sie alle Warnkategorien aus, und die Engine geht vollständig in den Ruhezustand über, während sie im Hintergrund läuft, um Batterie zu sparen. Eine **Sentinel**-Ebene gleicht Warnungen mit unabhängigen Belegen ab — Richtung, Bewegung und öffentliche Feeds —, damit das, was auslöst, bestätigt ist und nicht die Vermutung eines einzelnen Klassifikators.
 
-Unwetterwarnungen stammen aus offiziellen öffentlichen CAP-Feeds — **NWS** der USA, **MeteoGate** in Europa, **CMA** in China und **KMA** in Korea — kostenlos für alle Benutzer. Die Feeds werden auf diejenigen eingegrenzt, die Ihren Aufenthaltsort abdecken.
+Unwetterwarnungen stammen aus offiziellen öffentlichen Feeds — **NWS** der USA, **MeteoGate** in Europa, **CMA** in China, **KMA** in Korea, **JMA** in Japan und **ECCC** in Kanada — kostenlos für alle Benutzer. Die Feeds werden auf diejenigen eingegrenzt, die Ihren Aufenthaltsort abdecken.
 
 ### ⌚ Apple Watch + Live-Aktivität — ein Blick und Bescheid wissen
 - **Apple Watch-Begleiter** — die Richtung einer Warnung zeigt auf Ihrem Handgelenk, sodass ein Blick Ihnen sagt, wohin Sie schauen müssen. Überarbeitete Watch-Benutzeroberfläche mit dem App-Ohr-Symbol, dem Bedrohungs-HUD-Layout und Doppeltippen, um eine Warnung zu schließen. Warnungen können den Richtungspfeil weiterhin anzeigen, wenn die Watch-App nicht geöffnet ist.
@@ -88,7 +88,7 @@ Der Sicherheitskern ist **kostenlos, für immer**:
 
 - **Home Watch & Street Watch** — lokale Geräuschwarnungen (Alarme, Sirenen, Klopfen/Türklingeln, Baby, Person in der Nähe) mit Bildschirm-, haptischer und optionaler Push-Zustellung.
 - **Live-Untertitel** — Sprechermodus, auf dem Gerät, richtungsbezogen, wo die Hardware dies zulässt, mit optionaler Sprachausgabe auf Bluetooth-Hörgeräte.
-- **Unwetter-CAP** — NWS, MeteoGate, CMA, KMA für Ihre Region.
+- **Unwetterwarnungen** — NWS, MeteoGate, CMA, KMA, JMA (Japan), ECCC (Kanada) für Ihre Region.
 - **Erdbebenwarnungen (USGS, weltweit)** — Sie spüren eine Vibration und sehen auf Ihrer Karte das Gebiet, in dem das Beben spürbar war, wenn in der Nähe ein Erdbeben gemeldet wird. Eine Bestätigung aus dem offiziellen USGS-Feed — keine Frühwarnung: Wenn Sie ein Beben gespürt haben, sagt Ihnen dies, was es war. Die On-Device-Erkennung tiefer Erschütterungen (Infraschall) kann die Prüfung in dem Moment scharfschalten, in dem sich der Boden bewegt.
 - **Feature-Spielwiese** — Übungswarnungen und Funktionsvorschauen mit klarem PREVIEW-Wasserzeichen.
 - **Apple Watch-Begleiter & Live-Aktivität** — auf einen Blick erkennbare Richtung und letzte Warnung.

@@ -34,7 +34,7 @@ En utilisant les microphones stéréo de l'iPhone, Vigilant Ear estime le **cap 
 ### 🚨 Elle reconnaît les sons importants — et vous avertit
 Un classificateur sur l'appareil identifie des centaines de sons du quotidien et surveille les catégories critiques — **sirènes, alarmes — y compris une classe dédiée d'alarme de voiture —, sonnettes/coups, pleurs de bébé, une personne à proximité, et alertes météo extrêmes.** Lorsqu'un son se déclenche, vous obtenez une alerte claire à l'écran, une **notification push** (optionnelle) et un retour **haptique** distinct, même si l'application est en arrière-plan ou que le téléphone est en veille. Les catégories critiques sont prêtes par défaut afin que l'activation des notifications ne signifie pas « tout désactiver ». Désactivez toutes les catégories d'alerte et le moteur hibernera complètement en arrière-plan pour économiser la batterie. Une couche **Sentinel** recoupe les alertes avec des preuves indépendantes — direction, mouvement et flux publics — afin que ce qui se déclenche soit corroboré, et non la simple supposition d'un classificateur isolé.
 
-Les alertes météorologiques extrêmes proviennent de flux publics officiels CAP — **NWS** pour les États-Unis, **MeteoGate** pour l'Europe, **CMA** pour la Chine, et **KMA** pour la Corée, et ce, gratuitement pour tous les utilisateurs. Les flux sont restreints à ceux qui couvrent l'endroit où vous vous trouvez.
+Les alertes météorologiques extrêmes proviennent de flux publics officiels — **NWS** pour les États-Unis, **MeteoGate** pour l'Europe, **CMA** pour la Chine, **KMA** pour la Corée, **JMA** pour le Japon, et **ECCC** pour le Canada, et ce, gratuitement pour tous les utilisateurs. Les flux sont restreints à ceux qui couvrent l'endroit où vous vous trouvez.
 
 ### ⌚ Apple Watch + Live Activity — un coup d'œil et vous savez
 - **Application compagnon Apple Watch** — la direction d'une alerte pointe sur votre poignet afin qu'un coup d'œil vous dise où regarder. Interface utilisateur repensée pour la Watch avec l'icône de l'oreille de l'application, l'affichage tête haute (HUD) des menaces, et un double tapotement pour fermer une alerte. Les alertes peuvent toujours afficher la flèche de direction lorsque l'application Watch n'est pas ouverte.
@@ -88,7 +88,7 @@ Le cœur de la sécurité est **gratuit, pour toujours** :
 
 - **Home Watch & Street Watch** — alertes sonores locales (alarmes, sirènes, coups/sonnettes, bébé, personne à proximité) avec notification à l'écran, haptique et push en option.
 - **Sous-titres en direct** — Mode Locuteur (Speaker Mode), sur l'appareil, directionnel là où le matériel le permet, avec sortie vocale optionnelle vers les appareils auditifs Bluetooth.
-- **Météo extrême CAP** — NWS, MeteoGate, CMA, KMA pour votre région.
+- **Alertes météo extrêmes** — NWS, MeteoGate, CMA, KMA, JMA (Japon), ECCC (Canada) pour votre région.
 - **Alertes sismiques (USGS, monde entier)** — ressentez une vibration et visualisez sur votre carte la zone qui a ressenti le séisme lorsqu'un tremblement de terre est signalé à proximité. Une confirmation issue du flux officiel de l'USGS — pas une alerte précoce : si vous avez senti une secousse, ceci vous dit ce que c'était. La détection de grondements profonds (infrasons) sur l'appareil peut armer la vérification dès que le sol bouge.
 - **Terrain de jeu des fonctionnalités** — alertes d'entraînement et aperçus des fonctionnalités avec un filigrane PREVIEW bien visible.
 - **Compagnon Apple Watch & Live Activity** — direction et dernière alerte consultables d'un coup d'œil.

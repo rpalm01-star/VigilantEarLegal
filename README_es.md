@@ -34,7 +34,7 @@ Usando los micrófonos estéreo del iPhone, Vigilant Ear estima la **dirección 
 ### 🚨 Reconoce sonidos importantes — y te advierte
 Un clasificador en el dispositivo identifica cientos de sonidos cotidianos y vigila las categorías críticas — **sirenas, alarmas — incluida una clase dedicada de alarma de coche —, timbres/golpes, llanto de bebé, una persona cercana y clima severo.** Cuando uno se activa, recibes una alerta clara en la pantalla, una **notificación automática** opcional y un **háptico** distintivo — incluso cuando la aplicación está en segundo plano o el teléfono está suspendido. Las categorías críticas están listas de forma predeterminada, por lo que habilitar las notificaciones no significa "todo apagado". Apaga todas las categorías de alertas y el motor hiberna por completo mientras está en segundo plano para ahorrar batería. Una capa **Sentinel** contrasta las alertas con evidencia independiente — dirección, movimiento y feeds públicos — para que lo que se dispare esté corroborado, no sea la conjetura de un clasificador aislado.
 
-Las advertencias de clima severo provienen de fuentes CAP públicas oficiales — **NWS** de EE. UU., **MeteoGate** de Europa, **CMA** de China y **KMA** de Corea — gratuitas para todos los usuarios. Las fuentes se limitan a las que cubren donde te encuentras.
+Las advertencias de clima severo provienen de fuentes públicas oficiales — **NWS** de EE. UU., **MeteoGate** de Europa, **CMA** de China, **KMA** de Corea, **JMA** de Japón y **ECCC** de Canadá — gratuitas para todos los usuarios. Las fuentes se limitan a las que cubren donde te encuentras.
 
 ### ⌚ Apple Watch + Live Activity — echa un vistazo y sabe
 - **Compañero de Apple Watch** — la dirección de una alerta apunta en tu muñeca para que un vistazo te diga dónde mirar. Interfaz de usuario del Watch rediseñada con el ícono de oreja de la aplicación, diseño de HUD de amenazas y doble toque para descartar una alerta. Las alertas aún pueden mostrar la flecha de dirección cuando la aplicación del Watch no está abierta.
@@ -88,7 +88,7 @@ El núcleo de seguridad es **gratis, para siempre**:
 
 - **Vigilancia de Hogar y Vigilancia de Calle** — alertas locales de sonido (alarmas, sirenas, golpes/timbres, bebé, persona cercana) con entrega en pantalla, háptica y notificaciones automáticas opcionales.
 - **Subtítulos en vivo** — Modo Orador, en el dispositivo, direccional donde el hardware lo permita, con salida de voz opcional a dispositivos auditivos Bluetooth.
-- **CAP de clima severo** — NWS, MeteoGate, CMA, KMA para tu región.
+- **Alertas de clima severo** — NWS, MeteoGate, CMA, KMA, JMA (Japón), ECCC (Canadá) para tu región.
 - **Alertas de terremoto (USGS, mundial)** — siente una vibración y ve en tu mapa la zona que notó el temblor cuando se informa de un terremoto cercano. Una confirmación del feed oficial del USGS — no una alerta temprana: si sentiste el temblor, esto te dice qué fue. La detección de retumbos profundos (infrasonido) en el dispositivo puede armar la comprobación en cuanto el suelo se mueve.
 - **Zona de Pruebas** — alertas de práctica y vistas previas de funciones con una clara marca de agua PREVIEW.
 - **Compañero de Apple Watch y Live Activity** — dirección con solo un vistazo y última alerta.

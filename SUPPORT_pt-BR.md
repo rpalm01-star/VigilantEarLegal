@@ -31,7 +31,7 @@ Certifique-se de ter concedido permissão de **Microfone** em Ajustes do iOS. O 
 
 ### Quão precisos são os alertas de clima?
 
-O Vigilant Ear consulta feeds oficiais de governos CAP (Common Alerting Protocol). Os alertas são tão precisos quanto os dados fornecidos pelo National Weather Service e outras agências internacionais (incluindo MeteoGate na Europa, CMA na China e KMA na Coreia). A simulação de localização, lacunas de cobertura ou atrasos na rede podem ocasionalmente afetar a frequência de atualização.
+O Vigilant Ear consulta feeds oficiais de governos CAP (Common Alerting Protocol). Os alertas são tão precisos quanto os dados fornecidos pelo National Weather Service e outras agências internacionais (incluindo MeteoGate na Europa, CMA na China, KMA na Coreia, a Agência Meteorológica do Japão e o Ambiente e Mudanças Climáticas do Canadá). A simulação de localização, lacunas de cobertura ou atrasos na rede podem ocasionalmente afetar a frequência de atualização.
 
 ### O aplicativo funciona em segundo plano?
 
@@ -59,7 +59,7 @@ O núcleo de segurança é **gratuito, para sempre**:
 
 - Alertas sonoros locais (sirenes, alarmes, batidas/campainhas, bebê, pessoa por perto) com entrega na tela e notificações push opcionais  
 - Legendas ao vivo do **Speaker Mode** (no dispositivo; direcional onde o hardware permite)  
-- Feeds CAP de clima severo para a sua região — **NWS** dos EUA, **MeteoGate** da Europa, **CMA** da China e **KMA** da Coreia  
+- Feeds de clima severo para a sua região — **NWS** dos EUA, **MeteoGate** da Europa, **CMA** da China, **KMA** da Coreia, **JMA** do Japão e **ECCC** do Canadá  
 - Prática de alertas da **Zona de Testes** (com marca d'água para que nunca pareçam uma emergência real)  
 - Dicas de direção de companheiro do **Apple Watch** e **Live Activity** (Tela de Bloqueio / Dynamic Island / Conjunto Inteligente do Watch), onde disponível  
 
