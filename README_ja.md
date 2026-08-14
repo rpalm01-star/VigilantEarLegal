@@ -145,7 +145,7 @@ graph TD
 - **Constellation** には **Ultra-Wideband** が必要です — iPhone 11 以降 (SE および「e」モデルを除く)。
 - **Android。** コアレーダー、アラート、キャプション、天気を備えた個別のビルド。Constellation メッシュは iOS ファーストです。Android の同等性が高まるにつれて、製品サイトのアップデートをご覧ください。
 
-**現在の App Store バージョン:** 1.0.13。最新の iOS (SpeechAnalyzer 時代) 向けに構築されています。
+**現在の App Store バージョン:** 1.0.14。最新の iOS (SpeechAnalyzer 時代) 向けに構築されています。
 
 ---
 
