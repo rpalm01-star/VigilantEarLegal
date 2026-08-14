@@ -60,6 +60,28 @@ This is the scope's superpower: grab real examples of a sound *as you hear it*, 
 
 The training and import half — including the **mandatory Background class** and the gating that prevents false alarms — is covered step-by-step in the **[Custom Sound Packs guide](https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/BYOM.md)**.
 
+## The Visualizer tab — music as light
+
+The **Visualizer** tab turns the room's music into a light show a Deaf or hard-of-hearing
+viewer can *feel with their eyes*. Nothing on it is decoration — every element is driven by a
+real acoustic feature, live from the microphones:
+
+- **Every beat detonates a ring** — an onset detector fires ring explosions and a screen flash
+  exactly when a hearing person would feel the kick.
+- **The bass breathes** — the anchor ring in the center and the drifting textured rings swell
+  with low-frequency energy.
+- **The highs rain sparkles** — cymbals and hi-hats fall as bright drops.
+- **The song title rides a globe** — once the song is recognized, its title wraps the equator
+  of an invisible globe drifting through the scene, and the artist holds the top-right corner.
+
+Set your **DJ name** (and its color) under **Preferences → Acoustic Visualizer** — it holds the
+top-left corner, styled like the artist tag.
+
+**Put it on a TV:** tap the **tv button** in the scope's header, connect with a USB-C–HDMI
+cable or AirPlay Screen Mirroring, and press **Mirror** — the big screen shows only the
+graphics, while this phone stays the controls and the microphone. Switch scope tabs on the
+phone and the TV follows, so the same Mirror puts the Spectrogram or the Visualizer on the wall.
+
 ## Good to know
 
 - The scope costs nothing when closed — the extra analysis only runs while it's on screen.
