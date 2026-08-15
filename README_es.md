@@ -157,7 +157,7 @@ Totalmente localizado — interfaz, alertas y subtítulos — al **inglés, espa
 
 ## Estado y descargo de responsabilidad
 
-Vigilant Ear es una **ayuda de accesibilidad acústica experimental**, no una utilidad certificada de seguridad vital. La resolución de localización varía según el entorno, el clima, el viento y el hardware del micrófono. **Mantén siempre tu conciencia ambiental normal** — no confíes en esto como tu única fuente de información de seguridad.
+Vigilant Ear es una **ayuda de accesibilidad acústica experimental**, no una utilidad certificada de seguridad vital. La resolución de localización varía según el entorno, el clima, el viento y el hardware del micrófono. **Mantén siempre tu conciencia ambiental habitual** — no confíes en esto como tu única fuente de información de seguridad.
 
 Algunas capacidades (marcadores de cámara AR, actualización de derechos de Alertas Críticas cuando son otorgados por Apple, creación avanzada de sonido multipaquete) continúan evolucionando; la vigilancia gratuita de Hogar / Calle y los subtítulos en vivo son el producto en el que puedes confiar desde el primer día.
 

@@ -141,7 +141,7 @@ Every page carries a faint Wingdings watermark behind the content and a footer w
 
 ### What “Application Support” means
 
-**Application Support** is a private folder that belongs only to Vigilant Ear on this phone. It is **not** a cloud drive, **not** a public “Files” album, and **not** email to support. Other apps cannot read it under normal iOS rules.
+**Application Support** is a private folder that belongs only to Vigilant Ear on this phone. It is **not** a cloud drive, **not** a public “Files” album, and **not** email to support. Other apps cannot read it under standard iOS rules.
 
 On an iPhone with a **device passcode** (or biometrics), iOS **encrypts app data at rest** using hardware-backed protection. Witness Ear does **not** upload the journal and does **not** add a second, app-managed encryption layer on top of that. When the device is locked, access follows Apple’s standard data-protection classes (typically protected until first unlock after boot, unless stronger settings apply). Backups (encrypted computer backup / iCloud backup rules) are separate from “sitting on the phone’s disk.”
 

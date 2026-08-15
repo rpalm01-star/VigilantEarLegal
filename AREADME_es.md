@@ -86,7 +86,7 @@ Para mantener un hilo de interfaz de usuario (UI) completamente desbloqueado mie
 
 ## ⚖️ Descargo de Responsabilidad
 
-Vigilant Ear es una ayuda experimental de accesibilidad espacial e investigación acústica. No está certificado como una utilidad de seguridad de vida. La resolución del seguimiento puede fluctuar dinámicamente según la topología regional, el clima predominante, las condiciones del viento y la calibración del hardware del micrófono. Los usuarios siempre deben mantener una conciencia ambiental normal.
+Vigilant Ear es una ayuda experimental de accesibilidad espacial e investigación acústica. No está certificado como una utilidad de seguridad de vida. La resolución del seguimiento puede fluctuar dinámicamente según la topología regional, el clima predominante, las condiciones del viento y la calibración del hardware del micrófono. Los usuarios siempre deben mantener una conciencia ambiental habitual.
 
 **Correo Electrónico de Contacto:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 

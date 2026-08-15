@@ -14,7 +14,7 @@ Vigilant Ear is an assistive application designed to provide real-time acoustic 
 
 **Vigilant Ear is an assistive tool only.** It is **not** a replacement for:
 
-- Normal visual awareness
+- Typical visual awareness
 - Professional hearing assistance
 - Emergency services
 - Your own judgement

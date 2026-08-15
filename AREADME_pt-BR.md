@@ -86,7 +86,7 @@ Para manter uma thread de UI (Interface de Usuário) completamente desbloqueada 
 
 ## ⚖️ Aviso Legal
 
-O Vigilant Ear é uma pesquisa acústica experimental e um auxílio de acessibilidade espacial. Não é certificado como um utilitário de segurança de vida. A resolução de rastreamento pode flutuar dinamicamente com base na topologia regional, condições climáticas prevalecentes, condições do vento e calibração de hardware do microfone. Os usuários devem sempre manter a percepção ambiental normal.
+O Vigilant Ear é uma pesquisa acústica experimental e um auxílio de acessibilidade espacial. Não é certificado como um utilitário de segurança de vida. A resolução de rastreamento pode flutuar dinamicamente com base na topologia regional, condições climáticas prevalecentes, condições do vento e calibração de hardware do microfone. Os usuários devem sempre manter a percepção ambiental habitual.
 
 **E-mail de Contato:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 

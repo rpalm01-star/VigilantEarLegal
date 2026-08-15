@@ -86,7 +86,7 @@ Um einen vollständig unblockierten UI-Thread aufrechtzuerhalten und gleichzeiti
 
 ## ⚖️ Haftungsausschluss
 
-Vigilant Ear ist eine experimentelle Akustikforschungs- und räumliche Barrierefreiheits-Hilfe. Es ist nicht als lebensrettendes Hilfsmittel zertifiziert. Die Auflösung der Verfolgung kann basierend auf der regionalen Topologie, dem vorherrschenden Wetter, den Windbedingungen und der Kalibrierung der Mikrofonhardware dynamisch schwanken. Benutzer müssen stets ein normales Umgebungsbewusstsein aufrechterhalten.
+Vigilant Ear ist eine experimentelle Akustikforschungs- und räumliche Barrierefreiheits-Hilfe. Es ist nicht als lebensrettendes Hilfsmittel zertifiziert. Die Auflösung der Verfolgung kann basierend auf der regionalen Topologie, dem vorherrschenden Wetter, den Windbedingungen und der Kalibrierung der Mikrofonhardware dynamisch schwanken. Benutzer müssen stets ein übliches Umgebungsbewusstsein aufrechterhalten.
 
 **Kontakt-E-Mail:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 

@@ -128,7 +128,7 @@ Every key is optional — omit anything and a sensible default applies:
 |---|---|---|
 | `displayName` | Name shown on the map and in alerts | Label with underscores → spaces, capitalized |
 | `hapticCount` | Vibration pulses when the sound is first revealed (0 = none) | `0` |
-| `emergencyTier` | `"none"` for normal sounds. Leave it `"none"` unless the sound genuinely warrants an urgent alert | `"none"` |
+| `emergencyTier` | `"none"` for typical sounds. Leave it `"none"` unless the sound genuinely warrants an urgent alert | `"none"` |
 | `category` | Grouping: `animal`, `vehicle`, `medium`, `quiet`, or `misc` | `misc` |
 | `icon` | An [SF Symbols](https://developer.apple.com/sf-symbols/) name, e.g. `bird`, `pawprint`, `fan`, `bell` | `waveform` |
 | `color` | Dot/icon tint: `red`, `blue`, `cyan`, `pink`, `brown`, `mint`, `orange`, `gray`, `teal`, `purple`, or `"r,g,b"` with values 0–1 | `teal` |

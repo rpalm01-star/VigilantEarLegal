@@ -86,7 +86,7 @@ To maintain a completely unblocked UI thread while continuously handling a high-
 
 ## ⚖️ Disclaimer
 
-Vigilant Ear is an experimental acoustic research and spatial accessibility aid. It is not certified as a life-safety utility. Tracking resolution can fluctuate dynamically based on regional topology, prevailing weather, wind conditions, and microphone hardware calibration. Users must always maintain normal environmental awareness.
+Vigilant Ear is an experimental acoustic research and spatial accessibility aid. It is not certified as a life-safety utility. Tracking resolution can fluctuate dynamically based on regional topology, prevailing weather, wind conditions, and microphone hardware calibration. Users must always maintain typical environmental awareness.
 
 **Contact Email:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 

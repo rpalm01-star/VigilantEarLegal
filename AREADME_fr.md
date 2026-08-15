@@ -86,7 +86,7 @@ Pour maintenir un thread d'interface utilisateur (UI) complètement débloqué t
 
 ## ⚖️ Avis de non-responsabilité
 
-Vigilant Ear est une aide expérimentale à la recherche acoustique et à l'accessibilité spatiale. Il n'est pas certifié comme une utilité de sécurité vitale. La résolution de suivi peut fluctuer dynamiquement en fonction de la topologie régionale, de la météo dominante, des conditions de vent et de l'étalonnage du matériel de microphone. Les utilisateurs doivent toujours maintenir une conscience environnementale normale.
+Vigilant Ear est une aide expérimentale à la recherche acoustique et à l'accessibilité spatiale. Il n'est pas certifié comme une utilité de sécurité vitale. La résolution de suivi peut fluctuer dynamiquement en fonction de la topologie régionale, de la météo dominante, des conditions de vent et de l'étalonnage du matériel de microphone. Les utilisateurs doivent toujours maintenir une conscience environnementale habituelle.
 
 **E-mail de contact :** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 

@@ -157,7 +157,7 @@ Vollständig lokalisiert — Schnittstelle, Warnungen und Untertitel — in **En
 
 ## Status & Haftungsausschluss
 
-Vigilant Ear ist ein **experimentelles akustisches Hilfsmittel zur Barrierefreiheit**, kein zertifiziertes Lebensrettungswerkzeug. Die Auflösung der Lokalisierung variiert je nach Umgebung, Wetter, Wind und Mikrofonhardware. **Behalten Sie immer Ihr normales Umweltbewusstsein bei** — verlassen Sie sich nicht darauf als Ihre einzige Quelle für Sicherheitsinformationen.
+Vigilant Ear ist ein **experimentelles akustisches Hilfsmittel zur Barrierefreiheit**, kein zertifiziertes Lebensrettungswerkzeug. Die Auflösung der Lokalisierung variiert je nach Umgebung, Wetter, Wind und Mikrofonhardware. **Behalten Sie immer Ihr übliches Umweltbewusstsein bei** — verlassen Sie sich nicht darauf als Ihre einzige Quelle für Sicherheitsinformationen.
 
 Einige Funktionen (Kamera-AR-Markierungen, Critical Alerts Entitlement-Upgrade, wenn von Apple gewährt, erweitertes Multi-Pack-Sound-Authoring) entwickeln sich weiter; die kostenlose Home / Street Watch und Live-Untertitel sind das Produkt, dem Sie vom ersten Tag an vertrauen können.
 
