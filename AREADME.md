@@ -2,7 +2,7 @@
 
 **Effective Date:** June 6, 2026
 
-**Vigilant Ear** is an advanced, ultra-high-performance Android acoustic research and accessibility tool engineered to provide real-time directional and spatial awareness for the deaf and hard-of-hearing (D/HH) community. Traditional sound recognition software only identifies *what* a sound is. **Vigilant Ear tells you where it is, who's making it, and what they're saying.** It acts as a comprehensive tactical radar, combining edge-computed machine learning with sophisticated acoustic physics to track exactly *where* a sound originates, its estimated distance, its absolute path trajectory, and the separated, translated words of individual speakers.
+**Vigilant Ear** is an advanced, ultra-high-performance Android acoustic research and accessibility tool engineered to provide real-time directional and spatial awareness for the Deaf and hard-of-hearing (Deaf/HoH/CODA) community. Traditional sound recognition software only identifies *what* a sound is. **Vigilant Ear tells you where it is, who's making it, and what they're saying.** It acts as a comprehensive tactical radar, combining edge-computed machine learning with sophisticated acoustic physics to track exactly *where* a sound originates, its estimated distance, its absolute path trajectory, and the separated, translated words of individual speakers.
 
 ---
 
