@@ -172,7 +172,7 @@ Witness Ear can produce an **authenticated digital ledger of acoustic metadata**
 
 3. **Labels can be wrong.** Machine learning engines can misclassify. A “Siren” row means the model’s top guess at that moment—not a guaranteed emergency vehicle. Treat the PDF as **supporting notes**, not ground truth.
 
-4. **Not a safety device.** Vigilant Ear / Witness Ear are **awareness and accessibility aids**. They do not replace human judgment, certified alarms, or official emergency services.
+4. **Not a safety device.** Vigilant Ear / Witness Ear are **awareness and accessibility aids**. They do not replace human judgement, certified alarms, or official emergency services.
 
 5. **Evidence and disputes.** If you share a PDF with a landlord, HOA, or agency, be honest about what it is: an **app-generated classification log**, retention-limited, user-exported, with an on-device integrity hash. Do not alter the event table or invent events. We do not offer legal advice; local rules on recordings and evidence vary—when in doubt, ask a qualified professional.
 
