@@ -134,7 +134,7 @@ Si tiene preguntas sobre esta Política de Privacidad, contáctenos en:
 
 ---
 
-❤️ Vigilant Ear está construido con amor y respeto por la comunidad Sorda y con problemas de audición. Su confianza es importante para nosotros.
+❤️ Vigilant Ear está construido con amor y respeto por la comunidad Sorda, con problemas de audición y CODA. Su confianza es importante para nosotros.
 
 *Vigilant Ear es una herramienta de accesibilidad construida con cuidado. Por favor, úsela de manera responsable.*
 

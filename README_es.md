@@ -2,7 +2,7 @@
 
 *Un radar acústico para personas que no pueden escuchar.*
 
-Una aplicación construida específicamente para la comunidad Sorda y con problemas de audición. La mayoría de las aplicaciones de reconocimiento de sonido te dicen *qué* es un sonido. **Vigilant Ear te dice dónde está, quién lo está haciendo y qué están diciendo** — convirtiendo un iPhone en un tricorder sónico en tiempo real que describe el sonido a tu alrededor.
+Una aplicación construida específicamente para la comunidad Sorda, con problemas de audición y CODA. La mayoría de las aplicaciones de reconocimiento de sonido te dicen *qué* es un sonido. **Vigilant Ear te dice dónde está, quién lo está haciendo y qué están diciendo** — convirtiendo un iPhone en un tricorder sónico en tiempo real que describe el sonido a tu alrededor.
 
 La dirección y distancia de una sirena. Un golpe detrás de ti. Las personas en una conversación, dibujadas como voces separadas transcritas — cada una subtitulada y colocada direccionalmente. Si alguien está hablando un idioma que no lees, sus palabras pueden llegar **traducidas al tuyo.** Las alertas llegan a tu **Pantalla de bloqueo, Dynamic Island y Apple Watch** para que un vistazo sea suficiente.
 
@@ -12,13 +12,13 @@ Todo lo que importa se ejecuta en el dispositivo. El audio no se graba ni se sub
 - 🔒 **Privado por diseño.** La clasificación, los subtítulos y la traducción se ejecutan en tu iPhone. Los subtítulos son en vivo y efímeros; no se guardan como un archivo de transcripción.
 - ⌚ **En tu muñeca y Pantalla de bloqueo.** El compañero de dirección en Apple Watch + Live Activity mantienen la última alerta y la dirección de donde provino a solo un vistazo.
 - 🛰️ **Más teléfonos, un oído compartido.** Constellation vincula iPhones de banda ultraancha para fusionar lo que cada uno escucha en una imagen direccional más nítida.
-- 👁️ **Hecho para Sordos / personas con pérdida auditiva (HoH).** Hápticos distintivos, visuales de alto contraste, señales independientes del color, grandes objetivos táctiles y el respeto a Reduce Motion en todo momento.
+- 👁️ **Hecho para Sordos / personas con pérdida auditiva (HoH) / CODA.** Hápticos distintivos, visuales de alto contraste, señales independientes del color, grandes objetivos táctiles y el respeto a Reduce Motion en todo momento.
 
 ---
 
 ## Para quién es
 
-- **Usuarios Sordos y con problemas de audición** que desean conciencia situacional del sonido — Vigilancia de Hogar (golpes, alarma, bebé, teléfono) y Vigilancia de Calle (sirena, aproximación) que puedes dejar encendidas y confiar.
+- **Usuarios Sordos, con problemas de audición y CODA** que desean conciencia situacional del sonido — Vigilancia de Hogar (golpes, alarma, bebé, teléfono) y Vigilancia de Calle (sirena, aproximación) que puedes dejar encendidas y confiar.
 - Cualquiera que necesite **subtítulos en vivo con dirección y separación de oradores**, o **traducción en el dispositivo** de las personas sentadas cerca.
 - Usuarios de accesibilidad e investigación acústica interesados en la localización de sonido en el dispositivo.
 
@@ -78,7 +78,7 @@ Los rumbos del sonido se proyectan sobre coordenadas GPS reales en el mapa. Los 
 La **Zona de Pruebas** es pública para todos: práctica de Hogar y Calle (golpes, alarma, bebé, sirena, clima), demostraciones de múltiples teléfonos y conversaciones, y una marca de agua clara para que la práctica nunca finja ser un evento en vivo. Cerrar el panel desarma las demostraciones limpiamente (sin suplantación de GPS atascada, sin banderas sobrantes).
 
 ### ♿ Accesibilidad primero
-Construido para usuarios Sordos / con problemas de audición y daltónicos: señales **independientes del color**, objetivos táctiles **≥44 pt**, respeto de **Reduce Motion**, alertas multimodales (háptico + visual + Watch) y una pantalla de verificación de inicio que muestra el estado de los permisos con estados claros en verde / gris / rojo (y estados “no permitidos” en naranja quemado) — incluyendo el otorgamiento de notificaciones que actúa como el interruptor maestro de alertas.
+Construido para usuarios Sordos / con problemas de audición / CODA y daltónicos: señales **independientes del color**, objetivos táctiles **≥44 pt**, respeto de **Reduce Motion**, alertas multimodales (háptico + visual + Watch) y una pantalla de verificación de inicio que muestra el estado de los permisos con estados claros en verde / gris / rojo (y estados “no permitidos” en naranja quemado) — incluyendo el otorgamiento de notificaciones que actúa como el interruptor maestro de alertas.
 
 ---
 

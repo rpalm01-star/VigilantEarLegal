@@ -2,7 +2,7 @@
 
 *Un radar acoustique pour les personnes sourdes et malentendantes.*
 
-Une application conçue spécifiquement pour la communauté sourde et malentendante. La plupart des applications de reconnaissance vocale et sonore vous disent *ce qu'est* un son. **Vigilant Ear vous indique où il se trouve, qui le produit et ce qui se dit**, transformant un iPhone en un tricordeur sonore en temps réel qui décrit le son autour de vous.
+Une application conçue spécifiquement pour la communauté sourde, malentendante et CODA. La plupart des applications de reconnaissance vocale et sonore vous disent *ce qu'est* un son. **Vigilant Ear vous indique où il se trouve, qui le produit et ce qui se dit**, transformant un iPhone en un tricordeur sonore en temps réel qui décrit le son autour de vous.
 
 La direction et la distance d'une sirène. Un coup frappé derrière vous. Les personnes d'une conversation, dessinées sous forme de voix transcrites séparées — chacune sous-titrée et placée directionnellement. Si quelqu'un parle une langue que vous ne lisez pas, ses mots peuvent arriver **traduits dans la vôtre.** Les alertes atteignent votre **Écran de verrouillage (Lock Screen), Dynamic Island et Apple Watch**, il suffit donc d'un coup d'œil.
 
@@ -12,13 +12,13 @@ Tout ce qui compte s'exécute sur l'appareil. L'audio n'est pas enregistré ni t
 - 🔒 **Privé par conception.** La classification, le sous-titrage et la traduction s'exécutent sur votre iPhone. Les sous-titres sont en direct et éphémères ; ils ne sont pas sauvegardés sous forme d'archives de transcription.
 - ⌚ **À votre poignet et sur l'Écran de verrouillage.** Le compagnon de direction Apple Watch et Live Activity gardent la dernière alerte et sa provenance à portée de regard.
 - 🛰️ **Plusieurs téléphones, une oreille partagée.** Constellation relie les iPhones Ultra-Wideband pour fusionner ce que chacun entend en une image directionnelle plus précise.
-- 👁️ **Conçu pour les sourds et malentendants.** Retours haptiques distincts, visuels à contraste élevé, indices indépendants de la couleur, grandes cibles d'appui et respect du paramètre Réduire les animations partout.
+- 👁️ **Conçu pour les sourds, malentendants et CODA.** Retours haptiques distincts, visuels à contraste élevé, indices indépendants de la couleur, grandes cibles d'appui et respect du paramètre Réduire les animations partout.
 
 ---
 
 ## Pour qui
 
-- **Les utilisateurs sourds et malentendants** qui veulent une conscience situationnelle des sons — Home Watch (coup, alarme, bébé, téléphone) et Street Watch (sirène, approche) que vous pouvez laisser allumés et auxquels vous pouvez faire confiance.
+- **Les utilisateurs sourds, malentendants et CODA** qui veulent une conscience situationnelle des sons — Home Watch (coup, alarme, bébé, téléphone) et Street Watch (sirène, approche) que vous pouvez laisser allumés et auxquels vous pouvez faire confiance.
 - Quiconque a besoin de **sous-titres en direct avec direction et séparation des locuteurs**, ou d'une **traduction sur l'appareil** des personnes assises à proximité.
 - Les utilisateurs de l'accessibilité et de la recherche acoustique intéressés par la localisation sonore sur l'appareil.
 
@@ -78,7 +78,7 @@ Les caps sonores se projettent sur les coordonnées GPS réelles sur la carte. L
 Le **Terrain de jeu des fonctionnalités** est public pour tous : entraînements Maison et Rue (Home & Street) (coup, alarme, bébé, sirène, météo), démos multi-téléphones et de conversation, et un filigrane clair pour que la pratique ne se fasse jamais passer pour un événement réel. La fermeture du panneau met fin proprement aux démos (pas de fausse position GPS bloquée, pas de drapeaux restants).
 
 ### ♿ L'accessibilité avant tout
-Conçu pour les utilisateurs sourds, malentendants et daltoniens : des indices **indépendants de la couleur**, des cibles tactiles de **≥ 44 pt**, le respect du paramètre **Réduire les animations**, des alertes multimodales (haptiques + visuelles + Watch), et un écran de vérification au démarrage qui affiche l'état des permissions avec des états clairs vert / gris / rouge (et « refusé » orange brûlé) — y compris l'octroi des notifications qui agit comme l'interrupteur d'alerte principal.
+Conçu pour les utilisateurs sourds, malentendants, CODA et daltoniens : des indices **indépendants de la couleur**, des cibles tactiles de **≥ 44 pt**, le respect du paramètre **Réduire les animations**, des alertes multimodales (haptiques + visuelles + Watch), et un écran de vérification au démarrage qui affiche l'état des permissions avec des états clairs vert / gris / rouge (et « refusé » orange brûlé) — y compris l'octroi des notifications qui agit comme l'interrupteur d'alerte principal.
 
 ---
 

@@ -134,7 +134,7 @@ Vigilant Ear 遵循 Apple App Store 隐私要求以及 Apple 针对服务具有�
 
 ---
 
-❤️ Vigilant Ear 是带着对聋人和重听群体的爱与尊重构建的。您的信任对我们至关重要。
+❤️ Vigilant Ear 是带着对聋人、重听及 CODA 群体的爱与尊重构建的。您的信任对我们至关重要。
 
 *Vigilant Ear 是一款用心构建的辅助工具。请负责任地使用它。*
 

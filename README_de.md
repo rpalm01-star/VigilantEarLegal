@@ -2,7 +2,7 @@
 
 *Ein akustisches Radar für Menschen, die nicht hören können.*
 
-Eine App, die speziell für die gehörlose und schwerhörige Gemeinschaft (Deaf and hard-of-hearing) entwickelt wurde. Die meisten Geräuscherkennungs-Apps sagen Ihnen, *was* ein Geräusch ist. **Vigilant Ear sagt Ihnen, wo es ist, wer es macht und was sie sagen** — und verwandelt ein iPhone in einen Echtzeit-Schall-Tricorder, der die Geräusche um Sie herum beschreibt.
+Eine App, die speziell für die Gemeinschaft der Gehörlosen, Schwerhörigen und CODAs (Deaf and hard-of-hearing) entwickelt wurde. Die meisten Geräuscherkennungs-Apps sagen Ihnen, *was* ein Geräusch ist. **Vigilant Ear sagt Ihnen, wo es ist, wer es macht und was sie sagen** — und verwandelt ein iPhone in einen Echtzeit-Schall-Tricorder, der die Geräusche um Sie herum beschreibt.
 
 Richtung und Entfernung einer Sirene. Ein Klopfen hinter Ihnen. Die Personen in einem Gespräch, als separate transkribierte Stimmen gezeichnet — jede einzelne mit Untertiteln versehen und richtungsbezogen platziert. Wenn jemand eine Sprache spricht, die Sie nicht lesen können, können seine Worte **in Ihre übersetzt** eintreffen. Warnungen erreichen Ihren **Sperrbildschirm, die Dynamic Island und die Apple Watch**, sodass ein Blick genügt.
 
@@ -12,13 +12,13 @@ Alles, was wichtig ist, läuft auf dem Gerät. Audio wird zur Erkennung nicht au
 - 🔒 **Privat durch Design.** Klassifizierung, Untertitelung und Übersetzung laufen auf Ihrem iPhone. Untertitel sind live und flüchtig; sie werden nicht als Transkript-Archiv gespeichert.
 - ⌚ **An Ihrem Handgelenk und auf dem Sperrbildschirm.** Apple Watch-Richtungsbegleiter + Live-Aktivität halten die letzte Warnung und die Richtung, aus der sie kam, einen Blick entfernt.
 - 🛰️ **Mehr Telefone, ein geteiltes Ohr.** Constellation verbindet Ultra-Wideband-iPhones, um das, was jedes einzelne hört, zu einem schärferen Richtungsbild zu verschmelzen.
-- 👁️ **Gemacht für Gehörlose / Schwerhörige.** Deutliche Haptik, kontrastreiche Visualisierungen, farbunabhängige Hinweise, große Tippziele und durchgehende Beachtung von „Bewegung reduzieren“ (Reduce Motion).
+- 👁️ **Gemacht für Gehörlose / Schwerhörige / CODAs.** Deutliche Haptik, kontrastreiche Visualisierungen, farbunabhängige Hinweise, große Tippziele und durchgehende Beachtung von „Bewegung reduzieren“ (Reduce Motion).
 
 ---
 
 ## Für wen es ist
 
-- **Gehörlose und schwerhörige Benutzer**, die sich ihrer akustischen Umgebung bewusst sein möchten — Home Watch (Klopfen, Alarm, Baby, Telefon) und Street Watch (Sirene, Annäherung), die Sie eingeschaltet lassen und denen Sie vertrauen können.
+- **Gehörlose, schwerhörige und CODA-Benutzer**, die sich ihrer akustischen Umgebung bewusst sein möchten — Home Watch (Klopfen, Alarm, Baby, Telefon) und Street Watch (Sirene, Annäherung), die Sie eingeschaltet lassen und denen Sie vertrauen können.
 - Jeder, der **Live-Untertitel mit Richtung und Sprechertrennung** oder **On-Device-Übersetzung** von Personen in der Nähe benötigt.
 - Benutzer im Bereich Barrierefreiheit und Akustikforschung, die sich für die On-Device-Schalllokalisierung interessieren.
 
@@ -78,7 +78,7 @@ Geräuschpeilungen werden auf reale GPS-Koordinaten auf der Karte projiziert. Fa
 Die **Feature-Spielwiese** ist für alle öffentlich: Home- & Street-Übungen (Klopfen, Alarm, Baby, Sirene, Wetter), Multi-Telefon- und Konversations-Demos sowie ein klares Wasserzeichen, damit Übungen niemals vorgeben, ein Live-Ereignis zu sein. Das Schließen des Panels baut Demos sauber ab (kein feststeckender GPS-Spoof, keine übrig gebliebenen Flags).
 
 ### ♿ Barrierefreiheit zuerst
-Gebaut für gehörlose / schwerhörige und farbenblinde Benutzer: **farbunabhängige** Hinweise, **≥44 pt** Tippziele, Beachtung von **Bewegung reduzieren**, multimodale Warnungen (Haptik + visuell + Watch) und ein Startüberprüfungsbildschirm, der den Berechtigungsstatus mit klaren grünen / grauen / roten (und dunkelorangen „nicht erlaubt“) Zuständen anzeigt — einschließlich der Benachrichtigungsberechtigung, die als Master-Warnschalter fungiert.
+Gebaut für gehörlose / schwerhörige / CODA- und farbenblinde Benutzer: **farbunabhängige** Hinweise, **≥44 pt** Tippziele, Beachtung von **Bewegung reduzieren**, multimodale Warnungen (Haptik + visuell + Watch) und ein Startüberprüfungsbildschirm, der den Berechtigungsstatus mit klaren grünen / grauen / roten (und dunkelorangen „nicht erlaubt“) Zuständen anzeigt — einschließlich der Benachrichtigungsberechtigung, die als Master-Warnschalter fungiert.
 
 ---
 

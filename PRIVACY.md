@@ -134,7 +134,7 @@ If you have questions about this Privacy Policy, contact us at:
 
 ---
 
-❤️ Vigilant Ear is built with love and respect for the Deaf and hard-of-hearing community. Your trust matters to us.
+❤️ Vigilant Ear is built with love and respect for the Deaf, hard-of-hearing, and CODA community. Your trust matters to us.
 
 *Vigilant Ear is an accessibility tool built with care. Please use it responsibly.*
 

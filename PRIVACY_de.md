@@ -134,7 +134,7 @@ Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns unte
 
 ---
 
-❤️ Vigilant Ear ist mit Liebe und Respekt für die Gehörlosen- und Schwerhörigengemeinschaft gebaut. Ihr Vertrauen ist uns wichtig.
+❤️ Vigilant Ear ist mit Liebe und Respekt für die Gemeinschaft der Gehörlosen, Schwerhörigen und CODAs gebaut. Ihr Vertrauen ist uns wichtig.
 
 *Vigilant Ear ist ein mit Sorgfalt entwickeltes Hilfsmittel zur Barrierefreiheit. Bitte nutzen Sie es verantwortungsbewusst.*
 

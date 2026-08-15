@@ -2,7 +2,7 @@
 
 *Um radar acústico para pessoas com deficiência auditiva.*
 
-Um aplicativo criado especificamente para a comunidade surda e com deficiência auditiva. A maioria dos aplicativos de reconhecimento de som diz *o que* é um som. **O Vigilant Ear informa onde ele está, quem o está fazendo e o que estão dizendo** — transformando um iPhone em um tricorder sônico em tempo real que descreve o som ao seu redor.
+Um aplicativo criado especificamente para a comunidade surda, com deficiência auditiva e CODA. A maioria dos aplicativos de reconhecimento de som diz *o que* é um som. **O Vigilant Ear informa onde ele está, quem o está fazendo e o que estão dizendo** — transformando um iPhone em um tricorder sônico em tempo real que descreve o som ao seu redor.
 
 A direção e a distância de uma sirene. Uma batida atrás de você. As pessoas em uma conversa, desenhadas como vozes transcritas separadas — cada uma legendada e posicionada direcionalmente. Se alguém estiver falando um idioma que você não lê, suas palavras podem chegar **traduzidas para o seu.** Os alertas chegam à sua **Tela de Bloqueio, Dynamic Island e Apple Watch**, para que apenas um olhar seja suficiente.
 
@@ -12,13 +12,13 @@ Tudo o que importa é executado no dispositivo. O áudio não é gravado nem env
 - 🔒 **Privado por design.** A classificação, as legendas e a tradução são executadas no seu iPhone. As legendas são ao vivo e efêmeras; elas não são salvas como um arquivo de transcrição.
 - ⌚ **No seu pulso e na Tela de Bloqueio.** O companheiro de direção do Apple Watch + Live Activity mantêm o último alerta e de onde ele veio a apenas um olhar de distância.
 - 🛰️ **Mais telefones, um ouvido compartilhado.** O Constellation conecta iPhones com Ultra-Wideband para fundir o que cada um ouve em uma imagem direcional mais nítida.
-- 👁️ **Feito para Surdos / Deficientes Auditivos.** Respostas táteis distintas, visuais de alto contraste, dicas independentes de cores, grandes alvos de toque e respeito ao Reduzir Movimento em todo o aplicativo.
+- 👁️ **Feito para Surdos / Deficientes Auditivos / CODA.** Respostas táteis distintas, visuais de alto contraste, dicas independentes de cores, grandes alvos de toque e respeito ao Reduzir Movimento em todo o aplicativo.
 
 ---
 
 ## Para quem é
 
-- **Usuários surdos e com deficiência auditiva** que desejam consciência situacional do som — Home Watch (batida, alarme, bebê, telefone) e Street Watch (sirene, aproximação) que você pode deixar ativados e confiar.
+- **Usuários surdos, com deficiência auditiva e CODA** que desejam consciência situacional do som — Home Watch (batida, alarme, bebê, telefone) e Street Watch (sirene, aproximação) que você pode deixar ativados e confiar.
 - Qualquer pessoa que precise de **legendas ao vivo com direção e separação de locutores**, ou **tradução no dispositivo** de pessoas sentadas por perto.
 - Usuários de acessibilidade e pesquisa acústica interessados na localização de som no dispositivo.
 
@@ -78,7 +78,7 @@ As direções do som são projetadas em coordenadas GPS reais no mapa. Sons de v
 A **Zona de Testes** é pública para todos: prática Home & Street (batida, alarme, bebê, sirene, clima), demonstrações de vários telefones e conversas, e uma marca d'água clara para que a prática nunca se passe por um evento real. Fechar o painel encerra as demonstrações de forma limpa (sem falsificação de GPS travada, sem sinalizadores restantes).
 
 ### ♿ Acessibilidade em primeiro lugar
-Construído para usuários surdos / com deficiência auditiva e daltônicos: dicas **independentes de cores**, alvos de toque de **≥44 pt**, respeito ao **Reduzir Movimento**, alertas multimodais (tátil + visual + Watch) e uma tela de verificação de inicialização que mostra o status da permissão com estados claros verdes / cinzas / vermelhos (e "não permitido" em laranja queimado) — incluindo a concessão de notificação que atua como o interruptor mestre de alertas.
+Construído para usuários surdos / com deficiência auditiva / CODA e daltônicos: dicas **independentes de cores**, alvos de toque de **≥44 pt**, respeito ao **Reduzir Movimento**, alertas multimodais (tátil + visual + Watch) e uma tela de verificação de inicialização que mostra o status da permissão com estados claros verdes / cinzas / vermelhos (e "não permitido" em laranja queimado) — incluindo a concessão de notificação que atua como o interruptor mestre de alertas.
 
 ---
 

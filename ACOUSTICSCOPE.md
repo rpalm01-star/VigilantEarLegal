@@ -62,7 +62,7 @@ The training and import half — including the **mandatory Background class** an
 
 ## The Visualizer tab — music as light
 
-The **Visualizer** tab turns the room's music into a light show a Deaf or hard-of-hearing
+The **Visualizer** tab turns the room's music into a light show a Deaf, hard-of-hearing, or CODA
 viewer can *feel with their eyes*. Nothing on it is decoration — every element is driven by a
 real acoustic feature, live from the microphones:
 
