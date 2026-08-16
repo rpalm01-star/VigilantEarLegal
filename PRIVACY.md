@@ -10,7 +10,7 @@ Vigilant Ear ("we", "us", or "our") is committed to protecting your privacy. Thi
 
 - **Core acoustic detection runs on your device.** Sound classification, directional tracking, live captions, and alert logic are designed to work locally using your phone's microphone and sensors.
 - **We do not sell your data** and we do not use advertising or behavioral analytics SDKs.
-- **We do not store or upload audio recordings.** Microphone audio is processed in real time for detection and (when enabled) captions; it is not saved as a sound file by Vigilant Ear for later playback or cloud analysis.
+- **We do not store or upload audio recordings.** Microphone audio is processed in real time for detection and (when enabled) captions; it is never saved as a sound file or sent for cloud analysis. The Rewind feature keeps only the most recent ~30 seconds of audio in the phone's working memory so you can replay what was just said — that buffer never touches storage, is never transmitted anywhere, and is gone the moment the app closes.
 - **Some features use the internet** — maps, severe-weather feeds, optional music identification, road data, app-store purchases, optional multi-phone mesh traffic between *your* devices, loading of in-app legal pages, and (only if you opt in) Research Array reports. These are described below.
 - **You stay in control.** You can disable Shazam music identification, turn off alert categories, leave Constellation off, leave **Research Array** off (it is off by default), revoke permissions in system settings, or stop background listening at any time.
 
