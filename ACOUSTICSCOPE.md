@@ -12,7 +12,7 @@ Open it from the **action fan** (the spinning burst on the top rail): tap the bu
 - **root** (Chroma view only) — the strongest musical pitch class in the room, updated live.
 - **✕** closes the scope. Detection and alerts keep running the whole time the scope is open — it's a window, not a mode.
 
-## The five views
+## The six views
 
 Switch with the bar along the bottom.
 
@@ -23,6 +23,7 @@ Switch with the bar along the bottom.
 | **⅓-Oct RTA** | The 28 standard ISO bands, like a hardware real-time analyzer. Orange ticks are peak-hold. |
 | **Chroma** | The 12 musical pitch classes — which notes are present, with the strongest highlighted. |
 | **Partials** | The prominent tones tracked over time as colored lines, each labeled with its musical note. Great for whistles, sirens, birdsong, machinery hum. |
+| **Visualizer** | The room's music as a live light show — beats detonate rings, bass swells the scene, highs rain sparkles. It has its own full section below. |
 
 Orange **flags** on the Spectrogram mark the moments the sound classifier fired, with its label and confidence — so you can see exactly what shape the model reacted to.
 
