@@ -139,13 +139,13 @@ Vollständige Details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPP
 
 ## Hardware & Plattformen
 
-- **iPhone (volles Erlebnis).** Stereomikrofone für die Richtungsfindung erforderlich. Empfohlen: **iPhone 13 oder neuer**.
+- **iPhone (volles Erlebnis).** Funktioniert im Hoch- und Querformat — halte es, wie du willst. Stereomikrofone für die Richtungsfindung erforderlich. Empfohlen: **iPhone 13 oder neuer**.
 - **Apple Watch.** Begleitwarnungen mit Richtungspfeil; funktioniert mit Live-Aktivität / Smart-Stapel.
 - **iPad (nativ).** Adaptives Layout: Auf dem großen Bildschirm erhalten Live-Untertitel ein durchscheinendes Panel neben der Karte, das verschwindet, wenn niemand spricht. Einkanalmikrofone → Untertitel ohne volle Richtung.
 - **Constellation** benötigt **Ultra-Wideband** — iPhone 11 oder neuer, ausgenommen SE- und „e“-Modelle.
 - **Android.** Separater Build mit Kern-Radar, Warnungen, Untertiteln und Wetter; Constellation-Mesh ist iOS-first. Siehe Produkt-Website-Updates, während die Android-Parität wächst.
 
-**Aktuelle App-Store-Version:** 1.0.15. Gebaut für modernes iOS (SpeechAnalyzer-Ära).
+**Aktuelle App-Store-Version:** 1.0.17. Gebaut für modernes iOS (SpeechAnalyzer-Ära).
 
 ---
 
