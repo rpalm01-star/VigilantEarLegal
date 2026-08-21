@@ -31,7 +31,7 @@ Assurez-vous d'avoir accordé l'autorisation du **Microphone** dans les paramèt
 
 ### Quelle est la précision des alertes météo ?
 
-Vigilant Ear interroge les flux gouvernementaux officiels CAP (Common Alerting Protocol). Les alertes sont aussi précises que les données fournies par le National Weather Service et d'autres agences internationales (y compris MeteoGate en Europe, CMA en Chine, KMA en Corée, l'Agence météorologique du Japon et Environnement et Changement climatique Canada). La simulation de localisation, les lacunes de couverture ou les retards du réseau peuvent parfois affecter la fréquence de mise à jour.
+Vigilant Ear interroge les flux gouvernementaux officiels CAP (Common Alerting Protocol). Les alertes sont aussi précises que les données fournies par le National Weather Service et d'autres agences internationales (y compris MeteoGate en Europe, CMA en Chine, KMA en Corée, l'Agence météorologique du Japon, Environnement et Changement climatique Canada et l'INMET du Brésil). La simulation de localisation, les lacunes de couverture ou les retards du réseau peuvent parfois affecter la fréquence de mise à jour.
 
 ### L'application fonctionne-t-il en arrière-plan ?
 
@@ -59,7 +59,7 @@ Le cœur de la sécurité est **gratuit, pour toujours** :
 
 - Alertes sonores locales (sirènes, alarmes, coups/sonnettes, bébé, personne à proximité) avec notification à l'écran et push en option  
 - Sous-titres en direct **Mode Locuteur (Speaker Mode)** (sur l'appareil ; directionnels là où le matériel le permet)  
-- Flux météo extrêmes pour votre région — **NWS** aux États-Unis, **MeteoGate** en Europe, **CMA** en Chine, **KMA** en Corée, **JMA** au Japon, et **ECCC** au Canada  
+- Flux météo extrêmes pour votre région — **NWS** aux États-Unis, **MeteoGate** en Europe, **CMA** en Chine, **KMA** en Corée, **JMA** au Japon, **ECCC** au Canada, et **INMET** au Brésil  
 - Alertes d'entraînement du **Terrain de jeu des fonctionnalités** (filigranées pour ne jamais ressembler à une urgence réelle)  
 - Indications de direction du compagnon **Apple Watch** et **Live Activity** (Écran de verrouillage / Dynamic Island / Défilement intelligent de la Watch), là où c'est disponible  
 

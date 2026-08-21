@@ -34,7 +34,7 @@ En utilisant les microphones stéréo de l'iPhone, Vigilant Ear estime le **cap 
 ### 🚨 Elle reconnaît les sons importants — et vous avertit
 Un classificateur sur l'appareil identifie des centaines de sons du quotidien et surveille les catégories critiques — **sirènes, alarmes — y compris une classe dédiée d'alarme de voiture —, sonnettes/coups, pleurs de bébé, une personne à proximité, et alertes météo extrêmes.** Lorsqu'un son se déclenche, vous obtenez une alerte claire à l'écran, une **notification push** (optionnelle) et un retour **haptique** distinct, même si l'application est en arrière-plan ou que le téléphone est en veille. Les catégories critiques sont prêtes par défaut afin que l'activation des notifications ne signifie pas « tout désactiver ». Désactivez toutes les catégories d'alerte et le moteur hibernera complètement en arrière-plan pour économiser la batterie. Une couche **Sentinel** recoupe les alertes avec des preuves indépendantes — direction, mouvement et flux publics — afin que ce qui se déclenche soit corroboré, et non la simple supposition d'un classificateur isolé.
 
-Les alertes météorologiques extrêmes proviennent de flux publics officiels — **NWS** pour les États-Unis, **MeteoGate** pour l'Europe, **CMA** pour la Chine, **KMA** pour la Corée, **JMA** pour le Japon, et **ECCC** pour le Canada, et ce, gratuitement pour tous les utilisateurs. Les flux sont restreints à ceux qui couvrent l'endroit où vous vous trouvez.
+Les alertes météorologiques extrêmes proviennent de flux publics officiels — **NWS** pour les États-Unis, **MeteoGate** pour l'Europe, **CMA** pour la Chine, **KMA** pour la Corée, **JMA** pour le Japon, **ECCC** pour le Canada, et **INMET** pour le Brésil, et ce, gratuitement pour tous les utilisateurs. Les flux sont restreints à ceux qui couvrent l'endroit où vous vous trouvez.
 
 ### ⌚ Apple Watch + Live Activity — un coup d'œil et vous savez
 - **Application compagnon Apple Watch** — la direction d'une alerte pointe sur votre poignet afin qu'un coup d'œil vous dise où regarder. Interface utilisateur repensée pour la Watch avec l'icône de l'oreille de l'application, l'affichage tête haute (HUD) des menaces, et un double tapotement pour fermer une alerte. Les alertes peuvent toujours afficher la flèche de direction lorsque l'application Watch n'est pas ouverte.
@@ -88,7 +88,8 @@ Le cœur de la sécurité est **gratuit, pour toujours** :
 
 - **Home Watch & Street Watch** — alertes sonores locales (alarmes, sirènes, coups/sonnettes, bébé, personne à proximité) avec notification à l'écran, haptique et push en option.
 - **Sous-titres en direct** — Mode Locuteur (Speaker Mode), sur l'appareil, directionnel là où le matériel le permet, avec sortie vocale optionnelle vers les appareils auditifs Bluetooth.
-- **Alertes météo extrêmes** — NWS, MeteoGate, CMA, KMA, JMA (Japon), ECCC (Canada) pour votre région.
+- **Standing Watch** — l'état de la pièce elle-même, toujours actif et sans rien à configurer : un témoin cyan fixe tant que la pièce conserve son schéma habituel, ambre quand quelque chose change — une nouvelle voix, un silence soudain ou quelque chose qui s'approche.
+- **Alertes météo extrêmes** — NWS, MeteoGate, CMA, KMA, JMA (Japon), ECCC (Canada), INMET (Brésil) pour votre région.
 - **Alertes sismiques (USGS, monde entier)** — ressentez une vibration et visualisez sur votre carte la zone qui a ressenti le séisme lorsqu'un tremblement de terre est signalé à proximité. Une confirmation issue du flux officiel de l'USGS — pas une alerte précoce : si vous avez senti une secousse, ceci vous dit ce que c'était. La détection de grondements profonds (infrasons) sur l'appareil peut armer la vérification dès que le sol bouge.
 - **Terrain de jeu des fonctionnalités** — alertes d'entraînement et aperçus des fonctionnalités avec un filigrane PREVIEW bien visible.
 - **Compagnon Apple Watch & Live Activity** — direction et dernière alerte consultables d'un coup d'œil.
@@ -145,13 +146,13 @@ Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](S
 - **Constellation** nécessite l'**Ultra-Wideband** — iPhone 11 ou ultérieur, à l'exclusion des modèles SE et « e ».
 - **Android.** Version séparée avec le radar principal, les alertes, les sous-titres et la météo ; le réseau mesh Constellation est d'abord disponible sur iOS. Voir les mises à jour du site du produit à mesure que la parité Android progresse.
 
-**Version actuelle sur l'App Store :** 1.0.17. Conçu pour les systèmes iOS modernes (ère SpeechAnalyzer).
+**Version actuelle sur l'App Store :** 1.0.18. Conçu pour les systèmes iOS modernes (ère SpeechAnalyzer).
 
 ---
 
 ## Localisation
 
-Entièrement localisé — interface, alertes et sous-titres — en **anglais, espagnol, portugais (Brésil), français, allemand, arabe, japonais, chinois simplifié, coréen et russe** (10 langues). Suit les paramètres régionaux du système ou un choix manuel dans l'application.
+Entièrement localisé — interface, alertes et sous-titres — en **anglais, espagnol, portugais (Brésil), français, allemand, italien, arabe, japonais, chinois simplifié, coréen et russe** (11 langues). Suit les paramètres régionaux du système ou un choix manuel dans l'application.
 
 ---
 

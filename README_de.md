@@ -34,7 +34,7 @@ Mithilfe der Stereomikrofone des iPhones schätzt Vigilant Ear die **Peilung und
 ### 🚨 Es erkennt wichtige Geräusche — und warnt Sie
 Ein On-Device-Klassifikator identifiziert Hunderte von alltäglichen Geräuschen und überwacht die kritischen Kategorien — **Sirenen, Alarme — einschließlich einer eigenen Autoalarm-Klasse —, Türklingeln/Klopfen, Babygeschrei, eine Person in der Nähe und Unwetter.** Wenn einer ausgelöst wird, erhalten Sie eine klare Warnung auf dem Bildschirm, eine optionale **Push-Benachrichtigung** und eine deutliche **Haptik** — selbst wenn die App im Hintergrund läuft oder das Telefon schläft. Kritische Kategorien sind standardmäßig bereit, sodass das Aktivieren von Benachrichtigungen nicht bedeutet: „alles aus.“ Schalten Sie alle Warnkategorien aus, und die Engine geht vollständig in den Ruhezustand über, während sie im Hintergrund läuft, um Batterie zu sparen. Eine **Sentinel**-Ebene gleicht Warnungen mit unabhängigen Belegen ab — Richtung, Bewegung und öffentliche Feeds —, damit das, was auslöst, bestätigt ist und nicht die Vermutung eines einzelnen Klassifikators.
 
-Unwetterwarnungen stammen aus offiziellen öffentlichen Feeds — **NWS** der USA, **MeteoGate** in Europa, **CMA** in China, **KMA** in Korea, **JMA** in Japan und **ECCC** in Kanada — kostenlos für alle Benutzer. Die Feeds werden auf diejenigen eingegrenzt, die Ihren Aufenthaltsort abdecken.
+Unwetterwarnungen stammen aus offiziellen öffentlichen Feeds — **NWS** der USA, **MeteoGate** in Europa, **CMA** in China, **KMA** in Korea, **JMA** in Japan, **ECCC** in Kanada und **INMET** in Brasilien — kostenlos für alle Benutzer. Die Feeds werden auf diejenigen eingegrenzt, die Ihren Aufenthaltsort abdecken.
 
 ### ⌚ Apple Watch + Live-Aktivität — ein Blick und Bescheid wissen
 - **Apple Watch-Begleiter** — die Richtung einer Warnung zeigt auf Ihrem Handgelenk, sodass ein Blick Ihnen sagt, wohin Sie schauen müssen. Überarbeitete Watch-Benutzeroberfläche mit dem App-Ohr-Symbol, dem Bedrohungs-HUD-Layout und Doppeltippen, um eine Warnung zu schließen. Warnungen können den Richtungspfeil weiterhin anzeigen, wenn die Watch-App nicht geöffnet ist.
@@ -88,7 +88,8 @@ Der Sicherheitskern ist **kostenlos, für immer**:
 
 - **Home Watch & Street Watch** — lokale Geräuschwarnungen (Alarme, Sirenen, Klopfen/Türklingeln, Baby, Person in der Nähe) mit Bildschirm-, haptischer und optionaler Push-Zustellung.
 - **Live-Untertitel** — Sprechermodus, auf dem Gerät, richtungsbezogen, wo die Hardware dies zulässt, mit optionaler Sprachausgabe auf Bluetooth-Hörgeräte.
-- **Unwetterwarnungen** — NWS, MeteoGate, CMA, KMA, JMA (Japan), ECCC (Kanada) für Ihre Region.
+- **Standing Watch** — der Zustand des Raums selbst, immer aktiv und ohne jede Konfiguration: eine ruhige cyanfarbene Lampe, solange der Raum sein Muster hält, bernsteinfarben, wenn sich etwas ändert — eine neue Stimme, plötzliche Stille oder etwas, das sich nähert.
+- **Unwetterwarnungen** — NWS, MeteoGate, CMA, KMA, JMA (Japan), ECCC (Kanada), INMET (Brasilien) für Ihre Region.
 - **Erdbebenwarnungen (USGS, weltweit)** — Sie spüren eine Vibration und sehen auf Ihrer Karte das Gebiet, in dem das Beben spürbar war, wenn in der Nähe ein Erdbeben gemeldet wird. Eine Bestätigung aus dem offiziellen USGS-Feed — keine Frühwarnung: Wenn Sie ein Beben gespürt haben, sagt Ihnen dies, was es war. Die On-Device-Erkennung tiefer Erschütterungen (Infraschall) kann die Prüfung in dem Moment scharfschalten, in dem sich der Boden bewegt.
 - **Feature-Spielwiese** — Übungswarnungen und Funktionsvorschauen mit klarem PREVIEW-Wasserzeichen.
 - **Apple Watch-Begleiter & Live-Aktivität** — auf einen Blick erkennbare Richtung und letzte Warnung.
@@ -145,13 +146,13 @@ Vollständige Details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPP
 - **Constellation** benötigt **Ultra-Wideband** — iPhone 11 oder neuer, ausgenommen SE- und „e“-Modelle.
 - **Android.** Separater Build mit Kern-Radar, Warnungen, Untertiteln und Wetter; Constellation-Mesh ist iOS-first. Siehe Produkt-Website-Updates, während die Android-Parität wächst.
 
-**Aktuelle App-Store-Version:** 1.0.17. Gebaut für modernes iOS (SpeechAnalyzer-Ära).
+**Aktuelle App-Store-Version:** 1.0.18. Gebaut für modernes iOS (SpeechAnalyzer-Ära).
 
 ---
 
 ## Lokalisierung
 
-Vollständig lokalisiert — Schnittstelle, Warnungen und Untertitel — in **Englisch, Spanisch, Portugiesisch (Brasilien), Französisch, Deutsch, Arabisch, Japanisch, vereinfachtes Chinesisch, Koreanisch und Russisch** (10 Sprachen). Folgt dem Systemgebietsschema oder einer manuellen Auswahl in der App.
+Vollständig lokalisiert — Schnittstelle, Warnungen und Untertitel — in **Englisch, Spanisch, Portugiesisch (Brasilien), Französisch, Deutsch, Arabisch, Japanisch, vereinfachtes Chinesisch, Koreanisch, Russisch und Italienisch** (11 Sprachen). Folgt dem Systemgebietsschema oder einer manuellen Auswahl in der App.
 
 ---
 

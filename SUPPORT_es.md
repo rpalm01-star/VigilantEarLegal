@@ -31,7 +31,7 @@ Asegúrese de haber otorgado permiso de **Micrófono** en la Configuración de i
 
 ### ¿Qué tan precisas son las alertas meteorológicas?
 
-Vigilant Ear consulta fuentes oficiales del gobierno CAP (Common Alerting Protocol). Las alertas son tan precisas como los datos proporcionados por el Servicio Meteorológico Nacional y otras agencias internacionales (incluyendo MeteoGate de Europa, CMA de China, KMA de Corea, la Agencia Meteorológica de Japón y Medio Ambiente y Cambio Climático de Canadá). La simulación de ubicación, las brechas de cobertura o los retrasos de la red pueden afectar ocasionalmente la frecuencia de actualización.
+Vigilant Ear consulta fuentes oficiales del gobierno CAP (Common Alerting Protocol). Las alertas son tan precisas como los datos proporcionados por el Servicio Meteorológico Nacional y otras agencias internacionales (incluyendo MeteoGate de Europa, CMA de China, KMA de Corea, la Agencia Meteorológica de Japón, Medio Ambiente y Cambio Climático de Canadá y el INMET de Brasil). La simulación de ubicación, las brechas de cobertura o los retrasos de la red pueden afectar ocasionalmente la frecuencia de actualización.
 
 ### ¿La aplicación funciona en segundo plano?
 
@@ -59,7 +59,7 @@ El núcleo de seguridad es **gratis, para siempre**:
 
 - Alertas locales de sonido (sirenas, alarmas, golpes/timbres, bebé, persona cercana) con entrega en pantalla y notificación automática opcional  
 - Subtítulos en vivo del **Modo Orador** (en el dispositivo; direccional donde el hardware lo permita)  
-- Fuentes de clima severo para su región — **NWS** de EE. UU., **MeteoGate** de Europa, **CMA** de China, **KMA** de Corea, **JMA** de Japón y **ECCC** de Canadá  
+- Fuentes de clima severo para su región — **NWS** de EE. UU., **MeteoGate** de Europa, **CMA** de China, **KMA** de Corea, **JMA** de Japón, **ECCC** de Canadá e **INMET** de Brasil  
 - Alertas de práctica de la **Zona de Pruebas** (con marca de agua para que nunca parezcan una emergencia real)  
 - Señales de dirección en la aplicación complementaria de **Apple Watch** y **Live Activity** (Pantalla de bloqueo / Dynamic Island / Smart Stack del Watch), donde estén disponibles  
 

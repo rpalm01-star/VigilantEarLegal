@@ -31,7 +31,7 @@ Stellen Sie sicher, dass Sie in den iOS-Einstellungen die Berechtigung **Mikrofo
 
 ### Wie genau sind die Wetterwarnungen?
 
-Vigilant Ear fragt offizielle staatliche CAP-Feeds (Common Alerting Protocol) ab. Warnungen sind so genau wie die vom National Weather Service und anderen internationalen Agenturen (einschließlich MeteoGate Europa, CMA China, KMA Korea, der japanischen Wetterbehörde JMA und Environment and Climate Change Canada) bereitgestellten Daten. Standortsimulation, Abdeckungslücken oder Netzwerkverzögerungen können gelegentlich die Aktualisierungshäufigkeit beeinträchtigen.
+Vigilant Ear fragt offizielle staatliche CAP-Feeds (Common Alerting Protocol) ab. Warnungen sind so genau wie die vom National Weather Service und anderen internationalen Agenturen (einschließlich MeteoGate Europa, CMA China, KMA Korea, der japanischen Wetterbehörde JMA, Environment and Climate Change Canada und dem brasilianischen INMET) bereitgestellten Daten. Standortsimulation, Abdeckungslücken oder Netzwerkverzögerungen können gelegentlich die Aktualisierungshäufigkeit beeinträchtigen.
 
 ### Funktioniert die App im Hintergrund?
 
@@ -59,7 +59,7 @@ Der Sicherheitskern ist **kostenlos, für immer**:
 
 - Lokale Geräuschwarnungen (Sirenen, Alarme, Klopfen/Türklingeln, Baby, Person in der Nähe) mit Bildschirm- und optionaler Push-Zustellung  
 - Live-Untertitel im **Sprechermodus** (auf dem Gerät; richtungsbezogen, wo die Hardware dies zulässt)  
-- Unwetter-Feeds für Ihre Region — **NWS** in den USA, **MeteoGate** in Europa, **CMA** in China, **KMA** in Korea, **JMA** in Japan und **ECCC** in Kanada  
+- Unwetter-Feeds für Ihre Region — **NWS** in den USA, **MeteoGate** in Europa, **CMA** in China, **KMA** in Korea, **JMA** in Japan, **ECCC** in Kanada und **INMET** in Brasilien  
 - Übungswarnungen in der **Feature-Spielwiese** (mit Wasserzeichen, sodass sie nie wie ein echter Notfall aussehen)  
 - Richtungshinweise der **Apple Watch** als Begleiter und **Live-Aktivität** (Sperrbildschirm / Dynamic Island / Watch-Smart-Stapel), wo verfügbar  
 

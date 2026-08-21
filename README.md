@@ -34,7 +34,7 @@ Using the iPhone's stereo microphones, Vigilant Ear estimates the **bearing and 
 ### 🚨 It recognizes important sounds — and warns you
 An on-device classifier identifies hundreds of everyday sounds and watches the critical categories — **sirens, alarms — including a dedicated car-alarm class — doorbells/knocks, baby cry, a person nearby, and severe weather.** When one fires, you get a clear on-screen alert, optional **push notification**, and a distinct **haptic** — even when the app is backgrounded or the phone is asleep. Critical categories default ready so enabling notifications doesn't mean “everything off.” Turn all alert categories off and the engine fully hibernates while backgrounded to save battery. A **Sentinel** layer cross-checks alerts against independent evidence — direction, motion, and public feeds — so what fires is corroborated, not a lone classifier guess.
 
-Severe-weather warnings come from official public feeds — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, **Korea KMA**, **Japan JMA**, and **Canada ECCC** — free for all users. Feeds are narrowed to the ones that cover where you are.
+Severe-weather warnings come from official public feeds — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, **Korea KMA**, **Japan JMA**, **Canada ECCC**, and **Brazil INMET** — free for all users. Feeds are narrowed to the ones that cover where you are.
 
 ### ⌚ Apple Watch + Live Activity — glance and know
 - **Apple Watch companion** — the direction of an alert points on your wrist so a glance tells you where to look. Redesigned Watch UI with the app ear icon, threat HUD layout, and double-tap to dismiss an alert. Alerts can still show the direction arrow when the Watch app is not open.
@@ -88,7 +88,8 @@ The safety core is **free, forever**:
 
 - **Home Watch & Street Watch** — local sound alerts (alarms, sirens, knocks/doorbells, baby, person nearby) with on-screen, haptic, and optional push delivery.
 - **Live captions** — Speaker Mode, on-device, directional where hardware allows, with optional spoken output to Bluetooth hearing devices.
-- **Severe-weather alerts** — NWS, MeteoGate, CMA, KMA, JMA (Japan), ECCC (Canada) for your region.
+- **Standing Watch** — the room's own condition, always on with nothing to configure: a steady cyan lamp while the room holds its pattern, amber when something changes — a new voice, sudden quiet, or something approaching.
+- **Severe-weather alerts** — NWS, MeteoGate, CMA, KMA, JMA (Japan), ECCC (Canada), INMET (Brazil) for your region.
 - **Earthquake alerts (USGS, worldwide)** — feel a buzz and see the area that felt it on your map when a quake is reported nearby. A confirmation from the official USGS feed — not an early warning: if you felt shaking, this tells you what it was. On-device deep-rumble (infrasound) sensing can arm the check the moment the ground moves.
 - **Feature Playground** — practice alerts and feature previews with a clear PREVIEW watermark.
 - **Apple Watch companion & Live Activity** — glanceable direction and last alert.
@@ -145,13 +146,13 @@ Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](S
 - **Constellation** needs **Ultra-Wideband** — iPhone 11 or later, excluding SE and “e” models.
 - **Android.** Separate build with core radar, alerts, captions, and weather; Constellation mesh is iOS-first. See product site updates as Android parity grows.
 
-**Current App Store version:** 1.0.17. Built for modern iOS (SpeechAnalyzer-era).
+**Current App Store version:** 1.0.18. Built for modern iOS (SpeechAnalyzer-era).
 
 ---
 
 ## Localization
 
-Fully localized — interface, alerts, and captions — into **English, Spanish, Portuguese (Brazil), French, German, Arabic, Japanese, Simplified Chinese, Korean, and Russian** (10 languages). Follows the system locale or a manual choice in the app.
+Fully localized — interface, alerts, and captions — into **English, Spanish, Portuguese (Brazil), French, German, Italian, Arabic, Japanese, Simplified Chinese, Korean, and Russian** (11 languages). Follows the system locale or a manual choice in the app.
 
 ---
 
