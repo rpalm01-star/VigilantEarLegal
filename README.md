@@ -150,7 +150,7 @@ Weather takes the opposite path from audio — nothing about your sound ever goe
 
 ```mermaid
 graph LR
-    P1["Your iPhone"] --> W["Wingdings alert cache<br/>one shared copy · 15-minute refresh"]
+    P1["Vigilant Ear<br/>On Your Device"] --> W["Wingdings alert cache<br/>one shared copy · 15-minute refresh"]
     W --> M["Official MeteoGate data<br/>(Europe)"]
     P1 -.direct.-> N["NWS · JMA · KMA · CMA<br/>ECCC · BOM · INMET · USGS"]
 ```
