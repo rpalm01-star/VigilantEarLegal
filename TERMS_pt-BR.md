@@ -1,6 +1,6 @@
 # Termos de Serviço do Vigilant Ear 👂🛰️
 
-**Data de Vigência:** 11 de julho de 2026
+**Data de Vigência:** 28 de agosto de 2026
 
 ## 1. Aceitação dos Termos
 
@@ -44,7 +44,7 @@ Você concorda em:
 
 ## 7. Propriedade Intelectual
 
-Todo o conteúdo, design, código e marcas registradas no Aplicativo são de propriedade do Vigilant Ear ou dos seus licenciadores. Você não pode copiar, modificar, distribuir ou fazer engenharia reversa de nenhuma parte do Aplicativo sem permissão prévia por escrito.
+Todo o conteúdo, design, código e marcas registradas no Aplicativo são de propriedade da Wingdings, Inc. ou dos seus licenciadores. Você não pode copiar, modificar, distribuir ou fazer engenharia reversa de nenhuma parte do Aplicativo sem permissão prévia por escrito.
 
 ## 8. Rescisão
 

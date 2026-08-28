@@ -31,7 +31,7 @@ Stellen Sie sicher, dass Sie in den iOS-Einstellungen die Berechtigung **Mikrofo
 
 ### Wie genau sind die Wetterwarnungen?
 
-Vigilant Ear fragt offizielle staatliche CAP-Feeds (Common Alerting Protocol) ab. Warnungen sind so genau wie die vom National Weather Service und anderen internationalen Agenturen (einschließlich MeteoGate Europa, CMA China, KMA Korea, der japanischen Wetterbehörde JMA, Environment and Climate Change Canada und dem brasilianischen INMET) bereitgestellten Daten. Standortsimulation, Abdeckungslücken oder Netzwerkverzögerungen können gelegentlich die Aktualisierungshäufigkeit beeinträchtigen.
+Vigilant Ear fragt offizielle staatliche CAP-Feeds (Common Alerting Protocol) ab. Warnungen sind so genau wie die vom National Weather Service und anderen internationalen Agenturen (einschließlich MeteoGate Europa, CMA China, KMA Korea, der japanischen Wetterbehörde JMA, Environment and Climate Change Canada und dem brasilianischen INMET) bereitgestellten Daten. Standortsimulation, Abdeckungslücken oder Netzwerkverzögerungen können gelegentlich die Aktualisierungshäufigkeit beeinträchtigen. Europäische Warnungen werden über einen kleinen, von uns betriebenen Cache ausgeliefert, der die offiziellen MeteoGate-Daten etwa alle 15 Minuten auffrischt — so bleiben Warnungen für alle zuverlässig, während unsere Nutzerbasis über die Anfragelimits des öffentlichen Feeds hinauswächst.
 
 ### Funktioniert die App im Hintergrund?
 
@@ -93,6 +93,10 @@ Akute Geräusche wie Alarme und Feuerwehrsirenen sind für die Geräusch-ML-Engi
 ### Wie funktionieren die Feature-Spielwiese und die Übungswarnungen?
 
 Öffnen Sie die **Feature-Spielwiese** (Zauberstab), um Home- & Street-Übungsgeräusche und andere Vorschauen auszuprobieren. Übungsereignisse sind deutlich als **PREVIEW** markiert, sodass sie niemals einen echten Notfall vortäuschen. Beim Schließen der Feature-Spielwiese wird der Übungsstatus abgebaut (einschließlich temporärem GPS-Spoofing, das in einigen Demos verwendet wird).
+
+### Warum hat sich eine Untertitelzeile kurz nach dem Erscheinen geändert?
+
+Das ist die App, die sich selbst überprüft. Direkt nach dem Finalisieren eines Satzes liest Vigilant Ear die letzten Sekunden Audio mit vollem Kontext erneut und kann — innerhalb von etwa zwei Sekunden — ein verpasstes Wort wiederherstellen oder ein falsch verstandenes korrigieren. Danach ändert sich der Text nie wieder. Alles geschieht auf Ihrem Gerät, wie immer.
 
 ---
 

@@ -1,6 +1,6 @@
 # Nutzungsbedingungen für Vigilant Ear 👂🛰️
 
-**Datum des Inkrafttretens:** 11. Juli 2026
+**Datum des Inkrafttretens:** 28. August 2026
 
 ## 1. Annahme der Bedingungen
 
@@ -44,7 +44,7 @@ Sie stimmen zu:
 
 ## 7. Geistiges Eigentum
 
-Alle Inhalte, das Design, der Code und die Marken in der App sind Eigentum von Vigilant Ear oder seinen Lizenzgebern. Sie dürfen keinen Teil der App ohne vorherige schriftliche Genehmigung kopieren, ändern, verteilen oder zurückentwickeln (Reverse Engineering).
+Alle Inhalte, das Design, der Code und die Marken in der App sind Eigentum von Wingdings, Inc. oder seinen Lizenzgebern. Sie dürfen keinen Teil der App ohne vorherige schriftliche Genehmigung kopieren, ändern, verteilen oder zurückentwickeln (Reverse Engineering).
 
 ## 8. Beendigung
 

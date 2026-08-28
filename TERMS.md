@@ -1,6 +1,6 @@
 # Terms of Service for Vigilant Ear 👂🛰️
 
-**Effective Date:** July 11, 2026
+**Effective Date:** August 28, 2026
 
 ## 1. Acceptance of Terms
 
@@ -44,7 +44,7 @@ You agree to:
 
 ## 7. Intellectual Property
 
-All content, design, code, and trademarks in the App are owned by Vigilant Ear or its licensors. You may not copy, modify, distribute, or reverse engineer any part of the App without prior written permission.
+All content, design, code, and trademarks in the App are owned by Wingdings, Inc. or its licensors. You may not copy, modify, distribute, or reverse engineer any part of the App without prior written permission.
 
 ## 8. Termination
 

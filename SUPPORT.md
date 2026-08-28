@@ -30,7 +30,7 @@ No. Vigilant Ear is engineered to use little battery so you can leave it on.
 Here is how we keep battery use low:  
 - Efficient on-device machine learning models that run on the Neural Engine where available.  
 - Background listening hibernates when *all* alert categories are turned off.  
-- Almost all processing stays on your phone; network is limited to maps, public weather feeds, optional music ID, and purchases.  
+- Almost all processing stays on your phone; network is limited to maps, weather feeds (including our European alert cache), optional music ID, and purchases.  
 - Smart throttling reduces work when the acoustic scene is quiet.  
 - Heavy math runs off the display thread and only when needed.
 
@@ -40,7 +40,7 @@ Ensure you have granted **Microphone** permission in iOS Settings. Vigilant Ear 
 
 ### How accurate are the weather alerts?
 
-Vigilant Ear polls official government CAP (Common Alerting Protocol) feeds. Alerts are as accurate as the data provided by the National Weather Service and other international agencies (including Europe MeteoGate, China CMA, Korea KMA, the Japan Meteorological Agency, Environment and Climate Change Canada, and Brazil's INMET). Location simulation, coverage gaps, or network delays may occasionally affect update frequency.
+Vigilant Ear uses official government CAP (Common Alerting Protocol) data. Alerts are as accurate as the data provided by the National Weather Service and other international agencies (including Europe MeteoGate, China CMA, Korea KMA, the Japan Meteorological Agency, Environment and Climate Change Canada, Australia's BOM, and Brazil's INMET). European alerts are delivered through a small cache we operate that refreshes the official MeteoGate data about every 15 minutes — this keeps alerts reliable for everyone as our user base grows past the public feed's request limits. Location simulation, coverage gaps, or network delays may occasionally affect update frequency.
 
 ### Does the app work in the background?
 
@@ -68,7 +68,7 @@ The safety core is **free, forever**:
 
 - Local sound alerts (sirens, alarms, knocks/doorbells, baby, person nearby) with on-screen and optional push delivery  
 - **Speaker Mode** live captions (on-device; directional where hardware allows)  
-- Severe-weather feeds for your region — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, **Korea KMA**, **Japan JMA**, **Canada ECCC**, and **Brazil INMET**  
+- Severe-weather feeds for your region — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, **Korea KMA**, **Japan JMA**, **Canada ECCC**, **Australia BOM**, and **Brazil INMET**  
 - **Feature Playground** practice alerts (watermarked so they never look like a live emergency)  
 - **Apple Watch** companion direction cues and **Live Activity** (Lock Screen / Dynamic Island / Watch Smart Stack), where available  
 
@@ -98,6 +98,10 @@ You can also revoke Microphone access entirely in iOS Settings (that stops all a
 ### Why doesn't the app consistently detect *all* sounds?
 
 Acute sounds like alarms and firetruck sirens are relatively easy for the sound ML engine to detect. Broadband sounds (like car engines or tires) are harder; we do an adequate but imperfect job given phone hardware limits. Time Difference of Arrival (TDOA) algorithms are only so precise given the short distance between microphones. Direction needs a stereo-mic iPhone; iPads are captions-focused without full bearing.
+
+### Why did a caption briefly change right after it appeared?
+
+That's the app double-checking itself. Right after a sentence is finalized, Vigilant Ear re-reads the last few seconds of audio with full context and — within about two seconds — can restore a missed word or fix a misheard one. After that, the text never changes. It happens on your device, like everything else.
 
 ### How do Feature Playground and practice alerts work?
 

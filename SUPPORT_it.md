@@ -40,7 +40,7 @@ Assicurati di aver concesso l'autorizzazione del **Microfono** nelle Impostazion
 
 ### Quanto sono precisi gli avvisi meteo?
 
-Vigilant Ear interroga i feed governativi ufficiali CAP (Common Alerting Protocol). Gli avvisi sono precisi quanto i dati forniti dal National Weather Service e dalle altre agenzie internazionali (tra cui MeteoGate per l'Europa, la CMA cinese, la KMA coreana, l'Agenzia Meteorologica del Giappone, Environment and Climate Change Canada e l'INMET del Brasile). La simulazione della posizione, le lacune di copertura o i ritardi di rete possono occasionalmente influire sulla frequenza di aggiornamento.
+Vigilant Ear interroga i feed governativi ufficiali CAP (Common Alerting Protocol). Gli avvisi sono precisi quanto i dati forniti dal National Weather Service e dalle altre agenzie internazionali (tra cui MeteoGate per l'Europa, la CMA cinese, la KMA coreana, l'Agenzia Meteorologica del Giappone, Environment and Climate Change Canada e l'INMET del Brasile). La simulazione della posizione, le lacune di copertura o i ritardi di rete possono occasionalmente influire sulla frequenza di aggiornamento. Le allerte europee vengono servite tramite una piccola cache che gestiamo e che aggiorna i dati ufficiali MeteoGate circa ogni 15 minuti — così le allerte restano affidabili per tutti mentre la nostra base utenti supera i limiti di richieste del feed pubblico.
 
 ### L'app funziona in background?
 
@@ -102,6 +102,10 @@ I suoni acuti come gli allarmi e le sirene dei camion dei pompieri sono relativa
 ### Come funzionano il Parco giochi delle funzionalità e gli avvisi di prova?
 
 Apri il **Parco giochi delle funzionalità** (bacchetta) per provare i suoni di esercitazione Casa e Strada e altre anteprime. Gli eventi di prova sono chiaramente contrassegnati come **PREVIEW**, così non fingono mai di essere una vera emergenza. Chiudendo il Parco giochi delle funzionalità lo stato di prova viene eliminato (inclusa la posizione GPS fittizia temporanea usata in alcune demo).
+
+### Perché un sottotitolo è cambiato subito dopo essere apparso?
+
+È l'app che si ricontrolla da sola. Subito dopo la finalizzazione di una frase, Vigilant Ear rilegge gli ultimi secondi di audio con il contesto completo e — entro circa due secondi — può recuperare una parola persa o correggerne una fraintesa. Dopo, il testo non cambia mai più. Tutto avviene sul suo dispositivo, come sempre.
 
 ---
 

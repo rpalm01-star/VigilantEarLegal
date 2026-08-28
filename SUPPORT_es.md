@@ -31,7 +31,7 @@ Asegúrese de haber otorgado permiso de **Micrófono** en la Configuración de i
 
 ### ¿Qué tan precisas son las alertas meteorológicas?
 
-Vigilant Ear consulta fuentes oficiales del gobierno CAP (Common Alerting Protocol). Las alertas son tan precisas como los datos proporcionados por el Servicio Meteorológico Nacional y otras agencias internacionales (incluyendo MeteoGate de Europa, CMA de China, KMA de Corea, la Agencia Meteorológica de Japón, Medio Ambiente y Cambio Climático de Canadá y el INMET de Brasil). La simulación de ubicación, las brechas de cobertura o los retrasos de la red pueden afectar ocasionalmente la frecuencia de actualización.
+Vigilant Ear consulta fuentes oficiales del gobierno CAP (Common Alerting Protocol). Las alertas son tan precisas como los datos proporcionados por el Servicio Meteorológico Nacional y otras agencias internacionales (incluyendo MeteoGate de Europa, CMA de China, KMA de Corea, la Agencia Meteorológica de Japón, Medio Ambiente y Cambio Climático de Canadá y el INMET de Brasil). La simulación de ubicación, las brechas de cobertura o los retrasos de la red pueden afectar ocasionalmente la frecuencia de actualización. Los avisos europeos se entregan a través de una pequeña caché que operamos y que actualiza los datos oficiales de MeteoGate aproximadamente cada 15 minutos — así los avisos siguen siendo fiables para todos a medida que nuestra base de usuarios supera los límites de peticiones de la fuente pública.
 
 ### ¿La aplicación funciona en segundo plano?
 
@@ -93,6 +93,10 @@ Los sonidos agudos como las alarmas y las sirenas de los camiones de bomberos so
 ### ¿Cómo funcionan la Zona de Pruebas y las alertas de práctica?
 
 Abra la **Zona de Pruebas** (varita) para probar los sonidos de práctica de Hogar y Calle y otras vistas previas. Los eventos de práctica están claramente marcados como **PREVIEW** para que nunca pretendan ser una emergencia real. Cerrar la Zona de Pruebas elimina el estado de práctica (incluida la suplantación temporal de GPS utilizada en algunas demostraciones).
+
+### ¿Por qué un subtítulo cambió justo después de aparecer?
+
+Es la app comprobándose a sí misma. Justo después de finalizar una frase, Vigilant Ear vuelve a leer los últimos segundos de audio con contexto completo y — en unos dos segundos — puede recuperar una palabra perdida o corregir una mal oída. Después, el texto no cambia nunca más. Todo ocurre en su dispositivo, como siempre.
 
 ---
 

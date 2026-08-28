@@ -32,7 +32,7 @@ Everything that matters runs on the device. Audio is not recorded or uploaded fo
 Using the iPhone's stereo microphones, Vigilant Ear estimates the **bearing and rough distance** of sounds around you and places them as live markers on a heading-up radar ring and map. Move, and the markers hold their real-world position. This is the core: spatial awareness of a world you can't hear.
 
 ### 🚨 It recognizes important sounds — and warns you
-An on-device classifier identifies hundreds of everyday sounds and watches the critical categories — **sirens, alarms — including a dedicated car-alarm class — doorbells/knocks, baby cry, a person nearby, and severe weather.** When one fires, you get a clear on-screen alert, optional **push notification**, and a distinct **haptic** — even when the app is backgrounded or the phone is asleep. Critical categories default ready so enabling notifications doesn't mean “everything off.” Turn all alert categories off and the engine fully hibernates while backgrounded to save battery. A **Sentinel** layer cross-checks alerts against independent evidence — direction, motion, and public feeds — so what fires is corroborated, not a lone classifier guess.
+An on-device classifier identifies hundreds of everyday sounds and watches the critical categories — **sirens, alarms — including a dedicated car-alarm class — doorbells/knocks, baby cry, a person nearby, and severe weather.** When one fires, you get a clear on-screen alert, optional **push notification**, and a distinct **haptic** — even when the app is backgrounded or the phone is asleep. Critical categories default ready so enabling notifications doesn't mean “everything off.” Turn all alert categories off and the engine fully hibernates while backgrounded to save battery. A **Sentinel** layer cross-checks alerts against independent evidence — direction, motion, and public feeds — so what fires is corroborated, not a lone classifier guess. It works both ways: a siren-shaped moment inside a song gets held, but a real siren repeating through your music breaks through and alerts.
 
 Severe-weather warnings come from official public feeds — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, **Korea KMA**, **Japan JMA**, **Canada ECCC**, and **Brazil INMET** — free for all users. Feeds are narrowed to the ones that cover where you are.
 
@@ -42,7 +42,11 @@ Severe-weather warnings come from official public feeds — U.S. **NWS**, Europe
 - **Partner alerts on your wrist** — when a linked Constellation partner's phone raises an alert, it can reach your Watch too, direction included. A reliability pass keeps the companion light on Watch battery all day.
 
 ### 💬 Speaker Mode — live, directional captions *(free)*
-Turn on **Speaker Mode** and Vigilant Ear transcribes people talking near you into **caption blocks, one per voice.** On-device speaker diarization keeps voices distinct — *who* is saying *what* — with a directional cue on the inner ring. The live speaker is highlighted; older text scrolls away as space is needed. Captions are free; automatic translation is the optional Power Pack+ layer. Captions can also be **spoken aloud to your Bluetooth hearing devices** — free, in Preferences.
+Turn on **Speaker Mode** and Vigilant Ear transcribes people talking near you into **caption blocks, one per voice.** On-device speaker diarization keeps voices distinct — *who* is saying *what* — with a directional cue on the inner ring. The live speaker is highlighted; older text scrolls away as space is needed.
+
+Two things most caption apps won't do: **honesty about confidence** — a subtle per-row quality mark and dotted underlines beneath doubtful words tell you when to trust a line and when to double-check — and **self-correction**: right after a sentence lands, the app re-reads the audio with full context and can restore a missed or misheard word within a couple of seconds, then the text freezes.
+
+Captions are free; automatic translation is the optional Power Pack+ layer. Captions can also be **spoken aloud to your Bluetooth hearing devices** — free, in Preferences. **Direction Tones** (also free, in Preferences → Captions) add an optional audio cue in the ear you choose that signals where a speaker is — useful with a hearing aid or single-sided hearing, and available to anyone.
 
 ### 🌐 Speaker Auto-Translate — your language, live *(Power Pack+)*
 With Speaker Mode on, when a nearby person speaks another language, Vigilant Ear can detect it and render their captions **in your language**, with the source language shown on their block. The chain — hear → separate speakers → transcribe → translate → display — runs **on the device**; the only network moment is a one-time language-pack download from Apple. You don't have to know or pick the other language first.
@@ -87,9 +91,9 @@ Built for Deaf / hard-of-hearing / CODA and color-blind users: **color-independe
 The safety core is **free, forever**:
 
 - **Home Watch & Street Watch** — local sound alerts (alarms, sirens, knocks/doorbells, baby, person nearby) with on-screen, haptic, and optional push delivery.
-- **Live captions** — Speaker Mode, on-device, directional where hardware allows, with optional spoken output to Bluetooth hearing devices.
+- **Live captions** — Speaker Mode, on-device, directional where hardware allows, with honest confidence marks, ~2-second self-correction, optional spoken output to Bluetooth hearing devices, and Direction Tones.
 - **Standing Watch** — the room's own condition, always on with nothing to configure: a steady cyan lamp while the room holds its pattern, amber when something changes — a new voice, sudden quiet, or something approaching.
-- **Severe-weather alerts** — NWS, MeteoGate, CMA, KMA, JMA (Japan), ECCC (Canada), INMET (Brazil) for your region.
+- **Severe-weather alerts** — NWS, MeteoGate (Europe — served fresh from our 15-minute alert cache), CMA, KMA, JMA (Japan), ECCC (Canada), BOM (Australia), INMET (Brazil) for your region.
 - **Earthquake alerts (USGS, worldwide)** — feel a buzz and see the area that felt it on your map when a quake is reported nearby. A confirmation from the official USGS feed — not an early warning: if you felt shaking, this tells you what it was. On-device deep-rumble (infrasound) sensing can arm the check the moment the ground moves.
 - **Feature Playground** — practice alerts and feature previews with a clear PREVIEW watermark.
 - **Apple Watch companion & Live Activity** — glanceable direction and last alert.
@@ -108,23 +112,49 @@ Free or Power Pack+, **your audio stays on the device for recognition** — the 
 
 ## How it works (under the hood)
 
-Vigilant Ear is a **local-first, on-device** pipeline. Raw audio is captured on a high-priority tap, copied into a **pooled buffer free-list** (no alloc thrash on the realtime path), and fanned out to independent processors without stalling the UI or interrupting the streamer:
+Vigilant Ear is a **local-first, on-device** pipeline built in layers: capture once, then let independent specialists read the same sound and check each other's work. Raw audio is captured on a high-priority tap, copied into a **pooled buffer free-list** (no alloc thrash on the realtime path), and fanned out without stalling the UI:
 
 ```mermaid
 graph TD
     A["Stereo mic tap"] --> B["Pooled buffer snapshot"]
-    B --> C["Sound classifier (Apple Neural Engine)"]
-    B --> D["TDOA / beamforming → bearing & distance"]
-    B --> E["Speaker diarization (WeSpeaker, ANE) → who"]
-    E --> F["Speech recognition (SpeechAnalyzer) → words"]
-    F --> G["On-device translation → your language"]
-    C & D & F & G --> H["Radar · captions · map · alerts · Watch · Live Activity · AR"]
+    B --> C["Sound classifier<br/>(Apple Neural Engine)"]
+    B --> Y["Second-opinion classifier<br/>(YAMNet, ANE)"]
+    C --> S["Sentinel — evidence layer<br/>corroborates, vetoes, escalates"]
+    Y --> S
+    S --> H["Alerts · haptics · Watch · Live Activity"]
+    B --> D["Spatial math<br/>TDOA · Doppler → bearing & distance"]
+    D --> R["Radar ring · map · Camera AR"]
+    B --> F["Speech recognition<br/>(SpeechAnalyzer)"]
+    B --> E["Voice identity<br/>(ReDimNet embeddings, ANE)"]
+    F --> G["Caption rows — one per voice"]
+    E --> G
+    G --> T["On-device translation<br/>→ your language"]
+```
+
+No single model is trusted alone. The **Sentinel** layer sits between detection and alerting: independent engines corroborate or veto each other frame by frame — and when repeated real-world evidence piles up against a veto (a real siren wailing through your music), the evidence wins and the alert fires.
+
+Captions get their own second chance. Every finalized sentence is quietly re-read from a short in-memory audio ring with full context — corrections land within about two seconds, then the text freezes for good:
+
+```mermaid
+graph LR
+    L["Live caption appears"] --> K["Raw audio re-read<br/>with full context"] --> V["Guarded comparison<br/>(keeps what was heard)"] --> W["Row quietly corrected<br/>≤ 2 s, then frozen"]
 ```
 
 - **Spatial math** — FFTs, Time-Difference-of-Arrival, and Doppler tracking on background tasks.
-- **Speech** — iOS 26 `SpeechAnalyzer` / `SpeechTranscriber` for transcription; **WeSpeaker** embeddings for voice identity; Apple's **Translation** framework for on-device translation.
+- **Speech** — iOS 26 `SpeechAnalyzer` / `SpeechTranscriber` for transcription; **ReDimNet** speaker embeddings for voice identity; Apple's **Translation** framework for on-device translation. Voice identity is evidence-based: a voice is confirmed as a real person only from independent windows of sound, and an uncertain match shows as unattributed rather than guessing the wrong name.
+- **Music truth** — a chroma **song-signature detector** owns the "is music actually playing?" decision, because general classifiers famously call silent rooms and sirens "music." Shazam only runs once the signature agrees something musical is really there.
 - **Concurrency** — Swift 6 isolation keeps the microphone tap, acoustic math, and UI render loop cleanly separated.
-- **Efficiency** — downsampling and load-adaptive classification keep always-listening light enough to leave on.
+- **Efficiency** — downsampling, load-adaptive classification, and evidence-gated network use keep always-listening light enough to leave on.
+
+Weather takes the opposite path from audio — nothing about your sound ever goes out, but alert *data* comes in. European alerts flow through a small cache we operate, so one fetch of the official data serves every user:
+
+```mermaid
+graph LR
+    P1["Your iPhone"] --> W["Wingdings alert cache<br/>15-minute refresh"]
+    P2["Every other user"] --> W
+    W --> M["Official MeteoGate data<br/>(Europe)"]
+    P1 -.direct.-> N["NWS · JMA · KMA · CMA<br/>ECCC · BOM · INMET · USGS"]
+```
 
 ---
 

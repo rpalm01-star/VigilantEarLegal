@@ -31,7 +31,7 @@ Certifique-se de ter concedido permissão de **Microfone** em Ajustes do iOS. O 
 
 ### Quão precisos são os alertas de clima?
 
-O Vigilant Ear consulta feeds oficiais de governos CAP (Common Alerting Protocol). Os alertas são tão precisos quanto os dados fornecidos pelo National Weather Service e outras agências internacionais (incluindo MeteoGate na Europa, CMA na China, KMA na Coreia, a Agência Meteorológica do Japão, o Ambiente e Mudanças Climáticas do Canadá e o INMET do Brasil). A simulação de localização, lacunas de cobertura ou atrasos na rede podem ocasionalmente afetar a frequência de atualização.
+O Vigilant Ear consulta feeds oficiais de governos CAP (Common Alerting Protocol). Os alertas são tão precisos quanto os dados fornecidos pelo National Weather Service e outras agências internacionais (incluindo MeteoGate na Europa, CMA na China, KMA na Coreia, a Agência Meteorológica do Japão, o Ambiente e Mudanças Climáticas do Canadá e o INMET do Brasil). A simulação de localização, lacunas de cobertura ou atrasos na rede podem ocasionalmente afetar a frequência de atualização. Os alertas europeus são entregues por um pequeno cache que operamos e que atualiza os dados oficiais do MeteoGate a cada 15 minutos, aproximadamente — assim os alertas continuam confiáveis para todos à medida que nossa base de usuários ultrapassa os limites de requisições do feed público.
 
 ### O aplicativo funciona em segundo plano?
 
@@ -93,6 +93,10 @@ Sons agudos como alarmes e sirenes de caminhões de bombeiros são relativamente
 ### Como a Zona de Testes e os alertas de prática funcionam?
 
 Abra a **Zona de Testes** (varinha) para experimentar sons de prática Home & Street e outras prévias. Os eventos de prática estão claramente marcados como **PREVIEW** para que nunca se passem por uma emergência real. Fechar a Zona de Testes encerra o estado de prática (incluindo simulação temporária de GPS usada em algumas demonstrações).
+
+### Por que uma legenda mudou logo depois de aparecer?
+
+É o app verificando a si mesmo. Logo após uma frase ser finalizada, o Vigilant Ear relê os últimos segundos de áudio com contexto completo e — em cerca de dois segundos — pode recuperar uma palavra perdida ou corrigir uma mal ouvida. Depois disso, o texto nunca mais muda. Tudo acontece no seu aparelho, como sempre.
 
 ---
 

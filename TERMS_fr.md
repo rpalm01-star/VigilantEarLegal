@@ -1,6 +1,6 @@
 # Conditions d'utilisation de Vigilant Ear 👂🛰️
 
-**Date d'entrée en vigueur :** 11 juillet 2026
+**Date d'entrée en vigueur :** 28 août 2026
 
 ## 1. Acceptation des conditions
 
@@ -44,7 +44,7 @@ Vous acceptez de :
 
 ## 7. Propriété intellectuelle
 
-Tout le contenu, la conception, le code et les marques déposées de l'Application appartiennent à Vigilant Ear ou à ses concédants de licence. Vous ne pouvez pas copier, modifier, distribuer ou faire de l'ingénierie inverse sur une quelconque partie de l'Application sans autorisation écrite préalable.
+Tout le contenu, la conception, le code et les marques déposées de l'Application appartiennent à Wingdings, Inc. ou à ses concédants de licence. Vous ne pouvez pas copier, modifier, distribuer ou faire de l'ingénierie inverse sur une quelconque partie de l'Application sans autorisation écrite préalable.
 
 ## 8. Résiliation
 

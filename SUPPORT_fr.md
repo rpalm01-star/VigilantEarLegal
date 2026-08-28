@@ -31,7 +31,7 @@ Assurez-vous d'avoir accordé l'autorisation du **Microphone** dans les paramèt
 
 ### Quelle est la précision des alertes météo ?
 
-Vigilant Ear interroge les flux gouvernementaux officiels CAP (Common Alerting Protocol). Les alertes sont aussi précises que les données fournies par le National Weather Service et d'autres agences internationales (y compris MeteoGate en Europe, CMA en Chine, KMA en Corée, l'Agence météorologique du Japon, Environnement et Changement climatique Canada et l'INMET du Brésil). La simulation de localisation, les lacunes de couverture ou les retards du réseau peuvent parfois affecter la fréquence de mise à jour.
+Vigilant Ear interroge les flux gouvernementaux officiels CAP (Common Alerting Protocol). Les alertes sont aussi précises que les données fournies par le National Weather Service et d'autres agences internationales (y compris MeteoGate en Europe, CMA en Chine, KMA en Corée, l'Agence météorologique du Japon, Environnement et Changement climatique Canada et l'INMET du Brésil). La simulation de localisation, les lacunes de couverture ou les retards du réseau peuvent parfois affecter la fréquence de mise à jour. Les alertes européennes sont servies par un petit cache que nous exploitons et qui rafraîchit les données officielles MeteoGate environ toutes les 15 minutes — les alertes restent ainsi fiables pour tous à mesure que notre base d'utilisateurs dépasse les limites de requêtes du flux public.
 
 ### L'application fonctionne-t-il en arrière-plan ?
 
@@ -93,6 +93,10 @@ Les sons aigus comme les alarmes et les sirènes de camions de pompiers sont rel
 ### Comment fonctionnent le Terrain de jeu des fonctionnalités et les alertes d'entraînement ?
 
 Ouvrez le **Terrain de jeu des fonctionnalités** (baguette) pour essayer les sons d'entraînement Maison et Rue et d'autres aperçus. Les événements d'entraînement sont clairement marqués **PREVIEW** afin qu'ils ne prétendent jamais être une véritable urgence. La fermeture du Terrain de jeu des fonctionnalités met fin à l'état d'entraînement (y compris la fausse position GPS temporaire utilisée dans certaines démos).
+
+### Pourquoi un sous-titre a-t-il changé juste après son apparition ?
+
+C'est l'app qui se vérifie elle-même. Juste après la finalisation d'une phrase, Vigilant Ear relit les dernières secondes d'audio avec le contexte complet et peut — en deux secondes environ — restaurer un mot manqué ou corriger un mot mal entendu. Ensuite, le texte ne change plus jamais. Tout se passe sur votre appareil, comme toujours.
 
 ---
 
