@@ -1,6 +1,6 @@
 # Informativa sulla Privacy di Vigilant Ear 👂🛰️
 
-**Data di entrata in vigore:** 4 agosto 2026
+**Data di entrata in vigore:** 28 agosto 2026
 
 ## Introduzione
 
@@ -10,7 +10,7 @@ Vigilant Ear ("noi", "ci" o "nostro") si impegna a proteggere la sua privacy. La
 
 - **Il rilevamento acustico principale viene eseguito sul suo dispositivo.** La classificazione dei suoni, il tracciamento direzionale, i sottotitoli in tempo reale e la logica degli avvisi sono progettati per funzionare localmente utilizzando il microfono e i sensori del suo telefono.
 - **Non vendiamo i suoi dati** e non utilizziamo SDK pubblicitari o di analisi comportamentale.
-- **Non memorizziamo né carichiamo registrazioni audio.** L'audio del microfono viene elaborato in tempo reale per il rilevamento e (quando la funzione è abilitata) per i sottotitoli; non viene mai salvato come file sonoro né inviato per analisi nel cloud. Alcuni secondi di suono vengono trattenuti brevemente nella memoria di lavoro del telefono mentre vengono trascritti — quel breve buffer è ciò che consente ai sottotitoli di cogliere le prime parole di chi parla invece di perderle — e non tocca mai l'archiviazione, non viene mai trasmesso da nessuna parte e scompare nel momento in cui l'applicazione si chiude. La funzione Rewind ripropone soltanto il **testo** dei sottotitoli recenti; nessun suono viene conservato per la riproduzione.
+- **Non memorizziamo né carichiamo registrazioni audio.** L'audio del microfono viene elaborato in tempo reale per il rilevamento e (quando la funzione è abilitata) per i sottotitoli; non viene mai salvato come file sonoro né inviato per analisi nel cloud. Fino a circa venti secondi di suono vengono trattenuti brevemente nella memoria di lavoro del telefono mentre vengono trascritti — quel breve buffer è ciò che consente ai sottotitoli di cogliere le prime parole di chi parla invece di perderle — e non tocca mai l'archiviazione, non viene mai trasmesso da nessuna parte e scompare nel momento in cui l'applicazione si chiude. La funzione Rewind ripropone soltanto il **testo** dei sottotitoli recenti; nessun suono viene conservato per la riproduzione.
 - **Alcune funzioni utilizzano Internet** — mappe, feed di condizioni meteorologiche estreme, identificazione musicale opzionale, dati stradali, acquisti sull'app store, traffico opzionale della mesh multi-telefono tra i *suoi* dispositivi, il caricamento delle pagine legali nell'applicazione e (solo se lei sceglie di partecipare) i rapporti del Research Array (rete di ricerca). Queste funzioni sono descritte di seguito.
 - **Lei mantiene il controllo.** Può disabilitare l'identificazione musicale Shazam, disattivare le categorie di avvisi, lasciare Constellation disattivato, lasciare il **Research Array** disattivato (lo è per impostazione predefinita), revocare le autorizzazioni nelle impostazioni di sistema o interrompere l'ascolto in background in qualsiasi momento.
 
@@ -37,7 +37,11 @@ Quando utilizza determinate funzioni — o quando l'applicazione ne ha bisogno p
     *   *Fornitore:* Apple Maps / MapKit
 *   **Allerte meteo estreme**
     *   *Cosa viene inviato:* Richieste a feed meteorologici pubblici CAP/Atom; la sua regione generale può essere dedotta dalla selezione dei feed e dalla posizione del dispositivo
-    *   *Fornitore:* U.S. National Weather Service, MeteoGate (Europa), China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), Japan Meteorological Agency (JMA), Environment and Climate Change Canada (ECCC), fonti pubbliche legate all'OMM (WMO) e feed di allerta pubblici simili
+    *   *Fornitore:* U.S. National Weather Service, China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), Japan Meteorological Agency (JMA), Environment and Climate Change Canada (ECCC), fonti pubbliche legate all'OMM (WMO) e feed di allerta pubblici simili
+*   **Allerte meteo europee (tramite la nostra cache di allerta)**
+    *   *Perché esiste:* Le allerte europee provengono da MeteoGate, un feed pubblico condiviso con limiti di richieste. Con la crescita degli utenti, i telefoni che lo interrogavano direttamente hanno iniziato a superare quei limiti — cioè allerte perse. Il nostro server ora recupera i dati ufficiali MeteoGate una sola volta e li conserva per circa **15 minuti**; tutti i telefoni leggono da quella copia condivisa. Gli stessi dati ufficiali, più freschi e affidabili per tutti, e molto più rispettosi del feed pubblico.
+    *   *Cosa viene inviato:* Una richiesta alla nostra cache contiene solo il codice paese/regione, la lingua della app e una cella di posizione che il telefono arrotonda a circa **50 km (0,5°)** prima dell'invio — usata solo per limitare la risposta alle allerte vicine. Nessun nome, account o identificatore del dispositivo viene allegato. Come per qualsiasi servizio HTTPS, esistono log di hosting standard di breve durata per il funzionamento; non sono uno strumento di tracciamento e non li vendiamo. Le versioni precedenti della app contattano direttamente i feed pubblici.
+    *   *Fornitore:* Dati MeteoGate (Europa), serviti tramite infrastruttura gestita da noi
 *   **Allerte sismiche**
     *   *Cosa viene inviato:* Richieste a un unico feed pubblico mondiale di sintesi dei terremoti — la richiesta non contiene alcuna informazione di posizione o regione; la posizione del suo dispositivo viene utilizzata solo sul dispositivo per determinare se un terremoto segnalato è vicino a lei
     *   *Fornitore:* Feed pubblico dei terremoti dello U.S. Geological Survey (USGS)
@@ -73,7 +77,7 @@ Vigilant Ear è progettato affinché le funzioni principali di ascolto e sottoti
 
 Log di debug **locali** opzionali possono essere scritti sul dispositivo per la risoluzione dei problemi; l'applicazione non li carica come una pipeline di telemetria e il testo dei sottotitoli non è incluso nel contenuto di debug esportato.
 
-**Eccezione — solo Research Array:** se sceglie di partecipare (veda più avanti), Wingdings può ricevere i rapporti limitati sugli eventi che lei sceglie di contribuire. Quel percorso non è analisi pubblicitaria; è un contributo di ricerca opzionale che lei controlla e può disattivare in qualsiasi momento.
+**Eccezione — Research Array e la cache meteo europea:** se sceglie di partecipare a Research Array (veda più avanti), Wingdings può ricevere i rapporti limitati sugli eventi che lei sceglie di contribuire. Separatamente, quando le allerte meteo europee sono attive, il telefono le legge dalla cache meteo che gestiamo (descritta sopra); quelle richieste contengono una cella di posizione approssimativa di ~50 km e nessun identificatore personale o del dispositivo. Nessuno dei due percorsi è analisi pubblicitaria — entrambi esistono per far funzionare una funzione specifica, non per costruire un suo profilo.
 
 ## Research Array (opzionale, disattivato per impostazione predefinita)
 

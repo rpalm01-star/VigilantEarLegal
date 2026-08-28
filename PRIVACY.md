@@ -1,6 +1,6 @@
 # Privacy Policy for Vigilant Ear 👂🛰️
 
-**Effective Date:** August 4, 2026
+**Effective Date:** August 28, 2026
 
 ## Introduction
 
@@ -10,7 +10,7 @@ Vigilant Ear ("we", "us", or "our") is committed to protecting your privacy. Thi
 
 - **Core acoustic detection runs on your device.** Sound classification, directional tracking, live captions, and alert logic are designed to work locally using your phone's microphone and sensors.
 - **We do not sell your data** and we do not use advertising or behavioral analytics SDKs.
-- **We do not store or upload audio recordings.** Microphone audio is processed in real time for detection and (when enabled) captions; it is never saved as a sound file or sent for cloud analysis. A few seconds of sound are held briefly in the phone's working memory while it is being transcribed — that short buffer is what lets captions catch a speaker's opening words instead of losing them — and it never touches storage, is never transmitted anywhere, and is gone the moment the app closes. The Rewind feature brings back recent caption **text** only; no sound is kept for replay.
+- **We do not store or upload audio recordings.** Microphone audio is processed in real time for detection and (when enabled) captions; it is never saved as a sound file or sent for cloud analysis. Up to about twenty seconds of sound are held briefly in the phone's working memory while it is being transcribed — that short buffer is what lets captions catch a speaker's opening words instead of losing them — and it never touches storage, is never transmitted anywhere, and is gone the moment the app closes. The Rewind feature brings back recent caption **text** only; no sound is kept for replay.
 - **Some features use the internet** — maps, severe-weather feeds, optional music identification, road data, app-store purchases, optional multi-phone mesh traffic between *your* devices, loading of in-app legal pages, and (only if you opt in) Research Array reports. These are described below.
 - **You stay in control.** You can disable Shazam music identification, turn off alert categories, leave Constellation off, leave **Research Array** off (it is off by default), revoke permissions in system settings, or stop background listening at any time.
 
@@ -37,7 +37,11 @@ When you use certain features — or when the app needs them to function — **l
     *   *Provider:* Apple Maps / MapKit
 *   **Severe weather alerts**
     *   *What is sent:* Requests to public CAP/Atom weather feeds; your general region may be inferred from feed selection and device location
-    *   *Provider:* U.S. National Weather Service, MeteoGate (Europe), China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), Japan Meteorological Agency (JMA), Environment and Climate Change Canada (ECCC), WMO-related public sources, and similar public alert feeds
+    *   *Provider:* U.S. National Weather Service, China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), Japan Meteorological Agency (JMA), Environment and Climate Change Canada (ECCC), WMO-related public sources, and similar public alert feeds
+*   **European weather alerts (via our alert cache)**
+    *   *Why it exists:* European alerts come from MeteoGate, a shared public feed with request limits. As our user base grew, everyone's phones polling it directly began exceeding those limits — which meant missed alerts. So our server now fetches the official MeteoGate data once and holds it for about **15 minutes**, and every phone reads from that shared copy. Same official data, fresher and more reliable for everyone, and far kinder to the public feed.
+    *   *What is sent:* A request to our cache carries only the country/region code, your app language, and a location cell that your phone rounds to roughly **50 km (0.5°)** before it is ever sent — used solely to trim the reply to alerts near you. No name, account, or device identifier is attached. As with any HTTPS service, standard short-lived hosting logs exist to operate it; they are not a tracking feature and we do not sell them. Older app versions contact the public feeds directly.
+    *   *Provider:* MeteoGate data (Europe), served through infrastructure we operate
 *   **Earthquake alerts**
     *   *What is sent:* Requests for a single worldwide public earthquake summary feed — the request carries no location or region information at all; your device location is used only on-device to decide whether a reported quake is near you
     *   *Provider:* U.S. Geological Survey (USGS) public earthquake feed
@@ -73,7 +77,7 @@ Vigilant Ear is designed so that core listening and caption features run on your
 
 Optional **local** debug logs may be written on the device for troubleshooting; they are not uploaded by the app as a telemetry pipeline, and caption text is not included in exported debug content.
 
-**Exception — Research Array only:** if you opt in (see below), Wingdings may receive the limited event reports you choose to contribute. That path is not advertising analytics; it is an optional research contribution you control and can turn off at any time.
+**Exception — Research Array and the European weather cache:** if you opt in to Research Array (see below), Wingdings may receive the limited event reports you choose to contribute. Separately, when European weather alerts are enabled, your phone reads them from the weather cache we operate (described above); those requests carry a coarse ~50 km location cell and no personal or device identifiers. Neither path is advertising analytics, and both exist to make a specific feature work — not to build a profile of you.
 
 ## Research Array (optional, off by default)
 

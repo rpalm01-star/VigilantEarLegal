@@ -1,6 +1,6 @@
 # Datenschutzrichtlinie für Vigilant Ear 👂🛰️
 
-**Datum des Inkrafttretens:** 4. August 2026
+**Datum des Inkrafttretens:** 28. August 2026
 
 ## Einführung
 
@@ -37,7 +37,11 @@ Wenn Sie bestimmte Funktionen nutzen — oder wenn die App diese zum Funktionier
     *   *Anbieter:* Apple Maps / MapKit
 *   **Unwetterwarnungen**
     *   *Was gesendet wird:* Anfragen an öffentliche CAP/Atom-Wetter-Feeds; Ihre allgemeine Region kann aus der Feed-Auswahl und dem Gerätestandort abgeleitet werden
-    *   *Anbieter:* U.S. National Weather Service, MeteoGate (Europa), China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), Japan Meteorological Agency (JMA), Environment and Climate Change Canada (ECCC), WMO-bezogene öffentliche Quellen und ähnliche öffentliche Warn-Feeds
+    *   *Anbieter:* U.S. National Weather Service, China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), Japan Meteorological Agency (JMA), Environment and Climate Change Canada (ECCC), WMO-bezogene öffentliche Quellen und ähnliche öffentliche Warn-Feeds
+*   **Europäische Wetterwarnungen (über unseren Warn-Cache)**
+    *   *Warum es ihn gibt:* Europäische Warnungen stammen von MeteoGate, einem gemeinsamen öffentlichen Feed mit Anfragelimits. Mit wachsender Nutzerzahl überschritten die direkt abfragenden Telefone diese Limits — was verpasste Warnungen bedeutete. Unser Server ruft die offiziellen MeteoGate-Daten daher einmal ab und hält sie etwa **15 Minuten** vor; alle Telefone lesen aus dieser gemeinsamen Kopie. Dieselben offiziellen Daten, frischer und zuverlässiger für alle — und deutlich schonender für den öffentlichen Feed.
+    *   *Was gesendet wird:* Eine Anfrage an unseren Cache enthält nur den Länder-/Regionscode, Ihre App-Sprache und eine Standortzelle, die Ihr Telefon vor dem Senden auf etwa **50 km (0,5°)** rundet — ausschließlich, um die Antwort auf Warnungen in Ihrer Nähe zu beschränken. Kein Name, Konto oder Geräte-Identifikator wird angehängt. Wie bei jedem HTTPS-Dienst existieren kurzlebige Standard-Hosting-Protokolle für den Betrieb; sie sind kein Tracking-Instrument, und wir verkaufen sie nicht. Ältere App-Versionen kontaktieren die öffentlichen Feeds direkt.
+    *   *Anbieter:* MeteoGate-Daten (Europa), bereitgestellt über von uns betriebene Infrastruktur
 *   **Erdbebenwarnungen**
     *   *Was gesendet wird:* Anfragen an einen einzigen weltweiten öffentlichen Erdbeben-Übersichtsfeed — die Anfrage enthält keinerlei Standort- oder Regionsinformationen; Ihr Gerätestandort wird ausschließlich auf dem Gerät verwendet, um zu entscheiden, ob ein gemeldetes Beben in Ihrer Nähe ist
     *   *Anbieter:* Öffentlicher Erdbeben-Feed des U.S. Geological Survey (USGS)
@@ -73,7 +77,7 @@ Vigilant Ear ist so konzipiert, dass die zentralen Funktionen zum Zuhören und f
 
 Optionale **lokale** Debug-Protokolle können zur Fehlerbehebung auf das Gerät geschrieben werden; sie werden von der App nicht als Telemetrie-Pipeline hochgeladen, und Untertiteltext ist nicht im exportierten Debug-Inhalt enthalten.
 
-**Ausnahme — nur Research Array:** Wenn Sie sich aktiv dafür entscheiden (siehe unten), kann Wingdings die begrenzten Ereignisberichte erhalten, die Sie beitragen möchten. Dieser Weg ist keine Werbeanalyse; es ist ein optionaler Forschungsbeitrag, den Sie steuern und jederzeit ausschalten können.
+**Ausnahme — Research Array und der europäische Wetter-Cache:** Wenn Sie sich für Research Array entscheiden (siehe unten), kann Wingdings die begrenzten Ereignisberichte erhalten, die Sie beitragen möchten. Getrennt davon liest Ihr Telefon europäische Wetterwarnungen aus dem von uns betriebenen Wetter-Cache (oben beschrieben); diese Anfragen enthalten eine grobe ~50-km-Standortzelle und keine persönlichen oder Geräte-Identifikatoren. Keiner der beiden Wege ist Werbeanalyse — beide existieren, damit eine bestimmte Funktion funktioniert, nicht um ein Profil von Ihnen zu erstellen.
 
 ## Research Array (optional, standardmäßig ausgeschaltet)
 

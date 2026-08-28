@@ -1,6 +1,6 @@
 # Politique de confidentialité de Vigilant Ear 👂🛰️
 
-**Date d'entrée en vigueur :** 4 août 2026
+**Date d'entrée en vigueur :** 28 août 2026
 
 ## Introduction
 
@@ -37,7 +37,11 @@ Lorsque vous utilisez certaines fonctionnalités — ou lorsque l'application en
     *   *Fournisseur :* Apple Maps / MapKit
 *   **Alertes météo extrêmes**
     *   *Ce qui est envoyé :* Demandes de flux météo publics CAP/Atom ; votre région générale peut être déduite de la sélection de flux et de l'emplacement de l'appareil
-    *   *Fournisseur :* U.S. National Weather Service, MeteoGate (Europe), China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), Japan Meteorological Agency (JMA), Environnement et Changement climatique Canada (ECCC), sources publiques liées à l'OMM (WMO) et flux d'alertes publics similaires
+    *   *Fournisseur :* U.S. National Weather Service, China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), Japan Meteorological Agency (JMA), Environnement et Changement climatique Canada (ECCC), sources publiques liées à l'OMM (WMO) et flux d'alertes publics similaires
+*   **Alertes météo européennes (via notre cache d'alertes)**
+    *   *Pourquoi il existe :* Les alertes européennes proviennent de MeteoGate, un flux public partagé soumis à des limites de requêtes. Avec la croissance de notre base d'utilisateurs, les téléphones qui l'interrogeaient directement ont commencé à dépasser ces limites — donc des alertes manquées. Notre serveur récupère désormais les données officielles MeteoGate une seule fois et les conserve environ **15 minutes** ; tous les téléphones lisent cette copie partagée. Les mêmes données officielles, plus fraîches et plus fiables pour tous, et bien plus respectueuses du flux public.
+    *   *Ce qui est envoyé :* Une requête vers notre cache ne contient que le code pays/région, la langue de votre app et une cellule de localisation que votre téléphone arrondit à environ **50 km (0,5°)** avant tout envoi — utilisée uniquement pour limiter la réponse aux alertes proches de vous. Aucun nom, compte ou identifiant d'appareil n'est joint. Comme pour tout service HTTPS, des journaux d'hébergement standard de courte durée existent pour l'exploiter ; ce ne sont pas des outils de pistage et nous ne les vendons pas. Les anciennes versions de l'app contactent directement les flux publics.
+    *   *Fournisseur :* Données MeteoGate (Europe), servies via une infrastructure que nous exploitons
 *   **Alertes sismiques**
     *   *Ce qui est envoyé :* Des requêtes vers un unique flux public mondial de synthèse des séismes — la requête ne contient aucune information de localisation ou de région ; la position de votre appareil n'est utilisée que sur l'appareil pour déterminer si un séisme signalé est proche de vous
     *   *Fournisseur :* Flux public de séismes de l'U.S. Geological Survey (USGS)
@@ -73,7 +77,7 @@ Vigilant Ear est conçu pour que les fonctionnalités principales d'écoute et d
 
 Des journaux de débogage **locaux** optionnels peuvent être écrits sur l'appareil à des fins de dépannage ; ils ne sont pas téléchargés par l'application en tant que pipeline de télémétrie, et le texte des sous-titres n'est pas inclus dans le contenu de débogage exporté.
 
-**Exception — Research Array uniquement :** si vous choisissez d'y participer (voir ci-dessous), Wingdings peut recevoir les rapports d'événements limités que vous choisissez de contribuer. Cette voie n'est pas de l'analyse publicitaire ; c'est une contribution de recherche optionnelle que vous contrôlez et que vous pouvez désactiver à tout moment.
+**Exception — Research Array et le cache météo européen :** si vous choisissez de participer à Research Array (voir ci-dessous), Wingdings peut recevoir les rapports d'événements limités que vous choisissez de contribuer. Séparément, quand les alertes météo européennes sont activées, votre téléphone les lit depuis le cache météo que nous exploitons (décrit ci-dessus) ; ces requêtes contiennent une cellule de localisation grossière d'environ 50 km et aucun identifiant personnel ou d'appareil. Aucune de ces voies n'est de l'analyse publicitaire — les deux existent pour faire fonctionner une fonctionnalité précise, pas pour établir votre profil.
 
 ## Research Array (optionnel, désactivé par défaut)
 

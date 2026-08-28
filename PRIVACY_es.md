@@ -1,6 +1,6 @@
 # Política de Privacidad para Vigilant Ear 👂🛰️
 
-**Fecha de vigencia:** 4 de agosto de 2026
+**Fecha de vigencia:** 28 de agosto de 2026
 
 ## Introducción
 
@@ -37,7 +37,11 @@ Cuando utiliza ciertas funciones — o cuando la aplicación las necesita para f
     *   *Proveedor:* Apple Maps / MapKit
 *   **Alertas de clima severo**
     *   *Qué se envía:* Solicitudes a fuentes meteorológicas públicas CAP/Atom; se puede inferir su región general a partir de la selección de fuentes y la ubicación del dispositivo
-    *   *Proveedor:* Servicio Meteorológico Nacional de EE. UU., MeteoGate (Europa), Administración Meteorológica de China (CMA), Administración Meteorológica de Corea (KMA), Agencia Meteorológica de Japón (JMA), Medio Ambiente y Cambio Climático de Canadá (ECCC), fuentes públicas relacionadas con la OMM y fuentes similares de alertas públicas
+    *   *Proveedor:* Servicio Meteorológico Nacional de EE. UU., Administración Meteorológica de China (CMA), Administración Meteorológica de Corea (KMA), Agencia Meteorológica de Japón (JMA), Medio Ambiente y Cambio Climático de Canadá (ECCC), fuentes públicas relacionadas con la OMM y fuentes similares de alertas públicas
+*   **Avisos meteorológicos europeos (a través de nuestra caché de alertas)**
+    *   *Por qué existe:* Los avisos europeos provienen de MeteoGate, un feed público compartido con límites de peticiones. Al crecer nuestra base de usuarios, los teléfonos que lo consultaban directamente empezaron a superar esos límites — lo que significaba avisos perdidos. Por eso nuestro servidor obtiene los datos oficiales de MeteoGate una sola vez y los conserva unos **15 minutos**, y todos los teléfonos leen de esa copia compartida. Los mismos datos oficiales, más frescos y fiables para todos, y mucho más respetuosos con el feed público.
+    *   *Qué se envía:* Una petición a nuestra caché lleva solo el código de país/región, el idioma de su app y una celda de ubicación que su teléfono redondea a unos **50 km (0,5°)** antes de enviarla — usada únicamente para limitar la respuesta a los avisos cercanos. No se adjunta nombre, cuenta ni identificador de dispositivo. Como en cualquier servicio HTTPS, existen registros estándar de alojamiento de corta duración para operarlo; no son una herramienta de seguimiento y no los vendemos. Las versiones antiguas de la app contactan los feeds públicos directamente.
+    *   *Proveedor:* Datos de MeteoGate (Europa), servidos a través de infraestructura que operamos nosotros
 *   **Alertas de terremoto**
     *   *Qué se envía:* Solicitudes a un único feed público mundial de resumen de terremotos — la solicitud no incluye ninguna información de ubicación o región; la ubicación de su dispositivo se usa solo en el dispositivo para decidir si un terremoto reportado está cerca de usted
     *   *Proveedor:* Feed público de terremotos del Servicio Geológico de EE. UU. (USGS)
@@ -73,7 +77,7 @@ Vigilant Ear está diseñado para que las funciones principales de escucha y sub
 
 Se pueden escribir registros de depuración **locales** opcionales en el dispositivo para la resolución de problemas; la aplicación no los sube como una canalización de telemetría y el texto de los subtítulos no se incluye en el contenido de depuración exportado.
 
-**Excepción — solo Research Array:** si usted decide participar (vea más abajo), Wingdings puede recibir los informes limitados de eventos que usted elija contribuir. Esa vía no es análisis publicitario; es una contribución de investigación opcional que usted controla y puede desactivar en cualquier momento.
+**Excepción — Research Array y la caché meteorológica europea:** si usted opta por Research Array (vea más abajo), Wingdings puede recibir los informes limitados de eventos que usted elija contribuir. Por separado, cuando los avisos meteorológicos europeos están activados, su teléfono los lee de la caché meteorológica que operamos (descrita arriba); esas peticiones llevan una celda de ubicación aproximada de ~50 km y ningún identificador personal ni de dispositivo. Ninguna de las dos vías es análisis publicitario — ambas existen para que funcione una función concreta, no para construir un perfil de usted.
 
 ## Research Array (opcional, desactivado de forma predeterminada)
 

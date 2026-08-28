@@ -1,6 +1,6 @@
 # Política de Privacidade do Vigilant Ear 👂🛰️
 
-**Data de Vigência:** 4 de agosto de 2026
+**Data de Vigência:** 28 de agosto de 2026
 
 ## Introdução
 
@@ -37,7 +37,11 @@ Quando você usa certos recursos — ou quando o aplicativo precisa deles para f
     *   *Provedor:* Apple Maps / MapKit
 *   **Alertas de clima severo**
     *   *O que é enviado:* Solicitações para feeds meteorológicos públicos CAP/Atom; a sua região geral pode ser inferida a partir da seleção do feed e da localização do dispositivo
-    *   *Provedor:* National Weather Service dos EUA, MeteoGate (Europa), Administração Meteorológica da China (CMA), Administração Meteorológica da Coreia (KMA), Agência Meteorológica do Japão (JMA), Ambiente e Mudanças Climáticas do Canadá (ECCC), fontes públicas relacionadas à OMM e feeds públicos de alertas semelhantes
+    *   *Provedor:* National Weather Service dos EUA, Administração Meteorológica da China (CMA), Administração Meteorológica da Coreia (KMA), Agência Meteorológica do Japão (JMA), Ambiente e Mudanças Climáticas do Canadá (ECCC), fontes públicas relacionadas à OMM e feeds públicos de alertas semelhantes
+*   **Alertas meteorológicos europeus (via nosso cache de alertas)**
+    *   *Por que existe:* Os alertas europeus vêm do MeteoGate, um feed público compartilhado com limites de requisições. Com o crescimento da nossa base de usuários, os telefones que o consultavam diretamente passaram a exceder esses limites — ou seja, alertas perdidos. Nosso servidor agora busca os dados oficiais do MeteoGate uma única vez e os mantém por cerca de **15 minutos**; todos os telefones leem dessa cópia compartilhada. Os mesmos dados oficiais, mais atualizados e confiáveis para todos, e muito mais gentis com o feed público.
+    *   *O que é enviado:* Uma requisição ao nosso cache carrega apenas o código do país/região, o idioma do app e uma célula de localização que seu telefone arredonda para cerca de **50 km (0,5°)** antes do envio — usada somente para limitar a resposta aos alertas próximos. Nenhum nome, conta ou identificador de dispositivo é anexado. Como em qualquer serviço HTTPS, existem registros padrão de hospedagem de curta duração para operá-lo; não são ferramenta de rastreamento e não os vendemos. Versões antigas do app contatam os feeds públicos diretamente.
+    *   *Provedor:* Dados do MeteoGate (Europa), servidos por infraestrutura operada por nós
 *   **Alertas de terremoto**
     *   *O que é enviado:* Solicitações a um único feed público mundial de resumo de terremotos — a solicitação não contém nenhuma informação de localização ou região; a localização do seu dispositivo é usada apenas no dispositivo para decidir se um terremoto relatado está perto de você
     *   *Provedor:* Feed público de terremotos do Serviço Geológico dos EUA (USGS)
@@ -73,7 +77,7 @@ O Vigilant Ear é projetado para que os recursos centrais de escuta e legendas s
 
 Registros de depuração **locais** opcionais podem ser gravados no dispositivo para solução de problemas; eles não são carregados pelo aplicativo como um pipeline de telemetria e o texto da legenda não é incluído no conteúdo de depuração exportado.
 
-**Exceção — apenas Research Array:** se você optar por participar (veja abaixo), a Wingdings poderá receber os relatórios limitados de eventos que você escolher contribuir. Esse caminho não é análise de publicidade; é uma contribuição de pesquisa opcional que você controla e pode desligar a qualquer momento.
+**Exceção — Research Array e o cache meteorológico europeu:** se você optar pelo Research Array (veja abaixo), a Wingdings pode receber os relatórios limitados de eventos que você escolher contribuir. Separadamente, quando os alertas meteorológicos europeus estão ativados, seu telefone os lê do cache meteorológico que operamos (descrito acima); essas requisições carregam uma célula de localização aproximada de ~50 km e nenhum identificador pessoal ou de dispositivo. Nenhum dos dois caminhos é análise publicitária — ambos existem para fazer um recurso específico funcionar, não para construir um perfil seu.
 
 ## Research Array (opcional, desligado por padrão)
 
