@@ -8,6 +8,15 @@
 
 **电子邮件：** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 
+## 视频
+
+简短视频，一切都在屏幕上呈现，没有旁白 —— 无需听，全部可读。
+
+- **[更改字幕语言](https://youtu.be/bBTjlWnbFr4)** —— 切换应用语言并开启 **Speaker Auto-Translate**，包括大多数人漏掉的一步：在完全关闭并重新打开应用之前，字幕会一直以旧语言显示。
+- **[警报是什么样子](https://youtu.be/1NCXHqQ-BR8)** —— 烟雾探测器、敲门、婴儿啼哭、警笛、恶劣天气和地震确认，每个都带方向。
+
+更多： **[教程](https://www.youtube.com/playlist?list=PLV5sYptGyafo)** · **[示例](https://www.youtube.com/playlist?list=PLYc8NrtyfisY)**
+
 ## 常见问题解答
 
 ### Vigilant Ear 在后台如何工作？

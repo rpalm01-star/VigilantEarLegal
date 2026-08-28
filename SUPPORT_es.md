@@ -8,6 +8,15 @@ Si tiene problemas técnicos, tiene preguntas sobre la precisión de las alertas
 
 **Correo electrónico:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 
+## Videos
+
+Videos cortos con todo en pantalla y sin narración — nada que oír, todo para leer.
+
+- **[Cambiar el idioma de los subtítulos](https://youtu.be/bBTjlWnbFr4)** — cambiar el idioma de la app y activar **Speaker Auto-Translate**, incluido el paso que casi todos pasan por alto: los subtítulos siguen llegando en el idioma anterior hasta que cierras la app por completo y la vuelves a abrir.
+- **[Cómo se ven las alertas](https://youtu.be/1NCXHqQ-BR8)** — detector de humo, golpe en la puerta, llanto de bebé, sirena, clima severo y una confirmación de terremoto, cada una con su dirección.
+
+Más: **[Tutoriales](https://www.youtube.com/playlist?list=PLV5sYptGyafo)** · **[Ejemplos](https://www.youtube.com/playlist?list=PLYc8NrtyfisY)**
+
 ## Preguntas Frecuentes
 
 ### ¿Cómo funciona Vigilant Ear en segundo plano?

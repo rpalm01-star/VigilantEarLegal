@@ -8,6 +8,15 @@
 
 **البريد الإلكتروني:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 
+## مقاطع الفيديو
+
+مقاطع قصيرة يظهر فيها كل شيء على الشاشة وبدون تعليق صوتي — لا شيء للسماع، وكل شيء للقراءة.
+
+- **[تغيير لغة الترجمة النصية](https://youtu.be/bBTjlWnbFr4)** — تبديل لغة التطبيق وتفعيل **Speaker Auto-Translate**، بما في ذلك الخطوة التي يفوّتها معظم الناس: تستمر الترجمة بالوصول باللغة القديمة حتى تغلق التطبيق تمامًا وتفتحه من جديد.
+- **[كيف تبدو التنبيهات](https://youtu.be/1NCXHqQ-BR8)** — كاشف دخان، طرق على الباب، بكاء رضيع، صافرة إنذار، طقس قاسٍ وتأكيد زلزال، كلٌّ مع اتجاهه.
+
+المزيد: **[الدروس](https://www.youtube.com/playlist?list=PLV5sYptGyafo)** · **[نماذج](https://www.youtube.com/playlist?list=PLYc8NrtyfisY)**
+
 ## الأسئلة الشائعة
 
 ### كيف يعمل Vigilant Ear في الخلفية؟
