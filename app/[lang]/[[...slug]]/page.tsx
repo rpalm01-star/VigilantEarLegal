@@ -1,4 +1,5 @@
 import { marked } from "marked";
+import Mermaid from "@/app/Mermaid";
 import { notFound } from "next/navigation";
 import {
   DOCS, LANGUAGES, RTL_LANGUAGES, allPages, docBySlug, readDoc,
@@ -93,6 +94,7 @@ export default async function DocPage(
       )}
 
       <article dangerouslySetInnerHTML={{ __html: html }} />
+      <Mermaid />
 
       <footer className="site">
         <p>
