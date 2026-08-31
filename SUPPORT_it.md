@@ -10,7 +10,7 @@ Se riscontri problemi tecnici, hai domande sulla precisione degli avvisi o desid
 
 ## Video
 
-Brevi video con tutto sullo schermo e senza narrazione — niente da ascoltare, tutto da leggere.
+Brevi video con tutto sullo schermo — niente che serva ascoltare. Alcuni hanno anche una narrazione, ma nulla esiste solo in audio.
 
 - **[Cambiare la lingua dei sottotitoli](https://youtu.be/bBTjlWnbFr4)** — come cambiare la lingua dell'app e attivare **Speaker Auto-Translate**, incluso il passaggio che sfugge alla maggior parte delle persone: i sottotitoli continuano ad arrivare nella vecchia lingua finché non chiudi completamente l'app e la riapri.
 - **[Come appaiono gli avvisi](https://youtu.be/1NCXHqQ-BR8)** — rilevatore di fumo, bussata alla porta, pianto di un bambino, sirena, maltempo severo e una conferma di terremoto, ciascuno con la sua direzione.

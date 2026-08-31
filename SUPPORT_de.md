@@ -10,7 +10,7 @@ Wenn Sie technische Probleme haben, Fragen zur Genauigkeit von Warnungen haben o
 
 ## Videos
 
-Kurze Videos mit allem auf dem Bildschirm und ohne Erzählung — nichts zu hören, alles zum Lesen.
+Kurze Videos mit allem auf dem Bildschirm — nichts, was Sie hören müssen. Einige haben zusätzlich eine Erzählung, aber nichts ist nur als Ton verfügbar.
 
 - **[Untertitel-Sprache ändern](https://youtu.be/bBTjlWnbFr4)** — die App-Sprache umstellen und **Speaker Auto-Translate** einschalten, inklusive des Schritts, den die meisten übersehen: Untertitel kommen so lange in der alten Sprache an, bis Sie die App vollständig schließen und neu öffnen.
 - **[So sehen die Warnungen aus](https://youtu.be/1NCXHqQ-BR8)** — Rauchmelder, Klopfen an der Tür, Babyweinen, Sirene, Unwetter und eine Erdbeben-Bestätigung, jeweils mit Richtung.

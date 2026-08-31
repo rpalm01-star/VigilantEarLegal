@@ -10,7 +10,7 @@ Si vous rencontrez des problèmes techniques, avez des questions sur la précisi
 
 ## Vidéos
 
-Courtes vidéos avec tout à l'écran et sans narration — rien à entendre, tout à lire.
+Courtes vidéos avec tout à l'écran — rien que vous ayez besoin d'entendre. Certaines ont aussi une narration, mais rien n'existe uniquement sous forme sonore.
 
 - **[Changer la langue des sous-titres](https://youtu.be/bBTjlWnbFr4)** — changer la langue de l'app et activer **Speaker Auto-Translate**, y compris l'étape que la plupart manquent : les sous-titres continuent d'arriver dans l'ancienne langue jusqu'à ce que vous fermiez complètement l'app et la rouvriez.
 - **[À quoi ressemblent les alertes](https://youtu.be/1NCXHqQ-BR8)** — détecteur de fumée, coup à la porte, pleurs de bébé, sirène, météo extrême et une confirmation de séisme, chacune avec sa direction.

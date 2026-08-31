@@ -10,7 +10,7 @@ Se você estiver enfrentando problemas técnicos, tiver dúvidas sobre a precis�
 
 ## Vídeos
 
-Vídeos curtos com tudo na tela e sem narração — nada para ouvir, tudo para ler.
+Vídeos curtos com tudo na tela — nada que você precise ouvir. Alguns também têm narração, mas nada existe apenas em áudio.
 
 - **[Mudar o idioma das legendas](https://youtu.be/bBTjlWnbFr4)** — trocar o idioma do app e ativar o **Speaker Auto-Translate**, incluindo o passo que quase todos perdem: as legendas continuam chegando no idioma antigo até você fechar o app completamente e abri-lo de novo.
 - **[Como são os alertas](https://youtu.be/1NCXHqQ-BR8)** — detector de fumaça, batida na porta, choro de bebê, sirene, clima severo e uma confirmação de terremoto, cada um com sua direção.

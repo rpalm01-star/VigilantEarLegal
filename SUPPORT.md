@@ -10,7 +10,7 @@ If you are experiencing technical issues, have questions about alert accuracy, o
 
 ## Videos
 
-Short videos with everything on screen and no narration — nothing to hear, all of it to read.
+Short videos with everything on screen — nothing you need to hear. Some now carry narration as well, but nothing is audio-only.
 
 - **[Change your caption language](https://youtu.be/bBTjlWnbFr4)** — switching the app's language and turning on **Speaker Auto-Translate**, including the step most people miss: captions keep arriving in the old language until you close the app completely and open it again.
 - **[What the alerts look like](https://youtu.be/1NCXHqQ-BR8)** — smoke detector, knock at the door, baby crying, siren, severe weather and an earthquake confirmation, each with its direction.
