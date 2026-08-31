@@ -146,7 +146,7 @@ graph TD
 - **Constellation**은 **초광대역(Ultra-Wideband)**이 필요합니다 — iPhone 11 이상 (SE 및 "e" 모델 제외).
 - **Android.** 핵심 레이더, 알림, 자막, 날씨가 포함된 별도의 빌드; Constellation 메시는 iOS 우선입니다. Android 패리티가 증가함에 따라 제품 사이트 업데이트를 확인하세요.
 
-**현재 App Store 버전:** 1.0.18. 최신 iOS (SpeechAnalyzer 시대)를 위해 빌드되었습니다.
+**현재 App Store 버전:** 1.1.0. 최신 iOS (SpeechAnalyzer 시대)를 위해 빌드되었습니다.
 
 ---
 

@@ -175,7 +175,7 @@ Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](S
 - **Constellation** needs **Ultra-Wideband** — iPhone 11 or later, excluding SE and “e” models.
 - **Android.** Separate build with core radar, alerts, captions, and weather; Constellation mesh is iOS-first. See product site updates as Android parity grows.
 
-**Current App Store version:** 1.0.20. Built for modern iOS (SpeechAnalyzer-era).
+**Current App Store version:** 1.1.0. Built for modern iOS (SpeechAnalyzer-era).
 
 ---
 

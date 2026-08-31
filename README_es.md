@@ -146,7 +146,7 @@ Detalles completos: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT
 - **Constellation** necesita **banda ultraancha** — iPhone 11 o posterior, excluyendo los modelos SE y "e".
 - **Android.** Compilación separada con radar central, alertas, subtítulos y clima; la malla Constellation es primero para iOS. Consulta las actualizaciones del sitio del producto a medida que crezca la paridad con Android.
 
-**Versión actual en el App Store:** 1.0.18. Construido para el iOS moderno (era SpeechAnalyzer).
+**Versión actual en el App Store:** 1.1.0. Construido para el iOS moderno (era SpeechAnalyzer).
 
 ---
 
