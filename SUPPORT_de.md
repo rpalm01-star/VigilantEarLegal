@@ -71,6 +71,7 @@ Der Sicherheitskern ist **kostenlos, für immer**:
 - Unwetter-Feeds für Ihre Region — **NWS** in den USA, **MeteoGate** in Europa, **CMA** in China, **KMA** in Korea, **JMA** in Japan, **ECCC** in Kanada und **INMET** in Brasilien  
 - Übungswarnungen in der **Feature-Spielwiese** (mit Wasserzeichen, sodass sie nie wie ein echter Notfall aussehen)  
 - Richtungshinweise der **Apple Watch** als Begleiter und **Live-Aktivität** (Sperrbildschirm / Dynamic Island / Watch-Smart-Stapel), wo verfügbar  
+- **Acoustic Scope** — der Live-Klangvisualisierer, für alle kostenlos (die Aufnahme-Werkzeuge für das Training gehören zu Power Pack+)  
 
 **Power Pack+** ist eine einmalige Freischaltung (**kein Abonnement**) mit einer **kostenlosen 90-Tage-Testversion**. Es fügt hinzu:
 

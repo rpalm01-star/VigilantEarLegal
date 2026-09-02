@@ -61,14 +61,14 @@ graph LR
 ### 🎵 Music & broadcast awareness *(Power Pack+)*
 **ShazamKit** identifies music playing around you and tracks song changes.
 
-### 🎛️ Acoustic Scope — see sound like an engineer *(Power Pack+)*
-A professional live view of the sound around you: spectrum, spectrogram, ⅓-octave RTA bands, chroma, and harmonic partials — plus tools to capture sounds for training your own custom packs.
+### 🎛️ Acoustic Scope — see sound like an engineer
+A professional live view of the sound around you: spectrum, spectrogram, ⅓-octave RTA bands, chroma, and harmonic partials — **free for everyone**. The tools that capture sounds for training your own custom packs are part of Power Pack+.
 
 ### 📦 Custom Sound Packs — teach it your world *(Power Pack+)*
 Teach Vigilant Ear the sounds that matter to you — from local birds to your building's door chime. Add-on packs stack on top of the built-in detection, so new sounds never crowd out sirens and alarms. A step-by-step guide is built into the app.
 
 ### 🛰️ Constellation — many iPhones, one shared ear *(Power Pack+)*
-With two or more Ultra-Wideband-enabled iPhones (most since iPhone 11), **Constellation** pairs them so they can sense each other's position and fuse what each one hears into a single, more precise picture of where a sound is coming from — a distributed, passive listening array. Captions are fused too: each phone transcribes what its own microphone hears, and the words are aligned across phones so the one nearest a speaker contributes what it heard — words only one phone caught are kept rather than lost. Gated to devices with the right hardware. Mesh captions older than a peer's connect time are not retransmitted.
+With two or more Ultra-Wideband-enabled iPhones (most since iPhone 11), **Constellation** pairs them so they can sense each other's position and fuse what each one hears into a single, more precise picture of where a sound is coming from — a distributed, passive listening array. Captions are fused too: each phone transcribes what its own microphone hears, and the words are aligned across phones so the one nearest a speaker contributes what it heard — words only one phone caught are kept rather than lost. The phones connect **directly to each other** — no router, no shared Wi-Fi network and no internet; Wi-Fi simply has to be switched on, over the same peer-to-peer link AirDrop uses. Gated to devices with the right hardware. Mesh captions older than a peer's connect time are not retransmitted.
 
 **Partner messages** — send a quick text to a linked partner's phone; it lands in their caption feed and can arrive translated into their language, on-device. Messaging is age-aware: built on Apple's Declared Age Range, texting between an adult and a minor stays off unless both people have deliberately named each other. Alerts and captions are never gated — only person-to-person texting.
 
@@ -97,13 +97,13 @@ The safety core is **free, forever**:
 - **Earthquake alerts (USGS, worldwide)** — feel a buzz and see the area that felt it on your map when a quake is reported nearby. A confirmation from the official USGS feed — not an early warning: if you felt shaking, this tells you what it was. On-device deep-rumble (infrasound) sensing can arm the check the moment the ground moves.
 - **Feature Playground** — practice alerts and feature previews with a clear PREVIEW watermark.
 - **Apple Watch companion & Live Activity** — glanceable direction and last alert.
+- **Acoustic Scope** — pro-grade live sound visualization, free for everyone. (The capture-for-training tools are Power Pack+.)
 
 **Power Pack+** is a one-time unlock (**not a subscription**) with a **90-day free trial**. It adds the superpowers:
 
 - **Speaker Auto-Translate** — on-device translation of nearby speech into your language.
 - **Constellation** — multi-iPhone shared hearing over Ultra-Wideband, with partner messages.
 - **Music ID** — ShazamKit song recognition.
-- **Acoustic Scope** — pro-grade live sound visualization and capture tools.
 - **Custom Sound Packs** — add-on classifiers you train for your own sounds.
 
 Free or Power Pack+, **your audio stays on the device for recognition** — the tier only changes which features are unlocked, never where raw audio is sent for analysis.
@@ -171,10 +171,10 @@ Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](S
 - **iPhone (full experience).** Works in portrait or landscape — hold it however you like. Stereo microphones required for direction-finding. Recommended **iPhone 13 or newer**.
 - **Apple Watch.** Companion alerts with direction arrow; works with Live Activity / Smart Stack.
 - **iPad (native).** Adaptive layout: on the big screen, live captions get a see-through panel beside the map that tucks away when nobody is talking. Single-channel mics → captions without full direction.
-- **Constellation** needs **Ultra-Wideband** — iPhone 11 or later, excluding SE and “e” models.
+- **Constellation** needs **Ultra-Wideband** — iPhone 11 or later, excluding SE and “e” models. It does **not** need a Wi-Fi network: with Wi-Fi switched on, the phones discover each other directly, so Constellation works with no router and no internet as long as the phones are near each other.
 - **Android.** Separate build with core radar, alerts, captions, and weather; Constellation mesh is iOS-first. See product site updates as Android parity grows.
 
-**Current App Store version:** 1.1.0. Built for modern iOS (SpeechAnalyzer-era).
+**Current App Store version:** 1.1.1. Built for modern iOS (SpeechAnalyzer-era).
 
 ---
 

@@ -57,14 +57,14 @@ graph LR
 ### 🎵 Reconnaissance de musique et de diffusion *(Power Pack+)*
 **ShazamKit** identifie la musique qui joue autour de vous et suit les changements de chanson.
 
-### 🎛️ Oscilloscope acoustique — voir le son comme un ingénieur *(Power Pack+)*
-Une vue professionnelle et en direct du son autour de vous : spectre, spectrogramme, bandes RTA au tiers d'octave, chroma et partiels harmoniques — plus des outils pour capturer des sons et entraîner vos propres packs.
+### 🎛️ Oscilloscope acoustique — voir le son comme un ingénieur
+Une vue professionnelle et en direct du son autour de vous : spectre, spectrogramme, bandes RTA au tiers d'octave, chroma et partiels harmoniques — **gratuit pour tous**. Les outils de capture de sons pour entraîner vos propres packs font partie de Power Pack+.
 
 ### 📦 Packs de sons personnalisés — apprenez-lui votre monde *(Power Pack+)*
 Apprenez à Vigilant Ear les sons qui comptent pour vous — des oiseaux locaux à la sonnette de votre immeuble. Les packs s'ajoutent à la détection intégrée sans jamais évincer sirènes et alarmes. Un guide pas à pas est inclus dans l'app.
 
 ### 🛰️ Constellation — plusieurs iPhones, une oreille partagée *(Power Pack+)*
-Avec deux iPhones ou plus équipés de la technologie Ultra-Wideband (la plupart depuis l'iPhone 11), **Constellation** les associe afin qu'ils puissent détecter la position des autres et fusionner ce que chacun entend en une image unique et plus précise de la provenance d'un son — un réseau d'écoute distribué et passif. Restreint aux appareils dotés du matériel approprié. Les sous-titres en réseau mesh antérieurs à l'heure de connexion d'un pair ne sont pas retransmis.
+Avec deux iPhones ou plus équipés de la technologie Ultra-Wideband (la plupart depuis l'iPhone 11), **Constellation** les associe afin qu'ils puissent détecter la position des autres et fusionner ce que chacun entend en une image unique et plus précise de la provenance d'un son — un réseau d'écoute distribué et passif. Les téléphones se connectent **directement entre eux** : pas de routeur, pas de réseau Wi-Fi partagé et pas d'internet ; il suffit que le Wi-Fi soit activé, via la même liaison pair-à-pair qu'utilise AirDrop. Restreint aux appareils dotés du matériel approprié. Les sous-titres en réseau mesh antérieurs à l'heure de connexion d'un pair ne sont pas retransmis.
 
 **Messages entre partenaires** — envoyez un court texte vers le téléphone d'un partenaire associé ; il apparaît dans son fil de sous-titres et peut arriver traduit dans sa langue, sur l'appareil. La messagerie tient compte de l'âge : fondée sur la tranche d'âge déclarée d'Apple, la messagerie entre un adulte et un mineur reste désactivée à moins que les deux ne se soient délibérément nommés l'un l'autre. Les alertes et les sous-titres ne sont jamais restreints — seuls les messages de personne à personne le sont.
 
@@ -93,13 +93,13 @@ Le cœur de la sécurité est **gratuit, pour toujours** :
 - **Alertes sismiques (USGS, monde entier)** — ressentez une vibration et visualisez sur votre carte la zone qui a ressenti le séisme lorsqu'un tremblement de terre est signalé à proximité. Une confirmation issue du flux officiel de l'USGS — pas une alerte précoce : si vous avez senti une secousse, ceci vous dit ce que c'était. La détection de grondements profonds (infrasons) sur l'appareil peut armer la vérification dès que le sol bouge.
 - **Terrain de jeu des fonctionnalités** — alertes d'entraînement et aperçus des fonctionnalités avec un filigrane PREVIEW bien visible.
 - **Compagnon Apple Watch & Live Activity** — direction et dernière alerte consultables d'un coup d'œil.
+- **Oscilloscope acoustique** — visualisation sonore en direct de niveau professionnel, gratuit pour tous. (Les outils de capture pour l'entraînement font partie de Power Pack+.)
 
 Le **Power Pack+** est un déblocage unique (**pas un abonnement**) avec un **essai gratuit de 90 jours**. Il ajoute les superpouvoirs suivants :
 
 - **Auto-traduction des locuteurs (Speaker Auto-Translate)** — traduction sur l'appareil de la parole environnante vers votre langue.
 - **Constellation** — audition partagée sur plusieurs iPhones via Ultra-Wideband, avec messages entre partenaires.
 - **Music ID** — reconnaissance de chansons via ShazamKit.
-- **Oscilloscope acoustique** — visualisation sonore en direct de niveau professionnel et outils de capture.
 - **Packs de sons personnalisés** — des classificateurs additionnels que vous entraînez pour vos propres sons.
 
 Que ce soit en version Gratuite ou Power Pack+, **votre audio reste sur l'appareil pour la reconnaissance** — le niveau modifie seulement quelles fonctionnalités sont débloquées, jamais l'endroit où l'audio brut est envoyé pour analyse.
@@ -143,10 +143,10 @@ Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](S
 - **iPhone (expérience complète).** Fonctionne en portrait comme en paysage — tenez-le comme vous voulez. Microphones stéréo requis pour la radiogoniométrie (direction). Recommandé : **iPhone 13 ou plus récent**.
 - **Apple Watch.** Alertes compagnon avec flèche de direction ; fonctionne avec Live Activity / Défilement intelligent (Smart Stack).
 - **iPad (natif).** Mise en page adaptative : sur grand écran, les sous-titres en direct disposent d'un panneau translucide à côté de la carte, qui s'efface quand personne ne parle. Micros monocanal → sous-titres sans direction complète.
-- **Constellation** nécessite l'**Ultra-Wideband** — iPhone 11 ou ultérieur, à l'exclusion des modèles SE et « e ».
+- **Constellation** nécessite l'**Ultra-Wideband** — iPhone 11 ou ultérieur, à l'exclusion des modèles SE et « e ». Il n'a **pas** besoin d'un réseau Wi-Fi : avec le Wi-Fi activé, les téléphones se découvrent directement, donc Constellation fonctionne sans routeur et sans internet tant que les téléphones sont proches.
 - **Android.** Version séparée avec le radar principal, les alertes, les sous-titres et la météo ; le réseau mesh Constellation est d'abord disponible sur iOS. Voir les mises à jour du site du produit à mesure que la parité Android progresse.
 
-**Version actuelle sur l'App Store :** 1.1.0. Conçu pour les systèmes iOS modernes (ère SpeechAnalyzer).
+**Version actuelle sur l'App Store :** 1.1.1. Conçu pour les systèmes iOS modernes (ère SpeechAnalyzer).
 
 ---
 

@@ -71,6 +71,7 @@ The safety core is **free, forever**:
 - Severe-weather feeds for your region — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, **Korea KMA**, **Japan JMA**, **Canada ECCC**, **Australia BOM**, and **Brazil INMET**  
 - **Feature Playground** practice alerts (watermarked so they never look like a live emergency)  
 - **Apple Watch** companion direction cues and **Live Activity** (Lock Screen / Dynamic Island / Watch Smart Stack), where available  
+- **Acoustic Scope** — the live sound visualizer, free for everyone (the capture-for-training tools are Power Pack+)  
 
 **Power Pack+** is a one-time unlock (**not a subscription**) with a **90-day free trial**. It adds:
 

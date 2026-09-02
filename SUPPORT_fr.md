@@ -71,6 +71,7 @@ Le cœur de la sécurité est **gratuit, pour toujours** :
 - Flux météo extrêmes pour votre région — **NWS** aux États-Unis, **MeteoGate** en Europe, **CMA** en Chine, **KMA** en Corée, **JMA** au Japon, **ECCC** au Canada, et **INMET** au Brésil  
 - Alertes d'entraînement du **Terrain de jeu des fonctionnalités** (filigranées pour ne jamais ressembler à une urgence réelle)  
 - Indications de direction du compagnon **Apple Watch** et **Live Activity** (Écran de verrouillage / Dynamic Island / Défilement intelligent de la Watch), là où c'est disponible  
+- **Oscilloscope acoustique** — le visualiseur sonore en direct, gratuit pour tous (les outils de capture pour l'entraînement font partie de Power Pack+)  
 
 Le **Power Pack+** est un déblocage unique (**pas un abonnement**) avec un **essai gratuit de 90 jours**. Il ajoute :
 

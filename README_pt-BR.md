@@ -57,14 +57,14 @@ graph LR
 ### 🎵 Consciência de música e transmissão *(Power Pack+)*
 O **ShazamKit** identifica a música tocando ao seu redor e rastreia as mudanças de música.
 
-### 🎛️ Escopo Acústico — veja o som como um engenheiro *(Power Pack+)*
-Uma visão profissional e ao vivo do som ao seu redor: espectro, espectrograma, bandas RTA de ⅓ de oitava, croma e parciais harmônicos — além de ferramentas para capturar sons e treinar seus próprios pacotes.
+### 🎛️ Escopo Acústico — veja o som como um engenheiro
+Uma visão profissional e ao vivo do som ao seu redor: espectro, espectrograma, bandas RTA de ⅓ de oitava, croma e parciais harmônicos — **grátis para todos**. As ferramentas para capturar sons e treinar seus próprios pacotes fazem parte do Power Pack+.
 
 ### 📦 Pacotes de Som Personalizados — ensine o seu mundo a ele *(Power Pack+)*
 Ensine ao Vigilant Ear os sons que importam para você — dos pássaros da região à campainha do seu prédio. Os pacotes adicionais se somam à detecção integrada, sem nunca atrapalhar sirenes e alarmes. Guia passo a passo incluído no app.
 
 ### 🛰️ Constellation — muitos iPhones, um ouvido compartilhado *(Power Pack+)*
-Com dois ou mais iPhones habilitados para Ultra-Wideband (a maioria desde o iPhone 11), o **Constellation** os emparelha para que possam sentir a posição um do outro e fundir o que cada um ouve em uma imagem única e mais precisa de onde um som está vindo — uma matriz de escuta passiva e distribuída. Limitado a dispositivos com o hardware correto. As legendas de malha mais antigas que o tempo de conexão de um par não são retransmitidas.
+Com dois ou mais iPhones habilitados para Ultra-Wideband (a maioria desde o iPhone 11), o **Constellation** os emparelha para que possam sentir a posição um do outro e fundir o que cada um ouve em uma imagem única e mais precisa de onde um som está vindo — uma matriz de escuta passiva e distribuída. Os telefones se conectam **diretamente entre si** — sem roteador, sem rede Wi-Fi compartilhada e sem internet; basta o Wi-Fi estar ligado, pelo mesmo enlace ponto a ponto que o AirDrop usa. Limitado a dispositivos com o hardware correto. As legendas de malha mais antigas que o tempo de conexão de um par não são retransmitidas.
 
 **Mensagens entre parceiros** — envie um texto rápido para o telefone de um parceiro vinculado; ele aparece no feed de legendas dele e pode chegar traduzido para o idioma dele, no próprio aparelho. As mensagens levam a idade em conta: com base na Faixa Etária Declarada da Apple, as mensagens entre um adulto e um menor permanecem desativadas, a menos que ambos tenham deliberadamente nomeado um ao outro. Alertas e legendas nunca são restringidos — apenas as mensagens de pessoa a pessoa.
 
@@ -93,13 +93,13 @@ O núcleo de segurança é **gratuito, para sempre**:
 - **Alertas de terremoto (USGS, mundial)** — sinta uma vibração e veja no mapa a área que sentiu o tremor quando um terremoto for relatado por perto. Uma confirmação do feed oficial do USGS — não um alerta antecipado: se você sentiu o tremor, isto lhe diz o que foi. A detecção de estrondos profundos (infrassom) no dispositivo pode armar a verificação no instante em que o chão se move.
 - **Zona de Testes** — alertas de prática e prévias de recursos com uma clara marca d'água PREVIEW.
 - **Companheiro do Apple Watch e Live Activity** — direção visualizável e último alerta.
+- **Escopo Acústico** — visualização de som ao vivo de nível profissional, grátis para todos. (As ferramentas de captura para treinamento são do Power Pack+.)
 
 O **Power Pack+** é um desbloqueio único (**não é uma assinatura**) com um **teste gratuito de 90 dias**. Ele adiciona os superpoderes:
 
 - **Speaker Auto-Translate** — tradução no dispositivo de fala próxima para o seu idioma.
 - **Constellation** — audição compartilhada em vários iPhones sobre Ultra-Wideband, com mensagens entre parceiros.
 - **Identificação de Música (Music ID)** — reconhecimento de música do ShazamKit.
-- **Escopo Acústico** — visualização de som ao vivo de nível profissional e ferramentas de captura.
 - **Pacotes de Som Personalizados** — classificadores adicionais que você treina para os seus próprios sons.
 
 Gratuito ou Power Pack+, **seu áudio permanece no dispositivo para reconhecimento** — o nível muda apenas quais recursos são desbloqueados, nunca para onde o áudio bruto é enviado para análise.
@@ -143,10 +143,10 @@ Detalhes completos: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT
 - **iPhone (experiência completa).** Funciona em retrato ou paisagem — segure como preferir. Microfones estéreo necessários para encontrar a direção. Recomendado **iPhone 13 ou mais recente**.
 - **Apple Watch.** Alertas de companheiro com seta de direção; funciona com Live Activity / Conjunto Inteligente.
 - **iPad (nativo).** Layout adaptável: na tela grande, as legendas ao vivo ganham um painel translúcido ao lado do mapa que se recolhe quando ninguém está falando. Microfones de canal único → legendas sem direção completa.
-- **Constellation** requer **Ultra-Wideband** — iPhone 11 ou posterior, excluindo os modelos SE e "e".
+- **Constellation** requer **Ultra-Wideband** — iPhone 11 ou posterior, excluindo os modelos SE e "e". **Não** precisa de uma rede Wi-Fi: com o Wi-Fi ligado, os telefones se descobrem diretamente, então o Constellation funciona sem roteador e sem internet enquanto os telefones estiverem próximos.
 - **Android.** Compilação separada com radar central, alertas, legendas e clima; a malha Constellation é voltada primeiramente para iOS. Veja as atualizações no site do produto conforme a paridade com o Android cresce.
 
-**Versão atual na App Store:** 1.1.0. Desenvolvido para o iOS moderno (era SpeechAnalyzer).
+**Versão atual na App Store:** 1.1.1. Desenvolvido para o iOS moderno (era SpeechAnalyzer).
 
 ---
 

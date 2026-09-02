@@ -71,6 +71,7 @@ Il nucleo di sicurezza è **gratuito, per sempre**:
 - Feed di maltempo severo per la tua regione — **NWS** per gli Stati Uniti, **MeteoGate** per l'Europa, **CMA** per la Cina, **KMA** per la Corea, **JMA** per il Giappone, **ECCC** per il Canada e **INMET** per il Brasile  
 - Avvisi di prova del **Parco giochi delle funzionalità** (con filigrana, così non sembrano mai un'emergenza reale)  
 - Indicazioni di direzione dell'app complementare per **Apple Watch** e **Live Activity** (Schermata di blocco / Dynamic Island / Smart Stack del Watch), dove disponibili  
+- **Oscilloscopio Acustico** — il visualizzatore sonoro in tempo reale, gratis per tutti (gli strumenti di cattura per l'addestramento sono di Power Pack+)  
 
 **Power Pack+** è uno sblocco una tantum (**non un abbonamento**) con una **prova gratuita di 90 giorni**. Aggiunge:
 

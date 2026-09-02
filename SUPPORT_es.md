@@ -71,6 +71,7 @@ El núcleo de seguridad es **gratis, para siempre**:
 - Fuentes de clima severo para su región — **NWS** de EE. UU., **MeteoGate** de Europa, **CMA** de China, **KMA** de Corea, **JMA** de Japón, **ECCC** de Canadá e **INMET** de Brasil  
 - Alertas de práctica de la **Zona de Pruebas** (con marca de agua para que nunca parezcan una emergencia real)  
 - Señales de dirección en la aplicación complementaria de **Apple Watch** y **Live Activity** (Pantalla de bloqueo / Dynamic Island / Smart Stack del Watch), donde estén disponibles  
+- **Osciloscopio Acústico** — el visualizador de sonido en vivo, gratis para todos (las herramientas de captura para entrenamiento son de Power Pack+)  
 
 **Power Pack+** es un desbloqueo único (**no una suscripción**) con una **prueba gratuita de 90 días**. Agrega:
 
