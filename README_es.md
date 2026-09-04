@@ -146,7 +146,7 @@ Detalles completos: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT
 - **Constellation** necesita **banda ultraancha** — iPhone 11 o posterior, excluyendo los modelos SE y "e". **No** necesita una red Wi-Fi: con el Wi-Fi encendido, los teléfonos se descubren directamente, así que Constellation funciona sin router y sin internet mientras los teléfonos estén cerca.
 - **Android.** Compilación separada con radar central, alertas, subtítulos y clima; la malla Constellation es primero para iOS. Consulta las actualizaciones del sitio del producto a medida que crezca la paridad con Android.
 
-**Versión actual en el App Store:** 1.1.1. Construido para el iOS moderno (era SpeechAnalyzer).
+**Versión actual en el App Store:** 1.1.2. Construido para el iOS moderno (era SpeechAnalyzer).
 
 ---
 

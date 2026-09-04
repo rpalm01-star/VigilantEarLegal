@@ -146,7 +146,7 @@ graph TD
 - **Constellation** 需要**超宽带 (Ultra-Wideband)** —— iPhone 11 或更高版本，不包括 SE 和 “e” 型号。 **不需要** Wi-Fi 网络：只要打开 Wi-Fi，手机之间就能直接发现彼此，因此在没有路由器、没有互联网的情况下，只要手机彼此靠近即可使用。
 - **Android。** 独立版本，具有核心雷达、提醒、字幕和天气；Constellation 网格是 iOS 优先。随着 Android 版的完善，请关注产品网站更新。
 
-**当前 App Store 版本：** 1.1.1。为现代 iOS（SpeechAnalyzer 时代）构建。
+**当前 App Store 版本：** 1.1.2。为现代 iOS（SpeechAnalyzer 时代）构建。
 
 ---
 

@@ -146,7 +146,7 @@ graph TD
 - **Constellation** には **Ultra-Wideband** が必要です — iPhone 11 以降 (SE および「e」モデルを除く)。Wi-Fi ネットワークは**不要**です。Wi-Fi をオンにしておけば iPhone どうしが直接見つけ合うため、ルーターもインターネットもない場所でも、iPhone どうしが近くにあれば動作します。
 - **Android。** コアレーダー、アラート、キャプション、天気を備えた個別のビルド。Constellation メッシュは iOS ファーストです。Android の同等性が高まるにつれて、製品サイトのアップデートをご覧ください。
 
-**現在の App Store バージョン:** 1.1.1。最新の iOS (SpeechAnalyzer 時代) 向けに構築されています。
+**現在の App Store バージョン:** 1.1.2。最新の iOS (SpeechAnalyzer 時代) 向けに構築されています。
 
 ---
 

@@ -174,7 +174,7 @@ Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](S
 - **Constellation** needs **Ultra-Wideband** — iPhone 11 or later, excluding SE and “e” models. It does **not** need a Wi-Fi network: with Wi-Fi switched on, the phones discover each other directly, so Constellation works with no router and no internet as long as the phones are near each other.
 - **Android.** Separate build with core radar, alerts, captions, and weather; Constellation mesh is iOS-first. See product site updates as Android parity grows.
 
-**Current App Store version:** 1.1.1. Built for modern iOS (SpeechAnalyzer-era).
+**Current App Store version:** 1.1.2. Built for modern iOS (SpeechAnalyzer-era).
 
 ---
 

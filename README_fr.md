@@ -146,7 +146,7 @@ Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](S
 - **Constellation** nécessite l'**Ultra-Wideband** — iPhone 11 ou ultérieur, à l'exclusion des modèles SE et « e ». Il n'a **pas** besoin d'un réseau Wi-Fi : avec le Wi-Fi activé, les téléphones se découvrent directement, donc Constellation fonctionne sans routeur et sans internet tant que les téléphones sont proches.
 - **Android.** Version séparée avec le radar principal, les alertes, les sous-titres et la météo ; le réseau mesh Constellation est d'abord disponible sur iOS. Voir les mises à jour du site du produit à mesure que la parité Android progresse.
 
-**Version actuelle sur l'App Store :** 1.1.1. Conçu pour les systèmes iOS modernes (ère SpeechAnalyzer).
+**Version actuelle sur l'App Store :** 1.1.2. Conçu pour les systèmes iOS modernes (ère SpeechAnalyzer).
 
 ---
 
