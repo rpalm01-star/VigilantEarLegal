@@ -1,6 +1,8 @@
 # Vigilant Ear 👂🛡️
 
-*An acoustic radar for people who can't hear.*
+*Effective as of version 1.1.3 · September 2026.*
+
+## An acoustic radar for people who can't hear.
 
 An app built specifically for the Deaf, hard-of-hearing, and CODA community. Most sound-recognition apps tell you *what* a sound is. **Vigilant Ear tells you where it is, who's making it, and what they're saying** — turning an iPhone into a real-time sonic tricorder that describes the sound around you.
 
@@ -29,7 +31,7 @@ Everything that matters runs on the device. Audio is not recorded or uploaded fo
 ## What it does
 
 ### 🧭 It sees sound — direction & distance
-Using the iPhone's stereo microphones, Vigilant Ear estimates the **bearing and rough distance** of sounds around you and places them as live markers on a heading-up radar ring and map. Move, and the markers hold their real-world position. This is the core: spatial awareness of a world you can't hear.
+Using the iPhone's two microphones, Vigilant Ear measures the **angle of a sound and whether it is ahead of you or behind you**, holds that reading steady to about a degree, and places it as a live marker on a heading-up radar ring and map. Two microphones on one line can't tell left from right on their own — a sound 50° to your right and one 50° to your left arrive with the same tiny time gap — so the app draws the reading plus a **fainter ghost on the other side**, and a turn of the wrist or a second phone settles it. Distance is estimated from loudness against a street-calibrated curve and shown as the estimate it is: *≈ 50 ft*, with a likely range. Move, and the markers hold their real-world position. This is the core: spatial awareness of a world you can't hear. (Numbers below.)
 
 ### 🚨 It recognizes important sounds — and warns you
 An on-device classifier identifies hundreds of everyday sounds and watches the critical categories — **sirens, alarms — including a dedicated car-alarm class — doorbells/knocks, baby cry, a person nearby, and severe weather.** When one fires, you get a clear on-screen alert, optional **push notification**, and a distinct **haptic** — even when the app is backgrounded or the phone is asleep. Critical categories default ready so enabling notifications doesn't mean “everything off.” Turn all alert categories off and the engine fully hibernates while backgrounded to save battery. A **Sentinel** layer cross-checks alerts against independent evidence — direction, motion, and public feeds — so what fires is corroborated, not a lone classifier guess. It works both ways: a siren-shaped moment inside a song gets held, but a real siren repeating through your music breaks through and alerts.
@@ -122,7 +124,7 @@ graph TD
     C --> S["Sentinel — evidence layer<br/>corroborates, vetoes, escalates"]
     Y --> S
     S --> H["Alerts · haptics · Watch · Live Activity"]
-    B --> D["Spatial math<br/>TDOA · Doppler → bearing & distance"]
+    B --> D["Spatial math<br/>TDOA · level trend → bearing · distance · approach"]
     D --> R["Radar ring · map · Camera AR"]
     B --> F["Speech recognition<br/>(SpeechAnalyzer)"]
     B --> E["Voice identity<br/>(ReDimNet embeddings, ANE)"]
@@ -140,7 +142,7 @@ graph LR
     L["Live caption appears"] --> K["Raw audio re-read<br/>with full context"] --> V["Guarded comparison<br/>(keeps what was heard)"] --> W["Row quietly corrected<br/>≤ 2 s, then frozen"]
 ```
 
-- **Spatial math** — FFTs, Time-Difference-of-Arrival, and Doppler tracking on background tasks.
+- **Spatial math** — FFTs, coherence-weighted Time Difference of Arrival (TDOA — favor the frequency bands both microphones agree on, then turn the tiny arrival lag into a bearing), and level-trend approach tracking on background tasks. The microphone pair is read in a fixed orientation so direction works the same whether you hold the phone upright or sideways.
 - **Speech** — iOS 26 `SpeechAnalyzer` / `SpeechTranscriber` for transcription; **ReDimNet** speaker embeddings for voice identity; Apple's **Translation** framework for on-device translation. Voice identity is evidence-based: a voice is confirmed as a real person only from independent windows of sound, and an uncertain match shows as unattributed rather than guessing the wrong name.
 - **Music truth** — a chroma **song-signature detector** owns the "is music actually playing?" decision, because general classifiers famously call silent rooms and sirens "music." Shazam only runs once the signature agrees something musical is really there.
 - **Concurrency** — Swift 6 isolation keeps the microphone tap, acoustic math, and UI render loop cleanly separated.
@@ -153,6 +155,51 @@ graph LR
     P1["Vigilant Ear<br/>On Your Device"] --> W["Wingdings alert cache<br/>one shared copy · 15-minute refresh"]
     W --> N["Official public feeds<br/>NWS · MeteoGate · JMA · KMA · CMA<br/>ECCC · BOM · INMET · USGS"]
 ```
+
+---
+
+## What your phone can hear — measured
+
+Your iPhone has two microphones about six inches apart, a barometer, and a very good clock. That is enough to tell you which way a sound is, roughly how far, whether it is coming toward you, and whether a door just opened. Here is how accurate each of those is, how we checked, and why it matters if you can't hear the sound yourself. Direction and related figures were measured on an iPhone 17 and an iPhone 16 Pro Max in September 2026. Distance stays an estimate by nature — we say so on screen.
+
+**Direction — about a degree.** A sound reaches the top microphone a few hundred microseconds before the bottom one, or after (a few hundred millionths of a second). From that tiny gap the app works out how far off the phone's long axis the sound is, and whether it is in front of you or behind you. Engineers call this **TDOA** — *Time Difference of Arrival*: measure the lag, turn it into a bearing. That is what we do here.
+
+| What we measured | Result |
+|---|---|
+| Second-to-second wobble of the reading | 0.6° on the iPhone 17 · 1.5° on the 16 Pro Max |
+| Measured arrival gap vs. a tape measure | within 4 mm |
+| Usable readings at four per second (desk census) | 98% |
+| Median error across 96 simulated rooms — quiet office through a hard-walled room, including cases where noise is nearly as loud as the sound (5 dB SNR) | 1.0° |
+
+*Why it matters:* if you can't hear a siren, "behind you, off to one side" tells you where to look — and a reading that holds still is one you can trust.
+
+**Distance — shown as the estimate it is.** One microphone can't measure distance, only loudness, and a loud truck far away can sound like a quiet car up close. The app estimates distance from loudness using a curve fitted on a real street, then says it the way a careful person would: *about 50 ft, likely between 25 and 100.*
+
+| What we measured | Result |
+|---|---|
+| Real car detections replayed through the calibration | 1,131 |
+| Landing inside the 100-foot road they were actually on | 73% |
+| Far-lane cars | estimated 78 and 87 ft where the tape said 73 and 85 ft |
+
+The road (a city intersection) was measured lane by lane; when the curve errs, it errs on the near side. The calibration is locked by an automated test so it can't silently drift. Alarms inside your own space, like a smoke detector, get no distance figure at all — they are already in the room with you.
+
+**Motion — coming toward you.** For cars and sirens, getting louder usually means getting closer. The app watches how fast a sound's level rises over a few seconds: a sustained climb of about 1.5 dB per second (a clear, steady increase in loudness) means approaching, a matching fall means leaving, and a sound that stops changing stops being called either after about four seconds. A single loud moment — a horn tap, a door slam — can't trigger it. Built on physics and nine automated tests; a recorded street pass-by is the next field confirmation.
+
+**The air in the room — a door has a signature.** The barometer can notice a door opening about fourteen feet away: pressure dips as the door swings, then rebounds as it closes. Over fourteen hours of quiet and fifteen door events, every door made that two-part shape and nothing else in the house did.
+
+| Event | Pressure rate | Shape |
+|---|---|---|
+| Front door, opened and closed, ×10 | 0.6–1.8 Pa/s | dip, then rebound, ~5 s apart |
+| Front door, slammed, ×5 | 1.1–2.5 Pa/s | same pair, taller |
+| Air conditioning cycling overnight, ×8 | 0.11–0.46 Pa/s | slow ramp over minutes, identical on both phones |
+| A quiet room | ~0.02 Pa/s | nothing |
+| Walking past, sneezing | — | the motion sensor notices and the phone ignores it |
+
+A screen door, which doesn't seal the room, was invisible — exactly as it should be. Today a pressure shift can show as deep rumbles on the map; a dedicated quiet-night door alert is measured and designed, and is not yet the everyday default.
+
+**Constellation — two phones settle the side.** Each phone on the mesh draws a line toward the sound from where it sits, and the lines only cross cleanly on one side. When they do, the ghost disappears and the app can say left or right again. In simulation, two phones **40 meters apart** place a siren 50 meters away to within about 2 meters.
+
+**How anything here gets believed.** Every number went through the same three gates, in order: a simulated room with the answer known in advance; small automated tests that recreate the exact case that would fool the app and run on every change; then the real phones on a real desk with distances measured by hand. Nothing counts as accurate until it survives the third. For someone who can't hear the sound, the app's word is the only word — it should be earned the way a lab earns it.
 
 ---
 
