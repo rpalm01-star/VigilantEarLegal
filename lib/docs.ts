@@ -26,6 +26,7 @@ export const LANGUAGES = [
   { code: "zh-Hans", label: "中文" },
   { code: "ko", label: "한국어" },
   { code: "ru", label: "Русский" },
+  { code: "hi", label: "हिन्दी" },
 ] as const;
 
 export const RTL_LANGUAGES = new Set(["ar"]);
@@ -50,6 +51,7 @@ export const DOCS: Doc[] = [
   { slug: "witness-ear", file: "WITNESSEAR", title: "Witness Ear", translated: true, inNav: true },
   { slug: "byom", file: "BYOM", title: "Bring Your Own Model", translated: true, inNav: true },
   { slug: "acoustic-scope", file: "ACOUSTICSCOPE", title: "Acoustic Scope", translated: false, inNav: true },
+  { slug: "physics", file: "PHYSICS", title: "Physics", translated: false, inNav: true },
   { slug: "sound-packs", file: "iOSDynamicSoundPacks", title: "Sound Packs", translated: false, inNav: false },
 ];
 

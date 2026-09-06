@@ -201,6 +201,8 @@ A screen door, which doesn't seal the room, was invisible — exactly as it shou
 
 **How anything here gets believed.** Every number went through the same three gates, in order: a simulated room with the answer known in advance; small automated tests that recreate the exact case that would fool the app and run on every change; then the real phones on a real desk with distances measured by hand. Nothing counts as accurate until it survives the third. For someone who can't hear the sound, the app's word is the only word — it should be earned the way a lab earns it.
 
+Deeper notes for engineers: [Physics](https://vigilantear.com/en/physics/) — TDOA, distance, motion, Constellation, and barometric detection, with every figure tagged MEASURED / BENCHED / MODELLED.
+
 ---
 
 ## Privacy
@@ -227,7 +229,7 @@ Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](S
 
 ## Localization
 
-Fully localized — interface, alerts, and captions — into **English, Spanish, Portuguese (Brazil), French, German, Italian, Arabic, Japanese, Simplified Chinese, Korean, and Russian** (11 languages). Follows the system locale or a manual choice in the app.
+Fully localized — interface, alerts, and captions — into **English, Spanish, Portuguese (Brazil), French, German, Italian, Arabic, Japanese, Simplified Chinese, Korean, Russian, and Hindi** (12 languages). Follows the system locale or a manual choice in the app.
 
 ---
 

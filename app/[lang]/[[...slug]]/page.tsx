@@ -99,8 +99,7 @@ export default async function DocPage(
       <footer className="site">
         <p>
           Vigilant Ear is made by Wingdings, Inc. ·{" "}
-          <a href="https://apps.apple.com/us/app/vigilant-ear/id6761978703">App Store</a> ·{" "}
-          <a href="https://github.com/rpalm01-star/VigilantEarLegal">Source of these documents</a>
+          <a href="https://apps.apple.com/us/app/vigilant-ear/id6761978703">App Store</a>
         </p>
       </footer>
     </div>
