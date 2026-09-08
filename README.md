@@ -153,7 +153,7 @@ graph LR
 - **Concurrency** — Swift 6 isolation keeps the microphone tap, acoustic math, and UI render loop cleanly separated.
 - **Efficiency** — downsampling, load-adaptive classification, and evidence-gated network use keep always-listening light enough to leave on.
 
-Weather takes the opposite path from audio — nothing about your sound ever goes out, but alert *data* comes in. **Every** official feed flows through a small cache we operate, so one fetch of the public data serves every user — and your phone never contacts a foreign government's servers:
+Weather and earthquake alerts take the opposite path from audio — nothing about your sound ever goes out, but alert *data* comes in. **Every** official feed flows through a small cache we operate, so one fetch of the public data serves every user — and your phone never contacts a foreign government's servers:
 
 ```mermaid
 graph LR

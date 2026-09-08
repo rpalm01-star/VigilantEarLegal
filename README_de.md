@@ -153,7 +153,7 @@ graph LR
 - **Nebenläufigkeit** — Swift-6-Isolation hält Mikrofon-Tap, akustische Mathematik und UI-Render-Schleife sauber getrennt.
 - **Effizienz** — Downsampling, lastadaptive Klassifizierung und beleggesteuerte Netzwerknutzung halten Dauerhören leicht genug zum Anlassen.
 
-Wetter geht den umgekehrten Weg zu Audio — nichts von Ihrem Klang geht hinaus, aber Warn-*Daten* kommen herein. **Jeder** offizielle Feed läuft über einen kleinen Cache, den wir betreiben, sodass ein Abruf der öffentlichen Daten alle Nutzerinnen und Nutzer bedient — und Ihr Telefon nie die Server einer ausländischen Behörde kontaktiert:
+Wetter- und Erdbebenwarnungen gehen den umgekehrten Weg zu Audio — nichts von Ihrem Klang geht hinaus, aber Warn-*Daten* kommen herein. **Jeder** offizielle Feed läuft über einen kleinen Cache, den wir betreiben, sodass ein Abruf der öffentlichen Daten alle Nutzerinnen und Nutzer bedient — und Ihr Telefon nie die Server einer ausländischen Behörde kontaktiert:
 
 ```mermaid
 graph LR

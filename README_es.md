@@ -153,7 +153,7 @@ graph LR
 - **Concurrencia** — el aislamiento de Swift 6 mantiene limpia la separación entre la toma del micrófono, las matemáticas acústicas y el bucle de renderizado de la UI.
 - **Eficiencia** — downsampling, clasificación adaptable a la carga y uso de red acotado por evidencia mantienen la escucha continua lo bastante ligera como para dejarla encendida.
 
-El clima toma el camino opuesto al audio — nada de tu sonido sale nunca, pero *entran* datos de alerta. **Todas** las fuentes oficiales pasan por una pequeña caché que operamos nosotros, así que una sola descarga de los datos públicos sirve a todos los usuarios — y tu teléfono nunca contacta servidores de un gobierno extranjero:
+El clima y las alertas sísmicas toman el camino opuesto al audio — nada de tu sonido sale nunca, pero *entran* datos de alerta. **Todas** las fuentes oficiales pasan por una pequeña caché que operamos nosotros, así que una sola descarga de los datos públicos sirve a todos los usuarios — y tu teléfono nunca contacta servidores de un gobierno extranjero:
 
 ```mermaid
 graph LR

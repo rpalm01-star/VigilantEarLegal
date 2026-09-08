@@ -153,7 +153,7 @@ graph LR
 - **Concurrence** — l'isolation de Swift 6 maintient le point d'écoute du microphone, les mathématiques acoustiques et la boucle de rendu de l'interface utilisateur proprement séparés.
 - **Efficacité** — le sous-échantillonnage, la classification adaptative à la charge et l'usage réseau conditionné par les preuves permettent de maintenir une écoute permanente suffisamment légère pour être laissée activée.
 
-La météo prend le chemin inverse de l'audio — rien de votre son ne sort jamais, mais des *données* d'alerte entrent. **Chaque** flux officiel passe par un petit cache que nous opérons, afin qu'un seul appel aux données publiques serve tous les utilisateurs — et que votre téléphone ne contacte jamais les serveurs d'un gouvernement étranger :
+La météo et les alertes sismiques prennent le chemin inverse de l'audio — rien de votre son ne sort jamais, mais des *données* d'alerte entrent. **Chaque** flux officiel passe par un petit cache que nous opérons, afin qu'un seul appel aux données publiques serve tous les utilisateurs — et que votre téléphone ne contacte jamais les serveurs d'un gouvernement étranger :
 
 ```mermaid
 graph LR
