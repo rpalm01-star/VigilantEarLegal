@@ -1,6 +1,6 @@
 # Informativa sulla Privacy di Vigilant Ear 👂🛰️
 
-**Data di entrata in vigore:** 28 agosto 2026
+**Data di entrata in vigore:** 8 settembre 2026
 
 ## Introduzione
 
@@ -39,9 +39,9 @@ Quando utilizza determinate funzioni — o quando l'applicazione ne ha bisogno p
     *   *Perché esiste:* Gli avvisi ufficiali provengono dalle agenzie meteorologiche nazionali di tutto il mondo. Prima ogni telefono contattava direttamente quelle agenzie — ciascuna poteva quindi vedere l'indirizzo di rete del tuo dispositivo e con quanta frequenza controllavi — e i feed pubblici condivisi con limiti di richieste hanno iniziato a perdere avvisi con la crescita degli utenti. Ora il nostro server recupera i dati ufficiali una sola volta, per tutti, e li conserva per circa **15 minuti**. Gli stessi avvisi ufficiali, in modo più affidabile — e **il tuo telefono non contatta mai i server di un governo straniero.** Solo a partire dalla versione 1.1.0.
     *   *Cosa viene inviato:* Una richiesta al nostro servizio contiene solo il codice di Paese/regione, la lingua dell'app e, al massimo, una cella di posizione che il tuo telefono arrotonda a circa **50 km (0,5°)** prima dell'invio, usata solo per limitare la risposta agli avvisi vicini. La verifica esatta «sono dentro quest'area di allerta?» avviene **sul tuo telefono** e non ne esce mai. Non viene allegato alcun nome, account o identificativo del dispositivo. Come per ogni servizio HTTPS esistono log di hosting standard e di breve durata necessari a farlo funzionare; non sono una funzione di tracciamento e non li vendiamo.
     *   *Fornitore:* Dati ufficiali del National Weather Service statunitense (NWS), MeteoAlarm / MeteoGate (Europa), China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), Japan Meteorological Agency (JMA), Environment and Climate Change Canada (ECCC), INMET del Brasile, Bureau of Meteorology australiano (BoM) e National Disaster Management Authority indiana (NDMA) — consegnati al tuo telefono tramite infrastruttura che gestiamo.
-*   **Allerte sismiche**
-    *   *Cosa viene inviato:* Richieste a un unico feed pubblico mondiale di sintesi dei terremoti — la richiesta non contiene alcuna informazione di posizione o regione; la posizione del suo dispositivo viene utilizzata solo sul dispositivo per determinare se un terremoto segnalato è vicino a lei
-    *   *Fornitore:* Feed pubblico dei terremoti dello U.S. Geological Survey (USGS)
+*   **Allerte sismiche (tramite il nostro servizio di allerta)**
+    *   *Cosa viene inviato:* Richieste a un unico feed pubblico mondiale di sintesi dei terremoti — la richiesta non contiene alcuna informazione di posizione o regione; la posizione del suo dispositivo viene utilizzata solo sul dispositivo per determinare se un terremoto segnalato è vicino a lei — recuperate tramite lo stesso servizio delle allerte meteo qui sopra, così il suo telefono non contatta i server di un governo straniero nemmeno per queste
+    *   *Fornitore:* Feed pubblico dei terremoti dello U.S. Geological Survey (USGS), inoltrato da Wingdings
 *   **Identificazione musicale (opzionale, Power Pack+)**
     *   *Cosa viene inviato:* Brevi impronte audio — mai audio grezzo — quando viene rilevata musica e Shazam è abilitato (può essere disattivato nelle impostazioni)
     *   *Fornitore:* Apple Shazam / ShazamKit
@@ -54,6 +54,12 @@ Quando utilizza determinate funzioni — o quando l'applicazione ne ha bisogno p
 *   **Mesh Constellation (opzionale, Power Pack+)**
     *   *Cosa viene inviato:* Quando abilita Constellation multi-telefono, i dispositivi partecipanti si scambiano i metadati acustici necessari per un quadro condiviso — per esempio la posa relativa / la telemetria Ultra-Wideband dove disponibile, le direzioni, le etichette dei suoni e il testo effimero dei sottotitoli. Il traffico è peer-to-peer **solo tra i telefoni che eseguono Vigilant Ear e che lei collega per Constellation**. I telefoni senza l'applicazione non possono unirsi a quella mesh né ricevere quei metadati. Wingdings non gestisce un relay mesh nel cloud per questa pipeline audio.
     *   *Fornitore:* Framework Apple (per es. Network / Nearby Interaction) tra i suoi dispositivi con Vigilant Ear
+*   **Remote Link (facoltativo — avviare un collegamento richiede Power Pack+; unirsi è gratuito)**
+    *   *Perché esiste:* Una persona sorda o ipoudente non può usare una telefonata. Remote Link è il sostituto: due persone si vedono e scrivono, e possono segnare in video.
+    *   *Cosa viene inviato:* **Nessun audio, in nessun momento** — una sessione Remote Link non contiene alcuna traccia audio. Il video in diretta e il testo digitato viaggiano **direttamente tra i due telefoni** dove le reti lo consentono, cifrati end-to-end. Per stabilire il collegamento, il nostro servizio conserva brevemente un codice d'invito di breve durata insieme ai dettagli tecnici che i due telefoni usano per trovarsi. Quella casella non contiene **né video né testo**, e scade in pochi minuti.
+    *   *Se una connessione diretta non è possibile:* il video e il testo cifrati vengono inoltrati da un relay che **non può decifrarli**. Il relay vede che esiste una connessione, gli indirizzi di rete coinvolti e quanti dati passano — come ogni relay. Un collegamento inoltrato si chiude da solo dopo un'ora.
+    *   *Nulla viene registrato:* nessun video, audio o testo di un Remote Link viene scritto su disco su nessuno dei due telefoni, né conservato su alcun server.
+    *   *Fornitore:* Wingdings (casella degli inviti), Cloudflare (relay — usato solo quando una connessione diretta è impossibile)
 *   **Documenti legali nell'applicazione**
     *   *Cosa viene inviato:* Richieste web standard quando apre nell'applicazione le pagine Informativa sulla Privacy, Termini, Supporto o le pagine README del prodotto
     *   *Fornitore:* GitHub (hosting dei documenti)

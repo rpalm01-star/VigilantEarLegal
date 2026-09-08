@@ -1,6 +1,6 @@
 # Politique de confidentialité de Vigilant Ear 👂🛰️
 
-**Date d'entrée en vigueur :** 28 août 2026
+**Date d'entrée en vigueur :** 8 septembre 2026
 
 ## Introduction
 
@@ -39,9 +39,9 @@ Lorsque vous utilisez certaines fonctionnalités — ou lorsque l'application en
     *   *Pourquoi cela existe :* Les alertes officielles proviennent des agences météorologiques nationales du monde entier. Auparavant, chaque téléphone contactait ces agences directement — chacune pouvait donc voir l'adresse réseau de votre appareil et la fréquence de vos consultations — et les flux publics partagés soumis à des limites de requêtes ont commencé à perdre des alertes à mesure que notre base d'utilisateurs grandissait. Notre serveur récupère désormais les données officielles une seule fois, pour tout le monde, et les conserve environ **15 minutes**. Les mêmes alertes officielles, de façon plus fiable — et **votre téléphone ne contacte jamais les serveurs d'un gouvernement étranger.** À partir de la version 1.1.0 uniquement.
     *   *Ce qui est envoyé :* Une requête à notre service ne comporte que le code de pays/région, la langue de l'app et, tout au plus, une cellule de localisation que votre téléphone arrondit à environ **50 km (0,5°)** avant tout envoi, utilisée uniquement pour restreindre la réponse aux alertes proches. Le test précis « suis-je dans cette zone d'alerte ? » s'effectue **sur votre téléphone** et n'en sort jamais. Aucun nom, compte ni identifiant d'appareil n'y est joint. Comme pour tout service HTTPS, des journaux d'hébergement standard et de courte durée existent pour l'exploiter ; ce n'est pas une fonction de suivi et nous ne les vendons pas.
     *   *Fournisseur :* Données officielles du National Weather Service américain (NWS), de MeteoAlarm / MeteoGate (Europe), de l'Administration météorologique chinoise (CMA), de l'Administration météorologique coréenne (KMA), de l'Agence météorologique japonaise (JMA), d'Environment and Climate Change Canada (ECCC), de l'INMET brésilien, du Bureau of Meteorology australien (BoM) et de la National Disaster Management Authority indienne (NDMA) — acheminées vers votre téléphone par une infrastructure que nous exploitons.
-*   **Alertes sismiques**
-    *   *Ce qui est envoyé :* Des requêtes vers un unique flux public mondial de synthèse des séismes — la requête ne contient aucune information de localisation ou de région ; la position de votre appareil n'est utilisée que sur l'appareil pour déterminer si un séisme signalé est proche de vous
-    *   *Fournisseur :* Flux public de séismes de l'U.S. Geological Survey (USGS)
+*   **Alertes sismiques (via notre propre service d'alertes)**
+    *   *Ce qui est envoyé :* Des requêtes vers un unique flux public mondial de synthèse des séismes — la requête ne contient aucune information de localisation ou de région ; la position de votre appareil n'est utilisée que sur l'appareil pour déterminer si un séisme signalé est proche de vous — récupérées via le même service que les alertes météo ci-dessus, de sorte que votre téléphone ne contacte pas non plus les serveurs d'un gouvernement étranger pour celles-ci
+    *   *Fournisseur :* Flux public de séismes de l'U.S. Geological Survey (USGS), relayé par Wingdings
 *   **Identification musicale (optionnelle, Power Pack+)**
     *   *Ce qui est envoyé :* Courtes empreintes audio — jamais d'audio brut — lorsque de la musique est détectée et que Shazam est activé (peut être désactivé dans les paramètres)
     *   *Fournisseur :* Apple Shazam / ShazamKit
@@ -54,6 +54,12 @@ Lorsque vous utilisez certaines fonctionnalités — ou lorsque l'application en
 *   **Réseau mesh Constellation (optionnel, Power Pack+)**
     *   *Ce qui est envoyé :* Lorsque vous activez Constellation multi-téléphones, les appareils participants échangent les métadonnées acoustiques nécessaires pour une image partagée — par exemple, la pose relative / la télémétrie Ultra-Wideband lorsqu'elle est disponible, les directions, les étiquettes sonores et le texte des sous-titres éphémères. Le trafic se fait de pair à pair (peer-to-peer) **uniquement entre les téléphones qui exécutent Vigilant Ear et que vous liez pour Constellation**. Les téléphones sans l'application ne peuvent pas rejoindre ce maillage ni recevoir ces métadonnées. Wingdings n'exploite pas de relais mesh cloud pour ce pipeline audio.
     *   *Fournisseur :* Frameworks Apple (par ex. Network / Nearby Interaction) entre vos appareils Vigilant Ear
+*   **Remote Link (facultatif — démarrer une liaison nécessite Power Pack+ ; rejoindre est gratuit)**
+    *   *Pourquoi cela existe :* Une personne sourde ou malentendante ne peut pas utiliser un appel téléphonique. Remote Link en est le substitut : deux personnes se voient et écrivent, et peuvent signer par vidéo.
+    *   *Ce qui est envoyé :* **Aucun son, à aucun moment** — une session Remote Link ne comporte aucune piste audio. La vidéo en direct et le texte saisi circulent **directement entre les deux téléphones** là où les réseaux le permettent, chiffrés de bout en bout. Pour établir la liaison, notre service conserve brièvement un code d'invitation éphémère ainsi que les détails techniques dont les deux téléphones ont besoin pour se trouver. Cette boîte ne contient **ni vidéo ni texte**, et expire en quelques minutes.
+    *   *Si une connexion directe est impossible :* la vidéo et le texte chiffrés sont relayés par un serveur qui **ne peut pas les déchiffrer**. Ce relais voit qu'une connexion existe, les adresses réseau concernées et le volume de données — comme tout relais. Une liaison relayée se ferme d'elle-même au bout d'une heure.
+    *   *Rien n'est enregistré :* aucune vidéo, aucun son et aucun texte d'un Remote Link n'est écrit sur le disque de l'un ou l'autre téléphone, ni stocké sur un serveur.
+    *   *Fournisseur :* Wingdings (boîte d'invitation), Cloudflare (relais — utilisé uniquement lorsqu'une connexion directe est impossible)
 *   **Documents légaux intégrés à l'application**
     *   *Ce qui est envoyé :* Requêtes web standards lorsque vous ouvrez la Politique de confidentialité, les Conditions d'utilisation, le Support ou les pages README du produit dans l'application
     *   *Fournisseur :* GitHub (hébergement de documents)

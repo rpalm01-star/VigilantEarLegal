@@ -1,6 +1,6 @@
 # Privacy Policy for Vigilant Ear 👂🛰️
 
-**Effective Date:** August 28, 2026
+**Effective Date:** September 8, 2026
 
 ## Introduction
 
@@ -39,9 +39,9 @@ When you use certain features — or when the app needs them to function — **l
     *   *Why it exists:* Official warnings come from national weather agencies around the world. Every phone used to contact those agencies directly — which meant each one could see your device's network address and how often you checked — and shared public feeds with request limits began dropping alerts as our user base grew. Our server now fetches the official data once, for everyone, and holds it for about **15 minutes**. The same official warnings, more reliably — and **your phone never contacts a foreign government's servers.** Starting in v1.1.0 or higher only.
     *   *What is sent:* A request to our service carries only the country/region code, your app language, and — at most — a location cell that your phone rounds to roughly **50 km (0.5°)** before it is ever sent, used solely to trim the reply to alerts near you. The precise "am I inside this warning area?" test happens **on your phone** and never leaves it. No name, account, or device identifier is attached. As with any HTTPS service, standard short-lived hosting logs exist to operate it; they are not a tracking feature and we do not sell them.
     *   *Provider:* Official data from the U.S. National Weather Service (NWS), MeteoAlarm / MeteoGate (Europe), the China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), Japan Meteorological Agency (JMA), Environment and Climate Change Canada (ECCC), Brazil's INMET, Australia's Bureau of Meteorology (BoM) and India's National Disaster Management Authority (NDMA) — delivered to your phone through infrastructure we operate.
-*   **Earthquake alerts**
-    *   *What is sent:* Requests for a single worldwide public earthquake summary feed — the request carries no location or region information at all; your device location is used only on-device to decide whether a reported quake is near you
-    *   *Provider:* U.S. Geological Survey (USGS) public earthquake feed
+*   **Earthquake alerts (through our own alert service)**
+    *   *What is sent:* Requests for a single worldwide public earthquake summary feed, fetched through the same service as the weather alerts above, so your phone does not contact a foreign government's servers for these either — the request carries no location or region information at all; your device location is used only on-device to decide whether a reported quake is near you
+    *   *Provider:* U.S. Geological Survey (USGS) public earthquake feed, relayed by Wingdings
 *   **Music identification (optional, Power Pack+)**
     *   *What is sent:* Short audio fingerprints — never raw audio — when music is detected and Shazam is enabled (can be turned off in settings)
     *   *Provider:* Apple Shazam / ShazamKit
@@ -54,6 +54,12 @@ When you use certain features — or when the app needs them to function — **l
 *   **Constellation mesh (optional, Power Pack+)**
     *   *What is sent:* When you enable multi-phone Constellation, participating devices exchange acoustic metadata needed for a shared picture — for example relative pose / Ultra-Wideband ranging where available, bearings, sound labels, and ephemeral caption text. Traffic is peer-to-peer **only between phones that are running Vigilant Ear and that you link for Constellation**. Phones without the app cannot join that mesh or receive that metadata. Wingdings does not operate a cloud mesh relay for this audio pipeline.
     *   *Provider:* Apple frameworks (e.g. Network / Nearby Interaction) between your Vigilant Ear devices
+*   **Remote Link (optional — starting a link needs Power Pack+; joining is free)**
+    *   *Why it exists:* A Deaf or hard-of-hearing person cannot use a phone call. Remote Link is the substitute: two people see each other and type, and can sign to each other over the video.
+    *   *What is sent:* **No audio, at any point** — a Remote Link session carries no audio track at all. Live video and typed text travel **directly between the two phones** wherever the networks allow, encrypted end to end. To set a link up, our service briefly holds a short-lived invitation code together with the technical details the two phones need in order to find each other. That mailbox holds **no video and no text**, and it expires within minutes.
+    *   *If a direct connection is impossible:* the encrypted video and text are forwarded by a relay that **cannot decrypt them**. The relay does see that a connection exists, the network addresses involved, and how much data passes — as any relay must. A relayed link closes itself after one hour.
+    *   *Nothing is recorded:* no video, audio or text from a Remote Link is written to disk on either phone, or stored on any server.
+    *   *Provider:* Wingdings (invitation mailbox), Cloudflare (relay — used only when a direct connection is impossible)
 *   **In-app legal documents**
     *   *What is sent:* Standard web requests when you open Privacy Policy, Terms, Support, or product README pages in the app
     *   *Provider:* GitHub (document hosting)
