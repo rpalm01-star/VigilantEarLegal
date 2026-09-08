@@ -36,7 +36,7 @@ Using the iPhone's two microphones, Vigilant Ear measures the **angle of a sound
 ### 🚨 It recognizes important sounds — and warns you
 An on-device classifier identifies hundreds of everyday sounds and watches the critical categories — **sirens, alarms — including a dedicated car-alarm class — doorbells/knocks, baby cry, a person nearby, and severe weather.** When one fires, you get a clear on-screen alert, optional **push notification**, and a distinct **haptic** — even when the app is backgrounded or the phone is asleep. Critical categories default ready so enabling notifications doesn't mean “everything off.” Turn all alert categories off and the engine fully hibernates while backgrounded to save battery. A **Sentinel** layer cross-checks alerts against independent evidence — direction, motion, and public feeds — so what fires is corroborated, not a lone classifier guess. It works both ways: a siren-shaped moment inside a song gets held, but a real siren repeating through your music breaks through and alerts.
 
-Severe-weather warnings come from official public feeds — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, **Korea KMA**, **Japan JMA**, **Canada ECCC**, **Australia BOM**, and **Brazil INMET** — free for all users. Feeds are narrowed to the ones that cover where you are. In Japan the app also reads JMA's **advance bulletins** — the plain-language notices issued days before a typhoon or heavy rain, not only the warnings issued once danger has arrived — plus the sudden-downpour and landslide bulletins. Advance notices are shown quietly, without the sound and vibration reserved for a real warning.
+Severe-weather warnings come from official public feeds — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, **Korea KMA**, **Japan JMA**, **Canada ECCC**, **Australia BOM**, **Brazil INMET**, and **India NDMA** — free for all users. Feeds are narrowed to the ones that cover where you are. In Japan the app also reads JMA's **advance bulletins** — the plain-language notices issued days before a typhoon or heavy rain, not only the warnings issued once danger has arrived — plus the sudden-downpour and landslide bulletins. Advance notices are shown quietly, without the sound and vibration reserved for a real warning.
 
 ### ⌚ Apple Watch + Live Activity — glance and know
 - **Apple Watch companion** — the direction of an alert points on your wrist so a glance tells you where to look. Redesigned Watch UI with the app ear icon, threat HUD layout, and double-tap to dismiss an alert. Alerts can still show the direction arrow when the Watch app is not open.
@@ -74,6 +74,11 @@ With two or more Ultra-Wideband-enabled iPhones (most since iPhone 11), **Conste
 
 **Partner messages** — send a quick text to a linked partner's phone; it lands in their caption feed and can arrive translated into their language, on-device. Messaging is age-aware: built on Apple's Declared Age Range, texting between an adult and a minor stays off unless both people have deliberately named each other. Alerts and captions are never gated — only person-to-person texting.
 
+### 🔗 Remote Link — reach someone who isn't with you *(Power Pack+ to start)*
+The thing a phone call would normally do, done with video and text instead. You send an invitation code; the other person joins from inside Vigilant Ear **without owning Power Pack+**. Unlike Constellation there is no proximity requirement — the two of you can be anywhere.
+
+**No audio is used at any point.** Video and text only, so nothing about the link depends on hearing at either end — and it gives you a way to sign with someone through the app. The app itself does not understand sign language; it carries the video and the two of you do the rest. The connection is direct between the two phones wherever the network allows it, and the app shows you plainly whether it is **Direct** or **Relayed**, so you always know if your video is passing through a relay.
+
 ### 📷 Camera AR — “see the sound”
 Open the camera pill on the title rail and pin detected sounds at their real bearing in the live camera view. Markers cluster by speaker or by sound category and direction so the view stays readable; sources age-fade when they go quiet.
 
@@ -95,7 +100,7 @@ The safety core is **free, forever**:
 - **Home Watch & Street Watch** — local sound alerts (alarms, sirens, knocks/doorbells, baby, person nearby) with on-screen, haptic, and optional push delivery.
 - **Live captions** — Speaker Mode, on-device, directional where hardware allows, with honest confidence marks, ~2-second self-correction, optional spoken output to Bluetooth hearing devices, and Direction Tones.
 - **Standing Watch** — the room's own condition, always on with nothing to configure: a steady cyan lamp while the room holds its pattern, amber when something changes — a new voice, sudden quiet, or something approaching.
-- **Severe-weather alerts** — NWS, MeteoGate (Europe — served fresh from our 15-minute alert cache), CMA, KMA, JMA (Japan), ECCC (Canada), BOM (Australia), INMET (Brazil) for your region.
+- **Severe-weather alerts** — NWS, MeteoGate (Europe — served fresh from our 5-minute alert cache), CMA, KMA, JMA (Japan), ECCC (Canada), BOM (Australia), INMET (Brazil), and NDMA (India) for your region.
 - **Earthquake alerts (USGS, worldwide)** — feel a buzz and see the area that felt it on your map when a quake is reported nearby. A confirmation from the official USGS feed — not an early warning: if you felt shaking, this tells you what it was. On-device deep-rumble (infrasound) sensing can arm the check the moment the ground moves.
 - **Feature Playground** — practice alerts and feature previews with a clear PREVIEW watermark.
 - **Apple Watch companion & Live Activity** — glanceable direction and last alert.
@@ -152,8 +157,8 @@ Weather takes the opposite path from audio — nothing about your sound ever goe
 
 ```mermaid
 graph LR
-    P1["Vigilant Ear<br/>On Your Device"] --> W["Wingdings alert cache<br/>one shared copy · 15-minute refresh"]
-    W --> N["Official public feeds<br/>NWS · MeteoGate · JMA · KMA · CMA<br/>ECCC · BOM · INMET · USGS"]
+    P1["Vigilant Ear<br/>On Your Device"] --> W["Wingdings alert cache<br/>one shared copy · 5-minute refresh"]
+    W --> N["Official public feeds<br/>NWS · MeteoGate · JMA · KMA · CMA<br/>ECCC · BOM · INMET · NDMA · USGS"]
 ```
 
 ---
@@ -162,16 +167,17 @@ graph LR
 
 Your iPhone has two microphones about six inches apart, a barometer, and a very good clock. That is enough to tell you which way a sound is, roughly how far, whether it is coming toward you, and whether a door just opened. Here is how accurate each of those is, how we checked, and why it matters if you can't hear the sound yourself. Direction and related figures were measured on an iPhone 17 and an iPhone 16 Pro Max in September 2026. Distance stays an estimate by nature — we say so on screen.
 
-**Direction — about a degree.** A sound reaches the top microphone a few hundred microseconds before the bottom one, or after (a few hundred millionths of a second). From that tiny gap the app works out how far off the phone's long axis the sound is, and whether it is in front of you or behind you. Engineers call this **TDOA** — *Time Difference of Arrival*: measure the lag, turn it into a bearing. That is what we do here.
+**Direction — to a couple of degrees.** A sound reaches the top microphone before the bottom one, or after, and from that gap the app works out how far off the phone's axis the sound is and whether it is in front or behind. The phone's two channels are not plain microphones but a processed stereo image, and that image adds a fixed pattern of its own whenever a room is noisy. The app now learns that pattern from a few quiet seconds after launch and takes it out before reading the direction.
 
 | What we measured | Result |
 |---|---|
-| Second-to-second wobble of the reading | 0.6° on the iPhone 17 · 1.5° on the 16 Pro Max |
-| Measured arrival gap vs. a tape measure | within 4 mm |
-| Usable readings at four per second (desk census) | 98% |
-| Median error across 96 simulated rooms — quiet office through a hard-walled room, including cases where noise is nearly as loud as the sound (5 dB SNR) | 1.0° |
+| Median error across 96 simulated rooms, quiet office to hard-walled room at 5 dB SNR | 1.0° |
+| iPhone 17 on a desk, room noise on, speaker 30° off the axis | read 61.7° from the side plane against an expected 60°, wobble 1.6° |
+| Same, speaker straight off the phone's side | read 4.5° against an expected 0°, wobble 2.2° |
+| Same, speaker straight ahead | every reading at the maximum delay, as it should be |
+| Readings landing on the image's own pattern instead of the sound | none, at any angle |
 
-*Why it matters:* if you can't hear a siren, "behind you, off to one side" tells you where to look — and a reading that holds still is one you can trust.
+*Why it matters:* if you can't hear a siren, "behind you, off to one side" tells you where to look. A reading that holds still is only worth trusting once it has been checked against a tape measure, and this one was, twice, the second time after the first check turned out to be too kind.
 
 **Distance — shown as the estimate it is.** One microphone can't measure distance, only loudness, and a loud truck far away can sound like a quiet car up close. The app estimates distance from loudness using a curve fitted on a real street, then says it the way a careful person would: *about 50 ft, likely between 25 and 100.*
 
@@ -222,8 +228,6 @@ Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](S
 - **iPad (native).** Adaptive layout: on the big screen, live captions get a see-through panel beside the map that tucks away when nobody is talking. Single-channel mics → captions without full direction.
 - **Constellation** needs **Ultra-Wideband** — iPhone 11 or later, excluding SE and “e” models. It does **not** need a Wi-Fi network: with Wi-Fi switched on, the phones discover each other directly, so Constellation works with no router and no internet as long as the phones are near each other.
 - **Android.** Separate build with core radar, alerts, captions, and weather; Constellation mesh is iOS-first. See product site updates as Android parity grows.
-
-**Current App Store version:** 1.1.2. Built for modern iOS (SpeechAnalyzer-era).
 
 ---
 
