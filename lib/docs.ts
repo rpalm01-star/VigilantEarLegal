@@ -45,6 +45,10 @@ export type Doc = {
 
 export const DOCS: Doc[] = [
   { slug: "", file: "README", title: "Vigilant Ear", translated: true, inNav: true },
+  // `translated: true` with no `WHY_xx.md` siblings on purpose: every language URL generates, and
+  // `readDoc` falls back to WHY.md while reporting servedLang "en", so the page says it is showing
+  // English rather than pretending otherwise. Drop real translations in later and nothing changes.
+  { slug: "why", file: "WHY", title: "Why Vigilant Ear?", translated: true, inNav: true },
   { slug: "privacy", file: "PRIVACY", title: "Privacy Policy", translated: true, inNav: true },
   { slug: "terms", file: "TERMS", title: "Terms of Service", translated: true, inNav: true },
   { slug: "support", file: "SUPPORT", title: "Support", translated: true, inNav: true },
