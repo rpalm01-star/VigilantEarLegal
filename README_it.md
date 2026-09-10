@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*In vigore dalla versione 1.1.4 · settembre 2026.*
+*In vigore dalla versione 1.1.5 · settembre 2026.*
 
 ## Un radar acustico per chi non può sentire.
 
