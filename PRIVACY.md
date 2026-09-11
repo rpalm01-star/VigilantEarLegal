@@ -45,6 +45,9 @@ When you use certain features — or when the app needs them to function — **l
 *   **Music identification (optional, Power Pack+)**
     *   *What is sent:* Short audio fingerprints — never raw audio — when music is detected and Shazam is enabled (can be turned off in settings)
     *   *Provider:* Apple Shazam / ShazamKit
+*   **Named-speaker roster backup (Android only, optional)**
+    *   *What is sent:* When you enroll named voiceprints on Android, the phone may sync them to our roster service as **ciphertext only** (AES-GCM). Display names and embeddings are encrypted on the device with a Keystore-backed key that **never leaves the phone**; the server stores opaque bytes and cannot read names or voiceprints. No audio is uploaded.
+    *   *Provider:* Wingdings roster service (same global-array host as Research Array ingest)
 *   **Road context**
     *   *What is sent:* Anonymous Overpass API queries based on map sector around your location
     *   *Provider:* OpenStreetMap contributors via Overpass API
@@ -71,7 +74,7 @@ When you use certain features — or when the app needs them to function — **l
     *   *What is sent:* Only if you turn the feature on: small, metadata-only detection reports when a qualifying event is registered (time, approximate location, basic signal characteristics, app version). See **Research Array** below.
     *   *Provider:* Infrastructure we operate (application host and database providers such as our web and Postgres hosts). Details and limits are in the Research Array section.
 
-We choose these services to deliver map, weather, music-label, purchase, multi-device, and (when you opt in) research-array functionality. **Wingdings does not receive your microphone audio, continuous location history, or contact information from these providers.**
+We choose these services to deliver map, weather, music-label, purchase, multi-device, Android nametag roster backup (ciphertext only), and (when you opt in) research-array functionality. **Wingdings does not receive your microphone audio, continuous location history, or contact information from these providers.**
 
 ## What Wingdings Collects
 
