@@ -14,7 +14,7 @@ Live captions separate the people around you by voice, each with their own colou
 
 ## Captions that admit what they did not catch
 
-Most captioning apps hand you every word with the same quiet confidence, and leave you to discover which ones were wrong. Every line here carries a small three-bar mark — three bars means it heard clearly, one means take it with salt — and the individual words it was unsure of are underlined. In a noisy room, knowing which words to trust matters as much as the words.
+Most captioning apps hand you every word with the same quiet confidence, and leave you to discover which ones were wrong. Every line here carries a small three-bar mark — three bars means it heard clearly, one means take it with a grain of salt — and the individual words it was unsure of are underlined. In a noisy room, knowing which words to trust matters as much as the words.
 
 ## Which language — worked out for you
 
