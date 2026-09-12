@@ -40,6 +40,26 @@ Severe weather comes from nine government sources — the United States, Europe,
 
 Those warnings reach you through our own service rather than your phone calling each agency directly, which means **your phone never contacts a foreign government's servers**, and a shared public feed cannot drop your alert because too many people were asking at once. The precise *am I inside this warning area?* test still happens on your phone and never leaves it.
 
+## Several small experts, not one big one
+
+The obvious way to build a listening app is to run one model and report whatever it says. Vigilant
+Ear runs a handful of specialists instead, each doing one job it is actually good at: one recognises everyday sounds,
+a second checks the first one's work, another works out where a sound came from, another separates
+the voices in a room, another decides whether music is really playing.
+
+They disagree often, and that is the point. A siren-shaped moment inside a song looks identical to
+a siren if you only ask one model. Asking three, and requiring them to agree before anything
+interrupts you, is the difference between an alert you trust and an app you eventually mute.
+
+It also means the app can tell you when it is unsure instead of guessing — the confidence marks on
+captions, the voice that shows as unattributed rather than wearing the wrong name, the alert that
+waits one more frame for corroboration. A single model has no way to know it is wrong. Several
+have.
+
+All of it runs on your phone, on the same neural chip that powers Face ID. That is a deliberate
+constraint rather than a technical flourish: models small enough to live in your pocket are models
+that never need to send your room to anyone.
+
 ## It stays on your device
 
 Listening, transcription, translation and sound classification all run on your phone. The work that touches what you say and what you hear is not something we can read, because it never reaches us.

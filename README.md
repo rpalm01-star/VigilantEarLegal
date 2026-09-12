@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Effective as of version 1.1.5 · September 2026.*
+*Effective as of version 1.1.6 · September 2026.*
 
 ## An acoustic radar for people who can't hear.
 
@@ -132,7 +132,9 @@ graph TD
     B --> D["Spatial math<br/>TDOA · level trend → bearing · distance · approach"]
     D --> R["Radar ring · map · Camera AR"]
     B --> F["Speech recognition<br/>(SpeechAnalyzer)"]
-    B --> E["Voice identity<br/>(ReDimNet embeddings, ANE)"]
+    B --> N["Turn boundaries<br/>(Sortformer diarizer, ANE)"]
+    N --> E["Voice identity<br/>(ReDimNet embeddings, ANE)"]
+    B --> E
     F --> G["Caption rows — one per voice"]
     E --> G
     G --> T["On-device translation<br/>→ your language"]
@@ -148,7 +150,8 @@ graph LR
 ```
 
 - **Spatial math** — FFTs, coherence-weighted Time Difference of Arrival (TDOA — favor the frequency bands both microphones agree on, then turn the tiny arrival lag into a bearing), and level-trend approach tracking on background tasks. The microphone pair is read in a fixed orientation so direction works the same whether you hold the phone upright or sideways.
-- **Speech** — iOS 26 `SpeechAnalyzer` / `SpeechTranscriber` for transcription; **ReDimNet** speaker embeddings for voice identity; Apple's **Translation** framework for on-device translation. Voice identity is evidence-based: a voice is confirmed as a real person only from independent windows of sound, and an uncertain match shows as unattributed rather than guessing the wrong name.
+- **Speech** — iOS 26 `SpeechAnalyzer` / `SpeechTranscriber` for transcription; Apple's **Translation** framework for on-device translation. Voice identity is evidence-based: a voice is confirmed as a real person only from independent windows of sound, and an uncertain match shows as unattributed rather than guessing the wrong name.
+- **Two models for two questions** — telling voices apart takes *when the speaker changed* and *who that speaker is*, and they are not the same problem. A **Sortformer** streaming diarizer marks the turn boundaries; **ReDimNet** embeddings decide whose voice sits inside each one. Cutting on the boundary matters more than it sounds: a window that straddles two people contains both of them, and no embedding model can undo that afterwards. Underneath both sits a voice-activity floor — if the diarizer goes quiet in a hard room rather than guessing, turns still get cut, so the app degrades instead of blending two speakers into one.
 - **Music truth** — a chroma **song-signature detector** owns the "is music actually playing?" decision, because general classifiers famously call silent rooms and sirens "music." Shazam only runs once the signature agrees something musical is really there.
 - **Concurrency** — Swift 6 isolation keeps the microphone tap, acoustic math, and UI render loop cleanly separated.
 - **Efficiency** — downsampling, load-adaptive classification, and evidence-gated network use keep always-listening light enough to leave on.
