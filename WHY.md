@@ -28,7 +28,9 @@ Two or more phones running Vigilant Ear share what they hear. More microphones i
 
 ## Reach someone who is not with you
 
-Remote Link is a private video and text link, with **no audio track at any point** — so nothing about it depends on hearing at either end, and it gives you a way to sign with someone. You send a code; the person you invite joins from inside the app without buying anything.
+Remote Link is a private video-only call with caption data — **no audio track at any point** — so nothing about it depends on hearing at either end, and it gives you a way to sign with someone. What your phone hears is captioned and sent across as text, and the other phone translates it into its reader's language. You send a code; the person you invite joins from inside the app without buying anything.
+
+**How it travels, in plain terms.** The two phones talk to each other, not to us. Our service holds the invitation code and the connection details the phones need to find each other — for at most an hour, and never the video or the text. Wherever the networks allow, the call goes straight from one phone to the other. When they cannot reach each other directly — different networks, a strict router — the encrypted packets are forwarded by a relay that cannot read them; it sees that a connection exists, the network addresses involved and how much data passes, as any relay must, and nothing more. Either way the video and the captions are encrypted end to end between the two phones, so nothing in between can watch or read the call, and the app tells you plainly whether it is **Direct** or **Relayed**. Nothing from a link is recorded — no video, no text — on either phone or on any server.
 
 ## See the sound, not just a label
 
@@ -54,7 +56,7 @@ interrupts you, is the difference between an alert you trust and an app you even
 It also means the app can tell you when it is unsure instead of guessing — the confidence marks on
 captions, the voice that shows as unattributed rather than wearing the wrong name, the alert that
 waits one more frame for corroboration. A single model has no way to know it is wrong. Several
-have.
+do.
 
 All of it runs on your phone, on the same neural chip that powers Face ID. That is a deliberate
 constraint rather than a technical flourish: models small enough to live in your pocket are models
@@ -64,7 +66,7 @@ that never need to send your room to anyone.
 
 Listening, transcription, translation and sound classification all run on your phone. The work that touches what you say and what you hear is not something we can read, because it never reaches us.
 
-A few things do use the network, and it is worth naming them rather than rounding down to none: maps; the weather and earthquake alerts described above; Music ID, which sends a short audio fingerprint and never recorded audio; road context; App Store purchases; and Remote Link, which is a video call and so necessarily travels between the two phones.
+A few things do use the network, and it is worth naming them rather than rounding down to none: maps; the weather and earthquake alerts described above; Music ID, which sends a short audio fingerprint and never recorded audio; road context; App Store purchases; and Remote Link, which is a video-only call with caption data and so necessarily travels between the two phones — encrypted end to end, so nothing in between can read it.
 
 No ads. Nothing sold. No account required.
 
