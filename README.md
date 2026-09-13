@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Effective as of version 1.1.6 · September 2026.*
+*Effective as of version 1.1.7 · September 2026.*
 
 ## An acoustic radar for people who can't hear.
 
@@ -11,6 +11,7 @@ A siren's direction and distance. A knock behind you. The people in a conversati
 Everything that matters runs on the device. Audio is not recorded or uploaded for recognition. Nothing depends on hearing a thing.
 
 - 🧭 **Direction, not just detection.** *What, where, who,* and *what was said* — not merely “a sound happened.”
+- 📣 **Name Called.** List your name, a kid, a partner — “order for Marie ready” taps the watch and points which way.
 - 🔒 **Private by design.** Classification, captioning, and translation run on your iPhone. Captions are live and ephemeral; they are not saved as a transcript archive.
 - ⌚ **On your wrist and Lock Screen.** Apple Watch direction companion + Live Activity keep the last alert and which way it came from one look away.
 - 🛰️ **More phones, one shared ear.** Constellation links Ultra-Wideband iPhones to fuse what each one hears into a sharper directional picture.
@@ -47,6 +48,8 @@ Severe-weather warnings come from official public feeds — U.S. **NWS**, Europe
 Turn on **Speaker Mode** and Vigilant Ear transcribes people talking near you into **caption blocks, one per voice.** On-device speaker diarization keeps voices distinct — *who* is saying *what* — with a directional cue on the inner ring. The live speaker is highlighted; older text scrolls away as space is needed.
 
 Two things most caption apps won't do: **honesty about confidence** — a subtle per-row quality mark and dotted underlines beneath doubtful words tell you when to trust a line and when to double-check — and **self-correction**: right after a sentence lands, the app re-reads the audio with full context and can restore a missed or misheard word within a couple of seconds, then the text freezes.
+
+**Name Called** (Preferences, off until you turn it on) watches those captions for names you list — yours, a child’s, a partner’s. When someone says “order for Marie ready,” you get a distinct haptic and Watch alert with direction, not another caption bubble. The words still appear in Speaker Mode as speech; this is the tap that they were talking *to you*.
 
 Captions are free; automatic translation is the optional Power Pack+ layer. Captions can also be **spoken aloud to your Bluetooth hearing devices** — free, in Preferences. **Direction Tones** (also free, in Preferences → Captions) add an optional audio cue in the ear you choose that signals where a speaker is — useful with a hearing aid or single-sided hearing, and available to anyone.
 
@@ -99,6 +102,7 @@ The safety core is **free, forever**:
 
 - **Home Watch & Street Watch** — local sound alerts (alarms, sirens, knocks/doorbells, baby, person nearby) with on-screen, haptic, and optional push delivery.
 - **Live captions** — Speaker Mode, on-device, directional where hardware allows, with honest confidence marks, ~2-second self-correction, optional spoken output to Bluetooth hearing devices, and Direction Tones.
+- **Name Called** — optional names you type (yours, kids, partner). A match is a Watch/phone alert with bearing, not a second caption.
 - **Standing Watch** — the room's own condition, always on with nothing to configure: a steady cyan lamp while the room holds its pattern, amber when something changes — a new voice, sudden quiet, or something approaching.
 - **Severe-weather alerts** — NWS, MeteoGate (Europe — served fresh from our 5-minute alert cache), CMA, KMA, JMA (Japan), ECCC (Canada), BOM (Australia), INMET (Brazil), and NDMA (India) for your region.
 - **Earthquake alerts (USGS, worldwide)** — feel a buzz and see the area that felt it on your map when a quake is reported nearby. A confirmation from the official USGS feed — not an early warning: if you felt shaking, this tells you what it was. On-device deep-rumble (infrasound) sensing can arm the check the moment the ground moves.

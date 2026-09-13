@@ -1,5 +1,7 @@
 # Why Vigilant Ear?
 
+*Effective as of version 1.1.7 · September 2026.*
+
 Most sound apps tell you *that* something happened. Vigilant Ear tells you **what, where, how far, who, and in which language** — on the phone already in your pocket.
 
 ## Where the sound came from
@@ -11,6 +13,10 @@ Direction Tones can also send that bearing to one ear, for single-sided hearing.
 ## Who is speaking
 
 Live captions separate the people around you by voice, each with their own colour, so a conversation reads as a conversation instead of one running block of text. You can name the voices you know, and the app will keep recognising them.
+
+## When they were talking to you
+
+The daily humiliation is not a missed siren. It is someone saying your name from behind, a barista calling an order, a nurse at a window — and a hearing person deciding you were rude. **Name Called** is a list you type (yours, a kid, a partner) and a distinct tap when those words land, with a direction on the Watch and the Standing Watch lamp. The sentence still shows in captions as speech. The alert is *they were addressing you*.
 
 ## Captions that admit what they did not catch
 
