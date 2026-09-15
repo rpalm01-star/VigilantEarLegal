@@ -1,6 +1,6 @@
 # Neden Vigilant Ear?
 
-*1.1.7 sürümünden itibaren geçerlidir · Eylül 2026.*
+*1.1.6 sürümünden itibaren geçerlidir · Eylül 2026.*
 
 Çoğu ses uygulaması size *bir şey olduğunu* söyler. Vigilant Ear **ne, nerede, ne kadar uzakta, kim ve hangi dilde** olduğunu söyler — zaten cebinizde duran telefonda.
 

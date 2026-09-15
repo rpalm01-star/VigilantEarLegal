@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Effective as of version 1.1.7 · September 2026.*
+*Effective as of version 1.1.6 · September 2026.*
 
 ## An acoustic radar for people who can't hear.
 
