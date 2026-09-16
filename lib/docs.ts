@@ -27,6 +27,11 @@ export const LANGUAGES = [
   { code: "ko", label: "한국어" },
   { code: "ru", label: "Русский" },
   { code: "hi", label: "हिन्दी" },
+  // 🔴 Turkish was MISSING here while every translated doc already had a `_tr.md` sibling and the
+  // apps had shipped Turkish as their 13th language. The files existed, the readers existed, and
+  // this list was the only thing keeping them apart — a Turkish user got English on the site and a
+  // 404 in the app. Added 2026-09-16.
+  { code: "tr", label: "Türkçe" },
 ] as const;
 
 export const RTL_LANGUAGES = new Set(["ar"]);
@@ -54,12 +59,15 @@ export const DOCS: Doc[] = [
   { slug: "support", file: "SUPPORT", title: "Support", translated: true, inNav: true },
   { slug: "witness-ear", file: "WITNESSEAR", title: "Witness Ear", translated: true, inNav: true },
   { slug: "byom", file: "BYOM", title: "Bring Your Own Model", translated: true, inNav: true },
-  { slug: "acoustic-scope", file: "ACOUSTICSCOPE", title: "Acoustic Scope", translated: false, inNav: true },
+  // `translated: false` here was stale: ACOUSTICSCOPE has all 12 sibling translations on disk, so
+  // the flag alone was serving English to every non-English reader. Verified against the files.
+  { slug: "acoustic-scope", file: "ACOUSTICSCOPE", title: "Acoustic Scope", translated: true, inNav: true },
   { slug: "physics", file: "PHYSICS", title: "Physics", translated: false, inNav: true },
   { slug: "sound-packs", file: "iOSDynamicSoundPacks", title: "Sound Packs", translated: false, inNav: false },
 ];
 
-const ROOT = process.cwd();
+/** Repo root — the .md files live here. Exported so /docs/[name] resolves against the same base. */
+export const ROOT = process.cwd();
 
 export function docBySlug(slug: string): Doc | undefined {
   return DOCS.find((d) => d.slug === slug);
