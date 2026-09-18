@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*En vigueur à compter de la version 1.1.6 · septembre 2026.*
+*En vigueur à compter de la version 1.1.7 · septembre 2026.*
 
 ## Un radar acoustique pour les personnes sourdes et malentendantes.
 
@@ -47,6 +47,10 @@ Les alertes météorologiques extrêmes proviennent de flux publics officiels �
 Activez le **Mode Locuteur (Speaker Mode)** et Vigilant Ear transcrit les personnes qui parlent près de vous en **blocs de sous-titres, un par voix.** La diarisation des locuteurs sur l'appareil garde les voix distinctes — *qui* dit *quoi* — avec un indicateur directionnel sur l'anneau intérieur. Le locuteur en direct est mis en surbrillance ; le texte plus ancien défile pour faire de la place.
 
 Deux choses que la plupart des applications de sous-titrage ne font pas : **l'honnêteté sur la confiance** — une marque de qualité discrète par ligne et des soulignements en pointillés sous les mots douteux vous disent quand faire confiance à une ligne et quand la revérifier — et **l'autocorrection** : juste après qu'une phrase se pose, l'application relit l'audio avec tout le contexte et peut restaurer un mot manqué ou mal entendu en environ deux secondes, puis le texte se fige.
+
+**Le langage grossier peut être masqué** (Réglages → Sous-titres). Les jurons arrivent sinon en texte brut, sans rien pour amortir le choc, et celui qui lit n'a pas le temps de détourner les yeux ; activez ce réglage et ces mots sont remplacés par des symboles, si bien que la phrase se lit encore sans le mot. Ce qui compte comme grossier, c'est la reconnaissance vocale de votre appareil qui le décide — pas une liste de mots à nous — elle suit donc la langue transcrite. Sur un compte déclaré comme mineur, c'est activé en permanence et un cadenas s'affiche. Cela s'applique à la parole que *cet* appareil transcrit ; le texte relayé depuis un téléphone jumelé a été transcrit là-bas et arrive déjà fini.
+
+**Le mot sur lequel le locuteur a insisté est mis en gras.** À l'oral, « je n'ai pas dit ÇA » et « je n'ai pas dit ça » sont deux phrases différentes, et une transcription identique perd entièrement la nuance. L'app repère le seul mot que la voix a soulevé en hauteur et le met en gras — un par ligne au maximum, et aucun quand elle n'est pas sûre, car marquer le mauvais mot revient à faire dire à quelqu'un ce qu'il n'a pas dit. Désactivé en chinois et en japonais, où la hauteur indique *quel mot c'est* et non avec quelle force il a été dit.
 
 Les sous-titres sont gratuits ; la traduction automatique est le niveau Power Pack+ optionnel. Les sous-titres peuvent aussi être **lus à voix haute sur vos appareils auditifs Bluetooth** — gratuitement, dans les Préférences. Les **Direction Tones** (aussi gratuits, dans Préférences → Sous-titres) ajoutent un indice audio optionnel dans l'oreille de votre choix qui signale où se trouve un locuteur — utile avec une aide auditive ou une audition unilatérale, et disponible pour tout le monde.
 
@@ -233,7 +237,7 @@ Détails complets : [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT
 
 ## Localisation
 
-Entièrement localisé — interface, alertes et sous-titres — en **anglais, espagnol, portugais (Brésil), français, allemand, italien, arabe, japonais, chinois simplifié, coréen, russe et hindi** (12 langues). Suit les paramètres régionaux du système ou un choix manuel dans l'application.
+Entièrement localisé — interface, alertes et sous-titres — en **anglais, espagnol, portugais (Brésil), français, allemand, italien, turc, arabe, japonais, chinois simplifié, coréen, russe et hindi** (13 langues). Suit les paramètres régionaux du système ou un choix manuel dans l'application.
 
 ---
 

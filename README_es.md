@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Vigente desde la versión 1.1.6 · septiembre de 2026.*
+*Vigente desde la versión 1.1.7 · septiembre de 2026.*
 
 ## Un radar acústico para quienes no pueden oír.
 
@@ -47,6 +47,10 @@ Las advertencias de clima severo vienen de fuentes públicas oficiales — **NWS
 Activa el **Modo Hablante** (Speaker Mode) y Vigilant Ear transcribe a las personas que hablan cerca de ti en **bloques de subtítulos, uno por voz.** La diarización de hablantes en el dispositivo mantiene las voces distintas — *quién* dice *qué* — con una señal direccional en el anillo interior. El hablante en vivo se resalta; el texto más antiguo se desplaza cuando hace falta espacio.
 
 Dos cosas que la mayoría de las apps de subtítulos no hacen: **honestidad sobre la confianza** — una marca sutil de calidad por fila y subrayados punteados bajo palabras dudosas te dicen cuándo confiar en una línea y cuándo verificarla — y **autocorrección**: justo después de que aterriza una frase, la app relee el audio con contexto completo y puede restaurar una palabra omitida o mal oída en un par de segundos; luego el texto se congela.
+
+**El lenguaje malsonante se puede ocultar** (Preferencias → Subtítulos). Las palabrotas llegan si no como texto, sin nada que amortigüe el golpe, y quien lee no tiene ocasión de apartar la vista a tiempo; actívalo y esas palabras se sustituyen por símbolos, de modo que la frase se sigue leyendo sin la palabra. Lo que cuenta como malsonante lo decide el reconocedor de voz de tu dispositivo —no una lista de palabras nuestra—, así que sigue al idioma que se está transcribiendo. En una cuenta declarada como menor de 18 años está siempre activo y muestra un candado. Se aplica al habla que transcribe *este* dispositivo; el texto retransmitido desde un teléfono vinculado se transcribió allí y llega ya terminado.
+
+**La palabra que el hablante ha recalcado se marca en negrita.** Dicho en voz alta, "yo no he dicho ESO" y "yo no he dicho eso" son dos frases distintas, y una transcripción idéntica pierde la diferencia por completo. La app busca la única palabra que la voz ha elevado en tono y la pone en negrita: como mucho una por línea, y ninguna cuando no está segura, porque marcar la palabra equivocada es poner palabras en boca de alguien. Desactivado en chino y japonés, donde el tono indica *qué palabra es* y no con cuánta fuerza se dijo.
 
 Los subtítulos son gratis; la traducción automática es la capa opcional de Power Pack+. Los subtítulos también pueden **leerse en voz alta en tus dispositivos auditivos Bluetooth** — gratis, en Preferencias. Los **Tonos de dirección** (también gratis, en Preferencias → Subtítulos) añaden una señal de audio opcional en el oído que elijas para indicar dónde está un hablante — útil con audífono o audición unilateral, y disponible para cualquiera.
 
@@ -233,7 +237,7 @@ Detalles completos: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT
 
 ## Localización
 
-Totalmente localizado — interfaz, alertas y subtítulos — al **inglés, español, portugués (Brasil), francés, alemán, italiano, árabe, japonés, chino simplificado, coreano, ruso e hindi** (12 idiomas). Sigue la configuración regional del sistema o una elección manual en la app.
+Totalmente localizado — interfaz, alertas y subtítulos — al **inglés, español, portugués (Brasil), francés, alemán, italiano, turco, árabe, japonés, chino simplificado, coreano, ruso e hindi** (13 idiomas). Sigue la configuración regional del sistema o una elección manual en la app.
 
 ---
 

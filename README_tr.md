@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*1.1.6 sürümünden itibaren geçerlidir · Eylül 2026.*
+*1.1.7 sürümünden itibaren geçerlidir · Eylül 2026.*
 
 ## Duyamayan insanlar için akustik bir radar.
 
@@ -50,6 +50,10 @@ Cihazda bir sınıflandırıcı yüzlerce gündelik sesi tanımlar ve kritik kat
 Çoğu altyazı uygulamasının yapmadığı iki şey: **güven hakkında dürüstlük** — satır başına ince bir nitelik işareti ve kuşkulu sözcüklerin altındaki noktalı çizgiler bir satıra ne zaman güvenip ne zaman iki kez bakacağınızı söyler — ve **öz düzeltme**: bir cümle oturduktan hemen sonra uygulama sesi tam bağlamla yeniden okur ve kaçırılmış veya yanlış duyulmuş bir sözcüğü yaklaşık iki saniye içinde geri getirebilir; sonra metin donar.
 
 **Name Called** (Tercihler, siz açana kadar kapalı) bu altyazılarda listelediğiniz adları izler — sizin, bir çocuğun, bir eşin. Biri “Marie için sipariş hazır” dediğinde başka bir altyazı balonu değil, yönlü belirgin bir dokunsal ve Watch uyarısı alırsınız. Sözcükler Speaker Mode’da yine konuşma olarak görünür; bu, *size* hitap edildiğinin dokunuşudur.
+
+**Küfürler gizlenebilir** (Tercihler → Altyazılar). Aksi hâlde uygunsuz sözcükler, darbeyi yumuşatacak hiçbir şey olmadan düz metin olarak gelir ve okuyanın gözünü zamanında kaçırma şansı olmaz; bunu açtığınızda o sözcükler simgelerle değiştirilir, böylece cümle sözcük olmadan da okunur. Neyin küfür sayıldığına cihazınızın kendi konuşma tanıma motoru karar verir — bizim sözcük listemiz değil — dolayısıyla deşifre edilen dili izler. Reşit olmadığı belirtilmiş bir hesapta her zaman açıktır ve bir kilit gösterir. *Bu* cihazın deşifre ettiği konuşma için geçerlidir; eşleşmiş bir telefondan aktarılan metin orada deşifre edilmiştir ve hazır hâlde gelir.
+
+**Konuşanın üzerine bastığı sözcük kalın yazılır.** Sesli söylendiğinde "BUNU söylemedim" ile "bunu söylemedim" iki farklı cümledir ve birbirinin aynı bir deşifre bu farkı tümüyle yitirir. Uygulama, sesin perdesini yükselttiği tek sözcüğü bulup kalın gösterir — satır başına en fazla bir tane, emin olmadığındaysa hiç, çünkü yanlış sözcüğü işaretlemek birinin ağzına söz koymaktır. Çince ve Japoncada kapalıdır; o dillerde perde, sözcüğün ne kadar vurgulandığını değil *hangi sözcük olduğunu* belirtir.
 
 Altyazılar ücretsizdir; otomatik çeviri isteğe bağlı Power Pack+ katmanıdır. Altyazılar **Bluetooth işitme cihazlarınıza sesli de okunabilir** — ücretsiz, Tercihler’de. **Yön Tonları** (yine ücretsiz, Tercihler → Altyazılar) seçtiğiniz kulakta bir konuşmacının nerede olduğunu bildiren isteğe bağlı bir ses ipucu ekler — işitme cihazı veya tek taraflı işitmeyle yararlı, herkese açık.
 
@@ -240,7 +244,7 @@ Ayrıntılar: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](S
 
 ## Yerelleştirme
 
-Arayüz, uyarılar ve altyazılar **İngilizce, İspanyolca, Portekizce (Brezilya), Fransızca, Almanca, İtalyanca, Arapça, Japonca, Basitleştirilmiş Çince, Korece, Rusça ve Hintçe** (12 dil) olarak tam yerelleştirilmiştir. Sistem yerelini veya uygulamadaki elle seçimi izler.
+Arayüz, uyarılar ve altyazılar **İngilizce, İspanyolca, Portekizce (Brezilya), Fransızca, Almanca, İtalyanca, Türkçe, Arapça, Japonca, Basitleştirilmiş Çince, Korece, Rusça ve Hintçe** (13 dil) olarak tam yerelleştirilmiştir. Sistem yerelini veya uygulamadaki elle seçimi izler.
 
 ---
 

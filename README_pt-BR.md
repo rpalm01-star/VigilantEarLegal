@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Vigente a partir da versão 1.1.6 · setembro de 2026.*
+*Vigente a partir da versão 1.1.7 · setembro de 2026.*
 
 ## Um radar acústico para quem não ouve.
 
@@ -47,6 +47,10 @@ Avisos de clima severo vêm de feeds públicos oficiais — **NWS** dos EUA, **M
 Ligue o **Speaker Mode** e o Vigilant Ear transcreve quem fala perto de você em **blocos de legenda, um por voz.** A diarização de falantes no aparelho mantém as vozes distintas — *quem* diz *o quê* — com uma indicação direcional no anel interno. O falante ao vivo fica em destaque; o texto mais antigo sobe conforme falta espaço.
 
 Duas coisas que a maioria dos apps de legenda não faz: **honestidade sobre a confiança** — uma marca sutil de qualidade por linha e sublinhados pontilhados sob palavras duvidosas dizem quando confiar e quando conferir de novo — e **autocorreção**: logo depois que uma frase cai, o app relê o áudio com contexto completo e pode restaurar uma palavra perdida ou mal ouvida em cerca de dois segundos; aí o texto congela.
+
+**Palavrões podem ser ocultados** (Preferências → Legendas). Caso contrário, eles chegam como texto puro, sem nada que amorteça o impacto, e quem lê não tem chance de desviar os olhos a tempo; ative isto e essas palavras são substituídas por símbolos, de modo que a frase continua legível sem a palavra. O que conta como palavrão é decidido pelo reconhecedor de fala do seu aparelho — não por uma lista de palavras nossa — então acompanha o idioma transcrito. Em uma conta declarada como menor de 18 anos fica sempre ativo e exibe um cadeado. Vale para a fala que *este* aparelho transcreve; o texto repassado de um telefone pareado foi transcrito lá e chega pronto.
+
+**A palavra em que quem fala apoiou a voz aparece em negrito.** Ditas em voz alta, "eu não disse ISSO" e "eu não disse isso" são duas frases diferentes, e uma transcrição idêntica perde a diferença por completo. O app percebe a única palavra que a voz elevou em tom e a coloca em negrito — no máximo uma por linha, e nenhuma quando não tem certeza, porque marcar a palavra errada é colocar palavras na boca de alguém. Desativado em chinês e japonês, onde o tom diz *qual palavra é*, e não com que força foi dita.
 
 As legendas são grátis; a tradução automática é a camada opcional do Power Pack+. As legendas também podem ser **faladas nos seus aparelhos auditivos Bluetooth** — grátis, em Preferências. Os **Tons de Direção** (também grátis, em Preferências → Legendas) adicionam um sinal de áudio opcional no ouvido que você escolher, indicando onde está o falante — útil com aparelho auditivo ou audição unilateral, e disponível para qualquer pessoa.
 
@@ -233,7 +237,7 @@ Detalhes completos: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT
 
 ## Localização
 
-Totalmente localizado — interface, alertas e legendas — em **inglês, espanhol, português (Brasil), francês, alemão, italiano, árabe, japonês, chinês simplificado, coreano, russo e hindi** (12 idiomas). Segue o idioma do sistema ou uma escolha manual no app.
+Totalmente localizado — interface, alertas e legendas — em **inglês, espanhol, português (Brasil), francês, alemão, italiano, turco, árabe, japonês, chinês simplificado, coreano, russo e hindi** (13 idiomas). Segue o idioma do sistema ou uma escolha manual no app.
 
 ---
 

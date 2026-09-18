@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Effective as of version 1.1.6 · September 2026.*
+*Effective as of version 1.1.7 · September 2026.*
 
 ## An acoustic radar for people who can't hear.
 
@@ -50,6 +50,10 @@ Turn on **Speaker Mode** and Vigilant Ear transcribes people talking near you in
 Two things most caption apps won't do: **honesty about confidence** — a subtle per-row quality mark and dotted underlines beneath doubtful words tell you when to trust a line and when to double-check — and **self-correction**: right after a sentence lands, the app re-reads the audio with full context and can restore a missed or misheard word within a couple of seconds, then the text freezes.
 
 **Name Called** (Preferences, off until you turn it on) watches those captions for names you list — yours, a child’s, a partner’s. When someone says “order for Marie ready,” you get a distinct haptic and Watch alert with direction, not another caption bubble. The words still appear in Speaker Mode as speech; this is the tap that they were talking *to you*.
+
+**Strong language can be masked** (Preferences → Captions). Swearing otherwise arrives as plain text with nothing to soften it, and a reader has no chance to look away first; turn this on and those words are replaced with symbols, so the sentence still reads without the word. Your device's own speech recognizer decides what counts — not a word list of ours — so it follows the language being transcribed. On an account declared as under 18 it is always on and shows a lock. It applies to speech *this* device transcribes; text relayed from a paired phone was transcribed there and arrives as finished text.
+
+**The word a speaker leaned on is marked in bold.** Said aloud, "I didn't say THAT" and "I didn't say that" are two different sentences, and an identical transcript loses the difference entirely. The app watches for the one word a speaker's voice lifted in pitch and sets it in bold — at most one per line, and nothing at all when it isn't sure, because marking the wrong word puts words in someone's mouth. Off in Chinese and Japanese, where pitch tells you *which word it is* rather than how hard it was pushed.
 
 Captions are free; automatic translation is the optional Power Pack+ layer. Captions can also be **spoken aloud to your Bluetooth hearing devices** — free, in Preferences. **Direction Tones** (also free, in Preferences → Captions) add an optional audio cue in the ear you choose that signals where a speaker is — useful with a hearing aid or single-sided hearing, and available to anyone.
 
@@ -240,7 +244,7 @@ Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](S
 
 ## Localization
 
-Fully localized — interface, alerts, and captions — into **English, Spanish, Portuguese (Brazil), French, German, Italian, Arabic, Japanese, Simplified Chinese, Korean, Russian, and Hindi** (12 languages). Follows the system locale or a manual choice in the app.
+Fully localized — interface, alerts, and captions — into **English, Spanish, Portuguese (Brazil), French, German, Italian, Turkish, Arabic, Japanese, Simplified Chinese, Korean, Russian, and Hindi** (13 languages). Follows the system locale or a manual choice in the app.
 
 ---
 

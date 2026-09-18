@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Gültig ab Version 1.1.6 · September 2026.*
+*Gültig ab Version 1.1.7 · September 2026.*
 
 ## Ein akustisches Radar für Menschen, die nicht hören können.
 
@@ -47,6 +47,10 @@ Unwetterwarnungen kommen aus offiziellen öffentlichen Feeds — **NWS** (USA), 
 Schalten Sie den **Sprechermodus** ein, und Vigilant Ear transkribiert sprechende Personen in der Nähe in **Untertitelblöcke, einen pro Stimme.** On-Device-Sprecherdiarisierung hält Stimmen getrennt — *wer* sagt *was* — mit einem Richtungshinweis auf dem inneren Ring. Der aktuelle Sprecher ist hervorgehoben; älterer Text scrollt weg, wenn Platz fehlt.
 
 Zwei Dinge, die die meisten Untertitel-Apps nicht tun: **ehrliche Konfidenz** — eine dezente Qualitätsmarkierung pro Zeile und gepunktete Unterstreichungen unter unsicheren Wörtern zeigen, wann Sie einer Zeile trauen dürfen und wann Sie nachprüfen sollten — und **Selbstkorrektur**: kurz nachdem ein Satz steht, liest die App das Audio mit vollem Kontext erneut und kann ein verpasstes oder falsch verstandenes Wort innerhalb von etwa zwei Sekunden nachziehen; danach friert der Text ein.
+
+**Vulgärsprache lässt sich maskieren** (Einstellungen → Untertitel). Kraftausdrücke erscheinen sonst als reiner Text, ohne irgendetwas, das den Schlag abfedert, und wer liest, hat keine Gelegenheit wegzuschauen; schalten Sie dies ein, und solche Wörter werden durch Symbole ersetzt, sodass der Satz auch ohne das Wort lesbar bleibt. Was als Kraftausdruck gilt, entscheidet die Spracherkennung Ihres Geräts – keine Wortliste von uns –, sie folgt also der transkribierten Sprache. Bei einem als minderjährig angegebenen Account ist das dauerhaft aktiv und zeigt ein Schloss. Es gilt für Sprache, die *dieses* Gerät transkribiert; von einem gekoppelten Telefon weitergereichter Text wurde dort transkribiert und kommt fertig an.
+
+**Das betonte Wort wird fett gesetzt.** Laut gesprochen sind „DAS habe ich nicht gesagt" und „Das habe ich nicht gesagt" zwei verschiedene Sätze, und ein identisches Transkript verliert den Unterschied vollständig. Die App achtet auf das eine Wort, das die Stimme in der Tonhöhe angehoben hat, und setzt es fett – höchstens eines pro Zeile, und gar keines, wenn sie unsicher ist, denn das falsche Wort zu markieren legt jemandem Worte in den Mund. Ausgeschaltet in Chinesisch und Japanisch, wo die Tonhöhe sagt, *welches Wort* es ist, und nicht, wie stark es betont wurde.
 
 Untertitel sind kostenlos; automatische Übersetzung ist die optionale Power-Pack+-Schicht. Untertitel können außerdem **laut auf Ihren Bluetooth-Hörgeräten vorgelesen werden** — kostenlos, in den Einstellungen. **Richtungstöne** (ebenfalls kostenlos, unter Einstellungen → Untertitel) geben optional einen akustischen Hinweis im gewählten Ohr, wo ein Sprecher ist — hilfreich mit Hörgerät oder einseitigem Hören, und für alle verfügbar.
 
@@ -233,7 +237,7 @@ Vollständige Details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPP
 
 ## Lokalisierung
 
-Vollständig lokalisiert — Oberfläche, Warnungen und Untertitel — in **Englisch, Spanisch, Portugiesisch (Brasilien), Französisch, Deutsch, Italienisch, Arabisch, Japanisch, vereinfachtes Chinesisch, Koreanisch, Russisch und Hindi** (12 Sprachen). Folgt dem Systemgebietsschema oder einer manuellen Wahl in der App.
+Vollständig lokalisiert — Oberfläche, Warnungen und Untertitel — in **Englisch, Spanisch, Portugiesisch (Brasilien), Französisch, Deutsch, Italienisch, Türkisch, Arabisch, Japanisch, vereinfachtes Chinesisch, Koreanisch, Russisch und Hindi** (13 Sprachen). Folgt dem Systemgebietsschema oder einer manuellen Wahl in der App.
 
 ---
 

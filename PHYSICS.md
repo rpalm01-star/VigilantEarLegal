@@ -10,7 +10,7 @@ behind the product claims. Every figure is tagged by provenance:*
 | **BENCHED** | Simulated room or synthetic stream with known ground truth |
 | **MODELLED** | Physics estimate or design threshold, not yet checked against a field recording |
 
-*Last revised 2026-09-06. Internal protocols (field census, room-breach design, Sentinel ledger)
+*Last revised 2026-09-18. Internal protocols (field census, room-breach design, Sentinel ledger)
 live in the Vigilant Ear engineering tree; they are cited by name where a recipe matters.*
 
 ---
@@ -185,6 +185,36 @@ that phone's local event to the resolved side: ghost gone, left/right allowed ag
 a 40 m baseline with a source 50 m away (fix within 2 m, correct side chosen whether the published
 guess was right or wrong); not yet field-run (needs both phones and an off-axis source).
 
+### 2.7 Android — real microphones, and what that changes
+
+Everything above is bounded by Apple's synthesized stereo image. Android is the other case: Oboe
+delivers **two physical microphones** on the phone's long axis (145–158 mm depending on model), so
+the inter-channel delay is a true acoustic lag rather than an image property. The estimator is the
+same one — coherence-weighted, frame-averaged GCC-PHAT, 8 kHz cutoff — ported across.
+
+| Change (all 2026-09-17) | Effect | Status |
+|---|---|---|
+| 1.2 kHz → 8 kHz low-pass **plus** per-bin coherence weighting | med 10.3° → 1.1°, p90 26.9° → 4.5° (96 scenes) | BENCHED |
+| Capture 16 kHz → 48 kHz | med 3.5° → 0.7°, p90 18.8° → 4.1°; CPU 85.8% → 84.7% | BENCHED |
+| Peak-prominence gate (T = 1.30, separation ≥ 3 samples) | p90 34.5° → 7.9°; 82% of frames refused in a quiet house, against 0% before | BENCHED |
+| Full-day arc | med **11.8° → 0.7°** | BENCHED |
+
+🔴 **Raising the cutoff alone made it worse** (scatter 33.5° → 61.2°). At 16 kHz the correlation peak
+is 6.7 samples wide against a ±7.18-sample answer space — 93% of it — so widening the band without
+down-weighting reverberant bins by coherence just admits more noise. The two changes are one change.
+
+**Field check (MEASURED 2026-09-17, Pixel 10a):** a source along the mic axis reads 90.0°
+(IQR 83–90); broadside reads 5.2° (IQR 4–6).
+
+⚠️ **The bench numbers compare simulated pipelines, not hardware, and the comparison flatters iOS.**
+The simulator renders two *physical* microphones — which is what Android has and what the iPhone
+does not. So the iPhone column is what its parameters permit, not what its glass delivers. Read the
+table as "Android's own before and after", not as a cross-platform ranking.
+
+⚠️ **One cell regressed:** RT60 0.2 s / SNR 5 dB went 11.5° → 13.1°. Every other cell improved.
+Low reverb with loud noise is the one place the port is worse; n = 16 scenes, so it may be sampling
+noise, and it is recorded rather than dismissed.
+
 ---
 
 ## 3. Distance
@@ -327,7 +357,7 @@ code stays behind a compile-time kill switch.
 Everything in §1–2 is bounded by Apple's synthesized image. A clip-on bar for the iPad with two
 ICS-43434 capsules on a rigid **163 mm** baseline (an RP2040 speaking USB audio) escapes it: real
 microphones, known geometry, ±1–2° with sub-sample interpolation, and a third capsule 9 mm off the
-line breaks the front/back cone for full 360°. Rev-A boards are ordered; acceptance is the same
+line breaks the front/back cone for full 360°. Rev-A boards are in manufacture (five units); acceptance is the same
 tape-measure protocol as the phone.
 
 ---
