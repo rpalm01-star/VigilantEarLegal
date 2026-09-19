@@ -34,6 +34,7 @@ All tactical overlays, HUD alerts, and preference menus adjust dynamically to sy
 - **Geographic Road Snapping**: Projects relative mathematical acoustic bearings onto global GPS coordinates, intelligently snapping real-time vehicle vectors to verified streets.
 - **Speaker Mode (Live Directional Captions)**: Transcribes the people talking near you into caption rows, entirely on the device, with directional arrows pointing to the speaker's location. Per-voice separation is present in the pipeline and improving; treat the rows as *what was said near you*, not as a reliable assertion of *who said it*.
 - **Name Called**: Watches those captions for names you list — your own, a child's, a partner's. When one is spoken aloud the phone alerts you, with the direction the voice came from when it could actually be measured. The names are held in the device keystore and never leave it.
+- **Named voices**: If you name a speaker, that name and a short voiceprint stay in this phone's encrypted store. They are **not** backed up to the cloud.
 
 *Caption translation is not yet available on Android. The engine is present but is not exposed, and this document will not claim it until it ships.*
 

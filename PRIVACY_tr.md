@@ -1,6 +1,6 @@
 # Vigilant Ear Gizlilik Politikası 👂🛰️
 
-**Yürürlük tarihi:** 8 Eylül 2026
+**Yürürlük tarihi:** 18 Eylül 2026
 
 ## Giriş
 
@@ -20,6 +20,7 @@ Vigilant Ear (“biz”, “bize” veya “bizim”) gizliliğinizi korumaya ka
 
 - **Mikrofon sesi** — Çevresel sesleri (siren, araç, kapı zili, bebek ağlaması, yakındaki insanlar vb.) gerçek zamanlı algılamak, yön tahmin etmek ve (Speaker Mode açıkken) canlı altyazı ve isteğe bağlı cihazda çeviri üretmek için.
 - **Konuşma tanıma (cihazda)** — Altyazılar açıkken cihazınızın konuşma çerçeveleri yakındaki konuşmayı telefonda metne çevirir. Altyazı metni canlı gösterilir; Vigilant Ear onu kalıcı bir transkript geçmişi olarak arşivlemez; hata ayıklama günlükleri altyazı içeriği içermez. İsimleri doğru yazmak için uygulama, bu telefonda zaten bulunan kısa bir sözcük listesini cihazda tanıyan motora verebilir — bağladığınız Constellation telefonlarının görünen adları ve Shazam’ın az önce tanıdığı bir şarkının adı ve sanatçısı. **Kişilerinize dokunmaz** ve bu liste cihazı asla terk etmez.
+- **İsimli sesler (isteğe bağlı)** — Bir konuşmacıya isim verirseniz o isim ve kısa bir ses izi bu telefonun şifreli deposunda kalır ve **onu asla terk etmez**. Seslerin bulut yedeği yoktur.
 - **Konum** — Algılanan sesleri ve hava uyarı alanlarını haritaya yerleştirmek, yön rehberliğini iyileştirmek ve tanıdık bir odanın ne kadar sessiz olduğunu hatırlamak için; böylece müzik algılama her açılışta yeniden öğrenmek zorunda kalmaz. Bu son kullanım tek başına bir enlem kaydeder — boylam yok — yaklaşık 100 metreye yuvarlanır, en fazla sekiz yer. Uygulamanın bu telefondaki kendi ayarlarında kalır ve hiçbir yere gönderilmez.
 - **Cihaz yönelimi ve hareket** — Kerteriz doğruluğunu iyileştirmek için.
 - **Kamera (isteğe bağlı)** — Yalnızca kamera AR “sesi gör” görünümünü açarsanız, işaretleyicilerin canlı kamera önizlemesine tutturulması için. Kamera kareleri cihazda gösterim içindir; Vigilant Ear onları ses tanıma için yüklemez.
@@ -45,9 +46,6 @@ Belirli özellikleri kullandığınızda — veya uygulamanın çalışması iç
 *   **Müzik tanıma (isteğe bağlı, Power Pack+)**
     *   *Ne gönderilir:* Müzik algılandığında ve Shazam açıkken kısa ses parmak izleri — asla ham ses değil (ayarlarda kapatılabilir)
     *   *Sağlayıcı:* Apple Shazam / ShazamKit
-*   **İsimli konuşmacı kadrosu yedeklemesi (yalnızca Android, isteğe bağlı)**
-    *   *Ne gönderilir:* Android’de isimli ses izleri kaydettiğinizde telefon onları kadro hizmetimize **yalnızca şifreli metin** (AES-GCM) olarak eşitleyebilir. Görünen adlar ve gömüler, **telefonu asla terk etmeyen** Keystore destekli bir anahtarla cihazda şifrelenir; sunucu opak baytlar saklar ve isimleri veya ses izlerini okuyamaz. Ses yüklenmez.
-    *   *Sağlayıcı:* Wingdings kadro hizmeti (Research Array alımıyla aynı global-array sunucusu)
 *   **Yol bağlamı**
     *   *Ne gönderilir:* Konumunuz çevresindeki harita sektörüne dayalı anonim Overpass API sorguları
     *   *Sağlayıcı:* Overpass API üzerinden OpenStreetMap katkıverenleri
@@ -74,7 +72,7 @@ Belirli özellikleri kullandığınızda — veya uygulamanın çalışması iç
     *   *Ne gönderilir:* Yalnızca özelliği açarsanız: nitelikli bir olay kaydedildiğinde küçük, yalnızca üstveri algılama raporları (zaman, yaklaşık konum, temel sinyal özellikleri, uygulama sürümü). Aşağıda **Research Array**.
     *   *Sağlayıcı:* İşlettiğimiz altyapı (web ve Postgres gibi uygulama ve veritabanı sağlayıcıları). Ayrıntılar ve sınırlar Research Array bölümündedir.
 
-Bu hizmetleri harita, hava, müzik etiketi, satın alma, çok cihaz, Android nametag kadrosu yedeklemesi (yalnızca şifreli metin) ve (katılırsanız) araştırma dizisi işlevi için seçeriz. **Wingdings bu sağlayıcılardan mikrofon sesinizi, sürekli konum geçmişinizi veya iletişim bilgilerinizi almaz.**
+Bu hizmetleri harita, hava, müzik etiketi, satın alma, çok cihaz ve (katılırsanız) araştırma dizisi işlevi için seçeriz. **Wingdings bu sağlayıcılardan mikrofon sesinizi, sürekli konum geçmişinizi veya iletişim bilgilerinizi almaz.**
 
 ## Wingdings ne toplar
 
