@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Effective as of version 1.1.7 · September 2026.*
+*Effective as of version 1.1.8 · September 2026.*
 
 ## An acoustic radar for people who can't hear.
 
@@ -32,7 +32,7 @@ Everything that matters runs on the device. Audio is not recorded or uploaded fo
 ## What it does
 
 ### 🧭 It sees sound — direction & distance
-Using the iPhone's two microphones, Vigilant Ear measures the **angle of a sound and whether it is ahead of you or behind you**, holds that reading steady to about a degree, and places it as a live marker on a heading-up radar ring and map. Two microphones on one line can't tell left from right on their own — a sound 50° to your right and one 50° to your left arrive with the same tiny time gap — so the app draws the reading plus a **fainter ghost on the other side**, and a turn of the wrist or a second phone settles it. Distance is estimated from loudness against a street-calibrated curve and shown as the estimate it is: *≈ 50 ft*, with a likely range. Move, and the markers hold their real-world position. This is the core: spatial awareness of a world you can't hear. (Numbers below.)
+Using the iPhone's two microphones, Vigilant Ear measures the **angle of a sound and whether it is ahead of you or behind you**, holds that reading steady to about a degree, and places it as a live marker on a heading-up radar ring and map. Two microphones on one line can't tell left from right on their own — a sound 50° to your right and one 50° to your left arrive with the same tiny time gap — so the app draws the reading plus a **fainter ghost on the other side**, and a turn of the wrist or a second phone settles it. Distance is estimated from loudness against a street-calibrated curve and shown as the estimate it is: *≈ 50 ft*, with a likely range — in the units of the country you are in, not of the language you read the app in. Move, and the markers hold their real-world position. This is the core: spatial awareness of a world you can't hear. (Numbers below.)
 
 ### 🚨 It recognizes important sounds — and warns you
 An on-device classifier identifies hundreds of everyday sounds and watches the critical categories — **sirens, alarms — including a dedicated car-alarm class — doorbells/knocks, baby cry, a person nearby, and severe weather.** When one fires, you get a clear on-screen alert, optional **push notification**, and a distinct **haptic** — even when the app is backgrounded or the phone is asleep. Critical categories default ready so enabling notifications doesn't mean “everything off.” Turn all alert categories off and the engine fully hibernates while backgrounded to save battery. A **Sentinel** layer cross-checks alerts against independent evidence — direction, motion, and public feeds — so what fires is corroborated, not a lone classifier guess. It works both ways: a siren-shaped moment inside a song gets held, but a real siren repeating through your music breaks through and alerts.
@@ -57,8 +57,8 @@ Two things most caption apps won't do: **honesty about confidence** — a subtle
 
 Captions are free; automatic translation is the optional Power Pack+ layer. Captions can also be **spoken aloud to your Bluetooth hearing devices** — free, in Preferences. **Direction Tones** (also free, in Preferences → Captions) add an optional audio cue in the ear you choose that signals where a speaker is — useful with a hearing aid or single-sided hearing, and available to anyone.
 
-### 🌐 Speaker Auto-Translate — your language, live *(Power Pack+)*
-With Speaker Mode on, when a nearby person speaks another language, Vigilant Ear can detect it and render their captions **in your language**, with the source language shown on their block. The chain — hear → separate speakers → transcribe → translate → display — runs **on the device**; the only network moment is a one-time language-pack download from Apple. You don't have to know or pick the other language first.
+### 🌐 Auto-Translate — your language, live *(Power Pack+)*
+With Speaker Mode on, when a nearby person speaks another language, Vigilant Ear can detect it and render their captions **in your language**, with the source language shown on their block. The chain — hear → separate speakers → transcribe → translate → display — runs **on the device**; the only network moment is a one-time language-pack download from Apple, and when that download is what you are waiting on the app says so rather than leaving you looking at untranslated text. You don't have to know or pick the other language first.
 
 This is the closest shipping thing to **science fiction's universal translator** — the device that simply understands. Vigilant Ear detects the language on its own, follows every speaker in the room, and captions them all in your language — no earbuds, no setup, on your device.
 
@@ -96,7 +96,7 @@ Sound bearings project onto real GPS coordinates on the map. Vehicle sounds can 
 **Feature Playground** is public for everyone: Home & Street practice (knock, alarm, baby, siren, weather), multi-phone and conversation demos, and a clear watermark so practice never pretends to be a live event. Closing the panel tears demos down cleanly (no stuck GPS spoof, no leftover flags).
 
 ### ♿ Accessibility first
-Built for Deaf / hard-of-hearing / CODA and color-blind users: **color-independent** cues, **≥44 pt** tap targets, **Reduce Motion** respect, multimodal alerts (haptic + visual + Watch), and a startup verification screen that shows permission status with clear green / grey / red (and burnt-orange “disallowed”) states — including the notification grant that acts as the master alert switch.
+Built for Deaf / hard-of-hearing / CODA and color-blind users: **color-independent** cues, **≥44 pt** tap targets, **Reduce Motion** respect, **right-to-left layouts** for Arabic readers, multimodal alerts (haptic + visual + Watch), and a startup verification screen that shows permission status with clear green / grey / red (and burnt-orange “disallowed”) states — including the notification grant that acts as the master alert switch.
 
 ---
 
@@ -116,7 +116,7 @@ The safety core is **free, forever**:
 
 **Power Pack+** is a one-time unlock (**not a subscription**) with a **90-day free trial**. It adds the superpowers:
 
-- **Speaker Auto-Translate** — on-device translation of nearby speech into your language.
+- **Auto-Translate** — on-device translation of nearby speech into your language.
 - **Constellation** — multi-iPhone shared hearing over Ultra-Wideband, with partner messages.
 - **Music ID** — ShazamKit song recognition.
 - **Custom Sound Packs** — add-on classifiers you train for your own sounds.
@@ -244,7 +244,7 @@ Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](S
 
 ## Localization
 
-Fully localized — interface, alerts, and captions — into **English, Spanish, Portuguese (Brazil), French, German, Italian, Turkish, Arabic, Japanese, Simplified Chinese, Korean, Russian, and Hindi** (13 languages). Follows the system locale or a manual choice in the app.
+Fully localized — interface, alerts, and captions — into **English, Spanish, Portuguese (Brazil), French, German, Italian, Turkish, Arabic, Japanese, Simplified Chinese, Korean, Russian, Hindi, and Romanian** (14 languages). Follows the system locale or a manual choice in the app. Romanian captions work on-device; Apple Translate has no Romanian, so Auto-Translate shows the original for that language.
 
 ---
 

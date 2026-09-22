@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*En vigueur à compter de la version 1.1.7 · septembre 2026.*
+*En vigueur à compter de la version 1.1.8 · septembre 2026.*
 
 ## Un radar acoustique pour les personnes sourdes et malentendantes.
 
@@ -54,7 +54,7 @@ Deux choses que la plupart des applications de sous-titrage ne font pas : **l'ho
 
 Les sous-titres sont gratuits ; la traduction automatique est le niveau Power Pack+ optionnel. Les sous-titres peuvent aussi être **lus à voix haute sur vos appareils auditifs Bluetooth** — gratuitement, dans les Préférences. Les **Direction Tones** (aussi gratuits, dans Préférences → Sous-titres) ajoutent un indice audio optionnel dans l'oreille de votre choix qui signale où se trouve un locuteur — utile avec une aide auditive ou une audition unilatérale, et disponible pour tout le monde.
 
-### 🌐 Auto-traduction des locuteurs (Speaker Auto-Translate) — votre langue, en direct *(Power Pack+)*
+### 🌐 Auto-traduction (Auto-Translate) — votre langue, en direct *(Power Pack+)*
 Avec le Mode Locuteur activé, lorsqu'une personne à proximité parle une autre langue, Vigilant Ear peut la détecter et afficher ses sous-titres **dans votre langue**, avec la langue source indiquée sur son bloc. La chaîne — écouter → séparer les locuteurs → transcrire → traduire → afficher — s'exécute **sur l'appareil** ; la seule utilisation du réseau est un téléchargement unique du pack linguistique depuis Apple. Vous n'avez pas besoin de connaître ou de choisir l'autre langue en premier.
 
 C'est ce qui se rapproche le plus du **traducteur universel de la science-fiction** — l'appareil qui comprend, tout simplement. Vigilant Ear détecte la langue par lui-même, suit chaque personne qui parle dans la pièce et les sous-titre toutes dans votre langue — sans écouteurs, sans réglage, sur votre appareil.
@@ -112,7 +112,7 @@ Le cœur de la sécurité est **gratuit, pour toujours** :
 
 Le **Power Pack+** est un déblocage unique (**pas un abonnement**) avec un **essai gratuit de 90 jours**. Il ajoute les superpouvoirs suivants :
 
-- **Auto-traduction des locuteurs (Speaker Auto-Translate)** — traduction sur l'appareil de la parole environnante vers votre langue.
+- **Auto-traduction (Auto-Translate)** — traduction sur l'appareil de la parole environnante vers votre langue.
 - **Constellation** — audition partagée sur plusieurs iPhones via Ultra-Wideband, avec messages entre partenaires.
 - **Music ID** — reconnaissance de chansons via ShazamKit.
 - **Packs de sons personnalisés** — des classificateurs additionnels que vous entraînez pour vos propres sons.

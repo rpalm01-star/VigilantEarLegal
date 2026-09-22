@@ -12,7 +12,7 @@ Wenn Sie technische Probleme haben, Fragen zur Genauigkeit von Warnungen haben o
 
 Kurze Videos mit allem auf dem Bildschirm — nichts, was Sie hören müssen. Einige haben zusätzlich eine Erzählung, aber nichts ist nur als Ton verfügbar.
 
-- **[Untertitel-Sprache ändern](https://youtu.be/bBTjlWnbFr4)** — die App-Sprache umstellen und **Speaker Auto-Translate** einschalten, inklusive des Schritts, den die meisten übersehen: Untertitel kommen so lange in der alten Sprache an, bis Sie die App vollständig schließen und neu öffnen.
+- **[Untertitel-Sprache ändern](https://youtu.be/bBTjlWnbFr4)** — die App-Sprache umstellen und **Auto-Translate** einschalten, inklusive des Schritts, den die meisten übersehen: Untertitel kommen so lange in der alten Sprache an, bis Sie die App vollständig schließen und neu öffnen.
 - **[So sehen die Warnungen aus](https://youtu.be/1NCXHqQ-BR8)** — Rauchmelder, Klopfen an der Tür, Babyweinen, Sirene, Unwetter und eine Erdbeben-Bestätigung, jeweils mit Richtung.
 
 Mehr: **[Tutorials](https://www.youtube.com/playlist?list=PLV5sYptGyafo)** · **[Beispiele](https://www.youtube.com/playlist?list=PLYc8NrtyfisY)**
@@ -75,7 +75,7 @@ Der Sicherheitskern ist **kostenlos, für immer**:
 
 **Power Pack+** ist eine einmalige Freischaltung (**kein Abonnement**) mit einer **kostenlosen 90-Tage-Testversion**. Es fügt hinzu:
 
-- **Automatische Sprecher-Übersetzung** — On-Device-Übersetzung von Sprache in der Nähe in Ihre Sprache  
+- **Auto-Übersetzen** — On-Device-Übersetzung von Sprache in der Nähe in Ihre Sprache  
 - **Constellation** — geteiltes Hören mit mehreren iPhones über Ultra-Wideband  
 - **Musik-ID** — ShazamKit-Songerkennung  
 
@@ -86,7 +86,7 @@ Alles für die Erkennung läuft weiterhin auf Ihrem Gerät; Power Pack+ ändert 
 Diese befinden sich unter **Power Pack+** in der App (Aktionsfächer-Glitzern / Menü):
 
 - **Shazam (Musik-ID)** — Erkennung von Umgebungsmusik auf dem räumlichen Radar (Power Pack+)  
-- **Automatische Sprecher-Übersetzung** — Live-Untertitel in Ihre Sprache übersetzen (Power Pack+)  
+- **Auto-Übersetzen** — Live-Untertitel in Ihre Sprache übersetzen (Power Pack+)  
 
 Unwetter-Feeds sind **kostenlos** und werden in den Wetter- / Warneinstellungen verwaltet — sie sind kein Power Pack+-Zusatz.
 

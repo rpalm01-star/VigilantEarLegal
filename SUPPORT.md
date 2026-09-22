@@ -12,7 +12,7 @@ If you are experiencing technical issues, have questions about alert accuracy, o
 
 Short videos with everything on screen — nothing you need to hear. Some now carry narration as well, but nothing is audio-only.
 
-- **[Change your caption language](https://youtu.be/bBTjlWnbFr4)** — switching the app's language and turning on **Speaker Auto-Translate**, including the step most people miss: captions keep arriving in the old language until you close the app completely and open it again.
+- **[Change your caption language](https://youtu.be/bBTjlWnbFr4)** — switching the app's language and turning on **Auto-Translate**, including the step most people miss: captions keep arriving in the old language until you close the app completely and open it again.
 - **[What the alerts look like](https://youtu.be/1NCXHqQ-BR8)** — smoke detector, knock at the door, baby crying, siren, severe weather and an earthquake confirmation, each with its direction.
 
 More: **[Tutorials](https://www.youtube.com/playlist?list=PLV5sYptGyafo)** · **[Samples](https://www.youtube.com/playlist?list=PLYc8NrtyfisY)**
@@ -75,7 +75,7 @@ The safety core is **free, forever**:
 
 **Power Pack+** is a one-time unlock (**not a subscription**) with a **90-day free trial**. It adds:
 
-- **Speaker Auto-Translate** — on-device translation of nearby speech into your language  
+- **Auto-Translate** — on-device translation of nearby speech into your language  
 - **Constellation** — multi-iPhone shared hearing over Ultra-Wideband  
 - **Music ID** — ShazamKit song recognition  
 
@@ -86,7 +86,7 @@ Everything for recognition still runs on your device; Power Pack+ only changes w
 These live under **Power Pack+** in the app (action fan sparkles / menu):
 
 - **Shazam (Music ID)** — environmental music identification on the spatial radar (Power Pack+)  
-- **Speaker Auto-Translate** — translate live captions into your language (Power Pack+)  
+- **Auto-Translate** — translate live captions into your language (Power Pack+)  
 
 Severe-weather feeds are **free** and managed with the weather / alert preferences — they are not a Power Pack+ add-on.
 

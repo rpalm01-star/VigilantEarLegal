@@ -12,7 +12,7 @@ Se você estiver enfrentando problemas técnicos, tiver dúvidas sobre a precis�
 
 Vídeos curtos com tudo na tela — nada que você precise ouvir. Alguns também têm narração, mas nada existe apenas em áudio.
 
-- **[Mudar o idioma das legendas](https://youtu.be/bBTjlWnbFr4)** — trocar o idioma do app e ativar o **Speaker Auto-Translate**, incluindo o passo que quase todos perdem: as legendas continuam chegando no idioma antigo até você fechar o app completamente e abri-lo de novo.
+- **[Mudar o idioma das legendas](https://youtu.be/bBTjlWnbFr4)** — trocar o idioma do app e ativar o **Auto-Translate**, incluindo o passo que quase todos perdem: as legendas continuam chegando no idioma antigo até você fechar o app completamente e abri-lo de novo.
 - **[Como são os alertas](https://youtu.be/1NCXHqQ-BR8)** — detector de fumaça, batida na porta, choro de bebê, sirene, clima severo e uma confirmação de terremoto, cada um com sua direção.
 
 Mais: **[Tutoriais](https://www.youtube.com/playlist?list=PLV5sYptGyafo)** · **[Exemplos](https://www.youtube.com/playlist?list=PLYc8NrtyfisY)**
@@ -75,7 +75,7 @@ O núcleo de segurança é **gratuito, para sempre**:
 
 O **Power Pack+** é um desbloqueio único (**não é uma assinatura**) com um **teste gratuito de 90 dias**. Ele adiciona:
 
-- **Speaker Auto-Translate** — tradução no dispositivo de fala próxima para o seu idioma  
+- **Auto-Translate** — tradução no dispositivo de fala próxima para o seu idioma  
 - **Constellation** — audição compartilhada em vários iPhones sobre Ultra-Wideband  
 - **Identificação de Música (Music ID)** — reconhecimento de música do ShazamKit  
 
@@ -86,7 +86,7 @@ Tudo para reconhecimento ainda roda no seu dispositivo; o Power Pack+ muda apena
 Estes ficam no **Power Pack+** no aplicativo (brilhos no leque de ações / menu):
 
 - **Shazam (Music ID)** — identificação de música ambiental no radar espacial (Power Pack+)  
-- **Speaker Auto-Translate** — traduzir legendas ao vivo para o seu idioma (Power Pack+)  
+- **Auto-Translate** — traduzir legendas ao vivo para o seu idioma (Power Pack+)  
 
 Os feeds de clima severo são **gratuitos** e gerenciados nas preferências de clima / alerta — eles não são um complemento do Power Pack+.
 

@@ -12,7 +12,7 @@ Si tiene problemas técnicos, tiene preguntas sobre la precisión de las alertas
 
 Videos cortos con todo en pantalla — nada que necesites oír. Algunos incluyen narración, pero nada existe solo en audio.
 
-- **[Cambiar el idioma de los subtítulos](https://youtu.be/bBTjlWnbFr4)** — cambiar el idioma de la app y activar **Speaker Auto-Translate**, incluido el paso que casi todos pasan por alto: los subtítulos siguen llegando en el idioma anterior hasta que cierras la app por completo y la vuelves a abrir.
+- **[Cambiar el idioma de los subtítulos](https://youtu.be/bBTjlWnbFr4)** — cambiar el idioma de la app y activar **Auto-Translate**, incluido el paso que casi todos pasan por alto: los subtítulos siguen llegando en el idioma anterior hasta que cierras la app por completo y la vuelves a abrir.
 - **[Cómo se ven las alertas](https://youtu.be/1NCXHqQ-BR8)** — detector de humo, golpe en la puerta, llanto de bebé, sirena, clima severo y una confirmación de terremoto, cada una con su dirección.
 
 Más: **[Tutoriales](https://www.youtube.com/playlist?list=PLV5sYptGyafo)** · **[Ejemplos](https://www.youtube.com/playlist?list=PLYc8NrtyfisY)**
@@ -75,7 +75,7 @@ El núcleo de seguridad es **gratis, para siempre**:
 
 **Power Pack+** es un desbloqueo único (**no una suscripción**) con una **prueba gratuita de 90 días**. Agrega:
 
-- **Speaker Auto-Translate** — traducción en el dispositivo del habla cercana a su idioma  
+- **Auto-Translate** — traducción en el dispositivo del habla cercana a su idioma  
 - **Constellation** — audición compartida de múltiples iPhone a través de Ultra-Wideband  
 - **Identificación de Música** — reconocimiento de canciones ShazamKit  
 
@@ -86,7 +86,7 @@ Todo para el reconocimiento aún se ejecuta en su dispositivo; Power Pack+ solo 
 Estos se encuentran bajo **Power Pack+** en la aplicación (destellos del ventilador de acción / menú):
 
 - **Shazam (Identificación de Música)** — identificación de música ambiental en el radar espacial (Power Pack+)  
-- **Speaker Auto-Translate** — traduce los subtítulos en vivo a su idioma (Power Pack+)  
+- **Auto-Translate** — traduce los subtítulos en vivo a su idioma (Power Pack+)  
 
 Las fuentes de clima severo son **gratuitas** y se gestionan con las preferencias de clima / alerta — no son un complemento de Power Pack+.
 

@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*1.1.7 sürümünden itibaren geçerlidir · Eylül 2026.*
+*1.1.8 sürümünden itibaren geçerlidir · Eylül 2026.*
 
 ## Duyamayan insanlar için akustik bir radar.
 
@@ -57,7 +57,7 @@ Cihazda bir sınıflandırıcı yüzlerce gündelik sesi tanımlar ve kritik kat
 
 Altyazılar ücretsizdir; otomatik çeviri isteğe bağlı Power Pack+ katmanıdır. Altyazılar **Bluetooth işitme cihazlarınıza sesli de okunabilir** — ücretsiz, Tercihler’de. **Yön Tonları** (yine ücretsiz, Tercihler → Altyazılar) seçtiğiniz kulakta bir konuşmacının nerede olduğunu bildiren isteğe bağlı bir ses ipucu ekler — işitme cihazı veya tek taraflı işitmeyle yararlı, herkese açık.
 
-### 🌐 Speaker Auto-Translate — diliniz, canlı *(Power Pack+)*
+### 🌐 Auto-Translate — diliniz, canlı *(Power Pack+)*
 Speaker Mode açıkken yakındaki biri başka bir dil konuşursa Vigilant Ear bunu algılayıp altyazılarını **sizin dilinizde** çizebilir, kaynak dil bloğunda gösterilir. Zincir — duy → konuşmacıları ayır → yazıya dök → çevir → göster — **cihazda** çalışır; tek ağ anı Apple’dan bir kerelik dil paketi indirmesidir. Diğer dili önceden bilmeniz veya seçmeniz gerekmez.
 
 Bu, **bilim kurgunun evrensel çevirmenine** şimdiye kadar en yakın gemi ürünüdür — yalnızca anlayan cihaz. Vigilant Ear dili kendi başına algılar, odadaki her konuşmacıyı izler ve hepsini sizin dilinizde altyazılar — kulaklık yok, kurulum yok, cihazınızda.
@@ -116,7 +116,7 @@ Güvenlik çekirdeği **sonsuza dek ücretsizdir**:
 
 **Power Pack+** tek seferlik kilit açmadır (**abonelik değil**), **90 günlük ücretsiz deneme** ile. Süper güçleri ekler:
 
-- **Speaker Auto-Translate** — yakındaki konuşmanın dilinize cihazda çevirisi.
+- **Auto-Translate** — yakındaki konuşmanın dilinize cihazda çevirisi.
 - **Constellation** — Ultra-Wideband üzerinden çoklu iPhone ortak işitme, eş iletileriyle.
 - **Music ID** — ShazamKit şarkı tanıma.
 - **Özel ses paketleri** — kendi sesleriniz için eğittiğiniz eklenti sınıflandırıcılar.

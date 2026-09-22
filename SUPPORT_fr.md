@@ -12,7 +12,7 @@ Si vous rencontrez des problèmes techniques, avez des questions sur la précisi
 
 Courtes vidéos avec tout à l'écran — rien que vous ayez besoin d'entendre. Certaines ont aussi une narration, mais rien n'existe uniquement sous forme sonore.
 
-- **[Changer la langue des sous-titres](https://youtu.be/bBTjlWnbFr4)** — changer la langue de l'app et activer **Speaker Auto-Translate**, y compris l'étape que la plupart manquent : les sous-titres continuent d'arriver dans l'ancienne langue jusqu'à ce que vous fermiez complètement l'app et la rouvriez.
+- **[Changer la langue des sous-titres](https://youtu.be/bBTjlWnbFr4)** — changer la langue de l'app et activer **Auto-Translate**, y compris l'étape que la plupart manquent : les sous-titres continuent d'arriver dans l'ancienne langue jusqu'à ce que vous fermiez complètement l'app et la rouvriez.
 - **[À quoi ressemblent les alertes](https://youtu.be/1NCXHqQ-BR8)** — détecteur de fumée, coup à la porte, pleurs de bébé, sirène, météo extrême et une confirmation de séisme, chacune avec sa direction.
 
 Plus : **[Tutoriels](https://www.youtube.com/playlist?list=PLV5sYptGyafo)** · **[Exemples](https://www.youtube.com/playlist?list=PLYc8NrtyfisY)**
@@ -75,7 +75,7 @@ Le cœur de la sécurité est **gratuit, pour toujours** :
 
 Le **Power Pack+** est un déblocage unique (**pas un abonnement**) avec un **essai gratuit de 90 jours**. Il ajoute :
 
-- **Auto-traduction des locuteurs (Speaker Auto-Translate)** — traduction sur l'appareil de la parole environnante vers votre langue  
+- **Auto-traduction (Auto-Translate)** — traduction sur l'appareil de la parole environnante vers votre langue  
 - **Constellation** — audition partagée sur plusieurs iPhones via Ultra-Wideband  
 - **Music ID** — reconnaissance de chansons via ShazamKit  
 
@@ -86,7 +86,7 @@ Tout ce qui concerne la reconnaissance s'exécute toujours sur votre appareil ; 
 Ceux-ci se trouvent sous **Power Pack+** dans l'application (étincelles d'action / menu) :
 
 - **Shazam (Music ID)** — identification de la musique environnementale sur le radar spatial (Power Pack+)  
-- **Auto-traduction des locuteurs (Speaker Auto-Translate)** — traduire les sous-titres en direct dans votre langue (Power Pack+)  
+- **Auto-traduction (Auto-Translate)** — traduire les sous-titres en direct dans votre langue (Power Pack+)  
 
 Les flux de météo extrême sont **gratuits** et gérés avec les préférences de météo / d'alerte — ce ne sont pas des modules complémentaires du Power Pack+.
 

@@ -12,7 +12,7 @@ Teknik sorun yaşıyorsanız, uyarı doğruluğu hakkında sorunuz varsa veya ge
 
 Her şey ekranda — duymanız gereken bir şey yok. Bazılarında anlatım da var ama hiçbiri yalnızca ses değil.
 
-- **[Altyazı dilini değiştirin](https://youtu.be/bBTjlWnbFr4)** — uygulamanın dilini değiştirmek ve **Speaker Auto-Translate**’i açmak; çoğu kişinin kaçırdığı adım dahil: uygulamayı tamamen kapatıp yeniden açana kadar altyazılar eski dilde gelmeye devam eder.
+- **[Altyazı dilini değiştirin](https://youtu.be/bBTjlWnbFr4)** — uygulamanın dilini değiştirmek ve **Auto-Translate**’i açmak; çoğu kişinin kaçırdığı adım dahil: uygulamayı tamamen kapatıp yeniden açana kadar altyazılar eski dilde gelmeye devam eder.
 - **[Uyarılar nasıl görünür](https://youtu.be/1NCXHqQ-BR8)** — duman dedektörü, kapı vuruşu, bebek ağlaması, siren, şiddetli hava ve deprem onayı; her birinin yönüyle.
 
 Daha fazlası: **[Eğitimler](https://www.youtube.com/playlist?list=PLV5sYptGyafo)** · **[Örnekler](https://www.youtube.com/playlist?list=PLYc8NrtyfisY)**
@@ -75,7 +75,7 @@ Güvenlik çekirdeği **sonsuza dek ücretsizdir**:
 
 **Power Pack+** tek seferlik kilit açmadır (**abonelik değil**), **90 günlük ücretsiz deneme** ile. Ekler:
 
-- **Speaker Auto-Translate** — yakındaki konuşmanın dilinize cihazda çevirisi  
+- **Auto-Translate** — yakındaki konuşmanın dilinize cihazda çevirisi  
 - **Constellation** — Ultra-Wideband üzerinden çoklu iPhone ortak işitme  
 - **Music ID** — ShazamKit şarkı tanıma  
 
@@ -86,7 +86,7 @@ Tanıma için her şey yine cihazınızda çalışır; Power Pack+ yalnızca han
 Bunlar uygulamada **Power Pack+** altındadır (eylem yelpazesi kıvılcımları / menü):
 
 - **Shazam (Music ID)** — uzamsal radarda çevresel müzik tanıma (Power Pack+)  
-- **Speaker Auto-Translate** — canlı altyazıları dilinize çevir (Power Pack+)  
+- **Auto-Translate** — canlı altyazıları dilinize çevir (Power Pack+)  
 
 Şiddetli hava akışları **ücretsizdir** ve hava / uyarı tercihlerinden yönetilir — Power Pack+ eklentisi değildir.
 

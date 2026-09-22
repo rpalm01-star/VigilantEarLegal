@@ -12,7 +12,7 @@
 
 모든 것이 화면에 표시되는 짧은 동영상 — 들을 필요가 없습니다. 일부에는 내레이션도 있지만, 음성으로만 알 수 있는 정보는 없습니다.
 
-- **[자막 언어 변경하기](https://youtu.be/bBTjlWnbFr4)** — 앱 언어를 바꾸고 **Speaker Auto-Translate**를 켜는 방법. 대부분이 놓치는 단계도 포함됩니다: 앱을 완전히 닫았다가 다시 열기 전까지 자막은 이전 언어로 계속 표시됩니다.
+- **[자막 언어 변경하기](https://youtu.be/bBTjlWnbFr4)** — 앱 언어를 바꾸고 **Auto-Translate**를 켜는 방법. 대부분이 놓치는 단계도 포함됩니다: 앱을 완전히 닫았다가 다시 열기 전까지 자막은 이전 언어로 계속 표시됩니다.
 - **[경보가 표시되는 모습](https://youtu.be/1NCXHqQ-BR8)** — 연기 감지기, 문 두드림, 아기 울음, 사이렌, 악천후, 지진 확인. 각각 방향과 함께 표시됩니다.
 
 더 보기: **[튜토리얼](https://www.youtube.com/playlist?list=PLV5sYptGyafo)** · **[샘플](https://www.youtube.com/playlist?list=PLYc8NrtyfisY)**
@@ -75,7 +75,7 @@ Vigilant Ear는 공식 정부 CAP(Common Alerting Protocol) 피드를 조사합�
 
 **Power Pack+**는 **90일 무료 평가판**이 포함된 일회성 잠금 해제(**구독이 아님**)입니다. 추가 기능:
 
-- **Speaker Auto-Translate** — 근처 음성을 기기 내에서 사용자의 언어로 자동 번역
+- **Auto-Translate** — 근처 음성을 기기 내에서 사용자의 언어로 자동 번역
 - **Constellation** — 초광대역(Ultra-Wideband)을 통한 다중 iPhone 공유 청각
 - **음악 식별** — ShazamKit 노래 인식
 
@@ -86,7 +86,7 @@ Vigilant Ear는 공식 정부 CAP(Common Alerting Protocol) 피드를 조사합�
 이 기능들은 앱 내 **Power Pack+** (액션 팬 반짝임 / 메뉴) 아래에 있습니다:
 
 - **Shazam (음악 식별)** — 공간 레이더의 환경 음악 식별 (Power Pack+)
-- **Speaker Auto-Translate** — 실시간 자막을 사용자의 언어로 번역 (Power Pack+)
+- **Auto-Translate** — 실시간 자막을 사용자의 언어로 번역 (Power Pack+)
 
 악천후 피드는 **무료**이며 날씨 / 알림 환경 설정으로 관리됩니다 — Power Pack+ 부가 기능이 아닙니다.
 

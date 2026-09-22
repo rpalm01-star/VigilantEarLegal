@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Vigente a partir da versão 1.1.7 · setembro de 2026.*
+*Vigente a partir da versão 1.1.8 · setembro de 2026.*
 
 ## Um radar acústico para quem não ouve.
 
@@ -54,7 +54,7 @@ Duas coisas que a maioria dos apps de legenda não faz: **honestidade sobre a co
 
 As legendas são grátis; a tradução automática é a camada opcional do Power Pack+. As legendas também podem ser **faladas nos seus aparelhos auditivos Bluetooth** — grátis, em Preferências. Os **Tons de Direção** (também grátis, em Preferências → Legendas) adicionam um sinal de áudio opcional no ouvido que você escolher, indicando onde está o falante — útil com aparelho auditivo ou audição unilateral, e disponível para qualquer pessoa.
 
-### 🌐 Speaker Auto-Translate — seu idioma, ao vivo *(Power Pack+)*
+### 🌐 Auto-Translate — seu idioma, ao vivo *(Power Pack+)*
 Com o Speaker Mode ligado, quando alguém perto fala outro idioma, o Vigilant Ear pode detectá-lo e mostrar as legendas **no seu idioma**, com o idioma de origem no bloco. A cadeia — ouvir → separar falantes → transcrever → traduzir → exibir — roda **no aparelho**; o único momento de rede é o download único do pacote de idioma da Apple. Você não precisa saber nem escolher o outro idioma antes.
 
 É o que existe de mais perto do **tradutor universal da ficção científica** — o aparelho que simplesmente entende. O Vigilant Ear detecta o idioma sozinho, acompanha cada falante na sala e legenda todos no seu idioma — sem fones, sem configuração, no seu aparelho.
@@ -112,7 +112,7 @@ O núcleo de segurança é **grátis, para sempre**:
 
 O **Power Pack+** é um desbloqueio único (**não é assinatura**) com **90 dias de teste grátis**. Ele adiciona os superpoderes:
 
-- **Speaker Auto-Translate** — tradução no aparelho da fala próxima para o seu idioma.
+- **Auto-Translate** — tradução no aparelho da fala próxima para o seu idioma.
 - **Constellation** — audição compartilhada em vários iPhones via Ultra-Wideband, com mensagens entre parceiros.
 - **Music ID** — reconhecimento de faixas com ShazamKit.
 - **Pacotes de som personalizados** — classificadores extras que você treina para os seus sons.

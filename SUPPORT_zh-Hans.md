@@ -12,7 +12,7 @@
 
 简短视频，一切都在屏幕上呈现——无需收听。部分视频另有旁白，但没有任何内容仅以音频形式存在。
 
-- **[更改字幕语言](https://youtu.be/bBTjlWnbFr4)** —— 切换应用语言并开启 **Speaker Auto-Translate**，包括大多数人漏掉的一步：在完全关闭并重新打开应用之前，字幕会一直以旧语言显示。
+- **[更改字幕语言](https://youtu.be/bBTjlWnbFr4)** —— 切换应用语言并开启 **Auto-Translate**，包括大多数人漏掉的一步：在完全关闭并重新打开应用之前，字幕会一直以旧语言显示。
 - **[警报是什么样子](https://youtu.be/1NCXHqQ-BR8)** —— 烟雾探测器、敲门、婴儿啼哭、警笛、恶劣天气和地震确认，每个都带方向。
 
 更多： **[教程](https://www.youtube.com/playlist?list=PLV5sYptGyafo)** · **[示例](https://www.youtube.com/playlist?list=PLYc8NrtyfisY)**
@@ -75,7 +75,7 @@ Vigilant Ear 轮询官方政府 CAP（通用警报协议）订阅源。警报与
 
 **Power Pack+** 是一次性解锁（**不是订阅**），有 **90 天的免费试用期**。它增加了：
 
-- **说话人自动翻译** —— 将附近的语音在设备端翻译成你的语言
+- **自动翻译** —— 将附近的语音在设备端翻译成你的语言
 - **Constellation** —— 通过超宽带共享听力的多部 iPhone
 - **音乐识别** —— ShazamKit 歌曲识别
 
@@ -86,7 +86,7 @@ Vigilant Ear 轮询官方政府 CAP（通用警报协议）订阅源。警报与
 这些位于应用程序中的 **Power Pack+** 下（操作扇形火花/菜单）：
 
 - **Shazam（音乐识别）** —— 空间雷达上的环境音乐识别（Power Pack+）
-- **说话人自动翻译** —— 将实时字幕翻译成你的语言（Power Pack+）
+- **自动翻译** —— 将实时字幕翻译成你的语言（Power Pack+）
 
 恶劣天气源是**免费的**，并通过天气/提醒偏好设置进行管理 —— 它们不是 Power Pack+ 附加组件。
 

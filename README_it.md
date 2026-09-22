@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*In vigore dalla versione 1.1.7 · settembre 2026.*
+*In vigore dalla versione 1.1.8 · settembre 2026.*
 
 ## Un radar acustico per chi non può sentire.
 
@@ -54,7 +54,7 @@ Due cose che la maggior parte delle app di sottotitoli non fa: **onestà sulla c
 
 I sottotitoli sono gratuiti; la traduzione automatica è il livello opzionale Power Pack+. I sottotitoli possono anche essere **letti ad alta voce sui tuoi dispositivi acustici Bluetooth** — gratis, nelle Preferenze. I **toni di direzione (Direction Tones)** (anche gratis, in Preferenze → Sottotitoli) aggiungono un segnale audio opzionale nell'orecchio che scegli per indicare dove si trova un parlante — utili con un apparecchio acustico o con udito unilaterale, e disponibili per chiunque.
 
-### 🌐 Speaker Auto-Translate — la tua lingua, in diretta *(Power Pack+)*
+### 🌐 Auto-Translate — la tua lingua, in diretta *(Power Pack+)*
 Con la Modalità parlante attiva, quando una persona vicina parla un'altra lingua, Vigilant Ear può rilevarla e mostrare i suoi sottotitoli **nella tua lingua**, con la lingua di origine indicata sul suo blocco. La catena — ascoltare → separare i parlanti → trascrivere → tradurre → mostrare — viene eseguita **sul dispositivo**; l'unico momento di rete è il download una tantum del pacchetto lingua da Apple. Non devi conoscere né scegliere prima l'altra lingua.
 
 È la cosa più vicina in circolazione al **traduttore universale della fantascienza** — il dispositivo che semplicemente capisce. Vigilant Ear rileva la lingua da solo, segue ogni persona che parla nella stanza e le sottotitola tutte nella tua lingua — senza auricolari, senza configurazione, sul tuo dispositivo.
@@ -112,7 +112,7 @@ Il nucleo di sicurezza è **gratuito, per sempre**:
 
 **Power Pack+** è uno sblocco una tantum (**non un abbonamento**) con una **prova gratuita di 90 giorni**. Aggiunge i superpoteri:
 
-- **Speaker Auto-Translate** — traduzione sul dispositivo del parlato vicino nella tua lingua.
+- **Auto-Translate** — traduzione sul dispositivo del parlato vicino nella tua lingua.
 - **Constellation** — ascolto condiviso multi-iPhone via Ultra-Wideband, con messaggi tra partner.
 - **Music ID** — riconoscimento dei brani con ShazamKit.
 - **Pacchetti di suoni personalizzati** — classificatori aggiuntivi che addestri per i tuoi suoni.

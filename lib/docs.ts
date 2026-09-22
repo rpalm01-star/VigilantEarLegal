@@ -32,6 +32,7 @@ export const LANGUAGES = [
   // this list was the only thing keeping them apart — a Turkish user got English on the site and a
   // 404 in the app. Added 2026-09-16.
   { code: "tr", label: "Türkçe" },
+  { code: "ro", label: "Română" },
 ] as const;
 
 export const RTL_LANGUAGES = new Set(["ar"]);

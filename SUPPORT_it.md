@@ -12,7 +12,7 @@ Se riscontri problemi tecnici, hai domande sulla precisione degli avvisi o desid
 
 Brevi video con tutto sullo schermo — niente che serva ascoltare. Alcuni hanno anche una narrazione, ma nulla esiste solo in audio.
 
-- **[Cambiare la lingua dei sottotitoli](https://youtu.be/bBTjlWnbFr4)** — come cambiare la lingua dell'app e attivare **Speaker Auto-Translate**, incluso il passaggio che sfugge alla maggior parte delle persone: i sottotitoli continuano ad arrivare nella vecchia lingua finché non chiudi completamente l'app e la riapri.
+- **[Cambiare la lingua dei sottotitoli](https://youtu.be/bBTjlWnbFr4)** — come cambiare la lingua dell'app e attivare **Auto-Translate**, incluso il passaggio che sfugge alla maggior parte delle persone: i sottotitoli continuano ad arrivare nella vecchia lingua finché non chiudi completamente l'app e la riapri.
 - **[Come appaiono gli avvisi](https://youtu.be/1NCXHqQ-BR8)** — rilevatore di fumo, bussata alla porta, pianto di un bambino, sirena, maltempo severo e una conferma di terremoto, ciascuno con la sua direzione.
 
 Altro: **[Tutorial](https://www.youtube.com/playlist?list=PLV5sYptGyafo)** · **[Esempi](https://www.youtube.com/playlist?list=PLYc8NrtyfisY)**
@@ -75,7 +75,7 @@ Il nucleo di sicurezza è **gratuito, per sempre**:
 
 **Power Pack+** è uno sblocco una tantum (**non un abbonamento**) con una **prova gratuita di 90 giorni**. Aggiunge:
 
-- **Speaker Auto-Translate** — traduzione sul dispositivo del parlato circostante nella tua lingua  
+- **Auto-Translate** — traduzione sul dispositivo del parlato circostante nella tua lingua  
 - **Constellation** — ascolto condiviso tra più iPhone tramite Ultra-Wideband  
 - **Music ID** — riconoscimento dei brani con ShazamKit  
 
@@ -86,7 +86,7 @@ Tutto ciò che riguarda il riconoscimento continua a essere eseguito sul tuo dis
 Si trovano sotto **Power Pack+** nell'app (scintille del ventaglio delle azioni / menu):
 
 - **Shazam (Music ID)** — identificazione della musica ambientale sul radar spaziale (Power Pack+)  
-- **Speaker Auto-Translate** — traduce i sottotitoli in tempo reale nella tua lingua (Power Pack+)  
+- **Auto-Translate** — traduce i sottotitoli in tempo reale nella tua lingua (Power Pack+)  
 
 I feed di maltempo severo sono **gratuiti** e si gestiscono dalle preferenze meteo / avvisi — non sono un componente aggiuntivo di Power Pack+.
 

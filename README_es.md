@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Vigente desde la versión 1.1.7 · septiembre de 2026.*
+*Vigente desde la versión 1.1.8 · septiembre de 2026.*
 
 ## Un radar acústico para quienes no pueden oír.
 
@@ -54,7 +54,7 @@ Dos cosas que la mayoría de las apps de subtítulos no hacen: **honestidad sobr
 
 Los subtítulos son gratis; la traducción automática es la capa opcional de Power Pack+. Los subtítulos también pueden **leerse en voz alta en tus dispositivos auditivos Bluetooth** — gratis, en Preferencias. Los **Tonos de dirección** (también gratis, en Preferencias → Subtítulos) añaden una señal de audio opcional en el oído que elijas para indicar dónde está un hablante — útil con audífono o audición unilateral, y disponible para cualquiera.
 
-### 🌐 Speaker Auto-Translate — tu idioma, en vivo *(Power Pack+)*
+### 🌐 Auto-Translate — tu idioma, en vivo *(Power Pack+)*
 Con el Modo Hablante activado, cuando alguien cercano habla otro idioma, Vigilant Ear puede detectarlo y mostrar sus subtítulos **en tu idioma**, con el idioma de origen en su bloque. La cadena — oír → separar hablantes → transcribir → traducir → mostrar — corre **en el dispositivo**; el único momento de red es una descarga única del paquete de idioma desde Apple. No tienes que conocer ni elegir primero el otro idioma.
 
 Es lo más cercano que hay al **traductor universal de la ciencia ficción** — el aparato que simplemente entiende. Vigilant Ear detecta el idioma por sí solo, sigue a cada hablante en la sala y los subtitula a todos en tu idioma — sin auriculares, sin configuración, en tu dispositivo.
@@ -112,7 +112,7 @@ El núcleo de seguridad es **gratis, para siempre**:
 
 **Power Pack+** es un desbloqueo único (**no una suscripción**) con una **prueba gratuita de 90 días**. Añade los superpoderes:
 
-- **Speaker Auto-Translate** — traducción en el dispositivo del habla cercana a tu idioma.
+- **Auto-Translate** — traducción en el dispositivo del habla cercana a tu idioma.
 - **Constellation** — audición compartida entre varios iPhone por Ultra-Wideband, con mensajes entre compañeros.
 - **Music ID** — reconocimiento de canciones con ShazamKit.
 - **Paquetes de sonido personalizados** — clasificadores adicionales que entrenas para tus propios sonidos.

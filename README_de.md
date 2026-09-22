@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Gültig ab Version 1.1.7 · September 2026.*
+*Gültig ab Version 1.1.8 · September 2026.*
 
 ## Ein akustisches Radar für Menschen, die nicht hören können.
 
@@ -54,7 +54,7 @@ Zwei Dinge, die die meisten Untertitel-Apps nicht tun: **ehrliche Konfidenz** �
 
 Untertitel sind kostenlos; automatische Übersetzung ist die optionale Power-Pack+-Schicht. Untertitel können außerdem **laut auf Ihren Bluetooth-Hörgeräten vorgelesen werden** — kostenlos, in den Einstellungen. **Richtungstöne** (ebenfalls kostenlos, unter Einstellungen → Untertitel) geben optional einen akustischen Hinweis im gewählten Ohr, wo ein Sprecher ist — hilfreich mit Hörgerät oder einseitigem Hören, und für alle verfügbar.
 
-### 🌐 Automatische Sprecher-Übersetzung — Ihre Sprache, live *(Power Pack+)*
+### 🌐 Auto-Übersetzen — Ihre Sprache, live *(Power Pack+)*
 Ist der Sprechermodus an und spricht jemand in der Nähe eine andere Sprache, kann Vigilant Ear das erkennen und die Untertitel **in Ihrer Sprache** anzeigen, mit Quellsprache auf dem Block. Die Kette — erfassen → Sprecher trennen → transkribieren → übersetzen → anzeigen — läuft **auf dem Gerät**; der einzige Netzwerkmoment ist ein einmaliger Sprachpaket-Download von Apple. Die andere Sprache müssen Sie vorher weder kennen noch wählen.
 
 Das ist das bislang Nächste am **Universalübersetzer aus der Science-Fiction** — dem Gerät, das einfach versteht. Vigilant Ear erkennt die Sprache selbst, folgt jeder sprechenden Person im Raum und untertitelt alle in Ihrer Sprache — ohne Ohrhörer, ohne Setup, auf Ihrem Gerät.
@@ -112,7 +112,7 @@ Der Sicherheitskern ist **kostenlos, für immer**:
 
 **Power Pack+** ist eine einmalige Freischaltung (**kein Abonnement**) mit einer **kostenlosen 90-Tage-Testversion**. Es ergänzt die Superkräfte:
 
-- **Automatische Sprecher-Übersetzung** — On-Device-Übersetzung von Sprache in der Nähe in Ihre Sprache.
+- **Auto-Übersetzen** — On-Device-Übersetzung von Sprache in der Nähe in Ihre Sprache.
 - **Constellation** — gemeinsames Hören mit mehreren iPhones über Ultra-Wideband, mit Partnernachrichten.
 - **Musik-ID** — ShazamKit-Songerkennung.
 - **Eigene Soundpakete** — Zusatz-Klassifikatoren, die Sie für Ihre eigenen Geräusche trainieren.
