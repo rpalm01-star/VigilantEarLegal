@@ -35,7 +35,7 @@ When you use certain features — or when the app needs them to function — **l
 
 *   **Map display**
     *   *What is sent:* Map tile requests; your map viewport and approximate location as needed to render the map
-    *   *Provider:* Apple Maps / MapKit
+    *   *Provider:* Apple Maps / MapKit on iPhone and iPad; Google Maps on Android
 *   **Severe weather alerts (through our own alert service)**
     *   *Why it exists:* Official warnings come from national weather agencies around the world. Every phone used to contact those agencies directly — which meant each one could see your device's network address and how often you checked — and shared public feeds with request limits began dropping alerts as our user base grew. Our server now fetches the official data once, for everyone, and holds it for about **15 minutes**. The same official warnings, more reliably — and **your phone never contacts a foreign government's servers.** Starting in v1.1.0 or higher only.
     *   *What is sent:* A request to our service carries only the country/region code, your app language, and — at most — a location cell that your phone rounds to roughly **50 km (0.5°)** before it is ever sent, used solely to trim the reply to alerts near you. The precise "am I inside this warning area?" test happens **on your phone** and never leaves it. No name, account, or device identifier is attached. As with any HTTPS service, standard short-lived hosting logs exist to operate it; they are not a tracking feature and we do not sell them.
@@ -47,14 +47,17 @@ When you use certain features — or when the app needs them to function — **l
     *   *What is sent:* Short audio fingerprints — never raw audio — when music is detected and Shazam is enabled (can be turned off in settings)
     *   *Provider:* Apple Shazam / ShazamKit
 *   **Road context**
-    *   *What is sent:* Anonymous Overpass API queries based on map sector around your location
-    *   *Provider:* OpenStreetMap contributors via Overpass API
+    *   *What is sent:* Your **exact latitude and longitude**, inside a query asking which roads lie within a few hundred metres of you, so detected vehicles can be placed on the road they are actually on rather than in the middle of a field. This is a precise position, not a rounded cell — unlike the weather request above, which is deliberately coarse. No name, account or device identifier is attached, and nothing about what your phone heard is included.
+    *   *Provider:* OpenStreetMap contributors via the public Overpass API
+*   **Road routing**
+    *   *What is sent:* Your **exact latitude and longitude**, together with the position of a tracked sound, so a road route between the two can be drawn on the map. Again a precise position, with no identifier and nothing about the detection itself.
+    *   *Provider:* The public OSRM routing service (project-osrm.org)
 *   **Purchases & entitlements**
     *   *What is sent:* Purchase tokens and entitlement / trial status for the optional one-time Power Pack+ unlock (not a subscription)
-    *   *Provider:* Apple App Store
+    *   *Provider:* the Apple App Store on iPhone and iPad; Google Play Billing on Android
 *   **Constellation mesh (optional, Power Pack+)**
     *   *What is sent:* When you enable multi-phone Constellation, participating devices exchange acoustic metadata needed for a shared picture — for example relative pose / Ultra-Wideband ranging where available, bearings, sound labels, and ephemeral caption text. Traffic is peer-to-peer **only between phones that are running Vigilant Ear and that you link for Constellation**. Phones without the app cannot join that mesh or receive that metadata. Wingdings does not operate a cloud mesh relay for this audio pipeline.
-    *   *Provider:* Apple frameworks (e.g. Network / Nearby Interaction) between your Vigilant Ear devices
+    *   *Provider:* Apple frameworks (e.g. Network / Nearby Interaction) between your Vigilant Ear devices. **Constellation is an iPhone and iPad feature; the Android app does not implement it**, so an Android phone neither joins that mesh nor exchanges this metadata.
 *   **Remote Link (optional — starting a link needs Power Pack+; joining is free)**
     *   *Why it exists:* A Deaf or hard-of-hearing person cannot use a phone call. Remote Link is the substitute — a private video-only call with caption data: two people see each other, read each other's captions and typed text, and can sign to each other over the video.
     *   *What is sent:* **No audio, at any point** — a Remote Link session carries no audio track at all. The two phones talk to each other, not to us: live video, your live captions as text and anything you type travel **directly between the two phones** wherever the networks allow, encrypted end to end, so nothing in between can watch or read the call. To set a link up, our service holds the invitation code together with the connection details the two phones need in order to find each other. That mailbox holds **no video and no text**, and it expires within an hour.
@@ -119,7 +122,7 @@ We do **not**:
 
 You can:
 
-- **Revoke permissions** (microphone, location, camera, notifications, speech recognition) in iOS Settings
+- **Revoke permissions** (microphone, location, camera, notifications, speech recognition) in iOS Settings, or in Android Settings under Apps → Vigilant Ear → Permissions
 - **Disable Shazam music identification** in Power Pack+ / preferences
 - **Turn off individual alert categories** (sirens, weather, doorbells, baby, etc.)
 - **Stop background listening** when all alert categories are disabled
