@@ -1,79 +1,95 @@
 # ¿Por qué Vigilant Ear?
 
-La mayoría de las apps de sonido te dicen *que* algo ocurrió. Vigilant Ear te dice **qué, dónde, a qué distancia, quién y en qué idioma** — en el teléfono que ya llevas en el bolsillo.
+*Actualizado en septiembre de 2026.*
 
-## De dónde vino el sonido
+**Esto no es una app de detección de sonidos.** Esas reconocen una lista corta de ruidos y te ponen un icono en la pantalla. Casi todo lo que de verdad te cuesta algo queda fuera de esa lista.
 
-Una sirena no es información útil hasta que sabes de qué dirección viene. Vigilant Ear coloca cada sonido que oye en un mapa en vivo, con un rumbo y una distancia aproximada, para que una alerta responda a la pregunta que de verdad te haces: *¿tengo que moverme, y hacia dónde?*
+Alguien detrás de ti dice tu nombre. No te giras. Deciden que eres un maleducado.
 
-Los Tonos de dirección también pueden enviar ese rumbo a un solo oído, para quien tiene audición unilateral.
+Un camarero llama tu pedido. Una enfermera te llama en una ventanilla. Los mismos tres segundos, la misma conclusión.
 
-## Quién está hablando
+Tu teléfono los oyó todos. Simplemente no tenía forma de decírtelo.
 
-Los subtítulos en vivo separan por voz a las personas que te rodean, cada una con su propio color, para que una conversación se lea como una conversación y no como un único bloque de texto corrido. Puedes ponerles nombre a las voces que conoces, y la app las seguirá reconociendo.
+Vigilant Ear cambia eso — en el teléfono que ya llevas en el bolsillo, y el audio nunca sale de él.
 
-## Subtítulos que admiten lo que se les escapó
+- **Nunca eliges un idioma** — descubre solo qué se está hablando
+- **Quién lo dijo** — voces separadas por color, y con nombre
+- **De dónde vino** — un rumbo y una distancia, en un mapa en vivo
+- **Cuándo no está seguro** — una marca de confianza en cada línea
+- **Cuándo te llaman a *ti*** — un toque distinto para tu propio nombre
+- **Sin suscripción** — subtítulos y alertas gratis para siempre
 
-La mayoría de las apps de subtítulos te entregan cada palabra con la misma serena seguridad, y te dejan a ti descubrir cuáles estaban mal. Aquí, cada línea lleva una pequeña marca de tres barras — tres barras significan que oyó con claridad, una significa que conviene tomarla con reservas — y las palabras concretas de las que no estaba segura aparecen subrayadas. En una sala ruidosa, saber en qué palabras confiar importa tanto como las palabras.
+Y no es un problema, son tres. Un timbre es el caso fácil: fuerte, nítido, terminado en un segundo. El tráfico que crece en la calle es el difícil — lejano, de banda ancha, sin un borde limpio del que agarrarse. Un terremoto es el caso que nadie oye en absoluto: llega como movimiento y presión por debajo de la audición humana. El barómetro y el acelerómetro de tu teléfono lo sienten, y Vigilant Ear te dice si te llegó **por el aire** o **desde el suelo**.
 
-## En qué idioma — lo averigua por ti
+Las apps de accesibilidad resuelven el primero. Ninguna otra resuelve los tres. Vigilant Ear los hace a la vez.
 
-No tienes que elegir un idioma primero. Vigilant Ear detecta qué idioma se está hablando, lo subtitula y puede traducirlo al tuyo. Una sala con tres idiomas en el aire no deja de ser una sala que puedes seguir.
+## La parte que nadie pone en el folleto
 
-Hoy vienen incluidos doce idiomas.
+Todas las apps de escucha empiezan por el detector de humo. El detector de humo es la parte fácil — es fuerte, es raro, y probablemente te enterarías de todos modos. Lo que te cuesta es lo sutil. Una palabra dicha con énfasis. Alguien caminando cerca, en silencio, de noche. El llanto de un bebé en otra habitación.
 
-## Teléfonos que trabajan juntos
+**Name Called** es una lista que escribes tú — el tuyo, el de un hijo, el de tu pareja — y un toque distinto cuando esas palabras suenan, con una dirección en el Watch y en la lámpara de Standing Watch. La frase sigue apareciendo en los subtítulos como cualquier otra. La alerta no es *alguien habló*. Es **se estaban dirigiendo a ti**.
 
-Dos o más teléfonos con Vigilant Ear comparten lo que oyen. Más micrófonos en una sala significan una mejor localización de dónde vino un sonido, y los subtítulos se fusionan en lugar de competir. Nadie tiene que estar en la misma conversación para que ayude.
+## De dónde vino
 
-## Llega a alguien que no está contigo
+Una sirena no es información hasta que sabes de qué dirección viene. Cada sonido que Vigilant Ear oye va a un mapa en vivo con un rumbo y una distancia aproximada, para que una alerta responda a la pregunta que de verdad te haces: *¿tengo que moverme, y hacia dónde?*
 
-Remote Link es una llamada privada de solo vídeo con datos de subtítulos — **sin pista de audio en ningún momento** — así que nada en ella depende de oír en ninguno de los dos extremos, y te da una forma de hablar en señas con alguien. Lo que oye tu teléfono se subtitula y se envía como texto, y el otro teléfono lo traduce al idioma de quien lo lee. Envías un código; la persona a la que invitas se une desde dentro de la app sin comprar nada.
+Direction Tones puede enviar ese rumbo a un solo oído, para quien tiene audición unilateral.
 
-**Cómo viaja, en palabras sencillas.** Los dos teléfonos hablan entre sí, no con nosotros. Nuestro servicio guarda el código de invitación y los datos de conexión que los teléfonos necesitan para encontrarse — durante una hora como máximo, y nunca el vídeo ni el texto. Donde las redes lo permiten, la llamada va directa de un teléfono al otro. Cuando no pueden conectarse directamente entre sí — redes distintas, un router estricto — los paquetes cifrados se reenvían por un relevo que no puede leerlos; este ve que existe una conexión, las direcciones de red implicadas y cuántos datos pasan, como debe hacer cualquier relevo, y nada más. En cualquiera de los dos casos, el vídeo y los subtítulos van cifrados de extremo a extremo entre los dos teléfonos, de modo que nada en medio puede ver ni leer la llamada, y la app te dice con claridad si es **Direct** o **Relayed**. Nada de un enlace se graba — ni vídeo ni texto — en ninguno de los dos teléfonos ni en ningún servidor.
+## Quién habla, y cuánto fiarte
 
-## Ve el sonido, no solo una etiqueta
+Los subtítulos en vivo separan por voz a las personas que te rodean, cada una con su propio color, para que una conversación se lea como una conversación y no como un bloque continuo. Pon nombre a las voces que conoces y la app las seguirá reconociendo.
 
-El Acoustic Scope es una vista de ingeniería en vivo de la sala — espectro, espectrograma, bandas de ⅓ de octava, croma, parciales armónicos. Es **gratis para todos**, porque para mucha gente ver la forma de un sonido es la manera más rápida de entenderlo.
+La mayoría de las apps de subtítulos te entregan cada palabra con la misma tranquila seguridad y te dejan descubrir más tarde cuáles estaban mal. Aquí cada línea lleva una marca de tres barras — tres barras significa que oyó con claridad, una significa tómalo con pinzas — y las palabras concretas de las que dudó van subrayadas. En una sala ruidosa, saber de qué palabras fiarte importa tanto como las palabras.
+
+Nunca eliges un idioma primero. Vigilant Ear averigua qué se está hablando y lo subtitula. Una sala con tres idiomas en el aire sigue siendo una sala que puedes seguir.
+
+Casi todos puede además traducirlos al tuyo. Cuando no puede, te lo dice y te muestra el original, en vez de entregarte una conjetura disfrazada de traducción.
+
+## Un teléfono apunta. Dos triangulan.
+
+Los micrófonos de un teléfono están separados unos centímetros, lo justo para decirte una dirección. Pon un segundo teléfono al otro lado de la sala y el conjunto es tan ancho como la sala: el rumbo de cada uno cruza el del otro, y una dirección se convierte en una posición. Los subtítulos se fusionan en vez de competir, y teléfonos que nunca se han visto forman ese conjunto sobre la marcha, calculando hasta el palmo dónde está cada uno. Nadie tiene que estar en la misma conversación para que sirva.
+
+**Remote Link** llega a alguien que no está contigo: vídeo y texto de subtítulos, con **ninguna pista de audio en ningún momento** — así nada depende de oír en ninguno de los dos extremos, y te da una forma de signar. Tus subtítulos cruzan como texto y llegan en el idioma de quien lee al otro lado. Envías un código; se unen desde dentro de la app sin comprar nada.
+
+Está cifrado de extremo a extremo entre los dos teléfonos. El relé que lo reenvía no puede leerlo, nosotros no podemos leerlo, y no se graba nada — ni en ninguno de los dos teléfonos, ni en ningún servidor. La app te dice claramente si estás en **Directo** o en **Retransmitido**. [La ruta completa](PRIVACY.md).
 
 ## Avisos de quienes los emiten
 
-Los avisos de clima severo vienen de nueve fuentes gubernamentales — Estados Unidos, Europa, Japón, China, Corea, India, Canadá, Australia y Brasil — filtrados según el lugar en el que realmente estás. Las alertas de terremoto esperan la confirmación del USGS en lugar de adivinar.
+Los avisos meteorológicos graves vienen de nueve fuentes gubernamentales — Estados Unidos, Europa, Japón, China, Corea, India, Canadá, Australia y Brasil — filtrados al lugar donde estás de verdad. Las alertas de terremoto esperan la confirmación del USGS en vez de adivinar.
 
-Esos avisos te llegan a través de nuestro propio servicio, en lugar de que tu teléfono contacte directamente con cada agencia, lo que significa que **tu teléfono nunca contacta con los servidores de un gobierno extranjero**, y que un feed público compartido no puede perder tu alerta solo porque demasiada gente estuviera consultando a la vez. La comprobación precisa de *¿estoy dentro de esta zona de aviso?* sigue haciéndose en tu teléfono y nunca sale de él.
+Esos avisos llegan a través de nuestro servicio de agregación en vez de que tu teléfono llame a cada agencia directamente, lo que significa que **tu teléfono nunca contacta con los servidores de un gobierno extranjero**, y que un feed público compartido no puede dejar caer tu alerta porque hubiera demasiada gente preguntando a la vez. La comprobación precisa de *¿estoy dentro de esta zona de aviso?* se hace en tu teléfono y nunca sale de él.
 
 ## Varios expertos pequeños, no uno grande
 
-La forma obvia de construir una app de escucha es ejecutar un modelo e informar de lo que sea que diga. Vigilant Ear
-ejecuta en cambio un puñado de especialistas, cada uno con una sola tarea que de verdad se le da bien: uno reconoce
-sonidos cotidianos, un segundo revisa el trabajo del primero, otro calcula de dónde vino un sonido, otro separa
-las voces de una sala, otro decide si de verdad está sonando música.
+La forma obvia de construir una app de escucha es ejecutar un modelo y contar lo que diga. Vigilant Ear ejecuta en su lugar un puñado de especialistas, cada uno haciendo una cosa en la que es realmente bueno: uno reconoce sonidos cotidianos, un segundo revisa el trabajo del primero, otro calcula de dónde vino un sonido, otro separa las voces de una sala, otro decide si de verdad está sonando música.
 
-Discrepan a menudo, y de eso se trata. Un momento con forma de sirena dentro de una canción parece idéntico a
-una sirena si solo le preguntas a un modelo. Preguntar a tres, y exigir que estén de acuerdo antes de que algo
-te interrumpa, es la diferencia entre una alerta en la que confías y una app que acabas silenciando.
+Discrepan a menudo, y ese es justo el punto. Un instante con forma de sirena dentro de una canción es idéntico a una sirena si solo preguntas a un modelo. Preguntar a tres, y exigir que se pongan de acuerdo antes de interrumpirte, es la diferencia entre una alerta en la que confías y una app que acabas silenciando.
 
-También significa que la app puede decirte cuándo no está segura en lugar de adivinar — las marcas de confianza
-en los subtítulos, la voz que se muestra sin atribuir en lugar de llevar el nombre equivocado, la alerta que
-espera un fotograma más en busca de corroboración. Un solo modelo no tiene forma de saber que se equivoca.
-Varios sí.
+También permite que la app diga que no está segura en vez de adivinar — las marcas de confianza en los subtítulos, la voz que aparece sin atribuir en lugar de llevar el nombre equivocado, la alerta que espera un fotograma más para corroborarse. Un solo modelo no tiene forma de saber que se equivoca. Varios sí — siempre que algo esté decidiendo, fotograma a fotograma, cuál de ellos se ha ganado el beneficio de la duda.
 
-Todo esto corre en tu teléfono, en el mismo chip neuronal que hace funcionar Face ID. Es una restricción
-deliberada, no una floritura técnica: los modelos lo bastante pequeños para vivir en tu bolsillo son modelos
-que nunca necesitan enviarle tu sala a nadie.
+El **Acoustic Scope** pone esa percepción en bruto en pantalla — espectro, espectrograma, bandas de ⅓ de octava, croma, parciales armónicos. Es **gratis para todo el mundo**, porque para mucha gente ver la forma de un sonido es la manera más rápida de entenderlo. Hay una [guía de campo para leerlo](ACOUSTICSCOPE.md).
 
-## Se queda en tu dispositivo
+## Lo que no podemos ver
 
-La escucha, la transcripción, la traducción y la clasificación de sonidos corren todas en tu teléfono. El trabajo que toca lo que dices y lo que oyes no es algo que podamos leer, porque nunca nos llega.
+La escucha, la transcripción, la traducción y la clasificación de sonidos se ejecutan todas en tu teléfono. El trabajo que toca lo que dices y lo que oyes no es algo que podamos leer, porque nunca nos llega. Eso es una restricción deliberada y no un adorno: los modelos lo bastante pequeños para vivir en tu bolsillo son modelos que nunca necesitan enviar a ninguna parte lo que oyen.
 
-Unas pocas cosas sí usan la red, y vale la pena nombrarlas en lugar de redondear a cero: los mapas; las alertas de clima y de terremoto descritas arriba; Music ID, que envía una breve huella de audio y nunca audio grabado; el contexto de carreteras; las compras en la App Store; y Remote Link, que es una llamada de solo vídeo con datos de subtítulos y por eso viaja necesariamente entre los dos teléfonos — cifrada de extremo a extremo, de modo que nada en medio puede leerla.
+Unas pocas cosas sí usan la red, y merece la pena nombrarlas en vez de redondear a ninguna: los mapas; los avisos meteorológicos y de terremotos de arriba; Music ID, que envía una huella acústica corta y nunca audio grabado; el contexto de carretera; las compras de la App Store; y Remote Link, que por definición viaja entre los dos teléfonos — cifrado de extremo a extremo, así que nada intermedio puede leerlo.
 
 Sin anuncios. No se vende nada. No hace falta ninguna cuenta.
 
 ## Lo que cuesta
 
-Gratis durante los primeros 90 días. Después, los subtítulos y las alertas siguen siendo gratis para siempre, y un único pago, de una sola vez, conserva los extras. **Ninguna suscripción, jamás** — y sin hardware nuevo que comprar.
+Gratis los primeros 90 días. Después, los subtítulos y las alertas siguen siendo gratis para siempre — el suelo de seguridad no es lo que vendemos.
+
+Un único pago, de una sola vez, conserva **Power Pack+**: Auto-Translate, que convierte un idioma que no lees en uno que sí, según se habla; y Music ID, que nombra la canción que suena en la sala para que sepas qué está oyendo todo el mundo. **Ninguna suscripción, jamás** — y sin hardware nuevo que comprar.
 
 ---
 
 *Vigilant Ear es una ayuda experimental de investigación y accesibilidad — no un dispositivo certificado ni de seguridad vital. Usa siempre tu propia conciencia situacional.*
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
+  <strong>© 2026 Wingdings, Inc.</strong><br />
+  Todos los derechos reservados.<br />
+  Tres patentes estadounidenses pendientes
+</p>

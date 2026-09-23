@@ -1,85 +1,95 @@
 # De ce Vigilant Ear?
 
-*În vigoare de la versiunea 1.1.8 · septembrie 2026.*
+*Actualizat în septembrie 2026.*
 
-Majoritatea aplicațiilor de sunet îți spun *că* s-a întâmplat ceva. Vigilant Ear îți spune **ce, unde, cât de departe, cine și în ce limbă** — pe telefonul pe care îl ai deja în buzunar.
+**Aceasta nu este o aplicație de detectare a sunetelor.** Acelea recunosc o listă scurtă de zgomote și îți pun o pictogramă pe ecran. Aproape tot ce te costă cu adevărat se află în afara acelei liste.
 
-## De unde a venit sunetul
+Cineva din spatele tău îți spune numele. Nu te întorci. Se hotărăsc că ești nepoliticos.
 
-O sirenă nu e o informație utilă până nu știi din ce parte vine. Vigilant Ear pune fiecare sunet pe care îl aude pe o hartă în direct, cu o direcție și o distanță aproximativă, astfel încât o alertă răspunde la întrebarea pe care o ai de fapt: *trebuie să mă mut, și în ce parte?*
+Un barista îți strigă comanda. O asistentă te strigă la un ghișeu. Aceleași trei secunde, aceeași concluzie.
 
-Direction Tones pot trimite și acea direcție la o singură ureche, pentru auz unilateral.
+Telefonul tău le-a auzit pe toate. Doar că nu avea cum să-ți spună.
 
-## Cine vorbește
+Vigilant Ear schimbă asta — pe telefonul pe care îl ai deja în buzunar, iar sunetul nu iese niciodată din el.
 
-Subtitrările în direct separă persoanele din jurul tău după voce, fiecare cu culoarea ei, astfel încât o conversație se citește ca o conversație, nu ca un singur bloc de text continuu. Poți numi vocile pe care le cunoști, iar aplicația va continua să le recunoască.
+- **Nu alegi niciodată o limbă** — își dă seama singur ce se vorbește
+- **Cine a spus-o** — voci separate prin culoare, și cu nume
+- **De unde a venit** — un relevment și o distanță, pe o hartă live
+- **Când nu e sigur** — un indicator de încredere pe fiecare linie
+- **Când pe *tine* te strigă** — o vibrație distinctă pentru numele tău
+- **Fără abonament** — subtitrări și alerte gratuite pentru totdeauna
 
-## Când vorbeau cu tine
+Și nu e o singură problemă, sunt trei. O sonerie e cazul ușor: tare, clar, gata într-o secundă. Traficul care crește pe stradă e cel greu — departe, de bandă largă, fără un contur net de care să te prinzi. Un cutremur e cazul pe care nu-l aude nimeni: ajunge ca mișcare și presiune, sub pragul auzului uman. Barometrul și accelerometrul telefonului tău îl simt, iar Vigilant Ear îți spune dacă a ajuns la tine **prin aer** sau **din pământ**.
 
-Umilința de fiecare zi nu e o sirenă ratată. E cineva care îți spune numele din spate, un barista care strigă o comandă, o asistentă la un ghișeu — și o persoană auzitoare care decide că ai fost nepoliticos. **Name Called** e o listă pe care o tastezi (al tău, al unui copil, al partenerului) și o atingere distinctă când cad acele cuvinte, cu o direcție pe Watch și lampa Standing Watch. Propoziția tot apare în subtitrări ca vorbire. Alerta e *ți se adresau ție*.
+Aplicațiile de accesibilitate rezolvă primul caz. Niciuna alta nu le rezolvă pe toate trei. Vigilant Ear le face simultan.
 
-## Subtitrări care recunosc ce n-au prins
+## Partea pe care nimeni n-o pune în broșură
 
-Majoritatea aplicațiilor de subtitrare îți dau fiecare cuvânt cu aceeași încredere liniștită și te lasă pe tine să descoperi care au fost greșite. Fiecare rând de aici poartă un semn mic cu trei bare — trei bare înseamnă că a auzit clar, una înseamnă să-l iei cu rezerve — iar cuvintele individuale de care n-a fost sigură sunt subliniate. Într-o cameră zgomotoasă, să știi în ce cuvinte să te încrezi contează la fel de mult ca vorbele.
+Orice aplicație de ascultare începe cu detectorul de fum. Detectorul de fum e partea ușoară — e puternic, e rar, și probabil ai afla oricum. Ce te costă e subtilul. Un cuvânt spus apăsat. Cineva care merge în liniște pe lângă tine, noaptea. Plânsul unui bebeluș în altă cameră.
 
-## Care limbă — o află aplicația pentru tine
+**Name Called** este o listă pe care o scrii tu — al tău, al unui copil, al partenerului — și o vibrație distinctă când acele cuvinte apar, cu direcție pe Watch și pe lampa Standing Watch. Propoziția apare în continuare în subtitrări ca orice altă vorbire. Alerta nu înseamnă *a vorbit cineva*. Înseamnă **ți se adresau ție**.
 
-Nu alegi mai întâi o limbă. Vigilant Ear detectează ce se vorbește, pune subtitrări și poate traduce în a ta. O cameră în care stau în aer trei limbi rămâne o cameră pe care o poți urmări.
+## De unde a venit
 
-Astăzi sunt livrate paisprezece limbi, inclusiv româna. Subtitrările în română funcționează pe dispozitiv; Apple Translate nu are română, așa că Auto-Translate arată textul original pentru limbile pe care Apple nu le poate traduce.
+O sirenă nu e informație până nu știi din ce parte vine. Fiecare sunet pe care Vigilant Ear îl aude ajunge pe o hartă live, cu un relevment și o distanță aproximativă, astfel încât o alertă să răspundă la întrebarea pe care chiar ți-o pui: *trebuie să mă mișc, și încotro?*
 
-## Telefoane care lucrează împreună
+Direction Tones poate trimite acel relevment într-o singură ureche, pentru auz unilateral.
 
-Două sau mai multe telefoane cu Vigilant Ear împart ce aud. Mai multe microfoane într-o cameră înseamnă o localizare mai bună a de unde a venit un sunet, iar subtitrările se unesc în loc să concureze. Nimeni nu trebuie să fie în aceeași conversație ca să ajute.
+## Cine vorbește și cât să te încrezi
 
-## Ajungi la cineva care nu e cu tine
+Subtitrările live separă după voce oamenii din jurul tău, fiecare cu propria culoare, astfel încât o conversație să se citească drept conversație, nu ca un bloc continuu. Dă nume vocilor pe care le cunoști și aplicația continuă să le recunoască.
 
-Remote Link e un apel privat doar video, cu datele subtitrărilor — **nicio pistă audio, în niciun moment** — astfel încât nimic din el nu depinde de auz la niciun capăt, și îți dă un mod să semnezi cu cineva. Ce aude telefonul tău e subtitrat și trimis dincolo ca text, iar celălalt telefon îl traduce în limba cititorului său. Tu trimiți un cod; persoana pe care o inviți intră din interiorul aplicației, fără să cumpere nimic.
+Majoritatea aplicațiilor de subtitrare îți dau fiecare cuvânt cu aceeași siguranță liniștită și te lasă să descoperi mai târziu care erau greșite. Aici fiecare linie poartă un semn din trei bare — trei bare înseamnă că a auzit clar, una înseamnă că e de luat cu rezerve — iar cuvintele de care nu a fost sigură sunt subliniate. Într-o încăpere zgomotoasă, să știi în ce cuvinte să ai încredere contează la fel de mult ca și cuvintele.
 
-**Cum călătorește, pe scurt.** Cele două telefoane vorbesc între ele, nu cu noi. Serviciul nostru ține codul de invitație și detaliile de conexiune de care au nevoie telefoanele ca să se găsească — cel mult o oră, și niciodată video-ul sau textul. Oriunde rețelele permit, apelul merge drept de la un telefon la celălalt. Când nu pot ajunge unul la altul direct — rețele diferite, un router strict — pachetele criptate sunt înaintate de un releu care nu le poate citi; vede că există o conexiune, adresele de rețea implicate și cât trafic trece, cum trebuie orice releu, și nimic mai mult. Oricum, video-ul și subtitrările sunt criptate cap-la-cap între cele două telefoane, astfel încât nimic pe drum nu poate privi sau citi apelul, iar aplicația îți spune limpede dacă e **Direct** sau **Relayed**. Nimic dintr-un link nu e înregistrat — nici video, nici text — pe niciun telefon sau pe vreun server.
+Nu alegi niciodată o limbă la început. Vigilant Ear își dă seama ce se vorbește și subtitrează. O încăpere cu trei limbi în aer rămâne o încăpere pe care o poți urmări.
 
-## Vezi sunetul, nu doar o etichetă
+Aproape pe toate le poate și traduce în a ta. Când nu poate, îți spune și îți arată originalul, în loc să-ți întindă o presupunere deghizată în traducere.
 
-Acoustic Scope e o vedere de inginerie, în direct, a camerei — spectru, spectrogramă, benzi de ⅓ octavă, chroma, parțiale armonice. E **gratuit pentru toată lumea**, pentru că pentru mulți oameni a privi forma unui sunet e cel mai rapid mod de a-l înțelege.
+## Un telefon arată. Două triangulează.
+
+Microfoanele unui telefon sunt la câțiva centimetri unul de altul, suficient cât să-ți spună o direcție. Pune un al doilea telefon în celălalt capăt al camerei și rețeaua e lată cât camera: relevmentul fiecăruia îl intersectează pe al celuilalt, iar o direcție devine o poziție. Subtitrările fuzionează în loc să concureze, iar telefoane care nu s-au întâlnit niciodată formează acea rețea pe loc, calculând la câțiva centimetri unde stă fiecare. Nimeni nu trebuie să fie în aceeași conversație ca să fie de folos.
+
+**Remote Link** ajunge la cineva care nu e cu tine: video și text de subtitrare, cu **nicio pistă audio în niciun moment** — așa că nimic din el nu depinde de auz, la niciun capăt, și îți dă o cale de a semna. Subtitrările tale trec ca text și ajung în limba celui care citește. Trimiți un cod; persoana intră din aplicație fără să cumpere nimic.
+
+Este criptat cap-la-cap între cele două telefoane. Releul care îl transmite nu-l poate citi, noi nu-l putem citi, și nu se înregistrează nimic — nici pe vreunul dintre telefoane, nici pe vreun server. Aplicația îți spune clar dacă ești **Direct** sau **Prin releu**. [Traseul complet](PRIVACY.md).
 
 ## Avertizări de la cei care le emit
 
-Vremea severă vine din nouă surse guvernamentale — Statele Unite, Europa, Japonia, China, Coreea, India, Canada, Australia și Brazilia — filtrate după unde ești tu de fapt. Alertele de cutremur așteaptă confirmarea USGS, în loc să ghicească.
+Avertizările meteo severe vin din nouă surse guvernamentale — Statele Unite, Europa, Japonia, China, Coreea, India, Canada, Australia și Brazilia — filtrate după locul în care te afli cu adevărat. Alertele de cutremur așteaptă confirmarea USGS în loc să ghicească.
 
-Acele avertizări ajung la tine prin serviciul nostru, nu prin telefonul tău care sună fiecare agenție direct, ceea ce înseamnă că **telefonul tău nu contactează niciodată serverele unui guvern străin**, iar un flux public partajat nu-ți poate pierde alerta pentru că prea mulți oameni cereau deodată. Testul precis *sunt înăuntrul acestei zone de avertizare?* tot se întâmplă pe telefonul tău și nu iese niciodată de acolo.
+Aceste avertizări ajung prin serviciul nostru de agregare, în loc ca telefonul tău să contacteze direct fiecare agenție, ceea ce înseamnă că **telefonul tău nu contactează niciodată serverele unui guvern străin**, iar un flux public partajat nu-ți poate pierde alerta fiindcă prea mulți întrebau în același timp. Verificarea exactă *sunt în interiorul acestei zone de avertizare?* rulează pe telefonul tău și nu iese niciodată din el.
 
-## Câțiva experți mici, nu unul mare
+## Mai mulți experți mici, nu unul mare
 
-Felul evident de a construi o aplicație care ascultă e să rulezi un singur model și să raportezi orice spune. Vigilant
-Ear rulează în schimb o mână de specialiști, fiecare făcând o treabă la care e chiar bun: unul recunoaște sunetele de zi cu zi,
-un al doilea verifică munca primului, altul află de unde a venit un sunet, altul separă
-vocile dintr-o cameră, altul decide dacă chiar cântă muzică.
+Modul evident de a construi o aplicație de ascultare este să rulezi un model și să raportezi ce spune. Vigilant Ear rulează în schimb o mână de specialiști, fiecare făcând o treabă la care chiar se pricepe: unul recunoaște sunetele de zi cu zi, al doilea verifică munca primului, altul calculează de unde a venit un sunet, altul separă vocile dintr-o încăpere, altul decide dacă chiar cântă muzică.
 
-Se contrazic des, și ăsta e punctul. Un moment în formă de sirenă dintr-o melodie arată identic cu
-o sirenă dacă întrebi un singur model. Să întrebi trei, și să ceri să fie de acord înainte ca ceva
-să te întrerupă, e diferența dintre o alertă în care te încrezi și o aplicație pe care o oprești până la urmă.
+Sunt adesea în dezacord, și tocmai asta e ideea. Un moment în formă de sirenă dintr-o melodie e identic cu o sirenă dacă întrebi un singur model. Să întrebi trei și să ceri să fie de acord înainte ca ceva să te întrerupă e diferența dintre o alertă în care ai încredere și o aplicație pe care ajungi s-o oprești.
 
-Înseamnă și că aplicația îți poate spune când nu e sigură, în loc să ghicească — semnele de încredere de pe
-subtitrări, vocea care apare neatribuită în loc să poarte numele greșit, alerta care
-așteaptă încă un cadru pentru coroborare. Un singur model n-are cum să știe că greșește. Mai mulți
-da.
+Asta îi mai permite aplicației să spună că nu e sigură în loc să ghicească — semnele de încredere de pe subtitrări, vocea afișată fără atribuire în loc să poarte numele greșit, alerta care mai așteaptă un cadru pentru confirmare. Un singur model n-are cum să știe că greșește. Mai multe au — cu condiția ca ceva să decidă, cadru cu cadru, care dintre ele a meritat prezumția de bună-credință.
 
-Totul rulează pe telefonul tău, pe același cip neural care alimentează Face ID. E o constrângere
-deliberată, nu un moft tehnic: modele destul de mici ca să-ți încapă în buzunar sunt modele
-care n-au niciodată nevoie să trimită camera ta cuiva.
+**Acoustic Scope** pune acea percepție brută pe ecran — spectru, spectrogramă, benzi de ⅓ de octavă, cromă, parțiale armonice. Este **gratuit pentru toată lumea**, pentru că pentru mulți oameni a vedea forma unui sunet e cel mai rapid mod de a-l înțelege. Există un [ghid de citire](ACOUSTICSCOPE.md).
 
-## Rămâne pe dispozitivul tău
+## Ce nu putem vedea
 
-Ascultarea, transcrierea, traducerea și clasificarea sunetelor rulează toate pe telefonul tău. Munca care atinge ce spui și ce auzi nu e ceva ce putem citi, pentru că nu ajunge niciodată la noi.
+Ascultarea, transcrierea, traducerea și clasificarea sunetelor rulează toate pe telefonul tău. Munca ce atinge ce spui și ce auzi nu e ceva ce putem citi, pentru că nu ajunge niciodată la noi. E o constrângere deliberată, nu un ornament: modelele destul de mici cât să încapă în buzunar sunt modele care nu trebuie să trimită nicăieri ce aud.
 
-Câteva lucruri folosesc totuși rețeaua, și merită să le numim în loc să le rotunjim la zero: hărțile; alertele meteo și de cutremur descrise mai sus; Music ID, care trimite o amprentă audio scurtă și niciodată audio înregistrat; contextul stradal; cumpărăturile din App Store; și Remote Link, care e un apel doar video cu datele subtitrărilor și deci călătorește neapărat între cele două telefoane — criptat cap-la-cap, astfel încât nimic pe drum nu-l poate citi.
+Câteva lucruri folosesc totuși rețeaua și merită numite, în loc să fie rotunjite la zero: hărțile; avertizările meteo și seismice de mai sus; Music ID, care trimite o amprentă acustică scurtă și niciodată audio înregistrat; contextul rutier; cumpărăturile din App Store; și Remote Link, care prin definiție circulă între cele două telefoane — criptat cap-la-cap, așa că nimic dintre ele nu-l poate citi.
 
-Fără reclame. Nimic vândut. Niciun cont necesar.
+Fără reclame. Nu se vinde nimic. Fără cont.
 
 ## Cât costă
 
-Gratuit primele 90 de zile. După aceea, subtitrările și alertele rămân gratuite pentru totdeauna, iar o singură plată unică ține extra-urile. **Niciun abonament, niciodată** — și niciun hardware nou de cumpărat.
+Gratuit primele 90 de zile. După aceea, subtitrările și alertele rămân gratuite pentru totdeauna — baza de siguranță nu e ceea ce vindem.
+
+O singură plată, o singură dată, păstrează **Power Pack+**: Auto-Translate, care transformă o limbă pe care n-o citești în una pe care o citești, pe măsură ce e vorbită; și Music ID, care numește piesa din încăpere ca să știi ce ascultă toți ceilalți. **Niciodată abonament** — și niciun echipament nou de cumpărat.
 
 ---
 
-*Vigilant Ear este un ajutor experimental de cercetare și accesibilitate — nu un dispozitiv certificat sau salvator de vieți. Folosește întotdeauna propria conștientizare situativă.*
+*Vigilant Ear este un ajutor experimental de cercetare și accesibilitate — nu un dispozitiv certificat sau de salvare a vieții. Folosește întotdeauna propria ta atenție la ce se întâmplă în jur.*
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
+  <strong>© 2026 Wingdings, Inc.</strong><br />
+  Toate drepturile rezervate.<br />
+  Trei brevete din SUA în curs de aprobare
+</p>

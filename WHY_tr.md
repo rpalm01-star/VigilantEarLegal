@@ -1,78 +1,95 @@
 # Neden Vigilant Ear?
 
-*1.1.8 sürümünden itibaren geçerlidir · Eylül 2026.*
+*Eylül 2026'da güncellendi.*
 
-Çoğu ses uygulaması size *bir şey olduğunu* söyler. Vigilant Ear **ne, nerede, ne kadar uzakta, kim ve hangi dilde** olduğunu söyler — zaten cebinizde duran telefonda.
+**Bu bir ses algılama uygulaması değil.** Onlar kısa bir gürültü listesini tanır ve ekranınıza bir simge koyar. Size gerçekten bir şeye mal olan her şey o listenin dışındadır.
 
-## Ses nereden geldi
+Arkanızdaki biri adınızı söyler. Dönmezsiniz. Kaba olduğunuza karar verirler.
 
-Bir siren, hangi yönden geldiğini bilene kadar işe yarar bir bilgi değildir. Vigilant Ear duyduğu her sesi canlı bir haritaya kerteriz ve kabaca bir uzaklıkla yerleştirir; böylece bir uyarı asıl sorunuzu yanıtlar: *hareket etmem gerekiyor mu, hangi yöne?*
+Bir barista siparişinizi seslenir. Bir hemşire sizi gişeden çağırır. Aynı üç saniye, aynı sonuç.
 
-Yön Tonları bu kerterizi, tek taraflı işitme için, seçtiğiniz kulağa da gönderebilir.
+Telefonunuz hepsini duydu. Sadece size söylemenin bir yolu yoktu.
 
-## Kim konuşuyor
+Vigilant Ear bunu değiştirir — hâlihazırda cebinizde olan telefonda, ve ses oradan hiç çıkmaz.
 
-Canlı altyazılar çevrenizdeki insanları sese göre ayırır; her sesin kendi rengi vardır, böylece bir konuşma tek bir akan metin bloğu değil, bir konuşma olarak okunur. Tanıdığınız seslere isim verebilirsiniz; uygulama onları yeniden tanır.
+- **Hiçbir zaman dil seçmezsiniz** — konuşulanı kendisi çözer
+- **Kimin söylediği** — sesler renge göre ayrılır ve adlandırılabilir
+- **Nereden geldiği** — canlı haritada bir kerteriz ve bir mesafe
+- **Emin olmadığı an** — her satırda bir güven işareti
+- **Çağrılanın *siz* olduğu an** — kendi adınız için ayrı bir titreşim
+- **Abonelik yok** — altyazılar ve uyarılar sonsuza dek ücretsiz
 
-## Size hitap edildiğinde
+Ve bu tek bir problem değil, üç tane. Kapı zili kolay olan: yüksek, keskin, bir saniyede biter. Dışarıdaki yolda yükselen trafik zor olan — uzak, geniş bantlı, tutunacak net bir kenarı yok. Deprem ise kimsenin hiç duymadığı durum: insan işitmesinin altında, hareket ve basınç olarak gelir. Telefonunuzun barometresi ve ivmeölçeri onu hisseder ve Vigilant Ear size **havadan mı** yoksa **yerden mi** ulaştığını söyler.
 
-Günlük utanç kaçırılan bir siren değildir. Arkadan adınızın söylenmesi, bir baristanın sipariş çağırması, penceredeki bir hemşire — ve işiten birinin sizi kaba sandığı andır. **Name Called**, yazdığınız bir listedir (sizin adınız, bir çocuğun, bir eşin) ve bu sözcükler duyulduğunda Watch’ta ve Standing Watch lambasında yönle birlikte belirgin bir dokunuştur. Cümle altyazılarda yine konuşma olarak görünür. Uyarı şudur: *size hitap ediyorlardı.*
+Erişilebilirlik uygulamaları birincisini çözer. Hiçbiri üçünü birden çözmez. Vigilant Ear üçünü aynı anda yapar.
 
-## Yakalamadığını itiraf eden altyazılar
+## Broşüre kimsenin koymadığı kısım
 
-Çoğu altyazı uygulaması her sözcüğü aynı sessiz güvenle verir ve hangilerinin yanlış olduğunu size bırakır. Burada her satırda küçük bir üç çubuk işareti vardır — üç çubuk net duyduğunu, biri temkinli yaklaşın demektir — ve emin olmadığı sözcükler altı çizilidir. Gürültülü bir odada hangi sözcüklere güveneceğinizi bilmek, sözcüklerin kendisi kadar önemlidir.
+Her dinleme uygulaması duman dedektörüyle başlar. Duman dedektörü kolay kısım — yüksek sesli, nadir, ve muhtemelen zaten haberiniz olurdu. Size asıl pahalıya mal olan incelikli olan. Vurgulu söylenmiş bir kelime. Gece yanınızdan sessizce geçen biri. Diğer odadaki bir bebeğin ağlaması.
 
-## Hangi dil — sizin yerinize bulunur
+**Name Called**, kendi yazdığınız bir listedir — sizin adınız, bir çocuğunki, eşinizinki — ve o kelimeler düştüğünde ayrı bir titreşim, Watch'ta ve Standing Watch lambasında yönüyle birlikte. Cümle yine her konuşma gibi altyazılarda görünür. Uyarı *biri konuştu* demek değildir. **Size hitap ediyorlardı** demektir.
 
-Önce bir dil seçmezsiniz. Vigilant Ear ne konuşulduğunu algılar, altyazıya çevirir ve sizin dilinize çevirebilir. Havada üç dilin olduğu bir oda, yine takip edebileceğiniz bir odadır.
+## Nereden geldiği
 
-Bugün on iki dil gelir.
+Bir siren, hangi yönden geldiğini bilene kadar bilgi değildir. Vigilant Ear'ın duyduğu her ses, bir kerteriz ve yaklaşık bir mesafeyle canlı haritaya düşer; böylece uyarı, gerçekten sorduğunuz soruyu yanıtlar: *hareket etmeli miyim, ve hangi yöne?*
 
-## Birlikte çalışan telefonlar
+Direction Tones bu kerterizi tek kulağa gönderebilir — tek taraflı işitme için.
 
-Vigilant Ear çalışan iki veya daha fazla telefon duyduklarını paylaşır. Bir odada daha fazla mikrofon, bir sesin nereden geldiğine daha iyi kilit demektir; altyazılar yarışmak yerine birleşir. İşe yaraması için kimsenin aynı konuşmada olması gerekmez.
+## Kim konuşuyor ve ne kadar güvenilir
 
-## Yanınızda olmayan birine ulaşmak
+Canlı altyazılar çevrenizdeki insanları sese göre ayırır, her biri kendi renginde; böylece bir konuşma kesintisiz bir blok değil, konuşma gibi okunur. Tanıdığınız seslere ad verin, uygulama onları tanımaya devam eder.
 
-Remote Link, altyazı verisi taşıyan özel, yalnızca videolu bir aramadır — **hiçbir noktada ses kanalı yoktur** — böylece iki uçta da hiçbir şey işitmeye bağlı değildir ve biriyle işaretleşmenize yol açar. Telefonunuzun duyduğu şey altyazılanır ve metin olarak gönderilir; diğer telefon bunu kendi okuyucusunun diline çevirir. Bir kod gönderirsiniz; davet ettiğiniz kişi uygulamadan, bir şey satın almadan katılır.
+Çoğu altyazı uygulaması her kelimeyi aynı sakin kesinlikle verir ve hangilerinin yanlış olduğunu sonradan keşfetmeyi size bırakır. Burada her satır üç çubuklu bir işaret taşır — üç çubuk net duyduğu, bir çubuk ihtiyatla karşılanması gerektiği anlamına gelir — ve emin olamadığı tek tek kelimelerin altı çizilir. Gürültülü bir odada hangi kelimelere güveneceğinizi bilmek, kelimelerin kendisi kadar önemlidir.
 
-**Nasıl gider, sade anlatım.** İki telefon birbirleriyle konuşur, bizimle değil. Hizmetimiz davet kodunu ve telefonların birbirini bulması için gereken bağlantı bilgilerini tutar — en fazla bir saat, asla video veya metin değil. Ağların izin verdiği yerde arama telefondan telefona doğrudan gider. Doğrudan ulaşamazlarsa — farklı ağlar, katı bir yönlendirici — şifreli paketler onları okuyamayan bir röle üzerinden iletilir; bir bağlantı olduğunu, ilgili ağ adreslerini ve ne kadar veri geçtiğini görür — her rölenin görmesi gerektiği gibi — ve başka bir şey görmez. Her iki durumda da video ve altyazılar iki telefon arasında uçtan uca şifrelidir; arada hiçbir şey aramayı izleyemez veya okuyamaz ve uygulama size açıkça **Direct** mi **Relayed** mi olduğunu söyler. Bir bağlantıdan hiçbir şey kaydedilmez — video yok, metin yok — ne iki telefonda ne herhangi bir sunucuda.
+Önce bir dil seçmezsiniz. Vigilant Ear konuşulanı çözer ve altyazılar. Havada üç dilin olduğu bir oda, yine takip edebileceğiniz bir odadır.
 
-## Sesi yalnızca etiket olarak değil, şekil olarak görmek
+Neredeyse hepsini ayrıca sizinkine çevirebilir. Çeviremediğinde bunu söyler ve size orijinali gösterir; çeviri kılığına sokulmuş bir tahmin uzatmaz.
 
-Acoustic Scope, odanın canlı mühendislik görünümüdür — spektrum, spektrogram, ⅓-oktav bantları, kroma, armonik kısmi tonlar. **Herkes için ücretsizdir**, çünkü birçok insan için bir sesin şeklini izlemek onu anlamanın en hızlı yoludur.
+## Bir telefon gösterir. İki telefon konum verir.
 
-## Uyarıyı çıkaranlardan gelen uyarılar
+Bir telefonun mikrofonları birkaç santimetre aralıklıdır; bu bir yön söylemeye yeter. Odanın öbür ucuna ikinci bir telefon koyun, dizilim oda kadar geniş olur: her birinin kerterizi diğerininkini keser ve bir yön bir konuma dönüşür. Altyazılar yarışmak yerine birleşir, ve hiç karşılaşmamış telefonlar bu dizilimi anında kurar, her birinin nerede durduğunu santimetreler düzeyinde hesaplayarak. Fayda sağlaması için kimsenin aynı konuşmada olması gerekmez.
 
-Şiddetli hava, bulunduğunuz yere süzülmüş dokuz resmi kaynaktan gelir — ABD, Avrupa, Japonya, Çin, Kore, Hindistan, Kanada, Avustralya ve Brezilya. Deprem uyarıları tahmin etmek yerine USGS onayını bekler.
+**Remote Link** yanınızda olmayan birine ulaşır: video ve altyazı metni, **hiçbir anda ses kanalı olmadan** — yani iki uçta da hiçbir şey duymaya bağlı değildir, ve size işaret dili için bir yol açar. Altyazılarınız metin olarak geçer ve okuyanın dilinde varır. Bir kod gönderirsiniz; karşı taraf hiçbir şey satın almadan uygulamanın içinden katılır.
 
-Bu uyarılar telefonunuzun her kuruma tek tek sorması yerine kendi hizmetimiz üzerinden gelir; yani **telefonunuz asla yabancı bir hükümetin sunucularına bağlanmaz** ve ortak bir kamu akışı, çok kişi sorduğu için uyarınızı düşüremez. *Bu uyarı alanının içinde miyim?* testi yine telefonunuzda olur ve onu asla terk etmez.
+İki telefon arasında uçtan uca şifrelidir. İleten aktarıcı okuyamaz, biz okuyamayız ve hiçbir şey kaydedilmez — iki telefonda da, hiçbir sunucuda da. Uygulama **Doğrudan** mı yoksa **Aktarmalı** mı olduğunuzu açıkça söyler. [Tam yol](PRIVACY.md).
 
-## Bir büyük uzman değil, birkaç küçük uzman
+## Uyarıları yayınlayanlardan
 
-Dinleyen bir uygulama kurmanın bariz yolu tek bir model çalıştırıp ne derse onu bildirmektir.
-Vigilant Ear bunun yerine bir avuç uzman çalıştırır; her biri gerçekten iyi olduğu bir işi yapar: biri gündelik sesleri tanır,
-ikincisi birincinin işini kontrol eder, bir başkası sesin nereden geldiğini çıkarır, bir başkası odadaki sesleri ayırır,
-bir diğeri gerçekten müzik çalıp çalmadığına karar verir.
+Şiddetli hava uyarıları dokuz resmî kaynaktan gelir — Amerika Birleşik Devletleri, Avrupa, Japonya, Çin, Kore, Hindistan, Kanada, Avustralya ve Brezilya — gerçekte bulunduğunuz yere göre süzülerek. Deprem uyarıları tahmin yürütmek yerine USGS onayını bekler.
 
-Sık sık anlaşamazlar ve mesele budur. Bir şarkının içindeki siren biçimli bir an, tek modele sorarsanız sirenle aynı görünür. Üçe sormak ve sizi kesmeden önce anlaşmalarını istemek, güvendiğiniz bir uyarı ile sonunda susturduğunuz bir uygulama arasındaki farktır.
+Bu uyarılar, telefonunuzun her kuruma doğrudan bağlanması yerine toplama servisimiz üzerinden ulaşır; bu da **telefonunuzun hiçbir zaman yabancı bir devletin sunucularına bağlanmadığı** ve paylaşılan bir kamusal akışın, aynı anda çok kişi sorguladı diye uyarınızı düşüremeyeceği anlamına gelir. *Bu uyarı alanının içinde miyim?* sorusunun kesin sınaması telefonunuzda çalışır ve oradan hiç çıkmaz.
 
-Ayrıca uygulama, tahmin etmek yerine emin olmadığı zaman söyleyebilir — altyazılardaki güven işaretleri, yanlış isim takmak yerine atfedilmemiş duran ses, bir kare daha doğrulama bekleyen uyarı. Tek bir modelin yanlış olduğunu bilmesinin yolu yoktur. Birkaçının vardır.
+## Tek bir büyük uzman değil, birkaç küçük uzman
 
-Hepsi telefonunuzda, Face ID’yi de çalıştıran aynı sinir çipinde çalışır. Bu teknik bir süs değil, bilinçli bir kısıttır: cebinizde yaşayacak kadar küçük modeller, odanızı kimseye göndermesi gerekmeyen modellerdir.
+Bir dinleme uygulaması yapmanın bariz yolu tek bir model çalıştırıp ne derse onu bildirmektir. Vigilant Ear bunun yerine bir avuç uzman çalıştırır, her biri gerçekten iyi olduğu tek bir işi yapar: biri gündelik sesleri tanır, ikincisi birincinin işini denetler, bir başkası sesin nereden geldiğini hesaplar, bir başkası odadaki sesleri ayırır, bir başkası gerçekten müzik çalıp çalmadığına karar verir.
 
-## Cihazınızda kalır
+Sık sık anlaşmazlığa düşerler, ve mesele tam da budur. Bir şarkının içindeki siren biçimli bir an, tek bir modele sorarsanız sirenden ayırt edilemez. Üçüne sormak ve sizi bir şey böler bölmez değil, ancak hemfikir olduklarında bölmelerini istemek — güvendiğiniz bir uyarı ile sonunda sustur­duğunuz bir uygulama arasındaki farktır.
 
-Dinleme, transkripsiyon, çeviri ve ses sınıflandırması telefonunuzda çalışır. Söylediğiniz ve duyduğunuz şeye dokunan işi okuyamayız, çünkü bize hiç ulaşmaz.
+Bu ayrıca uygulamanın tahmin yürütmek yerine emin olmadığını söylemesine imkân verir — altyazılardaki güven işaretleri, yanlış adı taşımaktansa atıfsız gösterilen ses, doğrulama için bir kare daha bekleyen uyarı. Tek bir modelin yanıldığını bilmesinin hiçbir yolu yoktur. Birkaçının vardır — yeter ki bir şey, kare kare, hangisinin şüpheden yararlanmayı hak ettiğine karar veriyor olsun.
 
-Birkaç şey ağı kullanır ve tek şeye indirgemek yerine adlarını vermek daha doğrudur: haritalar; yukarıdaki hava ve deprem uyarıları; kaydedilmiş ses değil kısa bir ses parmak izi gönderen Müzik Kimliği; yol bağlamı; App Store satın alımları; ve iki telefon arasında gitmesi zorunlu olan, uçtan uca şifreli Remote Link — arada hiçbir şey okuyamaz.
+**Acoustic Scope** o ham algıyı ekrana getirir — spektrum, spektrogram, ⅓ oktav bantlar, kroma, armonik bileşenler. **Herkes için ücretsizdir**, çünkü birçok insan için bir sesin biçimini görmek onu anlamanın en hızlı yoludur. Bir [okuma kılavuzu](ACOUSTICSCOPE.md) var.
 
-Reklam yok. Satılan bir şey yok. Hesap gerekmez.
+## Göremediklerimiz
 
-## Ne kadara mal olur
+Dinleme, deşifre, çeviri ve ses sınıflandırma tamamen telefonunuzda çalışır. Söylediğinize ve duyduğunuza dokunan iş, okuyabileceğimiz bir şey değildir, çünkü bize hiç ulaşmaz. Bu bir süs değil, bilinçli bir kısıttır: cebinize sığacak kadar küçük modeller, duyduklarını hiçbir yere göndermek zorunda olmayan modellerdir.
 
-İlk 90 gün ücretsiz. Sonra altyazılar ve uyarılar sonsuza dek ücretsiz kalır; ekstralar tek seferlik bir ödemeyle sizin olur. **Asla abonelik yok** — ve satın almanız gereken yeni bir donanım da yok.
+Birkaç şey ağı gerçekten kullanır ve bunları sıfıra yuvarlamak yerine adlarıyla anmak gerekir: haritalar; yukarıdaki hava ve deprem uyarıları; kısa bir akustik parmak izi gönderen ve asla kayıtlı ses göndermeyen Music ID; yol bağlamı; App Store satın alımları; ve doğası gereği iki telefon arasında seyahat eden Remote Link — uçtan uca şifreli, dolayısıyla aradaki hiçbir şey onu okuyamaz.
+
+Reklam yok. Hiçbir şey satılmıyor. Hesap gerekmiyor.
+
+## Ne kadara mal oluyor
+
+İlk 90 gün ücretsiz. Sonrasında altyazılar ve uyarılar sonsuza dek ücretsiz kalır — güvenlik zemini sattığımız şey değil.
+
+Tek seferlik bir ödeme **Power Pack+**'ı korur: konuşulduğu anda okumadığınız bir dili okuduğunuz bir dile çeviren Auto-Translate; ve odada çalan parçanın adını söyleyen, böylece herkesin ne dinlediğini bilmenizi sağlayan Music ID. **Asla abonelik yok** — ve satın alınacak yeni donanım yok.
 
 ---
 
-*Vigilant Ear deneysel bir araştırma ve erişilebilirlik yardımcısıdır — sertifikalı veya hayat kurtaran bir cihaz değildir. Her zaman kendi durum farkındalığınıza güvenin.*
+*Vigilant Ear deneysel bir araştırma ve erişilebilirlik yardımcısıdır — sertifikalı ya da hayat kurtarıcı bir cihaz değildir. Her zaman kendi durum farkındalığınızı da kullanın.*
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
+  <strong>© 2026 Wingdings, Inc.</strong><br />
+  Tüm hakları saklıdır.<br />
+  Üç ABD patent başvurusu beklemede
+</p>
