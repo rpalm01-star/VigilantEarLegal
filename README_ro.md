@@ -228,7 +228,7 @@ Note mai adânci pentru ingineri: [Physics](https://vigilantear.com/en/physics/)
 - **Subtitrările sunt efemere.** Subtitrările în direct rămân în memorie pe durata sesiunii; jurnalele de depanare exportate nu includ textul subtitrărilor.
 - **Fără SDK-uri de publicitate sau de analiză comportamentală.** Folosirea limitată a rețelei e doar pentru hărți, fluxuri meteo publice, amprente Shazam opționale, context stradal și cumpărături din App Store — vezi politica completă.
 
-Detalii complete: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+Detalii complete: [PRIVACY.md](/ro/privacy/) · [TERMS.md](/ro/terms/) · [SUPPORT.md](/ro/support/)
 
 ---
 

@@ -51,7 +51,7 @@ Os microfones de um telefone ficam a poucos centímetros um do outro, o suficien
 
 O **Remote Link** alcança alguém que não está com você: vídeo e texto de legenda, com **nenhuma trilha de áudio em momento algum** — então nada ali depende de ouvir, de nenhum dos dois lados, e isso te dá um jeito de sinalizar. Suas legendas atravessam como texto e chegam no idioma de quem lê. Você envia um código; a pessoa entra de dentro do app sem comprar nada.
 
-É criptografado de ponta a ponta entre os dois telefones. O relay que encaminha não consegue ler, nós não conseguimos ler, e nada é gravado — nem nos dois telefones, nem em servidor nenhum. O app diz claramente se você está em **Direto** ou **Retransmitido**. [O caminho completo](PRIVACY.md).
+É criptografado de ponta a ponta entre os dois telefones. O relay que encaminha não consegue ler, nós não conseguimos ler, e nada é gravado — nem nos dois telefones, nem em servidor nenhum. O app diz claramente se você está em **Direto** ou **Retransmitido**. [O caminho completo](/pt-BR/privacy/).
 
 ## Avisos de quem os emite
 
@@ -67,7 +67,7 @@ Eles discordam com frequência, e é justamente esse o ponto. Um instante com fo
 
 Isso também permite que o app diga que não tem certeza em vez de chutar — as marcas de confiança nas legendas, a voz mostrada sem atribuição em vez de usar o nome errado, o alerta que espera mais um quadro por corroboração. Um modelo sozinho não tem como saber que está errado. Vários têm — desde que algo esteja decidindo, quadro a quadro, qual deles merece o benefício da dúvida.
 
-O **Acoustic Scope** coloca essa percepção bruta na tela — espectro, espectrograma, bandas de ⅓ de oitava, croma, parciais harmônicas. É **grátis para todo mundo**, porque para muita gente ver o formato de um som é o jeito mais rápido de entendê-lo. Existe um [guia de leitura](ACOUSTICSCOPE.md).
+O **Acoustic Scope** coloca essa percepção bruta na tela — espectro, espectrograma, bandas de ⅓ de oitava, croma, parciais harmônicas. É **grátis para todo mundo**, porque para muita gente ver o formato de um som é o jeito mais rápido de entendê-lo. Existe um [guia de leitura](/pt-BR/acoustic-scope/).
 
 ## O que não conseguimos ver
 

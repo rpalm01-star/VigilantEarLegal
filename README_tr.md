@@ -228,7 +228,7 @@ Mühendisler için daha derin notlar: [Physics](https://vigilantear.com/en/physi
 - **Altyazılar geçicidir.** Canlı altyazılar oturum boyunca bellekte kalır; dışa aktarılan hata ayıklama günlükleri altyazı metni içermez.
 - **Reklam veya davranışsal analitik SDK’sı yok.** Sınırlı ağ kullanımı yalnızca haritalar, kamu hava akışları, isteğe bağlı Shazam parmak izleri, yol bağlamı ve App Store satın alımları içindir — tam politikaya bakın.
 
-Ayrıntılar: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+Ayrıntılar: [PRIVACY.md](/tr/privacy/) · [TERMS.md](/tr/terms/) · [SUPPORT.md](/tr/support/)
 
 ---
 

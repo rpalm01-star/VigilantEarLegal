@@ -51,7 +51,7 @@ Die Mikrofone eines Telefons liegen wenige Zentimeter auseinander — genug für
 
 **Remote Link** erreicht jemanden, der nicht bei dir ist: Video und Untertiteltext, mit **zu keinem Zeitpunkt einer Audiospur** — nichts daran hängt also auf einer der beiden Seiten am Hören, und es gibt dir eine Möglichkeit zu gebärden. Deine Untertitel gehen als Text hinüber und kommen in der Sprache der lesenden Person an. Du schickst einen Code; sie tritt aus der App heraus bei, ohne etwas zu kaufen.
 
-Es ist Ende-zu-Ende zwischen den beiden Telefonen verschlüsselt. Das weiterleitende Relay kann es nicht lesen, wir können es nicht lesen, und nichts wird aufgezeichnet — weder auf einem der Telefone noch auf irgendeinem Server. Die App sagt dir klar, ob du **Direkt** oder **Weitergeleitet** verbunden bist. [Der vollständige Weg](PRIVACY.md).
+Es ist Ende-zu-Ende zwischen den beiden Telefonen verschlüsselt. Das weiterleitende Relay kann es nicht lesen, wir können es nicht lesen, und nichts wird aufgezeichnet — weder auf einem der Telefone noch auf irgendeinem Server. Die App sagt dir klar, ob du **Direkt** oder **Weitergeleitet** verbunden bist. [Der vollständige Weg](/de/privacy/).
 
 ## Warnungen von denen, die sie herausgeben
 
@@ -67,7 +67,7 @@ Sie widersprechen einander oft, und genau darum geht es. Ein sirenenförmiger Mo
 
 Es erlaubt der App außerdem zu sagen, dass sie unsicher ist, statt zu raten — die Vertrauenszeichen an den Untertiteln, die Stimme, die ohne Zuordnung erscheint, statt den falschen Namen zu tragen, die Warnung, die ein Frame länger auf Bestätigung wartet. Ein einzelnes Modell hat keine Möglichkeit zu wissen, dass es falsch liegt. Mehrere haben sie — sofern etwas Frame für Frame entscheidet, wer von ihnen sich den Vertrauensvorschuss verdient hat.
 
-Das **Acoustic Scope** bringt diese rohe Wahrnehmung auf den Bildschirm — Spektrum, Spektrogramm, ⅓-Oktav-Bänder, Chroma, harmonische Teiltöne. Es ist **für alle kostenlos**, weil für viele Menschen die Form eines Geräuschs zu sehen der schnellste Weg ist, es zu verstehen. Es gibt einen [Leitfaden zum Lesen](ACOUSTICSCOPE.md).
+Das **Acoustic Scope** bringt diese rohe Wahrnehmung auf den Bildschirm — Spektrum, Spektrogramm, ⅓-Oktav-Bänder, Chroma, harmonische Teiltöne. Es ist **für alle kostenlos**, weil für viele Menschen die Form eines Geräuschs zu sehen der schnellste Weg ist, es zu verstehen. Es gibt einen [Leitfaden zum Lesen](/de/acoustic-scope/).
 
 ## Was wir nicht sehen können
 

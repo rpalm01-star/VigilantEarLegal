@@ -221,7 +221,7 @@ Tiefere Notizen für Ingenieurinnen und Ingenieure: [Physics](https://vigilantea
 - **Untertitel sind flüchtig.** Live-Untertitel bleiben für die Sitzung im Speicher; exportierte Debug-Protokolle enthalten keinen Untertiteltext.
 - **Keine SDKs für Werbung oder Verhaltensanalysen.** Eingeschränkte Netzwerknutzung nur für Karten, öffentliche Wetter-Feeds, optionale Shazam-Fingerabdrücke, Straßenkontext und App-Store-Käufe — siehe die vollständige Richtlinie.
 
-Vollständige Details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+Vollständige Details: [PRIVACY.md](/de/privacy/) · [TERMS.md](/de/terms/) · [SUPPORT.md](/de/support/)
 
 ---
 

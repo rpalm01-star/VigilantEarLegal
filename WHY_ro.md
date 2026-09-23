@@ -51,7 +51,7 @@ Microfoanele unui telefon sunt la câțiva centimetri unul de altul, suficient c
 
 **Remote Link** ajunge la cineva care nu e cu tine: video și text de subtitrare, cu **nicio pistă audio în niciun moment** — așa că nimic din el nu depinde de auz, la niciun capăt, și îți dă o cale de a semna. Subtitrările tale trec ca text și ajung în limba celui care citește. Trimiți un cod; persoana intră din aplicație fără să cumpere nimic.
 
-Este criptat cap-la-cap între cele două telefoane. Releul care îl transmite nu-l poate citi, noi nu-l putem citi, și nu se înregistrează nimic — nici pe vreunul dintre telefoane, nici pe vreun server. Aplicația îți spune clar dacă ești **Direct** sau **Prin releu**. [Traseul complet](PRIVACY.md).
+Este criptat cap-la-cap între cele două telefoane. Releul care îl transmite nu-l poate citi, noi nu-l putem citi, și nu se înregistrează nimic — nici pe vreunul dintre telefoane, nici pe vreun server. Aplicația îți spune clar dacă ești **Direct** sau **Prin releu**. [Traseul complet](/ro/privacy/).
 
 ## Avertizări de la cei care le emit
 
@@ -67,7 +67,7 @@ Sunt adesea în dezacord, și tocmai asta e ideea. Un moment în formă de siren
 
 Asta îi mai permite aplicației să spună că nu e sigură în loc să ghicească — semnele de încredere de pe subtitrări, vocea afișată fără atribuire în loc să poarte numele greșit, alerta care mai așteaptă un cadru pentru confirmare. Un singur model n-are cum să știe că greșește. Mai multe au — cu condiția ca ceva să decidă, cadru cu cadru, care dintre ele a meritat prezumția de bună-credință.
 
-**Acoustic Scope** pune acea percepție brută pe ecran — spectru, spectrogramă, benzi de ⅓ de octavă, cromă, parțiale armonice. Este **gratuit pentru toată lumea**, pentru că pentru mulți oameni a vedea forma unui sunet e cel mai rapid mod de a-l înțelege. Există un [ghid de citire](ACOUSTICSCOPE.md).
+**Acoustic Scope** pune acea percepție brută pe ecran — spectru, spectrogramă, benzi de ⅓ de octavă, cromă, parțiale armonice. Este **gratuit pentru toată lumea**, pentru că pentru mulți oameni a vedea forma unui sunet e cel mai rapid mod de a-l înțelege. Există un [ghid de citire](/ro/acoustic-scope/).
 
 ## Ce nu putem vedea
 

@@ -221,7 +221,7 @@ graph LR
 - **字幕是短暂的。** 实时字幕只在会话期间留在内存；导出的调试日志不含字幕文本。
 - **无广告或行为分析 SDK。** 有限网络仅用于地图、公共天气源、可选 Shazam 指纹、道路环境与 App Store 购买 —— 详见完整政策。
 
-完整详情：[PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+完整详情：[PRIVACY.md](/zh-Hans/privacy/) · [TERMS.md](/zh-Hans/terms/) · [SUPPORT.md](/zh-Hans/support/)
 
 ---
 

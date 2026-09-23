@@ -221,7 +221,7 @@ graph LR
 - **字幕は一時的。** ライブ字幕はセッション中メモリにあり、書き出したデバッグログに字幕の文は入りません。
 - **広告や行動分析の SDK はありません。** 限られたネット利用は、マップ、公開の気象情報、任意の Shazam フィンガープリント、道路の文脈、App Store の購入だけです — 詳しくはポリシー全文を。
 
-詳細: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+詳細: [PRIVACY.md](/ja/privacy/) · [TERMS.md](/ja/terms/) · [SUPPORT.md](/ja/support/)
 
 ---
 

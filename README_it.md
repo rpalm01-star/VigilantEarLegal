@@ -221,7 +221,7 @@ Note più profonde per gli ingegneri: [Physics](https://vigilantear.com/it/physi
 - **I sottotitoli sono effimeri.** I sottotitoli in diretta restano in memoria per la durata della sessione; i log di debug esportati non includono il testo dei sottotitoli.
 - **Nessun SDK pubblicitario o di analisi comportamentale.** L'uso limitato della rete riguarda solo mappe, feed meteo pubblici, impronte Shazam opzionali, contesto stradale e acquisti sull'App Store — vedi l'informativa completa.
 
-Dettagli completi: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+Dettagli completi: [PRIVACY.md](/it/privacy/) · [TERMS.md](/it/terms/) · [SUPPORT.md](/it/support/)
 
 ---
 

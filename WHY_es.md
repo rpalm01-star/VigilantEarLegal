@@ -51,7 +51,7 @@ Los micrófonos de un teléfono están separados unos centímetros, lo justo par
 
 **Remote Link** llega a alguien que no está contigo: vídeo y texto de subtítulos, con **ninguna pista de audio en ningún momento** — así nada depende de oír en ninguno de los dos extremos, y te da una forma de signar. Tus subtítulos cruzan como texto y llegan en el idioma de quien lee al otro lado. Envías un código; se unen desde dentro de la app sin comprar nada.
 
-Está cifrado de extremo a extremo entre los dos teléfonos. El relé que lo reenvía no puede leerlo, nosotros no podemos leerlo, y no se graba nada — ni en ninguno de los dos teléfonos, ni en ningún servidor. La app te dice claramente si estás en **Directo** o en **Retransmitido**. [La ruta completa](PRIVACY.md).
+Está cifrado de extremo a extremo entre los dos teléfonos. El relé que lo reenvía no puede leerlo, nosotros no podemos leerlo, y no se graba nada — ni en ninguno de los dos teléfonos, ni en ningún servidor. La app te dice claramente si estás en **Directo** o en **Retransmitido**. [La ruta completa](/es/privacy/).
 
 ## Avisos de quienes los emiten
 
@@ -67,7 +67,7 @@ Discrepan a menudo, y ese es justo el punto. Un instante con forma de sirena den
 
 También permite que la app diga que no está segura en vez de adivinar — las marcas de confianza en los subtítulos, la voz que aparece sin atribuir en lugar de llevar el nombre equivocado, la alerta que espera un fotograma más para corroborarse. Un solo modelo no tiene forma de saber que se equivoca. Varios sí — siempre que algo esté decidiendo, fotograma a fotograma, cuál de ellos se ha ganado el beneficio de la duda.
 
-El **Acoustic Scope** pone esa percepción en bruto en pantalla — espectro, espectrograma, bandas de ⅓ de octava, croma, parciales armónicos. Es **gratis para todo el mundo**, porque para mucha gente ver la forma de un sonido es la manera más rápida de entenderlo. Hay una [guía de campo para leerlo](ACOUSTICSCOPE.md).
+El **Acoustic Scope** pone esa percepción en bruto en pantalla — espectro, espectrograma, bandas de ⅓ de octava, croma, parciales armónicos. Es **gratis para todo el mundo**, porque para mucha gente ver la forma de un sonido es la manera más rápida de entenderlo. Hay una [guía de campo para leerlo](/es/acoustic-scope/).
 
 ## Lo que no podemos ver
 

@@ -157,7 +157,7 @@ Sprach- und Stimmmodelle werden heruntergeladen, wenn Sie sie zum ersten Mal bra
 - **Untertitel sind flüchtig**, es sei denn, Sie schalten Witness Ear bewusst ein, und dieses Journal ist lokal, auf 24 Stunden begrenzt und mit einem Knopf gelöscht.
 - **Keine Werbung und keine Verhaltensanalyse.** Netzwerknutzung beschränkt sich auf Karten, den öffentlichen Warn-Cache, optionale Songerkennung, Straßenkontext und Play-Abrechnung.
 
-Vollständige Angaben: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+Vollständige Angaben: [PRIVACY.md](/de/privacy/) · [TERMS.md](/de/terms/) · [SUPPORT.md](/de/support/)
 
 ---
 

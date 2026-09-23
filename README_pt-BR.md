@@ -221,7 +221,7 @@ Notas mais profundas para engenheiros: [Physics](https://vigilantear.com/en/phys
 - **Legendas são efêmeras.** As legendas ao vivo ficam na memória da sessão; logs de depuração exportados não incluem texto de legenda.
 - **Sem SDKs de publicidade ou analytics comportamental.** Uso de rede limitado só a mapas, feeds públicos de clima, impressões digitais opcionais do Shazam, contexto de ruas e compras na App Store — veja a política completa.
 
-Detalhes completos: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+Detalhes completos: [PRIVACY.md](/pt-BR/privacy/) · [TERMS.md](/pt-BR/terms/) · [SUPPORT.md](/pt-BR/support/)
 
 ---
 

@@ -157,7 +157,7 @@ Modelos de fala e de voz baixam quando você precisa deles pela primeira vez, de
 - **As legendas são efêmeras** a menos que você ligue o Witness Ear de propósito, e esse diário é local, limitado a 24 horas, e apagado com um botão.
 - **Sem publicidade nem analítica comportamental.** O uso de rede se limita a mapas, ao cache público de alertas, ao reconhecimento opcional de faixas, ao contexto viário e ao faturamento Play.
 
-Detalhes completos: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+Detalhes completos: [PRIVACY.md](/pt-BR/privacy/) · [TERMS.md](/pt-BR/terms/) · [SUPPORT.md](/pt-BR/support/)
 
 ---
 

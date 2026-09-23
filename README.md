@@ -228,7 +228,7 @@ Deeper notes for engineers: [Physics](https://vigilantear.com/en/physics/) — T
 - **Captions are ephemeral.** Live captions stay in memory for the session; exported debug logs do not include caption text.
 - **No advertising or behavioral analytics SDKs.** Limited network use is only for maps, public weather feeds, optional Shazam fingerprints, road context, and App Store purchases — see the full policy.
 
-Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+Full details: [PRIVACY.md](/en/privacy/) · [TERMS.md](/en/terms/) · [SUPPORT.md](/en/support/)
 
 ---
 

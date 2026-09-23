@@ -157,7 +157,7 @@ Modelele de vorbire și voce se descarcă când ai nevoie prima dată, de prefer
 - **Subtitrările sunt efemere** decât dacă pornești deliberat Witness Ear, și acel jurnal e local, plafonat la 24 de ore, și șters cu un buton.
 - **Fără publicitate sau analiză comportamentală.** Folosirea rețelei e limitată la hărți, cache-ul public de alerte, recunoaștere opțională de piese, context rutier și facturare Play.
 
-Detalii complete: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+Detalii complete: [PRIVACY.md](/ro/privacy/) · [TERMS.md](/ro/terms/) · [SUPPORT.md](/ro/support/)
 
 ---
 

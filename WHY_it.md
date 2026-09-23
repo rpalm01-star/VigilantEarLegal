@@ -51,7 +51,7 @@ I microfoni di un telefono distano pochi centimetri, quanto basta per indicarti 
 
 **Remote Link** raggiunge qualcuno che non è con te: video e testo dei sottotitoli, con **nessuna traccia audio in nessun momento** — così niente dipende dall'udito né da una parte né dall'altra, e ti dà un modo per segnare. I tuoi sottotitoli attraversano come testo e arrivano nella lingua di chi legge. Mandi un codice; l'altra persona entra dall'app senza comprare nulla.
 
-È cifrato end-to-end fra i due telefoni. Il relay che lo inoltra non può leggerlo, noi non possiamo leggerlo, e non viene registrato nulla — né sui due telefoni né su alcun server. L'app ti dice chiaramente se sei in **Diretto** o in **Inoltrato**. [Il percorso completo](PRIVACY.md).
+È cifrato end-to-end fra i due telefoni. Il relay che lo inoltra non può leggerlo, noi non possiamo leggerlo, e non viene registrato nulla — né sui due telefoni né su alcun server. L'app ti dice chiaramente se sei in **Diretto** o in **Inoltrato**. [Il percorso completo](/it/privacy/).
 
 ## Allarmi da chi li emette
 
@@ -67,7 +67,7 @@ Sono spesso in disaccordo, ed è proprio questo il punto. Un istante a forma di 
 
 Permette anche all'app di dire che non è sicura invece di indovinare — gli indici di affidabilità sui sottotitoli, la voce mostrata senza attribuzione invece che con il nome sbagliato, l'avviso che aspetta un fotogramma in più per una conferma. Un modello solo non ha modo di sapere che sta sbagliando. Diversi ce l'hanno — a patto che qualcosa decida, fotogramma per fotogramma, quale di loro si è guadagnato il beneficio del dubbio.
 
-L'**Acoustic Scope** porta quella percezione grezza sullo schermo — spettro, spettrogramma, bande di ⅓ d'ottava, croma, parziali armoniche. È **gratis per tutti**, perché per molte persone vedere la forma di un suono è il modo più rapido di capirlo. C'è una [guida alla lettura](ACOUSTICSCOPE.md).
+L'**Acoustic Scope** porta quella percezione grezza sullo schermo — spettro, spettrogramma, bande di ⅓ d'ottava, croma, parziali armoniche. È **gratis per tutti**, perché per molte persone vedere la forma di un suono è il modo più rapido di capirlo. C'è una [guida alla lettura](/it/acoustic-scope/).
 
 ## Quello che non possiamo vedere
 

@@ -51,7 +51,7 @@ One phone's microphones sit a few inches apart, which is enough to tell you a di
 
 **Remote Link** reaches someone who is not with you: video and caption text, with **no audio track at any point** — so nothing about it depends on hearing at either end, and it gives you a way to sign. Your captions cross as text and arrive in the other reader's language. You send a code; they join from inside the app without buying anything.
 
-It is encrypted end to end between the two phones. The relay that forwards it cannot read it, we cannot read it, and nothing is recorded — not on either phone, not on any server. The app tells you plainly whether you are **Direct** or **Relayed**. [The full path](PRIVACY.md).
+It is encrypted end to end between the two phones. The relay that forwards it cannot read it, we cannot read it, and nothing is recorded — not on either phone, not on any server. The app tells you plainly whether you are **Direct** or **Relayed**. [The full path](/en/privacy/).
 
 ## Warnings from the people who issue them
 
@@ -67,7 +67,7 @@ They disagree often, and that is the point. A siren-shaped moment inside a song 
 
 It also lets the app say it is unsure instead of guessing — the confidence marks on captions, the voice shown as unattributed rather than wearing the wrong name, the alert that waits one more frame for corroboration. A single model has no way to know it is wrong. Several do — so long as something is deciding, frame by frame, which of them has earned the benefit of the doubt.
 
-The **Acoustic Scope** puts that raw perception on screen — spectrum, spectrogram, ⅓-octave bands, chroma, harmonic partials. It is **free for everyone**, because for a lot of people watching the shape of a sound is the fastest way to understand it. There is a [field guide to reading it](ACOUSTICSCOPE.md).
+The **Acoustic Scope** puts that raw perception on screen — spectrum, spectrogram, ⅓-octave bands, chroma, harmonic partials. It is **free for everyone**, because for a lot of people watching the shape of a sound is the fastest way to understand it. There is a [field guide to reading it](/en/acoustic-scope/).
 
 ## What we cannot see
 

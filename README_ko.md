@@ -221,7 +221,7 @@ iPhone에는 약 15 cm(약 6인치) 떨어진 마이크 두 개, 기압계, 아�
 - **자막은 일회성.** 실시간 자막은 세션 동안 메모리에 머물며, 내보낸 디버그 로그에는 자막 텍스트가 들어가지 않습니다.
 - **광고·행동 분석 SDK 없음.** 제한된 네트워크 사용은 지도, 공공 날씨 피드, 선택적 Shazam 지문, 도로 맥락, App Store 구매뿐입니다 — 전체 정책을 보세요.
 
-전체 세부 정보: [PRIVACY_ko.md](PRIVACY_ko.md) · [TERMS_ko.md](TERMS_ko.md) · [SUPPORT_ko.md](SUPPORT_ko.md)
+전체 세부 정보: [PRIVACY_ko.md](/ko/privacy/) · [TERMS_ko.md](/ko/terms/) · [SUPPORT_ko.md](/ko/support/)
 
 ---
 

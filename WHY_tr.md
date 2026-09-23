@@ -51,7 +51,7 @@ Bir telefonun mikrofonları birkaç santimetre aralıklıdır; bu bir yön söyl
 
 **Remote Link** yanınızda olmayan birine ulaşır: video ve altyazı metni, **hiçbir anda ses kanalı olmadan** — yani iki uçta da hiçbir şey duymaya bağlı değildir, ve size işaret dili için bir yol açar. Altyazılarınız metin olarak geçer ve okuyanın dilinde varır. Bir kod gönderirsiniz; karşı taraf hiçbir şey satın almadan uygulamanın içinden katılır.
 
-İki telefon arasında uçtan uca şifrelidir. İleten aktarıcı okuyamaz, biz okuyamayız ve hiçbir şey kaydedilmez — iki telefonda da, hiçbir sunucuda da. Uygulama **Doğrudan** mı yoksa **Aktarmalı** mı olduğunuzu açıkça söyler. [Tam yol](PRIVACY.md).
+İki telefon arasında uçtan uca şifrelidir. İleten aktarıcı okuyamaz, biz okuyamayız ve hiçbir şey kaydedilmez — iki telefonda da, hiçbir sunucuda da. Uygulama **Doğrudan** mı yoksa **Aktarmalı** mı olduğunuzu açıkça söyler. [Tam yol](/tr/privacy/).
 
 ## Uyarıları yayınlayanlardan
 
@@ -67,7 +67,7 @@ Sık sık anlaşmazlığa düşerler, ve mesele tam da budur. Bir şarkının i�
 
 Bu ayrıca uygulamanın tahmin yürütmek yerine emin olmadığını söylemesine imkân verir — altyazılardaki güven işaretleri, yanlış adı taşımaktansa atıfsız gösterilen ses, doğrulama için bir kare daha bekleyen uyarı. Tek bir modelin yanıldığını bilmesinin hiçbir yolu yoktur. Birkaçının vardır — yeter ki bir şey, kare kare, hangisinin şüpheden yararlanmayı hak ettiğine karar veriyor olsun.
 
-**Acoustic Scope** o ham algıyı ekrana getirir — spektrum, spektrogram, ⅓ oktav bantlar, kroma, armonik bileşenler. **Herkes için ücretsizdir**, çünkü birçok insan için bir sesin biçimini görmek onu anlamanın en hızlı yoludur. Bir [okuma kılavuzu](ACOUSTICSCOPE.md) var.
+**Acoustic Scope** o ham algıyı ekrana getirir — spektrum, spektrogram, ⅓ oktav bantlar, kroma, armonik bileşenler. **Herkes için ücretsizdir**, çünkü birçok insan için bir sesin biçimini görmek onu anlamanın en hızlı yoludur. Bir [okuma kılavuzu](/tr/acoustic-scope/) var.
 
 ## Göremediklerimiz
 

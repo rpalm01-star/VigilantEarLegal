@@ -157,7 +157,7 @@ graph TD
 - **字幕は一時的です。** Witness Ear を意図してオンにしない限りそうで、そのジャーナルは端末内、上限24時間、ボタンひとつで消えます。
 - **広告や行動分析はありません。** ネット利用は、マップ、公開アラートのキャッシュ、任意の曲認識、道路の文脈、Play の課金に限られます。
 
-詳細: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+詳細: [PRIVACY.md](/ja/privacy/) · [TERMS.md](/ja/terms/) · [SUPPORT.md](/ja/support/)
 
 ---
 

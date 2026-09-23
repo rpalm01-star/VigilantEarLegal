@@ -157,7 +157,7 @@ graph TD
 - **자막은 일회성이에요.** Witness Ear를 일부러 켜지 않는 한 그렇고, 그 일지는 로컬이며, 24시간이 상한이고, 버튼 하나로 지워져요.
 - **광고나 행동 분석은 없어요.** 네트워크 사용은 지도, 공공 알림 캐시, 선택적 곡 인식, 도로 맥락, Play 결제에 한정돼요.
 
-전체 세부 정보: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+전체 세부 정보: [PRIVACY.md](/ko/privacy/) · [TERMS.md](/ko/terms/) · [SUPPORT.md](/ko/support/)
 
 ---
 

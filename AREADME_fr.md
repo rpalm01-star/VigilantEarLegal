@@ -157,7 +157,7 @@ Les modèles de parole et de voix se téléchargent quand tu en as besoin pour l
 - **Les sous-titres sont éphémères** sauf si tu allumes Witness Ear exprès, et ce journal est local, plafonné à 24 heures, et effacé d'un bouton.
 - **Pas de publicité ni d'analytique comportementale.** L'usage réseau se limite aux cartes, au cache public d'alertes, à la reconnaissance optionnelle de chansons, au contexte routier et à la facturation Play.
 
-Détails complets : [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+Détails complets : [PRIVACY.md](/fr/privacy/) · [TERMS.md](/fr/terms/) · [SUPPORT.md](/fr/support/)
 
 ---
 

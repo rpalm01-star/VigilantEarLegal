@@ -157,7 +157,7 @@ graph TD
 - **字幕是短暂的**，除非你故意打开 Witness Ear；该日志在本地，上限 24 小时，一键清空。
 - **无广告或行为分析。** 网络使用仅限于地图、公共提醒缓存、可选歌曲识别、道路环境和 Play 结算。
 
-完整详情：[PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+完整详情：[PRIVACY.md](/zh-Hans/privacy/) · [TERMS.md](/zh-Hans/terms/) · [SUPPORT.md](/zh-Hans/support/)
 
 ---
 

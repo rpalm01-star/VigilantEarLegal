@@ -157,7 +157,7 @@ Los modelos de voz y de habla se descargan cuando los necesitas por primera vez,
 - **Los subtítulos son efímeros** salvo que actives Witness Ear a propósito, y ese diario es local, limitado a 24 horas y se borra con un botón.
 - **Sin publicidad ni analítica de comportamiento.** El uso de red se limita a mapas, la caché pública de alertas, el reconocimiento opcional de canciones, el contexto vial y la facturación de Play.
 
-Detalles completos: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+Detalles completos: [PRIVACY.md](/es/privacy/) · [TERMS.md](/es/terms/) · [SUPPORT.md](/es/support/)
 
 ---
 

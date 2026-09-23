@@ -221,7 +221,7 @@ Notes plus approfondies pour les ingénieurs : [Physics](https://vigilantear.com
 - **Les sous-titres sont éphémères.** Les sous-titres en direct restent en mémoire pendant la session ; les journaux de débogage exportés n'incluent pas le texte des sous-titres.
 - **Aucun SDK publicitaire ou d'analyse comportementale.** L'utilisation limitée du réseau est uniquement pour les cartes, les flux météo publics, les empreintes audio Shazam optionnelles, le contexte routier et les achats sur l'App Store — voir la politique complète.
 
-Détails complets : [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+Détails complets : [PRIVACY.md](/fr/privacy/) · [TERMS.md](/fr/terms/) · [SUPPORT.md](/fr/support/)
 
 ---
 

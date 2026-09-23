@@ -157,7 +157,7 @@ Konuşma ve ses modelleri ilk ihtiyaç duyduğunda iner, yeğlenen Wi-Fi üzerin
 - **Altyazılar geçicidir** sen bilinçle Witness Ear’ı açmadıkça; o günlük yereldir, 24 saatle sınırlıdır ve bir düğmeyle silinir.
 - **Reklam veya davranışsal analitik yok.** Ağ kullanımı haritalar, kamu uyarı önbelleği, isteğe bağlı şarkı tanıma, yol bağlamı ve Play faturalamasıyla sınırlıdır.
 
-Ayrıntılar: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+Ayrıntılar: [PRIVACY.md](/tr/privacy/) · [TERMS.md](/tr/terms/) · [SUPPORT.md](/tr/support/)
 
 ---
 

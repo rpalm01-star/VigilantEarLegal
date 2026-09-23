@@ -157,7 +157,7 @@ I modelli di parlato e di voce si scaricano quando ti servono la prima volta, di
 - **I sottotitoli sono effimeri** a meno che tu non accenda di proposito Witness Ear, e quel diario è locale, limitato a 24 ore, e cancellato con un pulsante.
 - **Niente pubblicità né analitica comportamentale.** L'uso della rete è limitato a mappe, alla cache pubblica degli avvisi, al riconoscimento opzionale dei brani, al contesto stradale e alla fatturazione Play.
 
-Dettagli completi: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+Dettagli completi: [PRIVACY.md](/it/privacy/) · [TERMS.md](/it/terms/) · [SUPPORT.md](/it/support/)
 
 ---
 

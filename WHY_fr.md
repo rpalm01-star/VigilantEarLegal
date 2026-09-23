@@ -51,7 +51,7 @@ Les microphones d'un téléphone sont distants de quelques centimètres, ce qui 
 
 **Remote Link** atteint quelqu'un qui n'est pas avec vous : vidéo et texte de sous-titres, avec **aucune piste audio à aucun moment** — ainsi rien ne dépend de l'audition d'un côté ni de l'autre, et cela vous donne un moyen de signer. Vos sous-titres traversent sous forme de texte et arrivent dans la langue de qui les lit. Vous envoyez un code ; la personne rejoint depuis l'application sans rien acheter.
 
-C'est chiffré de bout en bout entre les deux téléphones. Le relais qui l'achemine ne peut pas le lire, nous ne pouvons pas le lire, et rien n'est enregistré — ni sur l'un ni sur l'autre téléphone, ni sur aucun serveur. L'application vous dit clairement si vous êtes en **Direct** ou en **Relayé**. [Le trajet complet](PRIVACY.md).
+C'est chiffré de bout en bout entre les deux téléphones. Le relais qui l'achemine ne peut pas le lire, nous ne pouvons pas le lire, et rien n'est enregistré — ni sur l'un ni sur l'autre téléphone, ni sur aucun serveur. L'application vous dit clairement si vous êtes en **Direct** ou en **Relayé**. [Le trajet complet](/fr/privacy/).
 
 ## Les alertes de ceux qui les émettent
 
@@ -67,7 +67,7 @@ Ils sont souvent en désaccord, et c'est tout l'intérêt. Un instant en forme d
 
 Cela permet aussi à l'application de dire qu'elle n'est pas sûre au lieu de deviner — les marques de confiance sur les sous-titres, la voix affichée sans attribution plutôt qu'affublée du mauvais nom, l'alerte qui attend une trame de plus pour être corroborée. Un modèle seul n'a aucun moyen de savoir qu'il se trompe. Plusieurs, si — à condition que quelque chose décide, trame par trame, lequel a mérité le bénéfice du doute.
 
-L'**Acoustic Scope** met cette perception brute à l'écran — spectre, spectrogramme, bandes de ⅓ d'octave, chroma, partiels harmoniques. Il est **gratuit pour tout le monde**, parce que pour beaucoup de gens, voir la forme d'un son est le moyen le plus rapide de le comprendre. Il existe un [guide de lecture](ACOUSTICSCOPE.md).
+L'**Acoustic Scope** met cette perception brute à l'écran — spectre, spectrogramme, bandes de ⅓ d'octave, chroma, partiels harmoniques. Il est **gratuit pour tout le monde**, parce que pour beaucoup de gens, voir la forme d'un son est le moyen le plus rapide de le comprendre. Il existe un [guide de lecture](/fr/acoustic-scope/).
 
 ## Ce que nous ne pouvons pas voir
 

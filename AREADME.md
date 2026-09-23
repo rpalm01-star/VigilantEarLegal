@@ -157,7 +157,7 @@ Speech and voice models download when you first need them, over Wi-Fi by prefere
 - **Captions are ephemeral** unless you deliberately turn Witness Ear on, and that journal is local, capped at 24 hours, and wiped with one button.
 - **No advertising or behavioral analytics.** Network use is limited to maps, the public alert cache, optional song recognition, road context, and Play billing.
 
-Full details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [SUPPORT.md](SUPPORT.md)
+Full details: [PRIVACY.md](/en/privacy/) · [TERMS.md](/en/terms/) · [SUPPORT.md](/en/support/)
 
 ---
 
