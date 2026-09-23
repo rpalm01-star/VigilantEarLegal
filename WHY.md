@@ -1,85 +1,95 @@
 # Why Vigilant Ear?
 
-*Effective as of version 1.1.8 · September 2026.*
+*Updated September 2026.*
 
-Most sound apps tell you *that* something happened. Vigilant Ear tells you **what, where, how far, who, and in which language** — on the phone already in your pocket.
+**This is not a sound-detection app.** Those recognize a short list of noises and put an icon on your screen. Nearly everything that actually costs you is outside that list.
 
-## Where the sound came from
+Someone behind you says your name. You don't turn around. They decide you're rude.
 
-A siren is not useful information until you know which way it is coming from. Vigilant Ear places every sound it hears on a live map with a bearing and a rough distance, so an alert answers the question you actually have: *do I need to move, and which way?*
+A barista calls your order. A nurse calls you at a window. Same three seconds, same conclusion.
 
-Direction Tones can also send that bearing to one ear, for single-sided hearing.
+Your phone heard every one of them. It just had no way to tell you.
 
-## Who is speaking
+Vigilant Ear changes that — on the phone already in your pocket, and the audio never leaves it.
 
-Live captions separate the people around you by voice, each with their own colour, so a conversation reads as a conversation instead of one running block of text. You can name the voices you know, and the app will keep recognising them.
+- **You never pick a language** — it works out what is being spoken
+- **Who said it** — voices separated by color, and nameable
+- **Where it came from** — a bearing and a distance, on a live map
+- **When it isn't sure** — a confidence mark on every line
+- **When it's *you* being called** — a distinct tap for your own name
+- **No subscription** — captions and alerts free forever
 
-## When they were talking to you
+And it is not one problem, it is three. A doorbell is the easy case: loud, sharp, over in a second. Traffic building on the road outside is the hard one — far off, broadband, no clean edge to grab hold of. An earthquake is the case nobody hears at all: it arrives as motion and pressure beneath human hearing. Your phone's barometer and accelerometer feel it, and Vigilant Ear tells you whether it reached you **through the air** or **from the ground**.
 
-The daily humiliation is not a missed siren. It is someone saying your name from behind, a barista calling an order, a nurse at a window — and a hearing person deciding you were rude. **Name Called** is a list you type (yours, a kid, a partner) and a distinct tap when those words land, with a direction on the Watch and the Standing Watch lamp. The sentence still shows in captions as speech. The alert is *they were addressing you*.
+Assistive apps solve the first. No other one does all three. Vigilant Ear does them at once.
 
-## Captions that admit what they did not catch
+## The part nobody puts in the brochure
 
-Most captioning apps hand you every word with the same quiet confidence, and leave you to discover which ones were wrong. Every line here carries a small three-bar mark — three bars means it heard clearly, one means take it with a grain of salt — and the individual words it was unsure of are underlined. In a noisy room, knowing which words to trust matters as much as the words.
+Every listening app leads with the smoke alarm. The smoke alarm is the easy part — it is loud, it is rare, and you will probably find out anyway. What costs you is the subtle stuff. A stressed word. A quiet person walking nearby at night. A baby's cry in another room.
 
-## Which language — worked out for you
+**Name Called** is a list you type — yours, a kid's, a partner's — and a distinct tap when those words land, with a direction on the Watch and the Standing Watch lamp. The sentence still appears in captions like any other speech. The alert is not *someone spoke*. It is **they were addressing you**.
 
-You do not choose a language first. Vigilant Ear detects what is being spoken, captions it, and can translate it into yours. A room where three languages are in the air is still a room you can follow.
+## Where it came from
 
-Twelve languages ship today.
+A siren is not information until you know which way it is coming from. Every sound Vigilant Ear hears goes onto a live map with a bearing and a rough distance, so an alert answers the question you actually have: *do I need to move, and which way?*
 
-## Phones that work together
+Direction Tones can send that bearing to one ear, for single-sided hearing.
 
-Two or more phones running Vigilant Ear share what they hear. More microphones in a room means a better fix on where a sound came from, and captions merge instead of competing. Nobody has to be in the same conversation for it to help.
+## Who is speaking, and how much to trust it
 
-## Reach someone who is not with you
+Live captions separate the people around you by voice, each in their own color, so a conversation reads as a conversation instead of one unbroken block. Name the voices you know and the app keeps recognizing them.
 
-Remote Link is a private video-only call with caption data — **no audio track at any point** — so nothing about it depends on hearing at either end, and it gives you a way to sign with someone. What your phone hears is captioned and sent across as text, and the other phone translates it into its reader's language. You send a code; the person you invite joins from inside the app without buying anything.
+Most captioning apps hand you every word with the same quiet confidence and leave you to find out later which ones were wrong. Every line here carries a three-bar mark — three bars means it heard clearly, one means take it with a grain of salt — and the individual words it was unsure of are underlined. In a noisy room, knowing which words to trust matters as much as the words.
 
-**How it travels, in plain terms.** The two phones talk to each other, not to us. Our service holds the invitation code and the connection details the phones need to find each other — for at most an hour, and never the video or the text. Wherever the networks allow, the call goes straight from one phone to the other. When they cannot reach each other directly — different networks, a strict router — the encrypted packets are forwarded by a relay that cannot read them; it sees that a connection exists, the network addresses involved and how much data passes, as any relay must, and nothing more. Either way the video and the captions are encrypted end to end between the two phones, so nothing in between can watch or read the call, and the app tells you plainly whether it is **Direct** or **Relayed**. Nothing from a link is recorded — no video, no text — on either phone or on any server.
+You never pick a language first. Vigilant Ear works out what is being spoken and captions it. A room with three languages in the air is still a room you can follow.
 
-## See the sound, not just a label
+Almost all of those it can also translate into yours. Where it cannot, it tells you so and shows you the original, rather than handing you a guess dressed up as a translation.
 
-The Acoustic Scope is a live engineering view of the room — spectrum, spectrogram, ⅓-octave bands, chroma, harmonic partials. It is **free for everyone**, because for a lot of people watching the shape of a sound is the fastest way to understand it.
+## One phone points. Two triangulate.
+
+One phone's microphones sit a few inches apart, which is enough to tell you a direction. Put a second phone across the room and the array is as wide as the room: the bearing from each one crosses the other, and a direction becomes a position. Captions merge instead of competing, and phones that have never met form that array on the spot, working out to the foot where each of them is standing. Nobody has to be in the same conversation for it to help.
+
+**Remote Link** reaches someone who is not with you: video and caption text, with **no audio track at any point** — so nothing about it depends on hearing at either end, and it gives you a way to sign. Your captions cross as text and arrive in the other reader's language. You send a code; they join from inside the app without buying anything.
+
+It is encrypted end to end between the two phones. The relay that forwards it cannot read it, we cannot read it, and nothing is recorded — not on either phone, not on any server. The app tells you plainly whether you are **Direct** or **Relayed**. [The full path](PRIVACY.md).
 
 ## Warnings from the people who issue them
 
 Severe weather comes from nine government sources — the United States, Europe, Japan, China, Korea, India, Canada, Australia and Brazil — filtered to where you actually are. Earthquake alerts wait for USGS confirmation rather than guessing.
 
-Those warnings reach you through our own service rather than your phone calling each agency directly, which means **your phone never contacts a foreign government's servers**, and a shared public feed cannot drop your alert because too many people were asking at once. The precise *am I inside this warning area?* test still happens on your phone and never leaves it.
+Those warnings arrive through our aggregation service rather than your phone calling each agency directly, which means **your phone never contacts a foreign government's servers**, and a shared public feed cannot drop your alert because too many people were asking at once. The precise *am I inside this warning area?* test runs on your phone and never leaves it.
 
 ## Several small experts, not one big one
 
-The obvious way to build a listening app is to run one model and report whatever it says. Vigilant
-Ear runs a handful of specialists instead, each doing one job it is actually good at: one recognises everyday sounds,
-a second checks the first one's work, another works out where a sound came from, another separates
-the voices in a room, another decides whether music is really playing.
+The obvious way to build a listening app is to run one model and report whatever it says. Vigilant Ear runs a handful of specialists instead, each doing one job it is actually good at: one recognizes everyday sounds, a second checks the first one's work, another works out where a sound came from, another separates the voices in a room, another decides whether music is really playing.
 
-They disagree often, and that is the point. A siren-shaped moment inside a song looks identical to
-a siren if you only ask one model. Asking three, and requiring them to agree before anything
-interrupts you, is the difference between an alert you trust and an app you eventually mute.
+They disagree often, and that is the point. A siren-shaped moment inside a song is identical to a siren if you only ask one model. Asking three, and requiring them to agree before anything interrupts you, is the difference between an alert you trust and an app you eventually mute.
 
-It also means the app can tell you when it is unsure instead of guessing — the confidence marks on
-captions, the voice that shows as unattributed rather than wearing the wrong name, the alert that
-waits one more frame for corroboration. A single model has no way to know it is wrong. Several
-do.
+It also lets the app say it is unsure instead of guessing — the confidence marks on captions, the voice shown as unattributed rather than wearing the wrong name, the alert that waits one more frame for corroboration. A single model has no way to know it is wrong. Several do — so long as something is deciding, frame by frame, which of them has earned the benefit of the doubt.
 
-All of it runs on your phone, on the same neural chip that powers Face ID. That is a deliberate
-constraint rather than a technical flourish: models small enough to live in your pocket are models
-that never need to send your room to anyone.
+The **Acoustic Scope** puts that raw perception on screen — spectrum, spectrogram, ⅓-octave bands, chroma, harmonic partials. It is **free for everyone**, because for a lot of people watching the shape of a sound is the fastest way to understand it. There is a [field guide to reading it](ACOUSTICSCOPE.md).
 
-## It stays on your device
+## What we cannot see
 
-Listening, transcription, translation and sound classification all run on your phone. The work that touches what you say and what you hear is not something we can read, because it never reaches us.
+Listening, transcription, translation and sound classification all run on your phone. The work that touches what you say and what you hear is not something we can read, because it never reaches us. That is a deliberate constraint rather than a flourish: models small enough to live in your pocket are models that never need to send what they hear anywhere.
 
-A few things do use the network, and it is worth naming them rather than rounding down to none: maps; the weather and earthquake alerts described above; Music ID, which sends a short audio fingerprint and never recorded audio; road context; App Store purchases; and Remote Link, which is a video-only call with caption data and so necessarily travels between the two phones — encrypted end to end, so nothing in between can read it.
+A few things do use the network, and they are worth naming rather than rounding down to none: maps; the weather and earthquake alerts above; Music ID, which sends a short audio fingerprint and never recorded audio; road context; App Store purchases; and Remote Link, which travels between the two phones by definition — encrypted end to end, so nothing in between can read it.
 
 No ads. Nothing sold. No account required.
 
 ## What it costs
 
-Free for the first 90 days. After that, captions and alerts stay free forever, and a single one-time payment keeps the extras. **No subscription, ever** — and no new hardware to buy.
+Free for the first 90 days. After that, captions and alerts stay free forever — the safety floor is not the thing we sell.
+
+A single one-time payment keeps **Power Pack+**: Auto-Translate, which turns a language you do not read into one you do, as it is spoken; and Music ID, which names the song in the room so you know what everyone else is hearing. **No subscription, ever** — and no new hardware to buy.
 
 ---
 
 *Vigilant Ear is an experimental research and accessibility aid — not a certified or life-saving device. Always use your own situational awareness.*
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
+  <strong>© 2026 Wingdings, Inc.</strong><br />
+  All rights reserved.<br />
+  Three U.S. patents pending
+</p>
