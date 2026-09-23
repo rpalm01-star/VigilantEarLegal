@@ -128,7 +128,7 @@ TrainingData/
 |---|---|---|
 | `displayName` | Имя отображается на карте и в оповещениях | Этикетка с подчеркиванием → пробелы с заглавной буквы |
 | `hapticCount` | Вибрация пульсирует при первом воспроизведении звука (0 = нет) | `0` |
-| `emergencyTier` | `"none"` для нормальных звуков. Оставьте `"none"`, если звук действительно не требует срочного оповещения | `"none"` |
+| `emergencyTier` | `"none"` для типичных звуков. Оставьте `"none"`, если звук действительно не требует срочного оповещения | `"none"` |
 | `category` | Группировка: `animal`, `vehicle`, `medium`, `quiet` или `misc` | `misc` |
 | `icon` | Имя [SF Symbols](https://developer.apple.com/sf-symbols/), например `bird`, `pawprint`, `fan`, `bell` | `waveform` |
 | `color` | Оттенок точек/значков: `red`, `blue`, `cyan`, `pink`, `brown`, `mint`, `orange`, `gray`, `teal`, `purple` или `"r,g,b"` со значениями 0–1 | `teal` |

@@ -128,7 +128,7 @@ TrainingData/
 |---|---|---|
 | `displayName` | الاسم المعروض على الخريطة وفي التنبيهات | التسمية مع شرطات سفلية → مسافات، بحروف كبيرة |
 | `hapticCount` | نبضات اهتزاز عند كشف الصوت أول مرة (0 = لا شيء) | `0` |
-| `emergencyTier` | `"none"` للأصوات العادية. اتركه `"none"` إلا إذا كان الصوت يستحق تنبيهًا عاجلًا حقًا | `"none"` |
+| `emergencyTier` | `"none"` للأصوات المعتادة. اتركه `"none"` إلا إذا كان الصوت يستحق تنبيهًا عاجلًا حقًا | `"none"` |
 | `category` | التجميع: `animal`، `vehicle`، `medium`، `quiet`، أو `misc` | `misc` |
 | `icon` | اسم [SF Symbols](https://developer.apple.com/sf-symbols/)، مثل `bird`، `pawprint`، `fan`، `bell` | `waveform` |
 | `color` | لون النقطة/الأيقونة: `red`، `blue`، `cyan`، `pink`، `brown`، `mint`، `orange`، `gray`، `teal`، `purple`، أو `"r,g,b"` بقيم 0–1 | `teal` |

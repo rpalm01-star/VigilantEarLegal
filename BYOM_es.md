@@ -128,7 +128,7 @@ Cada clave es opcional: omite lo que quieras y se aplica un valor por defecto ra
 |---|---|---|
 | `displayName` | Nombre mostrado en el mapa y en las alertas | Etiqueta con guiones bajos → espacios, capitalizada |
 | `hapticCount` | Pulsos de vibración cuando el sonido se revela por primera vez (0 = ninguno) | `0` |
-| `emergencyTier` | `"none"` para sonidos normales. Déjalo en `"none"` salvo que el sonido justifique de verdad una alerta urgente | `"none"` |
+| `emergencyTier` | `"none"` para sonidos típicos. Déjalo en `"none"` salvo que el sonido justifique de verdad una alerta urgente | `"none"` |
 | `category` | Agrupación: `animal`, `vehicle`, `medium`, `quiet` o `misc` | `misc` |
 | `icon` | Un nombre de [SF Symbols](https://developer.apple.com/sf-symbols/), p. ej. `bird`, `pawprint`, `fan`, `bell` | `waveform` |
 | `color` | Tinte del punto/icono: `red`, `blue`, `cyan`, `pink`, `brown`, `mint`, `orange`, `gray`, `teal`, `purple`, o `"r,g,b"` con valores 0–1 | `teal` |

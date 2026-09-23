@@ -128,7 +128,7 @@ TrainingData/
 |---|---|---|
 | `displayName` | 地图与提醒中显示的名称 | 标签下划线 → 空格，并首字母大写 |
 | `hapticCount` | 声音首次揭晓时的震动次数（0 = 无） | `0` |
-| `emergencyTier` | 普通声音用 `"none"`。除非该声音确实需要紧急提醒，否则保持 `"none"` | `"none"` |
+| `emergencyTier` | 常见声音用 `"none"`。除非该声音确实需要紧急提醒，否则保持 `"none"` | `"none"` |
 | `category` | 分组：`animal`、`vehicle`、`medium`、`quiet` 或 `misc` | `misc` |
 | `icon` | [SF Symbols](https://developer.apple.com/sf-symbols/) 名称，例如 `bird`、`pawprint`、`fan`、`bell` | `waveform` |
 | `color` | 圆点/图标着色：`red`、`blue`、`cyan`、`pink`、`brown`、`mint`、`orange`、`gray`、`teal`、`purple`，或取值 0–1 的 `"r,g,b"` | `teal` |

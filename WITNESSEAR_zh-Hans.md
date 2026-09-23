@@ -141,7 +141,7 @@ I, _______________, attest that … Signature / Date lines for ink after print.
 
 ### 「Application Support」指什么
 
-**Application Support** 是仅属于本机 Vigilant Ear 的私有文件夹。它**不是**云盘、**不是**公开的「Files」相册，也**不是**发给支持的邮件。在正常 iOS 规则下，其他应用无法读取。
+**Application Support** 是仅属于本机 Vigilant Ear 的私有文件夹。它**不是**云盘、**不是**公开的「Files」相册，也**不是**发给支持的邮件。在标准 iOS 规则下，其他应用无法读取。
 
 在设有**设备密码**（或生物识别）的 iPhone 上，iOS 使用硬件支持的保护对**应用数据进行静态加密**。Witness Ear 不上传日志，也不在其上再加一层应用管理的加密。设备锁定时的访问遵循 Apple 标准数据保护类别（通常在开机后首次解锁前受保护，除非适用更强设置）。备份（加密的电脑备份 / iCloud 备份规则）与「放在手机磁盘上」是分开的。
 

@@ -141,7 +141,7 @@ Jede Seite trägt ein dezentes Wingdings-Wasserzeichen hinter dem Inhalt und ein
 
 ### Was „Application Support“ bedeutet
 
-**Application Support** ist ein privater Ordner, der nur Vigilant Ear auf diesem Telefon gehört. Es ist **kein** Cloud-Laufwerk, **kein** öffentliches „Files“-Album und **keine** E-Mail an den Support. Andere Apps können ihn unter normalen iOS-Regeln nicht lesen.
+**Application Support** ist ein privater Ordner, der nur Vigilant Ear auf diesem Telefon gehört. Es ist **kein** Cloud-Laufwerk, **kein** öffentliches „Files“-Album und **keine** E-Mail an den Support. Andere Apps können ihn unter üblichen iOS-Regeln nicht lesen.
 
 Auf einem iPhone mit **Gerätecode** (oder Biometrie) **verschlüsselt iOS App-Daten im Ruhezustand** mit hardwaregestütztem Schutz. Witness Ear lädt das Tagebuch **nicht** hoch und fügt **keine** zweite, app-verwaltete Verschlüsselungsschicht darüber. Wenn das Gerät gesperrt ist, folgt der Zugriff den standardmäßigen Datenschutzklassen von Apple (typischerweise geschützt bis zur ersten Entsperrung nach dem Boot, sofern keine strengeren Einstellungen gelten). Backups (verschlüsseltes Computer-Backup / iCloud-Backup-Regeln) sind etwas anderes als „auf der Festplatte des Telefons liegen“.
 

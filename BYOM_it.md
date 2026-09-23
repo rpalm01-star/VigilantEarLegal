@@ -128,7 +128,7 @@ Ogni chiave è facoltativa — ometti quello che vuoi e si applica un valore pre
 |---|---|---|
 | `displayName` | Nome mostrato sulla mappa e negli avvisi | Etichetta con underscore → spazi, con iniziali maiuscole |
 | `hapticCount` | Impulsi di vibrazione quando il suono viene rivelato per la prima volta (0 = nessuno) | `0` |
-| `emergencyTier` | `"none"` per i suoni normali. Lascialo `"none"` a meno che il suono non giustifichi davvero un avviso urgente | `"none"` |
+| `emergencyTier` | `"none"` per i suoni tipici. Lascialo `"none"` a meno che il suono non giustifichi davvero un avviso urgente | `"none"` |
 | `category` | Raggruppamento: `animal`, `vehicle`, `medium`, `quiet` o `misc` | `misc` |
 | `icon` | Un nome di [SF Symbols](https://developer.apple.com/sf-symbols/), p. es. `bird`, `pawprint`, `fan`, `bell` | `waveform` |
 | `color` | Tinta del punto/icona: `red`, `blue`, `cyan`, `pink`, `brown`, `mint`, `orange`, `gray`, `teal`, `purple`, oppure `"r,g,b"` con valori 0–1 | `teal` |

@@ -128,7 +128,7 @@ Jeder Schlüssel ist optional — lass etwas weg und ein sinnvoller Standard gre
 |---|---|---|
 | `displayName` | Name auf der Karte und in Alarmen | Label mit Unterstrichen → Leerzeichen, großgeschrieben |
 | `hapticCount` | Vibrationsimpulse, wenn das Geräusch erstmals angezeigt wird (0 = keine) | `0` |
-| `emergencyTier` | `"none"` für normale Geräusche. Lass es `"none"`, es sei denn, das Geräusch rechtfertigt wirklich einen dringenden Alarm | `"none"` |
+| `emergencyTier` | `"none"` für typische Geräusche. Lass es `"none"`, es sei denn, das Geräusch rechtfertigt wirklich einen dringenden Alarm | `"none"` |
 | `category` | Gruppierung: `animal`, `vehicle`, `medium`, `quiet` oder `misc` | `misc` |
 | `icon` | Ein [SF Symbols](https://developer.apple.com/sf-symbols/)-Name, z. B. `bird`, `pawprint`, `fan`, `bell` | `waveform` |
 | `color` | Punkt-/Icon-Farbe: `red`, `blue`, `cyan`, `pink`, `brown`, `mint`, `orange`, `gray`, `teal`, `purple` oder `"r,g,b"` mit Werten 0–1 | `teal` |

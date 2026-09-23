@@ -128,7 +128,7 @@ TrainingData/
 |---|---|---|
 | `displayName` | マップとアラートに表示される名前 | ラベルのアンダースコア → スペース、先頭大文字 |
 | `hapticCount` | 音が初めて明らかになったときの振動パルス数（0 = なし） | `0` |
-| `emergencyTier` | 通常の音は `"none"`。本当に緊急アラートが妥当な音でなければ `"none"` のまま | `"none"` |
+| `emergencyTier` | 一般的な音は `"none"`。本当に緊急アラートが妥当な音でなければ `"none"` のまま | `"none"` |
 | `category` | グループ: `animal`、`vehicle`、`medium`、`quiet`、または `misc` | `misc` |
 | `icon` | [SF Symbols](https://developer.apple.com/sf-symbols/) の名前、例: `bird`、`pawprint`、`fan`、`bell` | `waveform` |
 | `color` | ドット/アイコンの色: `red`、`blue`、`cyan`、`pink`、`brown`、`mint`、`orange`、`gray`、`teal`、`purple`、または 0–1 の値の `"r,g,b"` | `teal` |

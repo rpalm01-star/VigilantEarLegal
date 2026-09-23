@@ -141,7 +141,7 @@ Cada página traz uma marca d’água sutil Wingdings atrás do conteúdo e um r
 
 ### O que significa “Application Support”
 
-**Application Support** é uma pasta privada que pertence apenas ao Vigilant Ear neste telefone. **Não** é um drive na nuvem, **não** é um álbum público de “Files” e **não** é e-mail para o suporte. Outros apps não conseguem lê-la sob as regras normais do iOS.
+**Application Support** é uma pasta privada que pertence apenas ao Vigilant Ear neste telefone. **Não** é um drive na nuvem, **não** é um álbum público de “Files” e **não** é e-mail para o suporte. Outros apps não conseguem lê-la sob as regras padrão do iOS.
 
 Em um iPhone com **código de acesso do dispositivo** (ou biometria), o iOS **criptografa os dados do app em repouso** com proteção respaldada por hardware. O Witness Ear **não** envia o diário e **não** adiciona uma segunda camada de criptografia gerenciada pelo app por cima disso. Com o dispositivo bloqueado, o acesso segue as classes padrão de proteção de dados da Apple (tipicamente protegido até o primeiro desbloqueio após a inicialização, salvo configurações mais fortes). Backups (backup criptografado no computador / regras de backup do iCloud) são separados de “ficar no disco do telefone.”
 
