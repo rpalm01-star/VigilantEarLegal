@@ -35,7 +35,7 @@ Când folosești anumite funcții — sau când aplicația are nevoie de ele ca 
 
 *   **Afișarea hărții**
     *   *Ce se trimite:* Cereri de dale de hartă; fereastra ta de hartă și locația aproximativă, atât cât e nevoie ca să deseneze harta
-    *   *Furnizor:* Apple Maps / MapKit
+    *   *Furnizor:* Apple Maps / MapKit pe iPhone și iPad; Google Maps pe Android
 *   **Alerte de vreme severă (prin propriul nostru serviciu de alerte)**
     *   *De ce există:* Avertizările oficiale vin de la agențiile naționale de meteorologie din lume. Fiecare telefon obișnuia să contacteze acele agenții direct — ceea ce însemna că fiecare putea vedea adresa de rețea a dispozitivului tău și cât de des verificai — iar fluxurile publice partajate, cu limite de cereri, au început să piardă alerte pe măsură ce baza noastră de utilizatori a crescut. Serverul nostru preia acum datele oficiale o dată, pentru toată lumea, și le ține circa **15 minute**. Aceleași avertizări oficiale, mai de încredere — și **telefonul tău nu contactează niciodată serverele unui guvern străin.** Începând doar cu v1.1.0 sau mai nou.
     *   *Ce se trimite:* O cerere către serviciul nostru poartă doar codul de țară/regiune, limba aplicației tale și — cel mult — o celulă de locație pe care telefonul tău o rotunjește la circa **50 km (0,5°)** înainte să fie trimisă, folosită doar ca să taie răspunsul la alertele de lângă tine. Testul precis „sunt înăuntrul acestei zone de avertizare?” se întâmplă **pe telefonul tău** și nu iese niciodată de acolo. Nu e atașat niciun nume, cont sau identificator de dispozitiv. Ca la orice serviciu HTTPS, există jurnale standard de hosting de scurtă durată ca să-l operăm; nu sunt o funcție de urmărire și nu le vindem.
@@ -47,14 +47,17 @@ Când folosești anumite funcții — sau când aplicația are nevoie de ele ca 
     *   *Ce se trimite:* Amprente audio scurte — niciodată audio brut — când e detectată muzică și Shazam e activat (poate fi oprit în setări)
     *   *Furnizor:* Apple Shazam / ShazamKit
 *   **Context stradal**
-    *   *Ce se trimite:* Interogări anonime Overpass API bazate pe sectorul de hartă din jurul locației tale
-    *   *Furnizor:* Contribuitori OpenStreetMap prin Overpass API
+    *   *Ce se trimite:* **Latitudinea și longitudinea dumneavoastră exacte**, într-o interogare despre ce drumuri se află la câteva sute de metri de dumneavoastră, astfel încât vehiculele detectate să poată fi plasate pe drumul pe care se află cu adevărat, nu în mijlocul unui câmp. Aceasta este o poziție precisă, nu o celulă rotunjită — spre deosebire de cererea meteo de mai sus, care este intenționat aproximativă. Nu se atașează niciun nume, cont sau identificator de dispozitiv și nu se include nimic din ceea ce a auzit telefonul.
+    *   *Furnizor:* Contribuitorii OpenStreetMap prin API-ul public Overpass
+*   **Rutare rutieră**
+    *   *Ce se trimite:* **Latitudinea și longitudinea dumneavoastră exacte**, împreună cu poziția unui sunet urmărit, pentru ca pe hartă să poată fi trasată o rută rutieră între cele două. Din nou o poziție precisă, fără identificator și fără nimic despre detecția în sine.
+    *   *Furnizor:* Serviciul public de rutare OSRM (project-osrm.org)
 *   **Cumpărături și drepturi**
     *   *Ce se trimite:* Tokenuri de cumpărare și starea drepturilor / a perioadei de probă pentru deblocarea unică opțională Power Pack+ (nu un abonament)
-    *   *Furnizor:* Apple App Store
+    *   *Furnizor:* Apple App Store pe iPhone și iPad; Google Play Billing pe Android
 *   **Mesh Constellation (opțional, Power Pack+)**
     *   *Ce se trimite:* Când activezi Constellation pe mai multe telefoane, dispozitivele participante schimbă metadate acustice necesare pentru o imagine partajată — de exemplu poziție relativă / telemetrie Ultra-Wideband acolo unde e disponibilă, direcții, etichete de sunet și text efemer de subtitrare. Traficul e peer-to-peer **doar între telefoanele care rulează Vigilant Ear și pe care le legi pentru Constellation**. Telefoanele fără aplicație nu se pot alătura acelei mesh și nu pot primi acele metadate. Wingdings nu operează un releu mesh în cloud pentru această conductă audio.
-    *   *Furnizor:* Framework-uri Apple (de ex. Network / Nearby Interaction) între dispozitivele tale Vigilant Ear
+    *   *Furnizor:* Framework-uri Apple (de ex. Network / Nearby Interaction) între dispozitivele tale Vigilant Ear **Constellation este o funcție pentru iPhone și iPad; aplicația Android nu o implementează**, așa că un telefon Android nici nu se alătură acelei rețele, nici nu schimbă aceste metadate.
 *   **Remote Link (opțional — pornirea unui link are nevoie de Power Pack+; alăturarea e gratuită)**
     *   *De ce există:* O persoană surdă sau hipoacuzică nu poate folosi un apel telefonic. Remote Link e substitutul — un apel privat doar video, cu date de subtitrare: două persoane se văd, citesc subtitrările și textul tastat una alteia și pot semna una către cealaltă prin video.
     *   *Ce se trimite:* **Niciun audio, în niciun moment** — o sesiune Remote Link nu poartă nicio pistă audio. Cele două telefoane vorbesc între ele, nu cu noi: video-ul în direct, subtitrările tale în direct ca text și tot ce tastezi călătoresc **direct între cele două telefoane** oriunde rețelele permit, criptate cap-la-cap, astfel încât nimic pe drum nu poate privi sau citi apelul. Ca să stabilești un link, serviciul nostru ține codul de invitație împreună cu detaliile de conexiune de care au nevoie cele două telefoane ca să se găsească. Acea cutie poștală nu ține **nici video, nici text** și expiră într-o oră.
@@ -119,7 +122,7 @@ Noi **nu**:
 
 Poți:
 
-- **Revoca permisiunile** (microfon, locație, cameră, notificări, recunoașterea vorbirii) în Setările iOS
+- **Revoca permisiunile** (microfon, locație, cameră, notificări, recunoașterea vorbirii) în Setările iOS, sau în Setările Android la Aplicații → Vigilant Ear → Permisiuni
 - **Dezactivează identificarea muzicii Shazam** în Power Pack+ / preferințe
 - **Opri categorii individuale de alertă** (sirene, meteo, sonerii, bebeluș etc.)
 - **Opri ascultarea în fundal** când toate categoriile de alertă sunt dezactivate

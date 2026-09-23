@@ -35,7 +35,7 @@ Cuando utiliza ciertas funciones — o cuando la aplicación las necesita para f
 
 *   **Visualización de mapas**
     *   *Qué se envía:* Solicitudes de mosaicos de mapa; su vista del mapa y su ubicación aproximada según sea necesario para renderizar el mapa
-    *   *Proveedor:* Apple Maps / MapKit
+    *   *Proveedor:* Apple Maps / MapKit en iPhone y iPad; Google Maps en Android
 *   **Alertas de meteorología severa (a través de nuestro propio servicio)**
     *   *Por qué existe:* Los avisos oficiales provienen de las agencias meteorológicas nacionales de todo el mundo. Antes, cada teléfono contactaba directamente con esas agencias — lo que significaba que cada una podía ver la dirección de red de tu dispositivo y con qué frecuencia consultabas — y las fuentes públicas compartidas con límites de peticiones empezaron a perder avisos a medida que crecía nuestra base de usuarios. Ahora nuestro servidor obtiene los datos oficiales una sola vez, para todos, y los conserva unos **15 minutos**. Los mismos avisos oficiales, de forma más fiable — y **tu teléfono nunca contacta con los servidores de un gobierno extranjero.** Solo a partir de la versión 1.1.0.
     *   *Qué se envía:* Una petición a nuestro servicio incluye únicamente el código de país/región, el idioma de la app y, como mucho, una celda de ubicación que tu teléfono redondea a unos **50 km (0,5°)** antes de enviarla, usada solo para recortar la respuesta a los avisos cercanos. La comprobación exacta de «¿estoy dentro de esta zona de aviso?» se hace **en tu teléfono** y nunca sale de él. No se adjunta ningún nombre, cuenta ni identificador de dispositivo. Como en cualquier servicio HTTPS, existen registros de alojamiento estándar y de corta duración para operarlo; no son una función de seguimiento y no los vendemos.
@@ -47,14 +47,17 @@ Cuando utiliza ciertas funciones — o cuando la aplicación las necesita para f
     *   *Qué se envía:* Huellas dactilares de audio cortas — nunca audio sin procesar — cuando se detecta música y Shazam está habilitado (se puede apagar en la configuración)
     *   *Proveedor:* Apple Shazam / ShazamKit
 *   **Contexto de carreteras**
-    *   *Qué se envía:* Consultas anónimas de API de Overpass basadas en el sector del mapa alrededor de su ubicación
-    *   *Proveedor:* Colaboradores de OpenStreetMap a través de la API de Overpass
+    *   *Qué se envía:* Su **latitud y longitud exactas**, dentro de una consulta que pregunta qué carreteras se encuentran a unos cientos de metros de usted, para que los vehículos detectados puedan situarse en la carretera en la que realmente están y no en medio de un campo. Se trata de una posición precisa, no de una celda redondeada — a diferencia de la petición meteorológica anterior, que es deliberadamente aproximada. No se adjunta ningún nombre, cuenta ni identificador de dispositivo, y no se incluye nada de lo que su teléfono haya oído.
+    *   *Proveedor:* Colaboradores de OpenStreetMap a través de la API pública de Overpass
+*   **Rutas por carretera**
+    *   *Qué se envía:* Su **latitud y longitud exactas**, junto con la posición de un sonido rastreado, para poder dibujar en el mapa una ruta por carretera entre ambos. De nuevo una posición precisa, sin identificador y sin nada sobre la detección en sí.
+    *   *Proveedor:* El servicio público de rutas OSRM (project-osrm.org)
 *   **Compras y derechos**
     *   *Qué se envía:* Tokens de compra y estado de derecho / prueba para el desbloqueo único opcional de Power Pack+ (no una suscripción)
-    *   *Proveedor:* Apple App Store
+    *   *Proveedor:* la Apple App Store en iPhone y iPad; Google Play Billing en Android
 *   **Malla Constellation (opcional, Power Pack+)**
     *   *Qué se envía:* Cuando habilita Constellation para múltiples teléfonos, los dispositivos participantes intercambian los metadatos acústicos necesarios para obtener una imagen compartida — por ejemplo, el rango relativo / banda ultraancha donde esté disponible, rumbos, etiquetas de sonido y texto de subtítulos efímero. El tráfico es de igual a igual (peer-to-peer) **solo entre teléfonos que ejecutan Vigilant Ear y que usted vincula para Constellation**. Los teléfonos sin la aplicación no pueden unirse a esa malla ni recibir esos metadatos. Wingdings no opera un relé de malla en la nube para este conducto de audio.
-    *   *Proveedor:* Marcos de Apple (por ejemplo, Network / Nearby Interaction) entre sus dispositivos con Vigilant Ear
+    *   *Proveedor:* Marcos de Apple (por ejemplo, Network / Nearby Interaction) entre sus dispositivos con Vigilant Ear **Constellation es una función de iPhone y iPad; la aplicación de Android no la implementa**, por lo que un teléfono Android ni se une a esa malla ni intercambia estos metadatos.
 *   **Remote Link (opcional — iniciar un enlace requiere Power Pack+; unirse es gratis)**
     *   *Por qué existe:* Una persona sorda o con pérdida auditiva no puede usar una llamada telefónica. Remote Link es el sustituto — una llamada privada de solo vídeo con datos de subtítulos: dos personas se ven, leen los subtítulos y el texto escrito de la otra, y pueden hablar en señas entre sí a través del vídeo.
     *   *Qué se envía:* **Ningún audio, en ningún momento** — una sesión de Remote Link no lleva pista de audio alguna. Los dos teléfonos hablan entre sí, no con nosotros: el vídeo en directo, tus subtítulos en vivo como texto y todo lo que escribes viajan **directamente entre los dos teléfonos** donde las redes lo permiten, cifrados de extremo a extremo, de modo que nada en medio puede ver ni leer la llamada. Para establecer un enlace, nuestro servicio guarda el código de invitación junto con los datos de conexión que los dos teléfonos necesitan para encontrarse. Ese buzón no contiene **ni vídeo ni texto**, y caduca en el plazo de una hora.
@@ -119,7 +122,7 @@ Nosotros **no**:
 
 Usted puede:
 
-- **Revocar permisos** (micrófono, ubicación, cámara, notificaciones, reconocimiento de voz) en la Configuración de iOS
+- **Revocar permisos** (micrófono, ubicación, cámara, notificaciones, reconocimiento de voz) en la Configuración de iOS, o en la Configuración de Android en Aplicaciones → Vigilant Ear → Permisos
 - **Desactivar la identificación de música Shazam** en Power Pack+ / preferencias
 - **Apagar categorías de alertas individuales** (sirenas, clima, timbres, bebé, etc.)
 - **Detener la escucha en segundo plano** cuando todas las categorías de alerta están desactivadas

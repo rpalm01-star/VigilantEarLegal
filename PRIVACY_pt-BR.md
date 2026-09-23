@@ -35,7 +35,7 @@ Quando você usa certos recursos — ou quando o aplicativo precisa deles para f
 
 *   **Exibição de mapa**
     *   *O que é enviado:* Solicitações de blocos de mapa; a janela de visualização do seu mapa e localização aproximada conforme necessário para renderizar o mapa
-    *   *Provedor:* Apple Maps / MapKit
+    *   *Provedor:* Apple Maps / MapKit no iPhone e no iPad; Google Maps no Android
 *   **Alertas de tempo severo (pelo nosso próprio serviço)**
     *   *Por que existe:* Os avisos oficiais vêm das agências meteorológicas nacionais do mundo todo. Antes, cada telefone contatava essas agências diretamente — o que significava que cada uma podia ver o endereço de rede do seu aparelho e com que frequência você consultava — e as fontes públicas compartilhadas com limites de requisições começaram a perder avisos conforme nossa base de usuários crescia. Agora nosso servidor busca os dados oficiais uma única vez, para todos, e os mantém por cerca de **15 minutos**. Os mesmos avisos oficiais, com mais confiabilidade — e **seu telefone nunca contata os servidores de um governo estrangeiro.** Somente a partir da versão 1.1.0.
     *   *O que é enviado:* Uma requisição ao nosso serviço leva apenas o código de país/região, o idioma do app e, no máximo, uma célula de localização que seu telefone arredonda para cerca de **50 km (0,5°)** antes de ser enviada, usada apenas para reduzir a resposta aos avisos próximos. A verificação exata de «estou dentro desta área de aviso?» acontece **no seu telefone** e nunca sai dele. Nenhum nome, conta ou identificador de aparelho é anexado. Como em qualquer serviço HTTPS, existem registros de hospedagem padrão e de curta duração para operá-lo; não são um recurso de rastreamento e não os vendemos.
@@ -47,14 +47,17 @@ Quando você usa certos recursos — ou quando o aplicativo precisa deles para f
     *   *O que é enviado:* Curtas impressões digitais de áudio — nunca áudio bruto — quando a música é detectada e o Shazam está ativado (pode ser desativado nas configurações)
     *   *Provedor:* Apple Shazam / ShazamKit
 *   **Contexto de estradas**
-    *   *O que é enviado:* Consultas anônimas à API Overpass baseadas no setor do mapa em torno de sua localização
-    *   *Provedor:* Contribuidores do OpenStreetMap via API Overpass
+    *   *O que é enviado:* Sua **latitude e longitude exatas**, dentro de uma consulta perguntando quais vias estão a algumas centenas de metros de você, para que veículos detectados possam ser colocados na via em que realmente estão, e não no meio de um campo. Esta é uma posição precisa, não uma célula arredondada — diferente da requisição meteorológica acima, que é deliberadamente grosseira. Nenhum nome, conta ou identificador de dispositivo é anexado, e nada sobre o que seu telefone ouviu é incluído.
+    *   *Provedor:* Colaboradores do OpenStreetMap por meio da API pública Overpass
+*   **Rotas de trânsito**
+    *   *O que é enviado:* Sua **latitude e longitude exatas**, junto com a posição de um som rastreado, para que uma rota por via entre os dois possa ser desenhada no mapa. Novamente uma posição precisa, sem identificador e sem nada sobre a detecção em si.
+    *   *Provedor:* O serviço público de rotas OSRM (project-osrm.org)
 *   **Compras e direitos**
     *   *O que é enviado:* Tokens de compra e status de direitos / teste para o desbloqueio opcional e único do Power Pack+ (não é uma assinatura)
-    *   *Provedor:* Apple App Store
+    *   *Provedor:* a Apple App Store no iPhone e no iPad; o Google Play Billing no Android
 *   **Malha Constellation (opcional, Power Pack+)**
     *   *O que é enviado:* Quando você ativa o Constellation para vários telefones, os dispositivos participantes trocam os metadados acústicos necessários para uma imagem compartilhada — por exemplo, pose relativa / alcance Ultra-Wideband onde disponível, direções, rótulos de som e texto de legenda efêmero. O tráfego é ponto-a-ponto **apenas entre telefones que estão executando o Vigilant Ear e que você vincula para o Constellation**. Telefones sem o aplicativo não podem entrar nessa malha nem receber esses metadados. A Wingdings não opera um relé de malha em nuvem para este pipeline de áudio.
-    *   *Provedor:* Frameworks da Apple (por exemplo, Rede / Nearby Interaction) entre os seus dispositivos Vigilant Ear
+    *   *Provedor:* Frameworks da Apple (por exemplo, Rede / Nearby Interaction) entre os seus dispositivos Vigilant Ear **O Constellation é um recurso de iPhone e iPad; o app Android não o implementa**, portanto um telefone Android não entra nessa malha nem troca esses metadados.
 *   **Remote Link (opcional — iniciar um link exige Power Pack+; entrar é gratuito)**
     *   *Por que existe:* Uma pessoa surda ou com perda auditiva não pode usar uma ligação telefônica. O Remote Link é o substituto — uma ligação privada só de vídeo, com dados de legenda: duas pessoas se veem, leem as legendas e o texto digitado uma da outra, e podem conversar em língua de sinais pelo vídeo.
     *   *O que é enviado:* **Nenhum áudio, em momento algum** — uma sessão do Remote Link não carrega faixa de áudio alguma. Os dois telefones falam um com o outro, não conosco: o vídeo ao vivo, as suas legendas ao vivo em forma de texto e qualquer coisa que você digite trafegam **diretamente entre os dois telefones** onde as redes permitem, criptografados de ponta a ponta, para que nada no meio do caminho consiga ver ou ler a ligação. Para estabelecer um link, o nosso serviço guarda o código de convite junto com os detalhes de conexão de que os dois telefones precisam para se encontrar. Essa caixa não contém **nem vídeo nem texto**, e expira em até uma hora.
@@ -119,7 +122,7 @@ Nós **não** fazemos o seguinte:
 
 Você pode:
 
-- **Revogar permissões** (microfone, localização, câmera, notificações, reconhecimento de fala) em Ajustes do iOS
+- **Revogar permissões** (microfone, localização, câmera, notificações, reconhecimento de fala) em Ajustes do iOS, ou nas Configurações do Android em Apps → Vigilant Ear → Permissões
 - **Desativar a identificação de música do Shazam** no Power Pack+ / preferências
 - **Desativar categorias de alerta individuais** (sirenes, clima, campainhas, bebê, etc.)
 - **Interromper a audição em segundo plano** quando todas as categorias de alerta estiverem desativadas

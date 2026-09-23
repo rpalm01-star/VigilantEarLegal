@@ -35,7 +35,7 @@ Belirli özellikleri kullandığınızda — veya uygulamanın çalışması iç
 
 *   **Harita gösterimi**
     *   *Ne gönderilir:* Harita kiremit istekleri; haritayı çizmek için gereken görünüm ve yaklaşık konum
-    *   *Sağlayıcı:* Apple Maps / MapKit
+    *   *Sağlayıcı:* iPhone ve iPad'de Apple Maps / MapKit; Android'de Google Maps
 *   **Şiddetli hava uyarıları (kendi uyarı hizmetimiz üzerinden)**
     *   *Neden var:* Resmi uyarılar dünyadaki ulusal hava kurumlarından gelir. Eskiden her telefon o kurumlara doğrudan bağlanırdı — her biri cihazınızın ağ adresini ve ne sıklıkla baktığınızı görebilirdi — ve istek sınırlı ortak kamu akışları kullanıcı tabanımız büyüdükçe uyarıları düşürmeye başladı. Sunucumuz resmi veriyi herkes için bir kez çeker ve yaklaşık **15 dakika** tutar. Aynı resmi uyarılar, daha güvenilir — ve **telefonunuz asla yabancı bir hükümetin sunucularına bağlanmaz.** Yalnızca v1.1.0 ve üzeri.
     *   *Ne gönderilir:* Hizmetimize bir istek yalnızca ülke/bölge kodunu, uygulama dilinizi ve — en fazla — telefonunuzun göndermeden önce kabaca **50 km (0,5°)** yuvarladığı, yanıtı yakındaki uyarılara budamak için kullanılan bir konum hücresini taşır. Kesin “bu uyarı alanının içinde miyim?” testi **telefonunuzda** olur ve onu asla terk etmez. Ad, hesap veya cihaz kimliği eklenmez. Her HTTPS hizmetinde olduğu gibi işletmek için standart kısa ömürlü barındırma günlükleri vardır; izleme özelliği değildir ve satmayız.
@@ -47,14 +47,17 @@ Belirli özellikleri kullandığınızda — veya uygulamanın çalışması iç
     *   *Ne gönderilir:* Müzik algılandığında ve Shazam açıkken kısa ses parmak izleri — asla ham ses değil (ayarlarda kapatılabilir)
     *   *Sağlayıcı:* Apple Shazam / ShazamKit
 *   **Yol bağlamı**
-    *   *Ne gönderilir:* Konumunuz çevresindeki harita sektörüne dayalı anonim Overpass API sorguları
-    *   *Sağlayıcı:* Overpass API üzerinden OpenStreetMap katkıverenleri
+    *   *Ne gönderilir:* **Tam enlem ve boylamınız**, sizden birkaç yüz metre içinde hangi yolların bulunduğunu soran bir sorgunun içinde; böylece algılanan araçlar bir tarlanın ortasına değil, gerçekten bulundukları yola yerleştirilebilir. Bu, yuvarlanmış bir hücre değil kesin bir konumdur — yukarıdaki, kasıtlı olarak kaba tutulan hava durumu isteğinin aksine. Hiçbir ad, hesap veya cihaz tanımlayıcısı eklenmez ve telefonunuzun duyduklarından hiçbir şey dahil edilmez.
+    *   *Sağlayıcı:* Genel Overpass API'si aracılığıyla OpenStreetMap katkıcıları
+*   **Yol rotası**
+    *   *Ne gönderilir:* **Tam enlem ve boylamınız**, izlenen bir sesin konumuyla birlikte; böylece ikisi arasında haritada bir yol rotası çizilebilir. Yine kesin bir konum, tanımlayıcı olmaksızın ve algılamanın kendisine dair hiçbir şey olmaksızın.
+    *   *Sağlayıcı:* Genel OSRM rota servisi (project-osrm.org)
 *   **Satın alımlar ve haklar**
     *   *Ne gönderilir:* İsteğe bağlı tek seferlik Power Pack+ kilit açma (abonelik değil) için satın alma jetonları ve hak / deneme durumu
-    *   *Sağlayıcı:* Apple App Store
+    *   *Sağlayıcı:* iPhone ve iPad'de Apple App Store; Android'de Google Play Billing
 *   **Constellation ağı (isteğe bağlı, Power Pack+)**
     *   *Ne gönderilir:* Çok telefonlu Constellation’ı açtığınızda katılan cihazlar ortak bir resim için gereken akustik üstveriyi değiş tokuş eder — örneğin göreli duruş / varsa Ultra-Wideband mesafe, kerterizler, ses etiketleri ve geçici altyazı metni. Trafik **yalnızca Vigilant Ear çalıştırdığınız ve Constellation için bağladığınız telefonlar arasında** eşler arasıdır. Uygulaması olmayan telefonlar bu ağa katılamaz veya o üstveriyi alamaz. Wingdings bu ses hattı için bir bulut ağ rölesi işletmez.
-    *   *Sağlayıcı:* Vigilant Ear cihazlarınız arasında Apple çerçeveleri (ör. Network / Nearby Interaction)
+    *   *Sağlayıcı:* Vigilant Ear cihazlarınız arasında Apple çerçeveleri (ör. Network / Nearby Interaction) **Constellation bir iPhone ve iPad özelliğidir; Android uygulaması bunu uygulamaz**, dolayısıyla bir Android telefon bu ağa katılmaz ve bu meta verileri paylaşmaz.
 *   **Remote Link (isteğe bağlı — bir bağlantı başlatmak Power Pack+ ister; katılmak ücretsizdir)**
     *   *Neden var:* Sağır veya az duyan biri telefon araması kullanamaz. Remote Link onun yerine geçen şeydir — altyazı verisi olan özel, yalnızca videolu bir arama: iki kişi birbirini görür, birbirinin altyazısını ve yazdığı metni okur ve video üzerinden işaretleşebilir.
     *   *Ne gönderilir:* **Hiçbir noktada ses yok** — bir Remote Link oturumu hiç ses kanalı taşımaz. İki telefon bizimle değil birbirleriyle konuşur: canlı video, canlı altyazılarınız metin olarak ve yazdığınız her şey ağların izin verdiği yerde **doğrudan iki telefon arasında** gider, uçtan uca şifreli; arada hiçbir şey aramayı izleyemez veya okuyamaz. Bir bağlantı kurmak için hizmetimiz davet kodunu, iki telefonun birbirini bulması için gereken bağlantı bilgileriyle birlikte tutar. O kutu **video ve metin tutmaz** ve bir saat içinde sona erer.
@@ -119,7 +122,7 @@ Raporlar yalnızca **şifreli (HTTPS) bir kanal** üzerinden işlettiğimiz bir 
 
 Şunları yapabilirsiniz:
 
-- iOS Ayarları’nda **izinleri geri almak** (mikrofon, konum, kamera, bildirimler, konuşma tanıma)
+- iOS Ayarları’nda **izinleri geri almak** (mikrofon, konum, kamera, bildirimler, konuşma tanıma), ya da Android Ayarları'nda Uygulamalar → Vigilant Ear → İzinler altında
 - Power Pack+ / tercihlerde **Shazam müzik tanımayı kapatmak**
 - **Tekil uyarı kategorilerini kapatmak** (siren, hava, kapı zili, bebek vb.)
 - Tüm uyarı kategorileri kapalıyken **arka plan dinlemeyi durdurmak**

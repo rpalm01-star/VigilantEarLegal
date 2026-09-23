@@ -35,7 +35,7 @@ Wenn Sie bestimmte Funktionen nutzen — oder wenn die App diese zum Funktionier
 
 *   **Kartenanzeige**
     *   *Was gesendet wird:* Kartenkachel-Anforderungen; Ihr Kartenansichtsfenster und ungefährer Standort nach Bedarf, um die Karte zu rendern
-    *   *Anbieter:* Apple Maps / MapKit
+    *   *Anbieter:* Apple Maps / MapKit auf iPhone und iPad; Google Maps auf Android
 *   **Unwetterwarnungen (über unseren eigenen Dienst)**
     *   *Warum es das gibt:* Amtliche Warnungen stammen von nationalen Wetterdiensten weltweit. Früher kontaktierte jedes Telefon diese Dienste direkt — jeder von ihnen konnte also die Netzwerkadresse Ihres Geräts sehen und wie oft Sie nachsahen — und gemeinsam genutzte öffentliche Feeds mit Anfragegrenzen begannen mit wachsender Nutzerzahl Warnungen zu verlieren. Unser Server holt die amtlichen Daten jetzt einmal, für alle, und hält sie etwa **15 Minuten** vor. Dieselben amtlichen Warnungen, zuverlässiger — und **Ihr Telefon kontaktiert nie die Server einer ausländischen Regierung.** Erst ab Version 1.1.0.
     *   *Was gesendet wird:* Eine Anfrage an unseren Dienst enthält nur den Länder-/Regionscode, Ihre App-Sprache und höchstens eine Standortzelle, die Ihr Telefon vor dem Senden auf rund **50 km (0,5°)** rundet und die ausschließlich dazu dient, die Antwort auf Warnungen in Ihrer Nähe zu beschränken. Die genaue Prüfung „Bin ich in diesem Warngebiet?“ geschieht **auf Ihrem Telefon** und verlässt es nie. Kein Name, kein Konto und keine Gerätekennung wird angehängt. Wie bei jedem HTTPS-Dienst existieren übliche, kurzlebige Hosting-Protokolle für den Betrieb; sie sind keine Tracking-Funktion und wir verkaufen sie nicht.
@@ -47,14 +47,17 @@ Wenn Sie bestimmte Funktionen nutzen — oder wenn die App diese zum Funktionier
     *   *Was gesendet wird:* Kurze Audio-Fingerabdrücke — niemals rohes Audio — wenn Musik erkannt wird und Shazam aktiviert ist (kann in den Einstellungen ausgeschaltet werden)
     *   *Anbieter:* Apple Shazam / ShazamKit
 *   **Straßenkontext**
-    *   *Was gesendet wird:* Anonyme Overpass-API-Abfragen basierend auf dem Kartensektor um Ihren Standort
-    *   *Anbieter:* OpenStreetMap-Mitwirkende über die Overpass API
+    *   *Was gesendet wird:* Ihre **exakten Breiten- und Längengrade**, in einer Abfrage danach, welche Straßen sich innerhalb einiger hundert Meter um Sie befinden, damit erkannte Fahrzeuge auf der Straße platziert werden können, auf der sie tatsächlich sind, statt mitten auf einem Feld. Das ist eine präzise Position und keine gerundete Zelle — anders als die Wetterabfrage oben, die bewusst grob ist. Es sind kein Name, kein Konto und keine Gerätekennung angehängt, und nichts davon, was Ihr Telefon gehört hat, ist enthalten.
+    *   *Anbieter:* OpenStreetMap-Mitwirkende über die öffentliche Overpass-API
+*   **Straßenrouting**
+    *   *Was gesendet wird:* Ihre **exakten Breiten- und Längengrade**, zusammen mit der Position eines verfolgten Geräuschs, damit eine Straßenroute zwischen beiden auf der Karte gezeichnet werden kann. Auch hier eine präzise Position, ohne Kennung und ohne irgendetwas über die Erkennung selbst.
+    *   *Anbieter:* Der öffentliche OSRM-Routingdienst (project-osrm.org)
 *   **Käufe & Berechtigungen**
     *   *Was gesendet wird:* Kauftoken und Berechtigungs- / Teststatus für die optionale einmalige Power Pack+-Freischaltung (kein Abonnement)
-    *   *Anbieter:* Apple App Store
+    *   *Anbieter:* der Apple App Store auf iPhone und iPad; Google Play Billing auf Android
 *   **Constellation-Mesh (optional, Power Pack+)**
     *   *Was gesendet wird:* Wenn Sie die Multi-Telefon-Constellation aktivieren, tauschen die teilnehmenden Geräte akustische Metadaten aus, die für ein gemeinsames Bild erforderlich sind — zum Beispiel relative Pose / Ultra-Wideband-Ranging (wo verfügbar), Peilungen, Geräuschetiketten und flüchtigen Untertiteltext. Der Datenverkehr erfolgt Peer-to-Peer **ausschließlich zwischen Telefonen, auf denen Vigilant Ear läuft und die Sie für Constellation verknüpfen**. Telefone ohne die App können diesem Mesh nicht beitreten und diese Metadaten nicht empfangen. Wingdings betreibt kein Cloud-Mesh-Relay für diese Audio-Pipeline.
-    *   *Anbieter:* Apple Frameworks (z. B. Network / Nearby Interaction) zwischen Ihren Vigilant Ear-Geräten
+    *   *Anbieter:* Apple Frameworks (z. B. Network / Nearby Interaction) zwischen Ihren Vigilant Ear-Geräten **Constellation ist eine iPhone- und iPad-Funktion; die Android-App implementiert sie nicht**, daher tritt ein Android-Telefon diesem Mesh weder bei noch tauscht es diese Metadaten aus.
 *   **Remote Link (optional — das Starten erfordert Power Pack+; das Beitreten ist kostenlos)**
     *   *Warum es das gibt:* Eine gehörlose oder schwerhörige Person kann kein Telefongespräch führen. Remote Link ist der Ersatz — ein privater reiner Videoanruf mit Untertiteldaten: Zwei Menschen sehen einander, lesen die Untertitel und den getippten Text des jeweils anderen und können über das Video miteinander gebärden.
     *   *Was gesendet wird:* **Zu keinem Zeitpunkt Audio** — eine Remote-Link-Sitzung enthält überhaupt keine Audiospur. Die beiden Telefone sprechen miteinander, nicht mit uns: Live-Video, Ihre Live-Untertitel als Text und alles, was Sie tippen, laufen **direkt zwischen den beiden Telefonen**, wo immer die Netze es zulassen, Ende-zu-Ende verschlüsselt, sodass nichts dazwischen den Anruf mitsehen oder mitlesen kann. Zum Aufbau einer Verbindung hält unser Dienst den Einladungscode zusammen mit den Verbindungsangaben, die die beiden Telefone brauchen, um einander zu finden. Dieses Postfach enthält **kein Video und keinen Text** und läuft binnen einer Stunde ab.
@@ -119,7 +122,7 @@ Wir tun **nicht**:
 
 Sie können:
 
-- **Berechtigungen widerrufen** (Mikrofon, Standort, Kamera, Benachrichtigungen, Spracherkennung) in den iOS-Einstellungen
+- **Berechtigungen widerrufen** (Mikrofon, Standort, Kamera, Benachrichtigungen, Spracherkennung) in den iOS-Einstellungen, oder in den Android-Einstellungen unter Apps → Vigilant Ear → Berechtigungen
 - **Die Shazam-Musikidentifikation deaktivieren** unter Power Pack+ / Einstellungen
 - **Einzelne Warnkategorien ausschalten** (Sirenen, Wetter, Türklingeln, Baby usw.)
 - **Das Zuhören im Hintergrund beenden**, wenn alle Warnkategorien deaktiviert sind

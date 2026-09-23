@@ -35,7 +35,7 @@ Lorsque vous utilisez certaines fonctionnalités — ou lorsque l'application en
 
 *   **Affichage de la carte**
     *   *Ce qui est envoyé :* Demandes de tuiles de carte ; votre zone d'affichage cartographique et votre emplacement approximatif tel que nécessaire pour rendre la carte
-    *   *Fournisseur :* Apple Maps / MapKit
+    *   *Fournisseur :* Apple Maps / MapKit sur iPhone et iPad ; Google Maps sur Android
 *   **Alertes de météo violente (via notre propre service)**
     *   *Pourquoi cela existe :* Les alertes officielles proviennent des agences météorologiques nationales du monde entier. Auparavant, chaque téléphone contactait ces agences directement — chacune pouvait donc voir l'adresse réseau de votre appareil et la fréquence de vos consultations — et les flux publics partagés soumis à des limites de requêtes ont commencé à perdre des alertes à mesure que notre base d'utilisateurs grandissait. Notre serveur récupère désormais les données officielles une seule fois, pour tout le monde, et les conserve environ **15 minutes**. Les mêmes alertes officielles, de façon plus fiable — et **votre téléphone ne contacte jamais les serveurs d'un gouvernement étranger.** À partir de la version 1.1.0 uniquement.
     *   *Ce qui est envoyé :* Une requête à notre service ne comporte que le code de pays/région, la langue de l'app et, tout au plus, une cellule de localisation que votre téléphone arrondit à environ **50 km (0,5°)** avant tout envoi, utilisée uniquement pour restreindre la réponse aux alertes proches. Le test précis « suis-je dans cette zone d'alerte ? » s'effectue **sur votre téléphone** et n'en sort jamais. Aucun nom, compte ni identifiant d'appareil n'y est joint. Comme pour tout service HTTPS, des journaux d'hébergement standard et de courte durée existent pour l'exploiter ; ce n'est pas une fonction de suivi et nous ne les vendons pas.
@@ -47,14 +47,17 @@ Lorsque vous utilisez certaines fonctionnalités — ou lorsque l'application en
     *   *Ce qui est envoyé :* Courtes empreintes audio — jamais d'audio brut — lorsque de la musique est détectée et que Shazam est activé (peut être désactivé dans les paramètres)
     *   *Fournisseur :* Apple Shazam / ShazamKit
 *   **Contexte routier**
-    *   *Ce qui est envoyé :* Requêtes Overpass API anonymes basées sur le secteur de la carte autour de votre emplacement
-    *   *Fournisseur :* Contributeurs OpenStreetMap via l'API Overpass
+    *   *Ce qui est envoyé :* Vos **latitude et longitude exactes**, à l'intérieur d'une requête demandant quelles routes se trouvent à quelques centaines de mètres de vous, afin que les véhicules détectés soient placés sur la route où ils sont réellement plutôt qu'au milieu d'un champ. Il s'agit d'une position précise et non d'une cellule arrondie — contrairement à la requête météo ci-dessus, volontairement grossière. Aucun nom, compte ni identifiant d'appareil n'y est joint, et rien de ce que votre téléphone a entendu n'y figure.
+    *   *Fournisseur :* Contributeurs OpenStreetMap via l'API publique Overpass
+*   **Itinéraires routiers**
+    *   *Ce qui est envoyé :* Vos **latitude et longitude exactes**, avec la position d'un son suivi, afin de tracer sur la carte un itinéraire routier entre les deux. Là encore une position précise, sans identifiant et sans rien sur la détection elle-même.
+    *   *Fournisseur :* Le service public de routage OSRM (project-osrm.org)
 *   **Achats et droits**
     *   *Ce qui est envoyé :* Jetons d'achat et état des droits / de l'essai pour le déverrouillage unique optionnel Power Pack+ (pas un abonnement)
-    *   *Fournisseur :* Apple App Store
+    *   *Fournisseur :* l'Apple App Store sur iPhone et iPad ; Google Play Billing sur Android
 *   **Réseau mesh Constellation (optionnel, Power Pack+)**
     *   *Ce qui est envoyé :* Lorsque vous activez Constellation multi-téléphones, les appareils participants échangent les métadonnées acoustiques nécessaires pour une image partagée — par exemple, la pose relative / la télémétrie Ultra-Wideband lorsqu'elle est disponible, les directions, les étiquettes sonores et le texte des sous-titres éphémères. Le trafic se fait de pair à pair (peer-to-peer) **uniquement entre les téléphones qui exécutent Vigilant Ear et que vous liez pour Constellation**. Les téléphones sans l'application ne peuvent pas rejoindre ce maillage ni recevoir ces métadonnées. Wingdings n'exploite pas de relais mesh cloud pour ce pipeline audio.
-    *   *Fournisseur :* Frameworks Apple (par ex. Network / Nearby Interaction) entre vos appareils Vigilant Ear
+    *   *Fournisseur :* Frameworks Apple (par ex. Network / Nearby Interaction) entre vos appareils Vigilant Ear **Constellation est une fonctionnalité iPhone et iPad ; l'application Android ne l'implémente pas**, de sorte qu'un téléphone Android ne rejoint pas ce maillage et n'échange pas ces métadonnées.
 *   **Remote Link (facultatif — démarrer une liaison nécessite Power Pack+ ; rejoindre est gratuit)**
     *   *Pourquoi cela existe :* Une personne sourde ou malentendante ne peut pas utiliser un appel téléphonique. Remote Link en est le substitut — un appel privé, en vidéo uniquement, accompagné des données de sous-titres : deux personnes se voient, lisent chacune les sous-titres et le texte saisi de l'autre, et peuvent signer entre elles par vidéo.
     *   *Ce qui est envoyé :* **Aucun son, à aucun moment** — une session Remote Link ne comporte aucune piste audio. Les deux téléphones dialoguent entre eux, et non avec nous : la vidéo en direct, vos sous-titres en direct sous forme de texte et tout ce que vous saisissez circulent **directement entre les deux téléphones** là où les réseaux le permettent, chiffrés de bout en bout, de sorte que rien entre les deux ne peut regarder ni lire l'appel. Pour établir une liaison, notre service conserve le code d'invitation ainsi que les détails de connexion dont les deux téléphones ont besoin pour se trouver. Cette boîte ne contient **ni vidéo ni texte**, et elle expire en moins d'une heure.
@@ -119,7 +122,7 @@ Nous ne faisons **pas** :
 
 Vous pouvez :
 
-- **Révoquer les autorisations** (microphone, localisation, caméra, notifications, reconnaissance vocale) dans les paramètres d'iOS
+- **Révoquer les autorisations** (microphone, localisation, caméra, notifications, reconnaissance vocale) dans les paramètres d'iOS, ou dans les Paramètres Android sous Applications → Vigilant Ear → Autorisations
 - **Désactiver l'identification musicale Shazam** dans Power Pack+ / préférences
 - **Désactiver des catégories d'alerte individuelles** (sirènes, météo, sonnettes, bébé, etc.)
 - **Arrêter l'écoute en arrière-plan** lorsque toutes les catégories d'alerte sont désactivées
