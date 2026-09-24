@@ -1,6 +1,6 @@
 # Acoustic Scope — A visão profissional de análise sonora
 
-O **Acoustic Scope** transforma o Vigilant Ear em um instrumento de análise sonora de bolso: uma visão ao vivo de tudo o que o microfone ouve, de cinco maneiras diferentes. Use-o para *ver* o formato de um som, medir sua altura e seu nível, congelar e percorrer o último meio minuto, e capturar trechos para treinar seu próprio pacote de sons personalizado.
+O **Acoustic Scope** transforma o Vigilant Ear em um instrumento de análise sonora de bolso: uma visão ao vivo de tudo o que o microfone ouve, de seis maneiras diferentes. Use-o para *ver* o formato de um som, medir sua altura e seu nível, congelar e percorrer o último meio minuto, e capturar trechos para treinar seu próprio pacote de sons personalizado.
 
 Abra-o pelo **leque de ações** (a explosão giratória na barra superior): toque no leque e depois no **equalizador** (as barras animadas em verde e ciano). O Acoustic Scope é **gratuito para todos** — as visões ao vivo abaixo não exigem nenhuma compra. Apenas as ferramentas de captura do **Train** (abaixo), que gravam trechos para seus pacotes de sons personalizados, fazem parte do Power Pack+.
 
@@ -22,7 +22,7 @@ Alterne pela barra inferior.
 | **Espectrograma** | Frequência ao longo do **tempo** — os últimos ~24 segundos passam rolando, cor = nível. A maioria dos sons tem aqui um formato visual reconhecível. |
 | **RTA de ⅓ oitava** | As 28 bandas ISO padrão, como um analisador de tempo real de hardware. Os traços laranja são a retenção de pico. |
 | **Croma** | As 12 classes de altura musical — quais notas estão presentes, com a mais forte destacada. |
-| **Parciais** | Os tons proeminentes acompanhados ao longo do tempo como linhas coloridas, cada uma identificada com sua nota musical. Ótimo para assobios, sirenes, canto de pássaros e zumbido de máquinas. |
+| **Parciais** | Os tons proeminentes acompanhados ao longo do tempo como linhas coloridas, cada uma identificada com sua nota musical. Os nomes das notas e a série harmônica têm colunas próprias, e sons mais agudos, como os de alarmes de fumaça, são identificados com sua altura real. Defina uma **nota-alvo** e ela aparece como uma linha de referência para cantar ou afinar. Ótimo para assobios, sirenes, canto de pássaros e zumbido de máquinas. |
 | **Visualizador** | A música do ambiente como um show de luzes ao vivo — as batidas detonam anéis, os graves inflam a cena, os agudos chovem faíscas. Tem sua própria seção completa abaixo. |
 
 **Bandeiras** laranja no Espectrograma marcam os momentos em que o classificador de sons disparou, com seu rótulo e sua confiança — assim você vê exatamente a qual formato o modelo reagiu.
@@ -59,7 +59,7 @@ Este é o superpoder do scope: obter exemplos reais de um som *no momento em que
 5. Toque em **Build & Export**. Você recebe um zip com seus trechos (já na estrutura de pastas do Create ML) mais os arquivos do pacote, prontos para enviar a um Mac.
 6. No Mac, treine um **Sound Classifier** no Create ML a partir da pasta `clips/`, coloque o `model.mlpackage` exportado na pasta do pacote, compacte novamente e importe no telefone em **Fontes de alerta → Pacotes de sons personalizados**.
 
-A parte de treinamento e importação — incluindo a **classe Background obrigatória** e o controle que evita alarmes falsos — está explicada passo a passo no **[guia de Pacotes de Sons Personalizados](https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/BYOM_pt-BR.md)**.
+A parte de treinamento e importação — incluindo a **classe Background obrigatória** e o controle que evita alarmes falsos — está explicada passo a passo no **[guia de Pacotes de Sons Personalizados](https://vigilantear.com/pt-BR/byom/)**.
 
 ## A aba Visualizador — música como luz
 
@@ -86,6 +86,7 @@ telefone e a TV acompanha, então o mesmo Mirror coloca o Espectrograma ou o Vis
 ## Bom saber
 
 - O scope não custa nada quando está fechado — a análise extra só roda enquanto ele está na tela.
+- Deixá-lo aberto também sai barato: o Espectrograma quase não custa nada, então não vai esquentar seu telefone por mais tempo que você fique olhando, e as visões Espectrograma e Parciais são redesenhadas em um ritmo constante e legível, sem perder nada do que ouvem.
 - Os valores absolutos de dB não são calibrados por padrão; são consistentes e comparáveis, e o ajuste de calibração em ⓘ permite alinhá-los a um medidor de referência.
 - O scope lê o canal do microfone principal. Detecção, localização de direção e alertas não são afetados por nada que você faça aqui.
 

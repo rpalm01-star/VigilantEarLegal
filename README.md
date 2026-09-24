@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Effective as of version 1.1.8 · September 2026.*
+*Effective as of version 1.1.9 · September 2026.*
 
 ## An acoustic radar for people who can't hear.
 
@@ -71,7 +71,7 @@ graph LR
 **ShazamKit** identifies music playing around you and tracks song changes.
 
 ### 🎛️ Acoustic Scope — see sound like an engineer
-A professional live view of the sound around you: spectrum, spectrogram, ⅓-octave RTA bands, chroma, and harmonic partials — **free for everyone**. The tools that capture sounds for training your own custom packs are part of Power Pack+.
+A professional live view of the sound around you: spectrum, spectrogram, ⅓-octave RTA bands, chroma, and harmonic partials — **free for everyone**. **Partials reads music:** each tone is named by its note, with its harmonic series beside it, higher sounds such as smoke alarms are named at their true pitch, and you can set a target note that draws as a line to sing or tune against. It runs cool — leaving the Spectrogram open costs next to nothing, however long you watch. The tools that capture sounds for training your own custom packs are part of Power Pack+.
 
 ### 📦 Custom Sound Packs — teach it your world *(Power Pack+)*
 Teach Vigilant Ear the sounds that matter to you — from local birds to your building's door chime. Add-on packs stack on top of the built-in detection, so new sounds never crowd out sirens and alarms. A step-by-step guide is built into the app.
@@ -85,6 +85,8 @@ With two or more Ultra-Wideband-enabled iPhones (most since iPhone 11), **Conste
 The thing a phone call would normally do, done with video and text instead. You send an invitation code; the other person joins from inside Vigilant Ear **without owning Power Pack+**. Unlike Constellation there is no proximity requirement — the two of you can be anywhere.
 
 **No audio is used at any point.** Video and text only, so nothing about the link depends on hearing at either end — and it gives you a way to sign with someone through the app. The app itself does not understand sign language; it carries the video and the two of you do the rest. The connection is direct between the two phones wherever the network allows it, and the app shows you plainly whether it is **Direct** or **Relayed**, so you always know if your video is passing through a relay.
+
+**Captions travel too.** What each phone transcribes appears on the other, translated into the reader's language when it needs to be. Either of you can pause the link — video and captions — and resume it, and hang up from the main screen.
 
 ### 📷 Camera AR — “see the sound”
 Open the camera pill on the title rail and pin detected sounds at their real bearing in the live camera view. Markers cluster by speaker or by sound category and direction so the view stays readable; sources age-fade when they go quiet.

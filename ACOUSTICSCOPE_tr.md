@@ -1,6 +1,6 @@
 # Akustik Kapsam — Profesyonel Ses Analizi Görünümü
 
-**Akustik Kapsam**, Vigilant Ear'ı cebinizde taşıdığınız bir ses analizi cihazına dönüştürür: mikrofonun duyduğu her şeyin beş farklı biçimde canlı görüntüsü. Bir sesin şeklini *görmek*, perdesini ve düzeyini ölçmek, son yarım dakikayı dondurup geri sarmak ve kendi özel ses paketinizi eğitmek için klipler yakalamak üzere kullanın.
+**Akustik Kapsam**, Vigilant Ear'ı cebinizde taşıdığınız bir ses analizi cihazına dönüştürür: mikrofonun duyduğu her şeyin altı farklı biçimde canlı görüntüsü. Bir sesin şeklini *görmek*, perdesini ve düzeyini ölçmek, son yarım dakikayı dondurup geri sarmak ve kendi özel ses paketinizi eğitmek için klipler yakalamak üzere kullanın.
 
 **Eylem yelpazesinden** (üst raydaki dönen huzme) açın: huzmeye dokunun, ardından **ekolayzıra** (canlandırmalı yeşil ve camgöbeği çubuklar) dokunun. Akustik Kapsam **herkes için ücretsizdir** — aşağıdaki canlı görünümler hiçbir satın alma gerektirmez. Yalnızca kendi özel ses paketleriniz için klip kaydeden **Train** yakalama araçları (aşağıda) Power Pack+ kapsamındadır.
 
@@ -22,7 +22,7 @@ Alttaki çubukla geçiş yapın.
 | **Spektrogram** | **Zamana** göre frekans — son ~24 saniye akıp geçer, renk = düzey. Çoğu sesin burada tanınabilir bir görsel şekli vardır. |
 | **⅓ Oktav RTA** | Donanımsal bir gerçek zamanlı çözümleyici gibi, 28 standart ISO bandı. Turuncu çentikler tepe tutmadır. |
 | **Kroma** | 12 müzikal perde sınıfı — hangi notaların bulunduğu, en güçlüsü vurgulanmış olarak. |
-| **Kısmi Bileşenler** | Zaman içinde renkli çizgiler olarak izlenen belirgin tonlar, her biri müzikal notasıyla etiketlenmiş. Islıklar, sirenler, kuş sesleri ve makine uğultusu için mükemmeldir. |
+| **Kısmi Bileşenler** | Zaman içinde renkli çizgiler olarak izlenen belirgin tonlar, her biri müzikal notasıyla etiketlenmiş. Nota adları ve harmonik dizi kendi sütunlarında yer alır; duman alarmları gibi daha tiz sesler ise gerçek perdeleriyle etiketlenir. Bir **hedef nota** belirleyin; şarkı söylerken veya akort ederken referans alabileceğiniz bir çizgi olarak çizilir. Islıklar, sirenler, kuş sesleri ve makine uğultusu için mükemmeldir. |
 | **Görselleştirici** | Odanın müziği canlı bir ışık gösterisi olarak — vuruşlar halkaları patlatır, bas sahneyi şişirir, tizler kıvılcım yağdırır. Aşağıda kendi bölümü vardır. |
 
 Spektrogram üzerindeki turuncu **bayraklar**, ses sınıflandırıcısının tetiklendiği anları etiketi ve güveniyle birlikte işaretler — böylece modelin tam olarak hangi şekle tepki verdiğini görebilirsiniz.
@@ -59,7 +59,7 @@ Kapsamın asıl gücü budur: bir sesin gerçek örneklerini *tam duyduğunuz an
 5. **Build & Export**'a dokunun. Kliplerinizi (hâlihazırda Create ML'in klasör düzeninde) ve bir Mac'e paylaşmaya hazır paket dosyalarını içeren bir zip alırsınız.
 6. Mac'te, `clips/` klasöründen Create ML'de bir **Sound Classifier** eğitin, dışa aktarılan `model.mlpackage` dosyasını paket klasörüne bırakın, yeniden zip'leyin ve telefonda **Uyarı Kaynakları → Özel Ses Paketleri** altından içe aktarın.
 
-Eğitim ve içe aktarma bölümü — **zorunlu Background sınıfı** ve yanlış alarmları önleyen kapılama dâhil — **[Özel Ses Paketleri kılavuzunda](https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/BYOM_tr.md)** adım adım anlatılmaktadır.
+Eğitim ve içe aktarma bölümü — **zorunlu Background sınıfı** ve yanlış alarmları önleyen kapılama dâhil — **[Özel Ses Paketleri kılavuzunda](https://vigilantear.com/tr/byom/)** adım adım anlatılmaktadır.
 
 ## Görselleştirici sekmesi — ışık olarak müzik
 
@@ -86,6 +86,7 @@ değiştirin, TV izler; böylece aynı Mirror, Spektrogram'ı veya Görselleşti
 ## Bilmekte fayda var
 
 - Kapalıyken kapsamın hiçbir maliyeti yoktur — ek çözümleme yalnızca ekrandayken çalışır.
+- Açık bırakmak da pahalı değildir: Spektrogram'ın maliyeti neredeyse sıfırdır, bu yüzden ne kadar uzun izlerseniz izleyin telefonunuzu ısıtmaz; Spektrogram ve Kısmi Bileşenler de duydukları hiçbir şeyi kaçırmadan sabit ve okunaklı bir hızda yeniden çizilir.
 - Mutlak dB değerleri öntanımlı olarak kalibre edilmemiştir; tutarlı ve karşılaştırılabilirdirler ve ⓘ kalibrasyon ayarlayıcısı bunları bir referans ölçere hizalamanıza olanak tanır.
 - Kapsam birincil mikrofon kanalını okur. Algılama, yön bulma ve uyarılar burada yaptığınız hiçbir şeyden etkilenmez.
 

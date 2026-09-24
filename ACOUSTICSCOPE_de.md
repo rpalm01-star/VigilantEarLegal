@@ -1,6 +1,6 @@
 # Acoustic Scope — Die Profi-Ansicht zur Klanganalyse
 
-Das **Acoustic Scope** macht aus Vigilant Ear ein Klanganalyse-Instrument für die Hosentasche: eine Live-Ansicht von allem, was das Mikrofon hört, auf fünf verschiedene Arten. Damit *sehen* Sie die Form eines Klangs, messen seine Tonhöhe und seinen Pegel, frieren die letzte halbe Minute ein und spulen sie durch, und schneiden Clips mit, um Ihr eigenes Sound-Paket zu trainieren.
+Das **Acoustic Scope** macht aus Vigilant Ear ein Klanganalyse-Instrument für die Hosentasche: eine Live-Ansicht von allem, was das Mikrofon hört, auf sechs verschiedene Arten. Damit *sehen* Sie die Form eines Klangs, messen seine Tonhöhe und seinen Pegel, frieren die letzte halbe Minute ein und spulen sie durch, und schneiden Clips mit, um Ihr eigenes Sound-Paket zu trainieren.
 
 Öffnen Sie es über den **Aktionsfächer** (der rotierende Stern in der oberen Leiste): Tippen Sie auf den Stern und dann auf den **Equalizer** (die animierten grün-türkisen Balken). Das Acoustic Scope ist **für alle kostenlos** — die Live-Ansichten unten benötigen keinen Kauf. Nur die **Train**-Aufnahmewerkzeuge (weiter unten), die Clips für Ihre eigenen Sound-Pakete aufzeichnen, gehören zu Power Pack+.
 
@@ -22,7 +22,7 @@ Umschalten über die Leiste am unteren Rand.
 | **Spektrogramm** | Frequenz über die **Zeit** — die letzten ~24 Sekunden scrollen vorbei, Farbe = Pegel. Die meisten Klänge haben hier eine wiedererkennbare visuelle Form. |
 | **⅓-Okt-RTA** | Die 28 ISO-Standardbänder, wie ein Echtzeitanalysator aus Hardware. Orange Striche sind Peak-Hold. |
 | **Chroma** | Die 12 musikalischen Tonklassen — welche Noten vorhanden sind, die stärkste hervorgehoben. |
-| **Teiltöne** | Die markanten Töne über die Zeit verfolgt als farbige Linien, jede mit ihrer Note beschriftet. Ideal für Pfeifen, Sirenen, Vogelgesang und Maschinenbrummen. |
+| **Teiltöne** | Die markanten Töne über die Zeit verfolgt als farbige Linien, jede mit ihrer Note beschriftet. Notennamen und die Obertonreihe haben eigene Spalten, und höhere Klänge wie Rauchmelder werden mit ihrer tatsächlichen Tonhöhe beschriftet. Legen Sie einen **Zielton** fest, und er erscheint als Linie, an der Sie sich beim Singen oder Stimmen orientieren können. Ideal für Pfeifen, Sirenen, Vogelgesang und Maschinenbrummen. |
 | **Visualizer** | Die Musik im Raum als Live-Lichtshow — Beats zünden Ringe, Bässe lassen die Szene anschwellen, Höhen regnen als Funken. Hat weiter unten einen eigenen Abschnitt. |
 
 Orange **Fähnchen** im Spektrogramm markieren die Momente, in denen der Klangklassifikator ausgelöst hat, mit Label und Konfidenz — so sehen Sie genau, auf welche Form das Modell reagiert hat.
@@ -59,7 +59,7 @@ Das ist die Superkraft des Scopes: echte Beispiele eines Klangs *genau dann* mit
 5. Tippen Sie auf **Build & Export**. Sie erhalten ein ZIP mit Ihren Clips (bereits in der Ordnerstruktur von Create ML) sowie den Paketdateien, bereit zur Übertragung auf einen Mac.
 6. Trainieren Sie auf dem Mac in Create ML einen **Sound Classifier** aus dem Ordner `clips/`, legen Sie das exportierte `model.mlpackage` in den Paketordner, packen Sie neu und importieren Sie es auf dem Telefon unter **Warnquellen → Eigene Sound-Pakete**.
 
-Die Hälfte mit Training und Import — einschließlich der **verpflichtenden Background-Klasse** und der Absicherung gegen Fehlalarme — ist Schritt für Schritt im **[Leitfaden für eigene Sound-Pakete](https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/BYOM_de.md)** beschrieben.
+Die Hälfte mit Training und Import — einschließlich der **verpflichtenden Background-Klasse** und der Absicherung gegen Fehlalarme — ist Schritt für Schritt im **[Leitfaden für eigene Sound-Pakete](https://vigilantear.com/de/byom/)** beschrieben.
 
 ## Der Visualizer-Tab — Musik als Licht
 
@@ -73,8 +73,7 @@ von einem echten akustischen Merkmal angetrieben, live aus den Mikrofonen:
   mit der Energie tiefer Frequenzen an.
 - **Die Höhen regnen als Funken** — Becken und Hi-Hats fallen als helle Tropfen.
 - **Der Songtitel reitet auf einem Globus** — sobald der Song erkannt ist, legt sich sein Titel um
-  den Äquator eines unsichtbaren Globus, der durch die Szene treibt, und der Interpret hält die
-  obere rechte Ecke.
+  den Äquator eines unsichtbaren Globus, der durch die Szene treibt, und der Interpret hält die obere rechte Ecke.
 
 Legen Sie Ihren **DJ-Namen** (und seine Farbe) unter **Einstellungen → Acoustic Visualizer** fest —
 er hält die obere linke Ecke, im Stil des Interpreten-Tags.
@@ -82,12 +81,12 @@ er hält die obere linke Ecke, im Stil des Interpreten-Tags.
 **Auf einen Fernseher bringen:** Tippen Sie auf die **tv-Taste** in der Kopfzeile des Scopes,
 verbinden Sie per USB-C-HDMI-Kabel oder AirPlay-Bildschirmsynchronisierung und drücken Sie
 **Mirror** — der große Bildschirm zeigt nur die Grafik, während dieses Telefon Bedienung und
-Mikrofon bleibt. Wechseln Sie am Telefon den Scope-Tab, folgt der Fernseher: derselbe Mirror bringt
-also das Spektrogramm oder den Visualizer an die Wand.
+Mikrofon bleibt. Wechseln Sie am Telefon den Scope-Tab, folgt der Fernseher: derselbe Mirror bringt also das Spektrogramm oder den Visualizer an die Wand.
 
 ## Gut zu wissen
 
 - Geschlossen kostet das Scope nichts — die zusätzliche Analyse läuft nur, solange es auf dem Bildschirm ist.
+- Auch geöffnet bleibt es sparsam: Das Spektrogramm kostet so gut wie nichts, sodass Ihr Telefon nicht warm wird, egal wie lange Sie zusehen, und Spektrogramm und Teiltöne werden in einem gleichmäßigen, gut lesbaren Tempo neu gezeichnet, ohne etwas von dem zu verpassen, was sie hören.
 - Absolute dB-Werte sind standardmäßig nicht kalibriert; sie sind konsistent und vergleichbar, und der Kalibrierungsregler unter ⓘ erlaubt den Abgleich mit einem Referenzmessgerät.
 - Das Scope liest den primären Mikrofonkanal. Erkennung, Richtungsbestimmung und Warnungen bleiben von allem, was Sie hier tun, unberührt.
 

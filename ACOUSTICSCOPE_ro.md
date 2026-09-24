@@ -1,6 +1,6 @@
 # Acoustic Scope — Vederea profesională de analiză a sunetului
 
-**Acoustic Scope** transformă Vigilant Ear într-un instrument de buzunar de analiză a sunetului: o vedere în direct a tot ce aude microfonul, în cinci feluri. Folosește-l ca să *vezi* forma unui sunet, să-i măsori înălțimea și nivelul, să îngheți și să derulezi înapoi prin ultimul jumătate de minut și să capturezi clipuri ca să-ți antrenezi propriul pachet de sunete personalizat.
+**Acoustic Scope** transformă Vigilant Ear într-un instrument de buzunar de analiză a sunetului: o vedere în direct a tot ce aude microfonul, în șase feluri. Folosește-l ca să *vezi* forma unui sunet, să-i măsori înălțimea și nivelul, să îngheți și să derulezi înapoi prin ultimul jumătate de minut și să capturezi clipuri ca să-ți antrenezi propriul pachet de sunete personalizat.
 
 Deschide-l din **evantaiul de acțiuni** (explozia care se învârte pe bara de sus): atinge explozia, apoi **egalizatorul** (barele animate verde și cian). Acoustic Scope e **gratuit pentru toată lumea** — vederile în direct de mai jos n-au nevoie de nicio cumpărare. Doar uneltele de captură **Train** (mai jos), care înregistrează clipuri pentru propriile tale pachete de sunete personalizate, fac parte din Power Pack+.
 
@@ -22,7 +22,7 @@ Comută cu bara de jos.
 | **Spectrogramă** | Frecvența în **timp** — ultimele ~24 de secunde se derulează, culoarea = nivelul. Majoritatea sunetelor au aici o formă vizuală recunoscută. |
 | **RTA ⅓ oct.** | Cele 28 de benzi ISO standard, ca un analizor hardware în timp real. Liniuțele portocalii sunt ținerea vârfului. |
 | **Chroma** | Cele 12 clase de înălțime muzicală — care note sunt prezente, cu cea mai puternică evidențiată. |
-| **Parțiale** | Tonurile proeminente urmărite în timp ca linii colorate, fiecare etichetată cu nota sa muzicală. Excelent pentru fluierături, sirene, cântat de păsări, huruit de utilaje. |
+| **Parțiale** | Tonurile proeminente urmărite în timp ca linii colorate, fiecare etichetată cu nota sa muzicală. Numele notelor și seria armonică au coloane proprii, iar sunetele mai înalte, cum ar fi alarmele de fum, sunt etichetate cu înălțimea lor reală. Setează o **notă țintă** și apare ca o linie după care să cânți sau să acordezi. Excelent pentru fluierături, sirene, cântat de păsări, huruit de utilaje. |
 | **Vizualizator** | Muzica camerei ca un spectacol de lumini în direct — bătăile detonază inele, basul umflă scena, înaltele plouă scântei. Are propria secțiune completă mai jos. |
 
 **Steagurile** portocalii de pe Spectrogramă marchează momentele în care clasificatorul de sunete s-a declanșat, cu eticheta și încrederea lui — astfel vezi exact la ce formă a reacționat modelul.
@@ -59,7 +59,7 @@ Asta e superputerea scope-ului: iei exemple reale ale unui sunet *pe măsură ce
 5. Atinge **Creează și exportă**. Primești un zip care conține clipurile tale (deja în structura de dosare a Create ML) plus fișierele pachetului, gata de partajat către un Mac.
 6. Pe Mac, antrenează un **Sound Classifier** în Create ML din dosarul `clips/`, pune `model.mlpackage` exportat în dosarul pachetului, comprimă din nou și importă-l pe telefon sub **Surse de alerte → Pachete de sunete personalizate**.
 
-Jumătatea de antrenare și import — inclusiv **clasa Background obligatorie** și poarta care previne alarmele false — e acoperită pas cu pas în **[ghidul Pachete de sunete personalizate](https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/BYOM.md)**.
+Jumătatea de antrenare și import — inclusiv **clasa Background obligatorie** și poarta care previne alarmele false — e acoperită pas cu pas în **[ghidul Pachete de sunete personalizate](https://vigilantear.com/ro/byom/)**.
 
 ## Tab-ul Vizualizator — muzica ca lumină
 
@@ -86,6 +86,7 @@ telefon și televizorul urmează, astfel încât aceeași Duplicare pune Spectro
 ## Bun de știut
 
 - Scope-ul nu costă nimic când e închis — analiza extra rulează doar cât e pe ecran.
+- Nici lăsat deschis nu costă mult: Spectrograma nu consumă aproape nimic, deci nu-ți încălzește telefonul oricât de mult te-ai uita, iar Spectrograma și Parțialele se redesenează într-un ritm constant, ușor de citit, fără să rateze nimic din ce aud.
 - Valorile absolute în dB sunt necalibrate implicit; sunt consistente și comparabile, iar stepper-ul de calibrare din ⓘ îți permite să le aliniezi la un metru de referință.
 - Scope-ul citește canalul principal al microfonului. Detecția, găsirea direcției și alertele nu sunt afectate de nimic din ce faci aici.
 
