@@ -23,7 +23,13 @@ export const LANGUAGES = [
   { code: "it", label: "Italiano" },
   { code: "ar", label: "العربية" },
   { code: "ja", label: "日本語" },
-  { code: "zh-Hans", label: "中文" },
+  // Two Chinese entries, so each label names its script in that script — 简体 / 繁體 — the way
+  // Apple's own language list does. "中文" twice would be two identical buttons.
+  { code: "zh-Hans", label: "简体中文" },
+  // 🔴 Traditional Chinese, added 2026-09-24 for 1.1.9. Same lesson as Turkish below: the
+  // _zh-Hant.md files and the app's `LegalDocuments` mapping both existed before this line did,
+  // and until it did a Taiwanese or Hong Kong reader got English on the site and in the app.
+  { code: "zh-Hant", label: "繁體中文" },
   { code: "ko", label: "한국어" },
   { code: "ru", label: "Русский" },
   { code: "hi", label: "हिन्दी" },

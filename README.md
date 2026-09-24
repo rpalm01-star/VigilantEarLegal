@@ -244,7 +244,7 @@ Full details: [PRIVACY.md](/en/privacy/) · [TERMS.md](/en/terms/) · [SUPPORT.m
 
 ## Localization
 
-Fully localized — interface, alerts, and captions — into **English, Spanish, Portuguese (Brazil), French, German, Italian, Turkish, Arabic, Japanese, Simplified Chinese, Korean, Russian, Hindi, and Romanian** (14 languages). Follows the system locale or a manual choice in the app. Romanian captions work on-device; Apple Translate has no Romanian, so Auto-Translate shows the original for that language.
+Fully localized — interface, alerts, and captions — into **English, Spanish, Portuguese (Brazil), French, German, Italian, Turkish, Arabic, Japanese, Simplified Chinese, Traditional Chinese, Korean, Russian, Hindi, and Romanian** (15 languages). Follows the system locale or a manual choice in the app. Romanian captions work on-device; Apple Translate has no Romanian, so Auto-Translate shows the original for that language.
 
 ---
 
