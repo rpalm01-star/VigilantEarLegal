@@ -1,6 +1,6 @@
 # Privacy Policy for Vigilant Ear 👂🛰️
 
-**Effective Date:** September 18, 2026
+**Effective Date:** September 24, 2026
 
 ## Introduction
 
@@ -39,7 +39,7 @@ When you use certain features — or when the app needs them to function — **l
 *   **Severe weather alerts (through our own alert service)**
     *   *Why it exists:* Official warnings come from national weather agencies around the world. Every phone used to contact those agencies directly — which meant each one could see your device's network address and how often you checked — and shared public feeds with request limits began dropping alerts as our user base grew. Our server now fetches the official data once, for everyone, and holds it for about **15 minutes**. The same official warnings, more reliably — and **your phone never contacts a foreign government's servers.** Starting in v1.1.0 or higher only.
     *   *What is sent:* A request to our service carries only the country/region code, your app language, and — at most — a location cell that your phone rounds to roughly **50 km (0.5°)** before it is ever sent, used solely to trim the reply to alerts near you. The precise "am I inside this warning area?" test happens **on your phone** and never leaves it. No name, account, or device identifier is attached. As with any HTTPS service, standard short-lived hosting logs exist to operate it; they are not a tracking feature and we do not sell them.
-    *   *Provider:* Official data from the U.S. National Weather Service (NWS), MeteoAlarm / MeteoGate (Europe), the China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), Japan Meteorological Agency (JMA), Environment and Climate Change Canada (ECCC), Brazil's INMET, Australia's Bureau of Meteorology (BoM) and India's National Disaster Management Authority (NDMA) — delivered to your phone through infrastructure we operate.
+    *   *Provider:* Official data from the U.S. National Weather Service (NWS), MeteoAlarm / MeteoGate (Europe), the China Meteorological Administration (CMA), Korea Meteorological Administration (KMA), Japan Meteorological Agency (JMA), Environment and Climate Change Canada (ECCC), Brazil's INMET, Australia's Bureau of Meteorology (BoM), India's National Disaster Management Authority (NDMA) and Mexico's Servicio Meteorológico Nacional (SMN) — delivered to your phone through infrastructure we operate.
 *   **Earthquake alerts (through our own alert service)**
     *   *What is sent:* Requests for a single worldwide public earthquake summary feed, fetched through the same service as the weather alerts above, so your phone does not contact a foreign government's servers for these either — the request carries no location or region information at all; your device location is used only on-device to decide whether a reported quake is near you
     *   *Provider:* U.S. Geological Survey (USGS) public earthquake feed, relayed by Wingdings

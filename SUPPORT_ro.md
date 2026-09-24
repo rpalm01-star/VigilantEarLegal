@@ -68,7 +68,7 @@ Nucleul de siguranță e **gratuit, pentru totdeauna**:
 
 - Alerte sonore locale (sirene, alarme, bătăi/sonerii, bebeluș, persoană în apropiere) cu livrare pe ecran și push opțional  
 - Subtitrări în direct **Speaker Mode** (pe dispozitiv; direcționale acolo unde hardware-ul permite)  
-- Fluxuri de vreme severă pentru regiunea ta — **NWS** SUA, **MeteoGate** Europa, **China CMA**, **Korea KMA**, **Japan JMA**, **Canada ECCC**, **Australia BOM** și **Brazil INMET**  
+- Fluxuri de vreme severă pentru regiunea ta — **NWS** SUA, **MeteoGate** Europa, **China CMA**, **Korea KMA**, **Japan JMA**, **Canada ECCC**, **Australia BOM**, **Brazil INMET**, **India NDMA** și **Mexic SMN**  
 - Alerte de exercițiu **Feature Playground** (cu filigrană, ca să nu arate niciodată ca o urgență reală)  
 - Indicii de direcție ale companionului **Apple Watch** și **Live Activity** (ecran de blocare / Dynamic Island / Watch Smart Stack), acolo unde sunt disponibile  
 - **Acoustic Scope** — vizualizatorul de sunet în direct, gratuit pentru toată lumea (uneltele de captură pentru antrenare sunt Power Pack+)  

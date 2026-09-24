@@ -1,6 +1,6 @@
 # Política de Privacidade do Vigilant Ear 👂🛰️
 
-**Data de Vigência:** 8 de setembro de 2026
+**Data de Vigência:** 24 de setembro de 2026
 
 ## Introdução
 
@@ -39,7 +39,7 @@ Quando você usa certos recursos — ou quando o aplicativo precisa deles para f
 *   **Alertas de tempo severo (pelo nosso próprio serviço)**
     *   *Por que existe:* Os avisos oficiais vêm das agências meteorológicas nacionais do mundo todo. Antes, cada telefone contatava essas agências diretamente — o que significava que cada uma podia ver o endereço de rede do seu aparelho e com que frequência você consultava — e as fontes públicas compartilhadas com limites de requisições começaram a perder avisos conforme nossa base de usuários crescia. Agora nosso servidor busca os dados oficiais uma única vez, para todos, e os mantém por cerca de **15 minutos**. Os mesmos avisos oficiais, com mais confiabilidade — e **seu telefone nunca contata os servidores de um governo estrangeiro.** Somente a partir da versão 1.1.0.
     *   *O que é enviado:* Uma requisição ao nosso serviço leva apenas o código de país/região, o idioma do app e, no máximo, uma célula de localização que seu telefone arredonda para cerca de **50 km (0,5°)** antes de ser enviada, usada apenas para reduzir a resposta aos avisos próximos. A verificação exata de «estou dentro desta área de aviso?» acontece **no seu telefone** e nunca sai dele. Nenhum nome, conta ou identificador de aparelho é anexado. Como em qualquer serviço HTTPS, existem registros de hospedagem padrão e de curta duração para operá-lo; não são um recurso de rastreamento e não os vendemos.
-    *   *Provedor:* Dados oficiais do Serviço Nacional de Meteorologia dos EUA (NWS), MeteoAlarm / MeteoGate (Europa), Administração Meteorológica da China (CMA), Administração Meteorológica da Coreia (KMA), Agência Meteorológica do Japão (JMA), Environment and Climate Change Canada (ECCC), INMET do Brasil, Bureau of Meteorology da Austrália (BoM) e Autoridade Nacional de Gestão de Desastres da Índia (NDMA) — entregues ao seu telefone por infraestrutura que operamos.
+    *   *Provedor:* Dados oficiais do Serviço Nacional de Meteorologia dos EUA (NWS), MeteoAlarm / MeteoGate (Europa), Administração Meteorológica da China (CMA), Administração Meteorológica da Coreia (KMA), Agência Meteorológica do Japão (JMA), Environment and Climate Change Canada (ECCC), INMET do Brasil, Bureau of Meteorology da Austrália (BoM), Autoridade Nacional de Gestão de Desastres da Índia (NDMA) e Servicio Meteorológico Nacional do México (SMN) — entregues ao seu telefone por infraestrutura que operamos.
 *   **Alertas de terremoto (através do nosso próprio serviço de alertas)**
     *   *O que é enviado:* Solicitações a um único feed público mundial de resumo de terremotos — a solicitação não contém nenhuma informação de localização ou região; a localização do seu dispositivo é usada apenas no dispositivo para decidir se um terremoto relatado está perto de você — obtidos através do mesmo serviço dos alertas meteorológicos acima, de modo que o seu telefone também não contata servidores de um governo estrangeiro para estes
     *   *Provedor:* Feed público de terremotos do Serviço Geológico dos EUA (USGS), retransmitido pela Wingdings

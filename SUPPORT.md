@@ -68,7 +68,7 @@ The safety core is **free, forever**:
 
 - Local sound alerts (sirens, alarms, knocks/doorbells, baby, person nearby) with on-screen and optional push delivery  
 - **Speaker Mode** live captions (on-device; directional where hardware allows)  
-- Severe-weather feeds for your region — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, **Korea KMA**, **Japan JMA**, **Canada ECCC**, **Australia BOM**, and **Brazil INMET**  
+- Severe-weather feeds for your region — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, **Korea KMA**, **Japan JMA**, **Canada ECCC**, **Australia BOM**, **Brazil INMET**, **India NDMA**, and **Mexico SMN**  
 - **Feature Playground** practice alerts (watermarked so they never look like a live emergency)  
 - **Apple Watch** companion direction cues and **Live Activity** (Lock Screen / Dynamic Island / Watch Smart Stack), where available  
 - **Acoustic Scope** — the live sound visualizer, free for everyone (the capture-for-training tools are Power Pack+)  

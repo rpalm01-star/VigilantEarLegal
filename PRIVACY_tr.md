@@ -1,6 +1,6 @@
 # Vigilant Ear Gizlilik Politikası 👂🛰️
 
-**Yürürlük tarihi:** 18 Eylül 2026
+**Yürürlük tarihi:** 24 Eylül 2026
 
 ## Giriş
 
@@ -39,7 +39,7 @@ Belirli özellikleri kullandığınızda — veya uygulamanın çalışması iç
 *   **Şiddetli hava uyarıları (kendi uyarı hizmetimiz üzerinden)**
     *   *Neden var:* Resmi uyarılar dünyadaki ulusal hava kurumlarından gelir. Eskiden her telefon o kurumlara doğrudan bağlanırdı — her biri cihazınızın ağ adresini ve ne sıklıkla baktığınızı görebilirdi — ve istek sınırlı ortak kamu akışları kullanıcı tabanımız büyüdükçe uyarıları düşürmeye başladı. Sunucumuz resmi veriyi herkes için bir kez çeker ve yaklaşık **15 dakika** tutar. Aynı resmi uyarılar, daha güvenilir — ve **telefonunuz asla yabancı bir hükümetin sunucularına bağlanmaz.** Yalnızca v1.1.0 ve üzeri.
     *   *Ne gönderilir:* Hizmetimize bir istek yalnızca ülke/bölge kodunu, uygulama dilinizi ve — en fazla — telefonunuzun göndermeden önce kabaca **50 km (0,5°)** yuvarladığı, yanıtı yakındaki uyarılara budamak için kullanılan bir konum hücresini taşır. Kesin “bu uyarı alanının içinde miyim?” testi **telefonunuzda** olur ve onu asla terk etmez. Ad, hesap veya cihaz kimliği eklenmez. Her HTTPS hizmetinde olduğu gibi işletmek için standart kısa ömürlü barındırma günlükleri vardır; izleme özelliği değildir ve satmayız.
-    *   *Sağlayıcı:* ABD Ulusal Hava Servisi (NWS), MeteoAlarm / MeteoGate (Avrupa), Çin Meteoroloji İdaresi (CMA), Kore Meteoroloji İdaresi (KMA), Japonya Meteoroloji Ajansı (JMA), Kanada Çevre ve İklim Değişikliği (ECCC), Brezilya INMET, Avustralya Meteoroloji Bürosu (BoM) ve Hindistan Ulusal Afet Yönetim Kurumu (NDMA) resmi verisi — telefonunuza işlettiğimiz altyapı üzerinden.
+    *   *Sağlayıcı:* ABD Ulusal Hava Servisi (NWS), MeteoAlarm / MeteoGate (Avrupa), Çin Meteoroloji İdaresi (CMA), Kore Meteoroloji İdaresi (KMA), Japonya Meteoroloji Ajansı (JMA), Kanada Çevre ve İklim Değişikliği (ECCC), Brezilya INMET, Avustralya Meteoroloji Bürosu (BoM), Hindistan Ulusal Afet Yönetim Kurumu (NDMA) ve Meksika Servicio Meteorológico Nacional (SMN) resmi verisi — telefonunuza işlettiğimiz altyapı üzerinden.
 *   **Deprem uyarıları (kendi uyarı hizmetimiz üzerinden)**
     *   *Ne gönderilir:* Yukarıdaki hava uyarılarıyla aynı hizmet üzerinden çekilen tek bir dünya çapında kamu deprem özet akışı istekleri; böylece telefonunuz bunlar için de yabancı bir hükümetin sunucularına bağlanmaz — istek hiç konum veya bölge bilgisi taşımaz; cihaz konumu yalnızca bildirilen bir depremin size yakın olup olmadığına cihazda karar vermek için kullanılır
     *   *Sağlayıcı:* ABD Jeolojik Araştırması (USGS) kamu deprem akışı, Wingdings tarafından iletilir

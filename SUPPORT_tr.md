@@ -68,7 +68,7 @@ Güvenlik çekirdeği **sonsuza dek ücretsizdir**:
 
 - Yerel ses uyarıları (siren, alarm, vuruş/zil, bebek, yakındaki kişi) ekranda ve isteğe bağlı anlık bildirimle  
 - **Speaker Mode** canlı altyazılar (cihazda; donanım izin verdiğinde yönlü)  
-- Bölgeniz için şiddetli hava akışları — ABD **NWS**, Avrupa **MeteoGate**, **Çin CMA**, **Kore KMA**, **Japonya JMA**, **Kanada ECCC**, **Avustralya BOM** ve **Brezilya INMET**  
+- Bölgeniz için şiddetli hava akışları — ABD **NWS**, Avrupa **MeteoGate**, **Çin CMA**, **Kore KMA**, **Japonya JMA**, **Kanada ECCC**, **Avustralya BOM**, **Brezilya INMET**, **Hindistan NDMA** ve **Meksika SMN**  
 - **Feature Playground** alıştırma uyarıları (canlı acil durum gibi durmasınlar diye filigranlı)  
 - **Apple Watch** eşlikçi yön ipuçları ve **Live Activity** (Kilit Ekranı / Dynamic Island / Watch Smart Stack), varsa  
 - **Acoustic Scope** — canlı ses görselleştirici, herkes için ücretsiz (eğitim için yakalama araçları Power Pack+)  

@@ -68,7 +68,7 @@ O núcleo de segurança é **gratuito, para sempre**:
 
 - Alertas sonoros locais (sirenes, alarmes, batidas/campainhas, bebê, pessoa por perto) com entrega na tela e notificações push opcionais  
 - Legendas ao vivo do **Speaker Mode** (no dispositivo; direcional onde o hardware permite)  
-- Feeds de clima severo para a sua região — **NWS** dos EUA, **MeteoGate** da Europa, **CMA** da China, **KMA** da Coreia, **JMA** do Japão, **ECCC** do Canadá e **INMET** do Brasil  
+- Feeds de clima severo para a sua região — **NWS** dos EUA, **MeteoGate** da Europa, **CMA** da China, **KMA** da Coreia, **JMA** do Japão, **ECCC** do Canadá, **BOM** da Austrália, **INMET** do Brasil, **NDMA** da Índia e **SMN** do México  
 - Prática de alertas da **Zona de Testes** (com marca d'água para que nunca pareçam uma emergência real)  
 - Dicas de direção de companheiro do **Apple Watch** e **Live Activity** (Tela de Bloqueio / Dynamic Island / Conjunto Inteligente do Watch), onde disponível  
 - **Escopo Acústico** — o visualizador de som ao vivo, grátis para todos (as ferramentas de captura para treinamento são do Power Pack+)  

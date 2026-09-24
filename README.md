@@ -37,7 +37,7 @@ Using the iPhone's two microphones, Vigilant Ear measures the **angle of a sound
 ### 🚨 It recognizes important sounds — and warns you
 An on-device classifier identifies hundreds of everyday sounds and watches the critical categories — **sirens, alarms — including a dedicated car-alarm class — doorbells/knocks, baby cry, a person nearby, and severe weather.** When one fires, you get a clear on-screen alert, optional **push notification**, and a distinct **haptic** — even when the app is backgrounded or the phone is asleep. Critical categories default ready so enabling notifications doesn't mean “everything off.” Turn all alert categories off and the engine fully hibernates while backgrounded to save battery. A **Sentinel** layer cross-checks alerts against independent evidence — direction, motion, and public feeds — so what fires is corroborated, not a lone classifier guess. It works both ways: a siren-shaped moment inside a song gets held, but a real siren repeating through your music breaks through and alerts.
 
-Severe-weather warnings come from official public feeds — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, **Korea KMA**, **Japan JMA**, **Canada ECCC**, **Australia BOM**, **Brazil INMET**, and **India NDMA** — free for all users. Feeds are narrowed to the ones that cover where you are. In Japan the app also reads JMA's **advance bulletins** — the plain-language notices issued days before a typhoon or heavy rain, not only the warnings issued once danger has arrived — plus the sudden-downpour and landslide bulletins. Advance notices are shown quietly, without the sound and vibration reserved for a real warning.
+Severe-weather warnings come from official public feeds — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, **Korea KMA**, **Japan JMA**, **Canada ECCC**, **Australia BOM**, **Brazil INMET**, **India NDMA**, and **Mexico SMN** — free for all users. Mexico's warnings are published by its Servicio Meteorológico Nacional under CC BY 4.0. Feeds are narrowed to the ones that cover where you are. In Japan the app also reads JMA's **advance bulletins** — the plain-language notices issued days before a typhoon or heavy rain, not only the warnings issued once danger has arrived — plus the sudden-downpour and landslide bulletins. Advance notices are shown quietly, without the sound and vibration reserved for a real warning.
 
 ### ⌚ Apple Watch + Live Activity — glance and know
 - **Apple Watch companion** — the direction of an alert points on your wrist so a glance tells you where to look. Redesigned Watch UI with the app ear icon, threat HUD layout, and double-tap to dismiss an alert. Alerts can still show the direction arrow when the Watch app is not open.
@@ -110,7 +110,7 @@ The safety core is **free, forever**:
 - **Live captions** — Speaker Mode, on-device, directional where hardware allows, with honest confidence marks, ~2-second self-correction, optional spoken output to Bluetooth hearing devices, and Direction Tones.
 - **Name Called** — optional names you type (yours, kids, partner). A match is a Watch/phone alert with bearing, not a second caption.
 - **Standing Watch** — the room's own condition, always on with nothing to configure: a steady cyan lamp while the room holds its pattern, amber when something changes — a new voice, sudden quiet, or something approaching.
-- **Severe-weather alerts** — NWS, MeteoGate (Europe — served fresh from our 5-minute alert cache), CMA, KMA, JMA (Japan), ECCC (Canada), BOM (Australia), INMET (Brazil), and NDMA (India) for your region.
+- **Severe-weather alerts** — NWS, MeteoGate (Europe — served fresh from our 5-minute alert cache), CMA, KMA, JMA (Japan), ECCC (Canada), BOM (Australia), INMET (Brazil), NDMA (India), and SMN (Mexico) for your region.
 - **Earthquake alerts (USGS, worldwide)** — feel a buzz and see the area that felt it on your map when a quake is reported nearby. A confirmation from the official USGS feed — not an early warning: if you felt shaking, this tells you what it was. On-device deep-rumble (infrasound) sensing can arm the check the moment the ground moves.
 - **Feature Playground** — practice alerts and feature previews with a clear PREVIEW watermark.
 - **Apple Watch companion & Live Activity** — glanceable direction and last alert.
@@ -171,7 +171,7 @@ Weather and earthquake alerts take the opposite path from audio — nothing abou
 ```mermaid
 graph LR
     P1["Vigilant Ear<br/>On Your Device"] --> W["Wingdings alert cache<br/>one shared copy · 5-minute refresh"]
-    W --> N["Official public feeds<br/>NWS · MeteoGate · JMA · KMA · CMA<br/>ECCC · BOM · INMET · NDMA · USGS"]
+    W --> N["Official public feeds<br/>NWS · MeteoGate · JMA · KMA · CMA<br/>ECCC · BOM · INMET · NDMA · SMN · USGS"]
 ```
 
 ---

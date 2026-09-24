@@ -68,7 +68,7 @@ Il nucleo di sicurezza è **gratuito, per sempre**:
 
 - Avvisi sonori locali (sirene, allarmi, bussate/campanelli, bambino, persona nelle vicinanze) con consegna sullo schermo e notifiche push opzionali  
 - Sottotitoli in tempo reale della **Modalità parlante** (sul dispositivo; direzionali dove l'hardware lo consente)  
-- Feed di maltempo severo per la tua regione — **NWS** per gli Stati Uniti, **MeteoGate** per l'Europa, **CMA** per la Cina, **KMA** per la Corea, **JMA** per il Giappone, **ECCC** per il Canada e **INMET** per il Brasile  
+- Feed di maltempo severo per la tua regione — **NWS** per gli Stati Uniti, **MeteoGate** per l'Europa, **CMA** per la Cina, **KMA** per la Corea, **JMA** per il Giappone, **ECCC** per il Canada, **BOM** per l'Australia, **INMET** per il Brasile, **NDMA** per l'India e **SMN** per il Messico  
 - Avvisi di prova del **Parco giochi delle funzionalità** (con filigrana, così non sembrano mai un'emergenza reale)  
 - Indicazioni di direzione dell'app complementare per **Apple Watch** e **Live Activity** (Schermata di blocco / Dynamic Island / Smart Stack del Watch), dove disponibili  
 - **Oscilloscopio Acustico** — il visualizzatore sonoro in tempo reale, gratis per tutti (gli strumenti di cattura per l'addestramento sono di Power Pack+)  

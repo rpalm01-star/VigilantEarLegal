@@ -68,7 +68,7 @@ Le cœur de la sécurité est **gratuit, pour toujours** :
 
 - Alertes sonores locales (sirènes, alarmes, coups/sonnettes, bébé, personne à proximité) avec notification à l'écran et push en option  
 - Sous-titres en direct **Mode Locuteur (Speaker Mode)** (sur l'appareil ; directionnels là où le matériel le permet)  
-- Flux météo extrêmes pour votre région — **NWS** aux États-Unis, **MeteoGate** en Europe, **CMA** en Chine, **KMA** en Corée, **JMA** au Japon, **ECCC** au Canada, et **INMET** au Brésil  
+- Flux météo extrêmes pour votre région — **NWS** aux États-Unis, **MeteoGate** en Europe, **CMA** en Chine, **KMA** en Corée, **JMA** au Japon, **ECCC** au Canada, **BOM** en Australie, **INMET** au Brésil, **NDMA** en Inde, et **SMN** au Mexique  
 - Alertes d'entraînement du **Terrain de jeu des fonctionnalités** (filigranées pour ne jamais ressembler à une urgence réelle)  
 - Indications de direction du compagnon **Apple Watch** et **Live Activity** (Écran de verrouillage / Dynamic Island / Défilement intelligent de la Watch), là où c'est disponible  
 - **Oscilloscope acoustique** — le visualiseur sonore en direct, gratuit pour tous (les outils de capture pour l'entraînement font partie de Power Pack+)  

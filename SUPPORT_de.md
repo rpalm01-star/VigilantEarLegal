@@ -68,7 +68,7 @@ Der Sicherheitskern ist **kostenlos, für immer**:
 
 - Lokale Geräuschwarnungen (Sirenen, Alarme, Klopfen/Türklingeln, Baby, Person in der Nähe) mit Bildschirm- und optionaler Push-Zustellung  
 - Live-Untertitel im **Sprechermodus** (auf dem Gerät; richtungsbezogen, wo die Hardware dies zulässt)  
-- Unwetter-Feeds für Ihre Region — **NWS** in den USA, **MeteoGate** in Europa, **CMA** in China, **KMA** in Korea, **JMA** in Japan, **ECCC** in Kanada und **INMET** in Brasilien  
+- Unwetter-Feeds für Ihre Region — **NWS** in den USA, **MeteoGate** in Europa, **CMA** in China, **KMA** in Korea, **JMA** in Japan, **ECCC** in Kanada, **BOM** in Australien, **INMET** in Brasilien, **NDMA** in Indien und **SMN** in Mexiko  
 - Übungswarnungen in der **Feature-Spielwiese** (mit Wasserzeichen, sodass sie nie wie ein echter Notfall aussehen)  
 - Richtungshinweise der **Apple Watch** als Begleiter und **Live-Aktivität** (Sperrbildschirm / Dynamic Island / Watch-Smart-Stapel), wo verfügbar  
 - **Acoustic Scope** — der Live-Klangvisualisierer, für alle kostenlos (die Aufnahme-Werkzeuge für das Training gehören zu Power Pack+)  

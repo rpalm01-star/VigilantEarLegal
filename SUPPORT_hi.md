@@ -68,7 +68,7 @@ Vigilant Ear आधिकारिक सरकारी CAP (Common Alerting Pr
 
 - स्थानीय ध्वनि अलर्ट (सायरन, अलार्म, खटखटाहट/डोरबेल, बच्चा, पास में व्यक्ति) ऑन-स्क्रीन और वैकल्पिक पुश डिलीवरी के साथ  
 - **Speaker Mode** लाइव कैप्शन (ऑन-डिवाइस; जहाँ हार्डवेयर अनुमति दे, दिशात्मक)  
-- आपके क्षेत्र के लिए गंभीर-मौसम फ़ीड — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, **Korea KMA**, **Japan JMA**, **Canada ECCC**, **Australia BOM**, और **Brazil INMET**  
+- आपके क्षेत्र के लिए गंभीर-मौसम फ़ीड — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, **Korea KMA**, **Japan JMA**, **Canada ECCC**, **Australia BOM**, **Brazil INMET**, **भारत NDMA**, और **मेक्सिको SMN**  
 - **Feature Playground** अभ्यास अलर्ट (वॉटरमार्क वाले ताकि वे कभी लाइव आपात स्थिति न लगें)  
 - **Apple Watch** साथी दिशा संकेत और **Live Activity** (Lock Screen / Dynamic Island / Watch Smart Stack), जहाँ उपलब्ध हो  
 - **Acoustic Scope** — लाइव साउंड विज़ुअलाइज़र, सबके लिए मुफ़्त (कैप्चर-फ़ॉर-ट्रेनिंग टूल Power Pack+ हैं)  
