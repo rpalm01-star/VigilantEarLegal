@@ -70,6 +70,11 @@ export const DOCS: Doc[] = [
   // the flag alone was serving English to every non-English reader. Verified against the files.
   { slug: "acoustic-scope", file: "ACOUSTICSCOPE", title: "Acoustic Scope", translated: true, inNav: true },
   { slug: "physics", file: "PHYSICS", title: "Physics", translated: false, inNav: true },
+  // English only, like Physics (Robert, 2026-09-25: "don't translate it, always default to
+  // English"). 🔴 GENERATED from the relay's list — never edit it by hand. The relay builds it from
+  // the feeds it serves, so after a relay deploy that changes the feeds, copy the live one here:
+  //   curl -s https://api.vigilantear.com/sources.md > SOURCES.md
+  { slug: "sources", file: "SOURCES", title: "Sources and Licenses", translated: false, inNav: true },
   { slug: "sound-packs", file: "iOSDynamicSoundPacks", title: "Sound Packs", translated: false, inNav: false },
 ];
 

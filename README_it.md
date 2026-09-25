@@ -37,7 +37,7 @@ Usando i due microfoni dell'iPhone, Vigilant Ear misura **l'angolo di un suono e
 ### 🚨 Riconosce i suoni importanti — e ti avvisa
 Un classificatore sul dispositivo identifica centinaia di suoni quotidiani e sorveglia le categorie critiche — **sirene, allarmi — compresa una classe dedicata agli allarmi auto — campanelli/bussate, pianto di un bambino, una persona nelle vicinanze e maltempo estremo.** Quando una di queste scatta, ricevi un avviso chiaro sullo schermo, una **notifica push** facoltativa e un **feedback aptico** distinto — anche quando l'app è in background o il telefono è in standby. Le categorie critiche sono pronte fin dall'inizio, così attivare le notifiche non significa partire da «tutto spento». Disattiva tutte le categorie di avviso e, in background, il motore va completamente in ibernazione per risparmiare batteria. Un livello **Sentinel** verifica gli avvisi con prove indipendenti — direzione, movimento e feed pubblici — così ciò che scatta è corroborato, non l'ipotesi isolata di un classificatore. Funziona in entrambi i sensi: un momento che somiglia a una sirena dentro una canzone viene trattenuto, ma una sirena vera che si ripete sopra la tua musica si fa strada e fa scattare l'avviso.
 
-Le allerte di maltempo estremo arrivano da **53 fonti governative ufficiali in 88 paesi e territori** — gratis per tutti gli utenti. Sono incluse anche le allerte di protezione civile della Nuova Zelanda, con un proprio interruttore **Allerte di emergenza**. Le fonti la cui licenza richiede un riconoscimento sono elencate in «Crediti dei dati», in fondo a questa pagina. I feed vengono limitati a quelli che coprono la zona in cui ti trovi. In Giappone l'app legge anche i **bollettini anticipati** della JMA — gli avvisi in linguaggio semplice emessi giorni prima di un tifone o di forti piogge, non solo le allerte diramate quando il pericolo è ormai arrivato — oltre ai bollettini su acquazzoni improvvisi e frane. Gli avvisi anticipati vengono mostrati in modo discreto, senza il suono e la vibrazione riservati a una vera allerta.
+Le allerte di maltempo estremo arrivano da **53 fonti governative ufficiali in 88 paesi e territori** — gratis per tutti gli utenti. Sono incluse anche le allerte di protezione civile della Nuova Zelanda, con un proprio interruttore **Allerte di emergenza**. I feed vengono limitati a quelli che coprono la zona in cui ti trovi. In Giappone l'app legge anche i **bollettini anticipati** del servizio meteorologico nazionale — gli avvisi in linguaggio semplice emessi giorni prima di un tifone o di forti piogge, non solo le allerte diramate quando il pericolo è ormai arrivato — oltre ai bollettini su acquazzoni improvvisi e frane. Gli avvisi anticipati vengono mostrati in modo discreto, senza il suono e la vibrazione riservati a una vera allerta.
 
 ### ⌚ Apple Watch + Live Activity — basta un'occhiata
 - **App complementare per Apple Watch** — la direzione di un avviso viene indicata sul polso, così un'occhiata ti dice dove guardare. Interfaccia del Watch ridisegnata, con l'icona a orecchio dell'app, un layout HUD delle minacce e il doppio tocco per chiudere un avviso. Gli avvisi possono mostrare la freccia di direzione anche quando l'app del Watch non è aperta.
@@ -111,7 +111,7 @@ Il nucleo di sicurezza è **gratis, per sempre**:
 - **Nome chiamato** — nomi facoltativi che scrivi tu (il tuo, dei bambini, del partner). Una corrispondenza genera un avviso su Watch/telefono con la direzione, non un secondo sottotitolo.
 - **Standing Watch** — lo stato della stanza stessa, sempre attivo e senza nulla da configurare: una spia ciano fissa finché la stanza mantiene il suo andamento, ambra quando qualcosa cambia — una voce nuova, un silenzio improvviso o qualcosa che si avvicina.
 - **Allerte di maltempo estremo** — allerte ufficiali per la tua regione da 53 fonti governative in 88 paesi e territori.
-- **Allerte sismiche (USGS, in tutto il mondo)** — senti una vibrazione e vedi sulla mappa l'area in cui è stata avvertita la scossa quando viene segnalato un terremoto nelle vicinanze. È una conferma dal feed ufficiale dell'USGS — non un'allerta precoce: se hai sentito tremare, ti dice che cos'era. Il rilevamento sul dispositivo dei rombi profondi (infrasuoni) può armare la verifica nel momento stesso in cui il suolo si muove.
+- **Allerte sismiche (in tutto il mondo)** — senti una vibrazione e vedi sulla mappa l'area in cui è stata avvertita la scossa quando viene segnalato un terremoto nelle vicinanze. È una conferma dal feed sismico ufficiale — non un'allerta precoce: se hai sentito tremare, ti dice che cos'era. Il rilevamento sul dispositivo dei rombi profondi (infrasuoni) può armare la verifica nel momento stesso in cui il suolo si muove.
 - **Feature Playground** — avvisi di prova e anteprime delle funzioni con una chiara filigrana ANTEPRIMA.
 - **App complementare per Apple Watch e Live Activity** — direzione e ultimo avviso a colpo d'occhio.
 - **Acoustic Scope** — visualizzazione del suono dal vivo di livello professionale, gratis per tutti. (Gli strumenti di cattura per l'addestramento fanno parte di Power Pack+.)
@@ -171,7 +171,7 @@ Le allerte meteo e sismiche fanno il percorso opposto rispetto all'audio — nul
 ```mermaid
 graph LR
     P1["Vigilant Ear<br/>sul tuo dispositivo"] --> W["Cache delle allerte Wingdings<br/>una copia condivisa · aggiornamento ogni 5 minuti"]
-    W --> N["Feed pubblici ufficiali<br/>53 fonti meteo · 88 paesi e territori<br/>Protezione civile NZ · terremoti USGS"]
+    W --> N["Feed pubblici ufficiali<br/>53 fonti meteo · 88 paesi e territori<br/>Protezione civile NZ · terremoti"]
 ```
 
 ---
@@ -256,15 +256,7 @@ Vigilant Ear è un **ausilio sperimentale per l'accessibilità acustica**, non u
 
 Alcune funzionalità (i marcatori AR della fotocamera, il passaggio all'autorizzazione per gli Avvisi critici quando concessa da Apple, la creazione avanzata di suoni su più pacchetti) sono ancora in evoluzione; la sorveglianza gratuita di Home / Street Watch e i sottotitoli in diretta sono il prodotto di cui puoi fidarti dal primo giorno.
 
-## Crediti dei dati
-
-Alcune fonti ufficiali pubblicano le loro allerte con licenze aperte che richiedono un riconoscimento:
-
-- **Messico** — Servicio Meteorológico Nacional (CONAGUA), CC BY 4.0
-- **Argentina** — Servicio Meteorológico Nacional (Argentina), CC BY 4.0
-- **Germania** — Quelle: Länderübergreifendes Hochwasserportal (LHP), www.hochwasserzentralen.de, CC BY 4.0
-- **Nuova Zelanda** — National Emergency Management Agency (NEMA), CC BY 4.0
-- **Europa** — EUMETNET MeteoAlarm via MeteoGate, meteoalarm.org
+**Fonti e licenze:** [api.vigilantear.com/sources](https://api.vigilantear.com/sources)
 
 ---
 

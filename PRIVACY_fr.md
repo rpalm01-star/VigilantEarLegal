@@ -42,7 +42,7 @@ Lorsque vous utilisez certaines fonctionnalités — ou lorsque l'application en
     *   *Fournisseur :* Données officielles de 53 services météorologiques gouvernementaux couvrant 88 pays et territoires, et du service d'alerte de protection civile de la Nouvelle-Zélande — acheminées vers votre téléphone par une infrastructure que nous exploitons.
 *   **Alertes sismiques (via notre propre service d'alertes)**
     *   *Ce qui est envoyé :* Des requêtes vers un unique flux public mondial de synthèse des séismes — la requête ne contient aucune information de localisation ou de région ; la position de votre appareil n'est utilisée que sur l'appareil pour déterminer si un séisme signalé est proche de vous — récupérées via le même service que les alertes météo ci-dessus, de sorte que votre téléphone ne contacte pas non plus les serveurs d'un gouvernement étranger pour celles-ci
-    *   *Fournisseur :* Flux public de séismes de l'U.S. Geological Survey (USGS), relayé par Wingdings
+    *   *Fournisseur :* Flux public officiel de séismes, relayé par Wingdings
 *   **Identification musicale (optionnelle, Power Pack+)**
     *   *Ce qui est envoyé :* Courtes empreintes audio — jamais d'audio brut — lorsque de la musique est détectée et que Shazam est activé (peut être désactivé dans les paramètres)
     *   *Fournisseur :* Apple Shazam / ShazamKit

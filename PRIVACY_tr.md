@@ -42,7 +42,7 @@ Belirli özellikleri kullandığınızda — veya uygulamanın çalışması iç
     *   *Sağlayıcı:* 88 ülke ve bölgeyi kapsayan 53 devlet meteoroloji kurumunun ve Yeni Zelanda sivil savunma uyarı servisinin resmi verisi — telefonunuza işlettiğimiz altyapı üzerinden.
 *   **Deprem uyarıları (kendi uyarı hizmetimiz üzerinden)**
     *   *Ne gönderilir:* Yukarıdaki hava uyarılarıyla aynı hizmet üzerinden çekilen tek bir dünya çapında kamu deprem özet akışı istekleri; böylece telefonunuz bunlar için de yabancı bir hükümetin sunucularına bağlanmaz — istek hiç konum veya bölge bilgisi taşımaz; cihaz konumu yalnızca bildirilen bir depremin size yakın olup olmadığına cihazda karar vermek için kullanılır
-    *   *Sağlayıcı:* ABD Jeolojik Araştırması (USGS) kamu deprem akışı, Wingdings tarafından iletilir
+    *   *Sağlayıcı:* Resmi kamu deprem akışı, Wingdings tarafından iletilir
 *   **Müzik tanıma (isteğe bağlı, Power Pack+)**
     *   *Ne gönderilir:* Müzik algılandığında ve Shazam açıkken kısa ses parmak izleri — asla ham ses değil (ayarlarda kapatılabilir)
     *   *Sağlayıcı:* Apple Shazam / ShazamKit

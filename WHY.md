@@ -55,7 +55,7 @@ It is encrypted end to end between the two phones. The relay that forwards it ca
 
 ## Warnings from the people who issue them
 
-Severe weather comes from nine government sources — the United States, Europe, Japan, China, Korea, India, Canada, Australia and Brazil — filtered to where you actually are. Earthquake alerts wait for USGS confirmation rather than guessing.
+Severe weather comes from 53 official government sources covering 88 countries and territories, filtered to where you actually are. Earthquake alerts wait for official confirmation rather than guessing.
 
 Those warnings arrive through our aggregation service rather than your phone calling each agency directly, which means **your phone never contacts a foreign government's servers**, and a shared public feed cannot drop your alert because too many people were asking at once. The precise *am I inside this warning area?* test runs on your phone and never leaves it.
 

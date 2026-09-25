@@ -37,7 +37,7 @@ Com os dois microfones do iPhone, o Vigilant Ear mede o **ângulo de um som e se
 ### 🚨 Ele reconhece sons importantes — e avisa você
 Um classificador no aparelho identifica centenas de sons do dia a dia e vigia as categorias críticas — **sirenes, alarmes — incluindo uma classe dedicada a alarmes de carro —, campainhas/batidas, choro de bebê, uma pessoa por perto e clima severo.** Quando uma delas dispara, você recebe um alerta claro na tela, uma **notificação push** opcional e uma **resposta háptica** distinta — mesmo com o app em segundo plano ou o telefone em repouso. As categorias críticas já vêm prontas por padrão, então ativar as notificações não significa “tudo desligado”. Desative todas as categorias de alerta e o mecanismo hiberna por completo em segundo plano para poupar bateria. Uma camada **Sentinel** confronta os alertas com evidências independentes — direção, movimento e feeds públicos —, para que o que dispara seja corroborado, e não o palpite isolado de um classificador. Funciona nos dois sentidos: um momento com formato de sirene dentro de uma música fica retido, mas uma sirene de verdade que se repete por cima da sua música fura o bloqueio e gera o alerta.
 
-Os alertas de clima severo vêm de **53 fontes governamentais oficiais em 88 países e territórios**, gratuitos para todos os usuários. Os alertas de defesa civil da Nova Zelândia também estão incluídos, com um botão próprio, **Alertas de emergência**. As fontes cujas licenças pedem crédito estão listadas em “Créditos dos dados”, no fim desta página. Os feeds são restritos aos que cobrem o lugar onde você está. No Japão, o app também lê os **boletins antecipados** da JMA — os avisos em linguagem simples emitidos dias antes de um tufão ou de chuva forte, e não apenas os alertas emitidos quando o perigo já chegou —, além dos boletins de temporal repentino e de deslizamento de terra. Os avisos antecipados aparecem de forma discreta, sem o som e a vibração reservados a um alerta real.
+Os alertas de clima severo vêm de **53 fontes governamentais oficiais em 88 países e territórios**, gratuitos para todos os usuários. Os alertas de defesa civil da Nova Zelândia também estão incluídos, com um botão próprio, **Alertas de emergência**. Os feeds são restritos aos que cobrem o lugar onde você está. No Japão, o app também lê os **boletins antecipados** do serviço meteorológico nacional — os avisos em linguagem simples emitidos dias antes de um tufão ou de chuva forte, e não apenas os alertas emitidos quando o perigo já chegou —, além dos boletins de temporal repentino e de deslizamento de terra. Os avisos antecipados aparecem de forma discreta, sem o som e a vibração reservados a um alerta real.
 
 ### ⌚ Apple Watch + Live Activity — um olhar e você já sabe
 - **App complementar do Apple Watch** — a direção de um alerta é apontada no seu pulso, então um relance já diz para onde olhar. Interface do Watch redesenhada, com o ícone de orelha do app, layout de HUD de ameaças e toque duplo para dispensar um alerta. Os alertas ainda podem mostrar a seta de direção quando o app do Watch não está aberto.
@@ -111,7 +111,7 @@ O núcleo de segurança é **grátis, para sempre**:
 - **Nome chamado** — nomes opcionais que você digita (o seu, dos filhos, do parceiro). Uma correspondência vira um alerta no Watch/telefone com a direção, e não uma segunda legenda.
 - **Standing Watch** — a condição do próprio ambiente, sempre ativo e sem nada para configurar: uma lâmpada ciano fixa enquanto o ambiente mantém o seu padrão, âmbar quando algo muda — uma voz nova, um silêncio repentino ou algo se aproximando.
 - **Alertas de clima severo** — alertas oficiais para a sua região, de 53 fontes governamentais em 88 países e territórios.
-- **Alertas de terremoto (USGS, no mundo todo)** — sinta uma vibração e veja no mapa a área que sentiu o tremor quando um terremoto for registrado por perto. Uma confirmação do feed oficial do USGS — não um alerta antecipado: se você sentiu o chão tremer, isto diz o que foi. A detecção de estrondos profundos (infrassom) no aparelho pode armar a verificação no instante em que o chão se move.
+- **Alertas de terremoto (no mundo todo)** — sinta uma vibração e veja no mapa a área que sentiu o tremor quando um terremoto for registrado por perto. Uma confirmação do feed oficial de terremotos — não um alerta antecipado: se você sentiu o chão tremer, isto diz o que foi. A detecção de estrondos profundos (infrassom) no aparelho pode armar a verificação no instante em que o chão se move.
 - **Feature Playground** — alertas de prática e prévias de recursos com uma marca d'água PRÉVIA bem visível.
 - **App complementar do Apple Watch e Live Activity** — direção e último alerta num relance.
 - **Acoustic Scope** — visualização de som ao vivo em nível profissional, grátis para todos. (As ferramentas de captura para treinamento fazem parte do Power Pack+.)
@@ -171,7 +171,7 @@ Os alertas de clima e de terremoto fazem o caminho oposto ao do áudio — nada 
 ```mermaid
 graph LR
     P1["Vigilant Ear<br/>No seu aparelho"] --> W["Cache de alertas da Wingdings<br/>uma cópia compartilhada · atualização a cada 5 minutos"]
-    W --> N["Feeds públicos oficiais<br/>53 fontes meteorológicas · 88 países e territórios<br/>Defesa civil da NZ · terremotos do USGS"]
+    W --> N["Feeds públicos oficiais<br/>53 fontes meteorológicas · 88 países e territórios<br/>Defesa civil da NZ · terremotos"]
 ```
 
 ---
@@ -256,15 +256,7 @@ O Vigilant Ear é um **auxílio experimental de acessibilidade acústica**, não
 
 Alguns recursos (marcadores da câmera AR, o upgrade para o entitlement de Alertas Críticos quando concedido pela Apple, criação avançada de sons com vários pacotes) continuam evoluindo; o Home / Street Watch gratuito e as legendas ao vivo são o produto em que você pode confiar desde o primeiro dia.
 
-## Créditos dos dados
-
-Algumas fontes oficiais publicam seus alertas sob licenças abertas que pedem crédito:
-
-- **México** — Servicio Meteorológico Nacional (CONAGUA), CC BY 4.0
-- **Argentina** — Servicio Meteorológico Nacional (Argentina), CC BY 4.0
-- **Alemanha** — Quelle: Länderübergreifendes Hochwasserportal (LHP), www.hochwasserzentralen.de, CC BY 4.0
-- **Nova Zelândia** — National Emergency Management Agency (NEMA), CC BY 4.0
-- **Europa** — EUMETNET MeteoAlarm via MeteoGate, meteoalarm.org
+**Fontes e licenças:** [api.vigilantear.com/sources](https://api.vigilantear.com/sources)
 
 ---
 

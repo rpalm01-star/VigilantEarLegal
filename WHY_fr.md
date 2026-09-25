@@ -55,7 +55,7 @@ C'est chiffré de bout en bout entre les deux téléphones. Le relais qui l'ache
 
 ## Les alertes de ceux qui les émettent
 
-Les alertes météo graves proviennent de neuf sources gouvernementales — États-Unis, Europe, Japon, Chine, Corée, Inde, Canada, Australie et Brésil — filtrées selon l'endroit où vous êtes réellement. Les alertes sismiques attendent la confirmation de l'USGS au lieu de deviner.
+Les alertes météo graves proviennent de 53 sources gouvernementales officielles couvrant 88 pays et territoires, filtrées selon l'endroit où vous êtes réellement. Les alertes sismiques attendent la confirmation officielle au lieu de deviner.
 
 Ces alertes arrivent via notre service d'agrégation plutôt que par un appel direct de votre téléphone à chaque agence, ce qui signifie que **votre téléphone ne contacte jamais les serveurs d'un gouvernement étranger**, et qu'un flux public partagé ne peut pas laisser tomber votre alerte parce que trop de monde interrogeait en même temps. Le test précis *suis-je à l'intérieur de cette zone d'alerte ?* s'exécute sur votre téléphone et n'en sort jamais.
 

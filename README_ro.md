@@ -37,7 +37,7 @@ Folosind cele două microfoane ale iPhone-ului, Vigilant Ear măsoară **unghiul
 ### 🚨 Recunoaște sunetele importante — și te avertizează
 Un clasificator care rulează pe dispozitiv identifică sute de sunete cotidiene și urmărește categoriile critice — **sirene, alarme — inclusiv o clasă dedicată alarmelor auto — sonerii/bătăi în ușă, plâns de bebeluș, o persoană în apropiere și vreme severă.** Când una dintre ele se declanșează, primești o alertă clară pe ecran, o **notificare push** opțională și o **vibrație haptică** distinctă — chiar și atunci când aplicația rulează în fundal sau telefonul este în repaus. Categoriile critice sunt pregătite din start, așa că activarea notificărilor nu înseamnă „totul oprit”. Dacă oprești toate categoriile de alertă, motorul intră complet în hibernare cât timp aplicația e în fundal, ca să economisească bateria. Un strat **Sentinel** verifică alertele prin comparație cu dovezi independente — direcție, mișcare și fluxuri publice — astfel încât ce se declanșează este coroborat, nu presupunerea izolată a unui singur clasificator. Funcționează în ambele sensuri: un moment dintr-o melodie care seamănă cu o sirenă este reținut, dar o sirenă reală care se repetă peste muzica ta răzbate și declanșează alerta.
 
-Avertizările de vreme severă provin din **53 de surse guvernamentale oficiale din 88 de țări și teritorii** — gratuite pentru toți utilizatorii. Sunt incluse și alertele de protecție civilă din Noua Zeelandă, cu propriul comutator **Alerte de urgență**. Sursele ale căror licențe cer menționarea lor sunt enumerate la „Credite pentru date”, la finalul acestei pagini. Fluxurile sunt restrânse la cele care acoperă zona în care te afli. În Japonia, aplicația citește și **buletinele anticipate** ale JMA — anunțurile în limbaj simplu emise cu zile înainte de un taifun sau de ploi abundente, nu doar avertizările emise după ce pericolul a sosit — plus buletinele despre averse bruște și alunecări de teren. Anunțurile anticipate sunt afișate discret, fără sunetul și vibrația rezervate unei avertizări reale.
+Avertizările de vreme severă provin din **53 de surse guvernamentale oficiale din 88 de țări și teritorii** — gratuite pentru toți utilizatorii. Sunt incluse și alertele de protecție civilă din Noua Zeelandă, cu propriul comutator **Alerte de urgență**. Fluxurile sunt restrânse la cele care acoperă zona în care te afli. În Japonia, aplicația citește și **buletinele anticipate** ale serviciului meteorologic național — anunțurile în limbaj simplu emise cu zile înainte de un taifun sau de ploi abundente, nu doar avertizările emise după ce pericolul a sosit — plus buletinele despre averse bruște și alunecări de teren. Anunțurile anticipate sunt afișate discret, fără sunetul și vibrația rezervate unei avertizări reale.
 
 ### ⌚ Apple Watch + Live Activity — o privire și știi
 - **Aplicația însoțitoare pentru Apple Watch** — direcția unei alerte îți este indicată la încheietură, așa că o privire îți spune unde să te uiți. Interfață Watch reproiectată, cu pictograma-ureche a aplicației, aspect HUD pentru amenințări și atingere dublă pentru a închide o alertă. Alertele pot afișa săgeata de direcție chiar și atunci când aplicația de pe Watch nu este deschisă.
@@ -111,7 +111,7 @@ Nucleul de siguranță este **gratuit, pentru totdeauna**:
 - **Nume strigat** — nume opționale pe care le tastezi tu (al tău, ale copiilor, al partenerului). O potrivire înseamnă o alertă pe Watch/telefon, cu direcția, nu o a doua subtitrare.
 - **Standing Watch** — starea proprie a încăperii, mereu activ, fără nimic de configurat: o lampă cyan constantă cât timp încăperea își păstrează tiparul, chihlimbar când ceva se schimbă — o voce nouă, o liniște bruscă sau ceva care se apropie.
 - **Alerte de vreme severă** — avertizări oficiale pentru regiunea ta, de la 53 de surse guvernamentale din 88 de țări și teritorii.
-- **Alerte de cutremur (USGS, în toată lumea)** — simți o vibrație și vezi pe hartă zona în care s-a resimțit, atunci când e raportat un cutremur în apropiere. O confirmare din fluxul oficial USGS — nu o avertizare timpurie: dacă ai simțit o zguduitură, asta îți spune ce a fost. Detecția pe dispozitiv a huruielilor joase (infrasunete) poate activa verificarea în clipa în care se mișcă pământul.
+- **Alerte de cutremur (în toată lumea)** — simți o vibrație și vezi pe hartă zona în care s-a resimțit, atunci când e raportat un cutremur în apropiere. O confirmare din fluxul oficial de cutremure — nu o avertizare timpurie: dacă ai simțit o zguduitură, asta îți spune ce a fost. Detecția pe dispozitiv a huruielilor joase (infrasunete) poate activa verificarea în clipa în care se mișcă pământul.
 - **Feature Playground** — alerte de exercițiu și previzualizări ale funcțiilor, cu un filigran PREVIZUALIZARE clar.
 - **Aplicația însoțitoare pentru Apple Watch și Live Activity** — direcția și ultima alertă, dintr-o privire.
 - **Acoustic Scope** — vizualizare profesională a sunetului în direct, gratuită pentru toată lumea. (Instrumentele de captare pentru antrenare fac parte din Power Pack+.)
@@ -171,7 +171,7 @@ Alertele meteo și de cutremur urmează drumul invers față de sunet — nimic 
 ```mermaid
 graph LR
     P1["Vigilant Ear<br/>Pe dispozitivul tău"] --> W["Cache-ul de alerte Wingdings<br/>o copie comună · reîmprospătare la 5 minute"]
-    W --> N["Fluxuri publice oficiale<br/>53 de surse meteo · 88 de țări și teritorii<br/>Protecție civilă NZ · cutremure USGS"]
+    W --> N["Fluxuri publice oficiale<br/>53 de surse meteo · 88 de țări și teritorii<br/>Protecție civilă NZ · cutremure"]
 ```
 
 ---
@@ -256,15 +256,7 @@ Vigilant Ear este un **ajutor experimental pentru accesibilitate acustică**, nu
 
 Unele capabilități (marcajele AR din imaginea camerei, trecerea la dreptul pentru Alerte critice când este acordat de Apple, crearea avansată de sunete în mai multe pachete) continuă să evolueze; supravegherea gratuită Home / Street și subtitrările în direct sunt produsul pe care te poți baza din prima zi.
 
-## Credite pentru date
-
-Unele surse oficiale își publică avertizările sub licențe deschise care cer menționarea lor:
-
-- **Mexic** — Servicio Meteorológico Nacional (CONAGUA), CC BY 4.0
-- **Argentina** — Servicio Meteorológico Nacional (Argentina), CC BY 4.0
-- **Germania** — Quelle: Länderübergreifendes Hochwasserportal (LHP), www.hochwasserzentralen.de, CC BY 4.0
-- **Noua Zeelandă** — National Emergency Management Agency (NEMA), CC BY 4.0
-- **Europa** — EUMETNET MeteoAlarm via MeteoGate, meteoalarm.org
+**Surse și licențe:** [api.vigilantear.com/sources](https://api.vigilantear.com/sources)
 
 ---
 

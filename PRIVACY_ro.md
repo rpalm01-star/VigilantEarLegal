@@ -42,7 +42,7 @@ Când folosești anumite funcții — sau când aplicația are nevoie de ele ca 
     *   *Furnizor:* Date oficiale de la 53 de servicii meteorologice guvernamentale din 88 de țări și teritorii și de la serviciul de alertă de protecție civilă din Noua Zeelandă — livrate telefonului tău prin infrastructură pe care o operăm.
 *   **Alerte de cutremur (prin propriul nostru serviciu de alerte)**
     *   *Ce se trimite:* Cereri către un singur flux public mondial de sinteză a cutremurelor, preluate prin același serviciu ca alertele meteo de mai sus, astfel încât telefonul tău nu contactează serverele unui guvern străin nici pentru acestea — cererea nu poartă nicio informație de locație sau regiune; locația dispozitivului tău e folosită doar pe dispozitiv ca să decidă dacă un cutremur raportat e lângă tine
-    *   *Furnizor:* Fluxul public de cutremure al U.S. Geological Survey (USGS), retransmis de Wingdings
+    *   *Furnizor:* Fluxul public oficial de cutremure, retransmis de Wingdings
 *   **Identificarea muzicii (opțional, Power Pack+)**
     *   *Ce se trimite:* Amprente audio scurte — niciodată audio brut — când e detectată muzică și Shazam e activat (poate fi oprit în setări)
     *   *Furnizor:* Apple Shazam / ShazamKit

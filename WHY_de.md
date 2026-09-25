@@ -55,7 +55,7 @@ Es ist Ende-zu-Ende zwischen den beiden Telefonen verschlüsselt. Das weiterleit
 
 ## Warnungen von denen, die sie herausgeben
 
-Unwetterwarnungen kommen von neun staatlichen Quellen — USA, Europa, Japan, China, Korea, Indien, Kanada, Australien und Brasilien — gefiltert auf den Ort, an dem du dich tatsächlich befindest. Erdbebenwarnungen warten auf die Bestätigung des USGS, statt zu raten.
+Unwetterwarnungen kommen von 53 offiziellen staatlichen Quellen in 88 Ländern und Gebieten, gefiltert auf den Ort, an dem du dich tatsächlich befindest. Erdbebenwarnungen warten auf die amtliche Bestätigung, statt zu raten.
 
 Diese Warnungen erreichen dich über unseren Aggregationsdienst, statt dass dein Telefon jede Behörde direkt anspricht. Das heißt: **Dein Telefon kontaktiert nie die Server einer ausländischen Regierung**, und ein gemeinsam genutzter öffentlicher Feed kann deine Warnung nicht verwerfen, weil zu viele gleichzeitig angefragt haben. Die genaue Prüfung *bin ich innerhalb dieses Warngebiets?* läuft auf deinem Telefon und verlässt es nie.
 

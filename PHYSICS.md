@@ -298,7 +298,7 @@ two mirrored pairs cross consistently at only one of four candidates.
 
 `CMAltimeter` pressure at ~1 Hz in **kilopascals** (1 Pa ≈ 8 cm of altitude); accelerometer and
 gyroscope at 100 Hz; the microphone's 0.5–40 Hz sub-band. The lab runs unconditionally to arm a
-USGS earthquake poll burst on ground onsets; USGS makes the claim, the phone never does.
+Earthquake-feed poll burst on ground onsets; the official feed makes the claim, the phone never does.
 
 ### 6.2 What 14 hours of quiet look like (MEASURED 2026-09-05→06, both phones, ~47 000 samples)
 

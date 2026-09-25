@@ -42,7 +42,7 @@ Wenn Sie bestimmte Funktionen nutzen — oder wenn die App diese zum Funktionier
     *   *Anbieter:* Amtliche Daten von 53 staatlichen Wetterdiensten in 88 Ländern und Gebieten sowie vom Katastrophenschutz-Warndienst Neuseelands — über von uns betriebene Infrastruktur an Ihr Telefon geliefert.
 *   **Erdbebenwarnungen (über unseren eigenen Warndienst)**
     *   *Was gesendet wird:* Anfragen an einen einzigen weltweiten öffentlichen Erdbeben-Übersichtsfeed — die Anfrage enthält keinerlei Standort- oder Regionsinformationen; Ihr Gerätestandort wird ausschließlich auf dem Gerät verwendet, um zu entscheiden, ob ein gemeldetes Beben in Ihrer Nähe ist — abgerufen über denselben Dienst wie die Wetterwarnungen oben, sodass Ihr Telefon auch dafür keine Server einer ausländischen Regierung kontaktiert
-    *   *Anbieter:* Öffentlicher Erdbeben-Feed des U.S. Geological Survey (USGS), weitergeleitet von Wingdings
+    *   *Anbieter:* Amtlicher öffentlicher Erdbeben-Feed, weitergeleitet von Wingdings
 *   **Musikidentifikation (optional, Power Pack+)**
     *   *Was gesendet wird:* Kurze Audio-Fingerabdrücke — niemals rohes Audio — wenn Musik erkannt wird und Shazam aktiviert ist (kann in den Einstellungen ausgeschaltet werden)
     *   *Anbieter:* Apple Shazam / ShazamKit

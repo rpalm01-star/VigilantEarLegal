@@ -42,7 +42,7 @@ When you use certain features — or when the app needs them to function — **l
     *   *Provider:* Official data from 53 government weather services covering 88 countries and territories, and from New Zealand's civil-defence alert service — delivered to your phone through infrastructure we operate.
 *   **Earthquake alerts (through our own alert service)**
     *   *What is sent:* Requests for a single worldwide public earthquake summary feed, fetched through the same service as the weather alerts above, so your phone does not contact a foreign government's servers for these either — the request carries no location or region information at all; your device location is used only on-device to decide whether a reported quake is near you
-    *   *Provider:* U.S. Geological Survey (USGS) public earthquake feed, relayed by Wingdings
+    *   *Provider:* Official public earthquake feed, relayed by Wingdings
 *   **Music identification (optional, Power Pack+)**
     *   *What is sent:* Short audio fingerprints — never raw audio — when music is detected and Shazam is enabled (can be turned off in settings)
     *   *Provider:* Apple Shazam / ShazamKit

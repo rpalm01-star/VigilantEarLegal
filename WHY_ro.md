@@ -55,7 +55,7 @@ Este criptat cap-la-cap între cele două telefoane. Releul care îl transmite n
 
 ## Avertizări de la cei care le emit
 
-Avertizările meteo severe vin din nouă surse guvernamentale — Statele Unite, Europa, Japonia, China, Coreea, India, Canada, Australia și Brazilia — filtrate după locul în care te afli cu adevărat. Alertele de cutremur așteaptă confirmarea USGS în loc să ghicească.
+Avertizările meteo severe vin din 53 de surse guvernamentale oficiale din 88 de țări și teritorii, filtrate după locul în care te afli cu adevărat. Alertele de cutremur așteaptă confirmarea oficială în loc să ghicească.
 
 Aceste avertizări ajung prin serviciul nostru de agregare, în loc ca telefonul tău să contacteze direct fiecare agenție, ceea ce înseamnă că **telefonul tău nu contactează niciodată serverele unui guvern străin**, iar un flux public partajat nu-ți poate pierde alerta fiindcă prea mulți întrebau în același timp. Verificarea exactă *sunt în interiorul acestei zone de avertizare?* rulează pe telefonul tău și nu iese niciodată din el.
 

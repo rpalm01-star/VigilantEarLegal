@@ -55,7 +55,7 @@ I microfoni di un telefono distano pochi centimetri, quanto basta per indicarti 
 
 ## Allarmi da chi li emette
 
-Il maltempo grave arriva da nove fonti governative — Stati Uniti, Europa, Giappone, Cina, Corea, India, Canada, Australia e Brasile — filtrate sul posto in cui ti trovi davvero. Gli avvisi sismici aspettano la conferma dell'USGS invece di tirare a indovinare.
+Il maltempo grave arriva da 53 fonti governative ufficiali in 88 paesi e territori, filtrate sul posto in cui ti trovi davvero. Gli avvisi sismici aspettano la conferma ufficiale invece di tirare a indovinare.
 
 Quegli avvisi ti arrivano attraverso il nostro servizio di aggregazione invece che con una chiamata diretta del tuo telefono a ciascuna agenzia, il che significa che **il tuo telefono non contatta mai i server di un governo straniero**, e che un feed pubblico condiviso non può far cadere il tuo avviso perché troppe persone stavano interrogando nello stesso momento. La verifica precisa *sono dentro quest'area di allerta?* gira sul tuo telefono e non ne esce mai.
 

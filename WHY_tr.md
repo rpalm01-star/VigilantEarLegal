@@ -55,7 +55,7 @@ Bir telefonun mikrofonları birkaç santimetre aralıklıdır; bu bir yön söyl
 
 ## Uyarıları yayınlayanlardan
 
-Şiddetli hava uyarıları dokuz resmî kaynaktan gelir — Amerika Birleşik Devletleri, Avrupa, Japonya, Çin, Kore, Hindistan, Kanada, Avustralya ve Brezilya — gerçekte bulunduğunuz yere göre süzülerek. Deprem uyarıları tahmin yürütmek yerine USGS onayını bekler.
+Şiddetli hava uyarıları 88 ülke ve bölgedeki 53 resmî devlet kaynağından gelir, gerçekte bulunduğunuz yere göre süzülerek. Deprem uyarıları tahmin yürütmek yerine resmî onayı bekler.
 
 Bu uyarılar, telefonunuzun her kuruma doğrudan bağlanması yerine toplama servisimiz üzerinden ulaşır; bu da **telefonunuzun hiçbir zaman yabancı bir devletin sunucularına bağlanmadığı** ve paylaşılan bir kamusal akışın, aynı anda çok kişi sorguladı diye uyarınızı düşüremeyeceği anlamına gelir. *Bu uyarı alanının içinde miyim?* sorusunun kesin sınaması telefonunuzda çalışır ve oradan hiç çıkmaz.
 

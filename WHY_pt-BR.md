@@ -55,7 +55,7 @@ O **Remote Link** alcança alguém que não está com você: vídeo e texto de l
 
 ## Avisos de quem os emite
 
-Alertas meteorológicos graves vêm de nove fontes governamentais — Estados Unidos, Europa, Japão, China, Coreia, Índia, Canadá, Austrália e Brasil — filtrados para onde você está de verdade. Alertas de terremoto esperam a confirmação do USGS em vez de chutar.
+Alertas meteorológicos graves vêm de 53 fontes governamentais oficiais em 88 países e territórios, filtrados para onde você está de verdade. Alertas de terremoto esperam a confirmação oficial em vez de chutar.
 
 Esses avisos chegam pelo nosso serviço de agregação, em vez de o seu telefone ligar direto para cada agência, o que significa que **seu telefone nunca contata os servidores de um governo estrangeiro**, e que um feed público compartilhado não pode derrubar o seu alerta porque muita gente estava consultando ao mesmo tempo. A verificação precisa de *estou dentro desta área de alerta?* roda no seu telefone e nunca sai dele.
 

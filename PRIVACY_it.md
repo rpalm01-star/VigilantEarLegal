@@ -42,7 +42,7 @@ Quando utilizza determinate funzioni — o quando l'applicazione ne ha bisogno p
     *   *Fornitore:* Dati ufficiali di 53 servizi meteorologici governativi in 88 paesi e territori, e del servizio di allerta della protezione civile della Nuova Zelanda — consegnati al tuo telefono tramite infrastruttura che gestiamo.
 *   **Allerte sismiche (tramite il nostro servizio di allerta)**
     *   *Cosa viene inviato:* Richieste a un unico feed pubblico mondiale di sintesi dei terremoti — la richiesta non contiene alcuna informazione di posizione o regione; la posizione del suo dispositivo viene utilizzata solo sul dispositivo per determinare se un terremoto segnalato è vicino a lei — recuperate tramite lo stesso servizio delle allerte meteo qui sopra, così il suo telefono non contatta i server di un governo straniero nemmeno per queste
-    *   *Fornitore:* Feed pubblico dei terremoti dello U.S. Geological Survey (USGS), inoltrato da Wingdings
+    *   *Fornitore:* Feed pubblico ufficiale dei terremoti, inoltrato da Wingdings
 *   **Identificazione musicale (opzionale, Power Pack+)**
     *   *Cosa viene inviato:* Brevi impronte audio — mai audio grezzo — quando viene rilevata musica e Shazam è abilitato (può essere disattivato nelle impostazioni)
     *   *Fornitore:* Apple Shazam / ShazamKit

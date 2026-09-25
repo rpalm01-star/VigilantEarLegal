@@ -55,7 +55,7 @@ Está cifrado de extremo a extremo entre los dos teléfonos. El relé que lo ree
 
 ## Avisos de quienes los emiten
 
-Los avisos meteorológicos graves vienen de nueve fuentes gubernamentales — Estados Unidos, Europa, Japón, China, Corea, India, Canadá, Australia y Brasil — filtrados al lugar donde estás de verdad. Las alertas de terremoto esperan la confirmación del USGS en vez de adivinar.
+Los avisos meteorológicos graves vienen de 53 fuentes gubernamentales oficiales en 88 países y territorios, filtrados al lugar donde estás de verdad. Las alertas de terremoto esperan la confirmación oficial en vez de adivinar.
 
 Esos avisos llegan a través de nuestro servicio de agregación en vez de que tu teléfono llame a cada agencia directamente, lo que significa que **tu teléfono nunca contacta con los servidores de un gobierno extranjero**, y que un feed público compartido no puede dejar caer tu alerta porque hubiera demasiada gente preguntando a la vez. La comprobación precisa de *¿estoy dentro de esta zona de aviso?* se hace en tu teléfono y nunca sale de él.
 
