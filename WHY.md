@@ -72,7 +72,9 @@ They disagree often, and that's the point. A siren-shaped moment inside a song i
 
 It also lets the app say it's unsure instead of guessing — the confidence marks on captions, the voice shown as unattributed rather than wearing the wrong name, the alert that waits one more frame for corroboration. A single model can't know when it's wrong. Several can, as long as something decides, moment by moment, which one to believe.
 
-The **Acoustic Scope** puts that raw perception on screen — spectrum, spectrogram, ⅓-octave bands, chroma, harmonic partials. It's **free for everyone**, because for a lot of people, watching the shape of a sound is the fastest way to understand it. There's a [field guide to reading it](/en/acoustic-scope/).
+The **Acoustic Scope** puts that raw perception on screen — spectrum, spectrogram, ⅓-octave bands, chroma, harmonic partials. We tuned its levels on real phones against a reference sound level meter, so an engineer can work with the numbers. It's **free for everyone**, because for a lot of people, watching the shape of a sound is the fastest way to understand it. There's a [field guide to reading it](/en/acoustic-scope/).
+
+Its **Visualizer** turns the room's music into a light show: every beat detonates a ring, the bass makes the whole scene breathe, the highs rain down as sparkles. Put it on a TV or a projector and the wall joins the party, with your DJ name in the corner like the artist's. You don't have to hear to entertain a room.
 
 ## Private by design
 
