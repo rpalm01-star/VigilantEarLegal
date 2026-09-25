@@ -40,7 +40,7 @@ iOS Ayarları’nda **Mikrofon** iznini verdiğinizden emin olun. Vigilant Ear a
 
 ### Hava uyarıları ne kadar doğru?
 
-Vigilant Ear resmi hükümet CAP (Common Alerting Protocol) verisini kullanır. Uyarılar, Ulusal Hava Servisi ve diğer uluslararası kurumların (Avrupa MeteoGate, Çin CMA, Kore KMA, Japonya Meteoroloji Ajansı, Kanada Çevre ve İklim Değişikliği, Avustralya BOM ve Brezilya INMET dahil) verdiği veri kadar doğrudur. Avrupa uyarıları, resmi MeteoGate verisini yaklaşık her 15 dakikada bir yenileyen küçük bir önbelleğimiz üzerinden gelir — kullanıcı tabanımız kamu akışının istek sınırlarını aştıkça uyarıları herkes için güvenilir tutar. Konum simülasyonu, kapsam boşlukları veya ağ gecikmeleri güncelleme sıklığını ara sıra etkileyebilir.
+Vigilant Ear resmi hükümet CAP (Common Alerting Protocol) verisini kullanır. Uyarılar, uyarıları yayımlayan devlet kurumlarının (88 ülke ve bölgede 53 resmi kaynak) verdiği veri kadar doğrudur. Avrupa uyarıları, resmi Avrupa verisini yaklaşık her 15 dakikada bir yenileyen küçük bir önbelleğimiz üzerinden gelir — kullanıcı tabanımız kamu akışının istek sınırlarını aştıkça uyarıları herkes için güvenilir tutar. Konum simülasyonu, kapsam boşlukları veya ağ gecikmeleri güncelleme sıklığını ara sıra etkileyebilir.
 
 ### Uygulama arka planda çalışır mı?
 
@@ -68,7 +68,7 @@ Güvenlik çekirdeği **sonsuza dek ücretsizdir**:
 
 - Yerel ses uyarıları (siren, alarm, vuruş/zil, bebek, yakındaki kişi) ekranda ve isteğe bağlı anlık bildirimle  
 - **Speaker Mode** canlı altyazılar (cihazda; donanım izin verdiğinde yönlü)  
-- Bölgeniz için şiddetli hava akışları — ABD **NWS**, Avrupa **MeteoGate**, **Çin CMA**, **Kore KMA**, **Japonya JMA**, **Kanada ECCC**, **Avustralya BOM**, **Brezilya INMET**, **Hindistan NDMA** ve **Meksika SMN**  
+- Bölgeniz için şiddetli hava akışları — **88 ülke ve bölgede 53 resmi kaynak**  
 - **Feature Playground** alıştırma uyarıları (canlı acil durum gibi durmasınlar diye filigranlı)  
 - **Apple Watch** eşlikçi yön ipuçları ve **Live Activity** (Kilit Ekranı / Dynamic Island / Watch Smart Stack), varsa  
 - **Acoustic Scope** — canlı ses görselleştirici, herkes için ücretsiz (eğitim için yakalama araçları Power Pack+)  

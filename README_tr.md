@@ -37,7 +37,7 @@ Vigilant Ear, iPhone'un iki mikrofonunu kullanarak **bir sesin açısını ve ö
 ### 🚨 Önemli sesleri tanır — ve sizi uyarır
 Cihaz üzerinde çalışan bir sınıflandırıcı yüzlerce gündelik sesi tanır ve kritik kategorileri izler — **sirenler, alarmlar — araba alarmlarına ayrılmış özel bir sınıf dahil — kapı zilleri/kapı vuruşları, bebek ağlaması, yakındaki bir kişi ve şiddetli hava.** Bunlardan biri tetiklendiğinde net bir ekran uyarısı, isteğe bağlı bir **anlık bildirim** ve ayırt edilebilir bir **titreşim** alırsınız — uygulama arka plandayken ya da telefon uyku modundayken bile. Kritik kategoriler varsayılan olarak hazır gelir; böylece bildirimleri etkinleştirmek “her şey kapalı” anlamına gelmez. Tüm uyarı kategorilerini kapatırsanız motor, pil tasarrufu için arka plandayken tamamen uykuya geçer. Bir **Sentinel** katmanı uyarıları bağımsız kanıtlarla — yön, hareket ve kamuya açık akışlar — çapraz denetler; böylece tetiklenen şey tek bir sınıflandırıcının tahmini değil, doğrulanmış bir uyarıdır. Bu iki yönlü işler: bir şarkının içindeki siren benzeri bir an bekletilir, ama müziğinizin arasından tekrar tekrar duyulan gerçek bir siren araya girer ve uyarı verir.
 
-Şiddetli hava uyarıları resmi kamu akışlarından gelir — ABD **NWS**, Avrupa **MeteoGate**, **Çin CMA**, **Kore KMA**, **Japonya JMA**, **Kanada ECCC**, **Avustralya BOM**, **Brezilya INMET**, **Hindistan NDMA** ve **Meksika SMN** — ve tüm kullanıcılar için ücretsizdir. Meksika'nın uyarıları, ülkenin Servicio Meteorológico Nacional kurumu tarafından CC BY 4.0 lisansıyla yayımlanır. Akışlar, bulunduğunuz yeri kapsayanlarla sınırlandırılır. Japonya'da uygulama JMA'nın **ön bültenlerini** de okur — yalnızca tehlike geldiğinde yayımlanan uyarıları değil, bir tayfundan ya da şiddetli yağmurdan günler önce yayımlanan sade dilli duyuruları — ayrıca ani sağanak ve heyelan bültenlerini. Ön duyurular, gerçek bir uyarıya ayrılmış ses ve titreşim olmadan sessizce gösterilir.
+Şiddetli hava uyarıları **88 ülke ve bölgeyi kapsayan 53 resmi devlet kaynağından** gelir ve tüm kullanıcılar için ücretsizdir. Yeni Zelanda'nın sivil savunma acil durum uyarıları da kendi **Acil Durum Uyarıları** anahtarıyla dahildir. Lisansı atıf gerektiren kaynaklar, bu sayfanın sonundaki “Veri kaynakları” bölümünde listelenir. Akışlar, bulunduğunuz yeri kapsayanlarla sınırlandırılır. Japonya'da uygulama JMA'nın **ön bültenlerini** de okur — yalnızca tehlike geldiğinde yayımlanan uyarıları değil, bir tayfundan ya da şiddetli yağmurdan günler önce yayımlanan sade dilli duyuruları — ayrıca ani sağanak ve heyelan bültenlerini. Ön duyurular, gerçek bir uyarıya ayrılmış ses ve titreşim olmadan sessizce gösterilir.
 
 ### ⌚ Apple Watch + Live Activity — bir bakışta bilin
 - **Apple Watch eşlikçisi** — bir uyarının yönü bileğinizde gösterilir; tek bir bakış nereye bakmanız gerektiğini söyler. Uygulamanın kulak simgesi, tehdit HUD düzeni ve bir uyarıyı çift dokunarak kapatma özelliğiyle yeniden tasarlanmış Watch arayüzü. Watch uygulaması açık değilken de uyarılar yön okunu gösterebilir.
@@ -110,7 +110,7 @@ Güvenlik çekirdeği **sonsuza dek ücretsizdir**:
 - **Canlı altyazılar** — Konuşmacı Modu; cihaz üzerinde, donanımın izin verdiği yerde yönlü; dürüst güven işaretleri, ~2 saniyelik kendi kendini düzeltme, Bluetooth işitme cihazlarına isteğe bağlı sesli çıkış ve Yön Tonları ile.
 - **İsim Çağrıldı** — yazdığınız isteğe bağlı isimler (sizinki, çocuklarınızınki, eşinizinki). Bir eşleşme ikinci bir altyazı değil, kerteriz bilgisi içeren bir Watch/telefon uyarısıdır.
 - **Sürekli Nöbet** — odanın kendi durumu; her zaman açık, ayarlanacak hiçbir şey yok: oda alışılmış düzenini korudukça sabit bir camgöbeği lamba, bir şey değiştiğinde kehribar — yeni bir ses, ani bir sessizlik ya da yaklaşan bir şey.
-- **Şiddetli hava uyarıları** — bölgeniz için NWS, MeteoGate (Avrupa — 5 dakikalık uyarı önbelleğimizden taze olarak sunulur), CMA, KMA, JMA (Japonya), ECCC (Kanada), BOM (Avustralya), INMET (Brezilya), NDMA (Hindistan) ve SMN (Meksika).
+- **Şiddetli hava uyarıları** — bölgeniz için 88 ülke ve bölgedeki 53 devlet kaynağından resmi uyarılar.
 - **Deprem uyarıları (USGS, dünya çapında)** — yakınınızda bir deprem bildirildiğinde bir titreşim hissedin ve sarsıntının hissedildiği alanı haritanızda görün. Resmi USGS akışından gelen bir doğrulamadır — erken uyarı değildir: sarsıntı hissettiyseniz bunun ne olduğunu size söyler. Cihaz üzerindeki derin gürültü (infrases) algılaması, yer hareket ettiği anda bu kontrolü devreye alabilir.
 - **Özellik Deneme Alanı** — belirgin bir ÖNİZLEME filigranıyla alıştırma uyarıları ve özellik önizlemeleri.
 - **Apple Watch eşlikçisi ve Live Activity** — bir bakışta yön ve son uyarı.
@@ -171,7 +171,7 @@ Hava durumu ve deprem uyarıları sesin tam tersi bir yol izler — sesinize dai
 ```mermaid
 graph LR
     P1["Vigilant Ear<br/>Cihazınızda"] --> W["Wingdings uyarı önbelleği<br/>tek ortak kopya · 5 dakikada bir yenileme"]
-    W --> N["Resmi kamu akışları<br/>NWS · MeteoGate · JMA · KMA · CMA<br/>ECCC · BOM · INMET · NDMA · SMN · USGS"]
+    W --> N["Resmi kamu akışları<br/>53 hava kaynağı · 88 ülke ve bölge<br/>NZ sivil savunma · USGS depremleri"]
 ```
 
 ---
@@ -255,6 +255,16 @@ Arayüz, uyarılar ve altyazılar dahil tamamen şu dillere yerelleştirilmişti
 Vigilant Ear **deneysel bir akustik erişilebilirlik yardımcısıdır**; sertifikalı bir can güvenliği aracı değildir. Konum belirleme çözünürlüğü; çevreye, hava koşullarına, rüzgâra ve mikrofon donanımına göre değişir. **Olağan çevresel farkındalığınızı her zaman koruyun** — güvenlik bilgisi için tek kaynağınız olarak ona güvenmeyin.
 
 Bazı yetenekler (kamera AR işaretleri, Apple tarafından verildiğinde Kritik Uyarılar yetkisine yükseltme, gelişmiş çoklu paketli ses oluşturma) gelişmeye devam ediyor; ücretsiz Ev / Sokak Nöbeti ve canlı altyazılar, ilk günden güvenebileceğiniz üründür.
+
+## Veri kaynakları
+
+Bazı resmi kaynaklar uyarılarını atıf gerektiren açık lisanslarla yayımlar:
+
+- **Meksika** — Servicio Meteorológico Nacional (CONAGUA), CC BY 4.0
+- **Arjantin** — Servicio Meteorológico Nacional (Argentina), CC BY 4.0
+- **Almanya** — Quelle: Länderübergreifendes Hochwasserportal (LHP), www.hochwasserzentralen.de, CC BY 4.0
+- **Yeni Zelanda** — National Emergency Management Agency (NEMA), CC BY 4.0
+- **Avrupa** — EUMETNET MeteoAlarm via MeteoGate, meteoalarm.org
 
 ---
 

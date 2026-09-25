@@ -37,7 +37,7 @@ Grâce aux deux microphones de l'iPhone, Vigilant Ear mesure **l'angle d'un son 
 ### 🚨 Il reconnaît les sons importants — et vous avertit
 Un classificateur embarqué identifie des centaines de sons du quotidien et surveille les catégories critiques — **sirènes, alarmes — dont une classe dédiée aux alarmes de voiture — sonnettes/coups à la porte, pleurs de bébé, une personne à proximité et météo violente.** Quand l'une d'elles se déclenche, vous recevez une alerte claire à l'écran, une **notification push** facultative et un retour **haptique** distinctif — même lorsque l'app est en arrière-plan ou que le téléphone est en veille. Les catégories critiques sont prêtes par défaut : activer les notifications ne veut donc pas dire « tout est désactivé ». Désactivez toutes les catégories d'alerte et le moteur hiberne complètement en arrière-plan pour économiser la batterie. Une couche **Sentinel** recoupe les alertes avec des preuves indépendantes — direction, mouvement et flux publics — pour que ce qui se déclenche soit corroboré, et non la supposition isolée d'un classificateur. Cela fonctionne dans les deux sens : un passage d'une chanson qui ressemble à une sirène est retenu, mais une vraie sirène qui se répète à travers votre musique passe outre et déclenche l'alerte.
 
-Les alertes de météo violente proviennent de flux publics officiels — **NWS** aux États-Unis, **MeteoGate** en Europe, **CMA en Chine**, **KMA en Corée**, **JMA au Japon**, **ECCC au Canada**, **BOM en Australie**, **INMET au Brésil**, **NDMA en Inde** et **SMN au Mexique** — gratuits pour tous les utilisateurs. Les alertes du Mexique sont publiées par son Servicio Meteorológico Nacional sous licence CC BY 4.0. Seuls les flux qui couvrent l'endroit où vous vous trouvez sont retenus. Au Japon, l'app lit aussi les **bulletins anticipés** de la JMA — les avis en langage courant publiés plusieurs jours avant un typhon ou de fortes pluies, et pas seulement les alertes émises une fois le danger arrivé — ainsi que les bulletins d'averses soudaines et de glissements de terrain. Les avis anticipés s'affichent discrètement, sans le son ni la vibration réservés à une véritable alerte.
+Les alertes de météo violente proviennent de **53 sources gouvernementales officielles couvrant 88 pays et territoires** — gratuites pour tous les utilisateurs. Les alertes de protection civile de la Nouvelle-Zélande sont aussi incluses, avec leur propre interrupteur **Alertes d'urgence**. Les sources dont la licence demande une mention figurent sous « Crédits des données », en fin de page. Seuls les flux qui couvrent l'endroit où vous vous trouvez sont retenus. Au Japon, l'app lit aussi les **bulletins anticipés** de la JMA — les avis en langage courant publiés plusieurs jours avant un typhon ou de fortes pluies, et pas seulement les alertes émises une fois le danger arrivé — ainsi que les bulletins d'averses soudaines et de glissements de terrain. Les avis anticipés s'affichent discrètement, sans le son ni la vibration réservés à une véritable alerte.
 
 ### ⌚ Apple Watch + Live Activity — un regard, et vous savez
 - **Compagnon Apple Watch** — la direction d'une alerte s'affiche sur votre poignet : un coup d'œil vous dit où regarder. Interface Watch repensée, avec l'icône d'oreille de l'app, une disposition de type HUD pour les menaces et un double toucher pour fermer une alerte. Les alertes peuvent afficher la flèche de direction même lorsque l'app Watch n'est pas ouverte.
@@ -110,7 +110,7 @@ Le socle de sécurité est **gratuit, pour toujours** :
 - **Sous-titres en direct** — Speaker Mode, sur l'appareil, directionnels quand le matériel le permet, avec des marques de confiance honnêtes, une autocorrection en ~2 secondes, une lecture à voix haute facultative vers les appareils auditifs Bluetooth, et les Tonalités de direction.
 - **Nom appelé** — des noms facultatifs que vous saisissez (le vôtre, ceux de vos enfants, de votre partenaire). Une correspondance déclenche une alerte Watch/téléphone avec le relèvement, et non un second sous-titre.
 - **Standing Watch** — l'état propre de la pièce, toujours actif, sans rien à configurer : un voyant cyan fixe tant que la pièce garde son profil habituel, ambre quand quelque chose change — une nouvelle voix, un silence soudain ou quelque chose qui approche.
-- **Alertes de météo violente** — NWS, MeteoGate (Europe — servi à jour depuis notre cache d'alertes actualisé toutes les 5 minutes), CMA, KMA, JMA (Japon), ECCC (Canada), BOM (Australie), INMET (Brésil), NDMA (Inde) et SMN (Mexique) pour votre région.
+- **Alertes de météo violente** — alertes officielles pour votre région, issues de 53 sources gouvernementales dans 88 pays et territoires.
 - **Alertes sismiques (USGS, monde entier)** — sentez une vibration et voyez sur votre carte la zone où la secousse a été ressentie lorsqu'un séisme est signalé à proximité. Une confirmation issue du flux officiel de l'USGS — pas une alerte précoce : si vous avez senti une secousse, elle vous dit ce que c'était. La détection sur l'appareil des grondements profonds (infrasons) peut armer la vérification dès que le sol bouge.
 - **Feature Playground** — alertes d'entraînement et aperçus des fonctionnalités, avec un filigrane APERÇU bien visible.
 - **Compagnon Apple Watch et Live Activity** — la direction et la dernière alerte, d'un coup d'œil.
@@ -171,7 +171,7 @@ Les alertes météo et sismiques suivent le chemin inverse de l'audio — rien d
 ```mermaid
 graph LR
     P1["Vigilant Ear<br/>Sur votre appareil"] --> W["Cache d'alertes Wingdings<br/>une copie partagée · actualisée toutes les 5 minutes"]
-    W --> N["Flux publics officiels<br/>NWS · MeteoGate · JMA · KMA · CMA<br/>ECCC · BOM · INMET · NDMA · SMN · USGS"]
+    W --> N["Flux publics officiels<br/>53 sources météo · 88 pays et territoires<br/>Protection civile NZ · séismes de l'USGS"]
 ```
 
 ---
@@ -255,6 +255,16 @@ Entièrement localisé — interface, alertes et sous-titres — en **anglais, e
 Vigilant Ear est une **aide expérimentale à l'accessibilité acoustique**, et non un outil certifié de sécurité des personnes. La résolution de la localisation varie selon l'environnement, la météo, le vent et le matériel du microphone. **Restez toujours aussi attentif à votre environnement que d'habitude** — ne comptez pas sur l'app comme seule source d'informations de sécurité.
 
 Certaines fonctionnalités (marqueurs RA de la caméra, passage à l'autorisation Alertes critiques lorsqu'Apple l'accordera, création avancée de sons multi-packs) continuent d'évoluer ; la surveillance Home / Street gratuite et les sous-titres en direct sont le produit auquel vous pouvez vous fier dès le premier jour.
+
+## Crédits des données
+
+Certaines sources officielles publient leurs alertes sous des licences ouvertes qui demandent une mention :
+
+- **Mexique** — Servicio Meteorológico Nacional (CONAGUA), CC BY 4.0
+- **Argentine** — Servicio Meteorológico Nacional (Argentina), CC BY 4.0
+- **Allemagne** — Quelle: Länderübergreifendes Hochwasserportal (LHP), www.hochwasserzentralen.de, CC BY 4.0
+- **Nouvelle-Zélande** — National Emergency Management Agency (NEMA), CC BY 4.0
+- **Europe** — EUMETNET MeteoAlarm via MeteoGate, meteoalarm.org
 
 ---
 

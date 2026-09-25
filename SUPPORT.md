@@ -40,7 +40,7 @@ Ensure you have granted **Microphone** permission in iOS Settings. Vigilant Ear 
 
 ### How accurate are the weather alerts?
 
-Vigilant Ear uses official government CAP (Common Alerting Protocol) data. Alerts are as accurate as the data provided by the National Weather Service and other international agencies (including Europe MeteoGate, China CMA, Korea KMA, the Japan Meteorological Agency, Environment and Climate Change Canada, Australia's BOM, and Brazil's INMET). European alerts are delivered through a small cache we operate that refreshes the official MeteoGate data about every 15 minutes — this keeps alerts reliable for everyone as our user base grows past the public feed's request limits. Location simulation, coverage gaps, or network delays may occasionally affect update frequency.
+Vigilant Ear uses official government CAP (Common Alerting Protocol) data. Alerts are as accurate as the data provided by the issuing government agencies — 53 official sources covering 88 countries and territories. European alerts are delivered through a small cache we operate that refreshes the official European data about every 15 minutes — this keeps alerts reliable for everyone as our user base grows past the public feed's request limits. Location simulation, coverage gaps, or network delays may occasionally affect update frequency.
 
 ### Does the app work in the background?
 
@@ -68,7 +68,7 @@ The safety core is **free, forever**:
 
 - Local sound alerts (sirens, alarms, knocks/doorbells, baby, person nearby) with on-screen and optional push delivery  
 - **Speaker Mode** live captions (on-device; directional where hardware allows)  
-- Severe-weather feeds for your region — U.S. **NWS**, Europe **MeteoGate**, **China CMA**, **Korea KMA**, **Japan JMA**, **Canada ECCC**, **Australia BOM**, **Brazil INMET**, **India NDMA**, and **Mexico SMN**  
+- Severe-weather feeds for your region — **53 official sources in 88 countries and territories**  
 - **Feature Playground** practice alerts (watermarked so they never look like a live emergency)  
 - **Apple Watch** companion direction cues and **Live Activity** (Lock Screen / Dynamic Island / Watch Smart Stack), where available  
 - **Acoustic Scope** — the live sound visualizer, free for everyone (the capture-for-training tools are Power Pack+)  

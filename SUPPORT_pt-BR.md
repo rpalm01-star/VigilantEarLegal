@@ -40,7 +40,7 @@ Certifique-se de ter concedido permissão de **Microfone** em Ajustes do iOS. O 
 
 ### Quão precisos são os alertas de clima?
 
-O Vigilant Ear consulta feeds oficiais de governos CAP (Common Alerting Protocol). Os alertas são tão precisos quanto os dados fornecidos pelo National Weather Service e outras agências internacionais (incluindo MeteoGate na Europa, CMA na China, KMA na Coreia, a Agência Meteorológica do Japão, o Ambiente e Mudanças Climáticas do Canadá e o INMET do Brasil). A simulação de localização, lacunas de cobertura ou atrasos na rede podem ocasionalmente afetar a frequência de atualização. Os alertas europeus são entregues por um pequeno cache que operamos e que atualiza os dados oficiais do MeteoGate a cada 15 minutos, aproximadamente — assim os alertas continuam confiáveis para todos à medida que nossa base de usuários ultrapassa os limites de requisições do feed público.
+O Vigilant Ear consulta feeds oficiais de governos CAP (Common Alerting Protocol). Os alertas são tão precisos quanto os dados fornecidos pelas agências governamentais que os emitem — 53 fontes oficiais em 88 países e territórios. A simulação de localização, lacunas de cobertura ou atrasos na rede podem ocasionalmente afetar a frequência de atualização. Os alertas europeus são entregues por um pequeno cache que operamos e que atualiza os dados oficiais europeus a cada 15 minutos, aproximadamente — assim os alertas continuam confiáveis para todos à medida que nossa base de usuários ultrapassa os limites de requisições do feed público.
 
 ### O aplicativo funciona em segundo plano?
 
@@ -68,7 +68,7 @@ O núcleo de segurança é **gratuito, para sempre**:
 
 - Alertas sonoros locais (sirenes, alarmes, batidas/campainhas, bebê, pessoa por perto) com entrega na tela e notificações push opcionais  
 - Legendas ao vivo do **Speaker Mode** (no dispositivo; direcional onde o hardware permite)  
-- Feeds de clima severo para a sua região — **NWS** dos EUA, **MeteoGate** da Europa, **CMA** da China, **KMA** da Coreia, **JMA** do Japão, **ECCC** do Canadá, **BOM** da Austrália, **INMET** do Brasil, **NDMA** da Índia e **SMN** do México  
+- Feeds de clima severo para a sua região — **53 fontes oficiais em 88 países e territórios**  
 - Prática de alertas da **Zona de Testes** (com marca d'água para que nunca pareçam uma emergência real)  
 - Dicas de direção de companheiro do **Apple Watch** e **Live Activity** (Tela de Bloqueio / Dynamic Island / Conjunto Inteligente do Watch), onde disponível  
 - **Escopo Acústico** — o visualizador de som ao vivo, grátis para todos (as ferramentas de captura para treinamento são do Power Pack+)  

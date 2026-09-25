@@ -37,7 +37,7 @@ Mit den beiden Mikrofonen des iPhones misst Vigilant Ear den **Winkel eines Ger�
 ### 🚨 Die App erkennt wichtige Geräusche — und warnt Sie
 Ein Klassifikator auf dem Gerät erkennt Hunderte alltäglicher Geräusche und überwacht die kritischen Kategorien — **Sirenen, Alarme — einschließlich einer eigenen Klasse für Autoalarmanlagen —, Türklingeln/Klopfen, Babyweinen, eine Person in der Nähe und Unwetter.** Schlägt eine davon an, erhalten Sie eine klare Warnung auf dem Bildschirm, optional eine **Push-Benachrichtigung** und eine unverwechselbare **Haptik** — auch wenn die App im Hintergrund läuft oder das Telefon im Standby ist. Kritische Kategorien sind standardmäßig aktiv, damit das Einschalten von Benachrichtigungen nicht „alles aus“ bedeutet. Schalten Sie alle Warnkategorien aus, geht die Engine im Hintergrund vollständig in den Ruhezustand, um Akku zu sparen. Eine **Sentinel**-Schicht gleicht Warnungen mit unabhängigen Belegen ab — Richtung, Bewegung und öffentliche Feeds —, sodass das, was auslöst, bestätigt ist und nicht die einsame Vermutung eines Klassifikators. Das wirkt in beide Richtungen: Ein sirenenähnlicher Moment in einem Song wird zurückgehalten, aber eine echte Sirene, die sich durch Ihre Musik hindurch wiederholt, dringt durch und löst eine Warnung aus.
 
-Unwetterwarnungen stammen aus offiziellen öffentlichen Feeds — **NWS** (USA), **MeteoGate** (Europa), **China CMA**, **Korea KMA**, **Japan JMA**, **Kanada ECCC**, **Australien BOM**, **Brasilien INMET**, **Indien NDMA** und **Mexiko SMN** — kostenlos für alle Nutzerinnen und Nutzer. Mexikos Warnungen werden vom dortigen Servicio Meteorológico Nacional unter CC BY 4.0 veröffentlicht. Es werden nur die Feeds genutzt, die Ihren Standort abdecken. In Japan liest die App außerdem die **Vorab-Bulletins** der JMA — allgemein verständliche Hinweise, die Tage vor einem Taifun oder Starkregen herausgegeben werden, nicht nur die Warnungen, die kommen, wenn die Gefahr schon da ist — sowie die Bulletins zu Platzregen und Erdrutschen. Vorab-Hinweise erscheinen dezent, ohne den Ton und die Vibration, die einer echten Warnung vorbehalten sind.
+Unwetterwarnungen stammen aus **53 offiziellen staatlichen Quellen in 88 Ländern und Gebieten** — kostenlos für alle Nutzerinnen und Nutzer. Die Katastrophenschutz-Warnungen Neuseelands sind ebenfalls dabei, mit einem eigenen Schalter **Notfallwarnungen**. Quellen, deren Lizenz eine Nennung verlangt, sind unter „Quellennachweise“ am Ende dieser Seite aufgeführt. Es werden nur die Feeds genutzt, die Ihren Standort abdecken. In Japan liest die App außerdem die **Vorab-Bulletins** der JMA — allgemein verständliche Hinweise, die Tage vor einem Taifun oder Starkregen herausgegeben werden, nicht nur die Warnungen, die kommen, wenn die Gefahr schon da ist — sowie die Bulletins zu Platzregen und Erdrutschen. Vorab-Hinweise erscheinen dezent, ohne den Ton und die Vibration, die einer echten Warnung vorbehalten sind.
 
 ### ⌚ Apple Watch + Live Activity — ein Blick, und Sie wissen Bescheid
 - **Begleit-App für die Apple Watch** — die Richtung einer Warnung wird an Ihrem Handgelenk angezeigt, sodass Ihnen ein Blick sagt, wohin Sie schauen müssen. Neu gestaltete Watch-Oberfläche mit dem Ohr-Symbol der App, Threat-HUD-Layout und Doppeltippen zum Schließen einer Warnung. Warnungen können den Richtungspfeil auch dann anzeigen, wenn die Watch-App nicht geöffnet ist.
@@ -110,7 +110,7 @@ Der Sicherheitskern ist **kostenlos, für immer**:
 - **Live-Untertitel** — Speaker Mode, auf dem Gerät, mit Richtung, wo die Hardware es erlaubt, mit ehrlichen Zuverlässigkeitsmarkierungen, Selbstkorrektur in ~2 Sekunden, optionaler Sprachausgabe an Bluetooth-Hörgeräte und Richtungstönen.
 - **Name gerufen** — optionale Namen, die Sie eintippen (Ihr eigener, der Ihrer Kinder, der Ihrer Partnerin oder Ihres Partners). Ein Treffer ist eine Warnung auf Watch/Telefon mit Peilung, kein zweiter Untertitel.
 - **Standing Watch** — der Zustand des Raums selbst, immer aktiv, ohne dass Sie etwas einstellen müssen: eine gleichmäßig leuchtende Lampe in Cyan, solange der Raum sein Muster beibehält, Bernsteingelb, sobald sich etwas ändert — eine neue Stimme, plötzliche Stille oder etwas, das sich nähert.
-- **Unwetterwarnungen** — NWS, MeteoGate (Europa — frisch aus unserem 5-Minuten-Warn-Cache), CMA, KMA, JMA (Japan), ECCC (Kanada), BOM (Australien), INMET (Brasilien), NDMA (Indien) und SMN (Mexiko) für Ihre Region.
+- **Unwetterwarnungen** — amtliche Warnungen für Ihre Region aus 53 staatlichen Quellen in 88 Ländern und Gebieten.
 - **Erdbebenmeldungen (USGS, weltweit)** — wird in Ihrer Nähe ein Beben gemeldet, spüren Sie eine Vibration und sehen auf Ihrer Karte das Gebiet, in dem es zu spüren war. Eine Bestätigung aus dem offiziellen USGS-Feed — keine Frühwarnung: Wenn Sie Erschütterungen gespürt haben, sagt Ihnen dies, was es war. Die Erkennung von tiefem Grollen (Infraschall) auf dem Gerät kann die Prüfung in dem Moment scharf schalten, in dem sich der Boden bewegt.
 - **Feature Playground** — Übungswarnungen und Funktionsvorschauen mit deutlichem VORSCHAU-Wasserzeichen.
 - **Begleit-App für die Apple Watch & Live Activity** — Richtung und letzte Warnung auf einen Blick.
@@ -171,7 +171,7 @@ Wetter- und Erdbebenmeldungen gehen den umgekehrten Weg wie Audio — von Ihrem 
 ```mermaid
 graph LR
     P1["Vigilant Ear<br/>Auf Ihrem Gerät"] --> W["Wingdings-Warn-Cache<br/>eine gemeinsame Kopie · Aktualisierung alle 5 Minuten"]
-    W --> N["Offizielle öffentliche Feeds<br/>NWS · MeteoGate · JMA · KMA · CMA<br/>ECCC · BOM · INMET · NDMA · SMN · USGS"]
+    W --> N["Offizielle öffentliche Feeds<br/>53 Wetterquellen · 88 Länder und Gebiete<br/>Katastrophenschutz NZ · USGS-Erdbeben"]
 ```
 
 ---
@@ -255,6 +255,16 @@ Vollständig lokalisiert — Oberfläche, Warnungen und Untertitel — in **Engl
 Vigilant Ear ist ein **experimentelles akustisches Hilfsmittel für Barrierefreiheit**, kein zertifiziertes Werkzeug zum Schutz von Leib und Leben. Die Auflösung der Schallortung variiert je nach Umgebung, Wetter, Wind und Mikrofonhardware. **Bewahren Sie stets Ihre gewohnte Aufmerksamkeit für Ihre Umgebung** — verlassen Sie sich nicht auf die App als Ihre einzige Quelle für Sicherheitsinformationen.
 
 Einige Funktionen (Kamera-AR-Markierungen, das Upgrade auf die Critical-Alerts-Berechtigung, sobald Apple sie erteilt, fortgeschrittenes Sound-Authoring mit mehreren Paketen) entwickeln sich weiter; die kostenlose Home-/Street-Watch und die Live-Untertitel sind das Produkt, dem Sie vom ersten Tag an vertrauen können.
+
+## Quellennachweise
+
+Einige amtliche Quellen veröffentlichen ihre Warnungen unter offenen Lizenzen, die eine Nennung verlangen:
+
+- **Mexiko** — Servicio Meteorológico Nacional (CONAGUA), CC BY 4.0
+- **Argentinien** — Servicio Meteorológico Nacional (Argentina), CC BY 4.0
+- **Deutschland** — Quelle: Länderübergreifendes Hochwasserportal (LHP), www.hochwasserzentralen.de, CC BY 4.0
+- **Neuseeland** — National Emergency Management Agency (NEMA), CC BY 4.0
+- **Europa** — EUMETNET MeteoAlarm via MeteoGate, meteoalarm.org
 
 ---
 

@@ -40,7 +40,7 @@ Asigură-te că ai acordat permisiunea **Microfon** în Setările iOS. Vigilant 
 
 ### Cât de precise sunt alertele meteo?
 
-Vigilant Ear folosește date oficiale guvernamentale CAP (Common Alerting Protocol). Alertele sunt la fel de precise ca datele furnizate de National Weather Service și de alte agenții internaționale (inclusiv MeteoGate pentru Europa, CMA pentru China, KMA pentru Coreea, Japan Meteorological Agency, Environment and Climate Change Canada, BOM pentru Australia și INMET pentru Brazilia). Alertele europene sunt livrate printr-un cache mic pe care îl operăm, care reîmprospătează datele oficiale MeteoGate cam la fiecare 15 minute — astfel alertele rămân de încredere pentru toată lumea pe măsură ce baza de utilizatori trece de limitele de cereri ale fluxului public. Simularea locației, golurile de acoperire sau întârzierile de rețea pot afecta ocazional frecvența actualizărilor.
+Vigilant Ear folosește date oficiale guvernamentale CAP (Common Alerting Protocol). Alertele sunt la fel de precise ca datele furnizate de agențiile guvernamentale care le emit — 53 de surse oficiale din 88 de țări și teritorii. Alertele europene sunt livrate printr-un cache mic pe care îl operăm, care reîmprospătează datele oficiale europene cam la fiecare 15 minute — astfel alertele rămân de încredere pentru toată lumea pe măsură ce baza de utilizatori trece de limitele de cereri ale fluxului public. Simularea locației, golurile de acoperire sau întârzierile de rețea pot afecta ocazional frecvența actualizărilor.
 
 ### Aplicația funcționează în fundal?
 
@@ -68,7 +68,7 @@ Nucleul de siguranță e **gratuit, pentru totdeauna**:
 
 - Alerte sonore locale (sirene, alarme, bătăi/sonerii, bebeluș, persoană în apropiere) cu livrare pe ecran și push opțional  
 - Subtitrări în direct **Speaker Mode** (pe dispozitiv; direcționale acolo unde hardware-ul permite)  
-- Fluxuri de vreme severă pentru regiunea ta — **NWS** SUA, **MeteoGate** Europa, **China CMA**, **Korea KMA**, **Japan JMA**, **Canada ECCC**, **Australia BOM**, **Brazil INMET**, **India NDMA** și **Mexic SMN**  
+- Fluxuri de vreme severă pentru regiunea ta — **53 de surse oficiale din 88 de țări și teritorii**  
 - Alerte de exercițiu **Feature Playground** (cu filigrană, ca să nu arate niciodată ca o urgență reală)  
 - Indicii de direcție ale companionului **Apple Watch** și **Live Activity** (ecran de blocare / Dynamic Island / Watch Smart Stack), acolo unde sunt disponibile  
 - **Acoustic Scope** — vizualizatorul de sunet în direct, gratuit pentru toată lumea (uneltele de captură pentru antrenare sunt Power Pack+)  

@@ -37,7 +37,7 @@ Con los dos micrófonos del iPhone, Vigilant Ear mide el **ángulo de un sonido 
 ### 🚨 Reconoce los sonidos importantes — y te avisa
 Un clasificador en el dispositivo identifica cientos de sonidos cotidianos y vigila las categorías críticas — **sirenas, alarmas — incluida una clase específica para alarmas de auto —, timbres/golpes, llanto de bebé, una persona cercana y clima severo.** Cuando una se dispara, recibes una alerta clara en pantalla, una **notificación push** opcional y una **respuesta háptica** distintiva — incluso con la app en segundo plano o el teléfono en reposo. Las categorías críticas vienen activadas de forma predeterminada, así que habilitar las notificaciones no significa «todo apagado». Si desactivas todas las categorías de alerta, el motor hiberna por completo en segundo plano para ahorrar batería. Una capa **Sentinel** contrasta las alertas con evidencia independiente — dirección, movimiento y fuentes públicas —, de modo que lo que se dispara está corroborado y no es la conjetura aislada de un clasificador. Funciona en ambos sentidos: un momento con forma de sirena dentro de una canción queda retenido, pero una sirena real que se repite por encima de tu música se abre paso y te alerta.
 
-Las advertencias de clima severo proceden de fuentes públicas oficiales — **NWS** de EE. UU., **MeteoGate** de Europa, **CMA de China**, **KMA de Corea**, **JMA de Japón**, **ECCC de Canadá**, **BOM de Australia**, **INMET de Brasil**, **NDMA de India** y **SMN de México** — gratis para todos los usuarios. Las advertencias de México las publica su Servicio Meteorológico Nacional bajo licencia CC BY 4.0. Las fuentes se limitan a las que cubren el lugar donde estás. En Japón, la app también lee los **boletines anticipados** de la JMA — los avisos en lenguaje sencillo que se emiten días antes de un tifón o de lluvias intensas, no solo las advertencias que se emiten cuando el peligro ya ha llegado —, además de los boletines de aguaceros repentinos y de deslizamientos de tierra. Los avisos anticipados se muestran de forma discreta, sin el sonido ni la vibración reservados para una advertencia real.
+Las advertencias de clima severo proceden de **53 fuentes gubernamentales oficiales en 88 países y territorios** — gratis para todos los usuarios. También se incluyen las alertas de protección civil de Nueva Zelanda, con su propio interruptor **Alertas de emergencia**. Las fuentes cuyas licencias piden reconocimiento aparecen en «Créditos de datos», al final de esta página. Las fuentes se limitan a las que cubren el lugar donde estás. En Japón, la app también lee los **boletines anticipados** de la JMA — los avisos en lenguaje sencillo que se emiten días antes de un tifón o de lluvias intensas, no solo las advertencias que se emiten cuando el peligro ya ha llegado —, además de los boletines de aguaceros repentinos y de deslizamientos de tierra. Los avisos anticipados se muestran de forma discreta, sin el sonido ni la vibración reservados para una advertencia real.
 
 ### ⌚ Apple Watch + Live Activity — un vistazo y lo sabes
 - **App complementaria para Apple Watch** — la dirección de una alerta se señala en tu muñeca, así que un vistazo te dice hacia dónde mirar. Interfaz del Watch rediseñada, con el icono de oreja de la app, un diseño de HUD de amenazas y doble toque para descartar una alerta. Las alertas pueden seguir mostrando la flecha de dirección aunque la app del Watch no esté abierta.
@@ -110,7 +110,7 @@ El núcleo de seguridad es **gratis, para siempre**:
 - **Subtítulos en vivo** — Speaker Mode, en el dispositivo, con dirección donde el hardware lo permite, con marcas de confianza honestas, autocorrección en ~2 segundos, lectura en voz alta opcional en dispositivos auditivos Bluetooth y Tonos de dirección.
 - **Nombre llamado** — nombres opcionales que escribes tú (el tuyo, los de tus hijos, el de tu pareja). Una coincidencia es una alerta en el Watch/teléfono con el rumbo, no un segundo subtítulo.
 - **Standing Watch** — el estado propio de la sala, siempre activo y sin nada que configurar: una lámpara cian fija mientras la sala mantiene su patrón, ámbar cuando algo cambia — una voz nueva, un silencio repentino o algo que se acerca.
-- **Alertas de clima severo** — NWS, MeteoGate (Europa — servidas recién actualizadas desde nuestra caché de alertas de 5 minutos), CMA, KMA, JMA (Japón), ECCC (Canadá), BOM (Australia), INMET (Brasil), NDMA (India) y SMN (México) para tu región.
+- **Alertas de clima severo** — advertencias oficiales para tu región de 53 fuentes gubernamentales en 88 países y territorios.
 - **Alertas de terremotos (USGS, en todo el mundo)** — siente una vibración y mira en tu mapa la zona donde se sintió cuando se notifica un sismo cerca. Una confirmación de la fuente oficial del USGS — no una alerta temprana: si sentiste un temblor, esto te dice qué fue. La detección de retumbos profundos (infrasonido) en el dispositivo puede activar la comprobación en el momento en que el suelo se mueve.
 - **Feature Playground** — alertas de práctica y vistas previas de funciones con una marca de agua PREVIA bien visible.
 - **App complementaria para Apple Watch y Live Activity** — la dirección y la última alerta, de un vistazo.
@@ -171,7 +171,7 @@ Las alertas meteorológicas y de terremotos siguen el camino opuesto al del audi
 ```mermaid
 graph LR
     P1["Vigilant Ear<br/>En tu dispositivo"] --> W["Caché de alertas de Wingdings<br/>una copia compartida · actualización cada 5 minutos"]
-    W --> N["Fuentes públicas oficiales<br/>NWS · MeteoGate · JMA · KMA · CMA<br/>ECCC · BOM · INMET · NDMA · SMN · USGS"]
+    W --> N["Fuentes públicas oficiales<br/>53 fuentes meteorológicas · 88 países y territorios<br/>Protección civil de NZ · sismos del USGS"]
 ```
 
 ---
@@ -255,6 +255,16 @@ Totalmente localizada — interfaz, alertas y subtítulos — en **inglés, espa
 Vigilant Ear es una **ayuda experimental de accesibilidad acústica**, no una herramienta certificada para proteger vidas. La resolución de la localización de sonidos varía según el entorno, el clima, el viento y el hardware del micrófono. **Mantén siempre tu atención habitual a lo que te rodea** — no confíes en ella como tu única fuente de información de seguridad.
 
 Algunas capacidades (los marcadores AR de la cámara, la mejora con la autorización de Alertas críticas cuando Apple la conceda, la creación avanzada de sonidos con varios paquetes) siguen evolucionando; la vigilancia gratuita Home / Street y los subtítulos en vivo son el producto en el que puedes confiar desde el primer día.
+
+## Créditos de datos
+
+Algunas fuentes oficiales publican sus advertencias con licencias abiertas que piden reconocimiento:
+
+- **México** — Servicio Meteorológico Nacional (CONAGUA), CC BY 4.0
+- **Argentina** — Servicio Meteorológico Nacional (Argentina), CC BY 4.0
+- **Alemania** — Quelle: Länderübergreifendes Hochwasserportal (LHP), www.hochwasserzentralen.de, CC BY 4.0
+- **Nueva Zelanda** — National Emergency Management Agency (NEMA), CC BY 4.0
+- **Europa** — EUMETNET MeteoAlarm via MeteoGate, meteoalarm.org
 
 ---
 

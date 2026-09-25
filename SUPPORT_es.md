@@ -40,7 +40,7 @@ Asegúrese de haber otorgado permiso de **Micrófono** en la Configuración de i
 
 ### ¿Qué tan precisas son las alertas meteorológicas?
 
-Vigilant Ear consulta fuentes oficiales del gobierno CAP (Common Alerting Protocol). Las alertas son tan precisas como los datos proporcionados por el Servicio Meteorológico Nacional y otras agencias internacionales (incluyendo MeteoGate de Europa, CMA de China, KMA de Corea, la Agencia Meteorológica de Japón, Medio Ambiente y Cambio Climático de Canadá y el INMET de Brasil). La simulación de ubicación, las brechas de cobertura o los retrasos de la red pueden afectar ocasionalmente la frecuencia de actualización. Los avisos europeos se entregan a través de una pequeña caché que operamos y que actualiza los datos oficiales de MeteoGate aproximadamente cada 15 minutos — así los avisos siguen siendo fiables para todos a medida que nuestra base de usuarios supera los límites de peticiones de la fuente pública.
+Vigilant Ear consulta fuentes oficiales del gobierno CAP (Common Alerting Protocol). Las alertas son tan precisas como los datos proporcionados por las agencias gubernamentales que las emiten — 53 fuentes oficiales en 88 países y territorios. La simulación de ubicación, las brechas de cobertura o los retrasos de la red pueden afectar ocasionalmente la frecuencia de actualización. Los avisos europeos se entregan a través de una pequeña caché que operamos y que actualiza los datos oficiales europeos aproximadamente cada 15 minutos — así los avisos siguen siendo fiables para todos a medida que nuestra base de usuarios supera los límites de peticiones de la fuente pública.
 
 ### ¿La aplicación funciona en segundo plano?
 
@@ -68,7 +68,7 @@ El núcleo de seguridad es **gratis, para siempre**:
 
 - Alertas locales de sonido (sirenas, alarmas, golpes/timbres, bebé, persona cercana) con entrega en pantalla y notificación automática opcional  
 - Subtítulos en vivo del **Modo Orador** (en el dispositivo; direccional donde el hardware lo permita)  
-- Fuentes de clima severo para su región — **NWS** de EE. UU., **MeteoGate** de Europa, **CMA** de China, **KMA** de Corea, **JMA** de Japón, **ECCC** de Canadá, **BOM** de Australia, **INMET** de Brasil, **NDMA** de India y **SMN** de México  
+- Fuentes de clima severo para su región — **53 fuentes oficiales en 88 países y territorios**  
 - Alertas de práctica de la **Zona de Pruebas** (con marca de agua para que nunca parezcan una emergencia real)  
 - Señales de dirección en la aplicación complementaria de **Apple Watch** y **Live Activity** (Pantalla de bloqueo / Dynamic Island / Smart Stack del Watch), donde estén disponibles  
 - **Osciloscopio Acústico** — el visualizador de sonido en vivo, gratis para todos (las herramientas de captura para entrenamiento son de Power Pack+)  

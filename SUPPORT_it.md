@@ -40,7 +40,7 @@ Assicurati di aver concesso l'autorizzazione del **Microfono** nelle Impostazion
 
 ### Quanto sono precisi gli avvisi meteo?
 
-Vigilant Ear interroga i feed governativi ufficiali CAP (Common Alerting Protocol). Gli avvisi sono precisi quanto i dati forniti dal National Weather Service e dalle altre agenzie internazionali (tra cui MeteoGate per l'Europa, la CMA cinese, la KMA coreana, l'Agenzia Meteorologica del Giappone, Environment and Climate Change Canada e l'INMET del Brasile). La simulazione della posizione, le lacune di copertura o i ritardi di rete possono occasionalmente influire sulla frequenza di aggiornamento. Le allerte europee vengono servite tramite una piccola cache che gestiamo e che aggiorna i dati ufficiali MeteoGate circa ogni 15 minuti — così le allerte restano affidabili per tutti mentre la nostra base utenti supera i limiti di richieste del feed pubblico.
+Vigilant Ear interroga i feed governativi ufficiali CAP (Common Alerting Protocol). Gli avvisi sono precisi quanto i dati forniti dalle agenzie governative che li emettono — 53 fonti ufficiali in 88 paesi e territori. La simulazione della posizione, le lacune di copertura o i ritardi di rete possono occasionalmente influire sulla frequenza di aggiornamento. Le allerte europee vengono servite tramite una piccola cache che gestiamo e che aggiorna i dati ufficiali europei circa ogni 15 minuti — così le allerte restano affidabili per tutti mentre la nostra base utenti supera i limiti di richieste del feed pubblico.
 
 ### L'app funziona in background?
 
@@ -68,7 +68,7 @@ Il nucleo di sicurezza è **gratuito, per sempre**:
 
 - Avvisi sonori locali (sirene, allarmi, bussate/campanelli, bambino, persona nelle vicinanze) con consegna sullo schermo e notifiche push opzionali  
 - Sottotitoli in tempo reale della **Modalità parlante** (sul dispositivo; direzionali dove l'hardware lo consente)  
-- Feed di maltempo severo per la tua regione — **NWS** per gli Stati Uniti, **MeteoGate** per l'Europa, **CMA** per la Cina, **KMA** per la Corea, **JMA** per il Giappone, **ECCC** per il Canada, **BOM** per l'Australia, **INMET** per il Brasile, **NDMA** per l'India e **SMN** per il Messico  
+- Feed di maltempo severo per la tua regione — **53 fonti ufficiali in 88 paesi e territori**  
 - Avvisi di prova del **Parco giochi delle funzionalità** (con filigrana, così non sembrano mai un'emergenza reale)  
 - Indicazioni di direzione dell'app complementare per **Apple Watch** e **Live Activity** (Schermata di blocco / Dynamic Island / Smart Stack del Watch), dove disponibili  
 - **Oscilloscopio Acustico** — il visualizzatore sonoro in tempo reale, gratis per tutti (gli strumenti di cattura per l'addestramento sono di Power Pack+)  
