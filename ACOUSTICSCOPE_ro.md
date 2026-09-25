@@ -1,6 +1,6 @@
 # Acoustic Scope — Vederea profesională de analiză a sunetului
 
-**Acoustic Scope** transformă Vigilant Ear într-un instrument de buzunar de analiză a sunetului: o vedere în direct a tot ce aude microfonul, în șase feluri. Folosește-l ca să *vezi* forma unui sunet, să-i măsori înălțimea și nivelul, să îngheți și să derulezi înapoi prin ultimul jumătate de minut și să capturezi clipuri ca să-ți antrenezi propriul pachet de sunete personalizat.
+**Acoustic Scope** transformă Vigilant Ear într-un instrument de buzunar de analiză a sunetului: o vedere în direct a tot ce aude microfonul, în șase feluri. Folosește-l ca să *vezi* forma unui sunet, să-i măsori înălțimea și nivelul, să îngheți și să derulezi înapoi prin ultimul minut și să capturezi clipuri ca să-ți antrenezi propriul pachet de sunete personalizat.
 
 Deschide-l din **evantaiul de acțiuni** (explozia care se învârte pe bara de sus): atinge explozia, apoi **egalizatorul** (barele animate verde și cian). Acoustic Scope e **gratuit pentru toată lumea** — vederile în direct de mai jos n-au nevoie de nicio cumpărare. Doar uneltele de captură **Train** (mai jos), care înregistrează clipuri pentru propriile tale pachete de sunete personalizate, fac parte din Power Pack+.
 
@@ -19,10 +19,10 @@ Comută cu bara de jos.
 | Vedere | Ce arată |
 |---|---|
 | **Spectru** | Nivelul pe frecvență, chiar acum — o curbă în direct cu o linie albă de ținere a vârfului. |
-| **Spectrogramă** | Frecvența în **timp** — ultimele ~24 de secunde se derulează, culoarea = nivelul. Majoritatea sunetelor au aici o formă vizuală recunoscută. |
+| **Spectrogramă** | Frecvența în **timp** — ultimul minut se derulează, culoarea = nivelul. Majoritatea sunetelor au aici o formă vizuală recunoscută. |
 | **RTA ⅓ oct.** | Cele 28 de benzi ISO standard, ca un analizor hardware în timp real. Liniuțele portocalii sunt ținerea vârfului. |
 | **Chroma** | Cele 12 clase de înălțime muzicală — care note sunt prezente, cu cea mai puternică evidențiată. |
-| **Parțiale** | Tonurile proeminente urmărite în timp ca linii colorate, fiecare etichetată cu nota sa muzicală. Numele notelor și seria armonică au coloane proprii, iar sunetele mai înalte, cum ar fi alarmele de fum, sunt etichetate cu înălțimea lor reală. Setează o **notă țintă** și apare ca o linie după care să cânți sau să acordezi. Excelent pentru fluierături, sirene, cântat de păsări, huruit de utilaje. |
+| **Parțiale** | Tonurile proeminente urmărite în timp ca linii colorate, fiecare etichetată cu nota sa muzicală. Numele notelor și seria armonică au coloane proprii, iar sunetele mai înalte, cum ar fi alarmele de fum, sunt etichetate cu înălțimea lor reală. Alege una sau mai multe **note țintă** — cu diezi, bemoli și octavă — și fiecare apare ca o linie după care să cânți sau să acordezi, iar vederea se mărește pe intervalul lor. Excelent pentru fluierături, sirene, cântat de păsări, huruit de utilaje. |
 | **Vizualizator** | Muzica camerei ca un spectacol de lumini în direct — bătăile detonază inele, basul umflă scena, înaltele plouă scântei. Are propria secțiune completă mai jos. |
 
 **Steagurile** portocalii de pe Spectrogramă marchează momentele în care clasificatorul de sunete s-a declanșat, cu eticheta și încrederea lui — astfel vezi exact la ce formă a reacționat modelul.
@@ -87,7 +87,7 @@ telefon și televizorul urmează, astfel încât aceeași Duplicare pune Spectro
 
 - Scope-ul nu costă nimic când e închis — analiza extra rulează doar cât e pe ecran.
 - Nici lăsat deschis nu costă mult: Spectrograma nu consumă aproape nimic, deci nu-ți încălzește telefonul oricât de mult te-ai uita, iar Spectrograma și Parțialele se redesenează într-un ritm constant, ușor de citit, fără să rateze nimic din ce aud.
-- Valorile absolute în dB sunt necalibrate implicit; sunt consistente și comparabile, iar stepper-ul de calibrare din ⓘ îți permite să le aliniezi la un metru de referință.
+- Nivelurile sunt calibrate din fabrică: le-am aliniat la un sonometru de referință (ponderare A) cu o precizie de aproximativ ±1 dB pe un iPhone 16 Pro Max, iar un iPhone 17 a citit la mai puțin de jumătate de decibel de el. Alte modele pot citi ușor diferit, iar aceasta este calibrarea noastră, nu o măsurătoare certificată — dacă ai un metru de referință, stepper-ul de calibrare din ⓘ reglează fin fiecare citire de nivel. Orice decalaj de calibrare setat înainte de versiunea 1.1.9 a fost resetat la zero, pentru că valoarea implicită pe care o corecta s-a schimbat.
 - Scope-ul citește canalul principal al microfonului. Detecția, găsirea direcției și alertele nu sunt afectate de nimic din ce faci aici.
 
 ---

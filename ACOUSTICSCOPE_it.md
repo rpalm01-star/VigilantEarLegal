@@ -1,6 +1,6 @@
 # Acoustic Scope — La vista professionale di analisi del suono
 
-L'**Acoustic Scope** trasforma Vigilant Ear in uno strumento tascabile di analisi del suono: una vista dal vivo di tutto ciò che il microfono sente, in sei modi diversi. Usalo per *vedere* la forma di un suono, misurarne l'altezza e il livello, congelare e riascoltare l'ultimo mezzo minuto, e catturare clip per addestrare il tuo pacchetto di suoni personalizzato.
+L'**Acoustic Scope** trasforma Vigilant Ear in uno strumento tascabile di analisi del suono: una vista dal vivo di tutto ciò che il microfono sente, in sei modi diversi. Usalo per *vedere* la forma di un suono, misurarne l'altezza e il livello, congelare e riascoltare l'ultimo minuto, e catturare clip per addestrare il tuo pacchetto di suoni personalizzato.
 
 Aprilo dal **ventaglio delle azioni** (il raggio rotante sulla barra superiore): tocca il raggio, poi l'**equalizzatore** (le barre animate verdi e ciano). L'Acoustic Scope è **gratuito per tutti**: le viste dal vivo qui sotto non richiedono alcun acquisto. Solo gli strumenti di cattura **Train** (più avanti), che registrano clip per i tuoi pacchetti di suoni personalizzati, fanno parte di Power Pack+.
 
@@ -19,10 +19,10 @@ Cambia con la barra in basso.
 | Vista | Cosa mostra |
 |---|---|
 | **Spettro** | Livello per frequenza, adesso: una curva dal vivo con una linea bianca di tenuta di picco. |
-| **Spettrogramma** | Frequenza nel **tempo**: scorrono gli ultimi ~24 secondi, colore = livello. La maggior parte dei suoni ha qui una forma visiva riconoscibile. |
+| **Spettrogramma** | Frequenza nel **tempo**: scorre l'ultimo minuto, colore = livello. La maggior parte dei suoni ha qui una forma visiva riconoscibile. |
 | **RTA a ⅓ d'ottava** | Le 28 bande ISO standard, come un analizzatore in tempo reale hardware. I trattini arancioni sono la tenuta di picco. |
 | **Croma** | Le 12 classi di altezza musicale: quali note sono presenti, con la più forte evidenziata. |
-| **Parziali** | I toni prominenti seguiti nel tempo come linee colorate, ciascuna etichettata con la sua nota musicale. I nomi delle note e la serie armonica hanno colonne proprie, e i suoni più acuti, come quelli dei rilevatori di fumo, sono etichettati con la loro altezza reale. Imposta una **nota di riferimento** e compare come una linea da seguire per cantare o accordare. Ottimo per fischi, sirene, canto degli uccelli e ronzii di macchinari. |
+| **Parziali** | I toni prominenti seguiti nel tempo come linee colorate, ciascuna etichettata con la sua nota musicale. I nomi delle note e la serie armonica hanno colonne proprie, e i suoni più acuti, come quelli dei rilevatori di fumo, sono etichettati con la loro altezza reale. Scegli una o più **note di riferimento** — con diesis, bemolle e ottava — e ognuna compare come una linea da seguire per cantare o accordare, con la vista ingrandita sulla loro gamma. Ottimo per fischi, sirene, canto degli uccelli e ronzii di macchinari. |
 | **Visualizzatore** | La musica della stanza come uno spettacolo di luci dal vivo: i battiti fanno detonare anelli, i bassi gonfiano la scena, gli acuti piovono scintille. Ha una sua sezione completa più avanti. |
 
 Le **bandierine** arancioni sullo Spettrogramma segnano i momenti in cui il classificatore di suoni è scattato, con la sua etichetta e la sua confidenza: così vedi esattamente a quale forma ha reagito il modello.
@@ -87,7 +87,7 @@ telefono e il televisore segue: lo stesso Mirror mette quindi lo Spettrogramma o
 
 - Lo scope non costa nulla quando è chiuso: l'analisi aggiuntiva gira solo mentre è sullo schermo.
 - Anche lasciarlo aperto costa poco: lo Spettrogramma non costa quasi nulla, quindi non scalderà il telefono per quanto a lungo tu lo guardi, e Spettrogramma e Parziali si ridisegnano a un ritmo regolare e leggibile senza perdere nulla di ciò che sentono.
-- I valori assoluti in dB non sono calibrati per impostazione predefinita; sono coerenti e confrontabili, e il regolatore di calibrazione in ⓘ permette di allinearli a un misuratore di riferimento.
+- I livelli sono calibrati di fabbrica: li abbiamo allineati a un fonometro di riferimento (ponderazione A) entro circa ±1 dB su un iPhone 16 Pro Max, e un iPhone 17 si è discostato di meno di mezzo decibel. Altri modelli possono leggere in modo leggermente diverso, ed è una nostra calibrazione, non una misura certificata: se hai un misuratore di riferimento, il regolatore di calibrazione in ⓘ affina ogni lettura di livello. Qualsiasi correzione di calibrazione impostata prima della versione 1.1.9 è stata azzerata, perché il valore predefinito che correggeva è cambiato.
 - Lo scope legge il canale del microfono principale. Rilevamento, individuazione della direzione e avvisi non sono influenzati da nulla di ciò che fai qui.
 
 ---

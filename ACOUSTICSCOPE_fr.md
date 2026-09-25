@@ -1,6 +1,6 @@
 # Acoustic Scope — La vue professionnelle d'analyse sonore
 
-L'**Acoustic Scope** transforme Vigilant Ear en instrument d'analyse sonore de poche : une vue en direct de tout ce que le microphone entend, de six façons différentes. Utilisez-le pour *voir* la forme d'un son, mesurer sa hauteur et son niveau, figer et parcourir la dernière demi-minute, et capturer des extraits pour entraîner votre propre pack de sons personnalisé.
+L'**Acoustic Scope** transforme Vigilant Ear en instrument d'analyse sonore de poche : une vue en direct de tout ce que le microphone entend, de six façons différentes. Utilisez-le pour *voir* la forme d'un son, mesurer sa hauteur et son niveau, figer et parcourir la dernière minute, et capturer des extraits pour entraîner votre propre pack de sons personnalisé.
 
 Ouvrez-le depuis l'**éventail d'actions** (la rafale tournante de la barre supérieure) : touchez la rafale, puis l'**égaliseur** (les barres animées vertes et cyan). L'Acoustic Scope est **gratuit pour tout le monde** — les vues en direct ci-dessous ne nécessitent aucun achat. Seuls les outils de capture **Train** (ci-dessous), qui enregistrent des extraits pour vos packs de sons personnalisés, font partie du Power Pack+.
 
@@ -19,10 +19,10 @@ Changez avec la barre du bas.
 | Vue | Ce qu'elle montre |
 |---|---|
 | **Spectre** | Le niveau par fréquence, à l'instant — une courbe en direct avec une ligne blanche de maintien de crête. |
-| **Spectrogramme** | La fréquence dans le **temps** — les ~24 dernières secondes défilent, la couleur = le niveau. La plupart des sons y ont une forme visuelle reconnaissable. |
+| **Spectrogramme** | La fréquence dans le **temps** — la dernière minute défile, la couleur = le niveau. La plupart des sons y ont une forme visuelle reconnaissable. |
 | **RTA au ⅓ d'octave** | Les 28 bandes ISO standard, comme un analyseur temps réel matériel. Les repères orange sont le maintien de crête. |
 | **Chroma** | Les 12 classes de hauteur musicale — quelles notes sont présentes, la plus forte étant mise en évidence. |
-| **Partiels** | Les sons purs proéminents suivis dans le temps sous forme de lignes colorées, chacune étiquetée avec sa note musicale. Les noms des notes et la série harmonique ont leurs propres colonnes, et les sons plus aigus, comme ceux des détecteurs de fumée, sont étiquetés à leur hauteur réelle. Définissez une **note cible** : elle s'affiche comme une ligne de référence pour chanter ou s'accorder. Idéal pour les sifflements, les sirènes, les chants d'oiseaux et les ronronnements de machines. |
+| **Partiels** | Les sons purs proéminents suivis dans le temps sous forme de lignes colorées, chacune étiquetée avec sa note musicale. Les noms des notes et la série harmonique ont leurs propres colonnes, et les sons plus aigus, comme ceux des détecteurs de fumée, sont étiquetés à leur hauteur réelle. Choisissez une ou plusieurs **notes cibles** — dièses, bémols et octaves compris — : chacune s'affiche comme une ligne de référence pour chanter ou s'accorder, et la vue se resserre sur leur plage. Idéal pour les sifflements, les sirènes, les chants d'oiseaux et les ronronnements de machines. |
 | **Visualiseur** | La musique de la pièce en spectacle lumineux en direct — les temps font détoner des anneaux, les graves gonflent la scène, les aigus font pleuvoir des étincelles. Il a sa propre section complète ci-dessous. |
 
 Les **drapeaux** orange du Spectrogramme marquent les moments où le classificateur de sons s'est déclenché, avec son étiquette et sa confiance — vous voyez ainsi exactement à quelle forme le modèle a réagi.
@@ -87,7 +87,7 @@ Changez d'onglet du scope sur le téléphone et le téléviseur suit : le même 
 
 - Le scope ne coûte rien quand il est fermé — l'analyse supplémentaire ne tourne que lorsqu'il est à l'écran.
 - Le laisser ouvert ne coûte pas grand-chose non plus : le Spectrogramme ne coûte presque rien, il ne fera donc pas chauffer votre téléphone même si vous le regardez longtemps, et le Spectrogramme comme les Partiels se redessinent à un rythme régulier et lisible sans rien manquer de ce qu'ils entendent.
-- Les valeurs absolues en dB ne sont pas calibrées par défaut ; elles sont cohérentes et comparables, et le réglage de calibration de ⓘ permet de les aligner sur un sonomètre de référence.
+- Les niveaux sont calibrés d'origine : nous les avons alignés sur un sonomètre de référence (pondération A) à environ ±1 dB près sur un iPhone 16 Pro Max, et un iPhone 17 s'en écartait de moins d'un demi-décibel. D'autres modèles peuvent mesurer légèrement différemment, et il s'agit de notre propre calibration, pas d'une mesure certifiée ; si vous avez un sonomètre de référence, le réglage de calibration de ⓘ affine toutes les lectures de niveau. Tout décalage de calibration réglé avant la version 1.1.9 a été remis à zéro, car la valeur par défaut qu'il corrigeait a changé.
 - Le scope lit le canal du microphone principal. La détection, la localisation directionnelle et les alertes ne sont affectées par rien de ce que vous faites ici.
 
 ---

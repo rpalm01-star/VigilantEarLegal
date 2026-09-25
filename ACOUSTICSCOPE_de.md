@@ -1,6 +1,6 @@
 # Acoustic Scope — Die Profi-Ansicht zur Klanganalyse
 
-Das **Acoustic Scope** macht aus Vigilant Ear ein Klanganalyse-Instrument für die Hosentasche: eine Live-Ansicht von allem, was das Mikrofon hört, auf sechs verschiedene Arten. Damit *sehen* Sie die Form eines Klangs, messen seine Tonhöhe und seinen Pegel, frieren die letzte halbe Minute ein und spulen sie durch, und schneiden Clips mit, um Ihr eigenes Sound-Paket zu trainieren.
+Das **Acoustic Scope** macht aus Vigilant Ear ein Klanganalyse-Instrument für die Hosentasche: eine Live-Ansicht von allem, was das Mikrofon hört, auf sechs verschiedene Arten. Damit *sehen* Sie die Form eines Klangs, messen seine Tonhöhe und seinen Pegel, frieren die letzte Minute ein und spulen sie durch, und schneiden Clips mit, um Ihr eigenes Sound-Paket zu trainieren.
 
 Öffnen Sie es über den **Aktionsfächer** (der rotierende Stern in der oberen Leiste): Tippen Sie auf den Stern und dann auf den **Equalizer** (die animierten grün-türkisen Balken). Das Acoustic Scope ist **für alle kostenlos** — die Live-Ansichten unten benötigen keinen Kauf. Nur die **Train**-Aufnahmewerkzeuge (weiter unten), die Clips für Ihre eigenen Sound-Pakete aufzeichnen, gehören zu Power Pack+.
 
@@ -19,10 +19,10 @@ Umschalten über die Leiste am unteren Rand.
 | Ansicht | Was sie zeigt |
 |---|---|
 | **Spektrum** | Pegel nach Frequenz, jetzt gerade — eine Live-Kurve mit einer weißen Peak-Hold-Linie. |
-| **Spektrogramm** | Frequenz über die **Zeit** — die letzten ~24 Sekunden scrollen vorbei, Farbe = Pegel. Die meisten Klänge haben hier eine wiedererkennbare visuelle Form. |
+| **Spektrogramm** | Frequenz über die **Zeit** — die letzte Minute scrollt vorbei, Farbe = Pegel. Die meisten Klänge haben hier eine wiedererkennbare visuelle Form. |
 | **⅓-Okt-RTA** | Die 28 ISO-Standardbänder, wie ein Echtzeitanalysator aus Hardware. Orange Striche sind Peak-Hold. |
 | **Chroma** | Die 12 musikalischen Tonklassen — welche Noten vorhanden sind, die stärkste hervorgehoben. |
-| **Teiltöne** | Die markanten Töne über die Zeit verfolgt als farbige Linien, jede mit ihrer Note beschriftet. Notennamen und die Obertonreihe haben eigene Spalten, und höhere Klänge wie Rauchmelder werden mit ihrer tatsächlichen Tonhöhe beschriftet. Legen Sie einen **Zielton** fest, und er erscheint als Linie, an der Sie sich beim Singen oder Stimmen orientieren können. Ideal für Pfeifen, Sirenen, Vogelgesang und Maschinenbrummen. |
+| **Teiltöne** | Die markanten Töne über die Zeit verfolgt als farbige Linien, jede mit ihrer Note beschriftet. Notennamen und die Obertonreihe haben eigene Spalten, und höhere Klänge wie Rauchmelder werden mit ihrer tatsächlichen Tonhöhe beschriftet. Wählen Sie einen oder mehrere **Zieltöne** – mit Kreuz, B und Oktave –, und jeder erscheint als Linie, an der Sie sich beim Singen oder Stimmen orientieren können; die Ansicht zoomt auf ihren Bereich. Ideal für Pfeifen, Sirenen, Vogelgesang und Maschinenbrummen. |
 | **Visualizer** | Die Musik im Raum als Live-Lichtshow — Beats zünden Ringe, Bässe lassen die Szene anschwellen, Höhen regnen als Funken. Hat weiter unten einen eigenen Abschnitt. |
 
 Orange **Fähnchen** im Spektrogramm markieren die Momente, in denen der Klangklassifikator ausgelöst hat, mit Label und Konfidenz — so sehen Sie genau, auf welche Form das Modell reagiert hat.
@@ -87,7 +87,7 @@ Mikrofon bleibt. Wechseln Sie am Telefon den Scope-Tab, folgt der Fernseher: der
 
 - Geschlossen kostet das Scope nichts — die zusätzliche Analyse läuft nur, solange es auf dem Bildschirm ist.
 - Auch geöffnet bleibt es sparsam: Das Spektrogramm kostet so gut wie nichts, sodass Ihr Telefon nicht warm wird, egal wie lange Sie zusehen, und Spektrogramm und Teiltöne werden in einem gleichmäßigen, gut lesbaren Tempo neu gezeichnet, ohne etwas von dem zu verpassen, was sie hören.
-- Absolute dB-Werte sind standardmäßig nicht kalibriert; sie sind konsistent und vergleichbar, und der Kalibrierungsregler unter ⓘ erlaubt den Abgleich mit einem Referenzmessgerät.
+- Die Pegel sind ab Werk kalibriert: Wir haben sie auf einem iPhone 16 Pro Max mit einem Referenz-Schallpegelmesser (A-Bewertung) auf etwa ±1 dB abgeglichen, und ein iPhone 17 lag weniger als ein halbes Dezibel daneben. Andere Modelle können leicht abweichen, und das ist unsere eigene Kalibrierung, keine zertifizierte Messung – wenn Sie ein Referenzmessgerät haben, stimmt der Kalibrierungsregler unter ⓘ jede Pegelanzeige fein ab. Ein vor Version 1.1.9 gesetzter Kalibrierungsversatz wurde auf null zurückgesetzt, weil sich der Standard, den er korrigierte, geändert hat.
 - Das Scope liest den primären Mikrofonkanal. Erkennung, Richtungsbestimmung und Warnungen bleiben von allem, was Sie hier tun, unberührt.
 
 ---

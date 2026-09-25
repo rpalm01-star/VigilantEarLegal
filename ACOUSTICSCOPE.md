@@ -1,6 +1,6 @@
 # Acoustic Scope — The Pro Sound-Analysis View
 
-The **Acoustic Scope** turns Vigilant Ear into a pocket sound-analysis instrument: a live view of everything the microphone hears, six different ways. Use it to *see* a sound's shape, measure its pitch and level, freeze and scrub back through the last half minute, and capture clips to train your own custom sound pack.
+The **Acoustic Scope** turns Vigilant Ear into a pocket sound-analysis instrument: a live view of everything the microphone hears, six different ways. Use it to *see* a sound's shape, measure its pitch and level, freeze and scrub back through the last minute, and capture clips to train your own custom sound pack.
 
 Open it from the **action fan** (the spinning burst on the top rail): tap the burst, then tap the **equalizer** (the animated green-and-cyan bars). The Acoustic Scope is **free for everyone** — the live views below need no purchase. Only the **Train** capture tools (below), which record clips for your own custom sound packs, are part of Power Pack+.
 
@@ -19,10 +19,10 @@ Switch with the bar along the bottom.
 | View | What it shows |
 |---|---|
 | **Spectrum** | Level by frequency, right now — a live curve with a white peak-hold line. |
-| **Spectrogram** | Frequency over **time** — the last ~24 seconds scroll by, color = level. Most sounds have a recognizable visual shape here. |
+| **Spectrogram** | Frequency over **time** — the last minute scrolls by, color = level. Most sounds have a recognizable visual shape here. |
 | **⅓-Oct RTA** | The 28 standard ISO bands, like a hardware real-time analyzer. Orange ticks are peak-hold. |
 | **Chroma** | The 12 musical pitch classes — which notes are present, with the strongest highlighted. |
-| **Partials** | The prominent tones tracked over time as colored lines, each labeled with its musical note. Note names and the harmonic series have their own columns, and higher sounds such as smoke alarms are named at their true pitch. Set a **target note** and it draws as a line to sing or tune against. Great for whistles, sirens, birdsong, machinery hum. |
+| **Partials** | The prominent tones tracked over time as colored lines, each labeled with its musical note. Note names and the harmonic series have their own columns, and higher sounds such as smoke alarms are named at their true pitch. Pick one or more **target notes** — sharps, flats and octaves included — and each draws as a line to sing or tune against, with the view zoomed to their range. Great for whistles, sirens, birdsong, machinery hum. |
 | **Visualizer** | The room's music as a live light show — beats detonate rings, bass swells the scene, highs rain sparkles. It has its own full section below. |
 
 Orange **flags** on the Spectrogram mark the moments the sound classifier fired, with its label and confidence — so you can see exactly what shape the model reacted to.
@@ -87,7 +87,7 @@ phone and the TV follows, so the same Mirror puts the Spectrogram or the Visuali
 
 - The scope costs nothing when closed — the extra analysis only runs while it's on screen.
 - Leaving it open is cheap too: the Spectrogram costs next to nothing, so it won't warm up your phone however long you watch, and the Spectrogram and Partials redraw at a steady, readable pace without missing anything they hear.
-- Absolute dB values are uncalibrated by default; they're consistent and comparable, and the ⓘ calibration stepper lets you align them to a reference meter.
+- Levels are calibrated out of the box: we matched them to a reference sound level meter (A-weighted) to within about ±1 dB on an iPhone 16 Pro Max, and an iPhone 17 read within half a decibel of it. Other models may read slightly differently, and this is our own calibration, not a certified measurement — if you have a reference meter, the ⓘ calibration stepper fine-tunes every level readout. Any calibration offset set before version 1.1.9 was reset to zero, because the default it corrected has changed.
 - The scope reads the primary microphone channel. Detection, direction-finding, and alerts are unaffected by anything you do here.
 
 ---

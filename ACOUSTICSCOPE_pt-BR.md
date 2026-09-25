@@ -1,6 +1,6 @@
 # Acoustic Scope — A visão profissional de análise sonora
 
-O **Acoustic Scope** transforma o Vigilant Ear em um instrumento de análise sonora de bolso: uma visão ao vivo de tudo o que o microfone ouve, de seis maneiras diferentes. Use-o para *ver* o formato de um som, medir sua altura e seu nível, congelar e percorrer o último meio minuto, e capturar trechos para treinar seu próprio pacote de sons personalizado.
+O **Acoustic Scope** transforma o Vigilant Ear em um instrumento de análise sonora de bolso: uma visão ao vivo de tudo o que o microfone ouve, de seis maneiras diferentes. Use-o para *ver* o formato de um som, medir sua altura e seu nível, congelar e percorrer o último minuto, e capturar trechos para treinar seu próprio pacote de sons personalizado.
 
 Abra-o pelo **leque de ações** (a explosão giratória na barra superior): toque no leque e depois no **equalizador** (as barras animadas em verde e ciano). O Acoustic Scope é **gratuito para todos** — as visões ao vivo abaixo não exigem nenhuma compra. Apenas as ferramentas de captura do **Train** (abaixo), que gravam trechos para seus pacotes de sons personalizados, fazem parte do Power Pack+.
 
@@ -19,10 +19,10 @@ Alterne pela barra inferior.
 | Visão | O que mostra |
 |---|---|
 | **Espectro** | Nível por frequência, agora — uma curva ao vivo com uma linha branca de retenção de pico. |
-| **Espectrograma** | Frequência ao longo do **tempo** — os últimos ~24 segundos passam rolando, cor = nível. A maioria dos sons tem aqui um formato visual reconhecível. |
+| **Espectrograma** | Frequência ao longo do **tempo** — o último minuto passa rolando, cor = nível. A maioria dos sons tem aqui um formato visual reconhecível. |
 | **RTA de ⅓ oitava** | As 28 bandas ISO padrão, como um analisador de tempo real de hardware. Os traços laranja são a retenção de pico. |
 | **Croma** | As 12 classes de altura musical — quais notas estão presentes, com a mais forte destacada. |
-| **Parciais** | Os tons proeminentes acompanhados ao longo do tempo como linhas coloridas, cada uma identificada com sua nota musical. Os nomes das notas e a série harmônica têm colunas próprias, e sons mais agudos, como os de alarmes de fumaça, são identificados com sua altura real. Defina uma **nota-alvo** e ela aparece como uma linha de referência para cantar ou afinar. Ótimo para assobios, sirenes, canto de pássaros e zumbido de máquinas. |
+| **Parciais** | Os tons proeminentes acompanhados ao longo do tempo como linhas coloridas, cada uma identificada com sua nota musical. Os nomes das notas e a série harmônica têm colunas próprias, e sons mais agudos, como os de alarmes de fumaça, são identificados com sua altura real. Escolha uma ou mais **notas-alvo** — com sustenidos, bemóis e oitava — e cada uma aparece como uma linha de referência para cantar ou afinar, com a visualização ampliada na faixa delas. Ótimo para assobios, sirenes, canto de pássaros e zumbido de máquinas. |
 | **Visualizador** | A música do ambiente como um show de luzes ao vivo — as batidas detonam anéis, os graves inflam a cena, os agudos chovem faíscas. Tem sua própria seção completa abaixo. |
 
 **Bandeiras** laranja no Espectrograma marcam os momentos em que o classificador de sons disparou, com seu rótulo e sua confiança — assim você vê exatamente a qual formato o modelo reagiu.
@@ -87,7 +87,7 @@ telefone e a TV acompanha, então o mesmo Mirror coloca o Espectrograma ou o Vis
 
 - O scope não custa nada quando está fechado — a análise extra só roda enquanto ele está na tela.
 - Deixá-lo aberto também sai barato: o Espectrograma quase não custa nada, então não vai esquentar seu telefone por mais tempo que você fique olhando, e as visões Espectrograma e Parciais são redesenhadas em um ritmo constante e legível, sem perder nada do que ouvem.
-- Os valores absolutos de dB não são calibrados por padrão; são consistentes e comparáveis, e o ajuste de calibração em ⓘ permite alinhá-los a um medidor de referência.
+- Os níveis vêm calibrados de fábrica: nós os ajustamos a um medidor de nível sonoro de referência (ponderação A) com precisão de cerca de ±1 dB em um iPhone 16 Pro Max, e um iPhone 17 ficou a menos de meio decibel dele. Outros modelos podem medir um pouco diferente, e esta é a nossa própria calibração, não uma medição certificada — se você tiver um medidor de referência, o ajuste de calibração em ⓘ refina todas as leituras de nível. Qualquer ajuste de calibração definido antes da versão 1.1.9 foi zerado, porque o padrão que ele corrigia mudou.
 - O scope lê o canal do microfone principal. Detecção, localização de direção e alertas não são afetados por nada que você faça aqui.
 
 ---

@@ -1,6 +1,6 @@
 # Akustik Kapsam — Profesyonel Ses Analizi Görünümü
 
-**Akustik Kapsam**, Vigilant Ear'ı cebinizde taşıdığınız bir ses analizi cihazına dönüştürür: mikrofonun duyduğu her şeyin altı farklı biçimde canlı görüntüsü. Bir sesin şeklini *görmek*, perdesini ve düzeyini ölçmek, son yarım dakikayı dondurup geri sarmak ve kendi özel ses paketinizi eğitmek için klipler yakalamak üzere kullanın.
+**Akustik Kapsam**, Vigilant Ear'ı cebinizde taşıdığınız bir ses analizi cihazına dönüştürür: mikrofonun duyduğu her şeyin altı farklı biçimde canlı görüntüsü. Bir sesin şeklini *görmek*, perdesini ve düzeyini ölçmek, son bir dakikayı dondurup geri sarmak ve kendi özel ses paketinizi eğitmek için klipler yakalamak üzere kullanın.
 
 **Eylem yelpazesinden** (üst raydaki dönen huzme) açın: huzmeye dokunun, ardından **ekolayzıra** (canlandırmalı yeşil ve camgöbeği çubuklar) dokunun. Akustik Kapsam **herkes için ücretsizdir** — aşağıdaki canlı görünümler hiçbir satın alma gerektirmez. Yalnızca kendi özel ses paketleriniz için klip kaydeden **Train** yakalama araçları (aşağıda) Power Pack+ kapsamındadır.
 
@@ -19,10 +19,10 @@ Alttaki çubukla geçiş yapın.
 | Görünüm | Ne gösterir |
 |---|---|
 | **Spektrum** | Şu anki frekansa göre düzey — beyaz bir tepe tutma çizgisiyle canlı bir eğri. |
-| **Spektrogram** | **Zamana** göre frekans — son ~24 saniye akıp geçer, renk = düzey. Çoğu sesin burada tanınabilir bir görsel şekli vardır. |
+| **Spektrogram** | **Zamana** göre frekans — son bir dakika akıp geçer, renk = düzey. Çoğu sesin burada tanınabilir bir görsel şekli vardır. |
 | **⅓ Oktav RTA** | Donanımsal bir gerçek zamanlı çözümleyici gibi, 28 standart ISO bandı. Turuncu çentikler tepe tutmadır. |
 | **Kroma** | 12 müzikal perde sınıfı — hangi notaların bulunduğu, en güçlüsü vurgulanmış olarak. |
-| **Kısmi Bileşenler** | Zaman içinde renkli çizgiler olarak izlenen belirgin tonlar, her biri müzikal notasıyla etiketlenmiş. Nota adları ve harmonik dizi kendi sütunlarında yer alır; duman alarmları gibi daha tiz sesler ise gerçek perdeleriyle etiketlenir. Bir **hedef nota** belirleyin; şarkı söylerken veya akort ederken referans alabileceğiniz bir çizgi olarak çizilir. Islıklar, sirenler, kuş sesleri ve makine uğultusu için mükemmeldir. |
+| **Kısmi Bileşenler** | Zaman içinde renkli çizgiler olarak izlenen belirgin tonlar, her biri müzikal notasıyla etiketlenmiş. Nota adları ve harmonik dizi kendi sütunlarında yer alır; duman alarmları gibi daha tiz sesler ise gerçek perdeleriyle etiketlenir. Bir veya daha fazla **hedef nota** seçin (diyez, bemol ve oktav dahil); her biri şarkı söylerken veya akort ederken referans alabileceğiniz bir çizgi olarak çizilir ve görünüm onların aralığına yakınlaşır. Islıklar, sirenler, kuş sesleri ve makine uğultusu için mükemmeldir. |
 | **Görselleştirici** | Odanın müziği canlı bir ışık gösterisi olarak — vuruşlar halkaları patlatır, bas sahneyi şişirir, tizler kıvılcım yağdırır. Aşağıda kendi bölümü vardır. |
 
 Spektrogram üzerindeki turuncu **bayraklar**, ses sınıflandırıcısının tetiklendiği anları etiketi ve güveniyle birlikte işaretler — böylece modelin tam olarak hangi şekle tepki verdiğini görebilirsiniz.
@@ -87,7 +87,7 @@ değiştirin, TV izler; böylece aynı Mirror, Spektrogram'ı veya Görselleşti
 
 - Kapalıyken kapsamın hiçbir maliyeti yoktur — ek çözümleme yalnızca ekrandayken çalışır.
 - Açık bırakmak da pahalı değildir: Spektrogram'ın maliyeti neredeyse sıfırdır, bu yüzden ne kadar uzun izlerseniz izleyin telefonunuzu ısıtmaz; Spektrogram ve Kısmi Bileşenler de duydukları hiçbir şeyi kaçırmadan sabit ve okunaklı bir hızda yeniden çizilir.
-- Mutlak dB değerleri öntanımlı olarak kalibre edilmemiştir; tutarlı ve karşılaştırılabilirdirler ve ⓘ kalibrasyon ayarlayıcısı bunları bir referans ölçere hizalamanıza olanak tanır.
+- Düzeyler kutudan çıktığı haliyle kalibre edilmiştir: bunları bir iPhone 16 Pro Max'te referans bir ses düzeyi ölçeriyle (A ağırlıklı) yaklaşık ±1 dB içinde eşleştirdik; bir iPhone 17 de ondan yarım desibelden az saptı. Diğer modeller biraz farklı ölçebilir ve bu bizim kendi kalibrasyonumuzdur, onaylı bir ölçüm değildir — bir referans ölçeriniz varsa ⓘ kalibrasyon ayarlayıcısı tüm düzey okumalarında ince ayar yapar. 1.1.9 sürümünden önce ayarlanan kalibrasyon farkları, düzelttikleri varsayılan değer değiştiği için sıfırlandı.
 - Kapsam birincil mikrofon kanalını okur. Algılama, yön bulma ve uyarılar burada yaptığınız hiçbir şeyden etkilenmez.
 
 ---
