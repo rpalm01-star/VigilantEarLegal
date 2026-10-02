@@ -1,6 +1,6 @@
 # Politică de confidențialitate pentru Vigilant Ear 👂🛰️
 
-**Data de intrare în vigoare:** 24 septembrie 2026
+**Data de intrare în vigoare:** 2 octombrie 2026
 
 ## Introducere
 
@@ -43,6 +43,16 @@ Când folosești anumite funcții — sau când aplicația are nevoie de ele ca 
 *   **Alerte de cutremur (prin propriul nostru serviciu de alerte)**
     *   *Ce se trimite:* Cereri către un singur flux public mondial de sinteză a cutremurelor, preluate prin același serviciu ca alertele meteo de mai sus, astfel încât telefonul tău nu contactează serverele unui guvern străin nici pentru acestea — cererea nu poartă nicio informație de locație sau regiune; locația dispozitivului tău e folosită doar pe dispozitiv ca să decidă dacă un cutremur raportat e lângă tine
     *   *Furnizor:* Fluxul public oficial de cutremure, retransmis de Wingdings
+*   **Radar meteo**
+    *   *Ce se trimite:* Când radarul este pornit, o cerere pentru lista imaginilor radar, apoi plăcile de imagine pentru partea de hartă de pe ecran. Fiecare cerere de placă indică un nivel de zoom și un pătrat al hărții — la zoomul cel mai apropiat, un pătrat cu latura de aproximativ 40 km — și ora imaginii radar. Nimic altceva: niciun identificator, niciun cont, nicio dată de detecție.
+    *   *Sursă:* Imagini radar și satelitare de la serviciile meteorologice naționale — NOAA/NWS (Statele Unite), ECCC (Canada), SMN-CONAGUA (Mexic), JMA (Japonia), Departamentul Protecției Civile din Italia, EUMETNET OPERA (Europa) și estimări satelitare NOAA — livrate pe telefonul tău printr-o infrastructură pe care o operăm noi, astfel încât cererile tale nu contactează niciodată servere guvernamentale.
+    *   *Furnizor:* Wingdings
+*   **Lista de ajutor (colacul de salvare de pe hartă)**
+    *   *Ce se trimite:* Când o deschizi: un cod de țară din două litere (din locația ta, dacă aplicația o are, altfel din setarea de regiune a telefonului) și limba aplicației, ca lista să arate numărul de urgență și organizațiile potrivite.
+    *   *Furnizor:* Wingdings
+*   **Descărcarea pentru Suport pentru subtitrări (iPhone-uri cu cel puțin 8 GB de memorie)**
+    *   *Ce se trimite:* Cereri web obișnuite pentru descărcarea unică a modelelor de recunoaștere a vorbirii (circa 1 GB) și o listă a acestor fișiere. Nu se trimite nimic despre tine, locația ta sau sunetul tău; după descărcare, modelele rulează pe dispozitiv, ca restul subtitrării.
+    *   *Furnizor:* Wingdings, prin Cloudflare
 *   **Identificarea muzicii (opțional, Power Pack+)**
     *   *Ce se trimite:* Amprente audio scurte — niciodată audio brut — când e detectată muzică și Shazam e activat (poate fi oprit în setări)
     *   *Furnizor:* Apple Shazam / ShazamKit

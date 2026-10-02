@@ -1,6 +1,6 @@
 # Datenschutzrichtlinie für Vigilant Ear 👂🛰️
 
-**Datum des Inkrafttretens:** 24. September 2026
+**Datum des Inkrafttretens:** 2. Oktober 2026
 
 ## Einführung
 
@@ -43,6 +43,16 @@ Wenn Sie bestimmte Funktionen nutzen — oder wenn die App diese zum Funktionier
 *   **Erdbebenwarnungen (über unseren eigenen Warndienst)**
     *   *Was gesendet wird:* Anfragen an einen einzigen weltweiten öffentlichen Erdbeben-Übersichtsfeed — die Anfrage enthält keinerlei Standort- oder Regionsinformationen; Ihr Gerätestandort wird ausschließlich auf dem Gerät verwendet, um zu entscheiden, ob ein gemeldetes Beben in Ihrer Nähe ist — abgerufen über denselben Dienst wie die Wetterwarnungen oben, sodass Ihr Telefon auch dafür keine Server einer ausländischen Regierung kontaktiert
     *   *Anbieter:* Amtlicher öffentlicher Erdbeben-Feed, weitergeleitet von Wingdings
+*   **Wetterradar**
+    *   *Was gesendet wird:* Wenn das Radar eingeschaltet ist, eine Anfrage nach der Liste der Radarbilder und danach die Bildkacheln für den Kartenausschnitt auf dem Bildschirm. Jede Kachelanfrage nennt eine Zoomstufe und ein Quadrat der Karte — bei der stärksten Vergrößerung ein Quadrat von etwa 40 km Seitenlänge — sowie die Zeit des Radarbilds. Sonst nichts: keine Kennung, kein Konto, keine Erkennungsdaten.
+    *   *Quelle:* Radar- und Satellitenbilder nationaler Wetterdienste — NOAA/NWS (Vereinigte Staaten), ECCC (Kanada), SMN-CONAGUA (Mexiko), JMA (Japan), der italienische Zivilschutz (Dipartimento della Protezione Civile), EUMETNET OPERA (Europa) und Satellitenschätzungen der NOAA — über eine von uns betriebene Infrastruktur an Ihr Telefon geliefert, sodass Ihre Anfragen nie Server einer Regierung erreichen.
+    *   *Anbieter:* Wingdings
+*   **Hilfeliste (der Rettungsring auf der Karte)**
+    *   *Was gesendet wird:* Beim Öffnen: ein Ländercode aus zwei Buchstaben (aus Ihrem Standort, sofern die App ihn kennt, sonst aus der Regionseinstellung Ihres Telefons) und Ihre App-Sprache, damit die Liste die richtige Notrufnummer und die richtigen Organisationen zeigt.
+    *   *Anbieter:* Wingdings
+*   **Download für die Untertitel-Unterstützung (iPhones mit mindestens 8 GB Arbeitsspeicher)**
+    *   *Was gesendet wird:* Gewöhnliche Webanfragen für den einmaligen Download von Spracherkennungsmodellen (etwa 1 GB) und eine Liste dieser Dateien. Nichts über Sie, Ihren Standort oder Ihr Audio wird gesendet; nach dem Download laufen die Modelle wie die übrige Untertitelung auf dem Gerät.
+    *   *Anbieter:* Wingdings, über Cloudflare
 *   **Musikidentifikation (optional, Power Pack+)**
     *   *Was gesendet wird:* Kurze Audio-Fingerabdrücke — niemals rohes Audio — wenn Musik erkannt wird und Shazam aktiviert ist (kann in den Einstellungen ausgeschaltet werden)
     *   *Anbieter:* Apple Shazam / ShazamKit

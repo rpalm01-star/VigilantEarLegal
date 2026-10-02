@@ -1,6 +1,6 @@
 # Privacy Policy for Vigilant Ear 👂🛰️
 
-**Effective Date:** September 24, 2026
+**Effective Date:** October 2, 2026
 
 ## Introduction
 
@@ -43,6 +43,16 @@ When you use certain features — or when the app needs them to function — **l
 *   **Earthquake alerts (through our own alert service)**
     *   *What is sent:* Requests for a single worldwide public earthquake summary feed, fetched through the same service as the weather alerts above, so your phone does not contact a foreign government's servers for these either — the request carries no location or region information at all; your device location is used only on-device to decide whether a reported quake is near you
     *   *Provider:* Official public earthquake feed, relayed by Wingdings
+*   **Weather radar**
+    *   *What is sent:* When the radar is on, a request for the list of radar images, then the image tiles for the part of the map on screen. Each tile request names a zoom level and a square of the map — at the closest zoom, a square roughly 40 km across — and the time of the radar image. Nothing else: no identifier, no account, no detection data.
+    *   *Source:* Radar and satellite images from national weather services — NOAA/NWS (United States), ECCC (Canada), SMN-CONAGUA (Mexico), JMA (Japan), the Italian Civil Protection Department, EUMETNET OPERA (Europe) and NOAA satellite estimates — delivered to your phone through infrastructure we operate so your requests never contact government servers.
+    *   *Provider:* Wingdings
+*   **Help list (the life ring on the map)**
+    *   *What is sent:* When you open it: a two-letter country code (from your location if the app has it, otherwise your phone's region setting) and your app language, so the list shows the right emergency number and organizations.
+    *   *Provider:* Wingdings
+*   **Caption Support download (iPhones with at least 8GB of memory)**
+    *   *What is sent:* Standard web requests for a one-time download of speech-recognition models (about 1 GB), and a list of those files. Nothing about you, your location or your audio is sent; once downloaded, the models run on the device like the rest of captioning.
+    *   *Provider:* Wingdings, through Cloudflare
 *   **Music identification (optional, Power Pack+)**
     *   *What is sent:* Short audio fingerprints — never raw audio — when music is detected and Shazam is enabled (can be turned off in settings)
     *   *Provider:* Apple Shazam / ShazamKit

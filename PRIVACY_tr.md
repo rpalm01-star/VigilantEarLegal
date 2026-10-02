@@ -1,6 +1,6 @@
 # Vigilant Ear Gizlilik Politikası 👂🛰️
 
-**Yürürlük tarihi:** 24 Eylül 2026
+**Yürürlük tarihi:** 2 Ekim 2026
 
 ## Giriş
 
@@ -43,6 +43,16 @@ Belirli özellikleri kullandığınızda — veya uygulamanın çalışması iç
 *   **Deprem uyarıları (kendi uyarı hizmetimiz üzerinden)**
     *   *Ne gönderilir:* Yukarıdaki hava uyarılarıyla aynı hizmet üzerinden çekilen tek bir dünya çapında kamu deprem özet akışı istekleri; böylece telefonunuz bunlar için de yabancı bir hükümetin sunucularına bağlanmaz — istek hiç konum veya bölge bilgisi taşımaz; cihaz konumu yalnızca bildirilen bir depremin size yakın olup olmadığına cihazda karar vermek için kullanılır
     *   *Sağlayıcı:* Resmi kamu deprem akışı, Wingdings tarafından iletilir
+*   **Hava durumu radarı**
+    *   *Ne gönderilir:* Radar açıkken, radar görüntüleri listesi için bir istek, ardından ekrandaki harita bölümünün görüntü karoları. Her karo isteği bir yakınlaştırma düzeyini ve haritada bir kareyi — en yakın yakınlaştırmada kenarı yaklaşık 40 km olan bir kare — ve radar görüntüsünün zamanını belirtir. Başka hiçbir şey: tanımlayıcı yok, hesap yok, algılama verisi yok.
+    *   *Kaynak:* Ulusal meteoroloji servislerinin radar ve uydu görüntüleri — NOAA/NWS (Amerika Birleşik Devletleri), ECCC (Kanada), SMN-CONAGUA (Meksika), JMA (Japonya), İtalya Sivil Koruma Dairesi, EUMETNET OPERA (Avrupa) ve NOAA uydu tahminleri — işlettiğimiz altyapı üzerinden telefonunuza ulaştırılır; böylece istekleriniz hiçbir zaman devlet sunucularıyla bağlantı kurmaz.
+    *   *Sağlayıcı:* Wingdings
+*   **Yardım listesi (haritadaki can simidi)**
+    *   *Ne gönderilir:* Açtığınızda: iki harfli bir ülke kodu (uygulama konumunuzu biliyorsa konumunuzdan, bilmiyorsa telefonunuzun bölge ayarından) ve uygulama diliniz; böylece liste doğru acil durum numarasını ve kuruluşları gösterir.
+    *   *Sağlayıcı:* Wingdings
+*   **Altyazı Desteği indirmesi (en az 8 GB belleğe sahip iPhone'lar)**
+    *   *Ne gönderilir:* Konuşma tanıma modellerinin tek seferlik indirilmesi (yaklaşık 1 GB) için standart web istekleri ve bu dosyaların bir listesi. Sizinle, konumunuzla veya sesinizle ilgili hiçbir şey gönderilmez; indirildikten sonra modeller, altyazının geri kalanı gibi cihazda çalışır.
+    *   *Sağlayıcı:* Wingdings, Cloudflare üzerinden
 *   **Müzik tanıma (isteğe bağlı, Power Pack+)**
     *   *Ne gönderilir:* Müzik algılandığında ve Shazam açıkken kısa ses parmak izleri — asla ham ses değil (ayarlarda kapatılabilir)
     *   *Sağlayıcı:* Apple Shazam / ShazamKit

@@ -1,6 +1,6 @@
 # Politique de confidentialité de Vigilant Ear 👂🛰️
 
-**Date d'entrée en vigueur :** 24 septembre 2026
+**Date d'entrée en vigueur :** 2 octobre 2026
 
 ## Introduction
 
@@ -43,6 +43,16 @@ Lorsque vous utilisez certaines fonctionnalités — ou lorsque l'application en
 *   **Alertes sismiques (via notre propre service d'alertes)**
     *   *Ce qui est envoyé :* Des requêtes vers un unique flux public mondial de synthèse des séismes — la requête ne contient aucune information de localisation ou de région ; la position de votre appareil n'est utilisée que sur l'appareil pour déterminer si un séisme signalé est proche de vous — récupérées via le même service que les alertes météo ci-dessus, de sorte que votre téléphone ne contacte pas non plus les serveurs d'un gouvernement étranger pour celles-ci
     *   *Fournisseur :* Flux public officiel de séismes, relayé par Wingdings
+*   **Radar météo**
+    *   *Ce qui est envoyé :* Lorsque le radar est activé, une requête pour la liste des images radar, puis les tuiles d'image correspondant à la partie de la carte affichée à l'écran. Chaque requête de tuile indique un niveau de zoom et un carré de la carte — au zoom le plus proche, un carré d'environ 40 km de côté — ainsi que l'heure de l'image radar. Rien d'autre : aucun identifiant, aucun compte, aucune donnée de détection.
+    *   *Source :* Images radar et satellite de services météorologiques nationaux — NOAA/NWS (États-Unis), ECCC (Canada), SMN-CONAGUA (Mexique), JMA (Japon), le Département de la Protection civile italien, EUMETNET OPERA (Europe) et estimations satellitaires de la NOAA — acheminées jusqu'à votre téléphone par une infrastructure que nous exploitons, afin que vos requêtes ne contactent jamais de serveurs gouvernementaux.
+    *   *Fournisseur :* Wingdings
+*   **Liste d'aide (la bouée sur la carte)**
+    *   *Ce qui est envoyé :* À l'ouverture : un code pays à deux lettres (tiré de votre position si l'app la connaît, sinon du réglage de région de votre téléphone) et la langue de l'app, pour que la liste affiche le bon numéro d'urgence et les bons organismes.
+    *   *Fournisseur :* Wingdings
+*   **Téléchargement de la Prise en charge des sous-titres (iPhone dotés d'au moins 8 Go de mémoire)**
+    *   *Ce qui est envoyé :* Des requêtes web standard pour le téléchargement unique de modèles de reconnaissance vocale (environ 1 Go), et une liste de ces fichiers. Rien sur vous, votre position ou votre audio n'est envoyé ; une fois téléchargés, les modèles fonctionnent sur l'appareil, comme le reste du sous-titrage.
+    *   *Fournisseur :* Wingdings, via Cloudflare
 *   **Identification musicale (optionnelle, Power Pack+)**
     *   *Ce qui est envoyé :* Courtes empreintes audio — jamais d'audio brut — lorsque de la musique est détectée et que Shazam est activé (peut être désactivé dans les paramètres)
     *   *Fournisseur :* Apple Shazam / ShazamKit
