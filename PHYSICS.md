@@ -222,7 +222,7 @@ noise, and it is recorded rather than dismissed.
 ### 3.1 The model
 
 A single microphone cannot recover absolute distance: level says how loud a sound is *here*, and
-turning that into metres requires assuming how loud it is *there*. The app's estimate is exactly
+turning that into meters requires assuming how loud it is *there*. The app's estimate is exactly
 that assumption, fitted:
 
     ratio = (distanceCeiling − peak) / (distanceCeiling − ambientFloor)
@@ -331,7 +331,7 @@ coincidence labels building-wide events; it is a measurement instrument, not a p
 A ground arrival on the accelerometer followed by an air arrival at the microphone or barometer
 from the same event gives a range from the two-speed geometry: Δt × 1/(1/343 − 1/5000) ≈ 368 m/s
 of Δt, assuming a 5 km/s crustal wave (real 2–6 km/s — a labelled guess). Shown only in the
-developer bench; no user surface prints a kilometre figure.
+developer bench; no user surface prints a kilometer figure.
 
 ### 6.5 What ships and what is dark
 

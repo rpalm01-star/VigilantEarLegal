@@ -45,7 +45,7 @@ Când folosești anumite funcții — sau când aplicația are nevoie de ele ca 
     *   *Furnizor:* Fluxul public oficial de cutremure, retransmis de Wingdings
 *   **Radar meteo**
     *   *Ce se trimite:* Când radarul este pornit, o cerere pentru lista imaginilor radar, apoi plăcile de imagine pentru partea de hartă de pe ecran. Fiecare cerere de placă indică un nivel de zoom și un pătrat al hărții — la zoomul cel mai apropiat, un pătrat cu latura de aproximativ 40 km — și ora imaginii radar. Nimic altceva: niciun identificator, niciun cont, nicio dată de detecție.
-    *   *Sursă:* Imagini radar și satelitare de la serviciile meteorologice naționale — NOAA/NWS (Statele Unite), ECCC (Canada), SMN-CONAGUA (Mexic), JMA (Japonia), Departamentul Protecției Civile din Italia, EUMETNET OPERA (Europa) și estimări satelitare NOAA — livrate pe telefonul tău printr-o infrastructură pe care o operăm noi, astfel încât cererile tale nu contactează niciodată servere guvernamentale.
+    *   *Sursă:* Imagini radar și satelitare de la serviciile meteorologice naționale (fiecare listat cu licența sa la [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), livrate pe telefonul tău printr-o infrastructură pe care o operăm noi, astfel încât cererile tale nu contactează niciodată servere guvernamentale.
     *   *Furnizor:* Wingdings
 *   **Lista de ajutor (colacul de salvare de pe hartă)**
     *   *Ce se trimite:* Când o deschizi: un cod de țară din două litere (din locația ta, dacă aplicația o are, altfel din setarea de regiune a telefonului) și limba aplicației, ca lista să arate numărul de urgență și organizațiile potrivite.

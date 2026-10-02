@@ -120,7 +120,13 @@ The official warnings in Vigilant Ear come from these agencies, delivered throug
 113. Zambia: **Zambia Meteorological Department**
 114. Zimbabwe: **Meteorological Services Department (Zimbabwe)**
 115. Worldwide: **U.S. Geological Survey (USGS) earthquake feed** — Public domain (U.S. Government work).
-116. United States: **NOAA/NWS weather radar (base reflectivity mosaic)** — Public domain (U.S. Government work).
+116. United States: **NOAA/NWS weather radar (base reflectivity mosaic)** — Public domain (U.S. Government work). No endorsement by NOAA or the National Weather Service is implied.
+117. Canada: **Environment and Climate Change Canada weather radar (MSC GeoMet, 1 km composite)** — Data Source: Environment and Climate Change Canada. Used under the Environment and Climate Change Canada Data Servers End-use Licence, https://eccc-msc.github.io/open-data/licence/readme\_en/. Edited by Vigilant Ear: standardized to a consistent color palette.
+118. Japan: **Japan Meteorological Agency (気象庁) high-resolution precipitation nowcast, observed frames** — 出典：気象庁ホームページ (https://www.jma.go.jp/bosai/nowc/) — Source: Japan Meteorological Agency website. Used under the Japan Meteorological Agency Website Terms of Use (Government of Japan Standard Terms of Use 2.0, compatible with CC BY 4.0), https://www.jma.go.jp/jma/en/copyright.html. Edited by Vigilant Ear: standardized to a consistent color palette.
+119. Italy: **Radar-DPC, Dipartimento della Protezione Civile (surface rainfall intensity)** — Licensed under CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/. Edited by Vigilant Ear: standardized to a consistent color palette. The radar tiles Vigilant Ear shows for Italy are shared under the same licence, CC BY-SA 4.0.
+120. Europe: **EUMETNET OPERA weather radar composite (maximum reflectivity)** — © EUMETNET. Licensed under CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Edited by Vigilant Ear: standardized to a consistent color palette.
+121. Mexico: **Servicio Meteorológico Nacional (SMN-CONAGUA) weather radar** — Source: Servicio Meteorológico Nacional (SMN-CONAGUA). Edited by Vigilant Ear: standardized to a consistent color palette.
+122. Worldwide, 60°S to 70°N, where no radar is shown: **NOAA/NESDIS Enterprise Rainfall Rate — a satellite estimate from GOES, Himawari and Meteosat, not radar** — Public domain (U.S. Government work). Edited by Vigilant Ear: standardized to a consistent color palette.
 
 ## Models
 

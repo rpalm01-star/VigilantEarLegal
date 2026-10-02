@@ -45,7 +45,7 @@ Wenn Sie bestimmte Funktionen nutzen — oder wenn die App diese zum Funktionier
     *   *Anbieter:* Amtlicher öffentlicher Erdbeben-Feed, weitergeleitet von Wingdings
 *   **Wetterradar**
     *   *Was gesendet wird:* Wenn das Radar eingeschaltet ist, eine Anfrage nach der Liste der Radarbilder und danach die Bildkacheln für den Kartenausschnitt auf dem Bildschirm. Jede Kachelanfrage nennt eine Zoomstufe und ein Quadrat der Karte — bei der stärksten Vergrößerung ein Quadrat von etwa 40 km Seitenlänge — sowie die Zeit des Radarbilds. Sonst nichts: keine Kennung, kein Konto, keine Erkennungsdaten.
-    *   *Quelle:* Radar- und Satellitenbilder nationaler Wetterdienste — NOAA/NWS (Vereinigte Staaten), ECCC (Kanada), SMN-CONAGUA (Mexiko), JMA (Japan), der italienische Zivilschutz (Dipartimento della Protezione Civile), EUMETNET OPERA (Europa) und Satellitenschätzungen der NOAA — über eine von uns betriebene Infrastruktur an Ihr Telefon geliefert, sodass Ihre Anfragen nie Server einer Regierung erreichen.
+    *   *Quelle:* Radar- und Satellitenbilder nationaler Wetterdienste (alle mit ihrer Lizenz aufgeführt unter [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), über eine von uns betriebene Infrastruktur an Ihr Telefon geliefert, sodass Ihre Anfragen nie Server einer Regierung erreichen.
     *   *Anbieter:* Wingdings
 *   **Hilfeliste (der Rettungsring auf der Karte)**
     *   *Was gesendet wird:* Beim Öffnen: ein Ländercode aus zwei Buchstaben (aus Ihrem Standort, sofern die App ihn kennt, sonst aus der Regionseinstellung Ihres Telefons) und Ihre App-Sprache, damit die Liste die richtige Notrufnummer und die richtigen Organisationen zeigt.

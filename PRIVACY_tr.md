@@ -45,7 +45,7 @@ Belirli özellikleri kullandığınızda — veya uygulamanın çalışması iç
     *   *Sağlayıcı:* Resmi kamu deprem akışı, Wingdings tarafından iletilir
 *   **Hava durumu radarı**
     *   *Ne gönderilir:* Radar açıkken, radar görüntüleri listesi için bir istek, ardından ekrandaki harita bölümünün görüntü karoları. Her karo isteği bir yakınlaştırma düzeyini ve haritada bir kareyi — en yakın yakınlaştırmada kenarı yaklaşık 40 km olan bir kare — ve radar görüntüsünün zamanını belirtir. Başka hiçbir şey: tanımlayıcı yok, hesap yok, algılama verisi yok.
-    *   *Kaynak:* Ulusal meteoroloji servislerinin radar ve uydu görüntüleri — NOAA/NWS (Amerika Birleşik Devletleri), ECCC (Kanada), SMN-CONAGUA (Meksika), JMA (Japonya), İtalya Sivil Koruma Dairesi, EUMETNET OPERA (Avrupa) ve NOAA uydu tahminleri — işlettiğimiz altyapı üzerinden telefonunuza ulaştırılır; böylece istekleriniz hiçbir zaman devlet sunucularıyla bağlantı kurmaz.
+    *   *Kaynak:* Ulusal meteoroloji servislerinin radar ve uydu görüntüleri (her biri lisansıyla birlikte [vigilantear.com/en/sources](https://vigilantear.com/en/sources) adresinde listelenir) işlettiğimiz altyapı üzerinden telefonunuza ulaştırılır; böylece istekleriniz hiçbir zaman devlet sunucularıyla bağlantı kurmaz.
     *   *Sağlayıcı:* Wingdings
 *   **Yardım listesi (haritadaki can simidi)**
     *   *Ne gönderilir:* Açtığınızda: iki harfli bir ülke kodu (uygulama konumunuzu biliyorsa konumunuzdan, bilmiyorsa telefonunuzun bölge ayarından) ve uygulama diliniz; böylece liste doğru acil durum numarasını ve kuruluşları gösterir.

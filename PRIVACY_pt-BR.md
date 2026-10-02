@@ -45,7 +45,7 @@ Quando você usa certos recursos — ou quando o aplicativo precisa deles para f
     *   *Provedor:* Feed público oficial de terremotos, retransmitido pela Wingdings
 *   **Radar meteorológico**
     *   *O que é enviado:* Com o radar ligado, uma solicitação da lista de imagens de radar e, em seguida, os blocos de imagem da parte do mapa que está na tela. Cada solicitação de bloco informa um nível de zoom e um quadrado do mapa — no zoom mais próximo, um quadrado de cerca de 40 km de lado — e o horário da imagem de radar. Nada mais: nenhum identificador, nenhuma conta, nenhum dado de detecção.
-    *   *Fonte:* Imagens de radar e de satélite de serviços meteorológicos nacionais — NOAA/NWS (Estados Unidos), ECCC (Canadá), SMN-CONAGUA (México), JMA (Japão), o Departamento de Proteção Civil da Itália, EUMETNET OPERA (Europa) e estimativas de satélite da NOAA — entregues ao seu telefone por uma infraestrutura que nós operamos, de modo que suas solicitações nunca contatam servidores de governos.
+    *   *Fonte:* Imagens de radar e de satélite de serviços meteorológicos nacionais (cada um listado com sua licença em [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), entregues ao seu telefone por uma infraestrutura que nós operamos, de modo que suas solicitações nunca contatam servidores de governos.
     *   *Provedor:* Wingdings
 *   **Lista de ajuda (a boia salva-vidas no mapa)**
     *   *O que é enviado:* Ao abri-la: um código de país de duas letras (da sua localização, se o app a tiver; caso contrário, da configuração de região do seu telefone) e o idioma do app, para que a lista mostre o número de emergência e as organizações certas.

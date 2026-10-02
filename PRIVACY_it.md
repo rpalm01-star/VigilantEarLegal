@@ -45,7 +45,7 @@ Quando utilizza determinate funzioni — o quando l'applicazione ne ha bisogno p
     *   *Fornitore:* Feed pubblico ufficiale dei terremoti, inoltrato da Wingdings
 *   **Radar meteo**
     *   *Cosa viene inviato:* Quando il radar è attivo, una richiesta per l'elenco delle immagini radar e poi le tessere d'immagine della parte di mappa sullo schermo. Ogni richiesta di tessera indica un livello di zoom e un quadrato della mappa — allo zoom più ravvicinato, un quadrato di circa 40 km di lato — e l'ora dell'immagine radar. Nient'altro: nessun identificativo, nessun account, nessun dato di rilevamento.
-    *   *Fonte:* Immagini radar e satellitari dei servizi meteorologici nazionali — NOAA/NWS (Stati Uniti), ECCC (Canada), SMN-CONAGUA (Messico), JMA (Giappone), il Dipartimento della Protezione Civile, EUMETNET OPERA (Europa) e stime satellitari della NOAA — consegnate al suo telefono tramite un'infrastruttura che gestiamo noi, così le sue richieste non contattano mai server governativi.
+    *   *Fonte:* Immagini radar e satellitari dei servizi meteorologici nazionali (ciascuno elencato con la sua licenza su [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), consegnate al suo telefono tramite un'infrastruttura che gestiamo noi, così le sue richieste non contattano mai server governativi.
     *   *Fornitore:* Wingdings
 *   **Elenco di aiuto (il salvagente sulla mappa)**
     *   *Cosa viene inviato:* All'apertura: un codice paese di due lettere (dalla sua posizione se l'app la conosce, altrimenti dall'impostazione della regione del telefono) e la lingua dell'app, così l'elenco mostra il numero di emergenza e le organizzazioni giuste.

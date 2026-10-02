@@ -45,7 +45,7 @@ Lorsque vous utilisez certaines fonctionnalités — ou lorsque l'application en
     *   *Fournisseur :* Flux public officiel de séismes, relayé par Wingdings
 *   **Radar météo**
     *   *Ce qui est envoyé :* Lorsque le radar est activé, une requête pour la liste des images radar, puis les tuiles d'image correspondant à la partie de la carte affichée à l'écran. Chaque requête de tuile indique un niveau de zoom et un carré de la carte — au zoom le plus proche, un carré d'environ 40 km de côté — ainsi que l'heure de l'image radar. Rien d'autre : aucun identifiant, aucun compte, aucune donnée de détection.
-    *   *Source :* Images radar et satellite de services météorologiques nationaux — NOAA/NWS (États-Unis), ECCC (Canada), SMN-CONAGUA (Mexique), JMA (Japon), le Département de la Protection civile italien, EUMETNET OPERA (Europe) et estimations satellitaires de la NOAA — acheminées jusqu'à votre téléphone par une infrastructure que nous exploitons, afin que vos requêtes ne contactent jamais de serveurs gouvernementaux.
+    *   *Source :* Images radar et satellite de services météorologiques nationaux (chacun est cité avec sa licence sur [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), acheminées jusqu'à votre téléphone par une infrastructure que nous exploitons, afin que vos requêtes ne contactent jamais de serveurs gouvernementaux.
     *   *Fournisseur :* Wingdings
 *   **Liste d'aide (la bouée sur la carte)**
     *   *Ce qui est envoyé :* À l'ouverture : un code pays à deux lettres (tiré de votre position si l'app la connaît, sinon du réglage de région de votre téléphone) et la langue de l'app, pour que la liste affiche le bon numéro d'urgence et les bons organismes.

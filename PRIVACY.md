@@ -21,7 +21,7 @@ With your permission, Vigilant Ear accesses the following **locally**:
 - **Microphone audio** — Used in real time to detect environmental sounds (sirens, vehicles, doorbells, baby cry, people nearby, etc.), estimate direction, and (when Speaker Mode is on) produce live captions and optional on-device translation.
 - **Speech recognition (on-device)** — When captions are enabled, your device’s speech frameworks transcribe nearby speech into text on the phone. Caption text is shown live and is not archived by Vigilant Ear as a permanent transcript history; debug logs do not include caption content. To spell names correctly, the app may also give that on-device recognizer a short list of words already present on this phone — the display names of Constellation phones you have linked, and the title and artist of a song Shazam has just identified. It does **not** read your Contacts, and that list never leaves the device.
 - **Named voices (optional)** — If you name a speaker, that name and a short voiceprint stay in this phone's encrypted store and **never leave it**. There is no cloud backup of voices.
-- **Location** — Used to place detected sounds and weather-alert areas on the map, to improve directional guidance, and to remember how quiet a familiar room is so music detection does not have to relearn it every time you open the app. That last use saves a latitude on its own — no longitude — rounded to about 100 metres, for at most eight places. It stays in the app’s own settings on this phone and is never sent anywhere.
+- **Location** — Used to place detected sounds and weather-alert areas on the map, to improve directional guidance, and to remember how quiet a familiar room is so music detection does not have to relearn it every time you open the app. That last use saves a latitude on its own — no longitude — rounded to about 100 meters, for at most eight places. It stays in the app’s own settings on this phone and is never sent anywhere.
 - **Device orientation and motion** — Used to improve bearing accuracy.
 - **Camera (optional)** — Used only if you open the camera AR “see the sound” view, so markers can be pinned in the live camera preview. Camera frames are used for on-device display; they are not uploaded by Vigilant Ear for sound recognition.
 - **Apple Watch (optional)** — When a Watch companion is available, alert labels and direction cues may be relayed to the paired Watch so you can glance at your wrist.
@@ -45,7 +45,7 @@ When you use certain features — or when the app needs them to function — **l
     *   *Provider:* Official public earthquake feed, relayed by Wingdings
 *   **Weather radar**
     *   *What is sent:* When the radar is on, a request for the list of radar images, then the image tiles for the part of the map on screen. Each tile request names a zoom level and a square of the map — at the closest zoom, a square roughly 40 km across — and the time of the radar image. Nothing else: no identifier, no account, no detection data.
-    *   *Source:* Radar and satellite images from national weather services — NOAA/NWS (United States), ECCC (Canada), SMN-CONAGUA (Mexico), JMA (Japan), the Italian Civil Protection Department, EUMETNET OPERA (Europe) and NOAA satellite estimates — delivered to your phone through infrastructure we operate so your requests never contact government servers.
+    *   *Source:* Radar and satellite images from national weather services (each listed with its license at [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), delivered to your phone through infrastructure we operate so your requests never contact government servers.
     *   *Provider:* Wingdings
 *   **Help list (the life ring on the map)**
     *   *What is sent:* When you open it: a two-letter country code (from your location if the app has it, otherwise your phone's region setting) and your app language, so the list shows the right emergency number and organizations.
@@ -57,7 +57,7 @@ When you use certain features — or when the app needs them to function — **l
     *   *What is sent:* Short audio fingerprints — never raw audio — when music is detected and Shazam is enabled (can be turned off in settings)
     *   *Provider:* Apple Shazam / ShazamKit
 *   **Road context**
-    *   *What is sent:* Your **exact latitude and longitude**, inside a query asking which roads lie within a few hundred metres of you, so detected vehicles can be placed on the road they are actually on rather than in the middle of a field. This is a precise position, not a rounded cell — unlike the weather request above, which is deliberately coarse. No name, account or device identifier is attached, and nothing about what your phone heard is included.
+    *   *What is sent:* Your **exact latitude and longitude**, inside a query asking which roads lie within a few hundred meters of you, so detected vehicles can be placed on the road they are actually on rather than in the middle of a field. This is a precise position, not a rounded cell — unlike the weather request above, which is deliberately coarse. No name, account or device identifier is attached, and nothing about what your phone heard is included.
     *   *Provider:* OpenStreetMap contributors via the public Overpass API
 *   **Road routing**
     *   *What is sent:* Your **exact latitude and longitude**, together with the position of a tracked sound, so a road route between the two can be drawn on the map. Again a precise position, with no identifier and nothing about the detection itself.
@@ -104,7 +104,7 @@ Vigilant Ear can optionally contribute **metadata-only** detection reports to a 
 When it is on — and only when your device registers a **qualifying** event (for example a strong enough non-local infrasound or seismic-related candidate, or certain quake-related audit signals where that path is enabled) — the app may send a small report containing:
 
 - the time of the event (using the device’s wall clock in a global time domain)
-- an approximate location, rounded to about **1 kilometre** (not your exact street address or continuous track)
+- an approximate location, rounded to about **1 kilometer** (not your exact street address or continuous track)
 - basic characteristics of the event, such as sensor channel, whether the path is air or ground, peak frequency where applicable, and a dimensionless strength measure (for example STA/LTA)
 - the type of report (for example infrasound onset, seismic candidate, or quake confirmation audit)
 - the app version
