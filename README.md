@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Effective as of version 1.1.9 · September 2026.*
+*Effective as of version 1.1.10 · October 2026.*
 
 ## An acoustic radar for people who can't hear.
 
@@ -39,6 +39,12 @@ An on-device classifier identifies hundreds of everyday sounds and watches the c
 
 Severe-weather warnings come from **53 official government sources covering 88 countries and territories** — free for all users. New Zealand's civil-defence emergency alerts are included too, with their own **Emergency Alerts** switch. Feeds are narrowed to the ones that cover where you are. In Japan the app also reads the national weather agency's **advance bulletins** — the plain-language notices issued days before a typhoon or heavy rain, not only the warnings issued once danger has arrived — plus the sudden-downpour and landslide bulletins. Advance notices are shown quietly, without the sound and vibration reserved for a real warning.
 
+### 🌧️ Weather radar on the map
+Rain and snow show on the map from the moment the app opens — from the national radars of the United States, Canada, Japan, Italy and much of Europe, and a satellite rain estimate across most of the rest of the world. Touch the map and the last hour plays back three times, so you can see which way a storm is moving; a scale at the bottom reads from Light to Dense. If you don't want it for a session, tap the weather pill to turn it off. The radar arrives the same way the warnings do — through our own server, so your phone never contacts a government's.
+
+### 🛟 Who to call — the life ring
+A life ring beside the map's compass opens a short list for the country you are standing in: the emergency number (with call and text buttons, and a note on Real-Time Text where texting an emergency number may not work), the national weather agency, a Deaf organization where one has a stable page, and Vigilant Ear support.
+
 ### ⌚ Apple Watch + Live Activity — glance and know
 - **Apple Watch companion** — the direction of an alert points on your wrist so a glance tells you where to look. Redesigned Watch UI with the app ear icon, threat HUD layout, and double-tap to dismiss an alert. Alerts can still show the direction arrow when the Watch app is not open.
 - **Live Activity** — Vigilant Ear stays on your **Lock Screen**, in the **Dynamic Island**, and in the **Watch Smart Stack**, so the last alert and its bearing are always one look away.
@@ -46,6 +52,8 @@ Severe-weather warnings come from **53 official government sources covering 88 c
 
 ### 💬 Speaker Mode — live, directional captions *(free)*
 Turn on **Speaker Mode** and Vigilant Ear transcribes people talking near you into **caption blocks, one per voice.** On-device speaker diarization keeps voices distinct — *who* is saying *what* — with a directional cue on the inner ring. The live speaker is highlighted; older text scrolls away as space is needed.
+
+**Each speaker in their own language.** On iPhones with at least 8 GB of memory, a one-time captioning-model download (about 1 GB — over Wi-Fi, or on cellular after asking) lets the app caption each turn in the language actually spoken, so a room that switches between English, Spanish, French and Arabic stays readable. In our tests, word errors in a four-language conversation fell from about 80% to 14%. Without the download — and for readers of Chinese, Japanese and Korean, where Apple's recognizer reads better — captions use Apple's on-device speech recognition as before.
 
 Two things most caption apps won't do: **honesty about confidence** — a subtle per-row quality mark and dotted underlines beneath doubtful words tell you when to trust a line and when to double-check — and **self-correction**: right after a sentence lands, the app re-reads the audio with full context and can restore a missed or misheard word within a couple of seconds, then the text freezes.
 
@@ -58,7 +66,7 @@ Two things most caption apps won't do: **honesty about confidence** — a subtle
 Captions are free; automatic translation is the optional Power Pack+ layer. Captions can also be **spoken aloud to your Bluetooth hearing devices** — free, in Preferences. **Direction Tones** (also free, in Preferences → Captions) add an optional audio cue in the ear you choose that signals where a speaker is — useful with a hearing aid or single-sided hearing, and available to anyone.
 
 ### 🌐 Auto-Translate — your language, live *(Power Pack+)*
-With Speaker Mode on, when a nearby person speaks another language, Vigilant Ear can detect it and render their captions **in your language**, with the source language shown on their block. The chain — hear → separate speakers → transcribe → translate → display — runs **on the device**; the only network moment is a one-time language-pack download from Apple, and when that download is what you are waiting on the app says so rather than leaving you looking at untranslated text. You don't have to know or pick the other language first.
+With Speaker Mode on, when a nearby person speaks another language, Vigilant Ear can detect it and render their captions **in your language**, with the source language shown on their block. The chain — hear → separate speakers → transcribe → translate → display — runs **on the device**; the only network moment is a one-time language-pack download from Apple, and when that download is what you are waiting on the app says so rather than leaving you looking at untranslated text. You don't have to know or pick the other language first. A finished sentence is translated as soon as it ends, without waiting for the speaker to stop, and translations arrive in a fraction of the time they used to.
 
 This is the closest shipping thing to **science fiction's universal translator** — the device that simply understands. Vigilant Ear detects the language on its own, follows every speaker in the room, and captions them all in your language — no earbuds, no setup, on your device.
 
@@ -89,7 +97,7 @@ The thing a phone call would normally do, done with video and text instead. You 
 **Captions travel too.** What each phone transcribes appears on the other, translated into the reader's language when it needs to be. Either of you can pause the link — video and captions — and resume it, and hang up from the main screen.
 
 ### 📷 Camera AR — “see the sound”
-Open the camera pill on the title rail and pin detected sounds at their real bearing in the live camera view. Markers cluster by speaker or by sound category and direction so the view stays readable; sources age-fade when they go quiet.
+Open Camera AR from the action fan and pin detected sounds at their real bearing in the live camera view. Markers cluster by speaker or by sound category and direction so the view stays readable; sources age-fade when they go quiet.
 
 ### 🗺️ Maps, roads & path prediction
 Sound bearings project onto real GPS coordinates on the map. Vehicle sounds can be **snapped to nearby streets** and their paths predicted so a passing truck reads as moving *along the road* rather than through buildings. (Try the fire-truck demo.)
@@ -109,12 +117,15 @@ The safety core is **free, forever**:
 - **Home Watch & Street Watch** — local sound alerts (alarms, sirens, knocks/doorbells, baby, person nearby) with on-screen, haptic, and optional push delivery.
 - **Live captions** — Speaker Mode, on-device, directional where hardware allows, with honest confidence marks, ~2-second self-correction, optional spoken output to Bluetooth hearing devices, and Direction Tones.
 - **Name Called** — optional names you type (yours, kids, partner). A match is a Watch/phone alert with bearing, not a second caption.
-- **Standing Watch** — the room's own condition, always on with nothing to configure: a steady cyan lamp while the room holds its pattern, amber when something changes — a new voice, sudden quiet, or something approaching.
+- **Standing Watch** — the room's own condition, always on with nothing to configure: a steady cyan lamp while the room holds its pattern, amber when something changes — a new voice, sudden quiet, or something approaching. When the app starts, it tells you how long it wasn't listening for alerts.
 - **Severe-weather alerts** — official warnings for your region from 53 government sources in 88 countries and territories.
-- **Earthquake alerts (worldwide)** — feel a buzz and see the area that felt it on your map when a quake is reported nearby. A confirmation from the official earthquake feed — not an early warning: if you felt shaking, this tells you what it was. On-device deep-rumble (infrasound) sensing can arm the check the moment the ground moves.
+- **Weather radar** — rain and snow on the map, with the last hour on replay.
+- **The life ring** — who to call in the country you are in.
+- **Earthquake alerts (worldwide)** — feel a buzz and see the area that felt it on your map when a quake is reported nearby. A confirmation from the official earthquake feed — not an early warning: if you felt shaking, this tells you what it was. The feed is checked every five minutes, in the background too, and on-device deep-rumble (infrasound) sensing can arm an extra check the moment the ground moves.
 - **Feature Playground** — practice alerts and feature previews with a clear PREVIEW watermark.
 - **Apple Watch companion & Live Activity** — glanceable direction and last alert.
 - **Acoustic Scope** — pro-grade live sound visualization, free for everyone. (The capture-for-training tools are Power Pack+.)
+- **Research Array** *(opt-in, off by default)* — if you switch it on, the time, a rough location (about 1 km) and the frequency of quake-like events are shared — no audio, no identifier — to help map earthquakes and other low-frequency events.
 
 **Power Pack+** is a one-time unlock (**not a subscription**) with a **90-day free trial**. It adds the superpowers:
 
@@ -141,7 +152,7 @@ graph TD
     S --> H["Alerts · haptics · Watch · Live Activity"]
     B --> D["Spatial math<br/>TDOA · level trend → bearing · distance · approach"]
     D --> R["Radar ring · map · Camera AR"]
-    B --> F["Speech recognition<br/>(SpeechAnalyzer)"]
+    B --> F["Speech recognition<br/>(SpeechAnalyzer, or per-turn models)"]
     B --> N["Turn boundaries<br/>(Sortformer diarizer, ANE)"]
     N --> E["Voice identity<br/>(ReDimNet embeddings, ANE)"]
     B --> E
@@ -160,13 +171,13 @@ graph LR
 ```
 
 - **Spatial math** — FFTs, coherence-weighted Time Difference of Arrival (TDOA — favor the frequency bands both microphones agree on, then turn the tiny arrival lag into a bearing), and level-trend approach tracking on background tasks. The microphone pair is read in a fixed orientation so direction works the same whether you hold the phone upright or sideways.
-- **Speech** — iOS 26 `SpeechAnalyzer` / `SpeechTranscriber` for transcription; Apple's **Translation** framework for on-device translation. Voice identity is evidence-based: a voice is confirmed as a real person only from independent windows of sound, and an uncertain match shows as unattributed rather than guessing the wrong name.
+- **Speech** — iOS 26 `SpeechAnalyzer` / `SpeechTranscriber` for transcription; Apple's **Translation** framework for on-device translation. With the optional caption download, each turn is cut by a voice-activity detector, its language is picked by a spoken-language model, and it is transcribed by open speech-recognition models — one for European languages, one for the rest — all on the device. Voice identity is evidence-based: a voice is confirmed as a real person only from independent windows of sound, and an uncertain match shows as unattributed rather than guessing the wrong name.
 - **Two models for two questions** — telling voices apart takes *when the speaker changed* and *who that speaker is*, and they are not the same problem. A **Sortformer** streaming diarizer marks the turn boundaries; **ReDimNet** embeddings decide whose voice sits inside each one. Cutting on the boundary matters more than it sounds: a window that straddles two people contains both of them, and no embedding model can undo that afterwards. Underneath both sits a voice-activity floor — if the diarizer goes quiet in a hard room rather than guessing, turns still get cut, so the app degrades instead of blending two speakers into one.
 - **Music truth** — a chroma **song-signature detector** owns the "is music actually playing?" decision, because general classifiers famously call silent rooms and sirens "music." Shazam only runs once the signature agrees something musical is really there.
 - **Concurrency** — Swift 6 isolation keeps the microphone tap, acoustic math, and UI render loop cleanly separated.
 - **Efficiency** — downsampling, load-adaptive classification, and evidence-gated network use keep always-listening light enough to leave on.
 
-Weather and earthquake alerts take the opposite path from audio — nothing about your sound ever goes out, but alert *data* comes in. **Every** official feed flows through a small cache we operate, so one fetch of the public data serves every user — and your phone never contacts a foreign government's servers:
+Weather and earthquake alerts take the opposite path from audio — nothing about your sound ever goes out, but alert *data* comes in. **Every** official feed — and the radar images — flows through a small cache we operate, so one fetch of the public data serves every user, and your phone never contacts a foreign government's servers:
 
 ```mermaid
 graph LR
@@ -228,7 +239,7 @@ Deeper notes for engineers: [Physics](https://vigilantear.com/en/physics/) — T
 
 - **On-device, always for the core pipeline.** Classification, spatial math, transcription, diarization, and translation run on your iPhone. Raw audio is not recorded or uploaded for recognition.
 - **Captions are ephemeral.** Live captions stay in memory for the session; exported debug logs do not include caption text.
-- **No advertising or behavioral analytics SDKs.** Limited network use is only for maps, public weather feeds, optional Shazam fingerprints, road context, and App Store purchases — see the full policy.
+- **No advertising or behavioral analytics SDKs.** Limited network use is only for maps, public weather feeds and radar images, the help list, the optional caption-model download, optional Shazam fingerprints, road context, the opt-in Research Array, and App Store purchases — see the full policy.
 
 Full details: [PRIVACY.md](/en/privacy/) · [TERMS.md](/en/terms/) · [SUPPORT.md](/en/support/)
 
@@ -236,7 +247,7 @@ Full details: [PRIVACY.md](/en/privacy/) · [TERMS.md](/en/terms/) · [SUPPORT.m
 
 ## Hardware & platforms
 
-- **iPhone (full experience).** Works in portrait or landscape — hold it however you like. Stereo microphones required for direction-finding. Recommended **iPhone 13 or newer**.
+- **iPhone (full experience).** Works in portrait or landscape — hold it however you like. Stereo microphones required for direction-finding. Recommended **iPhone 13 or newer**; captions in each speaker's own language need **8 GB of memory** (iPhone 15 Pro and later).
 - **Apple Watch.** Companion alerts with direction arrow; works with Live Activity / Smart Stack.
 - **iPad (native).** Adaptive layout: on the big screen, live captions get a see-through panel beside the map that tucks away when nobody is talking. Single-channel mics → captions without full direction.
 - **Constellation** needs **Ultra-Wideband** — iPhone 11 or later, excluding SE and “e” models. It does **not** need a Wi-Fi network: with Wi-Fi switched on, the phones discover each other directly, so Constellation works with no router and no internet as long as the phones are near each other.

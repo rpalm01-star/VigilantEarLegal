@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*În vigoare începând cu versiunea 1.1.9 · septembrie 2026.*
+*În vigoare începând cu versiunea 1.1.10 · octombrie 2026.*
 
 ## Un radar acustic pentru oamenii care nu aud.
 
@@ -39,6 +39,12 @@ Un clasificator care rulează pe dispozitiv identifică sute de sunete cotidiene
 
 Avertizările de vreme severă provin din **53 de surse guvernamentale oficiale din 88 de țări și teritorii** — gratuite pentru toți utilizatorii. Sunt incluse și alertele de protecție civilă din Noua Zeelandă, cu propriul comutator **Alerte de urgență**. Fluxurile sunt restrânse la cele care acoperă zona în care te afli. În Japonia, aplicația citește și **buletinele anticipate** ale serviciului meteorologic național — anunțurile în limbaj simplu emise cu zile înainte de un taifun sau de ploi abundente, nu doar avertizările emise după ce pericolul a sosit — plus buletinele despre averse bruște și alunecări de teren. Anunțurile anticipate sunt afișate discret, fără sunetul și vibrația rezervate unei avertizări reale.
 
+### 🌧️ Radar meteo pe hartă
+Ploaia și ninsoarea apar pe hartă din clipa în care deschizi aplicația — de la radarele naționale ale Statelor Unite, Canadei, Japoniei, Italiei și ale unei mari părți a Europei, plus o estimare a ploii pe baza datelor din satelit pentru cea mai mare parte a restului lumii. Atinge harta și ultima oră este redată de trei ori, ca să vezi încotro se îndreaptă o furtună; o scală din partea de jos merge de la Ușor la Dens. Dacă nu-l vrei într-o anumită sesiune, atinge pastila meteo ca să-l oprești. Radarul ajunge la tine pe același drum ca avertizările — prin propriul nostru server, așa că telefonul tău nu contactează niciodată serverele vreunui guvern.
+
+### 🛟 Pe cine să suni — colacul de salvare
+Un colac de salvare de lângă busola hărții deschide o listă scurtă pentru țara în care te afli: numărul de urgență (cu butoane pentru apel și mesaj, plus o notă despre textul în timp real, RTT, acolo unde un mesaj trimis la numărul de urgență s-ar putea să nu funcționeze), serviciul meteorologic național, o organizație a persoanelor surde, acolo unde există una cu o pagină stabilă, și asistența Vigilant Ear.
+
 ### ⌚ Apple Watch + Live Activity — o privire și știi
 - **Aplicația însoțitoare pentru Apple Watch** — direcția unei alerte îți este indicată la încheietură, așa că o privire îți spune unde să te uiți. Interfață Watch reproiectată, cu pictograma-ureche a aplicației, aspect HUD pentru amenințări și atingere dublă pentru a închide o alertă. Alertele pot afișa săgeata de direcție chiar și atunci când aplicația de pe Watch nu este deschisă.
 - **Live Activity** — Vigilant Ear rămâne pe **ecranul de blocare**, în **Dynamic Island** și în **Watch Smart Stack**, așa că ultima alertă și direcția ei sunt mereu la o privire distanță.
@@ -46,6 +52,8 @@ Avertizările de vreme severă provin din **53 de surse guvernamentale oficiale 
 
 ### 💬 Speaker Mode — subtitrări în direct, cu direcție *(gratuit)*
 Pornește **Speaker Mode**, iar Vigilant Ear transcrie ce spun oamenii din apropierea ta în **blocuri de subtitrare, câte unul pentru fiecare voce.** Diarizarea vorbitorilor, făcută pe dispozitiv, ține vocile separate — *cine* spune *ce* — cu un indiciu de direcție pe inelul interior. Vorbitorul activ este evidențiat; textul mai vechi iese prin derulare pe măsură ce e nevoie de spațiu.
+
+**Fiecare vorbitor, în propria limbă.** Pe iPhone-urile cu cel puțin 8 GB de memorie, o descărcare unică a modelului de subtitrare (circa 1 GB — prin Wi-Fi sau, după ce ești întrebat, prin rețeaua mobilă) îi permite aplicației să subtitreze fiecare replică în limba în care a fost rostită de fapt, astfel încât o încăpere în care se alternează engleza, spaniola, franceza și araba rămâne lizibilă. În testele noastre, erorile de cuvinte dintr-o conversație în patru limbi au scăzut de la circa 80% la 14%. Fără descărcare — și pentru cei care citesc în chineză, japoneză și coreeană, unde recunoașterea Apple se descurcă mai bine — subtitrările folosesc, ca până acum, recunoașterea vocală Apple de pe dispozitiv.
 
 Două lucruri pe care majoritatea aplicațiilor de subtitrare nu le fac: **onestitate privind gradul de încredere** — un semn discret de calitate pe fiecare rând și sublinieri punctate sub cuvintele îndoielnice îți arată când te poți baza pe un rând și când e bine să verifici — și **autocorectare**: imediat după ce o propoziție apare, aplicația reanalizează sunetul cu tot contextul și poate recupera un cuvânt ratat sau auzit greșit în circa două secunde, apoi textul îngheață.
 
@@ -58,7 +66,7 @@ Două lucruri pe care majoritatea aplicațiilor de subtitrare nu le fac: **onest
 Subtitrările sunt gratuite; traducerea automată este stratul opțional din Power Pack+. Subtitrările pot fi și **citite cu voce tare prin dispozitivele tale auditive Bluetooth** — gratuit, din Preferințe. Funcția **Tonuri de direcție** (tot gratuită, în Preferințe → Subtitrări) adaugă un semnal sonor opțional, în urechea pe care o alegi, care indică unde se află un vorbitor — util cu un aparat auditiv sau cu auz doar pe o parte, și disponibil oricui.
 
 ### 🌐 Traducere automată — limba ta, în direct *(Power Pack+)*
-Cu Speaker Mode pornit, când o persoană din apropiere vorbește altă limbă, Vigilant Ear o poate detecta și îi poate afișa subtitrările **în limba ta**, cu limba sursă indicată pe blocul ei. Lanțul — ascultare → separarea vorbitorilor → transcriere → traducere → afișare — rulează **pe dispozitiv**; singurul moment în care se folosește rețeaua este descărcarea unică a unui pachet de limbă de la Apple, iar când aștepți tocmai această descărcare, aplicația îți spune asta, în loc să te lase să te uiți la un text netradus. Nu trebuie să știi sau să alegi dinainte cealaltă limbă.
+Cu Speaker Mode pornit, când o persoană din apropiere vorbește altă limbă, Vigilant Ear o poate detecta și îi poate afișa subtitrările **în limba ta**, cu limba sursă indicată pe blocul ei. Lanțul — ascultare → separarea vorbitorilor → transcriere → traducere → afișare — rulează **pe dispozitiv**; singurul moment în care se folosește rețeaua este descărcarea unică a unui pachet de limbă de la Apple, iar când aștepți tocmai această descărcare, aplicația îți spune asta, în loc să te lase să te uiți la un text netradus. Nu trebuie să știi sau să alegi dinainte cealaltă limbă. O propoziție încheiată este tradusă imediat ce se termină, fără să se aștepte ca vorbitorul să se oprească, iar traducerile sosesc într-o fracțiune din timpul de până acum.
 
 Este cel mai apropiat lucru disponibil astăzi de **traducătorul universal din science-fiction** — dispozitivul care pur și simplu înțelege. Vigilant Ear detectează singur limba, urmărește fiecare vorbitor din încăpere și îi subtitrează pe toți în limba ta — fără căști, fără configurare, pe dispozitivul tău.
 
@@ -89,7 +97,7 @@ Ceea ce ar face în mod normal un apel telefonic, realizat însă prin video și
 **Și subtitrările circulă.** Ce transcrie fiecare telefon apare pe celălalt, tradus în limba celui care citește atunci când e nevoie. Oricare dintre voi poate pune linkul pe pauză — video și subtitrări — îl poate relua și îl poate închide din ecranul principal.
 
 ### 📷 AR cu camera — „vezi sunetul”
-Deschide pastila camerei de pe bara de titlu și fixează sunetele detectate pe direcția lor reală, în imaginea camerei, în timp real. Marcajele se grupează după vorbitor sau după categoria de sunet și direcție, ca imaginea să rămână lizibilă; sursele se estompează treptat când tac.
+Deschide AR cu camera din evantaiul de acțiuni și fixează sunetele detectate pe direcția lor reală, în imaginea camerei, în timp real. Marcajele se grupează după vorbitor sau după categoria de sunet și direcție, ca imaginea să rămână lizibilă; sursele se estompează treptat când tac.
 
 ### 🗺️ Hărți, drumuri și predicția traseului
 Direcțiile sunetelor sunt proiectate pe coordonate GPS reale, pe hartă. Sunetele vehiculelor pot fi **ancorate la străzile din apropiere**, iar traseele lor pot fi prezise, astfel încât un camion care trece apare deplasându-se *de-a lungul drumului*, nu prin clădiri. (Încearcă demonstrația cu mașina de pompieri.)
@@ -109,12 +117,15 @@ Nucleul de siguranță este **gratuit, pentru totdeauna**:
 - **Home Watch și Street Watch** — alerte sonore locale (alarme, sirene, bătăi în ușă/sonerii, bebeluș, persoană în apropiere), afișate pe ecran, prin vibrații haptice și, opțional, prin notificări push.
 - **Subtitrări în direct** — Speaker Mode, pe dispozitiv, cu direcție acolo unde hardware-ul permite, cu semne oneste de încredere, autocorectare în ~2 secunde, redare vocală opțională prin dispozitivele auditive Bluetooth și Tonuri de direcție.
 - **Nume strigat** — nume opționale pe care le tastezi tu (al tău, ale copiilor, al partenerului). O potrivire înseamnă o alertă pe Watch/telefon, cu direcția, nu o a doua subtitrare.
-- **Standing Watch** — starea proprie a încăperii, mereu activ, fără nimic de configurat: o lampă cyan constantă cât timp încăperea își păstrează tiparul, chihlimbar când ceva se schimbă — o voce nouă, o liniște bruscă sau ceva care se apropie.
+- **Standing Watch** — starea proprie a încăperii, mereu activ, fără nimic de configurat: o lampă cyan constantă cât timp încăperea își păstrează tiparul, chihlimbar când ceva se schimbă — o voce nouă, o liniște bruscă sau ceva care se apropie. La pornire, aplicația îți spune cât timp nu a stat de veghe pentru alerte.
 - **Alerte de vreme severă** — avertizări oficiale pentru regiunea ta, de la 53 de surse guvernamentale din 88 de țări și teritorii.
-- **Alerte de cutremur (în toată lumea)** — simți o vibrație și vezi pe hartă zona în care s-a resimțit, atunci când e raportat un cutremur în apropiere. O confirmare din fluxul oficial de cutremure — nu o avertizare timpurie: dacă ai simțit o zguduitură, asta îți spune ce a fost. Detecția pe dispozitiv a huruielilor joase (infrasunete) poate activa verificarea în clipa în care se mișcă pământul.
+- **Radar meteo** — ploaia și ninsoarea pe hartă, cu reluarea ultimei ore.
+- **Colacul de salvare** — pe cine să suni în țara în care te afli.
+- **Alerte de cutremur (în toată lumea)** — simți o vibrație și vezi pe hartă zona în care s-a resimțit, atunci când e raportat un cutremur în apropiere. O confirmare din fluxul oficial de cutremure — nu o avertizare timpurie: dacă ai simțit o zguduitură, asta îți spune ce a fost. Fluxul este verificat la fiecare cinci minute, inclusiv în fundal, iar detecția pe dispozitiv a huruielilor joase (infrasunete) poate activa o verificare suplimentară în clipa în care se mișcă pământul.
 - **Feature Playground** — alerte de exercițiu și previzualizări ale funcțiilor, cu un filigran PREVIZUALIZARE clar.
 - **Aplicația însoțitoare pentru Apple Watch și Live Activity** — direcția și ultima alertă, dintr-o privire.
 - **Acoustic Scope** — vizualizare profesională a sunetului în direct, gratuită pentru toată lumea. (Instrumentele de captare pentru antrenare fac parte din Power Pack+.)
+- **Rețea de cercetare** *(doar dacă o activezi, oprită implicit)* — dacă o pornești, se partajează momentul, o locație aproximativă (circa 1 km) și frecvența semnalului evenimentelor asemănătoare cutremurelor — fără sunet, fără identificator — pentru a ajuta la cartografierea cutremurelor și a altor evenimente de frecvență joasă.
 
 **Power Pack+** este o deblocare unică (**nu un abonament**), cu o **perioadă de probă gratuită de 90 de zile**. Adaugă superputerile:
 
@@ -141,7 +152,7 @@ graph TD
     S --> H["Alerte · vibrații haptice · Watch · Live Activity"]
     B --> D["Calcul spațial<br/>TDOA · tendința nivelului → direcție · distanță · apropiere"]
     D --> R["Inel radar · hartă · AR cu camera"]
-    B --> F["Recunoașterea vorbirii<br/>(SpeechAnalyzer)"]
+    B --> F["Recunoașterea vorbirii<br/>(SpeechAnalyzer sau modele pentru fiecare replică)"]
     B --> N["Granițele replicilor<br/>(diarizator Sortformer, ANE)"]
     N --> E["Identitatea vocii<br/>(embedding-uri ReDimNet, ANE)"]
     B --> E
@@ -160,13 +171,13 @@ graph LR
 ```
 
 - **Calcul spațial** — FFT-uri, diferența de timp de sosire ponderată după coerență (TDOA — se favorizează benzile de frecvență asupra cărora ambele microfoane sunt de acord, apoi micul decalaj de sosire este transformat într-o direcție) și urmărirea apropierii după tendința nivelului, în sarcini de fundal. Perechea de microfoane este citită într-o orientare fixă, astfel încât direcția funcționează la fel, indiferent dacă ții telefonul vertical sau orizontal.
-- **Vorbire** — `SpeechAnalyzer` / `SpeechTranscriber` din iOS 26 pentru transcriere; framework-ul **Translation** de la Apple pentru traducerea pe dispozitiv. Identitatea vocii se bazează pe dovezi: o voce este confirmată ca aparținând unei persoane reale doar pe baza unor ferestre de sunet independente, iar o potrivire nesigură apare ca neatribuită, în loc să se ghicească un nume greșit.
+- **Vorbire** — `SpeechAnalyzer` / `SpeechTranscriber` din iOS 26 pentru transcriere; framework-ul **Translation** de la Apple pentru traducerea pe dispozitiv. Cu descărcarea opțională pentru subtitrări, fiecare replică este delimitată de un detector de activitate vocală, limba ei este stabilită de un model de identificare a limbii vorbite, iar transcrierea o fac modele deschise de recunoaștere a vorbirii — unul pentru limbile europene, unul pentru celelalte — totul pe dispozitiv. Identitatea vocii se bazează pe dovezi: o voce este confirmată ca aparținând unei persoane reale doar pe baza unor ferestre de sunet independente, iar o potrivire nesigură apare ca neatribuită, în loc să se ghicească un nume greșit.
 - **Două modele pentru două întrebări** — ca să deosebești vocile trebuie să afli *când s-a schimbat vorbitorul* și *cine este acel vorbitor*, iar acestea nu sunt aceeași problemă. Un diarizator în flux continuu **Sortformer** marchează granițele replicilor; embedding-urile **ReDimNet** decid a cui voce se află în fiecare dintre ele. Tăierea exact pe graniță contează mai mult decât pare: o fereastră care se întinde peste doi oameni îi conține pe amândoi, iar niciun model de embedding nu mai poate corecta asta ulterior. Sub ambele se află un prag de activitate vocală — dacă, într-o încăpere dificilă, diarizatorul tace în loc să ghicească, replicile sunt totuși delimitate, așa că aplicația se degradează în loc să contopească doi vorbitori într-unul singur.
 - **Adevărul despre muzică** — un **detector de semnătură a melodiilor** bazat pe chroma are ultimul cuvânt în decizia „chiar se aude muzică?”, pentru că clasificatorii generali sunt renumiți pentru faptul că numesc „muzică” încăperile tăcute și sirenele. Shazam rulează doar după ce semnătura confirmă că acolo chiar este ceva muzical.
 - **Concurență** — izolarea din Swift 6 ține separate în mod curat preluarea audio de la microfon, calculele acustice și bucla de randare a interfeței.
 - **Eficiență** — subeșantionarea, clasificarea adaptată la încărcare și folosirea rețelei condiționată de dovezi mențin ascultarea permanentă suficient de ușoară încât s-o poți lăsa pornită.
 
-Alertele meteo și de cutremur urmează drumul invers față de sunet — nimic legat de sunetul tău nu iese vreodată, dar *datele* alertelor intră. **Fiecare** flux oficial trece printr-un mic cache operat de noi, astfel încât o singură preluare a datelor publice deservește toți utilizatorii — iar telefonul tău nu contactează niciodată serverele unui guvern străin:
+Alertele meteo și de cutremur urmează drumul invers față de sunet — nimic legat de sunetul tău nu iese vreodată, dar *datele* alertelor intră. **Fiecare** flux oficial — și imaginile radar — trece printr-un mic cache operat de noi, astfel încât o singură preluare a datelor publice deservește toți utilizatorii, iar telefonul tău nu contactează niciodată serverele unui guvern străin:
 
 ```mermaid
 graph LR
@@ -228,7 +239,7 @@ Note mai detaliate pentru ingineri: [Fizică](https://vigilantear.com/en/physics
 
 - **Pe dispozitiv, întotdeauna, pentru fluxul de procesare principal.** Clasificarea, calculul spațial, transcrierea, diarizarea și traducerea rulează pe iPhone-ul tău. Sunetul brut nu este nici înregistrat, nici încărcat pentru recunoaștere.
 - **Subtitrările sunt efemere.** Subtitrările în direct rămân în memorie pe durata sesiunii; jurnalele de depanare exportate nu includ textul subtitrărilor.
-- **Fără SDK-uri de publicitate sau de analiză comportamentală.** Rețeaua este folosită limitat, doar pentru hărți, fluxuri meteo publice, amprente Shazam opționale, contextul rutier și achiziții din App Store — vezi politica completă.
+- **Fără SDK-uri de publicitate sau de analiză comportamentală.** Rețeaua este folosită limitat, doar pentru hărți, fluxuri meteo publice și imagini radar, lista de ajutor, descărcarea opțională a modelului de subtitrare, amprente Shazam opționale, contextul rutier, Rețeaua de cercetare (doar dacă o activezi) și achiziții din App Store — vezi politica completă.
 
 Toate detaliile: [Politica de confidențialitate](/ro/privacy/) · [Termeni de serviciu](/ro/terms/) · [Suport](/ro/support/)
 
@@ -236,7 +247,7 @@ Toate detaliile: [Politica de confidențialitate](/ro/privacy/) · [Termeni de s
 
 ## Hardware și platforme
 
-- **iPhone (experiență completă).** Funcționează în modul portret sau peisaj — ține-l cum vrei. Pentru determinarea direcției sunt necesare microfoane stereo. Recomandat: **iPhone 13 sau mai nou**.
+- **iPhone (experiență completă).** Funcționează în modul portret sau peisaj — ține-l cum vrei. Pentru determinarea direcției sunt necesare microfoane stereo. Recomandat: **iPhone 13 sau mai nou**; subtitrările în limba fiecărui vorbitor necesită **8 GB de memorie** (iPhone 15 Pro și modelele ulterioare).
 - **Apple Watch.** Alerte în aplicația însoțitoare, cu săgeată de direcție; funcționează cu Live Activity / Smart Stack.
 - **iPad (nativ).** Aspect adaptiv: pe ecranul mare, subtitrările în direct au un panou transparent lângă hartă, care se retrage când nu vorbește nimeni. Microfoane cu un singur canal → subtitrări fără direcție completă.
 - **Constellation** necesită **Ultra-Wideband** — iPhone 11 sau mai nou, cu excepția modelelor SE și „e”. **Nu** necesită o rețea Wi-Fi: cu Wi-Fi-ul pornit, telefoanele se descoperă direct unul pe altul, așa că Constellation funcționează fără router și fără internet, atâta timp cât telefoanele sunt aproape unul de altul.

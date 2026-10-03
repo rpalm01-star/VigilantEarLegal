@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*1.1.9 sürümünden itibaren geçerlidir · Eylül 2026.*
+*1.1.10 sürümünden itibaren geçerlidir · Ekim 2026.*
 
 ## Duyamayan insanlar için akustik bir radar.
 
@@ -39,6 +39,12 @@ Cihaz üzerinde çalışan bir sınıflandırıcı yüzlerce gündelik sesi tan�
 
 Şiddetli hava uyarıları **88 ülke ve bölgeyi kapsayan 53 resmi devlet kaynağından** gelir ve tüm kullanıcılar için ücretsizdir. Yeni Zelanda'nın sivil savunma acil durum uyarıları da kendi **Acil Durum Uyarıları** anahtarıyla dahildir. Akışlar, bulunduğunuz yeri kapsayanlarla sınırlandırılır. Japonya'da uygulama ulusal meteoroloji kurumunun **ön bültenlerini** de okur — yalnızca tehlike geldiğinde yayımlanan uyarıları değil, bir tayfundan ya da şiddetli yağmurdan günler önce yayımlanan sade dilli duyuruları — ayrıca ani sağanak ve heyelan bültenlerini. Ön duyurular, gerçek bir uyarıya ayrılmış ses ve titreşim olmadan sessizce gösterilir.
 
+### 🌧️ Haritada hava durumu radarı
+Yağmur ve kar, uygulama açıldığı andan itibaren haritada görünür — Amerika Birleşik Devletleri, Kanada, Japonya, İtalya ve Avrupa'nın büyük bölümünde ulusal radarlardan, dünyanın geri kalanının çoğunda ise uydu tabanlı bir yağış tahmininden. Haritaya dokunduğunuzda son bir saat üç kez oynatılır, böylece bir fırtınanın hangi yöne ilerlediğini görebilirsiniz; alttaki ölçek Hafif'ten Yoğun'a doğru uzanır. Bir oturum boyunca istemiyorsanız kapatmak için hava durumu düğmesine dokunun. Radar da uyarılarla aynı yoldan gelir — kendi sunucumuz üzerinden; böylece telefonunuz hiçbir zaman bir hükümetin sunucularıyla iletişim kurmaz.
+
+### 🛟 Kimi aramalı — can simidi
+Haritadaki pusulanın yanında duran can simidi, bulunduğunuz ülke için kısa bir liste açar: acil durum numarası (arama ve mesaj düğmeleriyle; acil durum numarasına mesaj göndermenin çalışmayabileceği yerlerde ise Gerçek Zamanlı Metin, yani RTT hakkında bir notla), ulusal meteoroloji kurumu, varsa kalıcı bir sayfası olan bir sağırlar kuruluşu ve Vigilant Ear desteği.
+
 ### ⌚ Apple Watch + Live Activity — bir bakışta bilin
 - **Apple Watch eşlikçisi** — bir uyarının yönü bileğinizde gösterilir; tek bir bakış nereye bakmanız gerektiğini söyler. Uygulamanın kulak simgesi, tehdit HUD düzeni ve bir uyarıyı çift dokunarak kapatma özelliğiyle yeniden tasarlanmış Watch arayüzü. Watch uygulaması açık değilken de uyarılar yön okunu gösterebilir.
 - **Live Activity** — Vigilant Ear **Kilit Ekranı'nızda**, **Dynamic Island'da** ve **Watch Smart Stack'te** kalır; böylece son uyarı ve kerterizi her zaman bir bakış uzağınızdadır.
@@ -46,6 +52,8 @@ Cihaz üzerinde çalışan bir sınıflandırıcı yüzlerce gündelik sesi tan�
 
 ### 💬 Konuşmacı Modu — canlı, yönlü altyazılar *(ücretsiz)*
 **Konuşmacı Modu**'nu açın; Vigilant Ear yakınınızda konuşan kişilerin sözlerini **her ses için bir tane olmak üzere altyazı bloklarına** döker. Cihaz üzerinde çalışan konuşmacı ayrıştırma, sesleri birbirinden ayrı tutar — *kim* *ne* söylüyor — ve iç halkada bir yön ipucu gösterir. O anda konuşan kişi vurgulanır; yer gerektikçe eski metin kayıp gider.
+
+**Her konuşmacı kendi dilinde.** En az 8 GB belleğe sahip iPhone'larda tek seferlik bir altyazı modeli indirmesi (yaklaşık 1 GB — Wi-Fi üzerinden ya da size sorulduktan sonra hücresel bağlantıyla), uygulamanın her konuşma sırasını gerçekte konuşulan dilde altyazılamasını sağlar; böylece İngilizce, İspanyolca, Fransızca ve Arapça arasında gidip gelen bir odadaki konuşmalar okunaklı kalır. Testlerimizde dört dilli bir sohbetteki sözcük hataları yaklaşık %80'den %14'e düştü. İndirme yapılmadığında — ve Apple'ın tanıyıcısının daha iyi okuduğu Çince, Japonca ve Korece okuyanlar için — altyazılar eskisi gibi Apple'ın cihaz üzerindeki konuşma tanımasını kullanır.
 
 Çoğu altyazı uygulamasının yapmadığı iki şey: **güven konusunda dürüstlük** — her satırdaki ince bir kalite işareti ve şüpheli sözcüklerin altındaki noktalı çizgiler, bir satıra ne zaman güvenebileceğinizi ve ne zaman iki kez kontrol etmeniz gerektiğini söyler — ve **kendi kendini düzeltme**: bir cümle ekrana düştükten hemen sonra uygulama sesi tam bağlamıyla yeniden okur ve kaçırılmış ya da yanlış duyulmuş bir sözcüğü bir iki saniye içinde geri getirebilir; ardından metin sabitlenir.
 
@@ -58,7 +66,7 @@ Cihaz üzerinde çalışan bir sınıflandırıcı yüzlerce gündelik sesi tan�
 Altyazılar ücretsizdir; otomatik çeviri, isteğe bağlı Power Pack+ katmanıdır. Altyazılar ayrıca **Bluetooth işitme cihazlarınıza sesli olarak okunabilir** — ücretsiz, Tercihler'de. **Yön Tonları** (bu da ücretsiz; Tercihler → Altyazılar altında) seçtiğiniz kulakta, konuşan kişinin nerede olduğunu bildiren isteğe bağlı bir sesli ipucu ekler — işitme cihazı kullanırken ya da tek kulakla duyarken yararlıdır ve herkes kullanabilir.
 
 ### 🌐 Otomatik çeviri — sizin diliniz, canlı *(Power Pack+)*
-Konuşmacı Modu açıkken yakınınızdaki biri başka bir dil konuştuğunda Vigilant Ear bunu algılayabilir ve o kişinin altyazılarını **sizin dilinizde** gösterebilir; kaynak dil de o kişinin bloğunda belirtilir. Zincir — duy → konuşmacıları ayır → yazıya dök → çevir → göster — **cihazın üzerinde** çalışır; ağa çıkılan tek an, Apple'dan yapılan tek seferlik dil paketi indirmesidir ve beklediğiniz şey bu indirmeyse uygulama sizi çevrilmemiş metne bakar hâlde bırakmak yerine bunu size söyler. Diğer dili önceden bilmeniz ya da seçmeniz gerekmez.
+Konuşmacı Modu açıkken yakınınızdaki biri başka bir dil konuştuğunda Vigilant Ear bunu algılayabilir ve o kişinin altyazılarını **sizin dilinizde** gösterebilir; kaynak dil de o kişinin bloğunda belirtilir. Zincir — duy → konuşmacıları ayır → yazıya dök → çevir → göster — **cihazın üzerinde** çalışır; ağa çıkılan tek an, Apple'dan yapılan tek seferlik dil paketi indirmesidir ve beklediğiniz şey bu indirmeyse uygulama sizi çevrilmemiş metne bakar hâlde bırakmak yerine bunu size söyler. Diğer dili önceden bilmeniz ya da seçmeniz gerekmez. Biten bir cümle, konuşmacının susması beklenmeden, bittiği anda çevrilir ve çeviriler eskiden harcanan sürenin çok küçük bir bölümünde gelir.
 
 Bu, **bilim kurgudaki evrensel çevirmene** şu an piyasada bulunan en yakın şeydir — her şeyi kendiliğinden anlayan o cihaz. Vigilant Ear dili kendi başına algılar, odadaki her konuşmacıyı takip eder ve hepsini sizin dilinizde altyazılar — kulaklık yok, kurulum yok, her şey cihazınızda.
 
@@ -89,7 +97,7 @@ Normalde bir telefon aramasının gördüğü işi, video ve metinle görür. Bi
 **Altyazılar da iletilir.** Her telefonun yazıya döktüğü metin diğerinde görünür; gerektiğinde okuyanın diline çevrilir. İkinizden biri bağlantıyı — video ve altyazılarla birlikte — duraklatıp sürdürebilir ve ana ekrandan kapatabilir.
 
 ### 📷 Kamera AR — “sesi görün”
-Başlık çubuğundaki kamera düğmesini açın ve algılanan sesleri canlı kamera görünümünde gerçek kerterizlerine sabitleyin. Görünüm okunaklı kalsın diye işaretler konuşmacıya ya da ses kategorisine ve yöne göre kümelenir; kaynaklar sessizleştiğinde zamanla solar.
+Kamera AR'ı eylem yelpazesinden açın ve algılanan sesleri canlı kamera görünümünde gerçek kerterizlerine sabitleyin. Görünüm okunaklı kalsın diye işaretler konuşmacıya ya da ses kategorisine ve yöne göre kümelenir; kaynaklar sessizleştiğinde zamanla solar.
 
 ### 🗺️ Haritalar, yollar ve güzergâh tahmini
 Ses kerterizleri haritada gerçek GPS koordinatlarına yansıtılır. Araç sesleri **yakındaki sokaklara oturtulabilir** ve güzergâhları tahmin edilebilir; böylece geçen bir kamyon binaların içinden değil, *yol boyunca* ilerliyor görünür. (İtfaiye aracı demosunu deneyin.)
@@ -109,12 +117,15 @@ Güvenlik çekirdeği **sonsuza dek ücretsizdir**:
 - **Ev Nöbeti ve Sokak Nöbeti** — ekranda, titreşimle ve isteğe bağlı anlık bildirimle iletilen yerel ses uyarıları (alarmlar, sirenler, kapı vuruşları/zilleri, bebek, yakındaki kişi).
 - **Canlı altyazılar** — Konuşmacı Modu; cihaz üzerinde, donanımın izin verdiği yerde yönlü; dürüst güven işaretleri, ~2 saniyelik kendi kendini düzeltme, Bluetooth işitme cihazlarına isteğe bağlı sesli çıkış ve Yön Tonları ile.
 - **İsim Çağrıldı** — yazdığınız isteğe bağlı isimler (sizinki, çocuklarınızınki, eşinizinki). Bir eşleşme ikinci bir altyazı değil, kerteriz bilgisi içeren bir Watch/telefon uyarısıdır.
-- **Sürekli Nöbet** — odanın kendi durumu; her zaman açık, ayarlanacak hiçbir şey yok: oda alışılmış düzenini korudukça sabit bir camgöbeği lamba, bir şey değiştiğinde kehribar — yeni bir ses, ani bir sessizlik ya da yaklaşan bir şey.
+- **Sürekli Nöbet** — odanın kendi durumu; her zaman açık, ayarlanacak hiçbir şey yok: oda alışılmış düzenini korudukça sabit bir camgöbeği lamba, bir şey değiştiğinde kehribar — yeni bir ses, ani bir sessizlik ya da yaklaşan bir şey. Uygulama açıldığında, uyarılar için ne kadar süre dinlemediğini size söyler.
 - **Şiddetli hava uyarıları** — bölgeniz için 88 ülke ve bölgedeki 53 devlet kaynağından resmi uyarılar.
-- **Deprem uyarıları (dünya çapında)** — yakınınızda bir deprem bildirildiğinde bir titreşim hissedin ve sarsıntının hissedildiği alanı haritanızda görün. Resmi deprem akışından gelen bir doğrulamadır — erken uyarı değildir: sarsıntı hissettiyseniz bunun ne olduğunu size söyler. Cihaz üzerindeki derin gürültü (infrases) algılaması, yer hareket ettiği anda bu kontrolü devreye alabilir.
+- **Hava durumu radarı** — haritada yağmur ve kar; son bir saat yeniden oynatılabilir.
+- **Can simidi** — bulunduğunuz ülkede kimi arayacağınız.
+- **Deprem uyarıları (dünya çapında)** — yakınınızda bir deprem bildirildiğinde bir titreşim hissedin ve sarsıntının hissedildiği alanı haritanızda görün. Resmi deprem akışından gelen bir doğrulamadır — erken uyarı değildir: sarsıntı hissettiyseniz bunun ne olduğunu size söyler. Akış, arka planda da dahil olmak üzere beş dakikada bir kontrol edilir ve cihaz üzerindeki derin gürültü (infrases) algılaması, yer hareket ettiği anda ek bir kontrolü devreye alabilir.
 - **Özellik Deneme Alanı** — belirgin bir ÖNİZLEME filigranıyla alıştırma uyarıları ve özellik önizlemeleri.
 - **Apple Watch eşlikçisi ve Live Activity** — bir bakışta yön ve son uyarı.
 - **Akustik Kapsam** — profesyonel düzeyde canlı ses görselleştirme, herkes için ücretsiz. (Eğitim için ses yakalama araçları Power Pack+ kapsamındadır.)
+- **Araştırma Dizisi** *(katılım isteğe bağlı, varsayılan olarak kapalı)* — açarsanız zaman, kabaca bir konum (yaklaşık 1 km) ve depreme benzer olayların frekansı paylaşılır — ses yok, tanımlayıcı yok — böylece depremlerin ve diğer düşük frekanslı olayların haritalanmasına yardımcı olunur.
 
 **Power Pack+** tek seferlik bir kilit açmadır (**abonelik değildir**) ve **90 günlük ücretsiz deneme** sunar. Şu süper güçleri ekler:
 
@@ -141,7 +152,7 @@ graph TD
     S --> H["Uyarılar · titreşimler · Watch · Live Activity"]
     B --> D["Uzamsal hesaplama<br/>TDOA · seviye eğilimi → kerteriz · uzaklık · yaklaşma"]
     D --> R["Radar halkası · harita · Kamera AR"]
-    B --> F["Konuşma tanıma<br/>(SpeechAnalyzer)"]
+    B --> F["Konuşma tanıma<br/>(SpeechAnalyzer ya da konuşma sırası başına modeller)"]
     B --> N["Konuşma sırası sınırları<br/>(Sortformer ayrıştırıcı, ANE)"]
     N --> E["Ses kimliği<br/>(ReDimNet gömmeleri, ANE)"]
     B --> E
@@ -160,13 +171,13 @@ graph LR
 ```
 
 - **Uzamsal hesaplama** — FFT'ler, koherans ağırlıklı Varış Zamanı Farkı (TDOA — iki mikrofonun da uzlaştığı frekans bantlarını öne çıkar, ardından küçücük varış gecikmesini bir kerterize dönüştür) ve arka plan görevlerinde seviye eğilimine dayalı yaklaşma takibi. Mikrofon çifti sabit bir yönelimde okunur; böylece telefonu dik de tutsanız yan da tutsanız yön aynı şekilde çalışır.
-- **Konuşma** — yazıya dökme için iOS 26 `SpeechAnalyzer` / `SpeechTranscriber`; cihaz üzerinde çeviri için Apple'ın **Translation** çerçevesi. Ses kimliği kanıta dayanır: bir ses, yalnızca birbirinden bağımsız ses pencerelerine dayanılarak gerçek bir kişi olarak doğrulanır ve belirsiz bir eşleşme, yanlış ismi tahmin etmek yerine kimseye atfedilmeden gösterilir.
+- **Konuşma** — yazıya dökme için iOS 26 `SpeechAnalyzer` / `SpeechTranscriber`; cihaz üzerinde çeviri için Apple'ın **Translation** çerçevesi. İsteğe bağlı altyazı indirmesi yapıldığında her konuşma sırası bir ses etkinliği algılayıcısıyla kesilir, dili konuşulan dili tanıyan bir model tarafından belirlenir ve açık konuşma tanıma modelleriyle yazıya dökülür — biri Avrupa dilleri, diğeri geri kalanlar için — hepsi cihaz üzerinde. Ses kimliği kanıta dayanır: bir ses, yalnızca birbirinden bağımsız ses pencerelerine dayanılarak gerçek bir kişi olarak doğrulanır ve belirsiz bir eşleşme, yanlış ismi tahmin etmek yerine kimseye atfedilmeden gösterilir.
 - **İki soru için iki model** — sesleri birbirinden ayırmak hem *konuşmacının ne zaman değiştiğini* hem de *o konuşmacının kim olduğunu* bilmeyi gerektirir ve bunlar aynı sorun değildir. Akış hâlinde çalışan bir **Sortformer** konuşmacı ayrıştırıcısı konuşma sırası sınırlarını işaretler; **ReDimNet** gömmeleri her birinin içinde kimin sesi olduğuna karar verir. Sınırdan kesmek kulağa geldiğinden daha önemlidir: iki kişiye yayılan bir pencere ikisini birden içerir ve hiçbir gömme modeli bunu sonradan geri alamaz. İkisinin de altında bir ses etkinliği tabanı bulunur — ayrıştırıcı zorlu bir odada tahmin yürütmek yerine susarsa konuşma sıraları yine kesilir; böylece uygulama iki konuşmacıyı tek bir kişide birleştirmek yerine performansından ödün verir.
 - **Müziğin gerçeği** — "gerçekten müzik çalıyor mu?" kararı bir kroma **şarkı imzası algılayıcısına** aittir, çünkü genel sınıflandırıcıların sessiz odalara ve sirenlere "müzik" demesi meşhurdur. Shazam ancak imza, ortada gerçekten müzikal bir şey olduğunu onayladığında çalışır.
 - **Eşzamanlılık** — Swift 6 yalıtımı; mikrofon girişini, akustik hesaplamayı ve arayüz çizim döngüsünü birbirinden temiz biçimde ayrı tutar.
 - **Verimlilik** — alt örnekleme, yüke göre uyarlanan sınıflandırma ve kanıta bağlı ağ kullanımı, sürekli dinlemeyi açık bırakılabilecek kadar hafif tutar.
 
-Hava durumu ve deprem uyarıları sesin tam tersi bir yol izler — sesinize dair hiçbir şey dışarı çıkmaz, ama uyarı *verileri* içeri gelir. **Her** resmi akış, işlettiğimiz küçük bir önbellekten geçer; böylece kamuya açık verinin tek bir kez çekilmesi tüm kullanıcılara hizmet eder — ve telefonunuz hiçbir zaman yabancı bir hükümetin sunucularıyla iletişim kurmaz:
+Hava durumu ve deprem uyarıları sesin tam tersi bir yol izler — sesinize dair hiçbir şey dışarı çıkmaz, ama uyarı *verileri* içeri gelir. **Her** resmi akış — ve radar görüntüleri — işlettiğimiz küçük bir önbellekten geçer; böylece kamuya açık verinin tek bir kez çekilmesi tüm kullanıcılara hizmet eder ve telefonunuz hiçbir zaman yabancı bir hükümetin sunucularıyla iletişim kurmaz:
 
 ```mermaid
 graph LR
@@ -228,7 +239,7 @@ Mühendisler için daha ayrıntılı notlar: [Fizik](https://vigilantear.com/en/
 
 - **Temel işlem hattı her zaman cihaz üzerinde.** Sınıflandırma, uzamsal hesaplama, yazıya dökme, konuşmacı ayrıştırma ve çeviri iPhone'unuzda çalışır. Ham ses, tanıma için kaydedilmez ya da yüklenmez.
 - **Altyazılar geçicidir.** Canlı altyazılar oturum boyunca bellekte kalır; dışa aktarılan hata ayıklama günlükleri altyazı metni içermez.
-- **Reklam ya da davranışsal analitik SDK'sı yok.** Sınırlı ağ kullanımı yalnızca haritalar, kamuya açık hava durumu akışları, isteğe bağlı Shazam parmak izleri, yol bağlamı ve App Store satın alımları içindir — politikanın tamamına bakın.
+- **Reklam ya da davranışsal analitik SDK'sı yok.** Sınırlı ağ kullanımı yalnızca haritalar, kamuya açık hava durumu akışları ve radar görüntüleri, yardım listesi, isteğe bağlı altyazı modeli indirmesi, isteğe bağlı Shazam parmak izleri, yol bağlamı, yalnızca sizin açtığınız Araştırma Dizisi ve App Store satın alımları içindir — politikanın tamamına bakın.
 
 Tüm ayrıntılar: [Gizlilik Politikası](/tr/privacy/) · [Hizmet Şartları](/tr/terms/) · [Destek](/tr/support/)
 
@@ -236,7 +247,7 @@ Tüm ayrıntılar: [Gizlilik Politikası](/tr/privacy/) · [Hizmet Şartları](/
 
 ## Donanım ve platformlar
 
-- **iPhone (tam deneyim).** Dikey ya da yatay konumda çalışır — istediğiniz gibi tutun. Yön bulma için stereo mikrofonlar gereklidir. Önerilen: **iPhone 13 veya daha yenisi**.
+- **iPhone (tam deneyim).** Dikey ya da yatay konumda çalışır — istediğiniz gibi tutun. Yön bulma için stereo mikrofonlar gereklidir. Önerilen: **iPhone 13 veya daha yenisi**; her konuşmacının kendi dilinde altyazı için **8 GB bellek** gerekir (iPhone 15 Pro ve sonrası).
 - **Apple Watch.** Yön oklu eşlikçi uyarılar; Live Activity / Smart Stack ile çalışır.
 - **iPad (yerel uygulama).** Uyarlanabilir düzen: büyük ekranda canlı altyazılar, haritanın yanında, kimse konuşmadığında kenara çekilen yarı saydam bir panelde yer alır. Tek kanallı mikrofonlar → tam yön bilgisi olmadan altyazılar.
 - **Constellation** için **Ultra-Wideband** gerekir — iPhone 11 veya sonrası; SE ve “e” modelleri hariç. Bir Wi-Fi ağı **gerektirmez**: Wi-Fi açık olduğunda telefonlar birbirini doğrudan bulur; böylece telefonlar birbirine yakın olduğu sürece Constellation yönlendirici ve internet olmadan çalışır.

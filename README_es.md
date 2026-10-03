@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Vigente a partir de la versión 1.1.9 · septiembre de 2026.*
+*Vigente a partir de la versión 1.1.10 · octubre de 2026.*
 
 ## Un radar acústico para quienes no pueden oír.
 
@@ -37,7 +37,13 @@ Con los dos micrófonos del iPhone, Vigilant Ear mide el **ángulo de un sonido 
 ### 🚨 Reconoce los sonidos importantes — y te avisa
 Un clasificador en el dispositivo identifica cientos de sonidos cotidianos y vigila las categorías críticas — **sirenas, alarmas — incluida una clase específica para alarmas de auto —, timbres/golpes, llanto de bebé, una persona cercana y clima severo.** Cuando una se dispara, recibes una alerta clara en pantalla, una **notificación push** opcional y una **respuesta háptica** distintiva — incluso con la app en segundo plano o el teléfono en reposo. Las categorías críticas vienen activadas de forma predeterminada, así que habilitar las notificaciones no significa «todo apagado». Si desactivas todas las categorías de alerta, el motor hiberna por completo en segundo plano para ahorrar batería. Una capa **Sentinel** contrasta las alertas con evidencia independiente — dirección, movimiento y fuentes públicas —, de modo que lo que se dispara está corroborado y no es la conjetura aislada de un clasificador. Funciona en ambos sentidos: un momento con forma de sirena dentro de una canción queda retenido, pero una sirena real que se repite por encima de tu música se abre paso y te alerta.
 
-Las advertencias de clima severo proceden de **53 fuentes gubernamentales oficiales en 88 países y territorios** — gratis para todos los usuarios. También se incluyen las alertas de protección civil de Nueva Zelanda, con su propio interruptor **Alertas de emergencia**. Las fuentes se limitan a las que cubren el lugar donde estás. En Japón, la app también lee los **boletines anticipados** del servicio meteorológico nacional — los avisos en lenguaje sencillo que se emiten días antes de un tifón o de lluvias intensas, no solo las advertencias que se emiten cuando el peligro ya ha llegado —, además de los boletines de aguaceros repentinos y de deslizamientos de tierra. Los avisos anticipados se muestran de forma discreta, sin el sonido ni la vibración reservados para una advertencia real.
+Las advertencias de clima severo proceden de **53 fuentes gubernamentales oficiales en 88 países y territorios** — gratis para todos los usuarios. También se incluyen las alertas de emergencia de protección civil de Nueva Zelanda, con su propio interruptor **Alertas de emergencia**. Las fuentes se limitan a las que cubren el lugar donde estás. En Japón, la app también lee los **boletines anticipados** del servicio meteorológico nacional — los avisos en lenguaje sencillo que se emiten días antes de un tifón o de lluvias intensas, no solo las advertencias que se emiten cuando el peligro ya ha llegado —, además de los boletines de aguaceros repentinos y de deslizamientos de tierra. Los avisos anticipados se muestran de forma discreta, sin el sonido ni la vibración reservados para una advertencia real.
+
+### 🌧️ Radar meteorológico en el mapa
+La lluvia y la nieve aparecen en el mapa desde el momento en que abres la app — a partir de los radares nacionales de Estados Unidos, Canadá, Japón, Italia y gran parte de Europa, y de una estimación de lluvia por satélite en casi todo el resto del mundo. Toca el mapa y la última hora se reproduce tres veces, para que veas hacia dónde se mueve una tormenta; una escala en la parte inferior va de Ligero a Denso. Si no lo quieres durante una sesión, toca la pastilla del clima para desactivarlo. El radar llega por el mismo camino que las advertencias — a través de nuestro propio servidor, así que tu teléfono nunca contacta con el de ningún gobierno.
+
+### 🛟 A quién llamar — el salvavidas
+Un salvavidas junto a la brújula del mapa abre una breve lista para el país en el que te encuentras: el número de emergencias (con botones para llamar y enviar un mensaje, y una nota sobre el texto en tiempo real —RTT— donde enviar un mensaje a un número de emergencias puede no funcionar), el servicio meteorológico nacional, una organización de personas Sordas cuando tiene una página estable, y el soporte de Vigilant Ear.
 
 ### ⌚ Apple Watch + Live Activity — un vistazo y lo sabes
 - **App complementaria para Apple Watch** — la dirección de una alerta se señala en tu muñeca, así que un vistazo te dice hacia dónde mirar. Interfaz del Watch rediseñada, con el icono de oreja de la app, un diseño de HUD de amenazas y doble toque para descartar una alerta. Las alertas pueden seguir mostrando la flecha de dirección aunque la app del Watch no esté abierta.
@@ -46,6 +52,8 @@ Las advertencias de clima severo proceden de **53 fuentes gubernamentales oficia
 
 ### 💬 Speaker Mode — subtítulos en vivo y con dirección *(gratis)*
 Activa el **Speaker Mode** y Vigilant Ear transcribe a las personas que hablan cerca de ti en **bloques de subtítulos, uno por voz.** La diarización de hablantes en el dispositivo mantiene diferenciadas las voces — *quién* dice *qué* — con una indicación de dirección en el anillo interior. Quien está hablando se resalta; el texto más antiguo se va desplazando fuera de la vista a medida que hace falta espacio.
+
+**Cada hablante en su propio idioma.** En los iPhone con al menos 8 GB de memoria, una descarga única de un modelo de subtitulación (alrededor de 1 GB — por Wi-Fi, o por datos móviles después de preguntarte) permite a la app subtitular cada turno en el idioma que realmente se habla, de modo que una sala que alterna entre inglés, español, francés y árabe sigue siendo legible. En nuestras pruebas, los errores de palabras en una conversación en cuatro idiomas bajaron de alrededor del 80% al 14%. Sin la descarga — y para quienes leen en chino, japonés y coreano, donde el reconocedor de Apple lee mejor —, los subtítulos usan, como antes, el reconocimiento de voz de Apple en el dispositivo.
 
 Dos cosas que la mayoría de las apps de subtítulos no hacen: **honestidad sobre la confianza** — una discreta marca de calidad en cada fila y un subrayado punteado bajo las palabras dudosas te indican cuándo fiarte de una línea y cuándo comprobarla — y **autocorrección**: justo después de que llega una frase, la app vuelve a leer el audio con todo el contexto y puede recuperar una palabra omitida o mal oída en un par de segundos; después, el texto se congela.
 
@@ -58,7 +66,7 @@ Dos cosas que la mayoría de las apps de subtítulos no hacen: **honestidad sobr
 Los subtítulos son gratis; la traducción automática es la capa opcional de Power Pack+. Los subtítulos también pueden **leerse en voz alta en tus dispositivos auditivos Bluetooth** — gratis, en Preferencias. Los **Tonos de dirección** (también gratis, en Preferencias → Subtítulos) añaden, en el oído que elijas, una señal de audio opcional que indica dónde está un hablante — útil con audífono o con audición unilateral, y disponible para cualquiera.
 
 ### 🌐 Traducción automática — tu idioma, en vivo *(Power Pack+)*
-Con el Speaker Mode activado, cuando una persona cercana habla otro idioma, Vigilant Ear puede detectarlo y mostrar sus subtítulos **en tu idioma**, con el idioma de origen indicado en su bloque. La cadena — oír → separar hablantes → transcribir → traducir → mostrar — se ejecuta **en el dispositivo**; el único momento en que interviene la red es la descarga única de un paquete de idioma de Apple, y cuando lo que estás esperando es esa descarga, la app te lo dice en lugar de dejarte mirando un texto sin traducir. No tienes que conocer ni elegir antes el otro idioma.
+Con el Speaker Mode activado, cuando una persona cercana habla otro idioma, Vigilant Ear puede detectarlo y mostrar sus subtítulos **en tu idioma**, con el idioma de origen indicado en su bloque. La cadena — oír → separar hablantes → transcribir → traducir → mostrar — se ejecuta **en el dispositivo**; el único momento en que interviene la red es la descarga única de un paquete de idioma de Apple, y cuando lo que estás esperando es esa descarga, la app te lo dice en lugar de dejarte mirando un texto sin traducir. No tienes que conocer ni elegir antes el otro idioma. Una frase terminada se traduce en cuanto acaba, sin esperar a que el hablante deje de hablar, y las traducciones llegan en una fracción del tiempo que tardaban antes.
 
 Es lo más parecido, entre lo que ya está disponible, al **traductor universal de la ciencia ficción** — el aparato que simplemente entiende. Vigilant Ear detecta el idioma por sí solo, sigue a cada hablante de la sala y los subtitula a todos en tu idioma — sin auriculares, sin configuración, en tu dispositivo.
 
@@ -89,7 +97,7 @@ Lo que normalmente haría una llamada telefónica, pero hecho con vídeo y texto
 **Los subtítulos también viajan.** Lo que transcribe cada teléfono aparece en el otro, traducido al idioma de quien lo lee cuando hace falta. Cualquiera de los dos puede pausar el enlace — vídeo y subtítulos — y reanudarlo, y colgar desde la pantalla principal.
 
 ### 📷 Cámara AR — «ver el sonido»
-Abre la pastilla de la cámara en la barra del título y fija los sonidos detectados en su rumbo real sobre la imagen en vivo de la cámara. Los marcadores se agrupan por hablante o por categoría de sonido y dirección para que la vista siga siendo legible; las fuentes se desvanecen con el tiempo cuando se quedan en silencio.
+Abre la Cámara AR desde el abanico de acciones y fija los sonidos detectados en su rumbo real sobre la imagen en vivo de la cámara. Los marcadores se agrupan por hablante o por categoría de sonido y dirección para que la vista siga siendo legible; las fuentes se desvanecen con el tiempo cuando se quedan en silencio.
 
 ### 🗺️ Mapas, calles y predicción de trayectorias
 Los rumbos de los sonidos se proyectan sobre coordenadas GPS reales en el mapa. Los sonidos de vehículos pueden **ajustarse a las calles cercanas** y se puede predecir su trayectoria, de modo que un camión que pasa se ve avanzar *por la calle* y no a través de los edificios. (Prueba la demo del camión de bomberos.)
@@ -109,12 +117,15 @@ El núcleo de seguridad es **gratis, para siempre**:
 - **Home Watch y Street Watch** — alertas de sonido locales (alarmas, sirenas, golpes/timbres, bebé, persona cercana) en pantalla, con respuesta háptica y, opcionalmente, como notificación push.
 - **Subtítulos en vivo** — Speaker Mode, en el dispositivo, con dirección donde el hardware lo permite, con marcas de confianza honestas, autocorrección en ~2 segundos, lectura en voz alta opcional en dispositivos auditivos Bluetooth y Tonos de dirección.
 - **Nombre llamado** — nombres opcionales que escribes tú (el tuyo, los de tus hijos, el de tu pareja). Una coincidencia es una alerta en el Watch/teléfono con el rumbo, no un segundo subtítulo.
-- **Standing Watch** — el estado propio de la sala, siempre activo y sin nada que configurar: una lámpara cian fija mientras la sala mantiene su patrón, ámbar cuando algo cambia — una voz nueva, un silencio repentino o algo que se acerca.
+- **Standing Watch** — el estado propio de la sala, siempre activo y sin nada que configurar: una lámpara cian fija mientras la sala mantiene su patrón, ámbar cuando algo cambia — una voz nueva, un silencio repentino o algo que se acerca. Cuando la app se inicia, te dice cuánto tiempo estuvo sin escuchar en busca de alertas.
 - **Alertas de clima severo** — advertencias oficiales para tu región de 53 fuentes gubernamentales en 88 países y territorios.
-- **Alertas de terremotos (en todo el mundo)** — siente una vibración y mira en tu mapa la zona donde se sintió cuando se notifica un sismo cerca. Una confirmación de la fuente oficial de sismos — no una alerta temprana: si sentiste un temblor, esto te dice qué fue. La detección de retumbos profundos (infrasonido) en el dispositivo puede activar la comprobación en el momento en que el suelo se mueve.
+- **Radar meteorológico** — lluvia y nieve en el mapa, con la última hora en repetición.
+- **El salvavidas** — a quién llamar en el país en el que estás.
+- **Alertas de terremotos (en todo el mundo)** — siente una vibración y mira en tu mapa la zona donde se sintió cuando se notifica un sismo cerca. Una confirmación de la fuente oficial de sismos — no una alerta temprana: si sentiste un temblor, esto te dice qué fue. La fuente se consulta cada cinco minutos, también en segundo plano, y la detección de retumbos profundos (infrasonido) en el dispositivo puede activar una comprobación adicional en el momento en que el suelo se mueve.
 - **Feature Playground** — alertas de práctica y vistas previas de funciones con una marca de agua PREVIA bien visible.
 - **App complementaria para Apple Watch y Live Activity** — la dirección y la última alerta, de un vistazo.
 - **Acoustic Scope** — visualización del sonido en vivo de nivel profesional, gratis para todos. (Las herramientas de captura para entrenamiento son de Power Pack+.)
+- **Red de investigación** *(opcional, desactivada de forma predeterminada)* — si la activas, se comparten la hora, una ubicación aproximada (alrededor de 1 km) y la frecuencia de los eventos parecidos a sismos — sin audio, sin identificador — para ayudar a cartografiar terremotos y otros eventos de baja frecuencia.
 
 **Power Pack+** es un desbloqueo de pago único (**no es una suscripción**) con una **prueba gratuita de 90 días**. Añade los superpoderes:
 
@@ -141,7 +152,7 @@ graph TD
     S --> H["Alertas · háptica · Watch · Live Activity"]
     B --> D["Cálculo espacial<br/>TDOA · tendencia de nivel → rumbo · distancia · aproximación"]
     D --> R["Anillo de radar · mapa · Cámara AR"]
-    B --> F["Reconocimiento de voz<br/>(SpeechAnalyzer)"]
+    B --> F["Reconocimiento de voz<br/>(SpeechAnalyzer, o modelos por turno)"]
     B --> N["Límites de turno<br/>(diarizador Sortformer, ANE)"]
     N --> E["Identidad de voz<br/>(embeddings de ReDimNet, ANE)"]
     B --> E
@@ -160,13 +171,13 @@ graph LR
 ```
 
 - **Cálculo espacial** — FFT, diferencia de tiempo de llegada ponderada por coherencia (TDOA — se da prioridad a las bandas de frecuencia en las que coinciden ambos micrófonos y luego el minúsculo retardo de llegada se convierte en un rumbo) y seguimiento de la aproximación por tendencia de nivel en tareas en segundo plano. El par de micrófonos se lee en una orientación fija, para que la dirección funcione igual tanto si sostienes el teléfono en vertical como de lado.
-- **Habla** — `SpeechAnalyzer` / `SpeechTranscriber` de iOS 26 para la transcripción; el framework **Translation** de Apple para la traducción en el dispositivo. La identidad de voz se basa en evidencia: una voz solo se confirma como una persona real a partir de ventanas de sonido independientes, y una coincidencia dudosa se muestra sin atribuir en lugar de arriesgarse con un nombre equivocado.
+- **Habla** — `SpeechAnalyzer` / `SpeechTranscriber` de iOS 26 para la transcripción; el framework **Translation** de Apple para la traducción en el dispositivo. Con la descarga opcional de subtítulos, un detector de actividad de voz delimita cada turno, un modelo de identificación del idioma hablado elige su idioma y lo transcriben modelos abiertos de reconocimiento de voz — uno para los idiomas europeos y otro para el resto —, todo en el dispositivo. La identidad de voz se basa en evidencia: una voz solo se confirma como una persona real a partir de ventanas de sonido independientes, y una coincidencia dudosa se muestra sin atribuir en lugar de arriesgarse con un nombre equivocado.
 - **Dos modelos para dos preguntas** — distinguir voces exige saber *cuándo cambió el hablante* y *quién es ese hablante*, y no son el mismo problema. Un diarizador en streaming **Sortformer** marca los límites de turno; los embeddings de **ReDimNet** deciden de quién es la voz que hay dentro de cada uno. Cortar justo en el límite importa más de lo que parece: una ventana que abarca a dos personas las contiene a ambas, y ningún modelo de embeddings puede deshacer eso después. Por debajo de ambos hay una base de detección de actividad de voz — si en una sala difícil el diarizador se queda callado en lugar de adivinar, los turnos se siguen cortando, así que la app pierde precisión en lugar de fundir a dos hablantes en uno.
 - **La verdad sobre la música** — un **detector de firma de canción** basado en croma tiene la última palabra sobre «¿de verdad está sonando música?», porque es bien sabido que los clasificadores generales llaman «música» a las salas en silencio y a las sirenas. Shazam solo se ejecuta cuando la firma confirma que de verdad hay algo musical.
 - **Concurrencia** — el aislamiento de Swift 6 mantiene claramente separados la toma del micrófono, el cálculo acústico y el bucle de renderizado de la interfaz.
 - **Eficiencia** — el submuestreo, la clasificación adaptada a la carga y un uso de la red condicionado a la evidencia hacen que la escucha continua sea lo bastante ligera como para dejarla activada.
 
-Las alertas meteorológicas y de terremotos siguen el camino opuesto al del audio — nada de tu sonido sale nunca, pero sí entran *datos* de alertas. **Todas** las fuentes oficiales pasan por una pequeña caché que gestionamos nosotros, así que una sola descarga de los datos públicos sirve a todos los usuarios — y tu teléfono nunca contacta con los servidores de un gobierno extranjero:
+Las alertas meteorológicas y de terremotos siguen el camino opuesto al del audio — nada de tu sonido sale nunca, pero sí entran *datos* de alertas. **Todas** las fuentes oficiales — y las imágenes del radar — pasan por una pequeña caché que gestionamos nosotros, así que una sola descarga de los datos públicos sirve a todos los usuarios, y tu teléfono nunca contacta con los servidores de un gobierno extranjero:
 
 ```mermaid
 graph LR
@@ -228,7 +239,7 @@ Notas más detalladas para ingenieros: [Física](https://vigilantear.com/en/phys
 
 - **En el dispositivo, siempre, para la cadena de procesamiento principal.** La clasificación, el cálculo espacial, la transcripción, la diarización y la traducción se ejecutan en tu iPhone. El audio sin procesar no se graba ni se sube para el reconocimiento.
 - **Los subtítulos son efímeros.** Los subtítulos en vivo permanecen en memoria durante la sesión; los registros de depuración exportados no incluyen el texto de los subtítulos.
-- **Sin SDK de publicidad ni de analítica de comportamiento.** El uso limitado de la red es solo para mapas, fuentes meteorológicas públicas, huellas acústicas opcionales de Shazam, contexto vial y compras en el App Store — consulta la política completa.
+- **Sin SDK de publicidad ni de analítica de comportamiento.** El uso limitado de la red es solo para mapas, fuentes meteorológicas públicas e imágenes de radar, la lista de ayuda, la descarga opcional del modelo de subtítulos, huellas acústicas opcionales de Shazam, contexto vial, la Red de investigación (solo si la activas) y compras en el App Store — consulta la política completa.
 
 Todos los detalles: [Privacidad](/es/privacy/) · [Términos](/es/terms/) · [Soporte](/es/support/)
 
@@ -236,7 +247,7 @@ Todos los detalles: [Privacidad](/es/privacy/) · [Términos](/es/terms/) · [So
 
 ## Hardware y plataformas
 
-- **iPhone (experiencia completa).** Funciona en vertical u horizontal — sostenlo como prefieras. Se necesitan micrófonos estéreo para localizar la dirección. Se recomienda un **iPhone 13 o posterior**.
+- **iPhone (experiencia completa).** Funciona en vertical u horizontal — sostenlo como prefieras. Se necesitan micrófonos estéreo para localizar la dirección. Se recomienda un **iPhone 13 o posterior**; los subtítulos en el idioma de cada hablante necesitan **8 GB de memoria** (iPhone 15 Pro y posteriores).
 - **Apple Watch.** Alertas de la app complementaria con flecha de dirección; funciona con Live Activity / Smart Stack.
 - **iPad (nativo).** Diseño adaptable: en la pantalla grande, los subtítulos en vivo tienen un panel translúcido junto al mapa que se oculta cuando nadie habla. Micrófonos de un solo canal → subtítulos sin dirección completa.
 - **Constellation** necesita **Ultra-Wideband** — iPhone 11 o posterior, excepto los modelos SE y «e». **No** necesita una red Wi-Fi: con el Wi-Fi activado, los teléfonos se descubren directamente entre sí, así que Constellation funciona sin router y sin internet siempre que los teléfonos estén cerca unos de otros.
