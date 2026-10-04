@@ -1,133 +1,135 @@
 # Vigilant Ear — Sources and Licenses
 
+## Agencies
+
 The official warnings in Vigilant Ear come from these agencies, delivered through the Vigilant Ear relay. Where a source's license sets terms, they are shown beside it.
 
-1. United States: **National Weather Service** — Public domain (U.S. Government work).
-2. Europe: **EUMETNET – MeteoAlarm** — Through EUMETNET MeteoGate. Used under MeteoAlarm's terms (CC BY 4.0, with conditions), www.meteoalarm.org.
+1. Afghanistan: **Afghanistan National Disaster Management Authority**
+2. Algeria: **Office National de la Météorologie (Algeria)**
+3. Andorra: **Servei Meteorològic d'Andorra** — Through MeteoAlarm. Used under MeteoAlarm's terms (CC BY 4.0, with conditions), www.meteoalarm.org.
+4. Angola: **Instituto Nacional de Meteorologia e Geofísica (Angola)**
+5. Argentina: **Servicio Meteorológico Nacional** — CC BY 4.0.
+6. Australia: **Bureau of Meteorology** — Via the WMO Alert Hub. Area extents © Commonwealth of Australia (Bureau of Meteorology).
+7. Bahrain: **Bahrain Meteorological Directorate** — Via the WMO Alert Hub.
+8. Belarus: **Belhydromet (Republican Center for Hydrometeorology)**
+9. Belize: **National Meteorological Service of Belize**
+10. Benin: **Agence Météo-Bénin**
+11. Botswana: **Department of Meteorological Services (Botswana)** — Via the WMO Alert Hub.
+12. Brazil: **Instituto Nacional de Meteorologia**
+13. British Virgin Islands: **Department of Disaster Management (British Virgin Islands)**
+14. Burkina Faso: **Agence Nationale de la Météorologie (Burkina Faso)**
+15. Burundi: **Institut Géographique du Burundi**
+16. Cameroon: **Direction de la Météorologie Nationale (Cameroon)**
+17. Canada: **Environment and Climate Change Canada**
+18. Canada: **Environment and Climate Change Canada weather radar (MSC GeoMet, 1 km composite)** — Data Source: Environment and Climate Change Canada. Used under the Environment and Climate Change Canada Data Servers End-use Licence, https://eccc-msc.github.io/open-data/licence/readme\_en/. Edited by Vigilant Ear: standardized to a consistent color palette.
+19. Central African Republic: **Direction Générale de la Météorologie (Central African Republic)**
+20. Chad: **Agence Nationale de la Météorologie (Chad)**
+21. Chile: **Dirección Meteorológica de Chile**
+22. China: **China Meteorological Administration** — Via the WMO Alert Hub. Place data © GeoNames, CC BY 4.0.
+23. Colombia: **Instituto de Hidrología, Meteorología y Estudios Ambientales (Colombia)** — CC BY 4.0.
+24. Comoros: **Agence Nationale de l'Aviation Civile et de la Météorologie (Comoros)** — Via the WMO Alert Hub.
+25. Congo - Brazzaville: **Direction de la Météorologie Nationale (Congo)**
+26. Congo - Kinshasa: **Agence Nationale de la Météorologie et de Télédétection par Satellite (DR Congo)**
+27. Costa Rica: **Instituto Meteorológico Nacional (Costa Rica)**
+28. Côte d’Ivoire: **SODEXAM — Direction de la Météorologie Nationale (Côte d'Ivoire)** — Via the WMO Alert Hub.
+29. Djibouti: **Agence Nationale de la Météorologie de Djibouti**
+30. Dominican Republic: **Instituto Dominicano de Meteorología**
+31. Ecuador: **Instituto Nacional de Meteorología e Hidrología**
+32. Egypt: **Egyptian Meteorological Authority** — Via the WMO Alert Hub.
+33. Eswatini: **Eswatini Meteorological Service** — Via the WMO Alert Hub.
+34. Ethiopia: **Ethiopian Meteorological Institute**
+35. Europe: **EUMETNET – MeteoAlarm** — Through EUMETNET MeteoGate. Used under MeteoAlarm's terms (CC BY 4.0, with conditions), www.meteoalarm.org.
 
-   *Time delays between this website and the www.meteoalarm.org website are possible. For the most up-to-date awareness information as published by the participating National Meteorological and Hydrological Services, please refer to www.meteoalarm.org.*
+    *Time delays between this website and the www.meteoalarm.org website are possible. For the most up-to-date awareness information as published by the participating National Meteorological and Hydrological Services, please refer to www.meteoalarm.org.*
 
-3. China: **China Meteorological Administration** — Via the WMO Alert Hub. Place data © GeoNames, CC BY 4.0.
-4. South Korea: **Korea Meteorological Administration**
-5. Japan: **Japan Meteorological Agency**
-6. Canada: **Environment and Climate Change Canada**
-7. Brazil: **Instituto Nacional de Meteorologia**
-8. Australia: **Bureau of Meteorology** — Via the WMO Alert Hub. Area extents © Commonwealth of Australia (Bureau of Meteorology).
-9. India: **National Disaster Management Authority**
-10. Mexico: **Servicio Meteorológico Nacional (CONAGUA)** — CC BY 4.0.
-11. Saudi Arabia: **National Center for Meteorology** — Via the WMO Alert Hub.
-12. Argentina: **Servicio Meteorológico Nacional** — CC BY 4.0.
-13. Chile: **Dirección Meteorológica de Chile**
-14. New Zealand: **National Emergency Management Agency (New Zealand)** — CC BY 4.0.
-15. Taiwan: **National Science and Technology Center for Disaster Reduction (Taiwan)** — National Science and Technology Center for Disaster Reduction 2026, 民生示警公開資料 (Civil Alert Open Data): the warnings of the Central Weather Administration, the Water Resources Agency and other agencies. National Land Surveying and Mapping Center, Ministry of the Interior 2021, 鄉鎮市區界線(TWD97經緯度) (township boundaries). The Open Data is made available to the public under the Open Government Data License, User can make use of it when complying to the condition and obligation of its terms. Open Government Data License: https://data.gov.tw/license
-16. Germany: **Länderübergreifendes Hochwasserportal (LHP), www.hochwasserzentralen.de** — CC BY 4.0. Each warning shows the time of its data.
-17. Afghanistan: **Afghanistan National Disaster Management Authority**
-18. Angola: **Instituto Nacional de Meteorologia e Geofísica (Angola)**
-19. Benin: **Agence Météo-Bénin**
-20. Burkina Faso: **Agence Nationale de la Météorologie (Burkina Faso)**
-21. Burundi: **Institut Géographique du Burundi**
-22. British Virgin Islands: **Department of Disaster Management (British Virgin Islands)**
-23. Central African Republic: **Direction Générale de la Météorologie (Central African Republic)**
-24. Chad: **Agence Nationale de la Météorologie (Chad)**
-25. Colombia: **Instituto de Hidrología, Meteorología y Estudios Ambientales (Colombia)** — CC BY 4.0.
-26. Congo - Brazzaville: **Direction de la Météorologie Nationale (Congo)**
-27. Côte d’Ivoire: **SODEXAM — Direction de la Météorologie Nationale (Côte d'Ivoire)** — Via the WMO Alert Hub.
-28. Djibouti: **Agence Nationale de la Météorologie de Djibouti**
-29. Congo - Kinshasa: **Agence Nationale de la Météorologie et de Télédétection par Satellite (DR Congo)**
-30. Egypt: **Egyptian Meteorological Authority** — Via the WMO Alert Hub.
-31. Eswatini: **Eswatini Meteorological Service** — Via the WMO Alert Hub.
-32. Ethiopia: **Ethiopian Meteorological Institute**
-33. Gabon: **Direction Générale de la Météorologie (Gabon)** — Via the WMO Alert Hub.
-34. Gambia: **Department of Water Resources (The Gambia)**
-35. Guinea: **Agence Nationale de la Météorologie (Guinea)**
-36. Guinea-Bissau: **Instituto Nacional de Meteorologia da Guiné-Bissau**
-37. Iran: **Islamic Republic of Iran Meteorological Organization** — Via the WMO Alert Hub.
-38. Kenya: **Kenya Meteorological Department**
-39. Lesotho: **Lesotho Meteorological Services**
-40. Malawi: **Department of Climate Change and Meteorological Services (Malawi)**
-41. Mauritania: **Office National de la Météorologie (Mauritania)**
-42. Mongolia: **National Agency for Meteorology and Environmental Monitoring (Mongolia)** — Via the WMO Alert Hub.
-43. Mozambique: **Instituto Nacional de Meteorologia (Mozambique)**
-44. Niger: **Direction de la Météorologie Nationale (Niger)**
-45. Oman: **Directorate General of Meteorology (Oman)**
-46. St. Vincent & Grenadines: **Saint Vincent and the Grenadines Meteorological Services** — Via the WMO Alert Hub.
-47. Suriname: **Meteorological Service Suriname**
-48. São Tomé & Príncipe: **Instituto Nacional de Meteorologia (São Tomé and Príncipe)**
-49. Togo: **Agence Nationale de la Météorologie du Togo**
-50. Tunisia: **Institut National de la Météorologie (Tunisia)**
-51. Uganda: **Department of Meteorological Services (Uganda)** — Via the WMO Alert Hub.
-52. United States: **AirNow (U.S. Environmental Protection Agency)** — Air quality forecasts by state, local and tribal air agencies, through the U.S. EPA's AirNow.
-53. Algeria: **Office National de la Météorologie (Algeria)**
-54. Andorra: **Servei Meteorològic d'Andorra** — Through MeteoAlarm. Used under MeteoAlarm's terms (CC BY 4.0, with conditions), www.meteoalarm.org.
-55. Bahrain: **Bahrain Meteorological Directorate** — Via the WMO Alert Hub.
-56. Belarus: **Belhydromet (Republican Center for Hydrometeorology)**
-57. Belize: **National Meteorological Service of Belize**
-58. Botswana: **Department of Meteorological Services (Botswana)** — Via the WMO Alert Hub.
-59. Cameroon: **Direction de la Météorologie Nationale (Cameroon)**
-60. Comoros: **Agence Nationale de l'Aviation Civile et de la Météorologie (Comoros)** — Via the WMO Alert Hub.
-61. Costa Rica: **Instituto Meteorológico Nacional (Costa Rica)**
-62. Dominican Republic: **Instituto Dominicano de Meteorología**
-63. Ecuador: **Instituto Nacional de Meteorología e Hidrología**
-64. Ghana: **Ghana Meteorological Agency**
-65. Guyana: **Hydrometeorological Service of Guyana**
-66. Hong Kong SAR China: **Hong Kong Observatory**
-67. Iceland: **Icelandic Met Office (Veðurstofa Íslands)** — Via the WMO Alert Hub.
-68. Indonesia: **Badan Meteorologi, Klimatologi, dan Geofisika** — Via the WMO Alert Hub.
-69. Iraq: **Iraqi Meteorological Organization and Seismology**
-70. Israel: **Israel Meteorological Service** — Through MeteoAlarm. Used under MeteoAlarm's terms (CC BY 4.0, with conditions), www.meteoalarm.org.
-71. Jamaica: **Meteorological Service of Jamaica** — Via the WMO Alert Hub.
-72. Jordan: **Jordan Meteorological Department**
-73. Kazakhstan: **Kazhydromet**
-74. Kuwait: **Kuwait Meteorological Department**
-75. Kyrgyzstan: **Kyrgyzhydromet (Ministry of Emergency Situations of the Kyrgyz Republic)**
-76. Liberia: **Liberia Meteorological Service**
-77. Libya: **Libyan National Meteorological Center**
-78. Madagascar: **Direction Générale de la Météorologie (Madagascar)**
-79. Maldives: **Maldives Meteorological Service**
-80. Mauritius: **Mauritius Meteorological Services**
-81. Micronesia: **FSM Weather Station (Federated States of Micronesia)**
-82. New Zealand: **MetService (New Zealand)** — Via the WMO Alert Hub.
-83. Nigeria: **Nigerian Meteorological Agency**
-84. Niue: **Alerts Niue (Government of Niue)**
-85. Panama: **Instituto de Meteorología e Hidrología de Panamá**
-86. Paraguay: **Dirección de Meteorología e Hidrología (Paraguay)**
-87. Philippines: **Philippine Atmospheric, Geophysical and Astronomical Services Administration**
-88. Qatar: **Qatar Meteorology Department** — Via the WMO Alert Hub.
-89. Russia: **Roshydromet (Federal Service for Hydrometeorology and Environmental Monitoring)**
-90. St. Lucia: **Saint Lucia Meteorological Services**
-91. Senegal: **Agence Nationale de l'Aviation Civile et de la Météorologie (Senegal)**
-92. Seychelles: **Seychelles Meteorological Authority** — Via the WMO Alert Hub.
-93. Sierra Leone: **Sierra Leone Meteorological Agency**
-94. Singapore: **Meteorological Service Singapore** — Via the WMO Alert Hub.
-95. Singapore: **PUB, Singapore's National Water Agency** — Via the WMO Alert Hub. Public domain, as the feed states.
-96. Solomon Islands: **Solomon Islands Meteorological Service**
-97. Somalia: **Somalia National Meteorological Agency**
-98. South Africa: **South African Weather Service** — Via the WMO Alert Hub.
-99. South Sudan: **South Sudan Meteorological Service**
-100. Sudan: **Sudan Meteorological Authority** — Via the WMO Alert Hub.
-101. Sudan: **General Administration of Nile Waters Affairs (Sudan)**
-102. Syria: **Ministry of Emergency and Disaster Management (Syria)**
+36. Europe: **EUMETNET OPERA weather radar composite (maximum reflectivity)** — © EUMETNET. Licensed under CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Edited by Vigilant Ear: standardized to a consistent color palette.
+37. Gabon: **Direction Générale de la Météorologie (Gabon)** — Via the WMO Alert Hub.
+38. Gambia: **Department of Water Resources (The Gambia)**
+39. Germany: **Länderübergreifendes Hochwasserportal (LHP), www.hochwasserzentralen.de** — CC BY 4.0. Each warning shows the time of its data.
+40. Ghana: **Ghana Meteorological Agency**
+41. Guinea: **Agence Nationale de la Météorologie (Guinea)**
+42. Guinea-Bissau: **Instituto Nacional de Meteorologia da Guiné-Bissau**
+43. Guyana: **Hydrometeorological Service of Guyana**
+44. Hong Kong SAR China: **Hong Kong Observatory**
+45. Iceland: **Icelandic Met Office (Veðurstofa Íslands)** — Via the WMO Alert Hub.
+46. India: **National Disaster Management Authority**
+47. Indonesia: **Badan Meteorologi, Klimatologi, dan Geofisika** — Via the WMO Alert Hub.
+48. Iran: **Islamic Republic of Iran Meteorological Organization** — Via the WMO Alert Hub.
+49. Iraq: **Iraqi Meteorological Organization and Seismology**
+50. Israel: **Israel Meteorological Service** — Through MeteoAlarm. Used under MeteoAlarm's terms (CC BY 4.0, with conditions), www.meteoalarm.org.
+51. Italy: **Radar-DPC, Dipartimento della Protezione Civile (surface rainfall intensity)** — Licensed under CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/. Edited by Vigilant Ear: standardized to a consistent color palette. The radar tiles Vigilant Ear shows for Italy are shared under the same licence, CC BY-SA 4.0.
+52. Jamaica: **Meteorological Service of Jamaica** — Via the WMO Alert Hub.
+53. Japan: **Japan Meteorological Agency**
+54. Japan: **Japan Meteorological Agency (気象庁) high-resolution precipitation nowcast, observed frames** — 出典：気象庁ホームページ (https://www.jma.go.jp/bosai/nowc/) — Source: Japan Meteorological Agency website. Used under the Japan Meteorological Agency Website Terms of Use (Government of Japan Standard Terms of Use 2.0, compatible with CC BY 4.0), https://www.jma.go.jp/jma/en/copyright.html. Edited by Vigilant Ear: standardized to a consistent color palette.
+55. Jordan: **Jordan Meteorological Department**
+56. Kazakhstan: **Kazhydromet**
+57. Kenya: **Kenya Meteorological Department**
+58. Kuwait: **Kuwait Meteorological Department**
+59. Kyrgyzstan: **Kyrgyzhydromet (Ministry of Emergency Situations of the Kyrgyz Republic)**
+60. Lesotho: **Lesotho Meteorological Services**
+61. Liberia: **Liberia Meteorological Service**
+62. Libya: **Libyan National Meteorological Center**
+63. Madagascar: **Direction Générale de la Météorologie (Madagascar)**
+64. Malawi: **Department of Climate Change and Meteorological Services (Malawi)**
+65. Maldives: **Maldives Meteorological Service**
+66. Mauritania: **Office National de la Météorologie (Mauritania)**
+67. Mauritius: **Mauritius Meteorological Services**
+68. Mexico: **Servicio Meteorológico Nacional (CONAGUA)** — CC BY 4.0.
+69. Mexico: **Servicio Meteorológico Nacional (SMN-CONAGUA) weather radar** — Source: Servicio Meteorológico Nacional (SMN-CONAGUA). Edited by Vigilant Ear: standardized to a consistent color palette.
+70. Micronesia: **FSM Weather Station (Federated States of Micronesia)**
+71. Mongolia: **National Agency for Meteorology and Environmental Monitoring (Mongolia)** — Via the WMO Alert Hub.
+72. Mozambique: **Instituto Nacional de Meteorologia (Mozambique)**
+73. New Zealand: **MetService (New Zealand)** — Via the WMO Alert Hub.
+74. New Zealand: **National Emergency Management Agency (New Zealand)** — CC BY 4.0.
+75. Niger: **Direction de la Météorologie Nationale (Niger)**
+76. Nigeria: **Nigerian Meteorological Agency**
+77. Niue: **Alerts Niue (Government of Niue)**
+78. Oman: **Directorate General of Meteorology (Oman)**
+79. Panama: **Instituto de Meteorología e Hidrología de Panamá**
+80. Paraguay: **Dirección de Meteorología e Hidrología (Paraguay)**
+81. Philippines: **Philippine Atmospheric, Geophysical and Astronomical Services Administration**
+82. Qatar: **Qatar Meteorology Department** — Via the WMO Alert Hub.
+83. Russia: **Roshydromet (Federal Service for Hydrometeorology and Environmental Monitoring)**
+84. São Tomé & Príncipe: **Instituto Nacional de Meteorologia (São Tomé and Príncipe)**
+85. Saudi Arabia: **National Center for Meteorology** — Via the WMO Alert Hub.
+86. Senegal: **Agence Nationale de l'Aviation Civile et de la Météorologie (Senegal)**
+87. Seychelles: **Seychelles Meteorological Authority** — Via the WMO Alert Hub.
+88. Sierra Leone: **Sierra Leone Meteorological Agency**
+89. Singapore: **Meteorological Service Singapore** — Via the WMO Alert Hub.
+90. Singapore: **PUB, Singapore's National Water Agency** — Via the WMO Alert Hub. Public domain, as the feed states.
+91. Solomon Islands: **Solomon Islands Meteorological Service**
+92. Somalia: **Somalia National Meteorological Agency**
+93. South Africa: **South African Weather Service** — Via the WMO Alert Hub.
+94. South Korea: **Korea Meteorological Administration**
+95. South Sudan: **South Sudan Meteorological Service**
+96. St. Lucia: **Saint Lucia Meteorological Services**
+97. St. Vincent & Grenadines: **Saint Vincent and the Grenadines Meteorological Services** — Via the WMO Alert Hub.
+98. Sudan: **General Administration of Nile Waters Affairs (Sudan)**
+99. Sudan: **Sudan Meteorological Authority** — Via the WMO Alert Hub.
+100. Suriname: **Meteorological Service Suriname**
+101. Syria: **Ministry of Emergency and Disaster Management (Syria)**
+102. Taiwan: **National Science and Technology Center for Disaster Reduction (Taiwan)** — National Science and Technology Center for Disaster Reduction 2026, 民生示警公開資料 (Civil Alert Open Data): the warnings of the Central Weather Administration, the Water Resources Agency and other agencies. National Land Surveying and Mapping Center, Ministry of the Interior 2021, 鄉鎮市區界線(TWD97經緯度) (township boundaries). The Open Data is made available to the public under the Open Government Data License, User can make use of it when complying to the condition and obligation of its terms. Open Government Data License: https://data.gov.tw/license
 103. Tanzania: **Tanzania Meteorological Authority**
 104. Thailand: **Thai Meteorological Department** — Via the WMO Alert Hub.
 105. Timor-Leste: **Direcção Nacional de Meteorologia e Geofísica (Timor-Leste)**
-106. Trinidad & Tobago: **Trinidad and Tobago Meteorological Service**
-107. Turks & Caicos Islands: **Turks and Caicos Islands National Weather Service**
-108. Turks & Caicos Islands: **TCI Emergency Alerts (Government of the Turks and Caicos Islands)**
-109. Tuvalu: **Tuvalu Meteorological Service**
-110. Uruguay: **Instituto Uruguayo de Meteorología**
-111. Uzbekistan: **Uzhydromet (Hydrometeorological Service of Uzbekistan)**
-112. Vanuatu: **Vanuatu Meteorology and Geo-Hazards Department**
-113. Yemen: **Yemen Meteorological Service** — Via the WMO Alert Hub.
-114. Zambia: **Zambia Meteorological Department**
-115. Zimbabwe: **Meteorological Services Department (Zimbabwe)**
-116. Worldwide: **U.S. Geological Survey (USGS) earthquake feed** — Public domain (U.S. Government work).
-117. United States: **NOAA/NWS weather radar (base reflectivity mosaic)** — Public domain (U.S. Government work). No endorsement by NOAA or the National Weather Service is implied.
-118. Canada: **Environment and Climate Change Canada weather radar (MSC GeoMet, 1 km composite)** — Data Source: Environment and Climate Change Canada. Used under the Environment and Climate Change Canada Data Servers End-use Licence, https://eccc-msc.github.io/open-data/licence/readme\_en/. Edited by Vigilant Ear: standardized to a consistent color palette.
-119. Japan: **Japan Meteorological Agency (気象庁) high-resolution precipitation nowcast, observed frames** — 出典：気象庁ホームページ (https://www.jma.go.jp/bosai/nowc/) — Source: Japan Meteorological Agency website. Used under the Japan Meteorological Agency Website Terms of Use (Government of Japan Standard Terms of Use 2.0, compatible with CC BY 4.0), https://www.jma.go.jp/jma/en/copyright.html. Edited by Vigilant Ear: standardized to a consistent color palette.
-120. Italy: **Radar-DPC, Dipartimento della Protezione Civile (surface rainfall intensity)** — Licensed under CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/. Edited by Vigilant Ear: standardized to a consistent color palette. The radar tiles Vigilant Ear shows for Italy are shared under the same licence, CC BY-SA 4.0.
-121. Europe: **EUMETNET OPERA weather radar composite (maximum reflectivity)** — © EUMETNET. Licensed under CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Edited by Vigilant Ear: standardized to a consistent color palette.
-122. Mexico: **Servicio Meteorológico Nacional (SMN-CONAGUA) weather radar** — Source: Servicio Meteorológico Nacional (SMN-CONAGUA). Edited by Vigilant Ear: standardized to a consistent color palette.
-123. Worldwide, 60°S to 70°N, where no radar is shown: **NOAA/NESDIS Enterprise Rainfall Rate — a satellite estimate from GOES, Himawari and Meteosat, not radar** — Public domain (U.S. Government work). Edited by Vigilant Ear: standardized to a consistent color palette.
+106. Togo: **Agence Nationale de la Météorologie du Togo**
+107. Trinidad & Tobago: **Trinidad and Tobago Meteorological Service**
+108. Tunisia: **Institut National de la Météorologie (Tunisia)**
+109. Turks & Caicos Islands: **TCI Emergency Alerts (Government of the Turks and Caicos Islands)**
+110. Turks & Caicos Islands: **Turks and Caicos Islands National Weather Service**
+111. Tuvalu: **Tuvalu Meteorological Service**
+112. Uganda: **Department of Meteorological Services (Uganda)** — Via the WMO Alert Hub.
+113. United States: **AirNow (U.S. Environmental Protection Agency)** — Air quality forecasts by state, local and tribal air agencies, through the U.S. EPA's AirNow.
+114. United States: **National Weather Service** — Public domain (U.S. Government work).
+115. United States: **NOAA/NWS weather radar (base reflectivity mosaic)** — Public domain (U.S. Government work). No endorsement by NOAA or the National Weather Service is implied.
+116. Uruguay: **Instituto Uruguayo de Meteorología**
+117. Uzbekistan: **Uzhydromet (Hydrometeorological Service of Uzbekistan)**
+118. Vanuatu: **Vanuatu Meteorology and Geo-Hazards Department**
+119. Worldwide: **U.S. Geological Survey (USGS) earthquake feed** — Public domain (U.S. Government work).
+120. Worldwide, 60°S to 70°N, where no radar is shown: **NOAA/NESDIS Enterprise Rainfall Rate — a satellite estimate from GOES, Himawari and Meteosat, not radar** — Public domain (U.S. Government work). Edited by Vigilant Ear: standardized to a consistent color palette.
+121. Yemen: **Yemen Meteorological Service** — Via the WMO Alert Hub.
+122. Zambia: **Zambia Meteorological Department**
+123. Zimbabwe: **Meteorological Services Department (Zimbabwe)**
 
 ## Models
 
