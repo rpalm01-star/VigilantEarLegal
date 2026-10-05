@@ -60,7 +60,7 @@ Este criptat cap-la-cap între cele două telefoane. Releul care îl transmite n
 
 ## Avertizări direct de la cei care le emit
 
-Avertizările de vreme severă vin din 53 de surse guvernamentale oficiale, care acoperă 88 de țări și teritorii, și sunt filtrate după locul în care te afli de fapt. Alertele de cutremur așteaptă confirmarea oficială în loc să ghicească.
+Avertizările de vreme severă vin din surse guvernamentale oficiale din peste 140 de țări și teritorii — iar altele noi se adaugă des — și sunt filtrate după locul în care te afli de fapt. Alertele de cutremur așteaptă confirmarea oficială în loc să ghicească.
 
 Aceste avertizări ajung la tine prin propriul nostru serviciu, în loc ca telefonul tău să contacteze direct fiecare agenție. Așa că **telefonul tău nu contactează niciodată serverele unui guvern străin**, iar un flux public aglomerat nu-ți poate pierde alerta pentru că au întrebat prea mulți deodată. Telefonul tău ne spune doar aproximativ unde ești — un pătrat cu latura de circa 50 km — și verifică singur dacă ești în interiorul fiecărei zone de avertizare, așa că locația ta exactă nu iese niciodată din el.
 

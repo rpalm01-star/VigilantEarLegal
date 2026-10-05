@@ -60,7 +60,7 @@ Die Verbindung ist zwischen den beiden Telefonen Ende-zu-Ende-verschlüsselt. Da
 
 ## Warnungen von denen, die sie herausgeben
 
-Unwetterwarnungen kommen aus 53 offiziellen staatlichen Quellen, die 88 Länder und Gebiete abdecken, gefiltert auf den Ort, an dem du tatsächlich bist. Erdbebenmeldungen warten auf die amtliche Bestätigung, statt zu raten.
+Unwetterwarnungen kommen aus offiziellen staatlichen Quellen in mehr als 140 Ländern und Gebieten — Tendenz steigend —, gefiltert auf den Ort, an dem du tatsächlich bist. Erdbebenmeldungen warten auf die amtliche Bestätigung, statt zu raten.
 
 Diese Warnungen erreichen dich über unseren eigenen Dienst, statt dass dein Telefon jede Behörde direkt anfragt. Deshalb **kontaktiert dein Telefon nie die Server einer ausländischen Regierung**, und ein stark gefragter öffentlicher Feed kann deine Warnung nicht verschlucken, nur weil zu viele gleichzeitig angefragt haben. Dein Telefon sagt uns nur ungefähr, wo du bist — ein Quadrat von etwa 50 km Seitenlänge — und prüft für jedes Warngebiet selbst, ob du darin bist, sodass dein genauer Standort es nie verlässt.
 

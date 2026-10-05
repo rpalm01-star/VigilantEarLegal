@@ -40,11 +40,26 @@ iOS Ayarları’nda **Mikrofon** iznini verdiğinizden emin olun. Vigilant Ear a
 
 ### Hava uyarıları ne kadar doğru?
 
-Vigilant Ear resmi hükümet CAP (Common Alerting Protocol) verisini kullanır. Uyarılar, uyarıları yayımlayan devlet kurumlarının (88 ülke ve bölgede 53 resmi kaynak) verdiği veri kadar doğrudur. Avrupa uyarıları, resmi Avrupa verisini yaklaşık her 15 dakikada bir yenileyen küçük bir önbelleğimiz üzerinden gelir — kullanıcı tabanımız kamu akışının istek sınırlarını aştıkça uyarıları herkes için güvenilir tutar. Konum simülasyonu, kapsam boşlukları veya ağ gecikmeleri güncelleme sıklığını ara sıra etkileyebilir.
+Vigilant Ear resmi hükümet CAP (Common Alerting Protocol) verisini kullanır; bu yüzden uyarılar, onları yayımlayan kurumların uyarıları kadar doğrudur. Resmi kaynaklar 140’tan fazla ülke ve bölgeyi kapsar ve sık sık yenileri eklenir. Her uyarı telefonunuza, resmi akışları birkaç dakikada bir kontrol eden Vigilant Ear’ın kendi uyarı rölesi üzerinden ulaşır. Haritadaki hava durumu radarı, ulusal radarların bulunduğu yerlerde onları, dünyanın geri kalanının neredeyse her yerinde ise NOAA’nın uydu tabanlı yağış tahminini kullanır. Konum simülasyonu, kapsam boşlukları veya ağ gecikmeleri güncelleme sıklığını ara sıra etkileyebilir.
 
 ### Uygulama arka planda çalışır mı?
 
 Evet. Gerekli izinler açıkken ve en az bir uyarı kategorisi açıkken Vigilant Ear kritik akustik olayları arka planda izlemek üzere tasarlanmıştır.
+
+### Apple Watch dışında bir saat veya bileklikte uyarıları hissedebilir miyim?
+
+Evet. Vigilant Ear’ın uyarıları sıradan iPhone bildirimleridir; bu yüzden iPhone bildirimlerini gösteren saat ve bilekliklerin çoğu bu uyarılar için de titreşir — Vigilant Ear’ın Apple Watch gerektiren kendine özgü desenleriyle değil, kendi titreşimleriyle. Hangi marka olursa olsun iPhone’unuzda **Ayarlar → Bluetooth** bölümüne gidin, saatin veya bilekliğin yanındaki ⓘ simgesine dokunun ve **Share System Notifications** anahtarının açık olduğundan emin olun; iPhone’u da Bluetooth menzili içinde tutun (komodinin üstü yeterli). Vigilant Ear’ın acil uyarıları Time Sensitive olarak gönderilir; bu yüzden Time Sensitive bildirimleri kapatmadıysanız iPhone’un kendi Uyku odağı açıkken bile size ulaşırlar.
+
+Saati veya bilekliği yatarken de takıyorsanız cihazın kendi uyku ve Do Not Disturb ayarlarını kontrol edin: bunlar Vigilant Ear dahil her şeyi susturur.
+
+- **Garmin** — Garmin Connect uygulamasında cihazınızın ayarlarını açın ve **Smart Notifications** seçeneğini etkinleştirin (**Notifications & Alerts** altında). Garmin siz uyurken Do Not Disturb modunu otomatik olarak açabilir; bu mod saatin bildirimler için titremesini durdurur, bu yüzden geceleri uyarıları hissetmek için onu kapatın. Ayarın adı ve yeri modele göre değişir; saatinizin kılavuzuna bakın.
+- **Fitbit** — Fitbit uygulamasında cihazınızın **Notifications** ayarlarını açın ve Vigilant Ear için uygulama bildirimlerini etkinleştirin. Fitbit’in **Sleep Mode** ve **Do Not Disturb** modları tüm bildirimleri sessize alır, bu yüzden geceleri ikisini de kapalı bırakın.
+- **Amazfit** — Zepp uygulamasında cihazınızı açın, ardından **Notifications and Reminder → App Alerts → Manage Apps** yolunu izleyip Vigilant Ear’ı seçin. Saatin kendi Do Not Disturb modu uyarıları engeller, bu yüzden geceleri onu kapatın.
+- **Xiaomi Smart Band** — Mi Fitness uygulamasında uygulama bildirimlerini ve Vigilant Ear anahtarını açın. Bileklik Do Not Disturb ya da Sleep Mode açıkken sessiz kalır, bu yüzden geceleri ikisini de kapatın; **Notify only when worn** açıksa bileğinizde değilken de sessiz kalır.
+- **Huawei** — HUAWEI Health uygulamasında cihazınızı açın, **Notifications** öğesine dokunun ve Vigilant Ear anahtarını açın. Aynı uygulamada ayarlanan Do Not Disturb, etkin olduğu saatlerde bilekliğin titremesini durdurur; geceleri uyarıları hissetmek için onu kapatın (ya da uyku saatlerinizi programının dışında bırakın).
+- **Pebble** — Pebble Core uygulamasının **Notifications** sekmesinde Vigilant Ear’ın açık olduğundan emin olun. **Quiet Time** bildirimleri ve titreşimi susturur, bu yüzden geceleri onu kapalı bırakın.
+
+Samsung Galaxy Watch ve Google Pixel Watch iPhone ile çalışmaz; Oura gibi akıllı yüzükler ise bildirimler için titreşemez.
 
 ### Uyarı anahtarları neyi kontrol eder?
 
@@ -68,7 +83,7 @@ Güvenlik çekirdeği **sonsuza dek ücretsizdir**:
 
 - Yerel ses uyarıları (siren, alarm, vuruş/zil, bebek, yakındaki kişi) ekranda ve isteğe bağlı anlık bildirimle  
 - **Speaker Mode** canlı altyazılar (cihazda; donanım izin verdiğinde yönlü)  
-- Bölgeniz için şiddetli hava akışları — **88 ülke ve bölgede 53 resmi kaynak**  
+- Bölgeniz için şiddetli hava akışları — **140’tan fazla ülke ve bölgede resmi kaynaklar**; sık sık yenileri eklenir  
 - **Feature Playground** alıştırma uyarıları (canlı acil durum gibi durmasınlar diye filigranlı)  
 - **Apple Watch** eşlikçi yön ipuçları ve **Live Activity** (Kilit Ekranı / Dynamic Island / Watch Smart Stack), varsa  
 - **Acoustic Scope** — canlı ses görselleştirici, herkes için ücretsiz (eğitim için yakalama araçları Power Pack+)  

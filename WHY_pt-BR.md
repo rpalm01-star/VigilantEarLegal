@@ -60,7 +60,7 @@ O **Remote Link** alcança quem não está com você: vídeo e texto de legenda,
 
 ## Alertas direto de quem os emite
 
-Os alertas de tempo severo vêm de 53 fontes governamentais oficiais que cobrem 88 países e territórios, filtrados para onde você realmente está. Os alertas de terremoto esperam a confirmação oficial em vez de chutar.
+Os alertas de tempo severo vêm de fontes governamentais oficiais em mais de 140 países e territórios — e novas fontes são adicionadas com frequência —, filtrados para onde você realmente está. Os alertas de terremoto esperam a confirmação oficial em vez de chutar.
 
 Esses alertas chegam até você pelo nosso próprio serviço, e não com o seu telefone consultando cada órgão diretamente. Por isso **seu telefone nunca contata os servidores de um governo estrangeiro**, e um feed público sobrecarregado não tem como derrubar o seu alerta porque gente demais consultou ao mesmo tempo. Seu telefone só nos diz mais ou menos onde você está — um quadrado de uns 50 km de lado — e ele mesmo verifica se você está dentro de cada área de alerta, então a sua localização exata nunca sai dele.
 

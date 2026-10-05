@@ -40,11 +40,26 @@ Asigură-te că ai acordat permisiunea **Microfon** în Setările iOS. Vigilant 
 
 ### Cât de precise sunt alertele meteo?
 
-Vigilant Ear folosește date oficiale guvernamentale CAP (Common Alerting Protocol). Alertele sunt la fel de precise ca datele furnizate de agențiile guvernamentale care le emit — 53 de surse oficiale din 88 de țări și teritorii. Alertele europene sunt livrate printr-un cache mic pe care îl operăm, care reîmprospătează datele oficiale europene cam la fiecare 15 minute — astfel alertele rămân de încredere pentru toată lumea pe măsură ce baza de utilizatori trece de limitele de cereri ale fluxului public. Simularea locației, golurile de acoperire sau întârzierile de rețea pot afecta ocazional frecvența actualizărilor.
+Vigilant Ear folosește date oficiale guvernamentale CAP (Common Alerting Protocol), așa că alertele sunt la fel de precise ca avertizările publicate de agențiile care le emit. Sursele oficiale acoperă peste 140 de țări și teritorii, iar altele noi se adaugă des. Fiecare avertizare ajunge pe telefonul tău prin releul de alerte propriu al Vigilant Ear, care verifică fluxurile oficiale la fiecare câteva minute. Radarul meteo de pe hartă folosește radarele naționale acolo unde sunt disponibile și, aproape peste tot în restul lumii, estimarea NOAA a ploii pe baza datelor din satelit. Simularea locației, golurile de acoperire sau întârzierile de rețea pot afecta ocazional frecvența actualizărilor.
 
 ### Aplicația funcționează în fundal?
 
 Da. Vigilant Ear este conceput să monitorizeze evenimente acustice critice în fundal când permisiunile necesare sunt activate și cel puțin o categorie de alertă e pornită.
+
+### Pot simți alertele pe un ceas sau o brățară care nu e Apple Watch?
+
+Da. Alertele Vigilant Ear sunt notificări obișnuite de iPhone, așa că majoritatea ceasurilor și brățărilor care afișează notificările iPhone-ului vor vibra pentru ele — cu vibrația lor proprie, nu cu tiparele distincte ale Vigilant Ear, care au nevoie de Apple Watch. Pentru orice marcă, mergi în **Configurări → Bluetooth** pe iPhone, atinge ⓘ de lângă ceas sau brățară, asigură-te că **Share System Notifications** este activat și ține iPhone-ul în raza Bluetooth (o noptieră e suficient de aproape). Alertele urgente ale Vigilant Ear sunt trimise ca Notificări urgente, așa că trec prin modul de concentrare Somn al iPhone-ului, dacă nu ai dezactivat Notificările urgente.
+
+Dacă îl porți când dormi, verifică setările de somn și de Nu deranja ale ceasului sau brățării: ele reduc la tăcere tot, inclusiv Vigilant Ear.
+
+- **Garmin** — În aplicația Garmin Connect, deschide setările dispozitivului și activează **Smart Notifications** (la **Notifications & Alerts**). Garmin poate porni automat modul Nu deranja în timp ce dormi, iar atunci ceasul nu mai vibrează la notificări; dezactivează opțiunea ca să simți alertele noaptea. Numele și locul setării diferă de la un model la altul, așa că verifică manualul ceasului tău.
+- **Fitbit** — În aplicația Fitbit, deschide setările **Notifications** ale dispozitivului și activează notificările de aplicații pentru Vigilant Ear. **Sleep Mode** și **Do Not Disturb** de pe Fitbit reduc la tăcere toate notificările, așa că lasă-le pe amândouă dezactivate noaptea.
+- **Amazfit** — În aplicația Zepp, deschide dispozitivul, apoi **Notifications and Reminder → App Alerts → Manage Apps** și selectează Vigilant Ear. Modul Nu deranja al ceasului blochează alertele, așa că dezactivează-l noaptea.
+- **Xiaomi Smart Band** — În aplicația Mi Fitness, activează notificările de aplicații și comutatorul pentru Vigilant Ear. Brățara rămâne silențioasă în modul Nu deranja sau în modul de somn, așa că dezactivează-le pe amândouă noaptea; cu **Notify only when worn** activat, rămâne silențioasă și cât timp nu e la încheietură.
+- **Huawei** — În aplicația HUAWEI Health, deschide dispozitivul, atinge **Notifications** și activează comutatorul pentru Vigilant Ear. Modul Nu deranja, setat din aceeași aplicație, oprește vibrațiile brățării în intervalul programat, așa că dezactivează-l (sau scoate orele de somn din programul lui) ca să simți alertele noaptea.
+- **Pebble** — În aplicația Pebble Core, asigură-te că Vigilant Ear este activat în fila **Notifications**. **Quiet Time** oprește notificările și vibrațiile, așa că lasă-l dezactivat noaptea.
+
+Samsung Galaxy Watch și Google Pixel Watch nu funcționează cu iPhone, iar inelele precum Oura nu pot vibra la notificări.
 
 ### Ce controlează comutatoarele de alertă?
 
@@ -68,7 +83,7 @@ Nucleul de siguranță e **gratuit, pentru totdeauna**:
 
 - Alerte sonore locale (sirene, alarme, bătăi/sonerii, bebeluș, persoană în apropiere) cu livrare pe ecran și push opțional  
 - Subtitrări în direct **Speaker Mode** (pe dispozitiv; direcționale acolo unde hardware-ul permite)  
-- Fluxuri de vreme severă pentru regiunea ta — **53 de surse oficiale din 88 de țări și teritorii**  
+- Fluxuri de vreme severă pentru regiunea ta — **surse oficiale din peste 140 de țări și teritorii**, iar altele noi se adaugă des  
 - Alerte de exercițiu **Feature Playground** (cu filigrană, ca să nu arate niciodată ca o urgență reală)  
 - Indicii de direcție ale companionului **Apple Watch** și **Live Activity** (ecran de blocare / Dynamic Island / Watch Smart Stack), acolo unde sunt disponibile  
 - **Acoustic Scope** — vizualizatorul de sunet în direct, gratuit pentru toată lumea (uneltele de captură pentru antrenare sunt Power Pack+)  

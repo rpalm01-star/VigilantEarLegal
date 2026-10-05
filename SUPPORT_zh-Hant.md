@@ -40,11 +40,26 @@
 
 ### 天氣提醒有多準確？
 
-Vigilant Ear 輪詢官方政府 CAP（通用警報協議）訂閱源。警報與發布預警的政府機構（涵蓋 88 個國家和地區的 53 個官方來源）提供的資料一樣準確。位置模擬、覆蓋間隙或網路延遲有時可能會影響更新頻率。 歐洲警報透過我們運營的一個小型快取送達：它大約每 15 分鐘重新整理一次官方歐洲資料 —— 隨著使用者數量超出公共源的請求限額，這能讓警報對每個人都保持可靠。
+Vigilant Ear 使用官方政府 CAP（通用警報協議）資料，因此警報與發布機構所發布的預警一樣準確。官方來源涵蓋超過 140 個國家和地區，而且還在持續增加。每一則預警都會經由 Vigilant Ear 自己的警報中繼伺服器送達您的手機，該伺服器每隔幾分鐘就會檢查一次官方訂閱源。地圖上的天氣雷達在有國家雷達的地方使用國家雷達，在世界其他幾乎所有地方則使用 NOAA 的衛星降雨估算。位置模擬、覆蓋間隙或網路延遲有時可能會影響更新頻率。
 
 ### 應用程式可以在背景工作嗎？
 
 是的。在啟用必要權限並且至少開啟一個提醒類別時，Vigilant Ear 被設計為在背景監控關鍵聲學事件。
+
+### 除了 Apple Watch，我還能在其他手錶或手環上感受到提醒嗎？
+
+可以。Vigilant Ear 的提醒就是一般的 iPhone 通知，所以大多數能顯示 iPhone 通知的手錶和手環都會為它們震動 —— 用的是裝置自己的震動，而不是 Vigilant Ear 的專屬震動模式，後者需要 Apple Watch。無論哪個品牌，都請在 iPhone 上前往**設定 → 藍牙**，點一下手錶或手環旁邊的 ⓘ，確認 **Share System Notifications** 已開啟，並讓 iPhone 保持在藍牙範圍內（放在床頭櫃上就可以）。Vigilant Ear 的緊急提醒屬於 Time Sensitive 通知，因此除非您關閉了 Time Sensitive 通知，否則它們不會被 iPhone 本身的睡眠專注模式擋下。
+
+如果您戴著它睡覺，請檢查手錶或手環本身的睡眠和 Do Not Disturb 設定：它們會讓所有通知靜音，Vigilant Ear 也不例外。
+
+- **Garmin** —— 在 Garmin Connect 應用程式中打開裝置設定，開啟 **Smart Notifications**（位於 **Notifications & Alerts** 下）。Garmin 可能會在您睡覺時自動開啟 Do Not Disturb，讓它不再為通知震動；若想在夜間感受到提醒，請將其關閉。這項設定的名稱和位置因型號而異，請查閱手錶的使用手冊。
+- **Fitbit** —— 在 Fitbit 應用程式中打開裝置的 **Notifications** 設定，為 Vigilant Ear 開啟應用程式通知。Fitbit 的 **Sleep Mode** 和 **Do Not Disturb** 會讓所有通知靜音，因此夜間請將兩者都保持關閉。
+- **Amazfit** —— 在 Zepp 應用程式中打開您的裝置，接著進入 **Notifications and Reminder → App Alerts → Manage Apps**，並選取 Vigilant Ear。手錶本身的 Do Not Disturb 模式會擋下提醒，因此夜間請將其關閉。
+- **Xiaomi Smart Band** —— 在 Mi Fitness 應用程式中開啟應用程式通知以及 Vigilant Ear 的開關。手環處於 Do Not Disturb 或 Sleep Mode 時不會發出任何提示，因此夜間請將兩者都關閉；若開啟了 **Notify only when worn**，手環不在手腕上時也會保持靜默。
+- **Huawei** —— 在 HUAWEI Health 應用程式中打開您的裝置，點一下 **Notifications**，然後開啟 Vigilant Ear 的開關。在同一個應用程式中設定的 Do Not Disturb 會在其生效時段內讓手環停止震動，因此若想在夜間感受到提醒，請將其關閉（或讓它的排程避開您的睡眠時段）。
+- **Pebble** —— 在 Pebble Core 應用程式中，確認 **Notifications** 分頁中的 Vigilant Ear 已開啟。**Quiet Time** 會讓通知和震動靜音，因此夜間請將其保持關閉。
+
+Samsung Galaxy Watch 和 Google Pixel Watch 無法搭配 iPhone 使用，而 Oura 等智慧戒指無法為通知震動。
 
 ### 提醒開關控制什麼？
 
@@ -68,7 +83,7 @@ Vigilant Ear 輪詢官方政府 CAP（通用警報協議）訂閱源。警報與
 
 - 本地聲音提醒（警笛、警報、敲門/門鈴、嬰兒、附近的人），帶有螢幕和可選的推送傳遞
 - **說話人模式**實時字幕（裝置端；在硬體允許的情況下具有方向性）
-- 適用於您所在地區的惡劣天氣訂閱源 —— **涵蓋 88 個國家和地區的 53 個官方來源**
+- 適用於您所在地區的惡劣天氣訂閱源 —— **超過 140 個國家和地區的官方來源**，而且還在持續增加
 - **功能遊樂場**練習提醒（帶有水印，因此它們永遠不會看起來像真實的緊急情況）
 - **Apple Watch** 輔助方向提示和**實時活動**（鎖定螢幕/靈動島/Watch 智慧疊放），如果可用
 - **聲學示波器** —— 實時聲音視覺化工具，所有人均可免費使用（用於訓練的採集工具屬於 Power Pack+）  

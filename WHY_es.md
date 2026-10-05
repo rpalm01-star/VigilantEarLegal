@@ -60,7 +60,7 @@ Está cifrado de extremo a extremo entre los dos teléfonos. El servidor de retr
 
 ## Avisos de quienes los emiten
 
-Los avisos meteorológicos graves vienen de 53 fuentes gubernamentales oficiales que cubren 88 países y territorios, filtrados según dónde estás de verdad. Las alertas de terremoto esperan la confirmación oficial en vez de adivinar.
+Los avisos meteorológicos graves vienen de fuentes gubernamentales oficiales en más de 140 países y territorios — y se añaden más con frecuencia —, filtrados según dónde estás de verdad. Las alertas de terremoto esperan la confirmación oficial en vez de adivinar.
 
 Esos avisos te llegan a través de nuestro propio servicio, en lugar de que tu teléfono consulte directamente a cada agencia. Así, **tu teléfono nunca contacta con los servidores de un gobierno extranjero**, y un feed público saturado no puede perder tu alerta porque demasiada gente preguntó a la vez. Tu teléfono solo nos dice más o menos dónde estás — un cuadrado de unos 50 km de lado — y comprueba él mismo si estás dentro de cada zona de aviso, así que tu ubicación exacta nunca sale de él.
 

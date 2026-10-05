@@ -40,11 +40,26 @@ Ensure you have granted **Microphone** permission in iOS Settings. Vigilant Ear 
 
 ### How accurate are the weather alerts?
 
-Vigilant Ear uses official government CAP (Common Alerting Protocol) data. Alerts are as accurate as the data provided by the issuing government agencies — 53 official sources covering 88 countries and territories. European alerts are delivered through a small cache we operate that refreshes the official European data about every 15 minutes — this keeps alerts reliable for everyone as our user base grows past the public feed's request limits. Location simulation, coverage gaps, or network delays may occasionally affect update frequency.
+Vigilant Ear uses official government CAP (Common Alerting Protocol) data, so alerts are as accurate as the warnings the issuing agencies publish. Official sources cover more than 140 countries and territories, and more are added often. Every warning reaches your phone through Vigilant Ear's own alert relay, which checks the official feeds every few minutes. The weather radar on the map uses national radars where they are available and NOAA's satellite rain estimate nearly everywhere else in the world. Location simulation, coverage gaps, or network delays may occasionally affect update frequency.
 
 ### Does the app work in the background?
 
 Yes. Vigilant Ear is designed to monitor for critical acoustic events while in the background when the necessary permissions are enabled and at least one alert category is on.
+
+### Can I feel alerts on a watch or band other than Apple Watch?
+
+Yes. Vigilant Ear's alerts are ordinary iPhone notifications, so most watches and bands that show iPhone notifications will vibrate for them — with their own vibration, not Vigilant Ear's distinct patterns, which need Apple Watch. For every brand, go to **Settings → Bluetooth** on your iPhone, tap ⓘ next to the watch or band, and make sure **Share System Notifications** is on, and keep the iPhone within Bluetooth range (a nightstand is fine). Vigilant Ear's urgent alerts are Time Sensitive, so they get through the iPhone's own Sleep Focus unless you have turned Time Sensitive notifications off.
+
+If you wear it to bed, check the watch or band's own sleep and Do Not Disturb settings: they silence everything, Vigilant Ear included.
+
+- **Garmin** — In the Garmin Connect app, open your device's settings and turn on **Smart Notifications** (under **Notifications & Alerts**). Garmin can turn on Do Not Disturb automatically while you sleep, which stops it vibrating for notifications; turn that off to feel alerts at night. The setting's name and place vary by model, so check your watch's manual.
+- **Fitbit** — In the Fitbit app, open your device's **Notifications** settings and turn on app notifications for Vigilant Ear. Fitbit's **Sleep Mode** and **Do Not Disturb** mute every notification, so leave both off at night.
+- **Amazfit** — In the Zepp app, open your device, then **Notifications and Reminder → App Alerts → Manage Apps**, and select Vigilant Ear. The watch's own Do Not Disturb mode blocks alerts, so turn it off at night.
+- **Xiaomi Smart Band** — In the Mi Fitness app, turn on app notifications and the switch for Vigilant Ear. The band stays silent in Do Not Disturb or Sleep Mode, so turn both off at night; with **Notify only when worn** on, it also stays silent while it is off your wrist.
+- **Huawei** — In the HUAWEI Health app, open your device, tap **Notifications**, and turn on the switch for Vigilant Ear. Do Not Disturb, set in the same app, stops the band vibrating during its hours, so turn it off (or leave your sleep hours out of its schedule) to feel alerts at night.
+- **Pebble** — In the Pebble Core app, make sure Vigilant Ear is on in the **Notifications** tab. **Quiet Time** silences notifications and vibration, so leave it off at night.
+
+Samsung Galaxy Watch and Google Pixel Watch don't work with iPhone, and rings such as Oura can't vibrate for notifications.
 
 ### What do the alert toggles control?
 
@@ -68,7 +83,7 @@ The safety core is **free, forever**:
 
 - Local sound alerts (sirens, alarms, knocks/doorbells, baby, person nearby) with on-screen and optional push delivery  
 - **Speaker Mode** live captions (on-device; directional where hardware allows)  
-- Severe-weather feeds for your region — **53 official sources in 88 countries and territories**  
+- Severe-weather feeds for your region — **official sources in more than 140 countries and territories**, with more added often  
 - **Feature Playground** practice alerts (watermarked so they never look like a live emergency)  
 - **Apple Watch** companion direction cues and **Live Activity** (Lock Screen / Dynamic Island / Watch Smart Stack), where available  
 - **Acoustic Scope** — the live sound visualizer, free for everyone (the capture-for-training tools are Power Pack+)  

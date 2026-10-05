@@ -60,7 +60,7 @@ It's encrypted end to end between the two phones. The relay that forwards it can
 
 ## Warnings from the people who issue them
 
-Severe weather comes from 53 official government sources covering 88 countries and territories, filtered to where you actually are. Earthquake alerts wait for official confirmation rather than guessing.
+Severe weather comes from official government sources in more than 140 countries and territories — with more added often — filtered to where you actually are. Earthquake alerts wait for official confirmation rather than guessing.
 
 Those warnings reach you through our own service rather than your phone calling each agency directly. So **your phone never contacts a foreign government's servers**, and a busy public feed can't drop your alert because too many people asked at once. Your phone only tells us roughly where you are — a square about 50 km across — and checks whether you're inside each warning area itself, so your exact location never leaves it.
 

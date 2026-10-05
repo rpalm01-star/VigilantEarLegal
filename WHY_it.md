@@ -60,7 +60,7 @@ I microfoni di un telefono distano pochi centimetri, quanto basta per indicarti 
 
 ## Avvisi da chi li emette
 
-Gli avvisi di maltempo grave arrivano da 53 fonti governative ufficiali che coprono 88 paesi e territori, filtrati in base a dove ti trovi davvero. Gli avvisi di terremoto aspettano la conferma ufficiale invece di tirare a indovinare.
+Gli avvisi di maltempo grave arrivano da fonti governative ufficiali in più di 140 paesi e territori — e se ne aggiungono spesso di nuove — filtrati in base a dove ti trovi davvero. Gli avvisi di terremoto aspettano la conferma ufficiale invece di tirare a indovinare.
 
 Quegli avvisi ti arrivano attraverso il nostro servizio, invece che da chiamate dirette del tuo telefono a ogni ente. Così **il tuo telefono non contatta mai i server di un governo straniero**, e un feed pubblico sotto pressione non può perdere il tuo avviso perché troppe persone hanno chiesto nello stesso momento. Il tuo telefono ci dice solo più o meno dove sei — un quadrato di circa 50 km di lato — e controlla da sé se sei dentro ciascuna area di allerta, così la tua posizione esatta non ne esce mai.
 

@@ -37,7 +37,7 @@ Vigilant Ear, iPhone'un iki mikrofonunu kullanarak **bir sesin açısını ve ö
 ### 🚨 Önemli sesleri tanır — ve sizi uyarır
 Cihaz üzerinde çalışan bir sınıflandırıcı yüzlerce gündelik sesi tanır ve kritik kategorileri izler — **sirenler, alarmlar — araba alarmlarına ayrılmış özel bir sınıf dahil — kapı zilleri/kapı vuruşları, bebek ağlaması, yakındaki bir kişi ve şiddetli hava.** Bunlardan biri tetiklendiğinde net bir ekran uyarısı, isteğe bağlı bir **anlık bildirim** ve ayırt edilebilir bir **titreşim** alırsınız — uygulama arka plandayken ya da telefon uyku modundayken bile. Kritik kategoriler varsayılan olarak hazır gelir; böylece bildirimleri etkinleştirmek “her şey kapalı” anlamına gelmez. Tüm uyarı kategorilerini kapatırsanız motor, pil tasarrufu için arka plandayken tamamen uykuya geçer. Bir **Sentinel** katmanı uyarıları bağımsız kanıtlarla — yön, hareket ve kamuya açık akışlar — çapraz denetler; böylece tetiklenen şey tek bir sınıflandırıcının tahmini değil, doğrulanmış bir uyarıdır. Bu iki yönlü işler: bir şarkının içindeki siren benzeri bir an bekletilir, ama müziğinizin arasından tekrar tekrar duyulan gerçek bir siren araya girer ve uyarı verir.
 
-Şiddetli hava uyarıları **88 ülke ve bölgeyi kapsayan 53 resmi devlet kaynağından** gelir ve tüm kullanıcılar için ücretsizdir. Yeni Zelanda'nın sivil savunma acil durum uyarıları da kendi **Acil Durum Uyarıları** anahtarıyla dahildir. Akışlar, bulunduğunuz yeri kapsayanlarla sınırlandırılır. Japonya'da uygulama ulusal meteoroloji kurumunun **ön bültenlerini** de okur — yalnızca tehlike geldiğinde yayımlanan uyarıları değil, bir tayfundan ya da şiddetli yağmurdan günler önce yayımlanan sade dilli duyuruları — ayrıca ani sağanak ve heyelan bültenlerini. Ön duyurular, gerçek bir uyarıya ayrılmış ses ve titreşim olmadan sessizce gösterilir.
+Şiddetli hava uyarıları **140'tan fazla ülke ve bölgedeki resmi devlet kaynaklarından** gelir — bu kaynaklara sık sık yenileri eklenir — ve tüm kullanıcılar için ücretsizdir. Yeni Zelanda'nın sivil savunma acil durum uyarıları da kendi **Acil Durum Uyarıları** anahtarıyla dahildir. Akışlar, bulunduğunuz yeri kapsayanlarla sınırlandırılır. Japonya'da uygulama ulusal meteoroloji kurumunun **ön bültenlerini** de okur — yalnızca tehlike geldiğinde yayımlanan uyarıları değil, bir tayfundan ya da şiddetli yağmurdan günler önce yayımlanan sade dilli duyuruları — ayrıca ani sağanak ve heyelan bültenlerini. Ön duyurular, gerçek bir uyarıya ayrılmış ses ve titreşim olmadan sessizce gösterilir.
 
 ### 🌧️ Haritada hava durumu radarı
 Yağmur ve kar, uygulama açıldığı andan itibaren haritada görünür — Amerika Birleşik Devletleri, Kanada, Japonya, İtalya ve Avrupa'nın büyük bölümünde ulusal radarlardan, dünyanın geri kalanının çoğunda ise uydu tabanlı bir yağış tahmininden. Haritaya dokunduğunuzda son bir saat üç kez oynatılır, böylece bir fırtınanın hangi yöne ilerlediğini görebilirsiniz; alttaki ölçek Hafif'ten Yoğun'a doğru uzanır. Bir oturum boyunca istemiyorsanız kapatmak için hava durumu düğmesine dokunun. Radar da uyarılarla aynı yoldan gelir — kendi sunucumuz üzerinden; böylece telefonunuz hiçbir zaman bir hükümetin sunucularıyla iletişim kurmaz.
@@ -118,7 +118,7 @@ Güvenlik çekirdeği **sonsuza dek ücretsizdir**:
 - **Canlı altyazılar** — Konuşmacı Modu; cihaz üzerinde, donanımın izin verdiği yerde yönlü; dürüst güven işaretleri, ~2 saniyelik kendi kendini düzeltme, Bluetooth işitme cihazlarına isteğe bağlı sesli çıkış ve Yön Tonları ile.
 - **İsim Çağrıldı** — yazdığınız isteğe bağlı isimler (sizinki, çocuklarınızınki, eşinizinki). Bir eşleşme ikinci bir altyazı değil, kerteriz bilgisi içeren bir Watch/telefon uyarısıdır.
 - **Sürekli Nöbet** — odanın kendi durumu; her zaman açık, ayarlanacak hiçbir şey yok: oda alışılmış düzenini korudukça sabit bir camgöbeği lamba, bir şey değiştiğinde kehribar — yeni bir ses, ani bir sessizlik ya da yaklaşan bir şey. Uygulama açıldığında, uyarılar için ne kadar süre dinlemediğini size söyler.
-- **Şiddetli hava uyarıları** — bölgeniz için 88 ülke ve bölgedeki 53 devlet kaynağından resmi uyarılar.
+- **Şiddetli hava uyarıları** — bölgeniz için 140'tan fazla ülke ve bölgedeki devlet kaynaklarından resmi uyarılar; sık sık yeni kaynaklar eklenir.
 - **Hava durumu radarı** — haritada yağmur ve kar; son bir saat yeniden oynatılabilir.
 - **Can simidi** — bulunduğunuz ülkede kimi arayacağınız.
 - **Deprem uyarıları (dünya çapında)** — yakınınızda bir deprem bildirildiğinde bir titreşim hissedin ve sarsıntının hissedildiği alanı haritanızda görün. Resmi deprem akışından gelen bir doğrulamadır — erken uyarı değildir: sarsıntı hissettiyseniz bunun ne olduğunu size söyler. Akış, arka planda da dahil olmak üzere beş dakikada bir kontrol edilir ve cihaz üzerindeki derin gürültü (infrases) algılaması, yer hareket ettiği anda ek bir kontrolü devreye alabilir.
@@ -182,7 +182,7 @@ Hava durumu ve deprem uyarıları sesin tam tersi bir yol izler — sesinize dai
 ```mermaid
 graph LR
     P1["Vigilant Ear<br/>Cihazınızda"] --> W["Wingdings uyarı önbelleği<br/>tek ortak kopya · 5 dakikada bir yenileme"]
-    W --> N["Resmi kamu akışları<br/>53 hava kaynağı · 88 ülke ve bölge<br/>NZ sivil savunma · depremler"]
+    W --> N["Resmi kamu akışları<br/>140+ ülke ve bölgede hava kaynakları<br/>NZ sivil savunma · depremler"]
 ```
 
 ---

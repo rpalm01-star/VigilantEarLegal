@@ -60,7 +60,7 @@ C'est chiffré de bout en bout entre les deux téléphones. Le relais qui l'ache
 
 ## Les alertes de ceux qui les émettent
 
-Les alertes météo graves proviennent de 53 sources gouvernementales officielles couvrant 88 pays et territoires, filtrées selon l'endroit où vous vous trouvez réellement. Les alertes sismiques attendent la confirmation officielle au lieu de deviner.
+Les alertes météo graves proviennent de sources gouvernementales officielles dans plus de 140 pays et territoires — et d'autres s'ajoutent régulièrement —, filtrées selon l'endroit où vous vous trouvez réellement. Les alertes sismiques attendent la confirmation officielle au lieu de deviner.
 
 Ces alertes vous parviennent par notre propre service, plutôt que par des appels directs de votre téléphone à chaque agence. Ainsi, **votre téléphone ne contacte jamais les serveurs d'un gouvernement étranger**, et un flux public très sollicité ne peut pas perdre votre alerte parce que trop de monde l'interrogeait en même temps. Votre téléphone nous indique seulement où vous êtes à peu près — un carré d'environ 50 km de côté — et vérifie lui-même, pour chaque zone d'alerte, si vous êtes dedans ; votre position exacte n'en sort donc jamais.
 

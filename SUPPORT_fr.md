@@ -40,11 +40,26 @@ Assurez-vous d'avoir accordé l'autorisation du **Microphone** dans les paramèt
 
 ### Quelle est la précision des alertes météo ?
 
-Vigilant Ear interroge les flux gouvernementaux officiels CAP (Common Alerting Protocol). Les alertes sont aussi précises que les données fournies par les agences gouvernementales qui les émettent — 53 sources officielles couvrant 88 pays et territoires. La simulation de localisation, les lacunes de couverture ou les retards du réseau peuvent parfois affecter la fréquence de mise à jour. Les alertes européennes sont servies par un petit cache que nous exploitons et qui rafraîchit les données officielles européennes environ toutes les 15 minutes — les alertes restent ainsi fiables pour tous à mesure que notre base d'utilisateurs dépasse les limites de requêtes du flux public.
+Vigilant Ear utilise les données gouvernementales officielles CAP (Common Alerting Protocol) : les alertes sont donc aussi précises que les avertissements publiés par les agences qui les émettent. Les sources officielles couvrent plus de 140 pays et territoires, et d'autres s'ajoutent régulièrement. Chaque alerte parvient à votre téléphone par le propre relais d'alertes de Vigilant Ear, qui consulte les flux officiels à quelques minutes d'intervalle. Le radar météo de la carte utilise les radars nationaux là où ils sont disponibles, et l'estimation des précipitations par satellite de la NOAA presque partout ailleurs dans le monde. La simulation de localisation, les lacunes de couverture ou les retards du réseau peuvent parfois affecter la fréquence de mise à jour.
 
-### L'application fonctionne-t-il en arrière-plan ?
+### L'application fonctionne-t-elle en arrière-plan ?
 
 Oui. Vigilant Ear est conçu pour surveiller les événements acoustiques critiques en arrière-plan lorsque les autorisations nécessaires sont activées et qu'au moins une catégorie d'alerte est allumée.
+
+### Puis-je ressentir les alertes sur une montre ou un bracelet autre que l'Apple Watch ?
+
+Oui. Les alertes de Vigilant Ear sont des notifications iPhone ordinaires : la plupart des montres et bracelets qui affichent les notifications de l'iPhone vibreront donc pour elles — avec leur propre vibration, et non avec les motifs distinctifs de Vigilant Ear, qui nécessitent une Apple Watch. Quelle que soit la marque, allez dans **Réglages → Bluetooth** sur votre iPhone, touchez ⓘ à côté de la montre ou du bracelet, vérifiez que **Share System Notifications** est activé, et gardez l'iPhone à portée Bluetooth (une table de chevet suffit). Les alertes urgentes de Vigilant Ear sont marquées **Time Sensitive** : elles passent donc même lorsque le **Sleep Focus** de l'iPhone est activé, sauf si vous avez désactivé les notifications **Time Sensitive**.
+
+Si vous dormez avec votre montre ou votre bracelet, vérifiez ses propres réglages de sommeil et de Do Not Disturb : ils rendent tout silencieux, Vigilant Ear compris.
+
+- **Garmin** — Dans l'app Garmin Connect, ouvrez les réglages de votre appareil et activez **Smart Notifications** (sous **Notifications & Alerts**). Garmin peut activer Do Not Disturb automatiquement pendant votre sommeil, ce qui empêche la montre de vibrer pour les notifications ; désactivez cette option pour ressentir les alertes la nuit. Le nom et l'emplacement du réglage varient selon le modèle : consultez le manuel de votre montre.
+- **Fitbit** — Dans l'app Fitbit, ouvrez les réglages **Notifications** de votre appareil et activez les notifications d'application pour Vigilant Ear. **Sleep Mode** et **Do Not Disturb** de Fitbit coupent toutes les notifications : laissez-les tous deux désactivés la nuit.
+- **Amazfit** — Dans l'app Zepp, ouvrez votre appareil, puis **Notifications and Reminder → App Alerts → Manage Apps**, et sélectionnez Vigilant Ear. Le mode Do Not Disturb de la montre elle-même bloque les alertes : désactivez-le la nuit.
+- **Xiaomi Smart Band** — Dans l'app Mi Fitness, activez les notifications d'application et l'interrupteur de Vigilant Ear. Le bracelet reste silencieux en Do Not Disturb ou en Sleep Mode : désactivez les deux la nuit ; si **Notify only when worn** est activé, il reste aussi silencieux tant qu'il n'est pas à votre poignet.
+- **Huawei** — Dans l'app HUAWEI Health, ouvrez votre appareil, touchez **Notifications** et activez l'interrupteur de Vigilant Ear. Do Not Disturb, réglé dans la même app, empêche le bracelet de vibrer pendant ses plages horaires : désactivez-le (ou excluez vos heures de sommeil de sa programmation) pour ressentir les alertes la nuit.
+- **Pebble** — Dans l'app Pebble Core, vérifiez que Vigilant Ear est activé dans l'onglet **Notifications**. **Quiet Time** coupe les notifications et la vibration : laissez-le désactivé la nuit.
+
+Les Samsung Galaxy Watch et Google Pixel Watch ne fonctionnent pas avec l'iPhone, et les bagues comme Oura ne peuvent pas vibrer pour les notifications.
 
 ### Que contrôlent les interrupteurs d'alerte ?
 
@@ -68,7 +83,7 @@ Le cœur de la sécurité est **gratuit, pour toujours** :
 
 - Alertes sonores locales (sirènes, alarmes, coups/sonnettes, bébé, personne à proximité) avec notification à l'écran et push en option  
 - Sous-titres en direct **Mode Locuteur (Speaker Mode)** (sur l'appareil ; directionnels là où le matériel le permet)  
-- Flux météo extrêmes pour votre région — **53 sources officielles dans 88 pays et territoires**  
+- Flux météo extrêmes pour votre région — **sources officielles dans plus de 140 pays et territoires**, et d'autres s'ajoutent régulièrement  
 - Alertes d'entraînement du **Terrain de jeu des fonctionnalités** (filigranées pour ne jamais ressembler à une urgence réelle)  
 - Indications de direction du compagnon **Apple Watch** et **Live Activity** (Écran de verrouillage / Dynamic Island / Défilement intelligent de la Watch), là où c'est disponible  
 - **Oscilloscope acoustique** — le visualiseur sonore en direct, gratuit pour tous (les outils de capture pour l'entraînement font partie de Power Pack+)  

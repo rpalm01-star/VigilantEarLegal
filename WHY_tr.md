@@ -60,7 +60,7 @@ Bir telefonun mikrofonları birbirinden birkaç santimetre uzaktadır; bu, size 
 
 ## Uyarılar, doğrudan kaynağından
 
-Şiddetli hava uyarıları, 88 ülke ve bölgeyi kapsayan 53 resmî devlet kaynağından gelir ve gerçekte bulunduğunuz yere göre süzülür. Deprem uyarıları tahmin yürütmek yerine resmî onayı bekler.
+Şiddetli hava uyarıları, 140'tan fazla ülke ve bölgedeki resmî devlet kaynaklarından gelir — bu kaynaklara sık sık yenileri eklenir — ve gerçekte bulunduğunuz yere göre süzülür. Deprem uyarıları tahmin yürütmek yerine resmî onayı bekler.
 
 Bu uyarılar size, telefonunuzun her kuruma tek tek bağlanmasıyla değil, kendi servisimiz üzerinden ulaşır. Bu yüzden **telefonunuz hiçbir zaman yabancı bir devletin sunucularına bağlanmaz** ve yoğun bir kamusal akış, aynı anda çok fazla kişi sordu diye uyarınızı düşüremez. Telefonunuz bize yalnızca kabaca nerede olduğunuzu söyler — kenarı yaklaşık 50 km olan bir kare — ve her uyarı alanının içinde olup olmadığınızı kendisi kontrol eder; böylece tam konumunuz telefonunuzdan hiç çıkmaz.
 
