@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Effective as of version 1.1.10 · October 2026.*
+*Effective as of version 1.1.11 · October 2026.*
 
 ## An acoustic radar for people who can't hear.
 
@@ -133,6 +133,7 @@ The safety core is **free, forever**:
 - **Constellation** — multi-iPhone shared hearing over Ultra-Wideband, with partner messages.
 - **Music ID** — ShazamKit song recognition.
 - **Custom Sound Packs** — add-on classifiers you train for your own sounds.
+- **Remote Link** — private video and text calls with someone who isn't with you, with no audio at any point. Starting one needs Power Pack+; the person you invite joins free.
 
 Free or Power Pack+, **your audio stays on the device for recognition** — the tier only changes which features are unlocked, never where raw audio is sent for analysis.
 
