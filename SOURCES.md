@@ -9,7 +9,7 @@ The official warnings in Vigilant Ear come from these agencies, delivered throug
 3. Andorra: **Servei Meteorològic d'Andorra** — Through MeteoAlarm. Used under MeteoAlarm's terms (CC BY 4.0, with conditions), www.meteoalarm.org.
 4. Angola: **Instituto Nacional de Meteorologia e Geofísica (Angola)**
 5. Argentina: **Servicio Meteorológico Nacional** — CC BY 4.0.
-6. Australia: **Bureau of Meteorology** — Via the WMO Alert Hub. Area extents © Commonwealth of Australia (Bureau of Meteorology).
+6. Australia: **Bureau of Meteorology** — Via the WMO Alert Hub. Area boundaries © Commonwealth of Australia (Bureau of Meteorology).
 7. Bahrain: **Bahrain Meteorological Directorate** — Via the WMO Alert Hub.
 8. Belarus: **Belhydromet (Republican Center for Hydrometeorology)**
 9. Belize: **National Meteorological Service of Belize**
