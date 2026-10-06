@@ -25,7 +25,7 @@ The official warnings in Vigilant Ear come from these agencies, delivered throug
 19. Central African Republic: **Direction Générale de la Météorologie (Central African Republic)**
 20. Chad: **Agence Nationale de la Météorologie (Chad)**
 21. Chile: **Dirección Meteorológica de Chile**
-22. China: **China Meteorological Administration** — Via the WMO Alert Hub. Place data © GeoNames, CC BY 4.0.
+22. China: **China Meteorological Administration** — Via the WMO Alert Hub. County boundaries © OpenStreetMap contributors, ODbL (https://www.openstreetmap.org/copyright). Place data © GeoNames, CC BY 4.0.
 23. Colombia: **Instituto de Hidrología, Meteorología y Estudios Ambientales (Colombia)** — CC BY 4.0.
 24. Comoros: **Agence Nationale de l'Aviation Civile et de la Météorologie (Comoros)** — Via the WMO Alert Hub.
 25. Congo - Brazzaville: **Direction de la Météorologie Nationale (Congo)**
