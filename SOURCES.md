@@ -52,14 +52,14 @@ The official warnings in Vigilant Ear come from these agencies, delivered throug
 43. Guyana: **Hydrometeorological Service of Guyana**
 44. Hong Kong SAR China: **Hong Kong Observatory**
 45. Iceland: **Icelandic Met Office (Veðurstofa Íslands)** — Via the WMO Alert Hub.
-46. India: **National Disaster Management Authority**
+46. India: **National Disaster Management Authority** — District boundaries © OpenStreetMap contributors, ODbL (https://www.openstreetmap.org/copyright).
 47. Indonesia: **Badan Meteorologi, Klimatologi, dan Geofisika** — Via the WMO Alert Hub.
 48. Iran: **Islamic Republic of Iran Meteorological Organization** — Via the WMO Alert Hub.
 49. Iraq: **Iraqi Meteorological Organization and Seismology**
 50. Israel: **Israel Meteorological Service** — Through MeteoAlarm. Used under MeteoAlarm's terms (CC BY 4.0, with conditions), www.meteoalarm.org.
 51. Italy: **Radar-DPC, Dipartimento della Protezione Civile (surface rainfall intensity)** — Licensed under CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/. Edited by Vigilant Ear: standardized to a consistent color palette. The radar tiles Vigilant Ear shows for Italy are shared under the same licence, CC BY-SA 4.0.
 52. Jamaica: **Meteorological Service of Jamaica** — Via the WMO Alert Hub.
-53. Japan: **Japan Meteorological Agency**
+53. Japan: **Japan Meteorological Agency** — Area boundaries: 出典：気象庁ホームページ (https://www.data.jma.go.jp/developer/gis.html) — Source: Japan Meteorological Agency website, 予報区等GISデータ. Used under the Japan Meteorological Agency Website Terms of Use (Government of Japan Standard Terms of Use 2.0, compatible with CC BY 4.0), https://www.jma.go.jp/jma/en/copyright.html. Edited by Vigilant Ear: outlined, never smaller than the area, and the Southern Kurils left to Russia's feed.
 54. Japan: **Japan Meteorological Agency (気象庁) high-resolution precipitation nowcast, observed frames** — 出典：気象庁ホームページ (https://www.jma.go.jp/bosai/nowc/) — Source: Japan Meteorological Agency website. Used under the Japan Meteorological Agency Website Terms of Use (Government of Japan Standard Terms of Use 2.0, compatible with CC BY 4.0), https://www.jma.go.jp/jma/en/copyright.html. Edited by Vigilant Ear: standardized to a consistent color palette.
 55. Jordan: **Jordan Meteorological Department**
 56. Kazakhstan: **Kazhydromet**
