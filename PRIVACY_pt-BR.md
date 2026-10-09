@@ -43,7 +43,7 @@ Quando você usa certos recursos, ou quando o app precisa deles para funcionar, 
     *   *Provedor:* Dados oficiais de serviços governamentais de clima e de avisos em mais de 140 países e territórios, entregues por infraestrutura que operamos: a retransmissão da Wingdings, Inc.
 *   **Alertas de terremoto (pelo nosso próprio serviço de alertas)**
     *   *O que é enviado:* Um pedido de uma lista pública mundial de terremotos, pela mesma retransmissão dos alertas de clima acima, para o seu telefone também não entrar em contato com um servidor do governo por causa deles. O pedido não leva localização nem região. O seu telefone decide sozinho se um tremor informado está perto de você.
-    *   *Provedor:* Fontes públicas oficiais de terremotos, como o USGS, retransmitidas pela Wingdings, Inc.
+    *   *Provedor:* Fontes públicas oficiais de terremotos, retransmitidas pela Wingdings, Inc.
 *   **Radar meteorológico**
     *   *O que é enviado:* Quando o radar está ligado, um pedido da lista de imagens de radar e, em seguida, os blocos de imagem da parte do mapa na tela. Cada pedido de bloco indica um nível de zoom, um quadrado do mapa e a hora daquela imagem. No zoom mais próximo, o quadrado tem cerca de 40 km de lado. Em alguns países, a imagem mais próxima é mais grosseira, então o quadrado é maior. Nada mais é incluído: nenhum identificador, nenhuma conta e nenhum dado de detecção.
     *   *Fonte:* Imagens de radar e de satélite de serviços meteorológicos nacionais (cada um listado com a sua licença em [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), entregues pela nossa retransmissão da Wingdings, para o seu telefone não entrar em contato direto com essas agências.

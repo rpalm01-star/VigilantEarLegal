@@ -43,7 +43,7 @@ Wenn Sie bestimmte Funktionen nutzen oder wenn die App sie zum Funktionieren bra
     *   *Anbieter:* Amtliche Daten von staatlichen Wetter- und Warndiensten in mehr als 140 Ländern und Gebieten, geliefert über eine Infrastruktur, die wir betreiben: das Relay von Wingdings, Inc.
 *   **Erdbebenwarnungen (über unseren eigenen Warndienst)**
     *   *Was gesendet wird:* Eine Anfrage nach einer einzigen weltweiten öffentlichen Erdbebenliste, über dasselbe Relay wie die Wetterwarnungen oben, sodass Ihr Telefon auch dafür keinen Regierungsserver kontaktiert. Die Anfrage enthält keinen Standort und keine Region. Ihr Telefon entscheidet selbst, ob ein gemeldetes Beben in Ihrer Nähe ist.
-    *   *Anbieter:* Amtliche öffentliche Erdbeben-Feeds wie der USGS, weitergeleitet von Wingdings, Inc.
+    *   *Anbieter:* Amtliche öffentliche Erdbeben-Feeds, weitergeleitet von Wingdings, Inc.
 *   **Wetterradar**
     *   *Was gesendet wird:* Wenn das Radar eingeschaltet ist, eine Anfrage nach der Liste der Radarbilder und danach die Bildkacheln für den Teil der Karte auf dem Bildschirm. Jede Kachelanfrage nennt eine Zoomstufe, ein Quadrat der Karte und die Zeit dieses Bildes. Bei der stärksten Vergrößerung ist das Quadrat ungefähr 40 km breit. In manchen Ländern ist das feinste Bild gröber, sodass das Quadrat größer ist. Sonst ist nichts enthalten: keine Kennung, kein Konto und keine Erkennungsdaten.
     *   *Quelle:* Radar- und Satellitenbilder nationaler Wetterdienste (jeder mit seiner Lizenz aufgeführt unter [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), geliefert über unser Wingdings-Relay, sodass Ihr Telefon diese Dienste nicht direkt kontaktiert.

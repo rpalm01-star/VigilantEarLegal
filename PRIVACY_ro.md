@@ -43,7 +43,7 @@ Când folosești anumite funcții, sau când aplicația are nevoie de ele ca să
     *   *Furnizor:* Date oficiale de la serviciile guvernamentale de meteorologie și de avertizare din peste 140 de țări și teritorii, livrate prin infrastructura pe care o operăm: releul Wingdings, Inc.
 *   **Alerte de cutremur (prin propriul nostru serviciu de alerte)**
     *   *Ce se trimite:* O cerere pentru o singură listă publică de cutremure, la nivel mondial, prin același releu ca alertele meteo de mai sus, astfel încât telefonul tău să nu contacteze un server guvernamental nici pentru acestea. Cererea nu poartă nicio locație și nicio regiune. Telefonul tău decide singur dacă un cutremur raportat este aproape de tine.
-    *   *Furnizor:* Fluxuri publice oficiale de cutremure, cum este USGS, retransmise de Wingdings, Inc.
+    *   *Furnizor:* Fluxuri publice oficiale de cutremure, retransmise de Wingdings, Inc.
 *   **Radar meteo**
     *   *Ce se trimite:* Când radarul e pornit, o cerere pentru lista imaginilor radar, apoi dalele de imagine pentru partea de hartă de pe ecran. Fiecare cerere de dală numește un nivel de zoom, un pătrat al hărții și ora acelei imagini. La cel mai apropiat zoom, pătratul măsoară cam 40 km. În unele țări cea mai apropiată imagine e mai grosieră, așa că pătratul e mai mare. Nu e inclus nimic altceva: niciun identificator, niciun cont și niciun fel de date de detecție.
     *   *Sursă:* Imagini radar și satelit de la serviciile naționale de meteorologie (fiecare listată cu licența ei la [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), livrate prin releul nostru Wingdings, astfel încât telefonul tău să nu contacteze agențiile acelea direct.

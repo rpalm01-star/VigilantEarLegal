@@ -43,7 +43,7 @@ Quando usa determinate funzioni, o quando l'app ne ha bisogno per funzionare, **
     *   *Fornitore:* Dati ufficiali dei servizi governativi meteorologici e di allerta in più di 140 paesi e territori, consegnati attraverso un'infrastruttura che gestiamo: il relay di Wingdings, Inc.
 *   **Avvisi di terremoto (tramite il nostro servizio di avvisi)**
     *   *Cosa viene inviato:* Una richiesta di un unico elenco pubblico mondiale dei terremoti, attraverso lo stesso relay degli avvisi meteo sopra, così il suo telefono non contatta un server governativo nemmeno per questi. La richiesta non porta alcuna posizione né alcuna regione. Il suo telefono decide da solo se un terremoto segnalato è vicino a Lei.
-    *   *Fornitore:* Feed pubblici ufficiali sui terremoti, come l'USGS, inoltrati da Wingdings, Inc.
+    *   *Fornitore:* Feed pubblici ufficiali sui terremoti, inoltrati da Wingdings, Inc.
 *   **Radar meteo**
     *   *Cosa viene inviato:* Quando il radar è attivo, una richiesta dell'elenco delle immagini radar, poi le tessere delle immagini per la parte di mappa sullo schermo. Ogni richiesta di tessera indica un livello di zoom, un quadrato della mappa e l'ora di quell'immagine. Allo zoom più ravvicinato il quadrato è largo circa 40 km. In alcuni paesi l'immagine più ravvicinata è più grossolana, quindi il quadrato è più grande. Non è incluso nient'altro: nessun identificativo, nessun account e nessun dato di rilevamento.
     *   *Fonte:* Immagini radar e satellitari dei servizi meteorologici nazionali (ciascuno elencato con la sua licenza su [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), consegnate attraverso il nostro relay Wingdings, così il suo telefono non contatta quelle agenzie direttamente.

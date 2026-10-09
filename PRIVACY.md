@@ -43,7 +43,7 @@ When you use certain features, or when the app needs them to function, **limited
     *   *Provider:* Official data from government weather and warning services in more than 140 countries and territories, delivered through infrastructure we operate: the Wingdings, Inc. relay
 *   **Earthquake alerts (through our own alert service)**
     *   *What is sent:* A request for one worldwide public earthquake list, through the same relay as the weather alerts above, so your phone does not contact a government server for these either. The request carries no location and no region. Your phone decides on its own whether a reported quake is near you.
-    *   *Provider:* Official public earthquake feeds such as the USGS, relayed by Wingdings, Inc.
+    *   *Provider:* Official public earthquake feeds, relayed by Wingdings, Inc.
 *   **Weather radar**
     *   *What is sent:* When the radar is on, a request for the list of radar images, then the image tiles for the part of the map on screen. Each tile request names a zoom level, a square of the map, and the time of that image. At the closest zoom the square is roughly 40 km across. In some countries the closest image is coarser, so the square is larger. Nothing else is included: no identifier, no account, and no detection data.
     *   *Source:* Radar and satellite images from national weather services (each listed with its license at [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), delivered through our Wingdings relay so your phone does not contact those agencies directly.

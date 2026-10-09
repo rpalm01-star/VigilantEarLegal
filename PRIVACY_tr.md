@@ -43,7 +43,7 @@ Belirli özellikleri kullandığınızda veya uygulamanın çalışması için b
     *   *Sağlayıcı:* 140'tan fazla ülke ve bölgedeki devlet meteoroloji ve uyarı hizmetlerinin resmi verisi; işlettiğimiz altyapı üzerinden iletilir: Wingdings, Inc. aktarıcısı
 *   **Deprem uyarıları (kendi uyarı hizmetimiz üzerinden)**
     *   *Ne gönderilir:* Yukarıdaki hava uyarılarıyla aynı aktarıcı üzerinden, dünya çapında tek bir kamu deprem listesi isteği; böylece telefonunuz bunlar için de bir devlet sunucusuna bağlanmaz. İstek konum veya bölge taşımaz. Bildirilen bir depremin size yakın olup olmadığına telefonunuz kendisi karar verir.
-    *   *Sağlayıcı:* USGS gibi resmi kamu deprem akışları; Wingdings, Inc. tarafından iletilir
+    *   *Sağlayıcı:* Resmi kamu deprem akışları; Wingdings, Inc. tarafından iletilir
 *   **Hava radarı**
     *   *Ne gönderilir:* Radar açıkken, radar görüntülerinin listesi için bir istek, ardından ekrandaki harita bölümünün görüntü karoları. Her karo isteği bir yakınlaştırma düzeyini, haritanın bir karesini ve o görüntünün zamanını belirtir. En yakın yakınlaştırmada karenin genişliği kabaca 40 km'dir. Bazı ülkelerde en yakın görüntü daha kabadır, bu yüzden kare daha büyüktür. Başka bir şey eklenmez: tanımlayıcı yok, hesap yok ve algılama verisi yok.
     *   *Kaynak:* Ulusal meteoroloji hizmetlerinin radar ve uydu görüntüleri (her biri lisansıyla birlikte [vigilantear.com/en/sources](https://vigilantear.com/en/sources) adresinde listelenir); telefonunuzun bu kurumlara doğrudan bağlanmaması için Wingdings aktarıcımız üzerinden iletilir.

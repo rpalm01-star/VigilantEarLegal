@@ -43,7 +43,7 @@ Lorsque vous utilisez certaines fonctionnalités, ou lorsque l'application en a 
     *   *Fournisseur :* Données officielles des services gouvernementaux de météo et d'avertissement de plus de 140 pays et territoires, acheminées par une infrastructure que nous exploitons : le relais de Wingdings, Inc.
 *   **Alertes de séisme (par notre propre service d'alerte)**
     *   *Ce qui est envoyé :* Une requête pour une seule liste publique mondiale de séismes, par le même relais que les alertes météo ci-dessus, afin que votre téléphone ne contacte pas non plus un serveur gouvernemental pour celles-ci. La requête ne comporte ni position ni région. Votre téléphone décide de lui-même si un séisme signalé est proche de vous.
-    *   *Fournisseur :* Flux publics officiels de séismes tels que l'USGS, relayés par Wingdings, Inc.
+    *   *Fournisseur :* Flux publics officiels de séismes, relayés par Wingdings, Inc.
 *   **Radar météo**
     *   *Ce qui est envoyé :* Lorsque le radar est activé, une requête pour la liste des images radar, puis les tuiles d'image pour la partie de la carte à l'écran. Chaque requête de tuile indique un niveau de zoom, un carré de la carte, et l'heure de cette image. Au zoom le plus proche, le carré mesure environ 40 km de large. Dans certains pays, l'image la plus proche est plus grossière, de sorte que le carré est plus grand. Rien d'autre n'est inclus : ni identifiant, ni compte, ni donnée de détection.
     *   *Source :* Images radar et satellite des services météorologiques nationaux (chacun indiqué avec sa licence sur [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), acheminées par notre relais Wingdings afin que votre téléphone ne contacte pas ces agences directement.
