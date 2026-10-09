@@ -1,164 +1,170 @@
-# Vigilant Ear Gizlilik Politikası 👂🛰️
+# Vigilant Ear için Gizlilik Politikası 👂🛰️
 
-**Yürürlük tarihi:** 2 Ekim 2026
+**Yürürlük tarihi:** 8 Ekim 2026
 
 ## Giriş
 
-Vigilant Ear (“biz”, “bize” veya “bizim”) gizliliğinizi korumaya kararlıdır. Bu Gizlilik Politikası uygulamanın hangi bilgileri işlediğini, neyin cihazınızda kaldığını ve belirli özellikler için sınırlı verinin ne zaman internet üzerinden gidebileceğini açıklar.
+Vigilant Ear ("biz", "bize" veya "bizim") gizliliğinizi korumaya kararlıdır. Bu Gizlilik Politikası, uygulamanın hangi bilgileri işlediğini, neyin cihazınızda kaldığını ve belirli özellikleri sunmak için sınırlı verinin ne zaman internet üzerinden gönderilebileceğini açıklar.
 
-## Gizliliğe bakış
+## Bir bakışta gizlilik
 
-- **Çekirdek akustik algılama cihazınızda çalışır.** Ses sınıflandırma, yön takibi, canlı altyazılar ve uyarı mantığı telefonunuzun mikrofonu ve duyargalarıyla yerel çalışacak şekilde tasarlanmıştır.
-- **Verilerinizi satmayız** ve reklam veya davranışsal analitik SDK’sı kullanmayız.
-- **Ses kayıtlarını saklamayız veya yüklemeyiz.** Mikrofon sesi algılama ve (açıksa) altyazı için gerçek zamanlı işlenir; ses dosyası olarak kaydedilmez ve bulut analizi için gönderilmez. Transkripsiyon sırasında yaklaşık otuz saniyelik ses telefonun çalışma belleğinde kısa tutulur — bu kısa tampon, altyazıların bir konuşmacının ilk sözlerini kaybetmek yerine yakalamasını sağlar — depolamaya hiç dokunmaz, hiçbir yere iletilmez ve uygulama kapanınca gider. Rewind özelliği yalnızca son altyazı **metnini** geri getirir; yeniden oynatmak için ses tutulmaz.
-- **Bazı özellikler internet kullanır** — haritalar, şiddetli hava akışları, isteğe bağlı müzik tanıma, yol verisi, uygulama mağazası satın alımları, isteğe bağlı çok telefonlu ağ trafiği *sizin* cihazlarınız arasında, uygulama içi yasal sayfaların yüklenmesi ve (yalnızca katılırsanız) Research Array raporları. Aşağıda anlatılır.
-- **Kontrol sizde kalır.** Shazam müzik tanımayı kapatabilir, uyarı kategorilerini kapatabilir, Constellation’ı kapalı bırakabilir, **Research Array**’i kapalı bırakabilirsiniz (varsayılan kapalıdır), sistem ayarlarından izinleri geri alabilir veya arka plan dinlemeyi istediğiniz zaman durdurabilirsiniz.
+- **Çekirdek akustik algılama cihazınızda çalışır.** Ses sınıflandırma, yön takibi, canlı altyazılar ve uyarı mantığı, telefonunuzun mikrofonu ve sensörleri kullanılarak yerelde çalışacak şekilde tasarlanmıştır.
+- **Verilerinizi satmayız** ve uygulamada reklam veya kullanım takibi araçları yoktur.
+- **Ses kayıtlarını saklamayız veya yüklemeyiz.** Mikrofon sesi, algılama için ve altyazıları açtığınızda konuşmayı metne çevirmek için gerçek zamanlı işlenir. Asla bir ses dosyası olarak kaydedilmez ve analiz için hiçbir yere gönderilmez. Bir altyazı yazılırken telefon, çalışma belleğinde yaklaşık otuz saniyeye kadar ses tutar; böylece ilk sözcükler kaybolmaz ve bitmesi bir an süren bir satır yine de eklenebilir. Bu tampon kaydedilmez, iletilmez ve uygulamayı kapattığınızda gider. Rewind yalnızca son altyazı **metnini** geri getirir. Yeniden oynatma için ses tutulmaz.
+- **Bazı özellikler internet kullanır:** haritalar, hava durumu, müzik tanıma, yol verisi, uygulama mağazası satın alımları, bu politika gibi sayfalar, Constellation (yalnızca kendi telefonlarınız arasında kalır) ve bu özellik açıkken Research Array raporları. Her biri aşağıda anlatılır.
+- **Kontrol sizde kalır.** Shazam müzik tanımayı kapatabilirsiniz, uyarı kategorilerini kapatabilirsiniz, Constellation'ı kapalı bırakabilirsiniz, **Research Array**'i kapatabilirsiniz (siz kapatana kadar açıktır), sistem ayarlarından izinleri geri alabilirsiniz veya arka plan dinlemeyi durdurabilirsiniz.
 
 ## Cihazınızda işlenen bilgiler
 
-İzninizle Vigilant Ear şunlara **yerel** erişir:
+İzninizle Vigilant Ear aşağıdakileri **cihazınızda** kullanır:
 
-- **Mikrofon sesi** — Çevresel sesleri (siren, araç, kapı zili, bebek ağlaması, yakındaki insanlar vb.) gerçek zamanlı algılamak, yön tahmin etmek ve (Speaker Mode açıkken) canlı altyazı ve isteğe bağlı cihazda çeviri üretmek için.
-- **Konuşma tanıma (cihazda)** — Altyazılar açıkken cihazınızın konuşma çerçeveleri yakındaki konuşmayı telefonda metne çevirir. Altyazı metni canlı gösterilir; Vigilant Ear onu kalıcı bir transkript geçmişi olarak arşivlemez; hata ayıklama günlükleri altyazı içeriği içermez. İsimleri doğru yazmak için uygulama, bu telefonda zaten bulunan kısa bir sözcük listesini cihazda tanıyan motora verebilir — bağladığınız Constellation telefonlarının görünen adları ve Shazam’ın az önce tanıdığı bir şarkının adı ve sanatçısı. **Kişilerinize dokunmaz** ve bu liste cihazı asla terk etmez.
-- **İsimli sesler (isteğe bağlı)** — Bir konuşmacıya isim verirseniz o isim ve kısa bir ses izi bu telefonun şifreli deposunda kalır ve **onu asla terk etmez**. Seslerin bulut yedeği yoktur.
-- **Konum** — Algılanan sesleri ve hava uyarı alanlarını haritaya yerleştirmek, yön rehberliğini iyileştirmek ve tanıdık bir odanın ne kadar sessiz olduğunu hatırlamak için; böylece müzik algılama her açılışta yeniden öğrenmek zorunda kalmaz. Bu son kullanım tek başına bir enlem kaydeder — boylam yok — yaklaşık 100 metreye yuvarlanır, en fazla sekiz yer. Uygulamanın bu telefondaki kendi ayarlarında kalır ve hiçbir yere gönderilmez.
-- **Cihaz yönelimi ve hareket** — Kerteriz doğruluğunu iyileştirmek için.
-- **Kamera (isteğe bağlı)** — Yalnızca kamera AR “sesi gör” görünümünü açarsanız, işaretleyicilerin canlı kamera önizlemesine tutturulması için. Kamera kareleri cihazda gösterim içindir; Vigilant Ear onları ses tanıma için yüklemez.
-- **Apple Watch (isteğe bağlı)** — Watch eşlikçisi varsa uyarı etiketleri ve yön ipuçları eşleştirilmiş Watch’a iletilebilir; bileğe bakmanız yeter.
-- **Witness Ear ses günlüğü (isteğe bağlı, varsayılan kapalı)** — Witness Ear’ı açtığınızda uygulama, çevrenizde sınıflandırılan seslerin **24 saatlik, cihazda** bir kaydını tutar (zaman, etiket, güven, tepe düzey, ölçüldüğünde yön ve o andaki telefon konumu; artı bağlı Constellation telefonlarının paylaştığı girdiler). Günlük yalnızca bu telefondaki uygulamanın özel sanal alanında durur ve Vigilant Ear tarafından asla yüklenmez. Telefondan yalnızca **sizin** dışa aktarıp paylaşmayı seçtiğiniz bir PDF raporunun içinde çıkar. 24 saatten eski girdiler otomatik silinir; Witness Ear’ı kapatmak günlüğü duraklatır (tutulan girdiler yine yaşlanır) ve uygulama içi çöp kutusu günlüğü hemen siler. Ayrıntılar için Witness Ear kılavuzuna bakın.
+- **Mikrofon sesi.** Çevresel sesleri (sirenler, araçlar, kapı zilleri, bebek ağlaması, yakındaki insanlar ve benzer sesler) gerçek zamanlı algılamak, yönü tahmin etmek ve Speaker Mode açıkken canlı altyazılar ile isteğe bağlı cihaz içi çeviri üretmek için kullanılır.
+- **Konuşma tanıma (cihazda).** Altyazılar açıkken telefonun kendi konuşma araçları yakındaki konuşmayı metne çevirir. Altyazı metni canlı gösterilir. Vigilant Ear kalıcı bir döküm tutmaz. Altyazı metni, bir hata ayıklama günlüğünü dışa aktarabilmenizden veya bize e-postayla gönderebilmenizden önce bu günlükten çıkarılır. Adları doğru yazmak için uygulama, bu telefonda zaten bulunan kısa bir sözcük listesini cihazda çalışan tanıyıcıya verebilir: bağladığınız Constellation telefonlarının görünen adları ve Shazam'ın az önce tanıdığı bir şarkının adı ile sanatçısı. Uygulama Kişilerinizi **okumaz**. Bu liste cihazdan hiç çıkmaz.
+- **Name Called (isteğe bağlı).** Birinin bunları söylediğini uygulamanın size bildirmesi için listelediğiniz adlar: sizinki, çocuklarınızınki veya bir baristanın seslendiği ad. Bu adlar bu telefonda şifreli tutulur, cihaz yedeklerinin dışında bırakılır, yalnızca cihazdaki canlı altyazılarla karşılaştırılır ve hiçbir yere gönderilmez.
+- **Konum.** Algılanan sesleri ve hava uyarısı alanlarını haritaya yerleştirmek, yön rehberliğini iyileştirmek ve tanıdık bir yerin ne kadar sessiz olduğunu hatırlamak için kullanılır; böylece müzik algılama, uygulamayı her açtığınızda bunu yeniden öğrenmek zorunda kalmaz. Bu son kullanım, boylam olmadan tek başına bir enlem kaydeder; yaklaşık 100 metreye yuvarlanır, en fazla sekiz yer içindir. Bu telefondaki uygulamanın kendi ayarlarında kalır ve hiçbir yere gönderilmez.
+- **Cihaz yönelimi ve hareketi.** Yönü iyileştirmek için kullanılır.
+- **Kamera (isteğe bağlı).** Yalnızca canlı önizlemede ses işaretlerini gösteren kamera görünümünü açarsanız kullanılır. Bu kareler cihazda kalır. Vigilant Ear bunları ses tanıma için yüklemez.
+- **Apple Watch (isteğe bağlı).** Bir Watch eşlikçisi varsa, uyarı etiketleri ve yön ipuçları eşleştirilmiş Watch'a gönderilebilir; böylece bileğinize bakabilirsiniz.
+- **Witness Ear ses günlüğü (isteğe bağlı, varsayılan olarak kapalıdır).** Witness Ear'ı açtığınızda uygulama, cihazda kayan **24 saatlik** bir günlük tutar. Her kayıt zamanı, sesin ne olduğunu, uygulamanın ne kadar emin olduğunu, tepe düzeyini, ölçüldüğünde yönü ve o andaki telefon konumunu kaydeder. Bir kayıt ayrıca telefonun şarj olup olmadığını, hareketsiz durup durmadığını veya ses çalıp çalmadığını, konum saptamasının ne kadar doğru olduğunu ve bağlı bir Constellation telefonunun paylaştığı bir ses için o telefonun adını ve modelini de belirtebilir. Günlük, uygulamanın özel deposunda kalır ve Vigilant Ear tarafından asla yüklenmez. Telefondan yalnızca **sizin** dışa aktarıp paylaşmayı seçtiğiniz bir PDF raporunun içinde çıkar. 24 saatten eski kayıtlar otomatik olarak silinir. Witness Ear'ı kapatmak günlük tutmayı duraklatır; tutulan kayıtlar yine zamanı gelince silinir. Uygulama içindeki çöp kutusu denetimi günlüğü hemen siler. Ayrıntılar için Witness Ear kılavuzuna bakın.
 
-Bu cihazda işleme uygulamanın kalbidir. Rakip uygulamalar çoğu zaman analizi ve ticarileştirmeyi buluta ses akıtarak yapar. Vigilant Ear farklı kurulur: akustik farkındalık hattınız telefonun kendisinde çalışacak şekilde tasarlanmıştır.
+Dinleme, yön ve altyazılar, telefonu tutan kişi için telefonun kendisinde çalışmak üzere tasarlanmıştır.
 
-## Ağ ve üçüncü taraf hizmetleri
+## Ağ ve üçüncü taraf hizmetler
 
-Belirli özellikleri kullandığınızda — veya uygulamanın çalışması için gerektiğinde — **sınırlı veri cihazınızı terk edebilir** ve kendi gizlilik politikaları altındaki üçüncü taraf hizmetlerince işlenebilir:
+Belirli özellikleri kullandığınızda veya uygulamanın çalışması için bunlara gerek duyduğunda **sınırlı veri cihazınızdan çıkabilir** ve kendi gizlilik politikaları kapsamında üçüncü taraf hizmetlerce işlenebilir:
 
 *   **Harita gösterimi**
-    *   *Ne gönderilir:* Harita kiremit istekleri; haritayı çizmek için gereken görünüm ve yaklaşık konum
+    *   *Ne gönderilir:* Harita karosu istekleri; ekrandaki harita bölümü ve onu çizmek için gereken yaklaşık konum dahil
     *   *Sağlayıcı:* iPhone ve iPad'de Apple Maps / MapKit; Android'de Google Maps
 *   **Şiddetli hava uyarıları (kendi uyarı hizmetimiz üzerinden)**
-    *   *Neden var:* Resmi uyarılar dünyadaki ulusal hava kurumlarından gelir. Eskiden her telefon o kurumlara doğrudan bağlanırdı — her biri cihazınızın ağ adresini ve ne sıklıkla baktığınızı görebilirdi — ve istek sınırlı ortak kamu akışları kullanıcı tabanımız büyüdükçe uyarıları düşürmeye başladı. Sunucumuz resmi veriyi herkes için bir kez çeker ve yaklaşık **15 dakika** tutar. Aynı resmi uyarılar, daha güvenilir — ve **telefonunuz asla yabancı bir hükümetin sunucularına bağlanmaz.** Yalnızca v1.1.0 ve üzeri.
-    *   *Ne gönderilir:* Hizmetimize bir istek yalnızca ülke/bölge kodunu, uygulama dilinizi ve — en fazla — telefonunuzun göndermeden önce kabaca **50 km (0,5°)** yuvarladığı, yanıtı yakındaki uyarılara budamak için kullanılan bir konum hücresini taşır. Kesin “bu uyarı alanının içinde miyim?” testi **telefonunuzda** olur ve onu asla terk etmez. Ad, hesap veya cihaz kimliği eklenmez. Her HTTPS hizmetinde olduğu gibi işletmek için standart kısa ömürlü barındırma günlükleri vardır; izleme özelliği değildir ve satmayız.
-    *   *Sağlayıcı:* 140’tan fazla ülke ve bölgedeki devlet meteoroloji ve uyarı kurumlarının ve Yeni Zelanda sivil savunma uyarı servisinin resmi verisi — telefonunuza işlettiğimiz altyapı üzerinden.
+    *   *Neden var:* Resmi uyarılar ulusal meteoroloji kurumlarından gelir. Eskiden her telefon bu kurumlara doğrudan bağlanırdı; bu yüzden bir kurum telefonun ağ adresini ve ne sıklıkla baktığını görebilirdi. Bu kamu akışları yanıtlayacakları istek sayısını sınırlar ve uygulamayı daha fazla kişi kullandıkça uyarıları iletmemeye başladılar. Aktarıcımız artık resmi uyarıları yaklaşık her **5 dakikada** bir toplar ve telefonunuz istediğinde önbellekteki kopyayı gönderir. Bunlar aynı resmi uyarılardır. **Telefonunuz bunlar için bir devlet sunucusuna bağlanmaz.**
+    *   *Ne gönderilir:* İstek, uygulama dilinizi, yanıt için bir sürüm numarasını, 150 km'lik bir yarıçapı ve telefonun önceden yaklaşık **50 km'ye (yarım derece)** yuvarladığı bir konumu taşır. Bu kaba alan yalnızca yanıtı size yakın uyarılarla sınırlamak için kullanılır. Kesin "bu uyarının içinde miyim?" sınaması **telefonunuzda** yapılır. İstekte ad, hesap veya cihaz tanımlayıcısı yoktur.
+    *   *Neyi saklarız:* Hizmetimiz bu isteklerin 30 günlük bir kaydını tutar: zaman, hangi akışın yanıt verdiği ve isteğin hangi ülke veya yer hakkında olduğu. Saklanan kayıt ağ adresini, cihaz tanımlayıcısını veya konum hücresinin kendisini tutmaz. Kayıt, hizmeti işletebilmemiz için oradadır. Telefonunuz bir uyarı gösterdiğinde, her akış ve uyarı düzeyi için kaç tane gösterdiğini de bildirir (örneğin "Japonya'nın meteoroloji hizmetinden iki turuncu uyarı"); böylece bir akışın herhangi birine ulaşıp ulaşmadığını anlayabiliriz. Bu sayı uyarı tanımlayıcısı, konum veya cihaz tanımlayıcısı taşımaz. Telefonunuz daha önce saydığı uyarıların listesini tutar. Her şifreli web hizmetinde olduğu gibi olağan, kısa ömürlü barındırma günlükleri de vardır. Bu kayıtları sizin bir profilinizi oluşturmak için kullanmayız ve satmayız.
+    *   *Sağlayıcı:* 140'tan fazla ülke ve bölgedeki devlet meteoroloji ve uyarı hizmetlerinin resmi verisi; işlettiğimiz altyapı üzerinden iletilir: Wingdings, Inc. aktarıcısı
 *   **Deprem uyarıları (kendi uyarı hizmetimiz üzerinden)**
-    *   *Ne gönderilir:* Yukarıdaki hava uyarılarıyla aynı hizmet üzerinden çekilen tek bir dünya çapında kamu deprem özet akışı istekleri; böylece telefonunuz bunlar için de yabancı bir hükümetin sunucularına bağlanmaz — istek hiç konum veya bölge bilgisi taşımaz; cihaz konumu yalnızca bildirilen bir depremin size yakın olup olmadığına cihazda karar vermek için kullanılır
-    *   *Sağlayıcı:* Resmi kamu deprem akışı, Wingdings tarafından iletilir
-*   **Hava durumu radarı**
-    *   *Ne gönderilir:* Radar açıkken, radar görüntüleri listesi için bir istek, ardından ekrandaki harita bölümünün görüntü karoları. Her karo isteği bir yakınlaştırma düzeyini ve haritada bir kareyi — en yakın yakınlaştırmada kenarı yaklaşık 40 km olan bir kare — ve radar görüntüsünün zamanını belirtir. Başka hiçbir şey: tanımlayıcı yok, hesap yok, algılama verisi yok.
-    *   *Kaynak:* Ulusal meteoroloji servislerinin radar ve uydu görüntüleri (her biri lisansıyla birlikte [vigilantear.com/en/sources](https://vigilantear.com/en/sources) adresinde listelenir) işlettiğimiz altyapı üzerinden telefonunuza ulaştırılır; böylece istekleriniz hiçbir zaman devlet sunucularıyla bağlantı kurmaz.
-    *   *Sağlayıcı:* Wingdings
+    *   *Ne gönderilir:* Yukarıdaki hava uyarılarıyla aynı aktarıcı üzerinden, dünya çapında tek bir kamu deprem listesi isteği; böylece telefonunuz bunlar için de bir devlet sunucusuna bağlanmaz. İstek konum veya bölge taşımaz. Bildirilen bir depremin size yakın olup olmadığına telefonunuz kendisi karar verir.
+    *   *Sağlayıcı:* USGS gibi resmi kamu deprem akışları; Wingdings, Inc. tarafından iletilir
+*   **Hava radarı**
+    *   *Ne gönderilir:* Radar açıkken, radar görüntülerinin listesi için bir istek, ardından ekrandaki harita bölümünün görüntü karoları. Her karo isteği bir yakınlaştırma düzeyini, haritanın bir karesini ve o görüntünün zamanını belirtir. En yakın yakınlaştırmada karenin genişliği kabaca 40 km'dir. Bazı ülkelerde en yakın görüntü daha kabadır, bu yüzden kare daha büyüktür. Başka bir şey eklenmez: tanımlayıcı yok, hesap yok ve algılama verisi yok.
+    *   *Kaynak:* Ulusal meteoroloji hizmetlerinin radar ve uydu görüntüleri (her biri lisansıyla birlikte [vigilantear.com/en/sources](https://vigilantear.com/en/sources) adresinde listelenir); telefonunuzun bu kurumlara doğrudan bağlanmaması için Wingdings aktarıcımız üzerinden iletilir.
+    *   *Sağlayıcı:* Wingdings, Inc.
 *   **Yardım listesi (haritadaki can simidi)**
-    *   *Ne gönderilir:* Açtığınızda: iki harfli bir ülke kodu (uygulama konumunuzu biliyorsa konumunuzdan, bilmiyorsa telefonunuzun bölge ayarından) ve uygulama diliniz; böylece liste doğru acil durum numarasını ve kuruluşları gösterir.
-    *   *Sağlayıcı:* Wingdings
-*   **Altyazı Desteği indirmesi (en az 8 GB belleğe sahip iPhone'lar)**
-    *   *Ne gönderilir:* Konuşma tanıma modellerinin tek seferlik indirilmesi (yaklaşık 1 GB) için standart web istekleri ve bu dosyaların bir listesi. Sizinle, konumunuzla veya sesinizle ilgili hiçbir şey gönderilmez; indirildikten sonra modeller, altyazının geri kalanı gibi cihazda çalışır.
-    *   *Sağlayıcı:* Wingdings, Cloudflare üzerinden
+    *   *Ne gönderilir:* Açtığınızda, iki harfli bir ülke kodu (uygulama konumunuzu biliyorsa konumunuzdan, yoksa telefonunuzun bölge ayarından) ve uygulama diliniz; böylece liste ilgili acil durum numarasını ve kuruluşları gösterebilir.
+    *   *Sağlayıcı:* Wingdings, Inc.
+*   **Altyazı Desteği indirmesi (en az 8 GB belleği olan iPhone'lar)**
+    *   *Ne gönderilir:* Konuşma tanıma modellerinin bir kerelik indirilmesi (yaklaşık 1 GB) ve bu dosyaların listesi için olağan web istekleri. Size, konumunuza veya sesinize dair hiçbir şey eklenmez. İndirildikten sonra modeller, altyazının geri kalanı gibi cihazda çalışır.
+    *   *Sağlayıcı:* Wingdings, Inc., Cloudflare üzerinden
 *   **Müzik tanıma (isteğe bağlı, Power Pack+)**
-    *   *Ne gönderilir:* Müzik algılandığında ve Shazam açıkken kısa ses parmak izleri — asla ham ses değil (ayarlarda kapatılabilir)
+    *   *Ne gönderilir:* Müzik algılandığında ve Shazam açıkken kısa bir ses parmak izi; kaydın kendisi asla gönderilmez. Bunu ayarlardan kapatabilirsiniz.
     *   *Sağlayıcı:* Apple Shazam / ShazamKit
 *   **Yol bağlamı**
-    *   *Ne gönderilir:* **Tam enlem ve boylamınız**, sizden birkaç yüz metre içinde hangi yolların bulunduğunu soran bir sorgunun içinde; böylece algılanan araçlar bir tarlanın ortasına değil, gerçekten bulundukları yola yerleştirilebilir. Bu, yuvarlanmış bir hücre değil kesin bir konumdur — yukarıdaki, kasıtlı olarak kaba tutulan hava durumu isteğinin aksine. Hiçbir ad, hesap veya cihaz tanımlayıcısı eklenmez ve telefonunuzun duyduklarından hiçbir şey dahil edilmez.
-    *   *Sağlayıcı:* Genel Overpass API'si aracılığıyla OpenStreetMap katkıcıları
-*   **Yol rotası**
-    *   *Ne gönderilir:* **Tam enlem ve boylamınız**, izlenen bir sesin konumuyla birlikte; böylece ikisi arasında haritada bir yol rotası çizilebilir. Yine kesin bir konum, tanımlayıcı olmaksızın ve algılamanın kendisine dair hiçbir şey olmaksızın.
-    *   *Sağlayıcı:* Genel OSRM rota servisi (project-osrm.org)
-*   **Satın alımlar ve haklar**
-    *   *Ne gönderilir:* İsteğe bağlı tek seferlik Power Pack+ kilit açma (abonelik değil) için satın alma jetonları ve hak / deneme durumu
+    *   *Ne gönderilir:* Telefonun yaklaşık **110 metreye** yuvarladığı bir konum, o noktanın **500 metre** içindeki yollar için yapılan bir isteğin içinde; böylece algılanan bir araç gerçekten bulunduğu yola yerleştirilebilir. İstekte ad, hesap veya cihaz tanımlayıcısı yoktur ve telefonun duyduğuna dair hiçbir şey yoktur.
+    *   *Sağlayıcı:* OpenStreetMap katkıda bulunanları, genel Overpass API aracılığıyla
+*   **Yol tarifi**
+    *   *Ne gönderilir:* Konumunuz ve izlenen bir sesin konumu; böylece aralarındaki bir sürüş rotası haritada çizilebilir. Bu konumlar, telefonun sahip olduğu kesinlikte gönderilir; bu, yukarıdaki yol bağlamı isteğinden daha hassastır. Ad veya hesap eklenmez ve algılamanın kendisine dair hiçbir şey eklenmez.
+    *   *Sağlayıcı:* iPhone ve iPad'de Apple Maps / MapKit
+*   **Satın almalar ve yetkiler**
+    *   *Ne gönderilir:* İsteğe bağlı, bir kerelik Power Pack+ kilidinin açılması için satın alma belirteçleri ve yetki veya deneme durumu (abonelik değildir)
     *   *Sağlayıcı:* iPhone ve iPad'de Apple App Store; Android'de Google Play Billing
 *   **Constellation ağı (isteğe bağlı, Power Pack+)**
-    *   *Ne gönderilir:* Çok telefonlu Constellation’ı açtığınızda katılan cihazlar ortak bir resim için gereken akustik üstveriyi değiş tokuş eder — örneğin göreli duruş / varsa Ultra-Wideband mesafe, kerterizler, ses etiketleri ve geçici altyazı metni. Trafik **yalnızca Vigilant Ear çalıştırdığınız ve Constellation için bağladığınız telefonlar arasında** eşler arasıdır. Uygulaması olmayan telefonlar bu ağa katılamaz veya o üstveriyi alamaz. Wingdings bu ses hattı için bir bulut ağ rölesi işletmez.
-    *   *Sağlayıcı:* Vigilant Ear cihazlarınız arasında Apple çerçeveleri (ör. Network / Nearby Interaction) **Constellation bir iPhone ve iPad özelliğidir; Android uygulaması bunu uygulamaz**, dolayısıyla bir Android telefon bu ağa katılmaz ve bu meta verileri paylaşmaz.
-*   **Remote Link (isteğe bağlı — bir bağlantı başlatmak Power Pack+ ister; katılmak ücretsizdir)**
-    *   *Neden var:* Sağır veya az duyan biri telefon araması kullanamaz. Remote Link onun yerine geçen şeydir — altyazı verisi olan özel, yalnızca videolu bir arama: iki kişi birbirini görür, birbirinin altyazısını ve yazdığı metni okur ve video üzerinden işaretleşebilir.
-    *   *Ne gönderilir:* **Hiçbir noktada ses yok** — bir Remote Link oturumu hiç ses kanalı taşımaz. İki telefon bizimle değil birbirleriyle konuşur: canlı video, canlı altyazılarınız metin olarak ve yazdığınız her şey ağların izin verdiği yerde **doğrudan iki telefon arasında** gider, uçtan uca şifreli; arada hiçbir şey aramayı izleyemez veya okuyamaz. Bir bağlantı kurmak için hizmetimiz davet kodunu, iki telefonun birbirini bulması için gereken bağlantı bilgileriyle birlikte tutar. O kutu **video ve metin tutmaz** ve bir saat içinde sona erer.
-    *   *Altyazılar:* Telefonunuz dinlerken ürettiği altyazılar bağlı telefona duyulduğu dilde metin olarak gider; o telefon onları kendi okuyucusunun diline, cihazda çevirir. Bu, videoyla aynı şifreli bağlantıda gider — sunucularımız üzerinden asla. **Duraklat** video ve altyazı göndermeyi birlikte durdurur; dinlemeyi kestiğinizde altyazılar tamamen durur.
-    *   *Doğrudan bağlantı imkânsızsa:* iki telefon birbirine doğrudan ulaşamazsa — farklı ağlar, katı bir yönlendirici — şifreli video, altyazı ve metin **çözemeyen** bir röle tarafından iletilir. Röle bir bağlantı olduğunu, ilgili ağ adreslerini ve ne kadar veri geçtiğini görür — her rölenin görmesi gerektiği gibi — ve başka bir şey görmez. Uygulama bir bağlantının **Direct** mi **Relayed** mi olduğunu açık gösterir. Röleli bir bağlantı bir saat sonra kendi kendine kapanır.
-    *   *Hiçbir şey kaydedilmez:* Remote Link’ten video, ses veya metin ne iki telefonda diske yazılır ne herhangi bir sunucuda saklanır.
-    *   *Sağlayıcı:* Wingdings (davet kutusu), Cloudflare (röle — yalnızca doğrudan bağlantı imkânsızsa)
+    *   *Ne gönderilir:* Constellation'ı açtığınızda, bağladığınız telefonlar tek bir ortak görüntü için gerekenleri birbirleriyle paylaşır. Buna telefonların birbirine göre nasıl yöneldiği, telefonların desteklediği yerde Ultra-Wideband uzaklığı, kerterizler, ses etiketleri, her sesin haritada nereye yerleştirildiği, canlı altyazı metni, her telefonda ayarlanan görünen ad ve aynı kişinin bağlı her telefonda aynı numarayı ve rengi koruması için her sesin bir imzası dahildir. Bu ses imzaları yalnızca telefonların çalışma belleğinde tutulur. Kaydedilmezler ve bağladığınız telefonlar dışında hiçbir yere gönderilmezler.
+    *   *Kim katılabilir:* Yalnızca Constellation için bağladığınız, Vigilant Ear çalıştıran telefonlar. Uygulaması olmayan bir telefon katılamaz veya bu bilgiyi alamaz. Wingdings bunun için bir bulut aktarıcısı işletmez.
+    *   *Nasıl korunur:* Her bağlantı, yalnızca iki telefonun belleğinde var olan yeni bir şifreleme anahtarı üzerinde anlaşır (X25519). Her ileti bu anahtarla şifrelenir (ChaCha20-Poly1305). Bağlantı bittiğinde anahtar atılır.
+    *   *Sağlayıcı:* Apple'ın Network ve Nearby Interaction çerçeveleri, Vigilant Ear cihazlarınız arasında. **Constellation bir iPhone ve iPad özelliğidir. Android uygulaması bunu içermez.**
+*   **Remote Link (isteğe bağlı. Bir bağlantı başlatmak Power Pack+ gerektirir; katılmak ücretsizdir)**
+    *   *Neden var:* Sağır veya az duyan bir kişi sesli arama kullanamaz. Remote Link, altyazılı özel bir görüntülü konuşmadır. İki kişi birbirini görür, birbirinin altyazılarını ve yazdığı metni okur ve videoda işaretleşebilir.
+    *   *Ne gönderilir:* **Hiçbir noktada ses yoktur.** Bir Remote Link oturumunun ses kanalı yoktur. Ağ izin verdiğinde canlı video, altyazı metni ve yazdığınız her şey **iki telefon arasında doğrudan** gider ve uçtan uca şifrelenir; böylece aradaki hiçbir şey aramayı izleyemez veya okuyamaz. Bağlantıyı kurmak için hizmetimiz, davet kodunu ve telefonların birbirini bulmak için ihtiyaç duyduğu bağlantı ayrıntılarını tutar. Bu posta kutusu **video ve metin tutmaz**. Yaklaşık beş dakika sonra sona erer. Telefonlar bağlandıktan sonra arama artık ona bağlı değildir. Kötüye kullanımı sınırlamak için hizmet, bir kod oluşturan telefonun ağ adresini en fazla bir saat tutar ve kaç bağlantının başlatıldığını ve kaçına katıldığını sayar. Bu sayı adres, kod veya cihaz tanımlayıcısı taşımaz.
+    *   *Altyazılar:* Her telefon duyduğu konuşmayı altyazıya çevirir ve bu metni, duyulduğu dilde diğer telefona gönderir. Alan telefon metni cihazda, okuyanın diline çevirir. Bu, videoyla aynı şifreli bağlantıyı kullanır ve sunucularımızdan geçmez. **Duraklat**, video ve altyazı göndermeyi birlikte durdurur. Dinlemeyi durdurduğunuzda altyazılar da durur.
+    *   *Telefonlar doğrudan bağlanamazsa:* Birbirlerinden uzak olduklarında, farklı ağlardayken veya doğrudan bağlantıya izin vermeyen bir yönlendiricinin arkasındayken şifreli video, altyazılar ve metin bunları **okuyamayan** bir aktarıcı tarafından iletilir. Aktarıcı, her aktarıcının görmesi gerektiği gibi, bir bağlantının var olduğunu, ilgili ağ adreslerini ve ne kadar veri geçtiğini görebilir; daha fazlasını değil. Uygulama bir bağlantının **Direct** mi yoksa **Relayed** mi olduğunu gösterir. Relayed bir bağlantı bir saat sonra kendiliğinden kapanır. Direct bir bağlantının bu sınırı yoktur.
+    *   *Hiçbir şey kaydedilmez:* Bir Remote Link'ten gelen video, ses veya metin iki telefondan birinin deposuna yazılmaz ve hiçbir sunucuda saklanmaz.
+    *   *Sağlayıcı:* Wingdings, Inc. (davet posta kutusu) ve Cloudflare (yalnızca doğrudan bağlantı mümkün olmadığında kullanılan aktarıcı)
 *   **Uygulama içi yasal belgeler**
-    *   *Ne gönderilir:* Uygulamada Gizlilik Politikası, Şartlar, Destek veya ürün README sayfalarını açtığınızda standart web istekleri
-    *   *Sağlayıcı:* GitHub (belge barındırma)
-*   **Research Array canlı harita (yalnızca görüntüleme)**
-    *   *Ne gönderilir:* Genel dizi panosunu tarayıcıda açmak için **Harita**’ya dokunduğunuzda standart web istekleri — herhangi bir siteyi ziyaret etmek gibi. Görüntüleme günlüğünüzden veya algılamalarınızdan hiçbir şey göndermez.
-    *   *Sağlayıcı:* Wingdings araştırma hizmeti (web uygulama sunucusu)
-*   **Research Array (isteğe bağlı — varsayılan kapalı)**
-    *   *Ne gönderilir:* Yalnızca özelliği açarsanız: nitelikli bir olay kaydedildiğinde küçük, yalnızca üstveri algılama raporları (zaman, yaklaşık konum, temel sinyal özellikleri, uygulama sürümü). Aşağıda **Research Array**.
-    *   *Sağlayıcı:* İşlettiğimiz altyapı (web ve Postgres gibi uygulama ve veritabanı sağlayıcıları). Ayrıntılar ve sınırlar Research Array bölümündedir.
+    *   *Ne gönderilir:* Uygulamada Gizlilik Politikası, Şartlar, Destek veya ürün README sayfalarını açtığınızda olağan web istekleri
+    *   *Sağlayıcı:* Wingdings, Inc.
+*   **Research Array canlı haritası (yalnızca görüntüleme)**
+    *   *Ne gönderilir:* Herkese açık dizi panosunu tarayıcınızda açmak için **Harita**'ya dokunduğunuzda olağan web istekleri; herhangi bir web sitesini ziyaret etmekle aynıdır. Görüntülemek günlüğünüzden veya algılamalarınızdan hiçbir şey göndermez.
+    *   *Sağlayıcı:* Wingdings, Inc.
+*   **Research Array (siz kapatana kadar açık)**
+    *   *Ne gönderilir:* Telefon nitelikli bir olay kaydettiğinde küçük, yalnızca üst veri içeren bir rapor: zaman, yaklaşık bir konum, sinyal hakkında temel bilgiler ve uygulama sürümü. Aşağıdaki **Research Array** bölümüne bakın.
+    *   *Sağlayıcı:* Wingdings, Inc.
 
-Bu hizmetleri harita, hava, müzik etiketi, satın alma, çok cihaz ve (katılırsanız) araştırma dizisi işlevi için seçeriz. **Wingdings bu sağlayıcılardan mikrofon sesinizi, sürekli konum geçmişinizi veya iletişim bilgilerinizi almaz.**
+Bu hizmetleri haritalar, hava durumu, müzik adları, satın almalar, bağlı telefonlar ve bu özellik açıkken Research Array raporları için kullanırız. **Wingdings bu sağlayıcılardan mikrofon sesinizi, sürekli bir konum geçmişinizi veya kişilerinizi almaz.**
 
-## Wingdings ne toplar
+## Neyi toplarız (ve neyi toplamayız)
 
-### Uzaktan telemetri veya tanı yok
+### Uzaktan çökme raporu veya kullanım takibi yok
 
-Vigilant Ear, çekirdek dinleme ve altyazı özelliklerinin cihazınızda çalışması için tasarlanmıştır. Uzaktan çökme analitiği, reklam telemetrisi veya genel kullanım analitiği SDK’sı **toplamayız**.
+Çekirdek dinleme ve altyazılar cihazınızda çalışır. Uzaktan çökme raporları, reklam verisi veya genel kullanım istatistikleri **toplamayız**.
 
-İsteğe bağlı **yerel** hata ayıklama günlükleri sorun giderme için cihazda yazılabilir; uygulama bunları bir telemetri hattı olarak yüklemez ve dışa aktarılan hata ayıklama içeriğine altyazı metni dahil edilmez.
+Uygulama, sorun giderme için cihazda **yerel** hata ayıklama günlükleri tutabilir. Uygulama bunları yüklemez. Altyazı metni, bir günlük dışa aktarılabilmeden önce günlükten çıkarılır. Bir günlüğü bize e-postayla göndermeyi seçebilirsiniz.
 
-**İstisna — Research Array ve Avrupa hava önbelleği:** Research Array’e katılırsanız (aşağıya bakın) Wingdings katkıda bulunmayı seçtiğiniz sınırlı olay raporlarını alabilir. Ayrı olarak, Avrupa hava uyarıları açıkken telefonunuz onları işlettiğimiz hava önbelleğinden okur (yukarıda); bu istekler kaba ~50 km’lik bir konum hücresi taşır, kişisel veya cihaz kimliği taşımaz. İkisi de reklam analitiği değildir; belirli bir özelliğin çalışması içindir — sizin bir profilinizi kurmak için değil.
+**Research Array ve kendi hizmetlerimiz.** Research Array açıkken Wingdings, aşağıda anlatılan sınırlı olay raporlarını alır. Ayrıca bazı özellikler işlettiğimiz sunucularla konuşur: hava ve deprem uyarıları, hava radarı, yardım listesi, Altyazı Desteği indirmesi ve bir Remote Link kurmak. Bu istekler hesap veya kişisel tanımlayıcı taşımaz. Hava isteği en fazla yaklaşık 50 km'ye yuvarlanmış bir konum içerir. Bunların hiçbiri reklam değildir. Her istek, tek bir özelliğin çalışması için vardır.
 
-## Research Array (isteğe bağlı, varsayılan kapalı)
+## Research Array (siz kapatana kadar açık)
 
-Vigilant Ear isteğe bağlı olarak depremler ve diğer düşük frekans / infrasound ile ilgili olayların ortak bir resmini kurmaya yardımcı olan bir araştırma dizisine **yalnızca üstveri** algılama raporları katabilir. **Varsayılan kapalıdır ve yalnızca siz açarsanız çalışır** — uygulamanın tercihlerinde **Research Array** anahtarı (veya dilinizdeki karşılığı) nerede görünürse istediğiniz zaman açıp kapatabilirsiniz. Dizinin genel **Harita** sayfasını görüntülemek katkıdan ayrıdır ve günlüğünüzden hiçbir şey paylaşmaz.
+Vigilant Ear, depremlerin ve işitme aralığının altındaki gürlemeler dahil diğer çok düşük seslerin ortak bir resmini oluşturmaya yardımcı olmak için bir araştırma dizisine **yalnızca üst veri** raporları katabilir.
 
-Açıkken — ve yalnızca cihazınız **nitelikli** bir olay kaydettiğinde (örneğin yeterince güçlü yerel olmayan infrasound veya sismik aday, veya o yol açıksa belirli depremle ilgili denetim sinyalleri) — uygulama şunları içeren küçük bir rapor gönderebilir:
+**Anahtar, siz kapatana kadar açıktır.** Bunu içeren bir sürümü ilk kez kullandığınızda, anahtarı daha önce kendiniz ayarlamadıysanız uygulama onu açar ve haritada şunu sorar: "Deprem araştırma hizmetimize anonim olarak katılmak ister misiniz?" Bu soru görünene kadar hiçbir şey gönderilmez. Soru göründükten sonra, anahtar açık kaldığı sürece, hâlâ karar verirken de raporlar gönderilebilir. Katkıya devam etmek için **Ben varım!** düğmesine dokunun. **Hayır** birkaç saniye bekler ve sonra anahtarı kapatır. Bu bekleme sırasında iptal etmek için ona yeniden dokunun. İstediğiniz zaman Preferences içinde de kapatabilirsiniz. Herkese açık **Harita** sayfasını açmak katkıda bulunmaktan ayrıdır ve bu ziyaret telefonunuzdan hiçbir şey paylaşmaz.
 
-- olayın zamanı (cihazın duvar saati, küresel zaman alanında)
-- yaklaşık konum, yaklaşık **1 kilometreye** yuvarlanmış (tam sokak adresiniz veya sürekli iz değil)
-- olayın temel özellikleri: duyarga kanalı, yolun hava mı yer mi olduğu, varsa tepe frekans ve boyutsuz bir güç ölçüsü (örneğin STA/LTA)
-- rapor türü (örneğin infrasound başlangıcı, sismik aday veya deprem onay denetimi)
+Anahtar açıkken ve yalnızca telefon **nitelikli** bir olay kaydettiğinde uygulama küçük bir rapor gönderebilir. Nitelikli bir olay, çevrenizdeki odadan geliyor gibi görünmeyen yeterince güçlü bir gürleme, olası bir sismik sinyal veya telefonun resmi bir deprem doğrulaması gösterdiğine dair bir nottur. Rapor şunları içerir:
+
+- olayın zamanı, telefonun saatinde, evrensel zamanda
+- yaklaşık bir konum, yaklaşık **1 kilometreye** yuvarlanmış; bir sokak adresi değil ve sürekli bir iz değil
+- sinyal hakkında birkaç bilgi: telefonun onu havada mı duyduğu yoksa hareket olarak mı hissettiği, varsa ana frekans ve başlangıcın ne kadar keskin olduğu
+- raporun türü (düşük frekanslı bir başlangıç, bir sismik aday veya resmi bir deprem doğrulaması)
 - uygulama sürümü
 
-**Research Array için asla gönderilmeyenler:** ses, dalga biçimleri, kayıtlar, transkriptler, altyazılar, kişiler, sizi bir kişi veya kurulum olarak etiketlemek için uygulamanın uydurduğu kimlikler, tam GPS noktanız (yukarıdaki kaba yuvarlamanın ötesi) veya gittiğiniz yerlerin sürekli kaydı. Ses bu veya başka bir amaçla cihazınızı asla terk etmez.
+**Bir Research Array raporunun asla içermedikleri:** ses, dalga biçimleri, kayıtlar, dökümler, altyazılar, kişiler, uygulamanın sizin için veya bu kurulum için oluşturduğu herhangi bir tanımlayıcı, kesin GPS konumunuz (yukarıdaki yuvarlamadan daha hassas) veya nereye gittiğinizin sürekli bir kaydı. Hiçbir özellik bir kayıt yüklemez. Müzik tanıma, Shazam'ı açık bıraktığınızda, sesin kendisi yerine sesin bir parmak izini gönderir.
 
 ### Raporlar nereye gider
 
-Raporlar yalnızca **şifreli (HTTPS) bir kanal** üzerinden işlettiğimiz bir Wingdings araştırma hizmetine (uygulama sunucusu ve veritabanı) gider. Uygulama yükte **kullanıcı veya cihaz başına araştırma kimliği** ve **Apple Account kimliği** eklemez. Yalnızca uygulamamızın hizmete yazabilmesi için paylaşılan bir uygulama sırrı kullanılabilir; bu sır kişisel bir kimlik **değildir**. Her HTTPS hizmetinde olduğu gibi standart barındırma ve güvenlik günlükleri (hizmeti işletmek için kısa ömürlü ağ üstverisi) olabilir; sizi izlemek için bir ürün özelliği değildir ve satmayız.
+Raporlar, işlettiğimiz Wingdings araştırma hizmetine **şifreli (HTTPS)** bir bağlantı üzerinden gönderilir. Rapor **kişi başına veya cihaz başına bir araştırma kimliği** ve **Apple veya Google hesap tanımlayıcısı içermez**. Yalnızca bizim uygulamamızın rapor gönderebilmesi için paylaşılan bir uygulama sırrı kullanılabilir. Bu sır sizi tanımlamaz. Hizmeti çalıştırmak için gereken kısa ömürlü ağ kayıtları gibi olağan barındırma günlükleri bulunabilir. Bunlar sizi izlemek için bir ürün özelliği değildir ve satmayız.
 
-**Research Array**’i kapatmak **tüm gelecek** raporları hemen durdurur. Zaten gönderilmiş raporları **silmez**. Raporlar **kullanıcı veya cihaz kimliği taşımadığı** için sonradan “katkıda bulunduğunuz her şeyi” arayıp silemeyiz — hangi geçmiş raporların sizden geldiğini güvenilir biçimde bilemeyiz. Bu kasıtlıdır: araştırma akışının kontrolümüzdeki kişisel bir tarihe dönüşmesini önler.
+**Research Array**'i kapatmak **gelecekteki tüm** raporları hemen durdurur. Daha önce gönderilmiş raporları **silmez**. Bir rapor **kişi başına veya cihaz başına bir tanımlayıcı taşımadığı** için "katkıda bulunduğunuz her şeyi" arayıp sonradan silemeyiz. Geçmiş raporlardan hangilerinin sizden geldiğini bilmenin güvenilir bir yolu yoktur. Bu kasıtlıdır. Araştırma akışının yeniden kurabileceğimiz kişisel bir geçmişe dönüşmesini engeller.
 
-## Yapmadıklarımız
+## Nelerden kaçınırız
 
-**Yapmayız:**
+Şunları **yapmayız**:
 
 - Kişisel bilgilerinizi satmak veya kiralamak
-- Sunucularımızda çevresel ses kayıtları saklamak
-- Reklam ağları, uygulamalar arası izleyiciler veya davranışsal profil SDK’ları çalıştırmak
-- Sürekli konum izinizi Wingdings’e yüklemek
-- Bulut konuşma veya ses tanıma için ham mikrofon sesi yüklemek
-- Çekirdek uygulama özellikleri için Research Array istemek — isteğe bağlıdır ve varsayılan kapalıdır
+- Sunucularımızda mikrofon sesi kaydetmek veya saklamak
+- Reklam ağları, uygulamalar arası izleyiciler veya diğer uygulamaları nasıl kullandığınızın profilini çıkaran araçlar çalıştırmak
+- Konumunuzun sürekli bir izini Wingdings'e yüklemek
+- Bulutta konuşma veya ses tanıma için ham mikrofon sesi yüklemek
+- Uygulamanın geri kalanının çalışması için Research Array'i zorunlu tutmak. Onu kapatmak diğer her özelliği kullanılabilir bırakır.
 
-## Seçimleriniz ve denetimler
+Uygulamanın telefonda tuttuğu bilgiler, ses günlüğü ve Name Called listesi gibi, yukarıda anlatılmıştır. Bizim elimizde tuttuğumuz bir kopya değildir.
+
+## Seçimleriniz ve denetimleriniz
 
 Şunları yapabilirsiniz:
 
-- iOS Ayarları’nda **izinleri geri almak** (mikrofon, konum, kamera, bildirimler, konuşma tanıma), ya da Android Ayarları'nda Uygulamalar → Vigilant Ear → İzinler altında
-- Power Pack+ / tercihlerde **Shazam müzik tanımayı kapatmak**
-- **Tekil uyarı kategorilerini kapatmak** (siren, hava, kapı zili, bebek vb.)
-- Tüm uyarı kategorileri kapalıyken **arka plan dinlemeyi durdurmak**
-- **Constellation’ı kapalı bırakmak** böylece Vigilant Ear çalışan diğer telefonlarla ağ üstverisi paylaşılmaz. Uygulaması olmayan telefonlar o üstveriyi paylaşamaz.
-- **Research Array’i kapalı bırakmak** (varsayılan) veya rapor katkısını durdurmak için Ayarlar’dan istediğiniz zaman kapatmak
-- Gerçek acil durum ima etmeden, net PREVIEW filigranıyla uyarıları ve özellikleri yerelde önizlemek için **Feature Playground** kullanmak
+- Mikrofon, konum, kamera, bildirimler ve konuşma tanıma için **sistem izinlerini geri alın**. iPhone veya iPad'de Settings → Apps → Vigilant Ear yolunu açın. Bu izinleri Settings → Privacy & Security altında da değiştirebilirsiniz. Android'de Settings → Apps → Vigilant Ear → Permissions yolunu açın.
+- Power Pack+ / Preferences içinde **Shazam** müzik tanımayı kapatın
+- **Tek tek uyarı kategorilerini kapatın** (sirenler, hava durumu, kapı zilleri, bebek ve diğerleri)
+- Ses uyarılarını kapatarak **mikrofonun arka planda uyumasına izin verin**: sirenler, alarmlar, vuruşlar ve kapı zilleri, bebek ve yakındaki insanlar. Hava ve deprem uyarıları mikrofonu açık tutmaz.
+- **Constellation'ı kapalı bırakın;** böylece Vigilant Ear çalıştıran diğer telefonlarla ağ bilgisi paylaşılmaz. Uygulaması olmayan bir telefon bu bilgiyi alamaz.
+- **Research Array'i** istediğiniz zaman Preferences içinde **kapatın**. Siz kapatana kadar açık kalır. Haritadaki soru aynı anahtarı denetler.
 
-## Platform kuralları
+## Platform yönergeleri
 
-Vigilant Ear Apple App Store gizlilik gereklerini ve erişilebilirlik ihtiyacı olan insanlara hizmet eden uygulamalar için Apple yönergelerini izler. Uygulamalarımız veya platform yükümlülüklerimiz değişince bu politikayı güncelleriz.
+Vigilant Ear, Apple App Store ve Google Play gizlilik gereksinimlerine ve erişilebilirlik gereksinimi olan kişilere hizmet eden uygulamalar için her satıcının yönergelerine uyar. İşleyişimiz değiştiğinde veya bir platformun kuralları değiştiğinde bu politikayı güncelleriz.
 
 ## Bu politikadaki değişiklikler
 
-Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Önemli değişiklikler bu sayfanın üstündeki **Yürürlük tarihi** güncellenerek yansıtılır.
+Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Önemli bir değişiklik, bu sayfanın üstündeki **Yürürlük tarihi** güncellenerek gösterilir.
 
 ## Bize ulaşın
 
-Bu Gizlilik Politikası hakkında sorunuz varsa:
+Bu Gizlilik Politikası hakkında sorularınız varsa bize şuradan ulaşın:
 
 **E-posta:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 
 ---
 
-❤️ Vigilant Ear sağır, az duyan ve CODA topluluğuna sevgi ve saygıyla yapılır. Güveniniz bizim için önemlidir.
+❤️ Vigilant Ear, Sağır, az duyan ve CODA topluluğu için sevgi ve saygıyla yapılır. Güveniniz bizim için önemlidir.
 
-*Vigilant Ear özenle yapılmış bir erişilebilirlik aracıdır. Lütfen sorumlu kullanın.*
+*Vigilant Ear, özenle yapılmış bir erişilebilirlik aracıdır. Lütfen sorumlu biçimde kullanın.*
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />

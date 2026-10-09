@@ -30,7 +30,7 @@ No. Vigilant Ear is engineered to use little battery so you can leave it on.
 Here is how we keep battery use low:  
 - Efficient on-device machine learning models that run on the Neural Engine where available.  
 - Background listening hibernates when *all* alert categories are turned off.  
-- Almost all processing stays on your phone; network is limited to maps, weather feeds (including our European alert cache), optional music ID, and purchases.  
+- Almost all processing stays on your phone; the network is used mainly for maps, weather warnings and radar (through Vigilant Ear's own relay), optional Music ID, and purchases.  
 - Smart throttling reduces work when the acoustic scene is quiet.  
 - Heavy math runs off the display thread and only when needed.
 
@@ -93,6 +93,8 @@ The safety core is **free, forever**:
 - **Auto-Translate** — on-device translation of nearby speech into your language  
 - **Constellation** — multi-iPhone shared hearing over Ultra-Wideband  
 - **Music ID** — ShazamKit song recognition  
+- **Custom Sound Packs** — add-on classifiers you train for your own sounds  
+- **Remote Link** — private video and text calls with someone who isn't with you, with no audio at any point; starting one needs Power Pack+, and the person you invite joins free  
 
 Everything for recognition still runs on your device; Power Pack+ only changes which features are unlocked, never where raw audio is sent for analysis.
 

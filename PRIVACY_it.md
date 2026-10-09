@@ -1,162 +1,168 @@
 # Informativa sulla Privacy di Vigilant Ear 👂🛰️
 
-**Data di entrata in vigore:** 2 ottobre 2026
+**Data di entrata in vigore:** 8 ottobre 2026
 
 ## Introduzione
 
-Vigilant Ear ("noi", "ci" o "nostro") si impegna a proteggere la sua privacy. La presente Informativa sulla Privacy spiega quali informazioni l'applicazione elabora, cosa rimane sul suo dispositivo e quando dati limitati possono essere inviati tramite Internet per fornire funzioni specifiche.
+Vigilant Ear ("noi", "ci" o "nostro") si impegna a proteggere la sua privacy. La presente Informativa sulla Privacy spiega quali informazioni l'app elabora, che cosa resta sul suo dispositivo e quando dati limitati possono essere inviati tramite Internet per fornire funzioni specifiche.
 
-## La Privacy in Sintesi
+## La privacy in sintesi
 
-- **Il rilevamento acustico principale viene eseguito sul suo dispositivo.** La classificazione dei suoni, il tracciamento direzionale, i sottotitoli in tempo reale e la logica degli avvisi sono progettati per funzionare localmente utilizzando il microfono e i sensori del suo telefono.
-- **Non vendiamo i suoi dati** e non utilizziamo SDK pubblicitari o di analisi comportamentale.
-- **Non memorizziamo né carichiamo registrazioni audio.** L'audio del microfono viene elaborato in tempo reale per il rilevamento e (quando la funzione è abilitata) per i sottotitoli; non viene mai salvato come file sonoro né inviato per analisi nel cloud. Fino a circa trenta secondi di suono vengono trattenuti brevemente nella memoria di lavoro del telefono mentre vengono trascritti — quel breve buffer è ciò che consente ai sottotitoli di cogliere le prime parole di chi parla invece di perderle — e non tocca mai l'archiviazione, non viene mai trasmesso da nessuna parte e scompare nel momento in cui l'applicazione si chiude. La funzione Rewind ripropone soltanto il **testo** dei sottotitoli recenti; nessun suono viene conservato per la riproduzione.
-- **Alcune funzioni utilizzano Internet** — mappe, feed di condizioni meteorologiche estreme, identificazione musicale opzionale, dati stradali, acquisti sull'app store, traffico opzionale della mesh multi-telefono tra i *suoi* dispositivi, il caricamento delle pagine legali nell'applicazione e (solo se lei sceglie di partecipare) i rapporti del Research Array (rete di ricerca). Queste funzioni sono descritte di seguito.
-- **Lei mantiene il controllo.** Può disabilitare l'identificazione musicale Shazam, disattivare le categorie di avvisi, lasciare Constellation disattivato, lasciare il **Research Array** disattivato (lo è per impostazione predefinita), revocare le autorizzazioni nelle impostazioni di sistema o interrompere l'ascolto in background in qualsiasi momento.
+- **Il rilevamento acustico principale avviene sul suo dispositivo.** La classificazione dei suoni, il tracciamento direzionale, i sottotitoli in tempo reale e la logica degli avvisi sono progettati per funzionare in locale, usando il microfono e i sensori del suo telefono.
+- **Non vendiamo i suoi dati,** e l'app non include pubblicità né strumenti di tracciamento dell'uso.
+- **Non memorizziamo né carichiamo registrazioni audio.** L'audio del microfono viene elaborato in tempo reale per il rilevamento e, quando attiva i sottotitoli, per trasformare il parlato in testo. Non viene mai salvato come file sonoro e non viene mai inviato altrove per l'analisi. Mentre viene scritto un sottotitolo, il telefono trattiene fino a circa trenta secondi di suono nella memoria di lavoro, così le parole iniziali non si perdono e una riga che impiega un momento a finire può comunque essere inclusa. Quella memoria temporanea non viene salvata, non viene trasmessa e sparisce quando chiude l'app. Rewind riporta soltanto il **testo** recente dei sottotitoli. Nessun suono viene conservato per riascoltarlo.
+- **Alcune funzioni usano Internet:** mappe, meteo, identificazione musicale, dati stradali, acquisti sugli store delle app, pagine come questa informativa, Constellation (che resta tra i suoi stessi telefoni) e i rapporti di Research Array mentre quella funzione è attiva. Ciascuna è descritta di seguito.
+- **Lei mantiene il controllo.** Può disattivare l'identificazione musicale Shazam, disattivare le categorie di avvisi, lasciare Constellation spento, disattivare **Research Array** (è attivo finché non lo fa), revocare le autorizzazioni nelle impostazioni di sistema o interrompere l'ascolto in secondo piano.
 
-## Informazioni Elaborate sul Suo Dispositivo
+## Informazioni elaborate sul Suo dispositivo
 
-Con la sua autorizzazione, Vigilant Ear accede a quanto segue **localmente**:
+Con la sua autorizzazione, Vigilant Ear usa quanto segue **sul suo dispositivo**:
 
-- **Audio del microfono** — Utilizzato in tempo reale per rilevare i suoni ambientali (sirene, veicoli, campanelli, pianto di neonato, persone nelle vicinanze, ecc.), stimare la direzione e (quando la Modalità parlante è attiva) produrre sottotitoli in tempo reale e la traduzione opzionale sul dispositivo.
-- **Riconoscimento vocale (sul dispositivo)** — Quando i sottotitoli sono abilitati, i framework vocali del suo dispositivo trascrivono in testo il parlato circostante sul telefono. Il testo dei sottotitoli viene mostrato in tempo reale e non viene archiviato da Vigilant Ear come cronologia permanente delle trascrizioni; i log di debug non includono il contenuto dei sottotitoli. Per scrivere correttamente i nomi, l'app può anche fornire a quel riconoscitore sul dispositivo un breve elenco di parole già presenti su questo telefono: i nomi visualizzati dei telefoni Constellation che hai collegato e il titolo e l'artista di un brano appena identificato da Shazam. **Non** legge i tuoi Contatti e quell'elenco non lascia mai il dispositivo.
-- **Voci con nome (facoltativo)** — Se assegna un nome a un parlante, quel nome e una breve impronta vocale restano nel deposito cifrato di questo telefono e **non lo lasciano mai**. Non esiste un backup cloud delle voci.
-- **Posizione** — Usata per collocare sulla mappa i suoni rilevati e le aree di allerta meteo, per migliorare la guida direzionale e per ricordare quanto è silenziosa una stanza familiare, così che il rilevamento musicale non debba impararlo di nuovo a ogni apertura dell'app. Quest'ultimo uso salva soltanto una latitudine — nessuna longitudine —, arrotondata a circa 100 metri, per un massimo di otto luoghi. Resta nelle impostazioni dell'app su questo telefono e non viene mai inviata da nessuna parte.
-- **Orientamento e movimento del dispositivo** — Utilizzati per migliorare la precisione del rilevamento della direzione.
-- **Fotocamera (opzionale)** — Utilizzata solo se apre la vista AR della fotocamera "vedere il suono", affinché i marcatori possano essere fissati nell'anteprima in tempo reale della fotocamera. I fotogrammi della fotocamera sono utilizzati per la visualizzazione sul dispositivo; non vengono caricati da Vigilant Ear per il riconoscimento dei suoni.
-- **Apple Watch (opzionale)** — Quando è disponibile un'app companion per Watch, le etichette degli avvisi e le indicazioni di direzione possono essere inoltrate al Watch abbinato, così da poter dare un'occhiata al polso.
-- **Diario dei suoni Witness Ear (opzionale, disattivato per impostazione predefinita)** — Quando attiva Witness Ear, l'applicazione conserva un registro continuo, **sul dispositivo e di 24 ore**, delle classificazioni sonore (ora, etichetta, confidenza, livello di picco, direzione quando misurata e la posizione del telefono in quel momento; oltre alle voci condivise dai suoi telefoni Constellation collegati). Il diario è memorizzato esclusivamente nella sandbox privata dell'applicazione su questo telefono e non viene mai caricato da Vigilant Ear. Lascia il telefono soltanto all'interno di un rapporto PDF che **lei** sceglie di esportare e condividere. Le voci più vecchie di 24 ore vengono eliminate automaticamente; disattivare Witness Ear mette in pausa la registrazione (le voci conservate continuano a scadere) e il comando cestino nell'applicazione elimina immediatamente il registro. Consulti la guida di Witness Ear per i dettagli.
+- **Audio del microfono.** Usato in tempo reale per rilevare i suoni dell'ambiente (sirene, veicoli, campanelli, un bambino che piange, persone nelle vicinanze e suoni simili), stimare la direzione e, quando Speaker Mode è attivo, produrre sottotitoli in tempo reale e la traduzione facoltativa sul dispositivo.
+- **Riconoscimento vocale (sul dispositivo).** Quando i sottotitoli sono attivi, gli strumenti vocali del telefono trasformano il parlato vicino in testo. Il testo dei sottotitoli viene mostrato in tempo reale. Vigilant Ear non conserva una trascrizione permanente. Il testo dei sottotitoli viene rimosso da un log di debug prima che possa esportarlo o inviarcelo per e-mail. Per scrivere correttamente i nomi, l'app può dare a quel riconoscitore sul dispositivo un breve elenco di parole già presenti su questo telefono: i nomi visualizzati dei telefoni Constellation che ha collegato e il titolo e l'artista di un brano che Shazam ha appena identificato. L'app **non** legge i suoi Contatti. Quell'elenco non lascia mai il dispositivo.
+- **Name Called (facoltativo).** I nomi che elenca perché l'app le dica quando qualcuno li pronuncia: il suo, quelli dei suoi figli, o il nome che un barista chiama ad alta voce. Restano cifrati su questo telefono, sono esclusi dai backup del dispositivo, vengono confrontati soltanto con i sottotitoli in tempo reale sul dispositivo e non vengono mai inviati da nessuna parte.
+- **Posizione.** Usata per collocare sulla mappa i suoni rilevati e le aree di allerta meteo, per migliorare la guida direzionale e per ricordare quanto è silenzioso un luogo familiare, così il rilevamento musicale non deve impararlo di nuovo ogni volta che apre l'app. Quest'ultimo uso salva una latitudine da sola, senza longitudine, arrotondata a circa 100 metri, al massimo per otto luoghi. Resta nelle impostazioni dell'app stessa su questo telefono e non viene mai inviata da nessuna parte.
+- **Orientamento e movimento del dispositivo.** Usati per migliorare la direzione.
+- **Fotocamera (facoltativa).** Usata soltanto se apre la vista della fotocamera che mostra i marcatori dei suoni nell'anteprima in tempo reale. Quei fotogrammi restano sul dispositivo. Vigilant Ear non li carica per il riconoscimento dei suoni.
+- **Apple Watch (facoltativo).** Quando è disponibile un companion per Watch, le etichette degli avvisi e le indicazioni di direzione possono essere inviate al Watch abbinato, così può dare un'occhiata al polso.
+- **Diario dei suoni Witness Ear (facoltativo, disattivato per impostazione predefinita).** Quando attiva Witness Ear, l'app tiene sul dispositivo un registro continuo di **24 ore**. Ogni annotazione registra l'ora, che cos'era il suono, quanto l'app ne era certa, il livello di picco, la direzione quando ne è stata misurata una e la posizione del telefono in quel momento. Un'annotazione può anche notare se il telefono era in carica, fermo o stava riproducendo audio, quanto era accurato il rilevamento della posizione e, per un suono condiviso da un telefono Constellation collegato, il nome e il modello di quel telefono. Il diario resta nell'archivio privato dell'app e non viene mai caricato da Vigilant Ear. Esce dal telefono soltanto dentro un rapporto PDF che **Lei** sceglie di esportare e condividere. Le annotazioni più vecchie di 24 ore vengono eliminate automaticamente. Disattivare Witness Ear mette in pausa la registrazione, e le annotazioni conservate continuano a scadere. Il comando cestino nell'app elimina subito il diario. Consulti la guida di Witness Ear per i dettagli.
 
-Questa elaborazione sul dispositivo è il cuore dell'applicazione. Le applicazioni concorrenti spesso trasmettono l'audio al cloud per analizzarlo e monetizzarlo. Vigilant Ear è costruito diversamente: la sua pipeline di consapevolezza acustica è progettata per funzionare sul telefono stesso.
+L'ascolto, la direzione e i sottotitoli sono pensati per funzionare sul telefono, per la persona che lo tiene in mano.
 
-## Rete e Servizi di Terze Parti
+## Rete e servizi di terze parti
 
-Quando utilizza determinate funzioni — o quando l'applicazione ne ha bisogno per funzionare — **dati limitati possono lasciare il suo dispositivo** ed essere gestiti da servizi di terze parti secondo le loro rispettive informative sulla privacy:
+Quando usa determinate funzioni, o quando l'app ne ha bisogno per funzionare, **dati limitati possono lasciare il suo dispositivo** ed essere gestiti da servizi di terze parti secondo le loro informative sulla privacy:
 
 *   **Visualizzazione della mappa**
-    *   *Cosa viene inviato:* Richieste di tessere della mappa; la sua area di visualizzazione della mappa e la sua posizione approssimativa nella misura necessaria a renderizzare la mappa
+    *   *Cosa viene inviato:* Richieste di tessere della mappa, compresa la parte di mappa sullo schermo e la posizione approssimativa necessaria per disegnarla
     *   *Fornitore:* Apple Maps / MapKit su iPhone e iPad; Google Maps su Android
-*   **Avvisi di maltempo (tramite il nostro servizio)**
-    *   *Perché esiste:* Gli avvisi ufficiali provengono dalle agenzie meteorologiche nazionali di tutto il mondo. Prima ogni telefono contattava direttamente quelle agenzie — ciascuna poteva quindi vedere l'indirizzo di rete del tuo dispositivo e con quanta frequenza controllavi — e i feed pubblici condivisi con limiti di richieste hanno iniziato a perdere avvisi con la crescita degli utenti. Ora il nostro server recupera i dati ufficiali una sola volta, per tutti, e li conserva per circa **15 minuti**. Gli stessi avvisi ufficiali, in modo più affidabile — e **il tuo telefono non contatta mai i server di un governo straniero.** Solo a partire dalla versione 1.1.0.
-    *   *Cosa viene inviato:* Una richiesta al nostro servizio contiene solo il codice di Paese/regione, la lingua dell'app e, al massimo, una cella di posizione che il tuo telefono arrotonda a circa **50 km (0,5°)** prima dell'invio, usata solo per limitare la risposta agli avvisi vicini. La verifica esatta «sono dentro quest'area di allerta?» avviene **sul tuo telefono** e non ne esce mai. Non viene allegato alcun nome, account o identificativo del dispositivo. Come per ogni servizio HTTPS esistono log di hosting standard e di breve durata necessari a farlo funzionare; non sono una funzione di tracciamento e non li vendiamo.
-    *   *Fornitore:* Dati ufficiali di servizi governativi meteorologici e di allerta in più di 140 paesi e territori, e del servizio di allerta della protezione civile della Nuova Zelanda — consegnati al tuo telefono tramite infrastruttura che gestiamo.
-*   **Allerte sismiche (tramite il nostro servizio di allerta)**
-    *   *Cosa viene inviato:* Richieste a un unico feed pubblico mondiale di sintesi dei terremoti — la richiesta non contiene alcuna informazione di posizione o regione; la posizione del suo dispositivo viene utilizzata solo sul dispositivo per determinare se un terremoto segnalato è vicino a lei — recuperate tramite lo stesso servizio delle allerte meteo qui sopra, così il suo telefono non contatta i server di un governo straniero nemmeno per queste
-    *   *Fornitore:* Feed pubblico ufficiale dei terremoti, inoltrato da Wingdings
+*   **Avvisi di maltempo grave (tramite il nostro servizio di avvisi)**
+    *   *Perché esiste:* Gli avvisi ufficiali provengono dalle agenzie meteorologiche nazionali. Prima ogni telefono contattava quelle agenzie direttamente, così un'agenzia poteva vedere l'indirizzo di rete del telefono e quanto spesso controllava. Quei feed pubblici limitano quante richieste accettano di rispondere, e hanno iniziato a perdere avvisi man mano che più persone usavano l'app. Il nostro relay ora raccoglie gli avvisi ufficiali circa ogni **5 minuti** e invia la copia conservata quando il suo telefono la chiede. Sono gli stessi avvisi ufficiali. **Il suo telefono non contatta un server governativo per ottenerli.**
+    *   *Cosa viene inviato:* La richiesta porta la lingua della sua app, un numero di versione per la risposta, un raggio di 150 km e una posizione che il telefono ha già arrotondato a circa **50 km (mezzo grado)**. Quell'area approssimativa serve soltanto a limitare la risposta agli avvisi vicini a Lei. La verifica precisa «sono dentro questo avviso?» avviene **sul suo telefono**. La richiesta non include nome, account né identificativo del dispositivo.
+    *   *Cosa conserviamo:* Il nostro servizio conserva un registro di 30 giorni di queste richieste: l'ora, quale feed ha risposto e il paese o il luogo di cui trattava la richiesta. Il registro salvato non conserva l'indirizzo di rete, l'identificativo del dispositivo né la cella di posizione stessa. Quel registro serve per gestire il servizio. Quando il suo telefono mostra un avviso, segnala anche quanti ne ha mostrati per ciascun feed e ciascun livello di avviso (per esempio, «due avvisi arancioni del servizio meteorologico del Giappone»), così possiamo capire se un feed sta raggiungendo qualcuno. Quel conteggio non porta alcun identificativo di avviso, alcuna posizione né alcun identificativo del dispositivo. Il suo telefono conserva l'elenco degli avvisi che ha già conteggiati. Esistono anche i normali log di hosting di breve durata, come per ogni servizio web cifrato. Non usiamo questi registri per costruire un suo profilo e non li vendiamo.
+    *   *Fornitore:* Dati ufficiali dei servizi governativi meteorologici e di allerta in più di 140 paesi e territori, consegnati attraverso un'infrastruttura che gestiamo: il relay di Wingdings, Inc.
+*   **Avvisi di terremoto (tramite il nostro servizio di avvisi)**
+    *   *Cosa viene inviato:* Una richiesta di un unico elenco pubblico mondiale dei terremoti, attraverso lo stesso relay degli avvisi meteo sopra, così il suo telefono non contatta un server governativo nemmeno per questi. La richiesta non porta alcuna posizione né alcuna regione. Il suo telefono decide da solo se un terremoto segnalato è vicino a Lei.
+    *   *Fornitore:* Feed pubblici ufficiali sui terremoti, come l'USGS, inoltrati da Wingdings, Inc.
 *   **Radar meteo**
-    *   *Cosa viene inviato:* Quando il radar è attivo, una richiesta per l'elenco delle immagini radar e poi le tessere d'immagine della parte di mappa sullo schermo. Ogni richiesta di tessera indica un livello di zoom e un quadrato della mappa — allo zoom più ravvicinato, un quadrato di circa 40 km di lato — e l'ora dell'immagine radar. Nient'altro: nessun identificativo, nessun account, nessun dato di rilevamento.
-    *   *Fonte:* Immagini radar e satellitari dei servizi meteorologici nazionali (ciascuno elencato con la sua licenza su [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), consegnate al suo telefono tramite un'infrastruttura che gestiamo noi, così le sue richieste non contattano mai server governativi.
-    *   *Fornitore:* Wingdings
+    *   *Cosa viene inviato:* Quando il radar è attivo, una richiesta dell'elenco delle immagini radar, poi le tessere delle immagini per la parte di mappa sullo schermo. Ogni richiesta di tessera indica un livello di zoom, un quadrato della mappa e l'ora di quell'immagine. Allo zoom più ravvicinato il quadrato è largo circa 40 km. In alcuni paesi l'immagine più ravvicinata è più grossolana, quindi il quadrato è più grande. Non è incluso nient'altro: nessun identificativo, nessun account e nessun dato di rilevamento.
+    *   *Fonte:* Immagini radar e satellitari dei servizi meteorologici nazionali (ciascuno elencato con la sua licenza su [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), consegnate attraverso il nostro relay Wingdings, così il suo telefono non contatta quelle agenzie direttamente.
+    *   *Fornitore:* Wingdings, Inc.
 *   **Elenco di aiuto (il salvagente sulla mappa)**
-    *   *Cosa viene inviato:* All'apertura: un codice paese di due lettere (dalla sua posizione se l'app la conosce, altrimenti dall'impostazione della regione del telefono) e la lingua dell'app, così l'elenco mostra il numero di emergenza e le organizzazioni giuste.
-    *   *Fornitore:* Wingdings
+    *   *Cosa viene inviato:* Quando lo apre, un codice paese di due lettere (dalla sua posizione se l'app la conosce, altrimenti dall'impostazione della regione del telefono) e la lingua della sua app, così l'elenco può mostrare il numero di emergenza e le organizzazioni pertinenti.
+    *   *Fornitore:* Wingdings, Inc.
 *   **Download di Supporto sottotitoli (iPhone con almeno 8 GB di memoria)**
-    *   *Cosa viene inviato:* Normali richieste web per il download una tantum di modelli di riconoscimento vocale (circa 1 GB) e un elenco di quei file. Non viene inviato nulla su di lei, sulla sua posizione o sul suo audio; una volta scaricati, i modelli funzionano sul dispositivo come il resto dei sottotitoli.
-    *   *Fornitore:* Wingdings, tramite Cloudflare
-*   **Identificazione musicale (opzionale, Power Pack+)**
-    *   *Cosa viene inviato:* Brevi impronte audio — mai audio grezzo — quando viene rilevata musica e Shazam è abilitato (può essere disattivato nelle impostazioni)
+    *   *Cosa viene inviato:* Normali richieste web per un download una tantum dei modelli di riconoscimento vocale (circa 1 GB) e per l'elenco di quei file. Non è incluso nulla su di Lei, sulla sua posizione o sul suo audio. Una volta scaricati, i modelli funzionano sul dispositivo, come il resto dei sottotitoli.
+    *   *Fornitore:* Wingdings, Inc. tramite Cloudflare
+*   **Identificazione musicale (facoltativa, Power Pack+)**
+    *   *Cosa viene inviato:* Una breve impronta audio, mai la registrazione stessa, quando viene rilevata musica e Shazam è attivo. Può disattivarla nelle impostazioni.
     *   *Fornitore:* Apple Shazam / ShazamKit
 *   **Contesto stradale**
-    *   *Cosa viene inviato:* La sua **latitudine e longitudine esatte**, all'interno di una richiesta su quali strade si trovino entro qualche centinaio di metri da lei, così che i veicoli rilevati possano essere collocati sulla strada in cui si trovano davvero e non in mezzo a un campo. È una posizione precisa, non una cella arrotondata — a differenza della richiesta meteo qui sopra, deliberatamente approssimativa. Non vi è allegato alcun nome, account o identificativo del dispositivo, e non è incluso nulla di ciò che il suo telefono ha sentito.
-    *   *Fornitore:* Collaboratori di OpenStreetMap tramite l'API pubblica Overpass
+    *   *Cosa viene inviato:* Una posizione che il telefono ha arrotondato a circa **110 metri**, dentro una richiesta delle strade entro **500 metri** da quel punto, così un veicolo rilevato può essere collocato sulla strada su cui si trova davvero. La richiesta non include nome, account né identificativo del dispositivo, e nulla di ciò che il telefono ha udito.
+    *   *Fornitore:* Contributori di OpenStreetMap, tramite l'API pubblica Overpass
 *   **Percorsi stradali**
-    *   *Cosa viene inviato:* La sua **latitudine e longitudine esatte**, insieme alla posizione di un suono tracciato, per poter disegnare sulla mappa un percorso stradale fra i due. Di nuovo una posizione precisa, senza identificativo e senza nulla sulla rilevazione stessa.
-    *   *Fornitore:* Il servizio pubblico di routing OSRM (project-osrm.org)
-*   **Acquisti e diritti d'uso**
-    *   *Cosa viene inviato:* Token di acquisto e stato dei diritti / della prova per lo sblocco una tantum opzionale Power Pack+ (non un abbonamento)
+    *   *Cosa viene inviato:* La sua posizione e la posizione di un suono tracciato, così sulla mappa si può disegnare un percorso di guida tra i due. Queste posizioni vengono inviate con la precisione che ha il telefono, più precisa della richiesta di contesto stradale sopra. Non è allegato alcun nome o account, e non è incluso nulla sul rilevamento stesso.
+    *   *Fornitore:* Apple Maps / MapKit su iPhone e iPad
+*   **Acquisti e diritti**
+    *   *Cosa viene inviato:* Token di acquisto e stato del diritto o della prova per lo sblocco una tantum facoltativo di Power Pack+ (non un abbonamento)
     *   *Fornitore:* l'Apple App Store su iPhone e iPad; Google Play Billing su Android
-*   **Mesh Constellation (opzionale, Power Pack+)**
-    *   *Cosa viene inviato:* Quando abilita Constellation multi-telefono, i dispositivi partecipanti si scambiano i metadati acustici necessari per un quadro condiviso — per esempio la posa relativa / la telemetria Ultra-Wideband dove disponibile, le direzioni, le etichette dei suoni e il testo effimero dei sottotitoli. Il traffico è peer-to-peer **solo tra i telefoni che eseguono Vigilant Ear e che lei collega per Constellation**. I telefoni senza l'applicazione non possono unirsi a quella mesh né ricevere quei metadati. Wingdings non gestisce un relay mesh nel cloud per questa pipeline audio.
-    *   *Fornitore:* Framework Apple (per es. Network / Nearby Interaction) tra i suoi dispositivi con Vigilant Ear **Constellation è una funzione per iPhone e iPad; l'app Android non la implementa**, quindi un telefono Android non entra in quella rete né scambia questi metadati.
-*   **Remote Link (facoltativo — avviare un collegamento richiede Power Pack+; unirsi è gratuito)**
-    *   *Perché esiste:* Una persona sorda o ipoudente non può usare una telefonata. Remote Link è il sostituto — una chiamata privata solo video con i dati dei sottotitoli: due persone si vedono, leggono l'una i sottotitoli e il testo digitato dell'altra, e possono segnare tra loro attraverso il video.
-    *   *Cosa viene inviato:* **Nessun audio, in nessun momento** — una sessione Remote Link non contiene alcuna traccia audio. I due telefoni parlano tra loro, non con noi: il video in diretta, i tuoi sottotitoli in diretta sotto forma di testo e tutto ciò che digiti viaggiano **direttamente tra i due telefoni** ovunque le reti lo consentano, cifrati end-to-end, così nulla nel mezzo può guardare o leggere la chiamata. Per stabilire un collegamento, il nostro servizio conserva il codice d'invito insieme ai dettagli di connessione di cui i due telefoni hanno bisogno per trovarsi. Quella casella non contiene **né video né testo**, e scade entro un'ora.
-    *   *Sottotitoli:* Quando il tuo telefono ascolta, i sottotitoli che produce vengono inviati come testo al telefono collegato, nella lingua in cui sono stati uditi; l'altro telefono li traduce sul dispositivo nella propria lingua di lettura. Viaggia sulla stessa connessione cifrata del video, mai attraverso i nostri server. **Pausa** ferma insieme video e sottotitoli, e i sottotitoli cessano del tutto se smetti di ascoltare.
-    *   *Se una connessione diretta non è possibile:* quando i due telefoni non riescono a raggiungersi direttamente — reti diverse, un router restrittivo — il video, i sottotitoli e il testo cifrati vengono inoltrati da un relay che **non può decifrarli**. Il relay vede sì che esiste una connessione, gli indirizzi di rete coinvolti e quanti dati passano — come ogni relay deve fare — e nient'altro. L'app mostra chiaramente se la connessione è **Diretta** o **Inoltrata (Relayed)**. Un collegamento inoltrato si chiude da solo dopo un'ora.
-    *   *Nulla viene registrato:* nessun video, audio o testo di un Remote Link viene scritto su disco su nessuno dei due telefoni, né conservato su alcun server.
-    *   *Fornitore:* Wingdings (casella degli inviti), Cloudflare (relay — usato solo quando una connessione diretta è impossibile)
-*   **Documenti legali nell'applicazione**
-    *   *Cosa viene inviato:* Richieste web standard quando apre nell'applicazione le pagine Informativa sulla Privacy, Termini, Supporto o le pagine README del prodotto
-    *   *Fornitore:* GitHub (hosting dei documenti)
-*   **Mappa in tempo reale del Research Array (sola visualizzazione)**
-    *   *Cosa viene inviato:* Richieste web standard quando tocca **Map** (Mappa) per aprire nel suo browser la dashboard pubblica della rete — come quando visita un qualsiasi sito web. La visualizzazione non invia nulla del suo diario né dei suoi rilevamenti.
-    *   *Fornitore:* Servizio di ricerca Wingdings (hosting dell'applicazione web)
-*   **Research Array (opzionale — disattivato per impostazione predefinita)**
-    *   *Cosa viene inviato:* Solo se attiva la funzione: piccoli rapporti di rilevamento composti esclusivamente da metadati quando viene registrato un evento idoneo (ora, posizione approssimativa, caratteristiche di base del segnale, versione dell'applicazione). Veda **Research Array** più avanti.
-    *   *Fornitore:* Infrastruttura gestita da noi (fornitori di hosting dell'applicazione e del database, come i nostri host web e Postgres). I dettagli e i limiti sono nella sezione Research Array.
+*   **Mesh Constellation (facoltativa, Power Pack+)**
+    *   *Cosa viene inviato:* Quando attiva Constellation, i telefoni che collega si scambiano ciò che serve per un unico quadro condiviso. Questo include come i telefoni sono orientati l'uno rispetto all'altro, la distanza Ultra-Wideband dove i telefoni la supportano, le direzioni, le etichette dei suoni, dove ciascun suono è stato collocato sulla mappa, il testo dei sottotitoli in tempo reale, il nome visualizzato impostato su ciascun telefono e una firma di ciascuna voce, così la stessa persona mantiene lo stesso numero e lo stesso colore su ogni telefono collegato. Quelle firme restano soltanto nella memoria di lavoro dei telefoni. Non vengono salvate e non vengono inviate da nessuna parte, se non ai telefoni che ha collegato.
+    *   *Chi può unirsi:* Soltanto telefoni con Vigilant Ear che Lei collega per Constellation. Un telefono senza l'app non può unirsi né ricevere queste informazioni. Wingdings non gestisce un relay nel cloud per questa funzione.
+    *   *Come è protetto:* Ogni collegamento concorda una nuova chiave di cifratura che esiste soltanto nella memoria dei due telefoni (X25519). Ogni messaggio è cifrato con quella chiave (ChaCha20-Poly1305). La chiave viene gettata via quando la connessione termina.
+    *   *Fornitore:* I framework Network e Nearby Interaction di Apple, tra i suoi dispositivi Vigilant Ear. **Constellation è una funzione per iPhone e iPad. L'app Android non la include.**
+*   **Remote Link (facoltativo. Avviare un collegamento richiede Power Pack+; unirsi è gratuito)**
+    *   *Perché esiste:* Una persona sorda o ipoudente non può usare una chiamata vocale. Remote Link è una conversazione video privata con sottotitoli. Due persone si vedono, leggono l'una i sottotitoli e il testo digitato dell'altra e possono segnare nel video.
+    *   *Cosa viene inviato:* **Nessun audio, in nessun momento.** Una sessione Remote Link non ha una traccia audio. Dove la rete lo consente, il video in diretta, il testo dei sottotitoli e tutto ciò che digita viaggiano **direttamente tra i due telefoni**, cifrati da un capo all'altro, così nulla nel mezzo può guardare o leggere la chiamata. Per impostare il collegamento, il nostro servizio conserva il codice di invito e i dettagli di connessione di cui i telefoni hanno bisogno per trovarsi. Quella casella non contiene **né video né testo**. Scade dopo circa cinque minuti. Una volta che i telefoni sono collegati, la chiamata non dipende più da essa. Per limitare gli abusi, il servizio conserva fino a un'ora l'indirizzo di rete del telefono che crea un codice, e conta quanti collegamenti vengono avviati e a quanti ci si unisce. Il conteggio non porta alcun indirizzo, alcun codice né alcun identificativo del dispositivo.
+    *   *Sottotitoli:* Ciascun telefono sottotitola il parlato che sente e invia quel testo all'altro telefono, nella lingua in cui è stato sentito. Il telefono che riceve lo traduce, sul dispositivo, nella lingua di chi legge. Questo usa la stessa connessione cifrata del video e non passa dai nostri server. **Pausa** interrompe insieme l'invio del video e dei sottotitoli. I sottotitoli si fermano anche quando smette di ascoltare.
+    *   *Se i telefoni non possono collegarsi direttamente:* Quando sono lontani, su reti diverse o dietro un router che non consente un collegamento diretto, il video, i sottotitoli e il testo cifrati vengono inoltrati da un relay che **non può leggerli**. Il relay può vedere che esiste una connessione, gli indirizzi di rete coinvolti e quanti dati passano, come deve fare ogni relay, e nient'altro. L'app mostra se un collegamento è **Direct** o **Relayed**. Un collegamento Relayed si chiude da solo dopo un'ora. Un collegamento Direct non ha quel limite.
+    *   *Nulla viene registrato:* Nessun video, audio o testo di un Remote Link viene scritto nell'archivio di nessuno dei due telefoni, né conservato su alcun server.
+    *   *Fornitore:* Wingdings, Inc. (la casella degli inviti) e Cloudflare (il relay, usato soltanto quando un collegamento diretto non è possibile)
+*   **Documenti legali nell'app**
+    *   *Cosa viene inviato:* Normali richieste web quando apre nell'app le pagine dell'Informativa sulla Privacy, dei Termini, del Supporto o il README del prodotto
+    *   *Fornitore:* Wingdings, Inc.
+*   **Mappa in tempo reale di Research Array (sola visualizzazione)**
+    *   *Cosa viene inviato:* Normali richieste web quando Lei tocca **Mappa** per aprire nel browser la dashboard pubblica della rete, come quando visita un qualsiasi sito web. La visualizzazione non invia nulla del suo diario né dei suoi rilevamenti.
+    *   *Fornitore:* Wingdings, Inc.
+*   **Research Array (attivo finché non lo spegne)**
+    *   *Cosa viene inviato:* Un piccolo rapporto composto soltanto da metadati quando il telefono registra un evento idoneo: l'ora, una posizione approssimativa, fatti di base sul segnale e la versione dell'app. Veda **Research Array** più avanti.
+    *   *Fornitore:* Wingdings, Inc.
 
-Scegliamo questi servizi per offrire le funzionalità di mappa, meteo, etichette musicali, acquisti, multi-dispositivo e (quando lei sceglie di partecipare) della rete di ricerca (Research Array). **Wingdings non riceve da questi fornitori l'audio del suo microfono, la cronologia continua della sua posizione né le sue informazioni di contatto.**
+Usiamo questi servizi per le mappe, il meteo, i titoli musicali, gli acquisti, i telefoni collegati e i rapporti di Research Array mentre quella funzione è attiva. **Wingdings non riceve da questi fornitori l'audio del suo microfono, una cronologia continua della sua posizione né i suoi contatti.**
 
-## Cosa Raccoglie Wingdings
+## Che cosa raccogliamo (e non raccogliamo)
 
-### Nessuna Telemetria o Diagnostica Remota
+### Nessun rapporto remoto di arresto anomalo né tracciamento dell'uso
 
-Vigilant Ear è progettato affinché le funzioni principali di ascolto e sottotitolazione vengano eseguite sul suo dispositivo. **Non** raccogliamo analisi remote degli arresti anomali, telemetria pubblicitaria né SDK di analisi dell'uso generale.
+L'ascolto principale e i sottotitoli funzionano sul suo dispositivo. **Non** raccogliamo rapporti remoti di arresto anomalo, dati pubblicitari né statistiche generali sull'uso.
 
-Log di debug **locali** opzionali possono essere scritti sul dispositivo per la risoluzione dei problemi; l'applicazione non li carica come una pipeline di telemetria e il testo dei sottotitoli non è incluso nel contenuto di debug esportato.
+L'app può tenere sul dispositivo log di debug **locali** per la risoluzione dei problemi. L'app non li carica. Il testo dei sottotitoli viene rimosso da un log prima che possa essere esportato. Può scegliere di inviarci un log per e-mail.
 
-**Eccezione — Research Array e la cache meteo europea:** se sceglie di partecipare a Research Array (veda più avanti), Wingdings può ricevere i rapporti limitati sugli eventi che lei sceglie di contribuire. Separatamente, quando le allerte meteo europee sono attive, il telefono le legge dalla cache meteo che gestiamo (descritta sopra); quelle richieste contengono una cella di posizione approssimativa di ~50 km e nessun identificatore personale o del dispositivo. Nessuno dei due percorsi è analisi pubblicitaria — entrambi esistono per far funzionare una funzione specifica, non per costruire un suo profilo.
+**Research Array e i nostri servizi.** Mentre Research Array è attivo, Wingdings riceve i rapporti limitati sugli eventi descritti più avanti. Separatamente, alcune funzioni parlano con server che gestiamo: avvisi meteo e di terremoto, radar meteo, l'elenco di aiuto, il download di Supporto sottotitoli e l'impostazione di un Remote Link. Quelle richieste non portano un account né un identificativo personale. La richiesta meteo include, al massimo, una posizione arrotondata a circa 50 km. Nulla di questo è pubblicità. Ogni richiesta esiste per far funzionare una funzione.
 
-## Research Array (opzionale, disattivato per impostazione predefinita)
+## Research Array (attivo finché non lo spegne)
 
-Vigilant Ear può, in via opzionale, contribuire rapporti di rilevamento composti **esclusivamente da metadati** a una rete di ricerca che aiuta a costruire un quadro condiviso dei terremoti e di altri eventi a bassa frequenza / legati agli infrasuoni. **Questa funzione è disattivata per impostazione predefinita e funziona soltanto se lei la attiva** — dove l'interruttore **Research Array** appare nelle preferenze dell'applicazione (o l'etichetta equivalente nella sua lingua), può attivarlo o disattivarlo in qualsiasi momento. Consultare la pagina pubblica **Map** (Mappa) della rete è cosa distinta dal contribuire e non condivide nulla del suo registro.
+Vigilant Ear può contribuire rapporti composti **soltanto da metadati** a una rete di ricerca, per aiutare a costruire un quadro condiviso dei terremoti e di altri suoni molto bassi, compresi i rombi al di sotto della soglia dell'udito.
 
-Quando è attiva — e soltanto quando il suo dispositivo registra un evento **idoneo** (per esempio un candidato infrasonoro non locale o legato ad attività sismica sufficientemente forte, oppure determinati segnali di audit legati ai terremoti dove quel percorso è abilitato) — l'applicazione può inviare un piccolo rapporto contenente:
+**L'interruttore è attivo finché non lo spegne.** La prima volta che usa una versione che include questa funzione, se non ha mai impostato l'interruttore da sé, l'app lo attiva e chiede sulla mappa: "Vuoi partecipare in forma anonima al nostro servizio di ricerca sui terremoti?" Non viene inviato nulla finché quella domanda non è comparsa. Dopo che è comparsa, i rapporti possono essere inviati mentre l'interruttore resta attivo, anche mentre sta ancora decidendo. Tocchi **Ci sto!** per continuare a contribuire. **No** attende qualche secondo e poi spegne l'interruttore. Tocchi di nuovo **No** durante quell'attesa per annullare. Può anche spegnerlo in Preferences in qualsiasi momento. Aprire la pagina pubblica **Mappa** è cosa distinta dal contribuire, e quella visita non condivide nulla dal suo telefono.
 
-- l'ora dell'evento (secondo l'orologio del dispositivo in un dominio temporale globale)
-- una posizione approssimativa, arrotondata a circa **1 chilometro** (non il suo indirizzo esatto né una traccia continua)
-- le caratteristiche di base dell'evento, come il canale del sensore, se il percorso è aereo o terrestre, la frequenza di picco ove applicabile e una misura di intensità adimensionale (per esempio STA/LTA)
-- il tipo di rapporto (per esempio inizio di infrasuono, candidato sismico o audit di conferma di terremoto)
-- la versione dell'applicazione
+Mentre l'interruttore è attivo, e soltanto quando il telefono registra un evento **idoneo**, l'app può inviare un piccolo rapporto. Un evento idoneo è un rombo abbastanza forte che non sembra provenire dalla stanza intorno a Lei, un possibile segnale sismico, oppure una nota che il telefono ha mostrato una conferma ufficiale di terremoto. Il rapporto contiene:
 
-**Cosa non viene mai inviato per il Research Array:** audio, forme d'onda, registrazioni, trascrizioni, sottotitoli, contatti, identificatori che l'applicazione inventi per etichettare *lei* come persona o installazione, la sua posizione GPS precisa (oltre l'arrotondamento grossolano di cui sopra), né alcuna registrazione continua dei suoi spostamenti. L'audio non lascia mai il suo dispositivo, né per questo né per alcun altro scopo.
+- l'ora dell'evento, dall'orologio del telefono, in tempo universale
+- una posizione approssimativa, arrotondata a circa **1 chilometro**, non un indirizzo stradale e non una traccia continua
+- alcuni fatti sul segnale: se il telefono lo ha udito nell'aria o lo ha avvertito come movimento, la frequenza principale quando ce n'è una e quanto è stato netto l'inizio
+- il tipo di rapporto (un inizio a bassa frequenza, un candidato sismico o una conferma ufficiale di terremoto)
+- la versione dell'app
+
+**Che cosa un rapporto di Research Array non include mai:** audio, forme d'onda, registrazioni, trascrizioni, sottotitoli, contatti, qualsiasi identificativo che l'app crei per Lei o per questa installazione, la sua posizione GPS precisa (più fine dell'arrotondamento sopra) o una registrazione continua di dove va. Nessuna funzione carica una registrazione. L'identificazione musicale, quando lascia Shazam attivo, invia un'impronta del suono anziché il suono stesso.
 
 ### Dove vanno i rapporti
 
-I rapporti vengono inviati esclusivamente tramite un **canale cifrato (HTTPS)** a un servizio di ricerca Wingdings gestito da noi (hosting dell'applicazione e database). L'applicazione non allega **alcun ID di ricerca per utente o per dispositivo** né **alcun identificatore dell'Account Apple** nel payload. Può essere utilizzato un segreto applicativo condiviso affinché solo la nostra applicazione possa scrivere sul servizio; quel segreto **non** è un identificatore personale. Possono esistere log standard di hosting e sicurezza (per esempio metadati di rete di breve durata utilizzati per gestire il servizio), come per qualsiasi servizio HTTPS; non sono una funzione del prodotto destinata a tracciarla, e non li vendiamo.
+I rapporti vengono inviati su una connessione **cifrata (HTTPS)** al servizio di ricerca Wingdings che gestiamo. Il rapporto non include **alcun ID di ricerca per persona o per dispositivo** e **alcun identificativo di account Apple o Google**. Può essere usato un segreto condiviso dell'app, così soltanto la nostra app può inviare rapporti. Quel segreto non la identifica. Possono esistere normali log di hosting, come registri di rete di breve durata necessari a far funzionare il servizio. Non sono una funzione del prodotto per tracciarla, e non li vendiamo.
 
-Disattivare il **Research Array** interrompe immediatamente **tutti i rapporti futuri**. **Non** elimina i rapporti già inviati. Poiché i rapporti non recano **alcun identificatore per utente o per dispositivo**, non possiamo cercare né cancellare a posteriori "tutto ciò che lei ha contribuito" — non abbiamo alcun modo affidabile di sapere quali rapporti passati provenissero da lei. Ciò è intenzionale: impedisce che il flusso di ricerca diventi una cronologia personale sotto il nostro controllo.
+Spegnere **Research Array** interrompe subito **tutti i** rapporti **futuri**. **Non** elimina i rapporti già inviati. Poiché un rapporto non porta **alcun identificativo per persona o per dispositivo**, non possiamo cercare «tutto ciò che ha contribuito» e cancellarlo in seguito. Non abbiamo un modo affidabile per sapere quali rapporti passati provenissero da Lei. È intenzionale. Impedisce che il flusso di ricerca diventi una cronologia personale che potremmo ricostruire.
 
-## Cosa Non Facciamo
+## Che cosa evitiamo
 
 Noi **non**:
 
-- Vendiamo né cediamo in locazione le sue informazioni personali
-- Memorizziamo registrazioni audio ambientali sui nostri server
-- Gestiamo reti pubblicitarie, tracker tra applicazioni o SDK di profilazione comportamentale
-- Carichiamo la sua traccia di posizione continua verso Wingdings
-- Carichiamo audio grezzo del microfono per il riconoscimento vocale o dei suoni nel cloud
-- Richiediamo il Research Array per le funzioni principali dell'applicazione — è opzionale e disattivato per impostazione predefinita
+- Vendiamo o cediamo in affitto le sue informazioni personali
+- Registriamo o memorizziamo l'audio del microfono sui nostri server
+- Gestiamo reti pubblicitarie, tracker tra app o strumenti che profilano come usa le altre app
+- Carichiamo verso Wingdings una traccia continua della sua posizione
+- Carichiamo l'audio grezzo del microfono per il riconoscimento del parlato o dei suoni nel cloud
+- Richiediamo Research Array perché il resto dell'app funzioni. Spegnerlo lascia disponibili tutte le altre funzioni.
 
-## Le Sue Scelte e i Suoi Controlli
+Le informazioni che l'app tiene sul telefono, come il diario dei suoni e l'elenco Name Called, sono descritte sopra. Non sono una copia che noi conserviamo.
+
+## Le Sue scelte e i Suoi controlli
 
 Lei può:
 
-- **Revocare le autorizzazioni** (microfono, posizione, fotocamera, notifiche, riconoscimento vocale) nelle Impostazioni di iOS, oppure nelle Impostazioni Android in App → Vigilant Ear → Autorizzazioni
-- **Disabilitare l'identificazione musicale Shazam** in Power Pack+ / preferenze
-- **Disattivare singole categorie di avvisi** (sirene, meteo, campanelli, neonato, ecc.)
-- **Interrompere l'ascolto in background** quando tutte le categorie di avvisi sono disattivate
-- **Lasciare Constellation disattivato** affinché nessun metadato della mesh venga condiviso con altri telefoni che eseguono Vigilant Ear. I telefoni senza l'applicazione non possono condividere quei metadati.
-- **Lasciare il Research Array disattivato** (impostazione predefinita), oppure disattivarlo in qualsiasi momento nelle Impostazioni per smettere di contribuire rapporti
-- **Utilizzare il Parco giochi delle funzionalità** per visualizzare in anteprima gli avvisi e le funzioni localmente con una chiara filigrana PREVIEW, senza far intendere una vera emergenza
+- **Revocare le autorizzazioni di sistema** per il microfono, la posizione, la fotocamera, le notifiche e il riconoscimento vocale. Su iPhone o iPad, apra Settings → App → Vigilant Ear. Può anche modificare quelle autorizzazioni in Settings → Privacy & Security. Su Android, apra Settings → App → Vigilant Ear → Autorizzazioni.
+- **Disattivare l'identificazione musicale Shazam** in Power Pack+ / Preferences
+- **Disattivare singole categorie di avvisi** (sirene, meteo, campanelli, bambino e le altre)
+- **Lasciare il microfono a riposo in secondo piano** spegnendo gli avvisi sonori: sirene, allarmi, colpi e campanelli, bambino e persone nelle vicinanze. Gli avvisi di meteo e di terremoto non tengono acceso il microfono.
+- **Lasciare Constellation spento,** così nessuna informazione della mesh viene condivisa con altri telefoni che eseguono Vigilant Ear. Un telefono senza l'app non può ricevere quelle informazioni.
+- **Disattivare Research Array** in qualsiasi momento in Preferences. Resta attivo finché non lo fa. La domanda sulla mappa controlla lo stesso interruttore.
 
-## Linee Guida della Piattaforma
+## Linee guida delle piattaforme
 
-Vigilant Ear rispetta i requisiti di privacy dell'Apple App Store e le linee guida di Apple per le applicazioni destinate alle persone con esigenze di accessibilità. Aggiorniamo questa informativa quando cambiano le nostre pratiche o i nostri obblighi verso la piattaforma.
+Vigilant Ear segue i requisiti di privacy dell'Apple App Store e di Google Play, e le linee guida di ciascun fornitore per le app destinate alle persone con esigenze di accessibilità. Aggiorniamo questa informativa quando cambiano le nostre pratiche, o quando cambiano le regole di una piattaforma.
 
-## Modifiche alla Presente Informativa
+## Modifiche a questa informativa
 
-Potremmo aggiornare la presente Informativa sulla Privacy di tanto in tanto. Le modifiche sostanziali saranno riflesse aggiornando la **Data di entrata in vigore** in cima a questa pagina.
+Potremmo aggiornare di tanto in tanto la presente Informativa sulla Privacy. Una modifica sostanziale si mostra aggiornando la **Data di entrata in vigore** in cima a questa pagina.
 
 ## Contatti
 
-Se ha domande sulla presente Informativa sulla Privacy, ci contatti a:
+Se ha domande su questa Informativa sulla Privacy, ci contatti a:
 
 **E-mail:** [vigilantear@wingdingssocial.com](mailto:vigilantear@wingdingssocial.com)
 
 ---
 
-❤️ Vigilant Ear è costruito con amore e rispetto per la comunità Sorda, con problemi di udito e CODA. La sua fiducia è importante per noi.
+❤️ Vigilant Ear è costruito con amore e rispetto per la comunità delle persone sorde, ipoudenti e CODA. La sua fiducia è importante per noi.
 
 *Vigilant Ear è uno strumento di accessibilità costruito con cura. La preghiamo di usarlo in modo responsabile.*
 
@@ -164,5 +170,5 @@ Se ha domande sulla presente Informativa sulla Privacy, ci contatti a:
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   Tutti i diritti riservati.<br />
-  Brevetto in attesa di concessione
+  Patent Pending
 </p>

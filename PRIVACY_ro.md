@@ -1,6 +1,6 @@
 # Politică de confidențialitate pentru Vigilant Ear 👂🛰️
 
-**Data de intrare în vigoare:** 2 octombrie 2026
+**Data de intrare în vigoare:** 8 octombrie 2026
 
 ## Introducere
 
@@ -9,144 +9,150 @@ Vigilant Ear („noi”, „nouă” sau „al nostru”) se angajează să-ți 
 ## Confidențialitatea pe scurt
 
 - **Detectarea acustică de bază rulează pe dispozitivul tău.** Clasificarea sunetelor, urmărirea direcțională, subtitrările în direct și logica alertelor sunt concepute să funcționeze local, folosind microfonul și senzorii telefonului tău.
-- **Nu-ți vindem datele** și nu folosim SDK-uri de publicitate sau de analiză comportamentală.
-- **Nu stocăm și nu încărcăm înregistrări audio.** Audio-ul de la microfon e prelucrat în timp real pentru detectare și (când e activată) pentru subtitrări; nu e salvat niciodată ca fișier de sunet și nu e trimis pentru analiză în cloud. Până la vreo treizeci de secunde de sunet sunt ținute scurt în memoria de lucru a telefonului cât sunt transcrise — acel buffer scurt e ce le permite subtitrărilor să prindă primele cuvinte ale vorbitorului în loc să le piardă — și nu atinge niciodată stocarea, nu e transmis nicăieri și dispare în clipa în care se închide aplicația. Funcția Rewind aduce înapoi doar **textul** recent al subtitrărilor; niciun sunet nu e păstrat pentru redare.
-- **Unele funcții folosesc internetul** — hărți, fluxuri de vreme severă, identificarea opțională a muzicii, date stradale, cumpărături din magazinul de aplicații, trafic opțional de mesh între *dispozitivele tale*, încărcarea paginilor legale din aplicație și (doar dacă optezi) rapoartele Research Array. Sunt descrise mai jos.
-- **Tu rămâi la control.** Poți dezactiva identificarea muzicii Shazam, poți opri categoriile de alertă, poți lăsa Constellation oprit, poți lăsa **Research Array** oprit (e oprit implicit), poți revoca permisiunile în setările de sistem sau poți opri ascultarea în fundal oricând.
+- **Nu-ți vindem datele,** iar aplicația nu include publicitate sau instrumente de urmărire a utilizării.
+- **Nu stocăm și nu încărcăm înregistrări audio.** Audio-ul de la microfon e prelucrat în timp real pentru detectare și, când pornești subtitrările, pentru transformarea vorbirii în text. Nu e salvat niciodată ca fișier de sunet și nu e trimis nicăieri pentru analiză. Cât timp se scrie o subtitrare, telefonul ține în memoria de lucru până la circa treizeci de secunde de sunet, ca să nu se piardă cuvintele de la început și ca un rând care are nevoie de o clipă ca să se termine să poată fi totuși inclus. Tamponul acela nu e salvat, nu e transmis și dispare când închizi aplicația. Rewind aduce înapoi doar **textul** recent al subtitrărilor. Niciun sunet nu e păstrat pentru redare.
+- **Unele funcții folosesc internetul:** hărți, vreme, identificarea muzicii, date despre drumuri, cumpărături din magazinul de aplicații, pagini cum e politica aceasta, Constellation (care rămâne între propriile tale telefoane) și rapoartele Research Array cât timp funcția e pornită. Fiecare e descrisă mai jos.
+- **Tu rămâi la control.** Poți opri identificarea muzicii Shazam, poți opri categoriile de alertă, poți lăsa Constellation oprit, poți opri **Research Array** (e pornit până îl oprești), poți revoca permisiunile în setările de sistem sau poți opri ascultarea în fundal.
 
 ## Informații prelucrate pe dispozitivul tău
 
-Cu permisiunea ta, Vigilant Ear accesează următoarele **local**:
+Cu permisiunea ta, Vigilant Ear folosește următoarele **pe dispozitivul tău**:
 
-- **Audio de la microfon** — Folosit în timp real ca să detecteze sunetele din mediu (sirene, vehicule, sonerii, plâns de bebeluș, persoane în apropiere etc.), să estimeze direcția și (când Speaker Mode e pornit) să producă subtitrări în direct și traducere opțională pe dispozitiv.
-- **Recunoașterea vorbirii (pe dispozitiv)** — Când subtitrările sunt activate, framework-urile de vorbire ale dispozitivului tău transcriu vorbirea din apropiere în text pe telefon. Textul subtitrărilor e arătat în direct și nu e arhivat de Vigilant Ear ca istoric permanent de transcrieri; jurnalele de depanare nu includ conținutul subtitrărilor. Ca să scrie corect numele, aplicația poate da acelui recunoscător de pe dispozitiv o listă scurtă de cuvinte deja prezente pe acest telefon — numele afișate ale telefoanelor Constellation pe care le-ai legat, și titlul și artistul unei melodii pe care Shazam tocmai a identificat-o. **Nu** citește Contactele tale, iar lista aceea nu părăsește niciodată dispozitivul.
-- **Voci numite (opțional)** — Dacă numești un vorbitor, acel nume și o amprentă vocală scurtă rămân în depozitul criptat al acestui telefon și **nu-l părăsesc niciodată**. Nu există backup în cloud al vocilor.
-- **Locație** — Folosită ca să plaseze pe hartă sunetele detectate și zonele de alertă meteo, ca să îmbunătățească ghidarea direcțională și ca să-și amintească cât de liniștită e o cameră familiară, astfel încât detectarea muzicii să n-aibă nevoie să o reînvețe de fiecare dată când deschizi aplicația. Ultima folosire salvează o latitudine de una singură — fără longitudine — rotunjită la circa 100 de metri, pentru cel mult opt locuri. Rămâne în setările proprii ale aplicației pe acest telefon și nu e trimisă nicăieri.
-- **Orientarea și mișcarea dispozitivului** — Folosite ca să îmbunătățească acuratețea direcției.
-- **Cameră (opțional)** — Folosită doar dacă deschizi vederea AR a camerei „vezi sunetul”, ca marcajele să poată fi prinse în previzualizarea live a camerei. Cadrele camerei sunt folosite pentru afișare pe dispozitiv; nu sunt încărcate de Vigilant Ear pentru recunoașterea sunetelor.
-- **Apple Watch (opțional)** — Când e disponibil un companion Watch, etichetele de alertă și indiciile de direcție pot fi transmise către Watch-ul asociat, ca să poți arunca o privire la încheietură.
-- **Jurnalul sonor Witness Ear (opțional, oprit implicit)** — Când pornești Witness Ear, aplicația ține un jurnal rulant de **24 de ore, pe dispozitiv**, al clasificărilor de sunet (oră, etichetă, încredere, nivel de vârf, direcție când e măsurată și locația telefonului în acel moment; plus intrările partajate de telefoanele Constellation legate). Jurnalul e stocat doar în sandbox-ul privat al aplicației pe acest telefon și nu e încărcat niciodată de Vigilant Ear. Părăsește telefonul doar înăuntrul unui raport PDF pe care **tu** alegi să-l exporți și să-l partajezi. Intrările mai vechi de 24 de ore sunt șterse automat; oprirea Witness Ear pune pauză la jurnalizare (intrările păstrate tot îmbătrânesc), iar controlul de coș din aplicație șterge jurnalul imediat. Vezi ghidul Witness Ear pentru detalii.
+- **Audio de la microfon.** Folosit în timp real ca să detecteze sunetele din mediu (sirene, vehicule, sonerii, un bebeluș care plânge, oameni în apropiere și sunete asemănătoare), să estimeze direcția și, când Speaker Mode e pornit, să producă subtitrări în direct și traducere opțională pe dispozitiv.
+- **Recunoașterea vorbirii (pe dispozitiv).** Când subtitrările sunt pornite, instrumentele proprii de vorbire ale telefonului transformă vorbirea din apropiere în text. Textul subtitrărilor e arătat în direct. Vigilant Ear nu păstrează o transcriere permanentă. Textul subtitrărilor e scos dintr-un jurnal de depanare înainte să-l poți exporta sau să ni-l trimiți prin e-mail. Ca să scrie corect numele, aplicația poate da recunoscătorului acela de pe dispozitiv o listă scurtă de cuvinte deja aflate pe acest telefon: numele afișate ale telefoanelor Constellation pe care le-ai legat și titlul și artistul unei melodii pe care Shazam tocmai a identificat-o. Aplicația **nu** citește Contactele tale. Lista aceea nu părăsește niciodată dispozitivul.
+- **Name Called (opțional).** Numele pe care le pui pe listă ca aplicația să-ți spună când cineva le rostește: al tău, al copiilor tăi sau numele pe care îl strigă un barista. Sunt ținute criptate pe acest telefon, lăsate în afara copiilor de rezervă ale dispozitivului, verificate doar față de subtitrările în direct de pe dispozitiv și nu sunt trimise nicăieri.
+- **Locație.** Folosită ca să așeze pe hartă sunetele detectate și zonele de alertă meteo, ca să îmbunătățească ghidarea direcțională și ca să țină minte cât de liniștit e un loc familiar, astfel încât detectarea muzicii să nu trebuiască să-l învețe din nou de fiecare dată când deschizi aplicația. Folosirea aceea din urmă salvează o latitudine de una singură, fără longitudine, rotunjită la circa 100 de metri, pentru cel mult opt locuri. Rămâne în setările proprii ale aplicației, pe acest telefon, și nu e trimisă nicăieri.
+- **Orientarea și mișcarea dispozitivului.** Folosite ca să îmbunătățească direcția.
+- **Cameră (opțional).** Folosită doar dacă deschizi vederea camerei care arată marcajele de sunet în previzualizarea în direct. Cadrele acelea rămân pe dispozitiv. Vigilant Ear nu le încarcă pentru recunoașterea sunetelor.
+- **Apple Watch (opțional).** Când e disponibil un companion Apple Watch, etichetele de alertă și indiciile de direcție pot fi trimise către Apple Watch-ul asociat, ca să poți arunca o privire la încheietură.
+- **Jurnalul sonor Witness Ear (opțional, oprit implicit).** Când pornești Witness Ear, aplicația ține pe dispozitiv un jurnal rulant de **24 de ore**. Fiecare intrare înregistrează ora, ce sunet a fost, cât de sigură era aplicația, nivelul de vârf, direcția când a fost măsurată una și locația telefonului în acel moment. O intrare poate nota și dacă telefonul se încărca, stătea nemișcat sau reda audio, cât de precisă era determinarea locației și, pentru un sunet partajat de un telefon Constellation legat, numele și modelul telefonului acela. Jurnalul rămâne în stocarea privată a aplicației și nu e încărcat niciodată de Vigilant Ear. Părăsește telefonul doar în interiorul unui raport PDF pe care **tu** alegi să-l exporți și să-l partajezi. Intrările mai vechi de 24 de ore sunt șterse automat. Oprirea Witness Ear pune pauză jurnalizării, iar intrările păstrate continuă să expire. Controlul de coș din aplicație șterge jurnalul imediat. Vezi ghidul Witness Ear pentru detalii.
 
-Această prelucrare pe dispozitiv e inima aplicației. Aplicațiile concurente trimit adesea audio-ul în cloud pentru analiză și monetizare. Vigilant Ear e construit altfel: conducta ta de conștientizare acustică e concepută să ruleze pe telefonul însuși.
+Ascultarea, direcția și subtitrările sunt menite să ruleze pe telefon, pentru persoana care îl ține în mână.
 
 ## Rețea și servicii terțe
 
-Când folosești anumite funcții — sau când aplicația are nevoie de ele ca să funcționeze — **date limitate pot părăsi dispozitivul tău** și pot fi gestionate de servicii terțe după propriile lor politici de confidențialitate:
+Când folosești anumite funcții, sau când aplicația are nevoie de ele ca să funcționeze, **date limitate pot părăsi dispozitivul tău** și pot fi gestionate de servicii terțe după propriile lor politici de confidențialitate:
 
 *   **Afișarea hărții**
-    *   *Ce se trimite:* Cereri de dale de hartă; fereastra ta de hartă și locația aproximativă, atât cât e nevoie ca să deseneze harta
+    *   *Ce se trimite:* Cereri de dale de hartă, inclusiv partea de hartă de pe ecran și locația aproximativă necesară ca s-o deseneze
     *   *Furnizor:* Apple Maps / MapKit pe iPhone și iPad; Google Maps pe Android
 *   **Alerte de vreme severă (prin propriul nostru serviciu de alerte)**
-    *   *De ce există:* Avertizările oficiale vin de la agențiile naționale de meteorologie din lume. Fiecare telefon obișnuia să contacteze acele agenții direct — ceea ce însemna că fiecare putea vedea adresa de rețea a dispozitivului tău și cât de des verificai — iar fluxurile publice partajate, cu limite de cereri, au început să piardă alerte pe măsură ce baza noastră de utilizatori a crescut. Serverul nostru preia acum datele oficiale o dată, pentru toată lumea, și le ține circa **15 minute**. Aceleași avertizări oficiale, mai de încredere — și **telefonul tău nu contactează niciodată serverele unui guvern străin.** Începând doar cu v1.1.0 sau mai nou.
-    *   *Ce se trimite:* O cerere către serviciul nostru poartă doar codul de țară/regiune, limba aplicației tale și — cel mult — o celulă de locație pe care telefonul tău o rotunjește la circa **50 km (0,5°)** înainte să fie trimisă, folosită doar ca să taie răspunsul la alertele de lângă tine. Testul precis „sunt înăuntrul acestei zone de avertizare?” se întâmplă **pe telefonul tău** și nu iese niciodată de acolo. Nu e atașat niciun nume, cont sau identificator de dispozitiv. Ca la orice serviciu HTTPS, există jurnale standard de hosting de scurtă durată ca să-l operăm; nu sunt o funcție de urmărire și nu le vindem.
-    *   *Furnizor:* Date oficiale de la serviciile guvernamentale de meteorologie și de avertizare din peste 140 de țări și teritorii și de la serviciul de alertă de protecție civilă din Noua Zeelandă — livrate telefonului tău prin infrastructură pe care o operăm.
+    *   *De ce există:* Avertizările oficiale vin de la agențiile naționale de meteorologie. Fiecare telefon contacta înainte agențiile acelea direct, așa că o agenție putea vedea adresa de rețea a telefonului și cât de des verifica. Fluxurile publice acelea limitează câte cereri vor primi un răspuns, și au început să rateze alerte pe măsură ce mai mulți oameni foloseau aplicația. Releul nostru adună acum avertizările oficiale cam la fiecare **5 minute** și trimite copia ținută gata când telefonul tău o cere. Sunt aceleași avertizări oficiale. **Telefonul tău nu contactează un server guvernamental pentru ele.**
+    *   *Ce se trimite:* Cererea poartă limba aplicației tale, un număr de versiune pentru răspuns, o rază de 150 km și o locație pe care telefonul a rotunjit-o deja la circa **50 km (o jumătate de grad)**. Zona aproximativă aceea e folosită doar ca să limiteze răspunsul la avertizările de lângă tine. Testul precis „sunt eu înăuntrul avertizării acesteia?” are loc **pe telefonul tău**. Cererea nu include niciun nume, niciun cont și niciun identificator de dispozitiv.
+    *   *Ce păstrăm:* Serviciul nostru păstrează un registru de 30 de zile al acestor cereri: ora, care flux a răspuns și țara sau locul la care se referea cererea. Registrul salvat nu păstrează adresa de rețea, identificatorul dispozitivului și nici celula de locație însăși. E acolo ca să putem opera serviciul. Când telefonul tău arată o avertizare, raportează și câte a arătat pentru fiecare flux și nivel de avertizare (de exemplu, „două avertizări portocalii de la serviciul meteo al Japoniei”), ca să ne dăm seama dacă un flux ajunge la cineva. Numărătoarea aceea nu poartă niciun identificator de avertizare, nicio locație și niciun identificator de dispozitiv. Telefonul tău păstrează lista avertizărilor pe care le-a numărat deja. Există și jurnale obișnuite de găzduire, cu viață scurtă, cum există pentru orice serviciu web criptat. Nu folosim înregistrările acestea ca să-ți construim un profil și nu le vindem.
+    *   *Furnizor:* Date oficiale de la serviciile guvernamentale de meteorologie și de avertizare din peste 140 de țări și teritorii, livrate prin infrastructura pe care o operăm: releul Wingdings, Inc.
 *   **Alerte de cutremur (prin propriul nostru serviciu de alerte)**
-    *   *Ce se trimite:* Cereri către un singur flux public mondial de sinteză a cutremurelor, preluate prin același serviciu ca alertele meteo de mai sus, astfel încât telefonul tău nu contactează serverele unui guvern străin nici pentru acestea — cererea nu poartă nicio informație de locație sau regiune; locația dispozitivului tău e folosită doar pe dispozitiv ca să decidă dacă un cutremur raportat e lângă tine
-    *   *Furnizor:* Fluxul public oficial de cutremure, retransmis de Wingdings
+    *   *Ce se trimite:* O cerere pentru o singură listă publică de cutremure, la nivel mondial, prin același releu ca alertele meteo de mai sus, astfel încât telefonul tău să nu contacteze un server guvernamental nici pentru acestea. Cererea nu poartă nicio locație și nicio regiune. Telefonul tău decide singur dacă un cutremur raportat este aproape de tine.
+    *   *Furnizor:* Fluxuri publice oficiale de cutremure, cum este USGS, retransmise de Wingdings, Inc.
 *   **Radar meteo**
-    *   *Ce se trimite:* Când radarul este pornit, o cerere pentru lista imaginilor radar, apoi plăcile de imagine pentru partea de hartă de pe ecran. Fiecare cerere de placă indică un nivel de zoom și un pătrat al hărții — la zoomul cel mai apropiat, un pătrat cu latura de aproximativ 40 km — și ora imaginii radar. Nimic altceva: niciun identificator, niciun cont, nicio dată de detecție.
-    *   *Sursă:* Imagini radar și satelitare de la serviciile meteorologice naționale (fiecare listat cu licența sa la [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), livrate pe telefonul tău printr-o infrastructură pe care o operăm noi, astfel încât cererile tale nu contactează niciodată servere guvernamentale.
-    *   *Furnizor:* Wingdings
+    *   *Ce se trimite:* Când radarul e pornit, o cerere pentru lista imaginilor radar, apoi dalele de imagine pentru partea de hartă de pe ecran. Fiecare cerere de dală numește un nivel de zoom, un pătrat al hărții și ora acelei imagini. La cel mai apropiat zoom, pătratul măsoară cam 40 km. În unele țări cea mai apropiată imagine e mai grosieră, așa că pătratul e mai mare. Nu e inclus nimic altceva: niciun identificator, niciun cont și niciun fel de date de detecție.
+    *   *Sursă:* Imagini radar și satelit de la serviciile naționale de meteorologie (fiecare listată cu licența ei la [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), livrate prin releul nostru Wingdings, astfel încât telefonul tău să nu contacteze agențiile acelea direct.
+    *   *Furnizor:* Wingdings, Inc.
 *   **Lista de ajutor (colacul de salvare de pe hartă)**
-    *   *Ce se trimite:* Când o deschizi: un cod de țară din două litere (din locația ta, dacă aplicația o are, altfel din setarea de regiune a telefonului) și limba aplicației, ca lista să arate numărul de urgență și organizațiile potrivite.
-    *   *Furnizor:* Wingdings
-*   **Descărcarea pentru Suport pentru subtitrări (iPhone-uri cu cel puțin 8 GB de memorie)**
-    *   *Ce se trimite:* Cereri web obișnuite pentru descărcarea unică a modelelor de recunoaștere a vorbirii (circa 1 GB) și o listă a acestor fișiere. Nu se trimite nimic despre tine, locația ta sau sunetul tău; după descărcare, modelele rulează pe dispozitiv, ca restul subtitrării.
-    *   *Furnizor:* Wingdings, prin Cloudflare
+    *   *Ce se trimite:* Când o deschizi, un cod de țară din două litere (din locația ta, dacă aplicația o are, altfel din setarea de regiune a telefonului tău) și limba aplicației tale, ca lista să poată arăta numărul de urgență relevant și organizațiile.
+    *   *Furnizor:* Wingdings, Inc.
+*   **Descărcarea Suport pentru subtitrări (iPhone-uri cu cel puțin 8 GB de memorie)**
+    *   *Ce se trimite:* Cereri web obișnuite pentru o descărcare unică a modelelor de recunoaștere a vorbirii (circa 1 GB) și pentru lista acelor fișiere. Nu e inclus nimic despre tine, despre locația ta sau despre audio-ul tău. Odată descărcate, modelele rulează pe dispozitiv, cum face și restul subtitrării.
+    *   *Furnizor:* Wingdings, Inc. prin Cloudflare
 *   **Identificarea muzicii (opțional, Power Pack+)**
-    *   *Ce se trimite:* Amprente audio scurte — niciodată audio brut — când e detectată muzică și Shazam e activat (poate fi oprit în setări)
+    *   *Ce se trimite:* O amprentă audio scurtă, niciodată înregistrarea însăși, când e detectată muzică și Shazam e pornit. Poți opri asta în setări.
     *   *Furnizor:* Apple Shazam / ShazamKit
-*   **Context stradal**
-    *   *Ce se trimite:* **Latitudinea și longitudinea dumneavoastră exacte**, într-o interogare despre ce drumuri se află la câteva sute de metri de dumneavoastră, astfel încât vehiculele detectate să poată fi plasate pe drumul pe care se află cu adevărat, nu în mijlocul unui câmp. Aceasta este o poziție precisă, nu o celulă rotunjită — spre deosebire de cererea meteo de mai sus, care este intenționat aproximativă. Nu se atașează niciun nume, cont sau identificator de dispozitiv și nu se include nimic din ceea ce a auzit telefonul.
-    *   *Furnizor:* Contribuitorii OpenStreetMap prin API-ul public Overpass
+*   **Context rutier**
+    *   *Ce se trimite:* O poziție pe care telefonul a rotunjit-o la circa **110 de metri**, înăuntrul unei cereri pentru drumurile aflate la cel mult **500 de metri** de punctul acela, ca un vehicul detectat să poată fi așezat pe drumul pe care se află de fapt. Cererea nu include niciun nume, niciun cont și niciun identificator de dispozitiv, și nimic despre ce a auzit telefonul.
+    *   *Furnizor:* Contribuitorii OpenStreetMap, prin API-ul public Overpass
 *   **Rutare rutieră**
-    *   *Ce se trimite:* **Latitudinea și longitudinea dumneavoastră exacte**, împreună cu poziția unui sunet urmărit, pentru ca pe hartă să poată fi trasată o rută rutieră între cele două. Din nou o poziție precisă, fără identificator și fără nimic despre detecția în sine.
-    *   *Furnizor:* Serviciul public de rutare OSRM (project-osrm.org)
+    *   *Ce se trimite:* Poziția ta și poziția unui sunet urmărit, ca pe hartă să se poată desena un traseu de condus între ele. Pozițiile acestea sunt trimise la precizia pe care o are telefonul, care e mai fină decât cererea de context rutier de mai sus. Nu e atașat niciun nume sau cont, și nu e inclus nimic despre detecția însăși.
+    *   *Furnizor:* Apple Maps / MapKit pe iPhone și iPad
 *   **Cumpărături și drepturi**
-    *   *Ce se trimite:* Tokenuri de cumpărare și starea drepturilor / a perioadei de probă pentru deblocarea unică opțională Power Pack+ (nu un abonament)
+    *   *Ce se trimite:* Tokenuri de cumpărare și starea dreptului sau a perioadei de probă pentru deblocarea opțională Power Pack+, făcută o singură dată (nu un abonament)
     *   *Furnizor:* Apple App Store pe iPhone și iPad; Google Play Billing pe Android
-*   **Mesh Constellation (opțional, Power Pack+)**
-    *   *Ce se trimite:* Când activezi Constellation pe mai multe telefoane, dispozitivele participante schimbă metadate acustice necesare pentru o imagine partajată — de exemplu poziție relativă / telemetrie Ultra-Wideband acolo unde e disponibilă, direcții, etichete de sunet și text efemer de subtitrare. Traficul e peer-to-peer **doar între telefoanele care rulează Vigilant Ear și pe care le legi pentru Constellation**. Telefoanele fără aplicație nu se pot alătura acelei mesh și nu pot primi acele metadate. Wingdings nu operează un releu mesh în cloud pentru această conductă audio.
-    *   *Furnizor:* Framework-uri Apple (de ex. Network / Nearby Interaction) între dispozitivele tale Vigilant Ear **Constellation este o funcție pentru iPhone și iPad; aplicația Android nu o implementează**, așa că un telefon Android nici nu se alătură acelei rețele, nici nu schimbă aceste metadate.
-*   **Remote Link (opțional — pornirea unui link are nevoie de Power Pack+; alăturarea e gratuită)**
-    *   *De ce există:* O persoană surdă sau hipoacuzică nu poate folosi un apel telefonic. Remote Link e substitutul — un apel privat doar video, cu date de subtitrare: două persoane se văd, citesc subtitrările și textul tastat una alteia și pot semna una către cealaltă prin video.
-    *   *Ce se trimite:* **Niciun audio, în niciun moment** — o sesiune Remote Link nu poartă nicio pistă audio. Cele două telefoane vorbesc între ele, nu cu noi: video-ul în direct, subtitrările tale în direct ca text și tot ce tastezi călătoresc **direct între cele două telefoane** oriunde rețelele permit, criptate cap-la-cap, astfel încât nimic pe drum nu poate privi sau citi apelul. Ca să stabilești un link, serviciul nostru ține codul de invitație împreună cu detaliile de conexiune de care au nevoie cele două telefoane ca să se găsească. Acea cutie poștală nu ține **nici video, nici text** și expiră într-o oră.
-    *   *Subtitrări:* Când telefonul tău ascultă, subtitrările pe care le produce sunt trimise telefonului legat ca text, în limba în care au fost auzite; acel telefon le traduce în limba propriului cititor, pe dispozitiv. Asta călătorește pe aceeași conexiune criptată ca video-ul — niciodată prin serverele noastre. **Pauză** oprește trimiterea video-ului și a subtitrărilor împreună, iar subtitrările se opresc cu totul când încetezi să asculți.
-    *   *Dacă o conexiune directă e imposibilă:* când cele două telefoane nu pot ajunge unul la altul direct — rețele diferite, un router strict — video-ul, subtitrările și textul criptate sunt înaintate de un releu care **nu le poate decripta**. Releul vede totuși că există o conexiune, adresele de rețea implicate și cât trafic trece — cum trebuie orice releu — și nimic mai mult. Aplicația arată limpede dacă un link e **Direct** sau **Relayed**. Un link Relayed se închide singur după o oră.
-    *   *Nimic nu e înregistrat:* niciun video, audio sau text dintr-un Remote Link nu e scris pe disc pe niciunul dintre telefoane, sau stocat pe vreun server.
-    *   *Furnizor:* Wingdings (cutia de invitații), Cloudflare (releu — folosit doar când o conexiune directă e imposibilă)
-*   **Documente legale din aplicație**
-    *   *Ce se trimite:* Cereri web standard când deschizi Politica de confidențialitate, Termenii, Suportul sau paginile README ale produsului în aplicație
-    *   *Furnizor:* GitHub (găzduirea documentelor)
+*   **Mesh-ul Constellation (opțional, Power Pack+)**
+    *   *Ce se trimite:* Când pornești Constellation, telefoanele pe care le legi schimbă între ele ce le trebuie pentru o singură imagine comună. Asta include cum sunt îndreptate telefoanele unele față de altele, distanța Ultra-Wideband acolo unde telefoanele o suportă, azimuturile, etichetele de sunet, unde a fost așezat fiecare sunet pe hartă, textul subtitrărilor în direct, numele afișat setat pe fiecare telefon și o semnătură a fiecărei voci, ca aceeași persoană să păstreze același număr și aceeași culoare pe fiecare telefon legat. Semnăturile vocale acelea sunt ținute doar în memoria de lucru a telefoanelor. Nu sunt salvate și nu sunt trimise nicăieri în afară de telefoanele pe care le-ai legat.
+    *   *Cine se poate alătura:* Doar telefoane care rulează Vigilant Ear și pe care le legi pentru Constellation. Un telefon fără aplicație nu se poate alătura și nu poate primi informațiile acestea. Wingdings nu operează un releu în cloud pentru asta.
+    *   *Cum este protejat:* Fiecare legătură cade de acord asupra unei chei noi de criptare care există doar în memoria celor două telefoane (X25519). Fiecare mesaj e criptat cu cheia aceea (ChaCha20-Poly1305). Cheia e aruncată când conexiunea se încheie.
+    *   *Furnizor:* Framework-urile Network și Nearby Interaction ale Apple, între dispozitivele tale Vigilant Ear. **Constellation este o funcție pentru iPhone și iPad. Aplicația Android nu o include.**
+*   **Remote Link (opțional. Pornirea unei legături are nevoie de Power Pack+; alăturarea e gratuită)**
+    *   *De ce există:* O persoană surdă sau hipoacuzică nu poate folosi un apel vocal. Remote Link este o conversație video privată, cu subtitrări. Două persoane se văd, citesc subtitrările și textul tastat una alteia și pot semna pe video.
+    *   *Ce se trimite:* **Niciun audio, în niciun moment.** O sesiune Remote Link nu are pistă audio. Unde rețeaua permite, video-ul în direct, textul subtitrărilor și orice tastezi merg **direct între cele două telefoane**, criptate de la un capăt la altul, astfel încât nimic de pe traseu nu poate privi sau citi apelul. Ca să stabilească legătura, serviciul nostru ține codul de invitație și detaliile de conexiune de care au nevoie telefoanele ca să se găsească. Cutia poștală aceea nu ține **niciun video și niciun text**. Expiră după circa cinci minute. Odată ce telefoanele sunt conectate, apelul nu mai depinde de ea. Ca să limiteze abuzul, serviciul păstrează adresa de rețea a telefonului care creează un cod timp de până la o oră și numără câte legături sunt pornite și la câte se alătură cineva. Numărătoarea nu poartă nicio adresă, niciun cod și niciun identificator de dispozitiv.
+    *   *Subtitrări:* Fiecare telefon scrie subtitrarea vorbirii pe care o aude și trimite textul acela celuilalt telefon, în limba în care a auzit vorbirea. Telefonul care primește îl traduce, pe dispozitiv, în limba cititorului. Asta folosește aceeași conexiune criptată ca video-ul și nu trece prin serverele noastre. **Pauză** oprește trimiterea video-ului și a subtitrărilor deodată. Subtitrările se opresc și când oprești ascultarea.
+    *   *Dacă telefoanele nu se pot conecta direct:* Când sunt departe unul de altul, pe rețele diferite sau în spatele unui router care nu permite o conexiune directă, video-ul criptat, subtitrările și textul sunt înaintate de un releu care **nu le poate citi**. Releul poate vedea că există o conexiune, adresele de rețea implicate și cât de multe date trec, cum trebuie să vadă orice releu, și nimic mai mult. Aplicația arată dacă o legătură este **Direct** sau **Relayed**. O legătură Relayed se închide singură după o oră. O legătură Direct nu are limita aceasta.
+    *   *Nu se înregistrează nimic:* Niciun video, niciun audio și niciun text dintr-un Remote Link nu e scris în stocare pe niciunul dintre telefoane și nu e stocat pe niciun server.
+    *   *Furnizor:* Wingdings, Inc. (cutia poștală pentru invitații) și Cloudflare (releul, folosit doar când o conexiune directă nu e posibilă)
+*   **Documente legale în aplicație**
+    *   *Ce se trimite:* Cereri web obișnuite când deschizi în aplicație paginile Politica de confidențialitate, Termeni, Asistență sau README-ul produsului
+    *   *Furnizor:* Wingdings, Inc.
 *   **Harta în direct Research Array (doar vizualizare)**
-    *   *Ce se trimite:* Cereri web standard când atingi **Map** ca să deschizi tabloul de bord public al rețelei în browser — ca atunci când vizitezi orice site. Vizualizarea nu trimite nimic din jurnalul sau detecțiile tale.
-    *   *Furnizor:* Serviciul de cercetare Wingdings (gazda aplicației web)
-*   **Research Array (opțional — oprit implicit)**
-    *   *Ce se trimite:* Doar dacă pornești funcția: rapoarte mici, doar metadate, de detecție, când e înregistrat un eveniment eligibil (oră, locație aproximativă, caracteristici de bază ale semnalului, versiunea aplicației). Vezi **Research Array** mai jos.
-    *   *Furnizor:* Infrastructură pe care o operăm (gazda aplicației și furnizori de baze de date, cum ar fi gazdele noastre web și Postgres). Detaliile și limitele sunt în secțiunea Research Array.
+    *   *Ce se trimite:* Cereri web obișnuite când atingi **Hartă** ca să deschizi în browser tabloul de bord public al rețelei, la fel ca atunci când vizitezi orice site. Vizualizarea nu trimite nimic din jurnalul tău sau din detecțiile tale.
+    *   *Furnizor:* Wingdings, Inc.
+*   **Research Array (pornit până îl oprești)**
+    *   *Ce se trimite:* Un raport mic, numai cu metadate, când telefonul înregistrează un eveniment care se califică: ora, o locație aproximativă, fapte de bază despre semnal și versiunea aplicației. Vezi **Research Array** mai jos.
+    *   *Furnizor:* Wingdings, Inc.
 
-Alegem aceste servicii ca să livrăm funcțiile de hartă, meteo, etichetă muzicală, cumpărături, multi-dispozitiv și (când optezi) Research Array. **Wingdings nu primește de la acești furnizori audio-ul microfonului tău, istoricul continuu al locației sau informațiile de contact.**
+Folosim serviciile acestea pentru hărți, vreme, titluri de muzică, cumpărături, telefoane legate și rapoartele Research Array cât timp funcția aceea e pornită. **Wingdings nu primește, de la furnizorii aceștia, audio-ul microfonului tău, un istoric continuu al locației sau contactele tale.**
 
-## Ce colectează Wingdings
+## Ce colectăm (și ce nu colectăm)
 
-### Fără telemetrie sau diagnosticare la distanță
+### Fără rapoarte de blocare de la distanță sau urmărire a utilizării
 
-Vigilant Ear e conceput astfel încât funcțiile de bază de ascultare și subtitrare să ruleze pe dispozitivul tău. **Nu** colectăm analize de crash la distanță, telemetrie publicitară sau SDK-uri generale de analiză a folosirii.
+Ascultarea de bază și subtitrările rulează pe dispozitivul tău. **Nu** colectăm rapoarte de blocare de la distanță, date de publicitate sau statistici generale de utilizare.
 
-Jurnale opționale de depanare **locale** pot fi scrise pe dispozitiv pentru depanare; nu sunt încărcate de aplicație ca o conductă de telemetrie, iar textul subtitrărilor nu e inclus în conținutul de depanare exportat.
+Aplicația poate păstra jurnale de depanare **locale** pe dispozitiv, pentru depanare. Aplicația nu le încarcă. Textul subtitrărilor e scos dintr-un jurnal înainte ca acesta să poată fi exportat. Poți alege să ne trimiți un jurnal prin e-mail.
 
-**Excepție — Research Array și cache-ul meteo european:** dacă optezi pentru Research Array (vezi mai jos), Wingdings poate primi rapoartele limitate de eveniment pe care alegi să le contribui. Separat, când alertele meteo europene sunt activate, telefonul tău le citește din cache-ul meteo pe care îl operăm (descris mai sus); acele cereri poartă o celulă de locație grosieră de ~50 km și niciun identificator personal sau de dispozitiv. Niciuna dintre căi nu e analiză publicitară, și ambele există ca să facă o funcție anume să meargă — nu ca să construiască un profil al tău.
+**Research Array și serviciile noastre.** Cât timp Research Array e pornit, Wingdings primește rapoartele limitate de evenimente descrise mai jos. Separat, unele funcții vorbesc cu serverele pe care le operăm: alertele meteo și de cutremur, radarul meteo, lista de ajutor, descărcarea Suport pentru subtitrări și stabilirea unui Remote Link. Cererile acelea nu poartă niciun cont și niciun identificator personal. Cererea meteo include, cel mult, o locație rotunjită la circa 50 km. Nimic din toate acestea nu e publicitate. Fiecare cerere există ca să facă să meargă o singură funcție.
 
-## Research Array (opțional, oprit implicit)
+## Research Array (pornit până îl oprești)
 
-Vigilant Ear poate contribui opțional rapoarte de detecție **doar metadate** către o rețea de cercetare care ajută să construiască o imagine partajată a cutremurelor și a altor evenimente de joasă frecvență / legate de infrasunet. **Asta e oprită implicit și rulează doar dacă o pornești** — acolo unde comutatorul **Research Array** apare în preferințele aplicației (sau eticheta echivalentă în limba ta), îl poți porni sau opri oricând. Vizualizarea paginii publice **Map** a rețelei e separată de contribuție și nu partajează nimic din jurnalul tău.
+Vigilant Ear poate contribui cu rapoarte **numai cu metadate** la o rețea de cercetare, ca să ajute la construirea unei imagini comune a cutremurelor și a altor sunete foarte joase, inclusiv a vuietelor de sub intervalul auzului.
 
-Când e pornită — și doar când dispozitivul tău înregistrează un eveniment **eligibil** (de exemplu un candidat destul de puternic de infrasunet non-local sau legat de seismic, sau anumite semnale de audit legate de cutremur acolo unde acea cale e activată) — aplicația poate trimite un raport mic care conține:
+**Comutatorul e pornit până îl oprești.** Prima dată când folosești o versiune care include asta, dacă nu ai setat niciodată comutatorul tu însuți, aplicația îl pornește și întreabă pe hartă: „Vrei să participi anonim la serviciul nostru de cercetare a cutremurelor?” Nu se trimite nimic până nu a apărut întrebarea aceea. După ce a apărut, rapoartele pot fi trimise cât timp comutatorul rămâne pornit, inclusiv cât timp încă te hotărăști. Atinge **Particip!** ca să continui să contribui. **Nu** așteaptă câteva secunde și apoi oprește comutatorul. Atinge-l din nou în timpul așteptării ca să anulezi. Îl poți opri și în Preferences, oricând. Deschiderea paginii publice **Hartă** e separată de contribuire, iar vizita aceea nu partajează nimic de pe telefonul tău.
 
-- ora evenimentului (folosind ceasul de perete al dispozitivului într-un domeniu de timp global)
-- o locație aproximativă, rotunjită la circa **1 kilometru** (nu adresa ta exactă de stradă sau o urmă continuă)
-- caracteristici de bază ale evenimentului, cum ar fi canalul senzorului, dacă calea e aer sau sol, frecvența de vârf acolo unde se aplică și o măsură adimensională de intensitate (de exemplu STA/LTA)
-- tipul de raport (de exemplu debut de infrasunet, candidat seismic sau audit de confirmare de cutremur)
+Cât timp comutatorul e pornit, și doar când telefonul înregistrează un eveniment **care se califică**, aplicația poate trimite un raport mic. Un eveniment care se califică este un vuiet destul de puternic care nu pare să vină din încăperea din jurul tău, un posibil semnal seismic sau o notă că telefonul a arătat o confirmare oficială de cutremur. Raportul conține:
+
+- ora evenimentului, de la ceasul telefonului, în timp universal
+- o locație aproximativă, rotunjită la circa **1 kilometru**, nu o adresă de stradă și nu o urmă continuă
+- câteva fapte despre semnal: dacă telefonul l-a auzit în aer sau l-a simțit ca mișcare, frecvența principală atunci când există una și cât de brusc a fost începutul
+- felul raportului (un debut de frecvență joasă, un candidat seismic sau o confirmare oficială de cutremur)
 - versiunea aplicației
 
-**Ce nu se trimite niciodată pentru Research Array:** audio, forme de undă, înregistrări, transcrieri, subtitrări, contacte, identificatori pe care aplicația îi inventează ca să te eticheteze *pe tine* ca persoană sau instalare, fixul tău GPS precis (dincolo de rotunjirea grosieră de mai sus) sau orice înregistrare continuă a unde te duci. Audio-ul nu părăsește niciodată dispozitivul tău, nici pentru asta, nici pentru orice alt scop.
+**Ce nu include niciodată un raport Research Array:** audio, forme de undă, înregistrări, transcrieri, subtitrări, contacte, orice identificator pe care aplicația îl creează pentru tine sau pentru instalarea aceasta, poziția ta GPS precisă (mai fină decât rotunjirea de mai sus) sau o evidență continuă a locurilor pe unde mergi. Nicio funcție nu încarcă o înregistrare. Identificarea muzicii, când lași Shazam pornit, trimite o amprentă a sunetului, nu sunetul însuși.
 
-### Unde merg rapoartele
+### Unde ajung rapoartele
 
-Rapoartele sunt trimise doar pe un **canal criptat (HTTPS)** către un serviciu de cercetare Wingdings pe care îl operăm (gazda aplicației și baza de date). Aplicația nu atașează **niciun ID de cercetare per utilizator sau per dispozitiv** și **niciun identificator de Apple Account** în payload. Un secret de aplicație partajat poate fi folosit astfel încât doar aplicația noastră să poată scrie la serviciu; acel secret **nu** e un identificator personal. Pot exista jurnale standard de hosting și securitate (de exemplu metadate de rețea de scurtă durată folosite ca să operăm serviciul), ca la orice serviciu HTTPS; nu sunt o funcție de produs ca să te urmărească, și nu le vindem.
+Rapoartele sunt trimise printr-o conexiune **criptată (HTTPS)** către serviciul de cercetare Wingdings pe care îl operăm. Raportul nu include **niciun ID de cercetare per persoană sau per dispozitiv** și **niciun identificator de cont Apple sau Google**. Poate fi folosit un secret comun al aplicației, ca doar aplicația noastră să poată trimite rapoarte. Secretul acela nu te identifică. Pot exista jurnale obișnuite de găzduire, cum sunt înregistrările de rețea cu viață scurtă, necesare ca să funcționeze serviciul. Nu sunt o funcție de produs menită să te urmărească și nu le vindem.
 
-Oprirea **Research Array** oprește **toate rapoartele viitoare** imediat. **Nu** șterge rapoartele deja trimise. Pentru că rapoartele nu poartă **niciun identificator per utilizator sau per dispozitiv**, nu putem căuta sau șterge „tot ce ai contribuit” după fapt — n-avem niciun mod de încredere să știm care rapoarte din trecut au venit de la tine. Asta e intenționat: ține fluxul de cercetare să nu devină un istoric personal sub controlul nostru.
+Oprirea **Research Array** oprește **imediat toate rapoartele viitoare**. Ea **nu** șterge rapoartele deja trimise. Pentru că un raport nu poartă **niciun identificator per persoană sau per dispozitiv**, nu putem căuta „tot ce ai contribuit” ca să-l ștergem mai târziu. Nu avem o cale de încredere să știm care rapoarte din trecut au venit de la tine. Asta e intenționat. Împiedică fluxul de cercetare să devină un istoric personal pe care l-am putea reconstrui.
 
-## Ce nu facem
+## Ce evităm
 
-Noi **nu**:
+**Nu**:
 
-- Vindem sau închiriem informațiile tale personale
-- Stocăm înregistrări audio de mediu pe serverele noastre
-- Operăm rețele de reclame, trackere între aplicații sau SDK-uri de profilare comportamentală
-- Încărcăm urma ta continuă de locație către Wingdings
-- Încărcăm audio brut de la microfon pentru recunoaștere vocală sau de sunet în cloud
-- Cerem Research Array pentru funcțiile de bază ale aplicației — e opțional și oprit implicit
+- vindem sau închiriem informațiile tale personale
+- înregistrăm sau stocăm audio de la microfon pe serverele noastre
+- rulăm rețele de publicitate, urmăritori între aplicații sau instrumente care profilează cum folosești alte aplicații
+- încărcăm către Wingdings o urmă continuă a locației tale
+- încărcăm audio brut de la microfon pentru recunoașterea vorbirii sau a sunetelor în cloud
+- cerem Research Array ca restul aplicației să funcționeze. Oprirea lui lasă disponibile toate celelalte funcții.
+
+Informațiile pe care aplicația le păstrează pe telefon, cum sunt jurnalul sonor și lista Name Called, sunt descrise mai sus. Nu sunt o copie pe care o ținem noi.
 
 ## Alegerile și controalele tale
 
 Poți:
 
-- **Revoca permisiunile** (microfon, locație, cameră, notificări, recunoașterea vorbirii) în Setările iOS, sau în Setările Android la Aplicații → Vigilant Ear → Permisiuni
-- **Dezactivează identificarea muzicii Shazam** în Power Pack+ / preferințe
-- **Opri categorii individuale de alertă** (sirene, meteo, sonerii, bebeluș etc.)
-- **Opri ascultarea în fundal** când toate categoriile de alertă sunt dezactivate
-- **Lăsa Constellation oprit** astfel încât nicio metadată de mesh să nu fie partajată cu alte telefoane care rulează Vigilant Ear. Telefoanele fără aplicație nu pot partaja acele metadate.
-- **Lăsa Research Array oprit** (implicit), sau să-l oprești oricând în Setări ca să nu mai contribui rapoarte
-- **Folosi Feature Playground** ca să previzualizezi alerte și funcții local, cu o filigrană PREVIEW clară, fără a implica o urgență reală
+- **Revoca permisiunile de sistem** pentru microfon, locație, cameră, notificări și recunoașterea vorbirii. Pe iPhone sau iPad, deschide Settings → Aplicații → Vigilant Ear. Poți schimba permisiunile acelea și la Settings → Privacy & Security. Pe Android, deschide Settings → Aplicații → Vigilant Ear → Permisiuni.
+- **Opri identificarea muzicii Shazam** în Power Pack+ / Preferences
+- **Opri categoriile individuale de alertă** (sirene, vreme, sonerii, bebeluș și celelalte)
+- **Lăsa microfonul să doarmă în fundal**, oprind alertele sonore: sirene, alarme, bătăi și sonerii, bebeluș și oameni în apropiere. Alertele de vreme și de cutremur nu țin microfonul pornit.
+- **Lăsa Constellation oprit,** ca nicio informație de mesh să nu fie partajată cu alte telefoane care rulează Vigilant Ear. Un telefon fără aplicație nu poate primi informația aceea.
+- **Opri Research Array** oricând, în Preferences. Rămâne pornit până îl oprești. Întrebarea de pe hartă controlează același comutator.
 
-## Linii directoare ale platformei
+## Linii directoare ale platformelor
 
-Vigilant Ear urmează cerințele de confidențialitate ale Apple App Store și ghidurile Apple pentru aplicațiile destinate persoanelor cu nevoi de accesibilitate. Actualizăm această politică când practicile noastre sau obligațiile față de platformă se schimbă.
+Vigilant Ear urmează cerințele de confidențialitate ale Apple App Store și ale Google Play, precum și liniile directoare ale fiecărui furnizor pentru aplicațiile care servesc persoane cu nevoi de accesibilitate. Actualizăm politica aceasta când practicile noastre se schimbă sau când se schimbă regulile unei platforme.
 
 ## Modificări ale acestei politici
 
-Putem actualiza această Politică de confidențialitate din când în când. Modificările substanțiale vor fi reflectate actualizând **Data de intrare în vigoare** din capul acestei pagini.
+Putem actualiza din când în când această Politică de confidențialitate. O modificare substanțială se arată prin actualizarea **Datei de intrare în vigoare** din capul paginii acesteia.
 
 ## Contactează-ne
 
@@ -156,13 +162,13 @@ Dacă ai întrebări despre această Politică de confidențialitate, contacteaz
 
 ---
 
-❤️ Vigilant Ear e construit cu dragoste și respect pentru comunitatea surzilor, hipoacuzicilor și CODA. Încrederea ta contează pentru noi.
+❤️ Vigilant Ear este construit cu dragoste și respect pentru comunitatea persoanelor surde, hipoacuzice și CODA. Încrederea ta contează pentru noi.
 
-*Vigilant Ear este un instrument de accesibilitate construit cu grijă. Folosește-l responsabil.*
+*Vigilant Ear este un instrument de accesibilitate construit cu grijă. Te rugăm să-l folosești responsabil.*
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   Toate drepturile rezervate.<br />
-  Brevet în curs de înregistrare
+  Patent Pending
 </p>
