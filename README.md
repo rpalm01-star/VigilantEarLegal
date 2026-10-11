@@ -4,18 +4,18 @@
 
 ## An acoustic radar for people who can't hear.
 
-An app built specifically for the Deaf, hard-of-hearing, and CODA community. Most sound-recognition apps tell you *what* a sound is. **Vigilant Ear tells you where it is, who's making it, and what they're saying** — turning an iPhone into a real-time sonic tricorder that describes the sound around you.
+An app built specifically for the Deaf, hard-of-hearing, and CODA community. Most sound-recognition apps tell you *what* a sound is. **Vigilant Ear tells you where it is, who's making it, and what they're saying** — turning an iPhone into a device that describes the sound around you as it happens.
 
 A siren's direction and distance. A knock behind you. The people in a conversation, drawn as separate transcribed voices — each one captioned and directionally placed. If someone is speaking a language you don't read, their words can arrive **translated into yours.** Alerts reach your **Lock Screen, Dynamic Island, and Apple Watch** so a glance is enough.
 
-Everything that matters runs on the device. Audio is not recorded or uploaded for recognition. Nothing depends on hearing a thing.
+Everything that matters runs on the device. Audio is not recorded or uploaded for recognition. Nothing depends on a human ear hearing anything.
 
 - 🧭 **Direction, not just detection.** *What, where, who,* and *what was said* — not merely “a sound happened.”
-- 📣 **Name Called.** List your name, a kid, a partner — “order for Marie ready” taps the watch and points which way.
+- 📣 **Name Called.** List your name, a kid, or a partner — “order for Marie ready” alerts the phone and the watch, and points which way.
 - 🔒 **Private by design.** Classification, captioning, and translation run on your iPhone. Captions are live and ephemeral; they are not saved as a transcript archive.
 - ⌚ **On your wrist and Lock Screen.** Apple Watch direction companion + Live Activity keep the last alert and which way it came from one look away.
-- 🛰️ **More phones, one shared ear.** Constellation links Ultra-Wideband iPhones to fuse what each one hears into a sharper directional picture.
-- 👁️ **Made for Deaf / HoH / CODA.** Distinct haptics, high-contrast visuals, color-independent cues, large tap targets, and Reduce Motion respect throughout.
+- 🛰️ **More phones, one shared ear.** Our Constellation mesh links Ultra-Wideband iPhones to fuse what each one hears into a sharper directional picture.
+- 👁️ **Made for Deaf / HoH / CODA.** Distinct haptics, high-contrast visuals, color-independent cues, large tap targets, and Reduce Motion throughout.
 
 ---
 
@@ -32,43 +32,52 @@ Everything that matters runs on the device. Audio is not recorded or uploaded fo
 ## What it does
 
 ### 🧭 It sees sound — direction & distance
-Using the iPhone's two microphones, Vigilant Ear measures the **angle of a sound and whether it is ahead of you or behind you**, holds that reading steady to about a degree, and places it as a live marker on a heading-up radar ring and map. Two microphones on one line can't tell left from right on their own — a sound 50° to your right and one 50° to your left arrive with the same tiny time gap — so the app draws the reading plus a **fainter ghost on the other side**, and a turn of the wrist or a second phone settles it. Distance is estimated from loudness against a street-calibrated curve and shown as the estimate it is: *≈ 50 ft*, with a likely range — in the units of the country you are in, not of the language you read the app in. Move, and the markers hold their real-world position. This is the core: spatial awareness of a world you can't hear. (Numbers below.)
+Using the iPhone's two microphones, Vigilant Ear measures the **angle of a sound and whether it is ahead of you or behind you**, holds that reading steady to about a degree, and places it as a live marker on a heading-up radar ring and map. Two microphones on one line can't tell left from right on their own. A sound 50° to your right and one 50° to your left arrive with the same tiny time gap. The app draws the reading plus a **fainter ghost on the other side**, and a turn of the wrist or a second phone settles it. Distance is estimated from loudness against a street-calibrated curve and shown as the estimate it is, with a likely range, in the units of the country you are in rather than the language you read the app in. On a US phone that reads *≈ 50 ft*. Move, and the markers hold their real-world position. This is the core: spatial awareness of a world you can't hear. (Numbers below.)
 
 ### 🚨 It recognizes important sounds — and warns you
 An on-device classifier identifies hundreds of everyday sounds and watches the critical categories — **sirens, alarms — including a dedicated car-alarm class — doorbells/knocks, baby cry, a person nearby, and severe weather.** When one fires, you get a clear on-screen alert, optional **push notification**, and a distinct **haptic** — even when the app is backgrounded or the phone is asleep. Critical categories default ready so enabling notifications doesn't mean “everything off.” Turn all alert categories off and the engine fully hibernates while backgrounded to save battery. A **Sentinel** layer cross-checks alerts against independent evidence — direction, motion, and public feeds — so what fires is corroborated, not a lone classifier guess. It works both ways: a siren-shaped moment inside a song gets held, but a real siren repeating through your music breaks through and alerts.
 
-Severe-weather warnings come from **official government sources in more than 140 countries and territories**, with more added often — free for all users. New Zealand's civil-defence emergency alerts are included too, with their own **Emergency Alerts** switch. Feeds are narrowed to the ones that cover where you are. In Japan the app also reads the national weather agency's **advance bulletins** — the plain-language notices issued days before a typhoon or heavy rain, not only the warnings issued once danger has arrived — plus the sudden-downpour and landslide bulletins. Advance notices are shown quietly, without the sound and vibration reserved for a real warning.
+Severe-weather warnings come from **official government sources in more than 140 countries and territories**, with more added often — free for all users. Civil-defense emergency alerts are included too, with their own **Emergency Alerts** toggle. Feeds are narrowed to the ones that cover where you are. Where available, the app also reads national weather agencies' **advance bulletins** — the plain-language notices issued days before a typhoon or heavy rain, not only the warnings issued once danger has arrived — plus the sudden-downpour and landslide bulletins. Advance notices are shown quietly, without the sound and vibration reserved for a real warning.
 
 ### 🌧️ Weather radar on the map
-Rain and snow show on the map from the moment the app opens — from the national radars of the United States, Canada, Japan, Italy and much of Europe, and a satellite rain estimate across most of the rest of the world. Touch the map and the last hour plays back three times, so you can see which way a storm is moving; a scale at the bottom reads from Light to Dense. If you don't want it for a session, tap the weather pill to turn it off. The radar arrives the same way the warnings do — through our own server, so your phone never contacts a government's. Light grey arrows also show which way the wind is blowing, anywhere in the world, from NOAA's global forecast for the current hour.
+Rain and snow show on the map from the moment the app opens — from the national radars of the United States, Canada, Japan, Italy and much of Europe, and a satellite rain estimate across most of the rest of the world. Touch the map and the last hour plays back three times, so you can see which way a storm is moving; a scale at the bottom reads from Light to Dense. If you don't want it for a session, tap the weather button to turn it off. The radar arrives the same way the warnings do — through our own server, so your phone never contacts government servers. Light grey arrows also show which way the wind is blowing, anywhere in the world, from NOAA's global forecast for the current hour.
 
 ### 🛟 Who to call — the life ring
-A life ring beside the map's compass opens a short list for the country you are standing in: the emergency number (with call and text buttons, and a note on Real-Time Text where texting an emergency number may not work), the national weather agency, a Deaf organization where one has a stable page, and Vigilant Ear support.
+A life ring beside the map's compass opens a short list for the country you are standing in:
+
+- the emergency number, with call and text buttons, and a note on Real-Time Text where texting an emergency number may not work
+- the national weather agency
+- a Deaf organization, where one has a stable page
+- Vigilant Ear support
 
 ### ⌚ Apple Watch + Live Activity — glance and know
 - **Apple Watch companion** — the direction of an alert points on your wrist so a glance tells you where to look. Redesigned Watch UI with the app ear icon, threat HUD layout, and double-tap to dismiss an alert. Alerts can still show the direction arrow when the Watch app is not open.
 - **Live Activity** — Vigilant Ear stays on your **Lock Screen**, in the **Dynamic Island**, and in the **Watch Smart Stack**, so the last alert and its bearing are always one look away.
-- **Partner alerts on your wrist** — when a linked Constellation partner's phone raises an alert, it can reach your Watch too, direction included. A reliability pass keeps the companion light on Watch battery all day.
+- **Partner alerts on your wrist** — when a linked Constellation partner's phone raises an alert, it can reach your Watch too, direction included. The companion uses little of the Watch battery across a day.
 
 ### 💬 Speaker Mode — live, directional captions *(free)*
 Turn on **Speaker Mode** and Vigilant Ear transcribes people talking near you into **caption blocks, one per voice.** On-device speaker diarization keeps voices distinct — *who* is saying *what* — with a directional cue on the inner ring. The live speaker is highlighted; older text scrolls away as space is needed.
 
-**Each speaker in their own language.** On iPhones with at least 8 GB of memory, a one-time captioning-model download (about 1 GB — over Wi-Fi, or on cellular after asking) lets the app caption each turn in the language actually spoken, so a room that switches between English, Spanish, French and Arabic stays readable. In our tests, word errors in a four-language conversation fell from about 80% to 14%. Since version 1.1.12 an improved speech model makes far fewer mistakes in noise — in a loud bar on an iPhone 17, German captions went from 45% of words wrong to 20% — and replaces the old one by itself over Wi-Fi. Without the download — and for readers of Chinese, Japanese and Korean, where Apple's recognizer reads better — captions use Apple's on-device speech recognition as before.
+**Each speaker in their own language.** On iPhones with at least 8 GB of memory, a one-time captioning-model download (about 1 GB — over Wi-Fi, or on cellular after asking) lets the app caption each turn in the language actually spoken, so a room that switches between English, Spanish, French and Arabic is understandable. In our tests, word errors in a four-language conversation fell from about 80% to 14%. Since version 1.1.12 an improved speech model makes far fewer mistakes in noise — in a loud bar on an iPhone 17, German captions went from 45% of words wrong to 20% — and replaces the old one by itself over Wi-Fi. Without the download — and for readers of Chinese, Japanese and Korean, where Apple's recognizer reads better — captions use Apple's on-device speech recognition as before.
 
-Two things most caption apps won't do: **honesty about confidence** — a subtle per-row quality mark and dotted underlines beneath doubtful words tell you when to trust a line and when to double-check — and **self-correction**: right after a sentence lands, the app re-reads the audio with full context and can restore a missed or misheard word within a couple of seconds, then the text freezes.
+Two things most caption apps won't do.
+
+**Honesty about confidence.** A subtle per-row quality mark and dotted underlines beneath doubtful words tell you when to trust a line and when to double-check.
+
+**Self-correction.** Right after a sentence lands, the app re-reads the audio with full context and can restore a missed or misheard word within a couple of seconds, then the text freezes.
 
 **Name Called** (Preferences, off until you turn it on) watches those captions for names you list — yours, a child’s, a partner’s. When someone says “order for Marie ready,” you get a distinct haptic and Watch alert with direction, not another caption bubble. The words still appear in Speaker Mode as speech; this is the tap that they were talking *to you*.
 
 **Strong language can be masked** (Preferences → Captions). Swearing otherwise arrives as plain text with nothing to soften it, and a reader has no chance to look away first; turn this on and those words are replaced with symbols, so the sentence still reads without the word. Your device's own speech recognizer decides what counts — not a word list of ours — so it follows the language being transcribed. On an account declared as under 18 it is always on and shows a lock. It applies to speech *this* device transcribes; text relayed from a paired phone was transcribed there and arrives as finished text.
 
-**The word a speaker leaned on is marked in bold.** Said aloud, "I didn't say THAT" and "I didn't say that" are two different sentences, and an identical transcript loses the difference entirely. The app watches for the one word a speaker's voice lifted in pitch and sets it in bold — at most one per line, and nothing at all when it isn't sure, because marking the wrong word puts words in someone's mouth. Off in Chinese and Japanese, where pitch tells you *which word it is* rather than how hard it was pushed.
+**The word a speaker leaned on is marked in bold.** Said aloud in English, "I didn't say THAT" and "I didn't say that" are two different sentences, and an identical transcript loses the difference entirely. The app watches for the one word a speaker's voice lifted in pitch and sets it in bold — at most one per line, and nothing at all when it isn't sure, because marking the wrong word would claim the person said something they did not. Off in Chinese and Japanese, where pitch tells you *which word it is* rather than how hard it was pushed.
 
-Captions are free; automatic translation is the optional Power Pack+ layer. Captions can also be **spoken aloud to your Bluetooth hearing devices** — free, in Preferences. **Direction Tones** (also free, in Preferences → Captions) add an optional audio cue in the ear you choose that signals where a speaker is — useful with a hearing aid or single-sided hearing, and available to anyone.
+Captions are free; automatic translation is the optional Power Pack+ layer. Captions can also be **spoken aloud to a Bluetooth device, including a hearing aid** — free, in Preferences. **Direction Tones** (also free, in Preferences → Captions) add an optional audio cue in the ear you choose that signals where a speaker is — useful with a hearing aid or single-sided hearing, and available to anyone.
 
 ### 🌐 Auto-Translate — your language, live *(Power Pack+)*
-With Speaker Mode on, when a nearby person speaks another language, Vigilant Ear can detect it and render their captions **in your language**, with the source language shown on their block. The chain — hear → separate speakers → transcribe → translate → display — runs **on the device**; the only network moment is a one-time language-pack download from Apple, and when that download is what you are waiting on the app says so rather than leaving you looking at untranslated text. You don't have to know or pick the other language first. A finished sentence is translated as soon as it ends, without waiting for the speaker to stop, and translations arrive in a fraction of the time they used to.
+With Speaker Mode on, when a nearby person speaks another language, Vigilant Ear can detect it and render their captions **in your language**, with the source language shown on their block. The chain — hear → separate speakers → transcribe → translate → display — runs **on the device**; the only network moment is a one-time language-pack download from Apple, and when that download is what you are waiting on the app says so rather than leaving you looking at untranslated text. You don't have to know or pick the other language first. A finished sentence is translated as soon as it ends, without waiting for the speaker to stop, and translations arrive in a fraction of the time.
 
-This is the closest shipping thing to **science fiction's universal translator** — the device that simply understands. Vigilant Ear detects the language on its own, follows every speaker in the room, and captions them all in your language — no earbuds, no setup, on your device.
+This is the closest thing available to **science fiction's universal translator** — a device that simply understands. Vigilant Ear detects the language on its own, follows every speaker in the room, and captions them all in your language — no earbuds, no setup, on your device.
 
 ```mermaid
 graph LR
@@ -76,18 +85,20 @@ graph LR
 ```
 
 ### 🎵 Music & broadcast awareness *(Power Pack+)*
-**ShazamKit** identifies music playing around you and tracks song changes.
+**ShazamKit** identifies music playing around you and detects song changes automatically so the title stays current.
 
 ### 🎛️ Acoustic Scope — see sound like an engineer
-A professional live view of the sound around you: spectrum, spectrogram, ⅓-octave RTA bands, chroma, and harmonic partials — **free for everyone**. **Partials reads music:** each tone is named by its note, with its harmonic series beside it, higher sounds such as smoke alarms are named at their true pitch, and you can set a target note that draws as a line to sing or tune against. It runs cool — leaving the Spectrogram open costs next to nothing, however long you watch. The tools that capture sounds for training your own custom packs are part of Power Pack+.
+A professional live view of the sound around you: spectrum, spectrogram, ⅓-octave RTA bands, chroma, and harmonic partials — **free for everyone**. **Partials reads music:** each tone is named by its note, with its harmonic series beside it, higher sounds such as smoke alarms are named at their true pitch, and you can set a target note that draws as a line to sing or tune against. Leaving the Spectrogram open costs next to nothing, however long you watch. The tools that capture sounds for training your own custom sound packs are part of Power Pack+.
 
 ### 📦 Custom Sound Packs — teach it your world *(Power Pack+)*
-Teach Vigilant Ear the sounds that matter to you — from local birds to your building's door chime. Add-on packs stack on top of the built-in detection, so new sounds never crowd out sirens and alarms. A step-by-step guide is built into the app.
+You can teach Vigilant Ear the sounds that matter to you — local birds, a building's door chime, a generator's abnormal hum, or a type of plane taking off. These add-on packs stack on top of the built-in detection, so new sounds never crowd out sirens and alarms. A step-by-step guide is built into the app.
 
 ### 🛰️ Constellation — many iPhones, one shared ear *(Power Pack+)*
-With two or more Ultra-Wideband-enabled iPhones (most since iPhone 11), **Constellation** pairs them so they can sense each other's position and fuse what each one hears into a single, more precise picture of where a sound is coming from — a distributed, passive listening array. Captions are fused too: each phone transcribes what its own microphone hears, and the words are aligned across phones so the one nearest a speaker contributes what it heard — words only one phone caught are kept rather than lost. The phones connect **directly to each other** — no router, no shared Wi-Fi network and no internet; Wi-Fi simply has to be switched on, over the same peer-to-peer link AirDrop uses. Gated to devices with the right hardware. Mesh captions older than a peer's connect time are not retransmitted. The link between the phones is always encrypted; phones running Vigilant Ear 1.1.6 or older need to update to join.
+With two or more Ultra-Wideband-enabled iPhones (most since iPhone 11), **Constellation** mesh pairs them so they can sense each other's position and fuse what each one hears into a single, more precise picture of where a sound is coming from — a distributed, passive listening array. Captions are fused too: each phone transcribes what its own microphone hears, and the words are aligned across phones so the one nearest a speaker contributes what it heard — words only one phone caught are kept rather than lost.
 
-**Partner messages** — send a quick text to a linked partner's phone; it lands in their caption feed and can arrive translated into their language, on-device. Messaging is age-aware: built on Apple's Declared Age Range, texting between an adult and a minor stays off unless both people have deliberately named each other. Alerts and captions are never gated — only person-to-person texting.
+The phones connect **directly to each other** — no router, no shared Wi-Fi network and no internet; Wi-Fi simply has to be switched on. They use the same peer-to-peer link AirDrop uses, and only phones with the right hardware can join. The link between the phones is always encrypted; phones running Vigilant Ear 1.1.6 or older need to update the app to participate in the mesh.
+
+**Partner messages** — send a quick text to a mesh partner's phone; it lands in their caption feed and can arrive translated into their language, on-device. Messaging is age-aware: built on Apple's Declared Age Range, texting between an adult and a minor stays off unless both people have deliberately named each other. Alerts and captions are never gated — only person-to-person texting.
 
 ### 🔗 Remote Link — reach someone who isn't with you *(Power Pack+ to start)*
 The thing a phone call would normally do, done with video and text instead. You send an invitation code; the other person joins from inside Vigilant Ear **without owning Power Pack+**. Unlike Constellation there is no proximity requirement — the two of you can be anywhere.
@@ -97,16 +108,23 @@ The thing a phone call would normally do, done with video and text instead. You 
 **Captions travel too.** What each phone transcribes appears on the other, translated into the reader's language when it needs to be. Either of you can pause the link — video and captions — and resume it, and hang up from the main screen.
 
 ### 📷 Camera AR — “see the sound”
-Open Camera AR from the action fan and pin detected sounds at their real bearing in the live camera view. Markers cluster by speaker or by sound category and direction so the view stays readable; sources age-fade when they go quiet.
+Open Camera AR from the Action Fan and pin detected sounds at their real bearing in the live camera view. Markers cluster by speaker or by sound category and direction so the view stays readable, and they fade as a sound stays quiet.
 
 ### 🗺️ Maps, roads & path prediction
-Sound bearings project onto real GPS coordinates on the map. Vehicle sounds can be **snapped to nearby streets** and their paths predicted so a passing truck reads as moving *along the road* rather than through buildings. (Try the fire-truck demo.)
+Sound bearings project onto real GPS coordinates on the map. Vehicle sounds can be **snapped to nearby streets** and their paths predicted so a passing truck reads as moving *along the road* rather than through buildings. (Try the fire-truck demo in the Feature Playground.)
 
 ### 🪄 Feature Playground — prove it without ears
-**Feature Playground** is public for everyone: Home & Street practice (knock, alarm, baby, siren, weather), multi-phone and conversation demos, and a clear watermark so practice never pretends to be a live event. Closing the panel tears demos down cleanly (no stuck GPS spoof, no leftover flags).
+**Feature Playground** is public for everyone: Home & Street sample alerts (knock, alarm, baby, siren, weather), multi-phone and conversation demos. These have a clear watermark so practice never pretends to be a live event. Closing the panel tears demos down cleanly (no stuck GPS spoof, no leftover flags).
 
 ### ♿ Accessibility first
-Built for Deaf / hard-of-hearing / CODA and color-blind users: **color-independent** cues, **≥44 pt** tap targets, **Reduce Motion** respect, **right-to-left layouts** for Arabic readers, multimodal alerts (haptic + visual + Watch), and a startup verification screen that shows permission status with clear green / grey / red (and burnt-orange “disallowed”) states — including the notification grant that acts as the master alert switch.
+Built for Deaf / hard-of-hearing / CODA and color-blind users:
+
+- **color-independent** cues
+- **≥44 pt** tap targets
+- **Reduce Motion** respect
+- **right-to-left layouts** for Arabic readers
+- multimodal alerts (haptic + visual + Watch)
+- a startup verification screen that shows permission status in clear green / grey / red, and burnt-orange for “disallowed,” including the notification grant that acts as the master alert switch
 
 ---
 
@@ -115,7 +133,7 @@ Built for Deaf / hard-of-hearing / CODA and color-blind users: **color-independe
 The safety core is **free, forever**:
 
 - **Home Watch & Street Watch** — local sound alerts (alarms, sirens, knocks/doorbells, baby, person nearby) with on-screen, haptic, and optional push delivery.
-- **Live captions** — Speaker Mode, on-device, directional where hardware allows, with honest confidence marks, ~2-second self-correction, optional spoken output to Bluetooth hearing devices, and Direction Tones.
+- **Live captions** — Speaker Mode, on-device, directional where hardware allows, with honest confidence marks, ~2-second self-correction, optional spoken output to a Bluetooth device (including a hearing aid), and Direction Tones.
 - **Name Called** — optional names you type (yours, kids, partner). A match is a Watch/phone alert with bearing, not a second caption.
 - **Standing Watch** — the room's own condition, always on with nothing to configure: a steady cyan lamp while the room holds its pattern, amber when something changes — a new voice, sudden quiet, or something approaching. When the app starts, it tells you how long it wasn't listening for alerts.
 - **Severe-weather alerts** — official warnings for your region from government sources in more than 140 countries and territories, with more added often.
@@ -125,7 +143,7 @@ The safety core is **free, forever**:
 - **Feature Playground** — practice alerts and feature previews with a clear PREVIEW watermark.
 - **Apple Watch companion & Live Activity** — glanceable direction and last alert.
 - **Acoustic Scope** — pro-grade live sound visualization, free for everyone. (The capture-for-training tools are Power Pack+.)
-- **Research Array** *(opt-in, off by default)* — if you switch it on, the time, a rough location (about 1 km) and the frequency of quake-like events are shared — no audio, no identifier — to help map earthquakes and other low-frequency events.
+- **Research Array** *(on until you turn it off)* — while it is on, the time, a rough location (about 1 km) and the frequency of quake-like events are shared — no audio, no identifier — to help map earthquakes and other low-frequency events. A question on the map asks once. Reports wait until that question has been on screen.
 
 **Power Pack+** is a one-time unlock (**not a subscription**) with a **90-day free trial**. It adds the superpowers:
 
@@ -157,7 +175,7 @@ graph TD
     B --> N["Turn boundaries<br/>(Sortformer diarizer, ANE)"]
     N --> E["Voice identity<br/>(ReDimNet embeddings, ANE)"]
     B --> E
-    F --> G["Caption rows — one per voice"]
+    F --> G["Captions — one per voice"]
     E --> G
     G --> T["On-device translation<br/>→ your language"]
 ```
@@ -178,7 +196,7 @@ graph LR
 - **Concurrency** — Swift 6 isolation keeps the microphone tap, acoustic math, and UI render loop cleanly separated.
 - **Efficiency** — downsampling, load-adaptive classification, and evidence-gated network use keep always-listening light enough to leave on.
 
-Weather and earthquake alerts take the opposite path from audio — nothing about your sound ever goes out, but alert *data* comes in. **Every** official feed — and the radar and wind images — flows through a small cache we operate, so one fetch of the public data serves every user, and your phone never contacts a foreign government's servers:
+Weather and earthquake alerts take the opposite path from audio — nothing about your sound ever goes out, but alert *data* comes in. **Every** official feed — and the radar and wind images — flows through a small relay cache we operate, so one fetch of the public data serves every user, and your phone never contacts government servers:
 
 ```mermaid
 graph LR
@@ -190,21 +208,22 @@ graph LR
 
 ## What your phone can hear — measured
 
-Your iPhone has two microphones about six inches apart, a barometer, and a very good clock. That is enough to tell you which way a sound is, roughly how far, whether it is coming toward you, and whether a door just opened. Here is how accurate each of those is, how we checked, and why it matters if you can't hear the sound yourself. Direction and related figures were measured on an iPhone 17 and an iPhone 16 Pro Max in September 2026. Distance stays an estimate by nature — we say so on screen.
+Your iPhone has two microphones about six inches (15 cm) apart, a barometer, and a very good clock. That is enough to tell you which way a sound came from, roughly how far, whether it is coming toward you, and whether a door just opened. Here is how accurate each of those is, how we checked, and why it matters if you can't hear the sound yourself. The direction table was measured on an iPhone 17 in September 2026. The same desk check on an iPhone 16 Pro Max did not yield a continuous angle — that image snaps a sound toward ahead or beside — so the degree rows are the 17's alone. Distance stays an estimate by nature — we say so on screen. The taped distances in this section are in feet, the units of that tape.
 
-**Direction — to a couple of degrees.** A sound reaches the top microphone before the bottom one, or after, and from that gap the app works out how far off the phone's axis the sound is and whether it is in front or behind. The phone's two channels are not plain microphones but a processed stereo image, and that image adds a fixed pattern of its own whenever a room is noisy. The app now learns that pattern from a few quiet seconds after launch and takes it out before reading the direction.
+**Direction — to a couple of degrees.** A sound reaches the top microphone before the bottom one, or after, and from that gap the app works out how far off the phone's axis the sound is and whether it is in front or behind. The phone's two channels are not plain microphones but a processed stereo image, and that image adds a fixed pattern of its own whenever a room is noisy. The app learns that pattern from the quiet after launch. After about a minute of a quiet room it takes the pattern out before reading the direction; until then the reading runs without that correction.
 
 | What we measured | Result |
 |---|---|
 | Median error across 96 simulated rooms, quiet office to hard-walled room at 5 dB SNR | 1.0° |
 | iPhone 17 on a desk, room noise on, speaker 30° off the axis | read 61.7° from the side plane against an expected 60°, wobble 1.6° |
 | Same, speaker straight off the phone's side | read 4.5° against an expected 0°, wobble 2.2° |
+| Same, speaker 60° off the axis | median 35.7° against an expected 30°; the run split, with a second cluster at the straight-ahead delay, most likely a reflection off the rig |
 | Same, speaker straight ahead | every reading at the maximum delay, as it should be |
 | Readings landing on the image's own pattern instead of the sound | none, at any angle |
 
-*Why it matters:* if you can't hear a siren, "behind you, off to one side" tells you where to look. A reading that holds still is only worth trusting once it has been checked against a tape measure, and this one was, twice, the second time after the first check turned out to be too kind.
+*Why it matters:* if you can't hear a siren, "behind you, off to one side" tells you where to look. A reading that holds still is only worth trusting once it has been checked against a tape measure, and this one was checked twice. The first check made the result look better than it was.
 
-**Distance — shown as the estimate it is.** One microphone can't measure distance, only loudness, and a loud truck far away can sound like a quiet car up close. The app estimates distance from loudness using a curve fitted on a real street, then says it the way a careful person would: *about 50 ft, likely between 25 and 100.*
+**Distance — shown as the estimate it is.** One microphone can't measure distance, only loudness, and a loud truck far away can sound like a quiet car up close. The app estimates distance from loudness using a curve fitted on a real street, then says it the way a careful person would. On a US phone that is *about 50 ft, likely between 25 and 100.*
 
 | What we measured | Result |
 |---|---|
@@ -216,7 +235,7 @@ The road (a city intersection) was measured lane by lane; when the curve errs, i
 
 **Motion — coming toward you.** For cars and sirens, getting louder usually means getting closer. The app watches how fast a sound's level rises over a few seconds: a sustained climb of about 1.5 dB per second (a clear, steady increase in loudness) means approaching, a matching fall means leaving, and a sound that stops changing stops being called either after about four seconds. A single loud moment — a horn tap, a door slam — can't trigger it. Built on physics and nine automated tests; a recorded street pass-by is the next field confirmation.
 
-**The air in the room — a door has a signature.** The barometer can notice a door opening about fourteen feet away: pressure dips as the door swings, then rebounds as it closes. Over fourteen hours of quiet and fifteen door events, every door made that two-part shape and nothing else in the house did.
+**The air in the room — a door has a signature.** The barometer can notice a door opening about fourteen feet (4.3 m) away: pressure dips as the door swings, then rebounds as it closes. Over fourteen hours of quiet and fifteen door events, every door made that two-part shape and nothing else in the house did.
 
 | Event | Pressure rate | Shape |
 |---|---|---|
@@ -224,9 +243,9 @@ The road (a city intersection) was measured lane by lane; when the curve errs, i
 | Front door, slammed, ×5 | 1.1–2.5 Pa/s | same pair, taller |
 | Air conditioning cycling overnight, ×8 | 0.11–0.46 Pa/s | slow ramp over minutes, identical on both phones |
 | A quiet room | ~0.02 Pa/s | nothing |
-| Walking past, sneezing | — | the motion sensor notices and the phone ignores it |
+| Human activity, walking by | — | the motion sensor notices and the phone ignores it |
 
-A screen door, which doesn't seal the room, was invisible — exactly as it should be. Today a pressure shift can show as deep rumbles on the map; a dedicated quiet-night door alert is measured and designed, and is not yet the everyday default.
+A door that doesn't seal the room was invisible — a screen door, in this test — exactly as it should be. Today a pressure shift can show as deep rumbles on the map; a dedicated quiet-night door alert is measured and designed, and is not yet the everyday default.
 
 **Constellation — two phones settle the side.** Each phone on the mesh draws a line toward the sound from where it sits, and the lines only cross cleanly on one side. When they do, the ghost disappears and the app can say left or right again. In simulation, two phones **40 meters apart** place a siren 50 meters away to within about 2 meters.
 
@@ -240,7 +259,7 @@ Deeper notes for engineers: [Physics](https://vigilantear.com/en/physics/) — T
 
 - **On-device, always for the core pipeline.** Classification, spatial math, transcription, diarization, and translation run on your iPhone. Raw audio is not recorded or uploaded for recognition.
 - **Captions are ephemeral.** Live captions stay in memory for the session; exported debug logs do not include caption text.
-- **No advertising or behavioral analytics SDKs.** Limited network use is only for maps, public weather feeds, radar and wind images, the help list, the optional caption-model download, optional Shazam fingerprints, road context, the opt-in Research Array, and App Store purchases — see the full policy.
+- **No advertising or behavioral analytics SDKs.** Limited network use is only for maps, public weather feeds, radar and wind images, the help list, the optional caption-model download, optional Shazam fingerprints, road context, Research Array reports while that feature is on, and App Store purchases — see the details in our privacy policy.
 
 Full details: [PRIVACY.md](/en/privacy/) · [TERMS.md](/en/terms/) · [SUPPORT.md](/en/support/)
 
@@ -248,11 +267,11 @@ Full details: [PRIVACY.md](/en/privacy/) · [TERMS.md](/en/terms/) · [SUPPORT.m
 
 ## Hardware & platforms
 
-- **iPhone (full experience).** Works in portrait or landscape — hold it however you like. Stereo microphones required for direction-finding. Recommended **iPhone 13 or newer**; captions in each speaker's own language need **8 GB of memory** (iPhone 15 Pro and later).
+- **iPhone (full experience).** Works in portrait or landscape — hold it however you like. Stereo microphones required for direction-finding. Recommended **iPhone 13 or newer**; captions in each speaker's language need **8 GB of memory** (iPhone 15 Pro and later).
 - **Apple Watch.** Companion alerts with direction arrow; works with Live Activity / Smart Stack.
 - **iPad (native).** Adaptive layout: on the big screen, live captions get a see-through panel beside the map that tucks away when nobody is talking. Single-channel mics → captions without full direction.
 - **Constellation** needs **Ultra-Wideband** — iPhone 11 or later, excluding SE and “e” models. It does **not** need a Wi-Fi network: with Wi-Fi switched on, the phones discover each other directly, so Constellation works with no router and no internet as long as the phones are near each other.
-- **Android.** Separate build with core radar, alerts, captions, and weather; Constellation mesh is iOS-first. See product site updates as Android parity grows.
+- **Android (when available).** Separate build with core radar, alerts, captions, and weather; Constellation mesh is iOS-first.
 
 ---
 
@@ -266,7 +285,7 @@ Fully localized — interface, alerts, and captions — into **English, Spanish,
 
 Vigilant Ear is an **experimental acoustic-accessibility aid**, not a certified life-safety utility. Localization resolution varies with surroundings, weather, wind, and microphone hardware. **Always maintain your typical environmental awareness** — don't rely on it as your only source of safety information.
 
-Some capabilities (camera AR markers, Critical Alerts entitlement upgrade when granted by Apple, advanced multi-pack sound authoring) continue to evolve; the free Home / Street watch and live captions are the product you can trust day one.
+Some capabilities (camera AR markers, Critical Alerts entitlement upgrade when granted by Apple, advanced multi-pack sound authoring) continue to evolve; the free Home / Street watch and live captions are the product you can trust on day one.
 
 **Sources and Licenses:** [api.vigilantear.com/sources](https://api.vigilantear.com/sources)
 
@@ -280,5 +299,5 @@ Made with ❤️ for the D/HH community and acoustic research.
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   All rights reserved.<br />
-  Patent Pending
+  Multiple Patents Pending
 </p>

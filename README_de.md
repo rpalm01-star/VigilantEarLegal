@@ -4,268 +4,288 @@
 
 ## Ein akustisches Radar für Menschen, die nicht hören können.
 
-Eine App, die eigens für die Gemeinschaft der Gehörlosen, Schwerhörigen und CODAs entwickelt wurde. Die meisten Apps zur Geräuscherkennung sagen Ihnen, *was* ein Geräusch ist. **Vigilant Ear sagt Ihnen, wo es ist, von wem es kommt und was gesagt wird** — und macht aus einem iPhone einen akustischen Echtzeit-Trikorder, der die Geräusche um Sie herum beschreibt.
+Eine App, eigens gebaut für die Gemeinschaft der Gehörlosen, der Schwerhörigen und der CODA. Die meisten Apps zur Geräuscherkennung sagen Ihnen, *was* ein Geräusch ist. **Vigilant Ear sagt Ihnen, wo es ist, wer es erzeugt und was gesagt wird** — und macht aus einem iPhone ein Gerät, das den Schall um Sie herum beschreibt, während er geschieht.
 
-Richtung und Entfernung einer Sirene. Ein Klopfen hinter Ihnen. Die Menschen in einem Gespräch, dargestellt als getrennte, transkribierte Stimmen — jede untertitelt und in ihrer Richtung verortet. Spricht jemand eine Sprache, die Sie nicht lesen, können die Worte **in Ihre Sprache übersetzt** bei Ihnen ankommen. Warnungen erreichen Ihren **Sperrbildschirm, die Dynamic Island und die Apple Watch**, sodass ein Blick genügt.
+Richtung und Entfernung einer Sirene. Ein Klopfen hinter Ihnen. Die Menschen in einem Gespräch, dargestellt als getrennte, transkribierte Stimmen — jede untertitelt und nach der Richtung gesetzt. Spricht jemand eine Sprache, die Sie nicht lesen, können ihre Worte **in Ihre Sprache übersetzt** ankommen. Warnungen erreichen Ihren **Sperrbildschirm, die Dynamic Island und die Apple Watch**, sodass ein Blick genügt.
 
-Alles, worauf es ankommt, läuft auf dem Gerät. Audio wird für die Erkennung weder aufgezeichnet noch hochgeladen. Nichts davon setzt voraus, dass Sie etwas hören.
+Alles, worauf es ankommt, läuft auf dem Gerät. Audio wird für die Erkennung weder aufgezeichnet noch hochgeladen. Nichts setzt voraus, dass ein menschliches Ohr irgendetwas hört.
 
-- 🧭 **Richtung, nicht nur Erkennung.** *Was, wo, wer* und *was gesagt wurde* — nicht bloß „da war ein Geräusch“.
-- 📣 **Name gerufen.** Tragen Sie Ihren Namen ein, den eines Kindes, einer Partnerin oder eines Partners — bei „Bestellung für Marie ist fertig“ tippt Ihnen die Watch ans Handgelenk und zeigt, aus welcher Richtung.
-- 🔒 **Privat per Design.** Klassifizierung, Untertitelung und Übersetzung laufen auf Ihrem iPhone. Untertitel sind live und flüchtig; sie werden nicht als Transkriptarchiv gespeichert.
-- ⌚ **Am Handgelenk und auf dem Sperrbildschirm.** Die Begleit-App mit Richtungsanzeige auf der Apple Watch + Live Activity halten die letzte Warnung und die Richtung, aus der sie kam, nur einen Blick entfernt.
-- 🛰️ **Mehr Telefone, ein gemeinsames Ohr.** Constellation verbindet iPhones mit Ultra-Wideband und führt das, was jedes einzelne hört, zu einem schärferen Richtungsbild zusammen.
-- 👁️ **Gemacht für Gehörlose / Schwerhörige / CODAs.** Unverwechselbare Haptik, kontrastreiche Darstellung, farbunabhängige Hinweise, große Tippflächen und durchgängige Berücksichtigung von „Bewegung reduzieren“.
-
----
-
-## Für wen die App gedacht ist
-
-- **Gehörlose, schwerhörige und CODA-Nutzerinnen und -Nutzer**, die wissen möchten, was um sie herum akustisch vor sich geht — Home Watch (Klopfen, Alarm, Baby, Telefon) und Street Watch (Sirene, Annäherung), die Sie eingeschaltet lassen und denen Sie vertrauen können.
-- Alle, die **Live-Untertitel mit Richtung und Sprechertrennung** oder eine **Übersetzung auf dem Gerät** für Menschen in ihrer Nähe brauchen.
-- Anwenderinnen und Anwender aus Barrierefreiheit und Akustikforschung, die sich für Schallortung auf dem Gerät interessieren.
-
-> Vigilant Ear ist ein **Hilfsmittel** für Barrierefreiheit, kein zertifiziertes Gerät zum Schutz von Leib und Leben.
+- 🧭 **Richtung, nicht nur Erkennung.** *Was, wo, wer* und *was gesagt wurde* — nicht bloß „ein Geräusch ist passiert“.
+- 📣 **Name gerufen.** Tragen Sie Ihren Namen ein, den eines Kindes oder den einer Partnerin oder eines Partners — „Bestellung für Marie ist fertig“ alarmiert das Telefon und die Uhr und zeigt die Richtung.
+- 🔒 **Privat von Grund auf.** Klassifizierung, Untertitelung und Übersetzung laufen auf Ihrem iPhone. Untertitel sind live und flüchtig; sie werden nicht als Transkriptarchiv gespeichert.
+- ⌚ **Am Handgelenk und auf dem Sperrbildschirm.** Der Richtungsbegleiter der Apple Watch und die Live Activity halten die letzte Warnung und die Richtung, aus der sie kam, nur einen Blick entfernt.
+- 🛰️ **Mehr Telefone, ein gemeinsames Gehör.** Unser Constellation-Mesh verbindet iPhones mit Ultra-Wideband und fügt zusammen, was jedes hört, zu einem schärferen Richtungsbild.
+- 👁️ **Gemacht für Gehörlose / Schwerhörige / CODA.** Unterschiedliche Haptik, kontrastreiche Darstellung, farbunabhängige Hinweise, große Tippflächen und durchgängig die Einstellung Bewegung reduzieren.
 
 ---
 
-## Was die App kann
+## Für wen es ist
 
-### 🧭 Die App sieht Geräusche — Richtung & Entfernung
-Mit den beiden Mikrofonen des iPhones misst Vigilant Ear den **Winkel eines Geräuschs und ob es vor oder hinter Ihnen liegt**, hält diesen Messwert auf etwa ein Grad genau stabil und setzt ihn als Live-Markierung auf einen nach Ihrer Blickrichtung ausgerichteten Radarring und auf eine Karte. Zwei Mikrofone auf einer Linie können links und rechts allein nicht unterscheiden — ein Geräusch 50° rechts von Ihnen und eines 50° links von Ihnen kommen mit derselben winzigen Zeitdifferenz an —, deshalb zeichnet die App den Messwert und dazu ein **blasseres Geisterbild auf der anderen Seite**; eine Drehung des Handgelenks oder ein zweites Telefon schafft Klarheit. Die Entfernung wird aus der Lautstärke anhand einer auf der Straße kalibrierten Kurve geschätzt und als das angezeigt, was sie ist, nämlich als Schätzung: *≈ 50 ft*, mit einem wahrscheinlichen Bereich — in den Einheiten des Landes, in dem Sie sich befinden, nicht der Sprache, in der Sie die App lesen. Wenn Sie sich bewegen, behalten die Markierungen ihre Position in der realen Welt. Das ist der Kern: räumliche Wahrnehmung einer Welt, die Sie nicht hören können. (Zahlen weiter unten.)
+- **Gehörlose, Schwerhörige und CODA**, die situatives Bewusstsein für Schall wollen — Home Watch (Klopfen, Alarm, Baby, Telefon) und Street Watch (Sirene, Annäherung), die Sie eingeschaltet lassen und denen Sie vertrauen können.
+- Alle, die **Live-Untertitel mit Richtung und getrennten Sprechenden** brauchen oder eine **Übersetzung auf dem Gerät** von Menschen, die in der Nähe sitzen.
+- Menschen aus der Barrierefreiheit und der Akustikforschung, die sich für die Schallortung auf dem Gerät interessieren.
 
-### 🚨 Die App erkennt wichtige Geräusche — und warnt Sie
-Ein Klassifikator auf dem Gerät erkennt Hunderte alltäglicher Geräusche und überwacht die kritischen Kategorien — **Sirenen, Alarme — einschließlich einer eigenen Klasse für Autoalarmanlagen —, Türklingeln/Klopfen, Babyweinen, eine Person in der Nähe und Unwetter.** Schlägt eine davon an, erhalten Sie eine klare Warnung auf dem Bildschirm, optional eine **Push-Benachrichtigung** und eine unverwechselbare **Haptik** — auch wenn die App im Hintergrund läuft oder das Telefon im Standby ist. Kritische Kategorien sind standardmäßig aktiv, damit das Einschalten von Benachrichtigungen nicht „alles aus“ bedeutet. Schalten Sie alle Warnkategorien aus, geht die Engine im Hintergrund vollständig in den Ruhezustand, um Akku zu sparen. Eine **Sentinel**-Schicht gleicht Warnungen mit unabhängigen Belegen ab — Richtung, Bewegung und öffentliche Feeds —, sodass das, was auslöst, bestätigt ist und nicht die einsame Vermutung eines Klassifikators. Das wirkt in beide Richtungen: Ein sirenenähnlicher Moment in einem Song wird zurückgehalten, aber eine echte Sirene, die sich durch Ihre Musik hindurch wiederholt, dringt durch und löst eine Warnung aus.
+> Vigilant Ear ist eine **Hilfe** zur Barrierefreiheit, kein zertifiziertes Gerät für die Lebenssicherheit.
 
-Unwetterwarnungen stammen aus **offiziellen staatlichen Quellen in mehr als 140 Ländern und Gebieten**, Tendenz steigend — kostenlos für alle Nutzerinnen und Nutzer. Die Katastrophenschutz-Warnungen Neuseelands sind ebenfalls dabei, mit einem eigenen Schalter **Notfallwarnungen**. Es werden nur die Feeds genutzt, die Ihren Standort abdecken. In Japan liest die App außerdem die **Vorab-Bulletins** des nationalen Wetterdienstes — allgemein verständliche Hinweise, die Tage vor einem Taifun oder Starkregen herausgegeben werden, nicht nur die Warnungen, die kommen, wenn die Gefahr schon da ist — sowie die Bulletins zu Platzregen und Erdrutschen. Vorab-Hinweise erscheinen dezent, ohne den Ton und die Vibration, die einer echten Warnung vorbehalten sind.
+---
+
+## Was es tut
+
+### 🧭 Es sieht den Schall — Richtung und Entfernung
+Mit den beiden Mikrofonen des iPhone misst Vigilant Ear den **Winkel eines Geräuschs und ob es vor oder hinter Ihnen liegt**, hält diese Messung bis auf etwa ein Grad stabil und setzt sie als Live-Markierung auf einen Radar-Ring mit der Blickrichtung nach oben und auf die Karte. Zwei Mikrofone auf einer Linie können links und rechts von allein nicht unterscheiden. Ein Geräusch 50° zu Ihrer Rechten und eines 50° zu Ihrer Linken kommen mit demselben winzigen Zeitabstand an. Die App zeichnet die Messung plus ein **schwächeres Geisterziel auf der anderen Seite**, und eine Drehung des Handgelenks oder ein zweites Telefon entscheidet es. Die Entfernung wird aus der Lautstärke anhand einer auf der Straße kalibrierten Kurve geschätzt und als das gezeigt, was sie ist, mit einem wahrscheinlichen Bereich, in den Einheiten des Landes, in dem Sie sind, und nicht der Sprache, in der Sie die App lesen. Auf einem US-Telefon steht dort *≈ 50 ft*. Bewegen Sie sich, und die Markierungen behalten ihren Ort in der wirklichen Welt. Das ist der Kern: räumliches Bewusstsein für eine Welt, die Sie nicht hören können. (Zahlen unten.)
+
+### 🚨 Es erkennt wichtige Geräusche — und warnt Sie
+Ein Klassifikator auf dem Gerät erkennt Hunderte alltäglicher Geräusche und beobachtet die kritischen Kategorien — **Sirenen, Alarme — einschließlich einer eigenen Klasse für Autoalarme —, Türklingeln/Klopfen, Babyweinen, eine Person in der Nähe und Unwetter.** Wenn eine davon auslöst, erhalten Sie eine klare Warnung auf dem Bildschirm, eine optionale **Push-Mitteilung** und eine eigene **Haptik** — auch wenn die App im Hintergrund ist oder das Telefon schläft. Kritische Kategorien stehen von Anfang an bereit, sodass das Einschalten der Mitteilungen nicht „alles aus“ bedeutet. Schalten Sie alle Warnkategorien aus, geht die Engine im Hintergrund vollständig in den Ruhezustand, um Akku zu sparen. Eine Schicht **Sentinel** prüft Warnungen gegen unabhängige Belege — Richtung, Bewegung und öffentliche Feeds —, sodass das, was auslöst, belegt ist und nicht eine einzelne Vermutung des Klassifikators. Es wirkt in beide Richtungen: Ein Moment in einem Lied, der wie eine Sirene geformt ist, wird zurückgehalten, aber eine echte Sirene, die sich durch Ihre Musik hindurch wiederholt, bricht durch und warnt.
+
+Unwetterwarnungen kommen aus **offiziellen staatlichen Quellen in mehr als 140 Ländern und Territorien**, und oft kommen weitere hinzu — kostenlos für alle. Auch Notfallmeldungen des Zivilschutzes sind dabei, mit einem eigenen Schalter **Notfallwarnungen**. Die Feeds werden auf diejenigen eingegrenzt, die dort gelten, wo Sie sind. Wo es sie gibt, liest die App auch die **Vorabbulletins** der nationalen Wetterdienste — die Hinweise in einfacher Sprache, die Tage vor einem Taifun oder starkem Regen herausgegeben werden, nicht nur die Warnungen, die erst erscheinen, wenn die Gefahr da ist — sowie die Bulletins zu plötzlichem Starkregen und zu Erdrutschen. Vorabhinweise werden still angezeigt, ohne den Ton und die Vibration, die einer echten Warnung vorbehalten sind.
 
 ### 🌧️ Wetterradar auf der Karte
-Regen und Schnee erscheinen auf der Karte, sobald die App geöffnet ist — aus den nationalen Radaren der Vereinigten Staaten, Kanadas, Japans, Italiens und großer Teile Europas sowie als satellitengestützte Niederschlagsschätzung für den größten Teil der übrigen Welt. Berühren Sie die Karte, und die letzte Stunde wird dreimal abgespielt, sodass Sie sehen, in welche Richtung ein Unwetter zieht; eine Skala am unteren Rand reicht von Leicht bis Dicht. Möchten Sie es in einer Sitzung nicht sehen, tippen Sie auf die Wetter-Pille, um es auszuschalten. Das Radar kommt auf demselben Weg wie die Warnungen — über unseren eigenen Server, sodass Ihr Telefon nie die Server einer Regierung kontaktiert. Immer wenn das Wetterradar eingeschaltet ist, zeigen dezente Pfeile überall auf der Welt, in welche Richtung der Wind weht; sie werden stündlich aktualisiert.
+Regen und Schnee stehen auf der Karte, sobald die App sich öffnet — aus den nationalen Radaren der Vereinigten Staaten, Kanadas, Japans, Italiens und eines großen Teils Europas sowie aus einer satellitengestützten Regenschätzung über den größten Teil der übrigen Welt. Berühren Sie die Karte, spielt die letzte Stunde dreimal ab, sodass Sie sehen, wohin ein Sturm zieht; eine Skala unten reicht von Leicht bis Dicht. Wenn Sie es für eine Sitzung nicht möchten, tippen Sie auf die Wetter-Schaltfläche, um es auszuschalten. Das Radar kommt auf demselben Weg wie die Warnungen — über unseren eigenen Server, sodass Ihr Telefon niemals staatliche Server kontaktiert. Hellgraue Pfeile zeigen außerdem, wohin der Wind weht, überall auf der Welt, aus der globalen Vorhersage der NOAA für die aktuelle Stunde.
 
-### 🛟 Wen Sie anrufen können — der Rettungsring
-Ein Rettungsring neben dem Kompass der Karte öffnet eine kurze Liste für das Land, in dem Sie sich gerade befinden: die Notrufnummer (mit Schaltflächen zum Anrufen und für eine Textnachricht sowie einem Hinweis auf Echtzeittext, kurz RTT, für Orte, an denen eine Textnachricht an eine Notrufnummer möglicherweise nicht funktioniert), den nationalen Wetterdienst, eine Gehörlosenorganisation, sofern es eine mit einer dauerhaften Seite gibt, und den Support von Vigilant Ear.
+### 🛟 Wen anrufen — der Rettungsring
+Ein Rettungsring neben dem Kompass der Karte öffnet eine kurze Liste für das Land, in dem Sie gerade stehen:
 
-### ⌚ Apple Watch + Live Activity — ein Blick, und Sie wissen Bescheid
-- **Begleit-App für die Apple Watch** — die Richtung einer Warnung wird an Ihrem Handgelenk angezeigt, sodass Ihnen ein Blick sagt, wohin Sie schauen müssen. Neu gestaltete Watch-Oberfläche mit dem Ohr-Symbol der App, Threat-HUD-Layout und Doppeltippen zum Schließen einer Warnung. Warnungen können den Richtungspfeil auch dann anzeigen, wenn die Watch-App nicht geöffnet ist.
-- **Live Activity** — Vigilant Ear bleibt auf Ihrem **Sperrbildschirm**, in der **Dynamic Island** und im **Smart Stack der Watch**, sodass die letzte Warnung und ihre Peilung immer nur einen Blick entfernt sind.
-- **Partnerwarnungen am Handgelenk** — schlägt das Telefon eines verbundenen Constellation-Partners Alarm, kann die Warnung auch Ihre Watch erreichen, Richtung inklusive. Eine Überarbeitung für mehr Zuverlässigkeit sorgt dafür, dass die Begleit-App den ganzen Tag schonend mit dem Akku der Watch umgeht.
+- die Notrufnummer, mit Schaltflächen für Anruf und Text, und ein Hinweis auf Echtzeittext, wo eine Textnachricht an eine Notrufnummer möglicherweise nicht funktioniert
+- der nationale Wetterdienst
+- eine Organisation Gehörloser, sofern eine davon eine stabile Seite hat
+- der Support von Vigilant Ear
+
+### ⌚ Apple Watch + Live Activity — hinsehen und wissen
+- **Begleiter der Apple Watch** — die Richtung einer Warnung zeigt auf Ihr Handgelenk, sodass ein Blick sagt, wohin Sie sehen sollen. Neu gestaltete Oberfläche der Watch mit dem Ohr-Symbol der App, dem Layout des Bedrohungs-HUD und Doppeltipp, um eine Warnung zu verwerfen. Warnungen können den Richtungspfeil auch zeigen, wenn die App auf der Watch nicht offen ist.
+- **Live Activity** — Vigilant Ear bleibt auf Ihrem **Sperrbildschirm**, in der **Dynamic Island** und im **Watch Smart Stack**, sodass die letzte Warnung und ihre Peilung immer nur einen Blick entfernt sind.
+- **Partnerwarnungen am Handgelenk** — wenn das Telefon eines verbundenen Constellation-Partners eine Warnung auslöst, kann sie auch Ihre Watch erreichen, die Richtung eingeschlossen. Der Begleiter verbraucht über einen Tag wenig vom Akku der Watch.
 
 ### 💬 Speaker Mode — Live-Untertitel mit Richtung *(kostenlos)*
-Schalten Sie **Speaker Mode** ein, und Vigilant Ear transkribiert, was Menschen in Ihrer Nähe sagen, in **Untertitelblöcke, einen pro Stimme.** Sprecherdiarisierung auf dem Gerät hält die Stimmen auseinander — *wer* sagt *was* — mit einem Richtungshinweis auf dem inneren Ring. Die gerade sprechende Person wird hervorgehoben; älterer Text scrollt weg, sobald Platz gebraucht wird.
+Schalten Sie **Speaker Mode** ein, und Vigilant Ear schreibt Menschen, die in Ihrer Nähe sprechen, in **Untertitelblöcke, einen je Stimme.** Die Diarisierung auf dem Gerät hält die Stimmen auseinander — *wer* *was* sagt — mit einem Richtungshinweis auf dem inneren Ring. Die gerade sprechende Person wird hervorgehoben; älterer Text rollt weg, sobald Platz gebraucht wird.
 
-**Jede sprechende Person in ihrer eigenen Sprache.** Auf iPhones mit mindestens 8 GB Arbeitsspeicher ermöglicht es ein einmaliger Download eines Untertitelungsmodells (etwa 1 GB — über WLAN oder, nach Rückfrage, über Mobilfunk) der App, jeden Redebeitrag in der tatsächlich gesprochenen Sprache zu untertiteln, sodass ein Raum, in dem zwischen Englisch, Spanisch, Französisch und Arabisch gewechselt wird, lesbar bleibt. In unseren Tests sank die Wortfehlerquote in einem viersprachigen Gespräch von etwa 80 % auf 14 %. Ohne den Download — und für alle, die Chinesisch, Japanisch oder Koreanisch lesen, wo Apples Spracherkennung besser abschneidet — nutzen die Untertitel wie bisher Apples Spracherkennung auf dem Gerät.
+**Jede sprechende Person in der eigenen Sprache.** Auf iPhones mit mindestens 8 GB Speicher lässt ein einmaliger Download des Untertitelmodells (etwa 1 GB — über Wi-Fi, oder im Mobilfunk, nachdem gefragt wurde) die App jeden Redebeitrag in der tatsächlich gesprochenen Sprache untertiteln, sodass ein Raum verständlich bleibt, der zwischen Englisch, Spanisch, Französisch und Arabisch wechselt. In unseren Tests sanken die Wortfehler in einem Gespräch mit vier Sprachen von etwa 80% auf 14%. Seit Version 1.1.12 macht ein verbessertes Sprachmodell im Lärm weit weniger Fehler — in einer lauten Bar auf einem iPhone 17 gingen deutsche Untertitel von 45% falscher Wörter auf 20% zurück — und ersetzt das alte von allein über Wi-Fi. Ohne den Download — und für Leserinnen und Leser des Chinesischen, Japanischen und Koreanischen, wo Apples Erkenner besser liest — nutzen die Untertitel wie bisher Apples Spracherkennung auf dem Gerät.
 
-Zwei Dinge, die die meisten Untertitel-Apps nicht tun: **ehrliche Angaben zur Zuverlässigkeit** — eine dezente Qualitätsmarkierung pro Zeile und gepunktete Unterstreichungen unter unsicheren Wörtern zeigen Ihnen, wann Sie einer Zeile trauen können und wann Sie besser nachprüfen — und **Selbstkorrektur**: Direkt nachdem ein Satz erschienen ist, liest die App das Audio mit vollem Kontext erneut und kann innerhalb von ein, zwei Sekunden ein verpasstes oder falsch verstandenes Wort wiederherstellen; danach friert der Text ein.
+Zwei Dinge, die die meisten Untertitel-Apps nicht tun.
 
-**Name gerufen** (in den Einstellungen; aus, bis Sie es einschalten) achtet in diesen Untertiteln auf Namen, die Sie eintragen — Ihren eigenen, den eines Kindes, den Ihrer Partnerin oder Ihres Partners. Sagt jemand „Bestellung für Marie ist fertig“, erhalten Sie eine unverwechselbare Haptik und eine Warnung auf der Watch mit Richtung statt einer weiteren Untertitelblase. Die Worte erscheinen im Speaker Mode weiterhin als Gesprochenes; dies ist das Antippen, das Ihnen sagt, dass *mit Ihnen* gesprochen wurde.
+**Ehrlichkeit über die Konfidenz.** Eine dezente Qualitätsmarke je Zeile und gepunktete Unterstreichungen unter zweifelhaften Wörtern sagen Ihnen, wann Sie einer Zeile vertrauen und wann Sie gegenprüfen sollen.
 
-**Schimpfwörter lassen sich maskieren** (Einstellungen → Untertitel). Andernfalls kommen Kraftausdrücke als reiner Text an, durch nichts abgemildert, und wer liest, hat keine Chance, vorher wegzusehen; schalten Sie dies ein, und diese Wörter werden durch Symbole ersetzt, sodass sich der Satz auch ohne das Wort lesen lässt. Was dazu zählt, entscheidet die Spracherkennung Ihres Geräts selbst — keine Wortliste von uns —, daher richtet sie sich nach der Sprache, die gerade transkribiert wird. Bei einem Konto, für das ein Alter unter 18 angegeben ist, ist die Funktion immer aktiv und zeigt ein Schloss. Sie gilt für Sprache, die *dieses* Gerät transkribiert; Text, der von einem gekoppelten Telefon weitergeleitet wird, wurde dort transkribiert und kommt als fertiger Text an.
+**Selbstkorrektur.** Gleich nachdem ein Satz steht, liest die App das Audio mit dem vollen Kontext erneut und kann ein verpasstes oder falsch verstandenes Wort innerhalb weniger Sekunden wiederherstellen; danach friert der Text ein.
 
-**Das Wort, auf das jemand Nachdruck legt, wird fett gesetzt.** Laut ausgesprochen sind „Ich habe DAS nicht gesagt“ und „Ich habe das nicht gesagt“ zwei verschiedene Sätze, und ein identisches Transkript verliert den Unterschied vollständig. Die App achtet auf das eine Wort, bei dem die Stimme in der Tonhöhe nach oben ging, und setzt es fett — höchstens eines pro Zeile und gar keines, wenn sie sich nicht sicher ist, denn das falsche Wort zu markieren hieße, jemandem Worte in den Mund zu legen. Im Chinesischen und Japanischen ist das ausgeschaltet, denn dort sagt die Tonhöhe, *um welches Wort es sich handelt*, und nicht, wie stark es betont wurde.
+**Name gerufen** (Einstellungen, aus, bis Sie es einschalten) achtet in diesen Untertiteln auf Namen, die Sie eintragen — Ihren, den eines Kindes, den einer Partnerin oder eines Partners. Wenn jemand „Bestellung für Marie ist fertig“ sagt, erhalten Sie eine eigene Haptik und eine Warnung auf der Watch mit Richtung, nicht eine weitere Untertitelblase. Die Wörter erscheinen in Speaker Mode weiterhin als Sprache; dies ist der Hinweis, dass *zu Ihnen* gesprochen wurde.
 
-Untertitel sind kostenlos; die automatische Übersetzung ist die optionale Power Pack+-Ebene. Untertitel können außerdem **laut an Ihre Bluetooth-Hörgeräte ausgegeben werden** — kostenlos, in den Einstellungen. **Richtungstöne** (ebenfalls kostenlos, unter Einstellungen → Untertitel) ergänzen optional einen akustischen Hinweis im Ohr Ihrer Wahl, der signalisiert, wo sich eine sprechende Person befindet — nützlich mit Hörgerät oder bei einseitigem Hören, und für alle verfügbar.
+**Derbe Sprache kann verdeckt werden** (Einstellungen → Untertitel). Flüche kommen sonst als Klartext an, ohne etwas, das sie abmildert, und wer liest, kann nicht zuerst wegsehen; schalten Sie dies ein, und diese Wörter werden durch Symbole ersetzt, sodass der Satz ohne das Wort lesbar bleibt. Der eigene Spracherkenner Ihres Geräts entscheidet, was zählt — nicht eine Wortliste von uns —, sodass es der Sprache folgt, die gerade transkribiert wird. Bei einem Konto, das als unter 18 angegeben ist, ist es immer an und zeigt ein Schloss. Es gilt für Sprache, die *dieses* Gerät transkribiert; Text, der von einem gekoppelten Telefon weitergegeben wird, wurde dort transkribiert und kommt als fertiger Text an.
+
+**Das Wort, auf das eine Stimme Gewicht gelegt hat, wird fett gesetzt.** Auf Englisch laut gesagt sind "I didn't say THAT" und "I didn't say that" zwei verschiedene Sätze, und ein gleiches Transkript verliert den Unterschied ganz. Die App achtet auf das eine Wort, bei dem die Stimme die Tonhöhe angehoben hat, und setzt es fett — höchstens eines je Zeile, und gar nichts, wenn sie nicht sicher ist, denn das falsche Wort zu markieren würde behaupten, die Person habe etwas gesagt, das sie nicht gesagt hat. Ausgeschaltet bei Chinesisch und Japanisch, wo die Tonhöhe Ihnen sagt, *welches Wort es ist*, und nicht, wie stark darauf gedrückt wurde.
+
+Untertitel sind kostenlos; die automatische Übersetzung ist die optionale Schicht von Power Pack+. Untertitel können auch **laut an ein Bluetooth-Gerät ausgegeben werden, auch an ein Hörgerät** — kostenlos, in den Einstellungen. **Richtungstöne** (ebenfalls kostenlos, unter Einstellungen → Untertitel) setzen einen optionalen Hörhinweis in das Ohr, das Sie wählen, und zeigen so, wo eine sprechende Person ist — nützlich mit einem Hörgerät oder bei einseitigem Hören, und für alle verfügbar.
 
 ### 🌐 Auto-Übersetzen — Ihre Sprache, live *(Power Pack+)*
-Bei eingeschaltetem Speaker Mode kann Vigilant Ear erkennen, wenn eine Person in Ihrer Nähe eine andere Sprache spricht, und ihre Untertitel **in Ihrer Sprache** anzeigen; die Ausgangssprache steht auf ihrem Block. Die Kette — hören → Sprecher trennen → transkribieren → übersetzen → anzeigen — läuft **auf dem Gerät**; der einzige Moment mit Netzwerk ist ein einmaliger Download eines Sprachpakets von Apple, und wenn Sie gerade auf diesen Download warten, sagt die App Ihnen das, statt Sie auf unübersetzten Text blicken zu lassen. Sie müssen die andere Sprache weder kennen noch vorher auswählen. Ein abgeschlossener Satz wird übersetzt, sobald er endet, ohne dass die App wartet, bis die Person aufhört zu sprechen, und Übersetzungen kommen in einem Bruchteil der Zeit an, die sie früher brauchten.
+Bei eingeschaltetem Speaker Mode kann Vigilant Ear, wenn eine Person in der Nähe eine andere Sprache spricht, diese erkennen und deren Untertitel **in Ihrer Sprache** wiedergeben, mit der Ausgangssprache auf deren Block. Die Kette — hören → Sprechende trennen → transkribieren → übersetzen → anzeigen — läuft **auf dem Gerät**; der einzige Moment im Netz ist ein einmaliger Download eines Sprachpakets von Apple, und wenn Sie gerade auf diesen Download warten, sagt die App das, statt Sie vor unübersetztem Text sitzen zu lassen. Sie müssen die andere Sprache nicht vorher kennen oder wählen. Ein fertiger Satz wird übersetzt, sobald er endet, ohne zu warten, bis die Person aufhört zu sprechen, und die Übersetzungen kommen in einem Bruchteil der Zeit an.
 
-Von allem, was heute erhältlich ist, kommt dies dem **Universalübersetzer der Science-Fiction** am nächsten — dem Gerät, das einfach versteht. Vigilant Ear erkennt die Sprache selbstständig, folgt jeder sprechenden Person im Raum und untertitelt alle in Ihrer Sprache — ohne Ohrhörer, ohne Einrichtung, auf Ihrem Gerät.
+Das kommt dem **Universalübersetzer der Science-Fiction** am nächsten — einem Gerät, das einfach versteht. Vigilant Ear erkennt die Sprache von selbst, folgt jeder sprechenden Person im Raum und untertitelt sie alle in Ihrer Sprache — keine Ohrhörer, kein Einrichten, auf Ihrem Gerät.
 
 ```mermaid
 graph LR
-    A["Einfach zuhören"] --> B["Sprache automatisch erkannt"] --> C["Jede Stimme getrennt"] --> D["Ganzer Raum in Ihrer Sprache untertitelt"]
+    A["Das Telefon hört nur zu"] --> B["Sprache automatisch erkannt"] --> C["Jede Stimme getrennt"] --> D["Ganzer Raum in Ihrer Sprache untertitelt"]
 ```
 
-### 🎵 Musik & Rundfunk im Blick *(Power Pack+)*
-**ShazamKit** erkennt Musik, die um Sie herum läuft, und verfolgt Songwechsel.
+### 🎵 Musik und Sendungen im Blick *(Power Pack+)*
+**ShazamKit** erkennt Musik, die um Sie herum spielt, und erkennt Liedwechsel automatisch, sodass der Titel aktuell bleibt.
 
-### 🎛️ Acoustic Scope — Klang sehen wie ein Toningenieur
-Eine professionelle Live-Ansicht des Klangs um Sie herum: Spektrum, Spektrogramm, ⅓-Oktav-RTA-Bänder, Chroma und harmonische Teiltöne — **für alle kostenlos**. **Die Teiltöne-Ansicht liest Musik:** Jeder Ton wird mit seiner Note benannt, seine Obertonreihe steht daneben, höhere Klänge wie Rauchmelder werden mit ihrer tatsächlichen Tonhöhe benannt, und Sie können eine Zielnote festlegen, die als Linie eingezeichnet wird, nach der Sie singen oder stimmen können. Es bleibt kühl — das Spektrogramm geöffnet zu lassen, kostet so gut wie nichts, egal wie lange Sie zusehen. Die Werkzeuge, mit denen Sie Klänge für das Training Ihrer eigenen Soundpakete aufnehmen, gehören zu Power Pack+.
+### 🎛️ Acoustic Scope — den Schall sehen wie ein Ingenieur
+Eine professionelle Live-Ansicht des Schalls um Sie herum: Spektrum, Spektrogramm, ⅓-Oktav-RTA-Bänder, Chroma und harmonische Teiltöne — **kostenlos für alle**. **Partials liest Musik:** Jeder Ton wird mit seiner Note benannt, daneben seine Obertonreihe, höhere Klänge wie Rauchmelder werden in ihrer wahren Tonhöhe benannt, und Sie können eine Zielnote setzen, die als Linie zum Mitsingen oder Stimmen gezeichnet wird. Das Spektrogramm offen zu lassen kostet nahezu nichts, egal wie lange Sie zusehen. Die Werkzeuge, die Geräusche aufnehmen, um Eigene Soundpakete zu trainieren, gehören zu Power Pack+.
 
-### 📦 Eigene Soundpakete — bringen Sie der App Ihre Welt bei *(Power Pack+)*
-Bringen Sie Vigilant Ear die Geräusche bei, die Ihnen wichtig sind — von den Vögeln in Ihrer Gegend bis zum Türgong Ihres Hauses. Zusatzpakete setzen auf der eingebauten Erkennung auf, sodass neue Geräusche Sirenen und Alarme nie verdrängen. Eine Schritt-für-Schritt-Anleitung ist in die App eingebaut.
+### 📦 Eigene Soundpakete — bringen Sie ihm Ihre Welt bei *(Power Pack+)*
+Sie können Vigilant Ear die Geräusche beibringen, auf die es Ihnen ankommt — örtliche Vögel, die Türglocke eines Gebäudes, das ungewöhnliche Brummen eines Generators oder ein Flugzeugtyp beim Start. Diese Zusatzpakete legen sich über die eingebaute Erkennung, sodass neue Geräusche Sirenen und Alarme nie verdrängen. Eine Schritt-für-Schritt-Anleitung steckt in der App.
 
-### 🛰️ Constellation — viele iPhones, ein gemeinsames Ohr *(Power Pack+)*
-Bei zwei oder mehr Ultra-Wideband-fähigen iPhones (die meisten seit dem iPhone 11) koppelt **Constellation** die Geräte so, dass sie die Position der jeweils anderen erfassen und das, was jedes einzelne hört, zu einem einzigen, genaueren Bild davon zusammenführen, woher ein Geräusch kommt — ein verteiltes, passives Hör-Array. Auch Untertitel werden zusammengeführt: Jedes Telefon transkribiert, was sein eigenes Mikrofon hört, und die Wörter werden über die Telefone hinweg abgeglichen, sodass das Telefon, das einer sprechenden Person am nächsten ist, beisteuert, was es gehört hat — Wörter, die nur ein Telefon erfasst hat, bleiben erhalten, statt verloren zu gehen. Die Telefone verbinden sich **direkt miteinander** — kein Router, kein gemeinsames WLAN und kein Internet; WLAN muss lediglich eingeschaltet sein, über dieselbe Peer-to-Peer-Verbindung, die auch AirDrop nutzt. Nur für Geräte mit der passenden Hardware verfügbar. Mesh-Untertitel, die älter sind als der Verbindungszeitpunkt eines Peers, werden nicht erneut übertragen. Verbundene Telefone (Constellation) sind jetzt immer verschlüsselt. Telefone, auf denen Vigilant Ear 1.1.6 oder älter läuft, brauchen ein Update, um beizutreten.
+### 🛰️ Constellation — viele iPhones, ein gemeinsames Gehör *(Power Pack+)*
+Mit zwei oder mehr iPhones mit Ultra-Wideband (die meisten seit dem iPhone 11) paart das **Constellation**-Mesh sie, sodass sie die Position des jeweils anderen erfassen und das, was jedes hört, zu einem einzigen, genaueren Bild davon verschmelzen, woher ein Geräusch kommt — ein verteiltes, passives Hör-Array. Auch die Untertitel werden verschmolzen: Jedes Telefon transkribiert, was sein eigenes Mikrofon hört, und die Wörter werden über die Telefone abgeglichen, sodass das Telefon, das einer sprechenden Person am nächsten ist, beisteuert, was es gehört hat — Wörter, die nur ein Telefon erfasst hat, bleiben erhalten und gehen nicht verloren.
 
-**Partnernachrichten** — senden Sie einen kurzen Text an ein verbundenes Partnertelefon; er landet dort im Untertitel-Feed und kann, auf dem Gerät übersetzt, in der Sprache der empfangenden Person ankommen. Die Nachrichtenfunktion berücksichtigt das Alter: Auf Grundlage von Apples Declared Age Range bleibt das Schreiben zwischen einer erwachsenen und einer minderjährigen Person ausgeschaltet, es sei denn, beide haben einander bewusst benannt. Warnungen und Untertitel werden nie eingeschränkt — nur Textnachrichten von Person zu Person.
+Die Telefone verbinden sich **direkt miteinander** — kein Router, kein gemeinsames Wi-Fi-Netz und kein Internet; Wi-Fi muss nur eingeschaltet sein. Die Telefone nutzen dieselbe Peer-to-Peer-Verbindung, die AirDrop nutzt, und nur Telefone mit der passenden Hardware können beitreten. Die Verbindung zwischen den Telefonen ist immer verschlüsselt; Telefone mit Vigilant Ear 1.1.6 oder älter müssen die App aktualisieren, um am Mesh teilzunehmen.
 
-### 🔗 Remote Link — jemanden erreichen, der nicht bei Ihnen ist *(Starten erfordert Power Pack+)*
-Was sonst ein Telefonanruf leisten würde, erledigen hier Video und Text. Sie senden einen Einladungscode; die andere Person tritt direkt in Vigilant Ear bei, **ohne Power Pack+ zu besitzen**. Anders als bei Constellation müssen Sie nicht in der Nähe sein — Sie beide können sich überall befinden.
+**Partnernachrichten** — senden Sie einen kurzen Text an das Telefon eines Mesh-Partners; er landet im Untertitel-Feed dort und kann auf dem Gerät in die Sprache der anderen Person übersetzt ankommen. Das Schreiben berücksichtigt das Alter: Es baut auf Apples Declared Age Range auf, und Text zwischen einer erwachsenen und einer minderjährigen Person bleibt aus, sofern nicht beide die jeweils andere Person bewusst benannt haben. Warnungen und Untertitel sind nie gesperrt — nur das Schreiben von Person zu Person.
 
-**Zu keinem Zeitpunkt wird Audio verwendet.** Nur Video und Text, sodass an keinem der beiden Enden etwas an der Verbindung vom Hören abhängt — und Sie erhalten eine Möglichkeit, über die App mit jemandem zu gebärden. Die App selbst versteht keine Gebärdensprache; sie überträgt das Video, und den Rest machen Sie beide. Die Verbindung läuft direkt zwischen den beiden Telefonen, wo immer das Netz es zulässt, und die App zeigt Ihnen klar den Status **Direkt** oder **Relayed** an, sodass Sie immer wissen, ob Ihr Video über ein Relay läuft.
+### 🔗 Remote Link — jemanden erreichen, der nicht bei Ihnen ist *(Power Pack+ zum Starten)*
+Was ein Anruf normalerweise leistet, geschieht hier stattdessen mit Video und Text. Sie senden einen Einladungscode; die andere Person tritt aus Vigilant Ear bei, **ohne Power Pack+ zu besitzen**. Anders als bei Constellation gibt es keine Pflicht zur Nähe — Sie beide können überall sein.
 
-**Auch Untertitel werden übertragen.** Was jedes Telefon transkribiert, erscheint auf dem anderen — bei Bedarf übersetzt in die Sprache der lesenden Person. Jede Seite kann die Verbindung — Video und Untertitel — pausieren und fortsetzen und vom Hauptbildschirm aus auflegen.
+**An keinem Punkt wird Audio verwendet.** Nur Video und Text, sodass nichts an der Verbindung davon abhängt, dass an einem der Enden gehört wird — und sie gibt Ihnen einen Weg, sich mit jemandem über die App in Gebärdensprache zu verständigen. Die App selbst versteht keine Gebärdensprache; sie überträgt das Video, und den Rest machen Sie beide. Die Verbindung läuft direkt zwischen den beiden Telefonen, wo das Netz es zulässt, und die App zeigt Ihnen klar, ob sie **Direkt** oder **Relayed** ist, sodass Sie immer wissen, ob Ihr Video durch ein Relay läuft.
 
-### 📷 Kamera-AR — „das Geräusch sehen“
-Öffnen Sie Kamera-AR über den Aktionsfächer und heften Sie erkannte Geräusche in der Live-Kameraansicht an ihrer tatsächlichen Peilung an. Markierungen werden nach sprechender Person oder nach Geräuschkategorie und Richtung gruppiert, damit die Ansicht lesbar bleibt; Quellen verblassen mit der Zeit, wenn sie verstummen.
+**Auch die Untertitel reisen mit.** Was jedes Telefon transkribiert, erscheint auf dem anderen, übersetzt in die Sprache der lesenden Person, wenn es nötig ist. Jede der beiden Personen kann die Verbindung anhalten — Video und Untertitel — und sie fortsetzen und vom Hauptbildschirm auflegen.
 
-### 🗺️ Karten, Straßen & Wegvorhersage
-Die Peilungen von Geräuschen werden auf echte GPS-Koordinaten auf der Karte projiziert. Fahrzeuggeräusche können **auf nahe gelegene Straßen eingerastet** und ihre Wege vorhergesagt werden, sodass ein vorbeifahrender Lkw als Bewegung *entlang der Straße* erscheint statt durch Gebäude hindurch. (Probieren Sie die Feuerwehrauto-Demo aus.)
+### 📷 Kamera-AR — „den Schall sehen“
+Öffnen Sie die Kamera-AR aus dem Aktionsfächer und heften Sie erkannte Geräusche an ihrer tatsächlichen Peilung in die Live-Ansicht der Kamera. Markierungen gruppieren sich nach sprechender Person oder nach Geräuschkategorie und Richtung, sodass die Ansicht lesbar bleibt, und sie verblassen, solange ein Geräusch leise bleibt.
 
-### 🪄 Feature Playground — der Beweis, ganz ohne Ohren
-Der **Feature Playground** steht allen offen: Übungen für Zuhause & Straße (Klopfen, Alarm, Baby, Sirene, Wetter), Demos mit mehreren Telefonen und mit Gesprächen sowie ein deutliches Wasserzeichen, damit sich eine Übung nie als echtes Ereignis ausgibt. Beim Schließen des Panels werden Demos sauber abgebaut (kein hängengebliebenes GPS-Spoofing, keine übrig gebliebenen Flags).
+### 🗺️ Karten, Straßen und Pfadvorhersage
+Schallpeilungen werden auf echte GPS-Koordinaten auf der Karte projiziert. Fahrzeuggeräusche können **an nahe Straßen eingerastet** werden, und ihre Wege werden vorhergesagt, sodass ein vorbeifahrender Lastwagen als Bewegung *entlang der Straße* gelesen wird und nicht durch Gebäude. (Probieren Sie die Feuerwehrwagen-Demo im Feature Playground.)
 
-### ♿ Barrierefreiheit an erster Stelle
-Gebaut für gehörlose / schwerhörige / CODA- und farbenblinde Nutzerinnen und Nutzer: **farbunabhängige** Hinweise, Tippflächen von **≥44 pt**, Berücksichtigung der Einstellung **Bewegung reduzieren**, **Rechts-nach-links-Layouts** für arabischsprachige Leserinnen und Leser, multimodale Warnungen (Haptik + Bild + Watch) und ein Prüfbildschirm beim Start, der den Status der Berechtigungen mit klaren Zuständen in Grün / Grau / Rot (und gebranntem Orange für „nicht erlaubt“) anzeigt — einschließlich der Freigabe für Benachrichtigungen, die als Hauptschalter für Warnungen dient.
+### 🪄 Feature Playground — es ohne Ohren beweisen
+**Feature Playground** ist für alle öffentlich: Beispielwarnungen für Home Watch und Street Watch (Klopfen, Alarm, Baby, Sirene, Wetter), Demos mit mehreren Telefonen und mit Gesprächen. Diese tragen ein klares Wasserzeichen, sodass Übung nie vorgibt, ein Live-Ereignis zu sein. Das Schließen der Fläche räumt die Demos sauber ab (kein hängengebliebenes GPS-Spoof, keine übrig gebliebenen Flags).
+
+### ♿ Barrierefreiheit zuerst
+Gebaut für Gehörlose / Schwerhörige / CODA und farbenblinde Menschen:
+
+- **farbunabhängige** Hinweise
+- Tippflächen von **≥44 pt**
+- Beachtung von **Bewegung reduzieren**
+- **Rechts-nach-links-Layouts** für Leserinnen und Leser des Arabischen
+- multimodale Warnungen (Haptik + visuell + Watch)
+- ein Prüfbildschirm beim Start, der den Stand der Berechtigungen in klarem Grün / Grau / Rot zeigt und in gebranntem Orange für „nicht erlaubt“, einschließlich der Mitteilungserlaubnis, die als Hauptschalter der Warnungen wirkt
 
 ---
 
-## Kostenlos & Power Pack+
+## Kostenlos und Power Pack+
 
-Der Sicherheitskern ist **kostenlos, für immer**:
+Der Kern der Sicherheit ist **kostenlos, für immer**:
 
-- **Home Watch & Street Watch** — lokale Geräuschwarnungen (Alarme, Sirenen, Klopfen/Türklingeln, Baby, Person in der Nähe) mit Zustellung auf dem Bildschirm, per Haptik und optional per Push.
-- **Live-Untertitel** — Speaker Mode, auf dem Gerät, mit Richtung, wo die Hardware es erlaubt, mit ehrlichen Zuverlässigkeitsmarkierungen, Selbstkorrektur in ~2 Sekunden, optionaler Sprachausgabe an Bluetooth-Hörgeräte und Richtungstönen.
-- **Name gerufen** — optionale Namen, die Sie eintippen (Ihr eigener, der Ihrer Kinder, der Ihrer Partnerin oder Ihres Partners). Ein Treffer ist eine Warnung auf Watch/Telefon mit Peilung, kein zweiter Untertitel.
-- **Standing Watch** — der Zustand des Raums selbst, immer aktiv, ohne dass Sie etwas einstellen müssen: eine gleichmäßig leuchtende Lampe in Cyan, solange der Raum sein Muster beibehält, Bernsteingelb, sobald sich etwas ändert — eine neue Stimme, plötzliche Stille oder etwas, das sich nähert. Beim Start sagt Ihnen die App, wie lange sie nicht auf Warnungen gelauscht hat.
-- **Unwetterwarnungen** — amtliche Warnungen für Ihre Region aus staatlichen Quellen in mehr als 140 Ländern und Gebieten, Tendenz steigend.
-- **Wetterradar** — Regen und Schnee auf der Karte, mit der letzten Stunde zum erneuten Abspielen.
-- **Der Rettungsring** — wen Sie in dem Land anrufen können, in dem Sie sich befinden.
-- **Erdbebenmeldungen (weltweit)** — wird in Ihrer Nähe ein Beben gemeldet, spüren Sie eine Vibration und sehen auf Ihrer Karte das Gebiet, in dem es zu spüren war. Eine Bestätigung aus dem offiziellen Erdbeben-Feed — keine Frühwarnung: Wenn Sie Erschütterungen gespürt haben, sagt Ihnen dies, was es war. Der Feed wird alle fünf Minuten abgefragt, auch im Hintergrund, und die Erkennung von tiefem Grollen (Infraschall) auf dem Gerät kann in dem Moment, in dem sich der Boden bewegt, eine zusätzliche Prüfung scharf schalten.
-- **Feature Playground** — Übungswarnungen und Funktionsvorschauen mit deutlichem VORSCHAU-Wasserzeichen.
-- **Begleit-App für die Apple Watch & Live Activity** — Richtung und letzte Warnung auf einen Blick.
-- **Acoustic Scope** — Live-Klangvisualisierung auf Profiniveau, für alle kostenlos. (Die Aufnahmewerkzeuge für das Training gehören zu Power Pack+.)
-- **Forschungs-Array** *(nur auf Wunsch, standardmäßig aus)* — wenn Sie es einschalten, werden der Zeitpunkt, ein ungefährer Standort (auf etwa 1 km) und die Frequenz erdbebenähnlicher Ereignisse geteilt — kein Audio, keine Kennung —, um bei der Kartierung von Erdbeben und anderen niederfrequenten Ereignissen zu helfen.
+- **Home Watch und Street Watch** — örtliche Geräuschwarnungen (Alarme, Sirenen, Klopfen/Türklingeln, Baby, Person in der Nähe) auf dem Bildschirm, mit Haptik und optionaler Push-Zustellung.
+- **Live-Untertitel** — Speaker Mode, auf dem Gerät, mit Richtung, wo die Hardware es hergibt, mit ehrlichen Konfidenzmarken, Selbstkorrektur in ~2 Sekunden, optionaler Sprachausgabe an ein Bluetooth-Gerät (auch ein Hörgerät) und Richtungstönen.
+- **Name gerufen** — optionale Namen, die Sie eintippen (Ihren, die von Kindern, den einer Partnerin oder eines Partners). Ein Treffer ist eine Warnung auf Watch und Telefon mit Peilung, kein zweiter Untertitel.
+- **Standing Watch** — der eigene Zustand des Raums, immer an, ohne dass etwas einzustellen ist: eine stetige cyanfarbene Lampe, solange der Raum sein Muster hält, bernsteinfarben, wenn sich etwas ändert — eine neue Stimme, plötzliche Stille oder etwas, das sich nähert. Beim Start sagt Ihnen die App, wie lange sie nicht auf Warnungen gehört hat.
+- **Unwetterwarnungen** — offizielle Warnungen für Ihre Region aus staatlichen Quellen in mehr als 140 Ländern und Territorien, und oft kommen weitere hinzu.
+- **Wetterradar** — Regen und Schnee auf der Karte, mit der letzten Stunde in der Wiederholung, und wohin der Wind weht.
+- **Der Rettungsring** — wen Sie in dem Land anrufen, in dem Sie sind.
+- **Erdbebenwarnungen (weltweit)** — spüren Sie eine Vibration und sehen Sie auf Ihrer Karte das Gebiet, das es gespürt hat, wenn in der Nähe ein Beben gemeldet wird. Eine Bestätigung aus dem offiziellen Erdbeben-Feed — keine Frühwarnung: Wenn Sie ein Beben gespürt haben, sagt Ihnen das, was es war. Der Feed wird alle fünf Minuten geprüft, auch im Hintergrund, und die Erfassung von **Tiefem Grollen** (Infraschall) auf dem Gerät kann eine zusätzliche Prüfung scharfschalten, sobald sich der Boden bewegt.
+- **Feature Playground** — Warnungen üben und Funktionsvorschauen mit einem klaren Wasserzeichen PREVIEW.
+- **Begleiter der Apple Watch und Live Activity** — Richtung und letzte Warnung auf einen Blick.
+- **Acoustic Scope** — Live-Darstellung des Schalls in Profi-Qualität, kostenlos für alle. (Die Aufnahmewerkzeuge zum Trainieren gehören zu Power Pack+.)
+- **Forschungs-Array** *(an, bis Sie es ausschalten)* — solange es an ist, werden die Zeit, ein grober Ort (etwa 1 km) und die Häufigkeit bebenartiger Ereignisse geteilt — kein Audio, keine Kennung —, um Erdbeben und andere niederfrequente Ereignisse zu kartieren. Eine Frage auf der Karte wird einmal gestellt. Meldungen warten, bis diese Frage auf dem Bildschirm gewesen ist.
 
-**Power Pack+** ist eine einmalige Freischaltung (**kein Abonnement**) mit einer **kostenlosen 90-Tage-Testphase**. Es ergänzt die Superkräfte:
+**Power Pack+** ist eine einmalige Freischaltung (**kein Abo**) mit einer **kostenlosen Testphase von 90 Tagen**. Es bringt die Superkräfte dazu:
 
-- **Auto-Übersetzen** — Übersetzung von Sprache in Ihrer Nähe in Ihre Sprache, auf dem Gerät.
+- **Auto-Übersetzen** — Übersetzung von Sprache in der Nähe in Ihre Sprache, auf dem Gerät.
 - **Constellation** — gemeinsames Hören mehrerer iPhones über Ultra-Wideband, mit Partnernachrichten.
-- **Music ID** — Songerkennung mit ShazamKit.
-- **Eigene Soundpakete** — Zusatzklassifikatoren, die Sie für Ihre eigenen Geräusche trainieren.
+- **Music ID** — Liederkennung über ShazamKit.
+- **Eigene Soundpakete** — Zusatz-Klassifikatoren, die Sie für Ihre eigenen Geräusche trainieren.
+- **Remote Link** — private Video- und Textgespräche mit jemandem, der nicht bei Ihnen ist, ganz ohne Audio an irgendeinem Punkt. Zum Starten braucht es Power Pack+; die Person, die Sie einladen, tritt kostenlos bei.
 
-Ob kostenlos oder Power Pack+: **Ihr Audio bleibt für die Erkennung auf dem Gerät** — die Stufe ändert nur, welche Funktionen freigeschaltet sind, niemals, wohin Roh-Audio zur Analyse gesendet wird.
+Ob kostenlos oder mit Power Pack+: **Ihr Audio bleibt für die Erkennung auf dem Gerät** — die Stufe ändert nur, welche Funktionen freigeschaltet sind, nie, wohin Roh-Audio zur Analyse gesendet wird.
 
 ---
 
-## So funktioniert es (unter der Haube)
+## Wie es funktioniert (unter der Haube)
 
-Vigilant Ear ist eine in Schichten aufgebaute Pipeline, **local-first und auf dem Gerät**: einmal erfassen, dann lesen unabhängige Spezialisten denselben Klang und prüfen gegenseitig ihre Arbeit. Roh-Audio wird über einen Tap mit hoher Priorität erfasst, in eine **Free-List gepoolter Puffer** kopiert (kein Allokations-Thrashing auf dem Echtzeitpfad) und verteilt, ohne die Oberfläche ins Stocken zu bringen:
+Vigilant Ear ist eine **lokal zuerst, auf dem Gerät** aufgebaute Pipeline in Schichten: einmal aufnehmen, dann unabhängige Spezialisten denselben Schall lesen und einander die Arbeit prüfen lassen. Roh-Audio wird an einem Abgriff mit hoher Priorität erfasst, in eine **Pufferpool-Freiliste** kopiert (ohne dauerndes Allozieren auf dem Echtzeitpfad) und aufgefächert, ohne die Oberfläche aufzuhalten:
 
 ```mermaid
 graph TD
-    A["Stereo-Mikrofon-Tap"] --> B["Snapshot des gepoolten Puffers"]
-    B --> C["Geräuschklassifikator<br/>(Apple Neural Engine)"]
-    B --> Y["Klassifikator für eine Zweitmeinung<br/>(YAMNet, ANE)"]
-    C --> S["Sentinel — Evidenzschicht<br/>bestätigt, legt Veto ein, eskaliert"]
+    A["Stereo-Mikrofonabgriff"] --> B["Momentaufnahme aus dem Pufferpool"]
+    B --> C["Schall-Klassifikator<br/>(Apple Neural Engine)"]
+    B --> Y["Klassifikator der zweiten Meinung<br/>(YAMNet, ANE)"]
+    C --> S["Sentinel — Beweisschicht<br/>bestätigt, vetoiert, eskaliert"]
     Y --> S
     S --> H["Warnungen · Haptik · Watch · Live Activity"]
-    B --> D["Räumliche Berechnung<br/>TDOA · Pegeltrend → Peilung · Entfernung · Annäherung"]
-    D --> R["Radarring · Karte · Kamera-AR"]
-    B --> F["Spracherkennung<br/>(SpeechAnalyzer oder Modelle pro Redebeitrag)"]
-    B --> N["Sprecherwechsel<br/>(Sortformer-Diarizer, ANE)"]
+    B --> D["Räumliche Mathematik<br/>TDOA · Pegeltrend → Peilung · Entfernung · Annäherung"]
+    D --> R["Radar-Ring · Karte · Kamera-AR"]
+    B --> F["Spracherkennung<br/>(SpeechAnalyzer oder Modelle je Redebeitrag)"]
+    B --> N["Grenzen der Redebeiträge<br/>(Sortformer-Diarisierer, ANE)"]
     N --> E["Stimmidentität<br/>(ReDimNet-Embeddings, ANE)"]
     B --> E
-    F --> G["Untertitelzeilen — eine pro Stimme"]
+    F --> G["Untertitel — einer je Stimme"]
     E --> G
     G --> T["Übersetzung auf dem Gerät<br/>→ Ihre Sprache"]
 ```
 
-Keinem einzelnen Modell wird allein vertraut. Die **Sentinel**-Schicht sitzt zwischen Erkennung und Warnung: Unabhängige Engines bestätigen einander Frame für Frame oder legen ihr Veto ein — und wenn sich wiederholt reale Belege gegen ein Veto häufen (eine echte Sirene, die durch Ihre Musik hindurch heult), gewinnen die Belege, und die Warnung wird ausgelöst.
+Keinem einzelnen Modell wird allein vertraut. Die Schicht **Sentinel** sitzt zwischen Erkennung und Warnung: Unabhängige Engines bestätigen einander oder legen Frame für Frame ein Veto ein — und wenn sich wiederholte Belege aus der Wirklichkeit gegen ein Veto häufen (eine echte Sirene, die durch Ihre Musik heult), gewinnen die Belege, und die Warnung löst aus.
 
-Untertitel bekommen ihre eigene zweite Chance. Jeder abgeschlossene Satz wird im Stillen mit vollem Kontext erneut aus einem kurzen Audio-Ringpuffer im Arbeitsspeicher gelesen — Korrekturen erscheinen innerhalb von etwa zwei Sekunden, danach friert der Text endgültig ein:
+Untertitel bekommen eine eigene zweite Chance. Jeder fertige Satz wird still aus einem kurzen Audio-Ringpuffer im Speicher mit vollem Kontext erneut gelesen — Korrekturen landen innerhalb von etwa zwei Sekunden, danach ist der Text endgültig eingefroren:
 
 ```mermaid
 graph LR
     L["Live-Untertitel erscheint"] --> K["Roh-Audio erneut gelesen<br/>mit vollem Kontext"] --> V["Abgesicherter Vergleich<br/>(behält, was gehört wurde)"] --> W["Zeile still korrigiert<br/>≤ 2 s, dann eingefroren"]
 ```
 
-- **Räumliche Berechnung** — FFTs, kohärenzgewichtete Time Difference of Arrival (TDOA — die Frequenzbänder bevorzugen, bei denen sich beide Mikrofone einig sind, und dann die winzige Ankunftsverzögerung in eine Peilung umrechnen) sowie Annäherungsverfolgung über den Pegeltrend in Hintergrundaufgaben. Das Mikrofonpaar wird in einer festen Ausrichtung gelesen, sodass die Richtung gleich funktioniert, ob Sie das Telefon hochkant oder quer halten.
-- **Sprache** — iOS 26 `SpeechAnalyzer` / `SpeechTranscriber` für die Transkription; Apples **Translation**-Framework für die Übersetzung auf dem Gerät. Mit dem optionalen Untertitel-Download wird jeder Redebeitrag von einer Sprachaktivitätserkennung abgegrenzt, seine Sprache von einem Modell für gesprochene Sprachen bestimmt und der Beitrag von offenen Spracherkennungsmodellen transkribiert — einem für europäische Sprachen, einem für die übrigen —, alles auf dem Gerät. Die Stimmidentität beruht auf Belegen: Eine Stimme wird nur anhand unabhängiger Klangfenster als echte Person bestätigt, und eine unsichere Zuordnung erscheint ohne Namen, statt den falschen Namen zu raten.
-- **Zwei Modelle für zwei Fragen** — um Stimmen auseinanderzuhalten, muss man wissen, *wann die sprechende Person gewechselt hat* und *wer diese Person ist*, und das ist nicht dasselbe Problem. Ein **Sortformer**-Streaming-Diarizer markiert die Grenzen der Redebeiträge; **ReDimNet**-Embeddings entscheiden, wessen Stimme in jedem davon steckt. Genau an der Grenze zu schneiden ist wichtiger, als es klingt: Ein Fenster, das zwei Personen überspannt, enthält beide, und kein Embedding-Modell kann das hinterher rückgängig machen. Unter beiden liegt eine Sprachaktivitätserkennung als unterste Ebene — verstummt der Diarizer in einem schwierigen Raum, statt zu raten, werden Redebeiträge trotzdem geschnitten, sodass die App an Qualität verliert, statt zwei Sprecher zu einem zu verschmelzen.
-- **Musik-Wahrheit** — ein Chroma-basierter **Song-Signatur-Detektor** trifft die Entscheidung „läuft wirklich Musik?“, weil allgemeine Klassifikatoren bekanntermaßen stille Räume und Sirenen als „Musik“ einstufen. Shazam läuft erst, wenn die Signatur bestätigt, dass tatsächlich etwas Musikalisches da ist.
-- **Nebenläufigkeit** — die Isolation von Swift 6 hält Mikrofon-Tap, akustische Berechnung und die Render-Schleife der Oberfläche sauber getrennt.
-- **Effizienz** — Downsampling, lastabhängige Klassifizierung und eine an Belege gebundene Netzwerknutzung halten das ständige Zuhören so leicht, dass Sie es eingeschaltet lassen können.
+- **Räumliche Mathematik** — FFTs, kohärenzgewichtete Laufzeitdifferenz (TDOA — die Frequenzbänder bevorzugen, in denen beide Mikrofone übereinstimmen, und dann die winzige Ankunftsverzögerung in eine Peilung umrechnen) sowie die Verfolgung der Annäherung über den Pegeltrend, auf Hintergrundaufgaben. Das Mikrofonpaar wird in einer festen Ausrichtung gelesen, sodass die Richtung gleich funktioniert, ob Sie das Telefon aufrecht oder quer halten.
+- **Sprache** — iOS 26 `SpeechAnalyzer` / `SpeechTranscriber` für die Transkription; Apples Framework **Translation** für die Übersetzung auf dem Gerät. Mit dem optionalen Untertitel-Download schneidet ein Detektor für Sprachaktivität jeden Redebeitrag, ein Modell für gesprochene Sprache wählt dessen Sprache, und offene Spracherkennungsmodelle transkribieren ihn — eines für europäische Sprachen, eines für die übrigen —, alles auf dem Gerät. Die Stimmidentität beruht auf Belegen: Eine Stimme wird nur aus unabhängigen Schallfenstern als echte Person bestätigt, und eine unsichere Zuordnung erscheint ohne Zuschreibung, statt den falschen Namen zu raten.
+- **Zwei Modelle für zwei Fragen** — Stimmen zu trennen braucht *wann die sprechende Person gewechselt hat* und *wer diese Person ist*, und das ist nicht dieselbe Aufgabe. Ein streamender Diarisierer **Sortformer** markiert die Grenzen der Redebeiträge; Embeddings von **ReDimNet** entscheiden, wessen Stimme in jedem sitzt. Am Übergang zu schneiden wiegt schwerer, als es klingt: Ein Fenster, das über zwei Personen reicht, enthält beide, und kein Embedding-Modell kann das danach rückgängig machen. Unter beiden liegt ein Boden der Sprachaktivität — wenn der Diarisierer in einem schwierigen Raum verstummt, statt zu raten, werden die Redebeiträge trotzdem geschnitten, sodass die App sich zurücknimmt, statt zwei Sprechende zu einer Stimme zu vermischen.
+- **Wahrheit über Musik** — ein Chroma-**Detektor der Liedsignatur** besitzt die Entscheidung „spielt wirklich Musik?“, weil allgemeine Klassifikatoren bekanntermaßen stille Räume und Sirenen „Musik“ nennen. Shazam läuft erst, wenn die Signatur zustimmt, dass wirklich etwas Musikalisches da ist.
+- **Nebenläufigkeit** — die Isolation von Swift 6 hält den Mikrofonabgriff, die akustische Mathematik und die Render-Schleife der Oberfläche sauber getrennt.
+- **Effizienz** — Unterabtastung, lastangepasste Klassifikation und an Belege gebundene Netznutzung halten das Dauerzuhören leicht genug, um es anzulassen.
 
-Wetter- und Erdbebenmeldungen gehen den umgekehrten Weg wie Audio — von Ihrem Audio geht nie etwas hinaus, aber Warn-*Daten* kommen herein. **Jeder** offizielle Feed — und auch die Radarbilder — läuft über einen kleinen Cache, den wir betreiben, sodass ein einziger Abruf der öffentlichen Daten alle Nutzerinnen und Nutzer bedient, und Ihr Telefon kontaktiert nie die Server einer ausländischen Regierung:
+Wetter- und Erdbebenwarnungen gehen den umgekehrten Weg zum Audio — nichts von Ihrem Schall geht je nach draußen, aber Warn-*Daten* kommen herein. **Jeder** offizielle Feed — und die Bilder von Radar und Wind — läuft durch einen kleinen Relay-Cache, den wir betreiben, sodass ein einziger Abruf der öffentlichen Daten allen dient und Ihr Telefon niemals staatliche Server kontaktiert:
 
 ```mermaid
 graph LR
-    P1["Vigilant Ear<br/>Auf Ihrem Gerät"] --> W["Wingdings-Warn-Cache<br/>eine gemeinsame Kopie · Aktualisierung alle 5 Minuten"]
-    W --> N["Offizielle öffentliche Feeds<br/>Wetterquellen in über 140 Ländern und Gebieten<br/>Katastrophenschutz NZ · Erdbeben"]
+    P1["Vigilant Ear<br/>Auf Ihrem Gerät"] --> W["Wingdings-Warncache<br/>eine gemeinsame Kopie · Aktualisierung alle 5 Minuten"]
+    W --> N["Offizielle öffentliche Feeds<br/>Wetterquellen in 140+ Ländern und Territorien<br/>NZ-Zivilschutz · Erdbeben"]
 ```
 
 ---
 
 ## Was Ihr Telefon hören kann — gemessen
 
-Ihr iPhone hat zwei Mikrofone im Abstand von etwa sechs Zoll, ein Barometer und eine sehr gute Uhr. Das reicht, um Ihnen zu sagen, in welcher Richtung ein Geräusch liegt, ungefähr wie weit es entfernt ist, ob es auf Sie zukommt und ob sich gerade eine Tür geöffnet hat. Hier steht, wie genau jede dieser Angaben ist, wie wir das geprüft haben und warum es wichtig ist, wenn Sie das Geräusch selbst nicht hören können. Richtung und verwandte Werte wurden im September 2026 auf einem iPhone 17 und einem iPhone 16 Pro Max gemessen. Die Entfernung bleibt ihrer Natur nach eine Schätzung — das sagen wir auch auf dem Bildschirm.
+Ihr iPhone hat zwei Mikrofone im Abstand von etwa sechs Zoll (15 cm), ein Barometer und eine sehr gute Uhr. Das genügt, um Ihnen zu sagen, aus welcher Richtung ein Geräusch kam, ungefähr wie weit es weg ist, ob es auf Sie zukommt und ob gerade eine Tür aufgegangen ist. Hier steht, wie genau jedes davon ist, wie wir es geprüft haben und warum das zählt, wenn Sie den Schall selbst nicht hören können. Die Richtungstabelle wurde im September 2026 auf einem iPhone 17 gemessen. Dieselbe Prüfung auf dem Tisch mit einem iPhone 16 Pro Max ergab keinen durchgehenden Winkel — dieses Bild schnappt ein Geräusch nach vorn oder zur Seite —, sodass die Zeilen in Grad allein die des 17 sind. Die Entfernung bleibt von Natur aus eine Schätzung — das sagen wir auf dem Bildschirm. Die in diesem Abschnitt abgemessenen Entfernungen sind in Fuß, den Einheiten dieses Maßbands.
 
-**Richtung — auf ein paar Grad genau.** Ein Geräusch erreicht das obere Mikrofon vor dem unteren oder danach, und aus diesem Zeitabstand berechnet die App, wie weit das Geräusch neben der Achse des Telefons liegt und ob es vorn oder hinten ist. Die beiden Kanäle des Telefons sind keine einfachen Mikrofone, sondern ein bearbeitetes Stereobild, und dieses Bild fügt immer dann ein eigenes, festes Muster hinzu, wenn es in einem Raum laut ist. Die App lernt dieses Muster jetzt in ein paar ruhigen Sekunden nach dem Start und rechnet es heraus, bevor sie die Richtung abliest.
-
-| Was wir gemessen haben | Ergebnis |
-|---|---|
-| Medianfehler über 96 simulierte Räume, vom ruhigen Büro bis zum Raum mit harten Wänden bei 5 dB SNR | 1,0° |
-| iPhone 17 auf einem Schreibtisch, Raumgeräusch an, Lautsprecher 30° neben der Achse | 61,7° von der Seitenebene abgelesen, erwartet 60°, Schwankung 1,6° |
-| Ebenso, Lautsprecher genau seitlich vom Telefon | 4,5° abgelesen, erwartet 0°, Schwankung 2,2° |
-| Ebenso, Lautsprecher direkt voraus | jede Ablesung bei der maximalen Verzögerung, wie es sein soll |
-| Ablesungen, die auf dem Eigenmuster des Stereobilds statt auf dem Geräusch landen | keine, bei keinem Winkel |
-
-*Warum das wichtig ist:* Wenn Sie eine Sirene nicht hören können, sagt Ihnen „hinter Ihnen, seitlich versetzt“, wohin Sie schauen sollen. Einer Anzeige, die stillhält, darf man erst trauen, wenn sie mit dem Maßband überprüft wurde — und diese wurde es, zweimal, das zweite Mal, nachdem sich die erste Prüfung als zu wohlwollend herausgestellt hatte.
-
-**Entfernung — angezeigt als das, was sie ist: eine Schätzung.** Ein Mikrofon kann keine Entfernung messen, nur Lautstärke, und ein lauter Lkw in der Ferne kann klingen wie ein leises Auto aus der Nähe. Die App schätzt die Entfernung aus der Lautstärke mithilfe einer Kurve, die an einer echten Straße angepasst wurde, und sagt es dann so, wie es ein sorgfältiger Mensch tun würde: *etwa 50 ft, wahrscheinlich zwischen 25 und 100.*
+**Richtung — bis auf ein paar Grad.** Ein Geräusch erreicht das obere Mikrofon vor dem unteren, oder danach, und aus diesem Abstand errechnet die App, wie weit das Geräusch von der Achse des Telefons abliegt und ob es vorn oder hinten ist. Die beiden Kanäle des Telefons sind keine schlichten Mikrofone, sondern ein verarbeitetes Stereobild, und dieses Bild legt ein eigenes festes Muster darüber, sobald ein Raum laut ist. Die App lernt dieses Muster aus der Ruhe nach dem Start. Nach etwa einer Minute in einem ruhigen Raum nimmt sie das Muster heraus, bevor sie die Richtung liest; bis dahin läuft die Messung ohne diese Korrektur.
 
 | Was wir gemessen haben | Ergebnis |
 |---|---|
-| Echte Autoerkennungen, erneut durch die Kalibrierung abgespielt | 1.131 |
-| Verortet innerhalb der 100-Fuß-Straße, auf der sie tatsächlich fuhren | 73 % |
-| Autos auf der fernen Spur | geschätzt 78 und 87 ft, laut Maßband 73 und 85 ft |
+| Medianfehler über 96 simulierte Räume, vom ruhigen Büro bis zum Raum mit harten Wänden bei 5 dB SNR | 1.0° |
+| iPhone 17 auf einem Tisch, Raumgeräusch an, Lautsprecher 30° von der Achse | las 61.7° von der Seitenebene bei erwarteten 60°, Schwankung 1.6° |
+| Dasselbe, Lautsprecher genau von der Seite des Telefons | las 4.5° bei erwarteten 0°, Schwankung 2.2° |
+| Dasselbe, Lautsprecher 60° von der Achse | Median 35.7° bei erwarteten 30°; der Durchlauf spaltete sich, mit einem zweiten Cluster bei der Verzögerung für geradeaus, höchstwahrscheinlich eine Reflexion am Messaufbau |
+| Dasselbe, Lautsprecher geradeaus | jede Messung bei der maximalen Verzögerung, wie es sein soll |
+| Messungen, die auf dem eigenen Muster des Bildes landeten statt auf dem Schall | keine, bei keinem Winkel |
 
-Die Straße (eine Kreuzung in der Stadt) wurde Spur für Spur vermessen; wenn die Kurve danebenliegt, dann auf der nahen Seite. Die Kalibrierung ist durch einen automatisierten Test festgeschrieben, damit sie nicht unbemerkt abdriften kann. Alarme in Ihren eigenen Räumen, etwa ein Rauchmelder, bekommen überhaupt keine Entfernungsangabe — sie sind bereits mit Ihnen im Raum.
+*Warum es zählt:* Wenn Sie eine Sirene nicht hören können, sagt Ihnen „hinter Ihnen, etwas zur Seite“, wohin Sie sehen sollen. Eine Messung, die still steht, verdient Vertrauen erst, wenn sie gegen ein Maßband geprüft wurde, und diese wurde zweimal geprüft. Die erste Prüfung ließ das Ergebnis besser aussehen, als es war.
 
-**Bewegung — auf Sie zu.** Bei Autos und Sirenen bedeutet lauter werden meist näher kommen. Die App beobachtet, wie schnell der Pegel eines Geräuschs über einige Sekunden steigt: Ein anhaltender Anstieg von etwa 1,5 dB pro Sekunde (eine deutliche, gleichmäßige Zunahme der Lautstärke) bedeutet Annäherung, ein entsprechender Abfall bedeutet, dass es sich entfernt, und ein Geräusch, das sich nicht mehr ändert, gilt nach etwa vier Sekunden als keines von beiden. Ein einzelner lauter Moment — ein kurzes Hupen, eine zugeschlagene Tür — kann das nicht auslösen. Gebaut auf Physik und neun automatisierten Tests; eine aufgezeichnete Vorbeifahrt auf der Straße ist die nächste Bestätigung im Feld.
+**Entfernung — gezeigt als die Schätzung, die sie ist.** Ein Mikrofon kann keine Entfernung messen, nur die Lautstärke, und ein lauter Lastwagen weit weg kann klingen wie ein leises Auto ganz nah. Die App schätzt die Entfernung aus der Lautstärke anhand einer Kurve, die auf einer echten Straße angepasst wurde, und sagt es so, wie es ein vorsichtiger Mensch täte. Auf einem US-Telefon ist das *etwa 50 ft, wahrscheinlich zwischen 25 und 100.*
 
-**Die Luft im Raum — eine Tür hat eine Signatur.** Das Barometer kann bemerken, wenn sich etwa vierzehn Fuß entfernt eine Tür öffnet: Der Druck sinkt, während die Tür aufschwingt, und steigt wieder an, wenn sie sich schließt. Über vierzehn Stunden Ruhe und fünfzehn Türereignisse hinweg erzeugte jede Tür diese zweiteilige Form, und nichts anderes im Haus tat das.
+| Was wir gemessen haben | Ergebnis |
+|---|---|
+| Echte Auto-Erkennungen, durch die Kalibrierung erneut abgespielt | 1131 |
+| Landung innerhalb der 100-foot-Straße, auf der die Autos tatsächlich waren | 73% |
+| Autos der fernen Spur | geschätzt 78 und 87 ft, wo das Maßband 73 und 85 ft sagte |
 
-| Ereignis | Druckänderungsrate | Form |
+Die Straße (eine Kreuzung in der Stadt) wurde Spur für Spur gemessen; wenn die Kurve irrt, irrt sie zur nahen Seite. Die Kalibrierung ist durch einen automatisierten Test festgehalten, sodass sie nicht unbemerkt driften kann. Alarme in Ihrem eigenen Raum, etwa ein Rauchmelder, bekommen überhaupt keine Entfernungsangabe — sie sind schon mit Ihnen im Raum.
+
+**Bewegung — kommt auf Sie zu.** Bei Autos und Sirenen heißt lauter werden meist näher kommen. Die App beobachtet, wie schnell der Pegel eines Geräuschs über einige Sekunden steigt: ein anhaltender Anstieg von etwa 1.5 dB je Sekunde (eine klare, stetige Zunahme der Lautstärke) bedeutet Annäherung, ein entsprechendes Fallen bedeutet Weggehen, und ein Geräusch, das aufhört sich zu ändern, wird nach etwa vier Sekunden keines von beiden mehr genannt. Ein einzelner lauter Moment — ein kurzes Hupen, ein Türknall — kann es nicht auslösen. Aufgebaut auf Physik und neun automatisierten Tests; eine aufgezeichnete Vorbeifahrt auf der Straße ist die nächste Bestätigung im Feld.
+
+**Die Luft im Raum — eine Tür hat eine Signatur.** Das Barometer kann bemerken, dass etwa vierzehn Fuß (4.3 m) entfernt eine Tür aufgeht: Der Druck sinkt, während die Tür schwingt, und federt zurück, wenn sie zufällt. Über vierzehn Stunden Ruhe und fünfzehn Türereignisse machte jede Tür diese zweiteilige Form, und nichts anderes im Haus tat das.
+
+| Ereignis | Druckrate | Form |
 |---|---|---|
-| Haustür, geöffnet und geschlossen, ×10 | 0,6–1,8 Pa/s | Abfall, dann Wiederanstieg, ~5 s auseinander |
-| Haustür, zugeknallt, ×5 | 1,1–2,5 Pa/s | dasselbe Paar, höher |
-| Klimaanlage, die über Nacht an- und ausgeht, ×8 | 0,11–0,46 Pa/s | langsame Rampe über Minuten, auf beiden Telefonen identisch |
-| Ein ruhiger Raum | ~0,02 Pa/s | nichts |
-| Vorbeigehen, Niesen | — | der Bewegungssensor bemerkt es, und das Telefon ignoriert es |
+| Haustür, geöffnet und geschlossen, ×10 | 0.6–1.8 Pa/s | Absinken, dann Rückfedern, ~5 s auseinander |
+| Haustür, zugeschlagen, ×5 | 1.1–2.5 Pa/s | dasselbe Paar, höher |
+| Klimaanlage, die über Nacht taktet, ×8 | 0.11–0.46 Pa/s | langsame Rampe über Minuten, auf beiden Telefonen identisch |
+| Ein ruhiger Raum | ~0.02 Pa/s | nichts |
+| Menschliche Aktivität, Vorbeigehen | — | der Bewegungssensor bemerkt es, und das Telefon ignoriert es |
 
-Eine Fliegengittertür, die den Raum nicht abdichtet, blieb unsichtbar — genau wie es sein soll. Heute kann eine Druckänderung auf der Karte als tiefes Grollen erscheinen; eine eigene Türwarnung für ruhige Nächte ist gemessen und entworfen und ist noch nicht die alltägliche Standardeinstellung.
+Eine Tür, die den Raum nicht abdichtet, war unsichtbar — eine Fliegengittertür, in diesem Test — genau so, wie es sein soll. Heute kann eine Druckänderung als **Tiefes Grollen** auf der Karte erscheinen; eine eigene Türwarnung für die ruhige Nacht ist gemessen und entworfen und ist noch nicht der alltägliche Standard.
 
-**Constellation — zwei Telefone klären die Seite.** Jedes Telefon im Mesh zieht von seinem Standort aus eine Linie zum Geräusch, und die Linien kreuzen sich nur auf einer Seite sauber. Wenn sie das tun, verschwindet das Geisterbild, und die App kann wieder links oder rechts sagen. In der Simulation verorten zwei Telefone, die **40 Meter voneinander entfernt** sind, eine 50 Meter entfernte Sirene auf etwa 2 Meter genau.
+**Constellation — zwei Telefone klären die Seite.** Jedes Telefon im Mesh zeichnet von dort, wo es steht, eine Linie zum Geräusch, und die Linien kreuzen sich nur auf einer Seite sauber. Wenn sie das tun, verschwindet das Geisterziel, und die App kann wieder links oder rechts sagen. In der Simulation verorten zwei Telefone **40 Meter auseinander** eine Sirene 50 Meter entfernt auf etwa 2 Meter genau.
 
-**Wie hier etwas Glauben findet.** Jede Zahl hat dieselben drei Prüfstufen durchlaufen, der Reihe nach: einen simulierten Raum, dessen Antwort vorab bekannt ist; kleine automatisierte Tests, die genau den Fall nachstellen, der die App täuschen würde, und bei jeder Änderung laufen; dann die echten Telefone auf einem echten Schreibtisch, mit von Hand gemessenen Abständen. Nichts gilt als genau, bevor es die dritte übersteht. Für jemanden, der das Geräusch nicht hören kann, ist das Wort der App das einzige Wort — es sollte so verdient sein, wie ein Labor sein Wort verdient.
+**Wie hier irgendetwas Glauben findet.** Jede Zahl ging in derselben Reihenfolge durch dieselben drei Tore: ein simulierter Raum, dessen Antwort vorher bekannt ist; kleine automatisierte Tests, die genau den Fall nachstellen, der die App täuschen würde, und bei jeder Änderung laufen; dann die echten Telefone auf einem echten Tisch, mit Entfernungen, die von Hand gemessen wurden. Nichts gilt als genau, bevor es das dritte übersteht. Für jemanden, der den Schall nicht hören kann, ist das Wort der App das einzige Wort — es sollte so verdient werden, wie ein Labor es verdient.
 
-Ausführlichere Notizen für Ingenieurinnen und Ingenieure: [Physik](https://vigilantear.com/en/physics/) — TDOA, Entfernung, Bewegung, Constellation und barometrische Erkennung, jede Zahl gekennzeichnet als MEASURED / BENCHED / MODELLED.
+Tiefere Notizen für Ingenieurinnen und Ingenieure: [Physik](https://vigilantear.com/en/physics/) — TDOA, Entfernung, Bewegung, Constellation und barometrische Erkennung, und jede Zahl ist gekennzeichnet mit MEASURED / BENCHED / MODELLED.
 
 ---
 
 ## Datenschutz
 
-- **Auf dem Gerät, immer für die Kern-Pipeline.** Klassifizierung, räumliche Berechnung, Transkription, Diarisierung und Übersetzung laufen auf Ihrem iPhone. Roh-Audio wird für die Erkennung weder aufgezeichnet noch hochgeladen.
-- **Untertitel sind flüchtig.** Live-Untertitel bleiben für die Dauer der Sitzung im Arbeitsspeicher; exportierte Debug-Protokolle enthalten keinen Untertiteltext.
-- **Keine SDKs für Werbung oder Verhaltensanalyse.** Das Netzwerk wird nur begrenzt genutzt: für Karten, öffentliche Wetter-Feeds und Radarbilder, die Hilfeliste, den optionalen Download des Untertitelmodells, optionale Shazam-Fingerabdrücke, Straßenkontext, das Forschungs-Array, sofern Sie es einschalten, und App-Store-Käufe — siehe die vollständige Datenschutzerklärung.
+- **Auf dem Gerät, immer für die Kernpipeline.** Klassifikation, räumliche Mathematik, Transkription, Diarisierung und Übersetzung laufen auf Ihrem iPhone. Roh-Audio wird für die Erkennung weder aufgezeichnet noch hochgeladen.
+- **Untertitel sind flüchtig.** Live-Untertitel bleiben für die Sitzung im Speicher; exportierte Debug-Protokolle enthalten keinen Untertiteltext.
+- **Keine Werbung und keine SDKs für Verhaltensanalyse.** Begrenzte Netznutzung gibt es nur für Karten, öffentliche Wetter-Feeds, Radar- und Windbilder, die Hilfeliste, den optionalen Download des Untertitelmodells, optionale Shazam-Fingerabdrücke, Straßenkontext, Meldungen des Forschungs-Arrays, solange diese Funktion an ist, und Käufe im App Store — die Einzelheiten stehen in unserer Datenschutzerklärung.
 
-Alle Details: [Datenschutzerklärung](/de/privacy/) · [Nutzungsbedingungen](/de/terms/) · [Support](/de/support/)
+Vollständige Einzelheiten: [Datenschutz](/de/privacy/) · [Nutzungsbedingungen](/de/terms/) · [Support](/de/support/)
 
 ---
 
-## Hardware & Plattformen
+## Hardware und Plattformen
 
-- **iPhone (voller Funktionsumfang).** Funktioniert im Hoch- oder Querformat — halten Sie es, wie Sie möchten. Für die Richtungsbestimmung sind Stereomikrofone erforderlich. Empfohlen: **iPhone 13 oder neuer**; Untertitel in der eigenen Sprache jeder sprechenden Person benötigen **8 GB Arbeitsspeicher** (iPhone 15 Pro und neuer).
-- **Apple Watch.** Begleitende Warnungen mit Richtungspfeil; funktioniert mit Live Activity / Smart Stack.
-- **iPad (nativ).** Adaptives Layout: Auf dem großen Bildschirm bekommen Live-Untertitel ein durchsichtiges Panel neben der Karte, das sich einklappt, wenn niemand spricht. Einkanal-Mikrofone → Untertitel ohne vollständige Richtung.
-- **Constellation** benötigt **Ultra-Wideband** — iPhone 11 oder neuer, ausgenommen SE- und „e“-Modelle. Ein WLAN-Netz braucht es **nicht**: Bei eingeschaltetem WLAN finden sich die Telefone direkt, sodass Constellation ohne Router und ohne Internet funktioniert, solange die Telefone nahe beieinander sind.
-- **Android.** Separater Build mit Kern-Radar, Warnungen, Untertiteln und Wetter; beim Constellation-Mesh hat iOS Vorrang. Verfolgen Sie die Updates auf der Produktwebsite, während die Android-Parität wächst.
+- **iPhone (volles Erlebnis).** Funktioniert im Hoch- und im Querformat — halten Sie es, wie Sie mögen. Stereomikrofone sind für die Richtungsfindung nötig. Empfohlen **iPhone 13 oder neuer**; Untertitel in der Sprache jeder sprechenden Person brauchen **8 GB Speicher** (iPhone 15 Pro und später).
+- **Apple Watch.** Begleitwarnungen mit Richtungspfeil; funktioniert mit Live Activity / Smart Stack.
+- **iPad (nativ).** Adaptives Layout: Auf dem großen Bildschirm bekommen Live-Untertitel eine durchsichtige Fläche neben der Karte, die sich weglegt, wenn niemand spricht. Einkanalige Mikrofone → Untertitel ohne volle Richtung.
+- **Constellation** braucht **Ultra-Wideband** — iPhone 11 oder später, ohne die Modelle SE und „e“. Es braucht **kein** Wi-Fi-Netz: Bei eingeschaltetem Wi-Fi finden die Telefone einander direkt, sodass Constellation ohne Router und ohne Internet funktioniert, solange die Telefone nahe beieinander sind.
+- **Android (wenn verfügbar).** Eigener Build mit dem Kernradar, Warnungen, Untertiteln und Wetter; das Mesh von Constellation ist zuerst für iOS.
 
 ---
 
 ## Lokalisierung
 
-Vollständig lokalisiert — Oberfläche, Warnungen und Untertitel — in **Englisch, Spanisch, Portugiesisch (Brasilien), Französisch, Deutsch, Italienisch, Türkisch, Arabisch, Japanisch, vereinfachtes Chinesisch, traditionelles Chinesisch, Koreanisch, Russisch, Hindi und Rumänisch** (15 Sprachen). Richtet sich nach der Systemsprache oder einer manuellen Auswahl in der App. Rumänische Untertitel funktionieren auf dem Gerät; Apple Translate bietet kein Rumänisch, daher zeigt Auto-Übersetzen für diese Sprache das Original.
+Vollständig lokalisiert — Oberfläche, Warnungen und Untertitel — in **Englisch, Spanisch, Portugiesisch (Brasilien), Französisch, Deutsch, Italienisch, Türkisch, Arabisch, Japanisch, Vereinfachtes Chinesisch, Traditionelles Chinesisch, Koreanisch, Russisch, Hindi und Rumänisch** (15 Sprachen). Die App folgt der Sprache des Systems oder einer manuellen Wahl in der App. Rumänische Untertitel funktionieren auf dem Gerät; Apple Translate hat kein Rumänisch, daher zeigt Auto-Übersetzen für diese Sprache das Original.
 
 ---
 
-## Status & Haftungsausschluss
+## Status und Haftungsausschluss
 
-Vigilant Ear ist ein **experimentelles akustisches Hilfsmittel für Barrierefreiheit**, kein zertifiziertes Werkzeug zum Schutz von Leib und Leben. Die Auflösung der Schallortung variiert je nach Umgebung, Wetter, Wind und Mikrofonhardware. **Bewahren Sie stets Ihre gewohnte Aufmerksamkeit für Ihre Umgebung** — verlassen Sie sich nicht auf die App als Ihre einzige Quelle für Sicherheitsinformationen.
+Vigilant Ear ist eine **experimentelle Hilfe für akustische Barrierefreiheit**, kein zertifiziertes System der Lebenssicherheit. Die Auflösung der Ortung schwankt mit der Umgebung, dem Wetter, dem Wind und der Mikrofon-Hardware. **Behalten Sie immer Ihre gewohnte Aufmerksamkeit für die Umgebung** — verlassen Sie sich nicht darauf als Ihre einzige Quelle für Informationen zur Sicherheit.
 
-Einige Funktionen (Kamera-AR-Markierungen, das Upgrade auf die Critical-Alerts-Berechtigung, sobald Apple sie erteilt, fortgeschrittenes Sound-Authoring mit mehreren Paketen) entwickeln sich weiter; die kostenlose Home-/Street-Watch und die Live-Untertitel sind das Produkt, dem Sie vom ersten Tag an vertrauen können.
+Einige Fähigkeiten (Markierungen der Kamera-AR, das Upgrade der Berechtigung für kritische Hinweise, sobald Apple sie erteilt, das fortgeschrittene Erstellen mehrerer Soundpakete) entwickeln sich weiter; die kostenlosen Home Watch und Street Watch und die Live-Untertitel sind das Produkt, dem Sie vom ersten Tag an vertrauen können.
 
 **Quellen und Lizenzen:** [api.vigilantear.com/sources](https://api.vigilantear.com/sources)
 
@@ -279,5 +299,5 @@ Mit ❤️ gemacht für die Gemeinschaft der Gehörlosen und Schwerhörigen und 
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   Alle Rechte vorbehalten.<br />
-  Patent angemeldet
+  Mehrere Patente angemeldet
 </p>
