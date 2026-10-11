@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Effective as of version 1.1.11 · October 2026.*
+*Effective as of version 1.1.12 · October 2026.*
 
 ## An acoustic radar for people who can't hear.
 
@@ -40,7 +40,7 @@ An on-device classifier identifies hundreds of everyday sounds and watches the c
 Severe-weather warnings come from **official government sources in more than 140 countries and territories**, with more added often — free for all users. New Zealand's civil-defence emergency alerts are included too, with their own **Emergency Alerts** switch. Feeds are narrowed to the ones that cover where you are. In Japan the app also reads the national weather agency's **advance bulletins** — the plain-language notices issued days before a typhoon or heavy rain, not only the warnings issued once danger has arrived — plus the sudden-downpour and landslide bulletins. Advance notices are shown quietly, without the sound and vibration reserved for a real warning.
 
 ### 🌧️ Weather radar on the map
-Rain and snow show on the map from the moment the app opens — from the national radars of the United States, Canada, Japan, Italy and much of Europe, and a satellite rain estimate across most of the rest of the world. Touch the map and the last hour plays back three times, so you can see which way a storm is moving; a scale at the bottom reads from Light to Dense. If you don't want it for a session, tap the weather pill to turn it off. The radar arrives the same way the warnings do — through our own server, so your phone never contacts a government's.
+Rain and snow show on the map from the moment the app opens — from the national radars of the United States, Canada, Japan, Italy and much of Europe, and a satellite rain estimate across most of the rest of the world. Touch the map and the last hour plays back three times, so you can see which way a storm is moving; a scale at the bottom reads from Light to Dense. If you don't want it for a session, tap the weather pill to turn it off. The radar arrives the same way the warnings do — through our own server, so your phone never contacts a government's. Light grey arrows also show which way the wind is blowing, anywhere in the world, from NOAA's global forecast for the current hour.
 
 ### 🛟 Who to call — the life ring
 A life ring beside the map's compass opens a short list for the country you are standing in: the emergency number (with call and text buttons, and a note on Real-Time Text where texting an emergency number may not work), the national weather agency, a Deaf organization where one has a stable page, and Vigilant Ear support.
@@ -53,7 +53,7 @@ A life ring beside the map's compass opens a short list for the country you are 
 ### 💬 Speaker Mode — live, directional captions *(free)*
 Turn on **Speaker Mode** and Vigilant Ear transcribes people talking near you into **caption blocks, one per voice.** On-device speaker diarization keeps voices distinct — *who* is saying *what* — with a directional cue on the inner ring. The live speaker is highlighted; older text scrolls away as space is needed.
 
-**Each speaker in their own language.** On iPhones with at least 8 GB of memory, a one-time captioning-model download (about 1 GB — over Wi-Fi, or on cellular after asking) lets the app caption each turn in the language actually spoken, so a room that switches between English, Spanish, French and Arabic stays readable. In our tests, word errors in a four-language conversation fell from about 80% to 14%. Without the download — and for readers of Chinese, Japanese and Korean, where Apple's recognizer reads better — captions use Apple's on-device speech recognition as before.
+**Each speaker in their own language.** On iPhones with at least 8 GB of memory, a one-time captioning-model download (about 1 GB — over Wi-Fi, or on cellular after asking) lets the app caption each turn in the language actually spoken, so a room that switches between English, Spanish, French and Arabic stays readable. In our tests, word errors in a four-language conversation fell from about 80% to 14%. Since version 1.1.12 an improved speech model makes far fewer mistakes in noise — in a loud bar on an iPhone 17, German captions went from 45% of words wrong to 20% — and replaces the old one by itself over Wi-Fi. Without the download — and for readers of Chinese, Japanese and Korean, where Apple's recognizer reads better — captions use Apple's on-device speech recognition as before.
 
 Two things most caption apps won't do: **honesty about confidence** — a subtle per-row quality mark and dotted underlines beneath doubtful words tell you when to trust a line and when to double-check — and **self-correction**: right after a sentence lands, the app re-reads the audio with full context and can restore a missed or misheard word within a couple of seconds, then the text freezes.
 
@@ -85,7 +85,7 @@ A professional live view of the sound around you: spectrum, spectrogram, ⅓-oct
 Teach Vigilant Ear the sounds that matter to you — from local birds to your building's door chime. Add-on packs stack on top of the built-in detection, so new sounds never crowd out sirens and alarms. A step-by-step guide is built into the app.
 
 ### 🛰️ Constellation — many iPhones, one shared ear *(Power Pack+)*
-With two or more Ultra-Wideband-enabled iPhones (most since iPhone 11), **Constellation** pairs them so they can sense each other's position and fuse what each one hears into a single, more precise picture of where a sound is coming from — a distributed, passive listening array. Captions are fused too: each phone transcribes what its own microphone hears, and the words are aligned across phones so the one nearest a speaker contributes what it heard — words only one phone caught are kept rather than lost. The phones connect **directly to each other** — no router, no shared Wi-Fi network and no internet; Wi-Fi simply has to be switched on, over the same peer-to-peer link AirDrop uses. Gated to devices with the right hardware. Mesh captions older than a peer's connect time are not retransmitted.
+With two or more Ultra-Wideband-enabled iPhones (most since iPhone 11), **Constellation** pairs them so they can sense each other's position and fuse what each one hears into a single, more precise picture of where a sound is coming from — a distributed, passive listening array. Captions are fused too: each phone transcribes what its own microphone hears, and the words are aligned across phones so the one nearest a speaker contributes what it heard — words only one phone caught are kept rather than lost. The phones connect **directly to each other** — no router, no shared Wi-Fi network and no internet; Wi-Fi simply has to be switched on, over the same peer-to-peer link AirDrop uses. Gated to devices with the right hardware. Mesh captions older than a peer's connect time are not retransmitted. The link between the phones is always encrypted; phones running Vigilant Ear 1.1.6 or older need to update to join.
 
 **Partner messages** — send a quick text to a linked partner's phone; it lands in their caption feed and can arrive translated into their language, on-device. Messaging is age-aware: built on Apple's Declared Age Range, texting between an adult and a minor stays off unless both people have deliberately named each other. Alerts and captions are never gated — only person-to-person texting.
 
@@ -119,7 +119,7 @@ The safety core is **free, forever**:
 - **Name Called** — optional names you type (yours, kids, partner). A match is a Watch/phone alert with bearing, not a second caption.
 - **Standing Watch** — the room's own condition, always on with nothing to configure: a steady cyan lamp while the room holds its pattern, amber when something changes — a new voice, sudden quiet, or something approaching. When the app starts, it tells you how long it wasn't listening for alerts.
 - **Severe-weather alerts** — official warnings for your region from government sources in more than 140 countries and territories, with more added often.
-- **Weather radar** — rain and snow on the map, with the last hour on replay.
+- **Weather radar** — rain and snow on the map, with the last hour on replay, and which way the wind is blowing.
 - **The life ring** — who to call in the country you are in.
 - **Earthquake alerts (worldwide)** — feel a buzz and see the area that felt it on your map when a quake is reported nearby. A confirmation from the official earthquake feed — not an early warning: if you felt shaking, this tells you what it was. The feed is checked every five minutes, in the background too, and on-device deep-rumble (infrasound) sensing can arm an extra check the moment the ground moves.
 - **Feature Playground** — practice alerts and feature previews with a clear PREVIEW watermark.
@@ -178,7 +178,7 @@ graph LR
 - **Concurrency** — Swift 6 isolation keeps the microphone tap, acoustic math, and UI render loop cleanly separated.
 - **Efficiency** — downsampling, load-adaptive classification, and evidence-gated network use keep always-listening light enough to leave on.
 
-Weather and earthquake alerts take the opposite path from audio — nothing about your sound ever goes out, but alert *data* comes in. **Every** official feed — and the radar images — flows through a small cache we operate, so one fetch of the public data serves every user, and your phone never contacts a foreign government's servers:
+Weather and earthquake alerts take the opposite path from audio — nothing about your sound ever goes out, but alert *data* comes in. **Every** official feed — and the radar and wind images — flows through a small cache we operate, so one fetch of the public data serves every user, and your phone never contacts a foreign government's servers:
 
 ```mermaid
 graph LR
@@ -240,7 +240,7 @@ Deeper notes for engineers: [Physics](https://vigilantear.com/en/physics/) — T
 
 - **On-device, always for the core pipeline.** Classification, spatial math, transcription, diarization, and translation run on your iPhone. Raw audio is not recorded or uploaded for recognition.
 - **Captions are ephemeral.** Live captions stay in memory for the session; exported debug logs do not include caption text.
-- **No advertising or behavioral analytics SDKs.** Limited network use is only for maps, public weather feeds and radar images, the help list, the optional caption-model download, optional Shazam fingerprints, road context, the opt-in Research Array, and App Store purchases — see the full policy.
+- **No advertising or behavioral analytics SDKs.** Limited network use is only for maps, public weather feeds, radar and wind images, the help list, the optional caption-model download, optional Shazam fingerprints, road context, the opt-in Research Array, and App Store purchases — see the full policy.
 
 Full details: [PRIVACY.md](/en/privacy/) · [TERMS.md](/en/terms/) · [SUPPORT.md](/en/support/)
 

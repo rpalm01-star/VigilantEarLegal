@@ -247,13 +247,16 @@ The official warnings in Vigilant Ear come from these agencies. Your phone does 
      - `https://meteoalert.meteoinfo.ru/uzbekistan/cap-feed/ru/atom.xml`
 120. Vanuatu: **Vanuatu Meteorology and Geo-Hazards Department**
      - `https://cap-sources.s3.amazonaws.com/vu-vmgd-en/rss.xml`
-121. Worldwide: **U.S. Geological Survey (USGS) earthquake feed** — Public domain (U.S. Government work).
-122. Worldwide, 60°S to 70°N, where no radar is shown: **NOAA/NESDIS Enterprise Rainfall Rate — a satellite estimate from GOES, Himawari and Meteosat, not radar** — Public domain (U.S. Government work). Edited by Vigilant Ear: standardized to a consistent color palette.
-123. Yemen: **Yemen Meteorological Service**
+121. Venezuela: **Instituto Nacional de Meteorología e Hidrología (Venezuela)**
+     - `https://cap-sources.s3.amazonaws.com/ve-inameh-es/rss.xml`
+122. Worldwide: **NOAA Global Forecast System (GFS), wind 10 m above the ground, 0.25°, via NOAA Open Data Dissemination** — Public domain (U.S. Government work). Edited by Vigilant Ear: drawn as arrows for the current hour.
+123. Worldwide: **U.S. Geological Survey (USGS) earthquake feed** — Public domain (U.S. Government work).
+124. Worldwide, 60°S to 70°N, where no radar is shown: **NOAA/NESDIS Enterprise Rainfall Rate — a satellite estimate from GOES, Himawari and Meteosat, not radar** — Public domain (U.S. Government work). Edited by Vigilant Ear: standardized to a consistent color palette.
+125. Yemen: **Yemen Meteorological Service**
      - `https://cap-sources.s3.amazonaws.com/ye-yms-ar/rss.xml`
-124. Zambia: **Zambia Meteorological Department**
+126. Zambia: **Zambia Meteorological Department**
      - `https://zmd.gov.zm/api/cap/rss.xml`
-125. Zimbabwe: **Meteorological Services Department (Zimbabwe)**
+127. Zimbabwe: **Meteorological Services Department (Zimbabwe)**
      - `https://www.weatherzw.org.zw/api/cap/rss.xml`
 
 ## Models
