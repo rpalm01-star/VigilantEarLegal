@@ -98,5 +98,5 @@ Vigilant Ear 改變了這一點——就用你口袋裡的這支手機。
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   保留所有權利。<br />
-  三項美國專利申請中
+  多項專利申請中
 </p>

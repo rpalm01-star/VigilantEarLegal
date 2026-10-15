@@ -133,5 +133,5 @@ Feito com ❤️ para a comunidade Surda/Com deficiência auditiva (D/HH) e pesq
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   Todos os direitos reservados.<br />
-  Patente Pendente
+  Várias patentes pendentes
 </p>

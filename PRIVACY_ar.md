@@ -170,5 +170,5 @@
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   جميع الحقوق محفوظة.<br />
-  Patent Pending
+  براءات اختراع متعددة قيد التسجيل
 </p>

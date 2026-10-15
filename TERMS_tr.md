@@ -74,5 +74,5 @@ D/İE topluluğu ve akustik araştırma için ❤️ ile yapıldı.
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   Tüm hakları saklıdır.<br />
-  Patent Pending
+  Birden fazla patent başvurusu sürmektedir
 </p>

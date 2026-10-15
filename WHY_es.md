@@ -98,5 +98,5 @@ Un único pago y **Power Pack+** es tuyo para siempre: Traducción automática, 
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   Todos los derechos reservados.<br />
-  Tres patentes estadounidenses pendientes
+  Varias patentes en trámite
 </p>

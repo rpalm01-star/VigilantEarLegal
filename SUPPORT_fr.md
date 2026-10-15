@@ -133,5 +133,5 @@ Fait avec ❤️ pour la communauté sourde/malentendante et la recherche acoust
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   Tous droits réservés.<br />
-  Brevet en instance
+  Plusieurs brevets en instance
 </p>

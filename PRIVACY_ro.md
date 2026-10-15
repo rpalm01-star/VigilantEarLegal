@@ -170,5 +170,5 @@ Dacă ai întrebări despre această Politică de confidențialitate, contacteaz
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   Toate drepturile rezervate.<br />
-  Patent Pending
+  Mai multe brevete în curs de obținere
 </p>

@@ -98,5 +98,5 @@ O singură plată și **Power Pack+** rămâne al tău pentru totdeauna: Traduce
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   Toate drepturile rezervate.<br />
-  Trei brevete din SUA în curs de aprobare
+  Mai multe brevete în curs de obținere
 </p>

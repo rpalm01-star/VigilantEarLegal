@@ -133,5 +133,5 @@ Samsung Galaxy Watch 和 Google Pixel Watch 無法搭配 iPhone 使用，而 Our
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   All rights reserved.<br />
-  Patent Pending
+  Multiple Patents Pending
 </p>

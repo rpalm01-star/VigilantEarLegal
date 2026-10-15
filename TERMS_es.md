@@ -74,5 +74,5 @@ Hecho con ❤️ para la comunidad Sorda / con pérdida auditiva y la investigac
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   Todos los derechos reservados.<br />
-  Patente Pendiente
+  Varias patentes en trámite
 </p>

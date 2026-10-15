@@ -98,5 +98,5 @@ Vigilant Ear यही बदलता है — उसी फ़ोन पर 
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   सर्वाधिकार सुरक्षित।<br />
-  तीन अमेरिकी पेटेंट लंबित
+  अनेक पेटेंट लंबित
 </p>

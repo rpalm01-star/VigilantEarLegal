@@ -170,5 +170,5 @@ Vigilant Ear는 Apple App Store와 Google Play의 개인정보 보호 요구 사
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   모든 권리 보유.<br />
-  Patent Pending
+  다수의 특허 출원 중
 </p>

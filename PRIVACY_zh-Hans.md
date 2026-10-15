@@ -170,5 +170,5 @@ Vigilant Ear 遵循 Apple App Store 和 Google Play 的隐私要求，以及各�
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   保留所有权利。<br />
-  Patent Pending
+  多项专利正在申请中
 </p>

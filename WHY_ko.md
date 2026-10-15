@@ -98,5 +98,5 @@ Acoustic Scope의 **비주얼라이저**는 방 안의 음악을 빛의 쇼로 �
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   All rights reserved.<br />
-  미국 특허 3건 출원 중
+  다수의 특허 출원 중
 </p>

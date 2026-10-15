@@ -133,5 +133,5 @@ Home & Street 연습 소리와 다른 미리보기를 시도하려면 **기능 �
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   모든 권리 보유.<br />
-  특허 출원 중
+  다수의 특허 출원 중
 </p>

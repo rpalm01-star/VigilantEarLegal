@@ -74,5 +74,5 @@ Fatto con ❤️ per la comunità sorda/con problemi di udito e per la ricerca a
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   Tutti i diritti riservati.<br />
-  Brevetto in corso di registrazione
+  Molteplici brevetti in corso di registrazione
 </p>

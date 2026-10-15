@@ -98,5 +98,5 @@ Un paiement unique, et **Power Pack+** est à vous pour de bon : la Traduction a
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   Tous droits réservés.<br />
-  Trois brevets américains en instance
+  Plusieurs brevets en instance
 </p>

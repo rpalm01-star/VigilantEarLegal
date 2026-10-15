@@ -203,5 +203,5 @@ Witness Ear kann ein **authentifiziertes digitales Register akustischer Metadate
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   All rights reserved.<br />
-  Patent Pending
+  Multiple Patents Pending
 </p>

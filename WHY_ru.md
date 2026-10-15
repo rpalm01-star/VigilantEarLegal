@@ -98,5 +98,5 @@ Vigilant Ear это меняет — на том телефоне, что уже
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   Все права защищены.<br />
-  Три патентные заявки в США на рассмотрении
+  Заявлено несколько патентов
 </p>

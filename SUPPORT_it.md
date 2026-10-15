@@ -133,5 +133,5 @@ Fatto con ❤️ per la comunità sorda e con ipoacusia e per la ricerca acustic
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   Tutti i diritti riservati.<br />
-  In attesa di brevetto
+  Molteplici brevetti in corso di registrazione
 </p>

@@ -170,5 +170,5 @@ Se você tiver dúvidas sobre esta Política de Privacidade, fale conosco em:
   <img src="https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/wingdings-logo.png" alt="Wingdings, Inc." width="102" /><br /><br />
   <strong>© 2026 Wingdings, Inc.</strong><br />
   Todos os direitos reservados.<br />
-  Patent Pending
+  Várias patentes pendentes
 </p>
