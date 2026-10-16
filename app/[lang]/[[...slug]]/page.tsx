@@ -17,6 +17,8 @@ import {
 
 export const dynamicParams = false;
 
+const GITHUB_RAW = "https://raw.githubusercontent.com/rpalm01-star/VigilantEarLegal/main/";
+
 export function generateStaticParams() {
   return allPages().map((p) => ({
     lang: p.lang,
@@ -54,7 +56,12 @@ export default async function DocPage(
   const found = readDoc(doc, lang);
   if (!found) notFound();
 
-  const html = await marked.parse(found.markdown, { gfm: true, breaks: false });
+  // The docs reference their images by raw.githubusercontent.com URL so they also render on
+  // GitHub. Served here, that is a third-party request on every page (121 docs carry the logo),
+  // rate-limited by GitHub and cached for only 300 s. The same files are in public/, so the site
+  // serves them from its own domain. `npm run check` fails the build output if one slips through.
+  const html = (await marked.parse(found.markdown, { gfm: true, breaks: false }))
+    .replaceAll(GITHUB_RAW, "/");
   const rtl = RTL_LANGUAGES.has(lang);
   const langs = LANGUAGES.filter((l) => l.code === "en" || doc.translated);
 

@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "check": "node scripts/check-out.mjs"
   },
   "dependencies": {
     "next": "^15.0.0",
