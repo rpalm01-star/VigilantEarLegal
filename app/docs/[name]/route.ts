@@ -62,11 +62,10 @@ export async function GET(
     // actually guarantees it.
     if (path.dirname(full) !== path.resolve(ROOT)) return notFound();
     if (!fs.existsSync(full)) continue;
+    // Static export writes only the body. Cache-Control for /docs/ is set in vercel.json; a
+    // header set here never reaches production.
     return new Response(fs.readFileSync(full, "utf8"), {
-      headers: {
-        "content-type": "text/markdown; charset=utf-8",
-        "cache-control": "public, max-age=300, s-maxage=3600, stale-while-revalidate=86400",
-      },
+      headers: { "content-type": "text/markdown; charset=utf-8" },
     });
   }
   return notFound();
