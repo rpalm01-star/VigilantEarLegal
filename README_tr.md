@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*1.1.12 sürümü itibarıyla geçerlidir · Ekim 2026.*
+*1.1.13 sürümü itibarıyla geçerlidir · Ekim 2026.*
 
 ## Duyamayanlar için bir akustik radar.
 
@@ -50,8 +50,11 @@ Haritanın pusulasının yanındaki bir can simidi, içinde bulunduğunuz ülke 
 - kararlı bir sayfası olan bir Sağır kuruluşu
 - Vigilant Ear destek
 
+Vigilant Ear'ı yardım panelinden (can simidi) paylaşın: yanınızdaki birinin uygulamayı edinmek için tarayabileceği bir kod, App Store bağlantısı ve Instagram hesabımız.
+
 ### ⌚ Apple Watch + Live Activity — bir bakışta bilin
 - **Apple Watch yoldaşı** — bir uyarının yönü bileğinizde işaret eder; bir bakış nereye bakacağınızı söyler. Yeniden tasarlanmış Watch arayüzü: uygulamanın kulak simgesi, tehdit HUD yerleşimi ve bir uyarıyı kapatmak için çift dokunuş. Watch uygulaması açık değilken uyarılar yön okunu yine gösterebilir.
+- **Apple Watch'ta İsim Çağrıldı.** Biri adınızı söylediğinde saatiniz bileğinize üç kez dokunur ve sese doğru bir ok gösterir. iPhone sağı soldan ayırt edemediğinde, bir yelpaze iki tarafı da gösterir. iPhone'unuz kilitliyken de, Vigilant Ear uygulaması saatte açık olduğu sürece çalışır. İsim Çağrıldı için Konuşmacı Modu'nun açık olması gerekir.
 - **Live Activity** — Vigilant Ear **Kilit Ekranı**’nızda, **Dynamic Island**’da ve **Watch Smart Stack**’te durur; böylece son uyarı ve kerterizi her zaman bir bakış uzağınızdadır.
 - **Bileğinizde eş uyarıları** — bağlı bir Constellation eşinin telefonu bir uyarı yükselttiğinde, yönüyle birlikte sizin Watch’unuza da ulaşabilir. Yoldaş, bir gün boyunca Watch pilinin çok azını kullanır.
 

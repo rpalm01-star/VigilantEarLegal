@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Effective as of version 1.1.12 · October 2026.*
+*Effective as of version 1.1.13 · October 2026.*
 
 ## An acoustic radar for people who can't hear.
 
@@ -50,15 +50,18 @@ A life ring beside the map's compass opens a short list for the country you are 
 - a Deaf organization, where one has a stable page
 - Vigilant Ear support
 
+Share Vigilant Ear from the help panel (the life ring): a code someone beside you can scan to get the app, a link to the App Store, and our Instagram.
+
 ### ⌚ Apple Watch + Live Activity — glance and know
 - **Apple Watch companion** — the direction of an alert points on your wrist so a glance tells you where to look. Redesigned Watch UI with the app ear icon, threat HUD layout, and double-tap to dismiss an alert. Alerts can still show the direction arrow when the Watch app is not open.
+- **Name Called on Apple Watch.** When someone says your name, your watch taps three times and shows an arrow toward the voice. When the phone can't tell left from right, a fan shows both sides. It works with your iPhone locked while the Vigilant Ear app is open on your watch. Name Called needs Speaker Mode on.
 - **Live Activity** — Vigilant Ear stays on your **Lock Screen**, in the **Dynamic Island**, and in the **Watch Smart Stack**, so the last alert and its bearing are always one look away.
 - **Partner alerts on your wrist** — when a linked Constellation partner's phone raises an alert, it can reach your Watch too, direction included. The companion uses little of the Watch battery across a day.
 
 ### 💬 Speaker Mode — live, directional captions *(free)*
 Turn on **Speaker Mode** and Vigilant Ear transcribes people talking near you into **caption blocks, one per voice.** On-device speaker diarization keeps voices distinct — *who* is saying *what* — with a directional cue on the inner ring. The live speaker is highlighted; older text scrolls away as space is needed.
 
-**Each speaker in their own language.** On iPhones with at least 8 GB of memory, a one-time captioning-model download (about 1 GB — over Wi-Fi, or on cellular after asking) lets the app caption each turn in the language actually spoken, so a room that switches between English, Spanish, French and Arabic is understandable. In our tests, word errors in a four-language conversation fell from about 80% to 14%. Since version 1.1.12 an improved speech model makes far fewer mistakes in noise — in a loud bar on an iPhone 17, German captions went from 45% of words wrong to 20% — and replaces the old one by itself over Wi-Fi. Without the download — and for readers of Chinese, Japanese and Korean, where Apple's recognizer reads better — captions use Apple's on-device speech recognition as before.
+**Each speaker in their own language.** On iPhones with at least 8 GB of memory, a one-time captioning-model download (about 1 GB — over Wi-Fi, or on cellular after asking) lets the app caption each turn in the language actually spoken, so a room that switches between English, Spanish, French and Arabic is understandable. In our tests, word errors in a four-language conversation fell from about 80% to 14%. Since version 1.1.12 an improved speech model makes far fewer mistakes in noise — in a loud bar on an iPhone 17, German captions went from 45% of words wrong to 20% — and replaces the old one by itself over Wi-Fi. Without the download — and for readers of Chinese, Japanese and Korean, where Apple's recognizer reads better — captions use Apple's on-device speech recognition as before. Since version 1.1.13 the app lets go of these models after 30 seconds in the background — on an iPhone 17 its memory fell from about 1.6 GB to 85 MB — so iOS is far less likely to close it when another app needs room; captions come back about a second after you return.
 
 Two things most caption apps won't do.
 

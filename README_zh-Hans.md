@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*自版本 1.1.12 起生效 · 2026 年 10 月。*
+*自版本 1.1.13 起生效 · 2026 年 10 月。*
 
 ## 给听不见的人用的声学雷达。
 
@@ -54,9 +54,12 @@
 - 一家聋人组织，如果它有一个稳定的页面
 - Vigilant Ear 支持
 
+在帮助面板（救生圈）中分享 Vigilant Ear：身边的人扫码即可获取应用，另有 App Store 链接和我们的 Instagram。
+
 ### ⌚ Apple Watch + Live Activity——看一眼就知道
 
 - **Apple Watch 伴侣**——警报的方向会指在您的手腕上，看一眼就知道该往哪看。重新设计的 Watch 界面带有应用的耳朵图标、威胁 HUD 布局，以及轻点两下以消除一条警报。即使 Watch 上的应用没有打开，警报仍可以显示方向箭头。
+- **Apple Watch 上的“叫到名字”。** 有人叫你的名字时，手表会轻点三下，并用箭头指向声音的方向。手机分不清左右时，会用扇形同时显示两侧。iPhone 锁定时也能使用，只要手表上的 Vigilant Ear 应用处于打开状态。“叫到名字”需要开启 Speaker Mode。
 - **Live Activity**——Vigilant Ear 留在您的**锁定屏幕**上、**Dynamic Island** 里，以及 **Watch Smart Stack** 中，因此最近一次警报和它的方位始终看一眼就在。
 - **手腕上的伙伴警报**——已连接的 Constellation 伙伴的手机发出警报时，也可以到达您的 Watch，并带上方向。这个伴侣在一天里几乎不耗 Watch 的电量。
 

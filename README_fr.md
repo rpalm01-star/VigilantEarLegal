@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*En vigueur à compter de la version 1.1.12 · octobre 2026.*
+*En vigueur à compter de la version 1.1.13 · octobre 2026.*
 
 ## Un radar acoustique pour les personnes qui n'entendent pas.
 
@@ -50,8 +50,11 @@ Une bouée de sauvetage à côté de la boussole de la carte ouvre une courte li
 - une organisation Sourde, là où l'une dispose d'une page stable
 - l'assistance Vigilant Ear
 
+Partagez Vigilant Ear depuis le panneau d'aide (la bouée) : un code que la personne à côté de vous peut scanner pour obtenir l'app, un lien vers l'App Store et notre Instagram.
+
 ### ⌚ Apple Watch + Live Activity — regarder et savoir
 - **Compagnon Apple Watch** — la direction d'une alerte s'indique sur votre poignet, de sorte qu'un coup d'œil vous dit où regarder. Interface de la Watch repensée, avec l'icône d'oreille de l'application, une disposition en HUD de menace, et un double toucher pour écarter une alerte. Les alertes peuvent encore montrer la flèche de direction lorsque l'application de la Watch n'est pas ouverte.
+- **Nom appelé sur l'Apple Watch.** Quand quelqu'un dit votre nom, votre montre vous tapote trois fois et affiche une flèche vers la voix. Quand l'iPhone ne distingue pas la gauche de la droite, un éventail montre les deux côtés. Cela fonctionne iPhone verrouillé, tant que l'app Vigilant Ear est ouverte sur la montre. Nom appelé nécessite que le Speaker Mode soit activé.
 - **Live Activity** — Vigilant Ear reste sur votre **écran verrouillé**, dans le **Dynamic Island** et dans le **Smart Stack** de la Watch, de sorte que la dernière alerte et son azimut sont toujours à un coup d'œil.
 - **Alertes du partenaire au poignet** — lorsqu'un téléphone partenaire Constellation lié déclenche une alerte, elle peut aussi atteindre votre Watch, direction comprise. Le compagnon consomme peu de la batterie de la Watch sur une journée.
 
