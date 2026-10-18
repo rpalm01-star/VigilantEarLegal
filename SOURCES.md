@@ -227,36 +227,39 @@ The official warnings in Vigilant Ear come from these agencies. Your phone does 
      - `https://metproducts.gov.tt/ttms/public/api/feed?type=rss`
 110. Tunisia: **Institut National de la Météorologie (Tunisia)**
      - `https://cap-sources.s3.amazonaws.com/tn-meteo-ar/rss.xml`
-111. Turks & Caicos Islands: **TCI Emergency Alerts (Government of the Turks and Caicos Islands)**
+111. Türkiye: **Meteoroloji Genel Müdürlüğü** — Kaynak: Meteoroloji Genel Müdürlüğü (mgm.gov.tr). Headlines written by Vigilant Ear from MGM's hazard type and the provinces it names. Province boundaries © OpenStreetMap contributors, ODbL (https://www.openstreetmap.org/copyright).
+     - `https://servis.mgm.gov.tr/web/alarmlar`
+     - Asked by the relay alone, at most once an hour, with a User-Agent that names us and our contact address.
+112. Turks & Caicos Islands: **TCI Emergency Alerts (Government of the Turks and Caicos Islands)**
      - `https://cap-sources.s3.amazonaws.com/tc-gov-en/rss.xml`
-112. Turks & Caicos Islands: **Turks and Caicos Islands National Weather Service**
+113. Turks & Caicos Islands: **Turks and Caicos Islands National Weather Service**
      - `https://cap-sources.s3.amazonaws.com/tc-nws-en/rss.xml`
-113. Tuvalu: **Tuvalu Meteorological Service**
+114. Tuvalu: **Tuvalu Meteorological Service**
      - `https://cap-sources.s3.amazonaws.com/tv-tuvmet-en/rss.xml`
-114. Uganda: **Department of Meteorological Services (Uganda)**
+115. Uganda: **Department of Meteorological Services (Uganda)**
      - `https://wids.mwe.go.ug/api/v1/cap/feed`
-115. United States: **AirNow (U.S. Environmental Protection Agency)** — Air quality forecasts by state, local and tribal air agencies, through the U.S. EPA's AirNow.
+116. United States: **AirNow (U.S. Environmental Protection Agency)** — Air quality forecasts by state, local and tribal air agencies, through the U.S. EPA's AirNow.
      - `https://feeds.enviroflash.info/cap/aggregate.xml`
-116. United States: **National Weather Service** — Public domain (U.S. Government work).
+117. United States: **National Weather Service** — Public domain (U.S. Government work).
      - `https://api.weather.gov/alerts/active`
      - `https://api.weather.gov/zones/{type}/{zone}`
-117. United States: **NOAA/NWS weather radar (base reflectivity mosaic)** — Public domain (U.S. Government work). No endorsement by NOAA or the National Weather Service is implied.
-118. Uruguay: **Instituto Uruguayo de Meteorología**
+118. United States: **NOAA/NWS weather radar (base reflectivity mosaic)** — Public domain (U.S. Government work). No endorsement by NOAA or the National Weather Service is implied.
+119. Uruguay: **Instituto Uruguayo de Meteorología**
      - `https://www.inumet.gub.uy/reportes/riesgo/rss.xml`
-119. Uzbekistan: **Uzhydromet (Hydrometeorological Service of Uzbekistan)**
+120. Uzbekistan: **Uzhydromet (Hydrometeorological Service of Uzbekistan)**
      - `https://meteoalert.meteoinfo.ru/uzbekistan/cap-feed/ru/atom.xml`
-120. Vanuatu: **Vanuatu Meteorology and Geo-Hazards Department**
+121. Vanuatu: **Vanuatu Meteorology and Geo-Hazards Department**
      - `https://cap-sources.s3.amazonaws.com/vu-vmgd-en/rss.xml`
-121. Venezuela: **Instituto Nacional de Meteorología e Hidrología (Venezuela)**
+122. Venezuela: **Instituto Nacional de Meteorología e Hidrología (Venezuela)**
      - `https://cap-sources.s3.amazonaws.com/ve-inameh-es/rss.xml`
-122. Worldwide: **NOAA Global Forecast System (GFS), wind 10 m above the ground, 0.25°, via NOAA Open Data Dissemination** — Public domain (U.S. Government work). Edited by Vigilant Ear: drawn as arrows for the current hour.
-123. Worldwide: **U.S. Geological Survey (USGS) earthquake feed** — Public domain (U.S. Government work).
-124. Worldwide, 60°S to 70°N, where no radar is shown: **NOAA/NESDIS Enterprise Rainfall Rate — a satellite estimate from GOES, Himawari and Meteosat, not radar** — Public domain (U.S. Government work). Edited by Vigilant Ear: standardized to a consistent color palette.
-125. Yemen: **Yemen Meteorological Service**
+123. Worldwide: **NOAA Global Forecast System (GFS), wind 10 m above the ground, 0.25°, via NOAA Open Data Dissemination** — Public domain (U.S. Government work). Edited by Vigilant Ear: drawn as arrows for the current hour.
+124. Worldwide: **U.S. Geological Survey (USGS) earthquake feed** — Public domain (U.S. Government work).
+125. Worldwide, 60°S to 70°N, where no radar is shown: **NOAA/NESDIS Enterprise Rainfall Rate — a satellite estimate from GOES, Himawari and Meteosat, not radar** — Public domain (U.S. Government work). Edited by Vigilant Ear: standardized to a consistent color palette.
+126. Yemen: **Yemen Meteorological Service**
      - `https://cap-sources.s3.amazonaws.com/ye-yms-ar/rss.xml`
-126. Zambia: **Zambia Meteorological Department**
+127. Zambia: **Zambia Meteorological Department**
      - `https://zmd.gov.zm/api/cap/rss.xml`
-127. Zimbabwe: **Meteorological Services Department (Zimbabwe)**
+128. Zimbabwe: **Meteorological Services Department (Zimbabwe)**
      - `https://www.weatherzw.org.zw/api/cap/rss.xml`
 
 ## Models
