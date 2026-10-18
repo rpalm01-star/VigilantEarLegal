@@ -39,6 +39,8 @@ export const LANGUAGES = [
   // 404 in the app. Added 2026-09-16.
   { code: "tr", label: "Türkçe" },
   { code: "ro", label: "Română" },
+  // Polish: without an entry here a Polish reader gets English on the site and the app's doc links 404.
+  { code: "pl", label: "Polski" },
 ] as const;
 
 export const RTL_LANGUAGES = new Set(["ar"]);

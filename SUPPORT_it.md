@@ -13,7 +13,7 @@ Se riscontri problemi tecnici, hai domande sulla precisione degli avvisi o desid
 Brevi video con tutto sullo schermo — niente che serva ascoltare. Alcuni hanno anche una narrazione, ma nulla esiste solo in audio.
 
 - **[Cambiare la lingua dei sottotitoli](https://youtu.be/bBTjlWnbFr4)** — come cambiare la lingua dell'app e attivare **Auto-Translate**, incluso il passaggio che sfugge alla maggior parte delle persone: i sottotitoli continuano ad arrivare nella vecchia lingua finché non chiudi completamente l'app e la riapri.
-- **[Come appaiono gli avvisi](https://youtu.be/1NCXHqQ-BR8)** — rilevatore di fumo, bussata alla porta, pianto di un bambino, sirena, maltempo severo e una conferma di terremoto, ciascuno con la sua direzione.
+- **[Come appaiono gli avvisi](https://youtu.be/1NCXHqQ-BR8)** — rilevatore di fumo, bussata alla porta, pianto di un bambino, sirena, maltempo estremo e una conferma di terremoto, ciascuno con la sua direzione.
 
 Altro: **[Tutorial](https://www.youtube.com/playlist?list=PLV5sYptGyafo)** · **[Esempi](https://www.youtube.com/playlist?list=PLYc8NrtyfisY)**
 
@@ -72,7 +72,7 @@ Le categorie tipiche includono:
 - **Allarmi** — Rilevatori di fumo e allarmi antincendio  
 - **Bussate** — Bussate alla porta e campanelli  
 - **Bambino** — Pianto di bambino (quando abilitato)  
-- **Avvisi Meteo** — Allerte di maltempo severo da fonti governative ufficiali CAP  
+- **Avvisi Meteo** — Allerte di maltempo estremo da fonti governative ufficiali CAP  
 - **Avvisi Persone** — Persone nelle vicinanze (spesso funziona meglio in ambienti più silenziosi; può restare facoltativo)
 
 **L'autorizzazione alle notifiche** è l'interruttore generale a livello di sistema. Se neghi le notifiche nella schermata di verifica iniziale (o in seguito nelle Impostazioni di iOS), non riceverai avvisi push anche se le singole categorie sono attive. Gli avvisi sullo schermo mentre l'app è aperta possono comunque apparire.
@@ -83,8 +83,8 @@ Il nucleo di sicurezza è **gratuito, per sempre**:
 
 - Avvisi sonori locali (sirene, allarmi, bussate/campanelli, bambino, persona nelle vicinanze) con consegna sullo schermo e notifiche push opzionali  
 - Sottotitoli in tempo reale della **Modalità parlante** (sul dispositivo; direzionali dove l'hardware lo consente)  
-- Feed di maltempo severo per la tua regione — **fonti ufficiali in più di 140 paesi e territori**, e se ne aggiungono spesso di nuove  
-- Avvisi di prova del **Parco giochi delle funzionalità** (con filigrana, così non sembrano mai un'emergenza reale)  
+- Feed di maltempo estremo per la tua regione — **fonti ufficiali in più di 140 paesi e territori**, e se ne aggiungono spesso di nuove  
+- Avvisi di prova del **Feature Playground** (con filigrana, così non sembrano mai un'emergenza reale)  
 - Indicazioni di direzione dell'app complementare per **Apple Watch** e **Live Activity** (Schermata di blocco / Dynamic Island / Smart Stack del Watch), dove disponibili  
 - **Oscilloscopio Acustico** — il visualizzatore sonoro in tempo reale, gratis per tutti (gli strumenti di cattura per l'addestramento sono di Power Pack+)  
 
@@ -103,7 +103,7 @@ Si trovano sotto **Power Pack+** nell'app (scintille del ventaglio delle azioni 
 - **Shazam (Music ID)** — identificazione della musica ambientale sul radar spaziale (Power Pack+)  
 - **Auto-Translate** — traduce i sottotitoli in tempo reale nella tua lingua (Power Pack+)  
 
-I feed di maltempo severo sono **gratuiti** e si gestiscono dalle preferenze meteo / avvisi — non sono un componente aggiuntivo di Power Pack+.
+I feed di maltempo estremo sono **gratuiti** e si gestiscono dalle preferenze meteo / avvisi — non sono un componente aggiuntivo di Power Pack+.
 
 ### Come disattivo il microfono quando l'app non è in primo piano?
 
@@ -115,13 +115,13 @@ Puoi anche revocare completamente l'accesso al Microfono nelle Impostazioni di i
 
 I suoni acuti come gli allarmi e le sirene dei camion dei pompieri sono relativamente facili da rilevare per il motore ML del suono. I suoni a banda larga (come i motori delle auto o gli pneumatici) sono più difficili; facciamo un lavoro adeguato ma imperfetto, dati i limiti hardware del telefono. Gli algoritmi di Differenza dei Tempi di Arrivo (TDOA) hanno una precisione limitata, vista la breve distanza tra i microfoni. La direzione richiede un iPhone con microfono stereo; gli iPad sono orientati ai sottotitoli, senza rilevamento completo della direzione.
 
-### Come funzionano il Parco giochi delle funzionalità e gli avvisi di prova?
+### Come funzionano il Feature Playground e gli avvisi di prova?
 
-Apri il **Parco giochi delle funzionalità** (bacchetta) per provare i suoni di esercitazione Casa e Strada e altre anteprime. Gli eventi di prova sono chiaramente contrassegnati come **PREVIEW**, così non fingono mai di essere una vera emergenza. Chiudendo il Parco giochi delle funzionalità lo stato di prova viene eliminato (inclusa la posizione GPS fittizia temporanea usata in alcune demo).
+Apri il **Feature Playground** (bacchetta) per provare i suoni di esercitazione Casa e Strada e altre anteprime. Gli eventi di prova sono chiaramente contrassegnati come **ANTEPRIMA**, così non fingono mai di essere una vera emergenza. Chiudendo Feature Playground lo stato di prova viene eliminato (inclusa la posizione GPS fittizia temporanea usata in alcune demo).
 
 ### Perché un sottotitolo è cambiato subito dopo essere apparso?
 
-È l'app che si ricontrolla da sola. Subito dopo la finalizzazione di una frase, Vigilant Ear rilegge gli ultimi secondi di audio con il contesto completo e — entro circa due secondi — può recuperare una parola persa o correggerne una fraintesa. Dopo, il testo non cambia mai più. Tutto avviene sul suo dispositivo, come sempre.
+È l'app che si ricontrolla da sola. Subito dopo la finalizzazione di una frase, Vigilant Ear rilegge gli ultimi secondi di audio con il contesto completo e — entro circa due secondi — può recuperare una parola persa o correggerne una fraintesa. Dopo, il testo non cambia mai più. Tutto avviene sul tuo dispositivo, come sempre.
 
 ---
 

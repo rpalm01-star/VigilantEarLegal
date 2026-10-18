@@ -280,7 +280,7 @@ Tüm ayrıntılar: [Gizlilik](/tr/privacy/) · [Koşullar](/tr/terms/) · [Deste
 
 ## Yerelleştirme
 
-Tam yerelleştirilmiştir — arayüz, uyarılar ve altyazılar — **İngilizce, İspanyolca, Portekizce (Brezilya), Fransızca, Almanca, İtalyanca, Türkçe, Arapça, Japonca, Basitleştirilmiş Çince, Geleneksel Çince, Korece, Rusça, Hintçe ve Rumence** olarak (15 dil). Sistem yerel ayarını ya da uygulamadaki elle bir seçimi izler. Rumence altyazılar cihazda çalışır; Apple Translate’te Rumence yoktur, bu yüzden Otomatik çeviri o dil için özgün metni gösterir.
+Tam yerelleştirilmiştir — arayüz, uyarılar ve altyazılar — **İngilizce, İspanyolca, Portekizce (Brezilya), Fransızca, Almanca, İtalyanca, Türkçe, Arapça, Japonca, Basitleştirilmiş Çince, Geleneksel Çince, Korece, Rusça, Hintçe, Rumence ve Lehçe** olarak (16 dil). Sistem yerel ayarını ya da uygulamadaki elle bir seçimi izler. Rumence altyazılar cihazda çalışır; Apple Translate’te Rumence yoktur, bu yüzden Otomatik çeviri o dil için özgün metni gösterir.
 
 ---
 

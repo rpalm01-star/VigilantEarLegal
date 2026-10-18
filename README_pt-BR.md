@@ -280,7 +280,7 @@ Detalhes completos: [Privacidade](/pt-BR/privacy/) · [Termos](/pt-BR/terms/) ·
 
 ## Localização
 
-Totalmente localizado — interface, alertas e legendas — em **inglês, espanhol, português (Brasil), francês, alemão, italiano, turco, árabe, japonês, chinês simplificado, chinês tradicional, coreano, russo, hindi e romeno** (15 línguas). Segue o idioma do sistema ou uma escolha manual no app. As legendas em romeno funcionam no aparelho; o Apple Translate não tem romeno, então a Tradução automática mostra o original para essa língua.
+Totalmente localizado — interface, alertas e legendas — em **inglês, espanhol, português (Brasil), francês, alemão, italiano, turco, árabe, japonês, chinês simplificado, chinês tradicional, coreano, russo, hindi, romeno e polonês** (16 línguas). Segue o idioma do sistema ou uma escolha manual no app. As legendas em romeno funcionam no aparelho; o Apple Translate não tem romeno, então a Tradução automática mostra o original para essa língua.
 
 ---
 

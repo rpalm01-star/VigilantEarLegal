@@ -280,7 +280,7 @@ Vollständige Einzelheiten: [Datenschutz](/de/privacy/) · [Nutzungsbedingungen]
 
 ## Lokalisierung
 
-Vollständig lokalisiert — Oberfläche, Warnungen und Untertitel — in **Englisch, Spanisch, Portugiesisch (Brasilien), Französisch, Deutsch, Italienisch, Türkisch, Arabisch, Japanisch, Vereinfachtes Chinesisch, Traditionelles Chinesisch, Koreanisch, Russisch, Hindi und Rumänisch** (15 Sprachen). Die App folgt der Sprache des Systems oder einer manuellen Wahl in der App. Rumänische Untertitel funktionieren auf dem Gerät; Apple Translate hat kein Rumänisch, daher zeigt Auto-Übersetzen für diese Sprache das Original.
+Vollständig lokalisiert — Oberfläche, Warnungen und Untertitel — in **Englisch, Spanisch, Portugiesisch (Brasilien), Französisch, Deutsch, Italienisch, Türkisch, Arabisch, Japanisch, Vereinfachtes Chinesisch, Traditionelles Chinesisch, Koreanisch, Russisch, Hindi, Rumänisch und Polnisch** (16 Sprachen). Die App folgt der Sprache des Systems oder einer manuellen Wahl in der App. Rumänische Untertitel funktionieren auf dem Gerät; Apple Translate hat kein Rumänisch, daher zeigt Auto-Übersetzen für diese Sprache das Original.
 
 ---
 

@@ -143,7 +143,7 @@ Il nucleo di sicurezza è **gratis, per sempre**:
 - **Radar meteo** — pioggia e neve sulla mappa, con l'ultima ora in replay, e da che parte soffia il vento.
 - **Il salvagente** — chi chiamare nel Paese in cui ti trovi.
 - **Avvisi di terremoto (in tutto il mondo)** — senti una vibrazione e vedi sulla tua mappa l'area che l'ha avvertita, quando viene segnalato un sisma vicino. Una conferma dal feed ufficiale dei terremoti — non un allarme preventivo: se hai avvertito il tremore, questo ti dice che cos'era. Il feed viene controllato ogni cinque minuti, anche in background, e il rilevamento sul dispositivo dei Rombi profondi (infrasuoni) può armare un controllo in più nell'istante in cui il suolo si muove.
-- **Feature Playground** — avvisi di prova e anteprime delle funzioni, con una filigrana PREVIEW chiara.
+- **Feature Playground** — avvisi di prova e anteprime delle funzioni, con una filigrana ANTEPRIMA chiara.
 - **Companion per Apple Watch e Live Activity** — direzione e ultimo avviso a colpo d'occhio.
 - **Acoustic Scope** — visualizzazione del suono dal vivo di livello professionale, gratis per tutti. (Gli strumenti di cattura per l'addestramento sono di Power Pack+.)
 - **Rete di ricerca** *(attiva finché non la spegni)* — mentre è attiva, si condividono l'ora, una posizione approssimativa (circa 1 km) e la frequenza di eventi simili a un sisma — niente audio, niente identificatore — per aiutare a mappare i terremoti e altri eventi a bassa frequenza. Una domanda sulla mappa chiede una volta sola. I report aspettano finché quella domanda non è stata sullo schermo.
@@ -280,13 +280,13 @@ Dettagli completi: [Privacy](/it/privacy/) · [Termini](/it/terms/) · [Supporto
 
 ## Localizzazione
 
-Localizzazione completa — interfaccia, avvisi e sottotitoli — in **inglese, spagnolo, portoghese (Brasile), francese, tedesco, italiano, turco, arabo, giapponese, cinese semplificato, cinese tradizionale, coreano, russo, hindi e rumeno** (15 lingue). Segue la lingua del sistema, oppure una scelta manuale nell'app. I sottotitoli in rumeno funzionano sul dispositivo; Apple Translate non ha il rumeno, quindi la Traduzione automatica mostra l'originale per quella lingua.
+Localizzazione completa — interfaccia, avvisi e sottotitoli — in **inglese, spagnolo, portoghese (Brasile), francese, tedesco, italiano, turco, arabo, giapponese, cinese semplificato, cinese tradizionale, coreano, russo, hindi, rumeno e polacco** (16 lingue). Segue la lingua del sistema, oppure una scelta manuale nell'app. I sottotitoli in rumeno funzionano sul dispositivo; Apple Translate non ha il rumeno, quindi la Traduzione automatica mostra l'originale per quella lingua.
 
 ---
 
 ## Stato e avvertenza
 
-Vigilant Ear è un **aiuto sperimentale all'accessibilità acustica**, non un'utilità certificata di sicurezza della vita. La risoluzione con cui si localizza un suono varia con l'ambiente, il meteo, il vento e l'hardware dei microfoni. **Mantieni sempre la tua solita consapevolezza dell'ambiente** — non affidarti a esso come unica fonte di informazioni sulla sicurezza.
+Vigilant Ear è un **aiuto sperimentale all'accessibilità acustica**, non un'utilità certificata di sicurezza della vita. La risoluzione con cui si localizza un suono varia con l'ambiente, il meteo, il vento e l'hardware dei microfoni. **Mantieni sempre la tua solita consapevolezza dell'ambiente** — non farne l'unica fonte di informazioni sulla sicurezza.
 
 Alcune capacità (indicatori di Camera AR, l'aggiornamento dell'autorizzazione Avvisi critici quando concessa da Apple, la creazione avanzata di suoni su più pacchetti) continuano a evolvere; il controllo gratuito Home Watch / Street Watch e i sottotitoli dal vivo sono il prodotto di cui ti puoi fidare dal primo giorno.
 

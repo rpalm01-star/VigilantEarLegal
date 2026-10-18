@@ -280,7 +280,7 @@ Détails complets : [Confidentialité](/fr/privacy/) · [Conditions](/fr/terms/)
 
 ## Localisation
 
-Entièrement localisé — interface, alertes et sous-titres — en **anglais, espagnol, portugais (Brésil), français, allemand, italien, turc, arabe, japonais, chinois simplifié, chinois traditionnel, coréen, russe, hindi et roumain** (15 langues). Suit la langue du système ou un choix manuel dans l'application. Les sous-titres en roumain fonctionnent sur l'appareil ; Apple Translate n'a pas le roumain, donc la Traduction automatique affiche l'original pour cette langue.
+Entièrement localisé — interface, alertes et sous-titres — en **anglais, espagnol, portugais (Brésil), français, allemand, italien, turc, arabe, japonais, chinois simplifié, chinois traditionnel, coréen, russe, hindi, roumain et polonais** (16 langues). Suit la langue du système ou un choix manuel dans l'application. Les sous-titres en roumain fonctionnent sur l'appareil ; Apple Translate n'a pas le roumain, donc la Traduction automatique affiche l'original pour cette langue.
 
 ---
 
