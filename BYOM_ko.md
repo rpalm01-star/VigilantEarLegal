@@ -66,9 +66,9 @@ TrainingData/
 }
 ```
 
-- **`name`**은 필수 — 앱의 팩 목록에 표시되는 이름입니다.
-- **`id`**는 업데이트용 식별자: 같은 `id`로 다시 가져오면 이전 버전을 그 자리에서 교체합니다. 고유한 reverse-DNS 스타일 문자열이면 됩니다.
-- **`classes`**는 문서용일 뿐입니다. 앱은 실제 클래스 목록을 모델에서 읽으므로, 불일치해도 동작이 깨지지는 않습니다(로그만 남음).
+- **`name`은** 필수 — 앱의 팩 목록에 표시되는 이름입니다.
+- **`id`는** 업데이트용 식별자: 같은 `id`로 다시 가져오면 이전 버전을 그 자리에서 교체합니다. 고유한 reverse-DNS 스타일 문자열이면 됩니다.
+- **`classes`는** 문서용일 뿐입니다. 앱은 실제 클래스 목록을 모델에서 읽으므로, 불일치해도 동작이 깨지지는 않습니다(로그만 남음).
 - **`gateClasses`**(선택, 강력 권장)는 오탐을 막는 가장 효과적인 도구입니다. 아래를 보세요.
 
 ### `gateClasses` — Apple 모델을 문지기로 쓰기
@@ -91,7 +91,7 @@ TrainingData/
 "muteClasses": ["owl_hoot", "duck_quack", "goose_honk", "turkey_gobble", "chicken", "chicken_cluck", "rooster_crow"]
 ```
 
-경험 법칙: 특정 Apple 새 라벨은, 모델에 맞는(또는 더 나은) 클래스가 있으면 **`gateClasses`**에, 없으면 **`muteClasses`**에 넣습니다. Apple이 이름 붙일 수 있고 당신은 못 하는 모든 것 → mute하고, Apple이 맞게 하도록 하세요.
+경험 법칙: 특정 Apple 새 라벨은, 모델에 맞는(또는 더 나은) 클래스가 있으면 **`gateClasses`에**, 없으면 **`muteClasses`에** 넣습니다. Apple이 이름 붙일 수 있고 당신은 못 하는 모든 것 → mute하고, Apple이 맞게 하도록 하세요.
 
 ## 4단계 — `profiles.json` 작성 (선택, 권장)
 
@@ -153,7 +153,7 @@ zip을 iPhone으로 옮기는 방법은 자유입니다: AirDrop, iCloud Drive, 
 ## 6단계 — iPhone에서 가져오기
 
 1. Vigilant Ear 열기 → 톱니 메뉴 → **Power Pack+**.
-2. **Custom Sound Packs (BYOM)**까지 스크롤하고 **Import Custom Pack (.zip)**을 탭합니다.
+2. **Custom Sound Packs (BYOM)까지** 스크롤하고 **Import Custom Pack (.zip)을** 탭합니다.
 3. Files 브라우저에서 zip을 고릅니다.
 
 팩이 소리 개수와 함께 목록에 나타나며, 이미 **LIVE**입니다. 여기서 할 수 있는 것:
