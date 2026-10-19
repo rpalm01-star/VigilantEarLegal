@@ -41,6 +41,9 @@ export const LANGUAGES = [
   { code: "ro", label: "Română" },
   // Polish: without an entry here a Polish reader gets English on the site and the app's doc links 404.
   { code: "pl", label: "Polski" },
+  // Serbian (Latin script), home page only (Robert, 2026-10-19): the app is not in Serbian yet, so the
+  // other pages fall back to English and say so.
+  { code: "sr", label: "Srpski" },
 ] as const;
 
 export const RTL_LANGUAGES = new Set(["ar"]);
