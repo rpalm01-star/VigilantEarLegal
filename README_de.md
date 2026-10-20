@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Gültig ab Version 1.1.13 · Oktober 2026.*
+*Gültig ab Version 1.1.14 · Oktober 2026.*
 
 ## Ein akustisches Radar für Menschen, die nicht hören können.
 
@@ -55,6 +55,7 @@ Teile Vigilant Ear über das Hilfe-Fenster (den Rettungsring): ein Code, den jem
 ### ⌚ Apple Watch + Live Activity — hinsehen und wissen
 - **Begleiter der Apple Watch** — die Richtung einer Warnung zeigt auf Ihr Handgelenk, sodass ein Blick sagt, wohin Sie sehen sollen. Neu gestaltete Oberfläche der Watch mit dem Ohr-Symbol der App, dem Layout des Bedrohungs-HUD und Doppeltipp, um eine Warnung zu verwerfen. Warnungen können den Richtungspfeil auch zeigen, wenn die App auf der Watch nicht offen ist.
 - **Name gerufen auf der Apple Watch.** Ruft jemand deinen Namen, tippt dir die Uhr dreimal aufs Handgelenk und zeigt mit einem Pfeil zur Stimme. Kann das iPhone links und rechts nicht unterscheiden, zeigt ein Fächer beide Seiten. Das funktioniert bei gesperrtem iPhone, solange die Vigilant Ear App auf der Uhr geöffnet ist. Name gerufen braucht den eingeschalteten Speaker Mode.
+- **Spüre den Beat auf der Apple Watch.** Wenn Musik läuft und die Vigilant Ear App auf deiner Uhr geöffnet ist, pulsieren Bassdrum und Snare als Ringe, Schlag 1 jedes Takts ist markiert, und bei jedem Schlag 1 tippt dir die Uhr leicht aufs Handgelenk. Tippe doppelt irgendwo auf den Bildschirm der Uhr, um das Tippen auszuschalten, bis die Musik endet. Warnungen haben immer Vorrang. Wenn Music ID den Song erkennt, erscheint sein Titel auch auf deiner Uhr.
 - **Live Activity** — Vigilant Ear bleibt auf Ihrem **Sperrbildschirm**, in der **Dynamic Island** und im **Watch Smart Stack**, sodass die letzte Warnung und ihre Peilung immer nur einen Blick entfernt sind.
 - **Partnerwarnungen am Handgelenk** — wenn das Telefon eines verbundenen Constellation-Partners eine Warnung auslöst, kann sie auch Ihre Watch erreichen, die Richtung eingeschlossen. Der Begleiter verbraucht über einen Tag wenig vom Akku der Watch.
 

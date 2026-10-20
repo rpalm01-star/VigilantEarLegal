@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*En vigueur à compter de la version 1.1.13 · octobre 2026.*
+*En vigueur à compter de la version 1.1.14 · octobre 2026.*
 
 ## Un radar acoustique pour les personnes qui n'entendent pas.
 
@@ -55,6 +55,7 @@ Partagez Vigilant Ear depuis le panneau d'aide (la bouée) : un code que la pers
 ### ⌚ Apple Watch + Live Activity — regarder et savoir
 - **Compagnon Apple Watch** — la direction d'une alerte s'indique sur votre poignet, de sorte qu'un coup d'œil vous dit où regarder. Interface de la Watch repensée, avec l'icône d'oreille de l'application, une disposition en HUD de menace, et un double toucher pour écarter une alerte. Les alertes peuvent encore montrer la flèche de direction lorsque l'application de la Watch n'est pas ouverte.
 - **Nom appelé sur l'Apple Watch.** Quand quelqu'un dit votre nom, votre montre vous tapote trois fois et affiche une flèche vers la voix. Quand l'iPhone ne distingue pas la gauche de la droite, un éventail montre les deux côtés. Cela fonctionne iPhone verrouillé, tant que l'app Vigilant Ear est ouverte sur la montre. Nom appelé nécessite que le Speaker Mode soit activé.
+- **Ressentez le rythme sur l'Apple Watch.** Quand de la musique joue et que l'app Vigilant Ear est ouverte sur votre montre, la grosse caisse et la caisse claire battent sous forme d'anneaux, le temps 1 de chaque mesure est marqué, et votre poignet reçoit un léger tapotement à chaque temps 1. Touchez deux fois n'importe où sur l'écran de la montre pour couper le tapotement jusqu'à ce que la musique s'arrête. Les alertes passent toujours en premier. Quand Music ID reconnaît le morceau, son titre s'affiche aussi sur votre montre.
 - **Live Activity** — Vigilant Ear reste sur votre **écran verrouillé**, dans le **Dynamic Island** et dans le **Smart Stack** de la Watch, de sorte que la dernière alerte et son azimut sont toujours à un coup d'œil.
 - **Alertes du partenaire au poignet** — lorsqu'un téléphone partenaire Constellation lié déclenche une alerte, elle peut aussi atteindre votre Watch, direction comprise. Le compagnon consomme peu de la batterie de la Watch sur une journée.
 

@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Effective as of version 1.1.13 · October 2026.*
+*Effective as of version 1.1.14 · October 2026.*
 
 ## An acoustic radar for people who can't hear.
 
@@ -55,6 +55,7 @@ Share Vigilant Ear from the help panel (the life ring): a code someone beside yo
 ### ⌚ Apple Watch + Live Activity — glance and know
 - **Apple Watch companion** — the direction of an alert points on your wrist so a glance tells you where to look. Redesigned Watch UI with the app ear icon, threat HUD layout, and double-tap to dismiss an alert. Alerts can still show the direction arrow when the Watch app is not open.
 - **Name Called on Apple Watch.** When someone says your name, your watch taps three times and shows an arrow toward the voice. When the phone can't tell left from right, a fan shows both sides. It works with your iPhone locked while the Vigilant Ear app is open on your watch. Name Called needs Speaker Mode on.
+- **Feel the beat on Apple Watch.** With music playing and the Vigilant Ear app open on your watch, the kick and snare pulse as rings, beat 1 of each bar is marked, and your wrist gets a light tap on every beat 1. Double-tap anywhere on the watch screen to turn the tap off until the music stops. Alerts always come first. When Music ID names the song, its title shows on your watch too.
 - **Live Activity** — Vigilant Ear stays on your **Lock Screen**, in the **Dynamic Island**, and in the **Watch Smart Stack**, so the last alert and its bearing are always one look away.
 - **Partner alerts on your wrist** — when a linked Constellation partner's phone raises an alert, it can reach your Watch too, direction included. The companion uses little of the Watch battery across a day.
 

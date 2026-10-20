@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Obowiązuje od wersji 1.1.13 · październik 2026.*
+*Obowiązuje od wersji 1.1.14 · październik 2026.*
 
 ## Radar akustyczny dla osób, które nie słyszą.
 
@@ -55,6 +55,7 @@ Udostępnij Vigilant Ear z panelu pomocy (koło ratunkowe): kod, który osoba ob
 ### ⌚ Apple Watch + Live Activity — rzut oka i wiesz
 - **Towarzysz na Apple Watch** — kierunek alertu wskazuje na nadgarstku, więc rzut oka mówi, gdzie patrzeć. Przeprojektowany układ Watch z ikoną ucha aplikacji i układem HUD zagrożeń. Stuknij dwukrotnie, żeby zamknąć alert. Alerty mogą dalej pokazywać strzałkę kierunku, gdy aplikacja na Watch nie jest otwarta.
 - **Wywołane imię na Apple Watch.** Gdy ktoś mówi twoje imię, zegarek stuka trzy razy i pokazuje strzałkę w stronę głosu. Gdy telefon nie odróżnia lewej od prawej, wachlarz pokazuje obie strony. Działa przy zablokowanym iPhonie, gdy aplikacja Vigilant Ear jest otwarta na zegarku. Wywołane imię potrzebuje włączonego Speaker Mode.
+- **Poczuj rytm na Apple Watch.** Gdy gra muzyka, a na zegarku jest otwarta aplikacja Vigilant Ear, stopa i werbel pulsują jako pierścienie, uderzenie 1 w każdym takcie jest oznaczone, a przy każdym uderzeniu 1 zegarek lekko stuka w nadgarstek. Stuknij dwukrotnie w dowolnym miejscu ekranu zegarka, żeby wyłączyć stukanie, aż muzyka ucichnie. Alerty zawsze mają pierwszeństwo. Gdy Music ID rozpozna utwór, jego tytuł pojawi się też na zegarku.
 - **Live Activity** — Vigilant Ear zostaje na **Ekranie blokady**, w **Dynamic Island** i w **Stosie inteligentnym** Watch, więc ostatni alert i jego kierunek są zawsze o jeden rzut oka.
 - **Alerty partnera na nadgarstku** — gdy telefon połączonego partnera Constellation podnosi alert, może dojść też na twój Watch, z kierunkiem. Towarzysz zużywa mało baterii Watch w ciągu dnia.
 

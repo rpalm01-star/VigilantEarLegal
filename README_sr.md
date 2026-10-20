@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*Važi od verzije 1.1.13 · oktobar 2026.*
+*Važi od verzije 1.1.14 · oktobar 2026.*
 
 ## Akustični radar za ljude koji ne čuju.
 
@@ -57,6 +57,7 @@ Podelite Vigilant Ear iz panela za pomoć (pojas za spasavanje): kod koji osoba 
 ### ⌚ Apple Watch + Live Activity — pogledajte i znate
 - **Apple Watch pratilac** — pravac upozorenja pokazuje se na vašem zglobu, pa vam jedan pogled kaže gde da gledate. Preuređen interfejs na satu sa ikonom uva, rasporedom upozorenja i dvostrukim dodirom za odbacivanje upozorenja. Upozorenja i dalje mogu da pokažu strelicu pravca kada aplikacija na satu nije otvorena.
 - **Name Called na Apple Watch-u.** Kada neko izgovori vaše ime, sat vas tri puta kucne po zglobu i pokaže strelicu prema glasu. Kada telefon ne može da razlikuje levo od desno, lepeza pokazuje obe strane. Radi i dok je iPhone zaključan, ako je aplikacija Vigilant Ear otvorena na satu. Za Name Called mora biti uključen Speaker Mode.
+- **Osetite ritam na Apple Watch-u.** Dok svira muzika i aplikacija Vigilant Ear je otvorena na satu, bas bubanj i doboš pulsiraju kao prstenovi, prva doba svakog takta je označena, a na svaku prvu dobu sat vas lagano kucne po zglobu. Dodirnite dvaput bilo gde na ekranu sata da isključite kucanje dok muzika ne prestane. Upozorenja uvek imaju prednost. Kada Music ID prepozna pesmu, njen naziv se pojavljuje i na satu.
 - **Live Activity** — Vigilant Ear ostaje na **zaključanom ekranu**, u **Dynamic Island** i u **Smart Stack-u na satu**, pa su poslednje upozorenje i njegov pravac uvek na jedan pogled.
 - **Upozorenja partnera na zglobu** — kada telefon povezanog Constellation partnera podigne upozorenje, ono može stići i na vaš sat, zajedno sa pravcem. Pratilac tokom dana troši malo baterije sata.
 

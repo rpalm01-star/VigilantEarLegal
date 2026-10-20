@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*În vigoare începând cu versiunea 1.1.13 · octombrie 2026.*
+*În vigoare începând cu versiunea 1.1.14 · octombrie 2026.*
 
 ## Un radar acustic pentru oamenii care nu pot auzi.
 
@@ -55,6 +55,7 @@ Distribuie Vigilant Ear din panoul de ajutor (colacul de salvare): un cod pe car
 ### ⌚ Apple Watch + Live Activity — o privire și știi
 - **Companion Apple Watch** — direcția unei alerte se arată pe încheietură, așa că o privire îți spune unde să te uiți. Interfață Watch reproiectată, cu pictograma urechii din aplicație, aranjament HUD de amenințare și dublă atingere ca să închizi o alertă. Alertele pot arăta în continuare săgeata de direcție și când aplicația de pe Watch nu este deschisă.
 - **Nume strigat pe Apple Watch.** Când cineva îți rostește numele, ceasul te atinge de trei ori și arată o săgeată spre voce. Când iPhone-ul nu poate deosebi stânga de dreapta, un evantai arată ambele părți. Funcționează cu iPhone-ul blocat cât timp aplicația Vigilant Ear este deschisă pe ceas. Nume strigat are nevoie de Speaker Mode activat.
+- **Simte ritmul pe Apple Watch.** Când se aude muzică și aplicația Vigilant Ear e deschisă pe ceas, toba mare și toba mică pulsează ca inele, timpul 1 al fiecărei măsuri e marcat, iar încheietura primește o atingere ușoară la fiecare timp 1. Atinge de două ori oriunde pe ecranul ceasului ca să oprești atingerea până se oprește muzica. Alertele au mereu prioritate. Când Music ID recunoaște melodia, titlul ei apare și pe ceas.
 - **Live Activity** — Vigilant Ear rămâne pe **Ecranul de blocare**, în **Dynamic Island** și în **Smart Stack** de pe Watch, așa că ultima alertă și relevmentul ei sunt mereu la o privire distanță.
 - **Alerte de la partener, pe încheietură** — când telefonul unui partener Constellation legat ridică o alertă, ea poate ajunge și pe Watch-ul tău, cu direcția inclusă. Companionul folosește puțin din bateria Watch-ului de-a lungul unei zile.
 

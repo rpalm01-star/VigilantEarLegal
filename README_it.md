@@ -1,6 +1,6 @@
 # Vigilant Ear 👂🛡️
 
-*In vigore dalla versione 1.1.13 · ottobre 2026.*
+*In vigore dalla versione 1.1.14 · ottobre 2026.*
 
 ## Un radar acustico per chi non può sentire.
 
@@ -55,6 +55,7 @@ Condividi Vigilant Ear dal pannello di aiuto (il salvagente): un codice che chi 
 ### ⌚ Apple Watch + Live Activity — un'occhiata e sai
 - **Companion per Apple Watch** — la direzione di un avviso punta sul polso, così un'occhiata ti dice dove guardare. Interfaccia del Watch ridisegnata, con l'icona dell'orecchio dell'app, il layout HUD delle minacce e il doppio tocco per chiudere un avviso. Gli avvisi possono comunque mostrare la freccia di direzione quando l'app del Watch non è aperta.
 - **Nome chiamato su Apple Watch.** Quando qualcuno dice il tuo nome, l'orologio ti dà tre tocchi e mostra una freccia verso la voce. Quando l'iPhone non distingue la sinistra dalla destra, un ventaglio mostra entrambi i lati. Funziona con l'iPhone bloccato mentre l'app Vigilant Ear è aperta sull'orologio. Nome chiamato richiede lo Speaker Mode attivo.
+- **Senti il ritmo su Apple Watch.** Con la musica in riproduzione e l'app Vigilant Ear aperta sull'orologio, cassa e rullante pulsano come anelli, il tempo 1 di ogni battuta è segnato e il polso riceve un leggero tocco a ogni tempo 1. Tocca due volte in un punto qualsiasi dello schermo dell'orologio per spegnere il tocco finché la musica non si ferma. Gli avvisi passano sempre prima. Quando Music ID riconosce il brano, il titolo compare anche sull'orologio.
 - **Live Activity** — Vigilant Ear resta sulla **schermata di blocco**, nella **Dynamic Island** e nello **Smart Stack** del Watch, così l'ultimo avviso e il suo rilevamento sono sempre a un'occhiata di distanza.
 - **Avvisi del partner al polso** — quando il telefono di un partner Constellation collegato emette un avviso, può arrivare anche sul tuo Watch, direzione inclusa. Il companion consuma poco della batteria del Watch nell'arco di una giornata.
 
