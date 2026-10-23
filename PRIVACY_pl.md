@@ -45,24 +45,21 @@ Gdy używają Państwo niektórych funkcji albo gdy aplikacja potrzebuje ich, ż
     *   *Co jest wysyłane:* Prośba o jedną światową publiczną listę trzęsień ziemi, przez ten sam przekaźnik co alerty pogodowe powyżej, więc telefon Państwa nie kontaktuje się z serwerem rządowym także po te dane. Prośba nie niesie lokalizacji ani regionu. Telefon Państwa sam decyduje, czy zgłoszone trzęsienie jest blisko Państwa.
     *   *Dostawca:* Oficjalne publiczne kanały o trzęsieniach ziemi, przekazywane przez Wingdings, Inc.
 *   **Radar pogodowy**
-    *   *Co jest wysyłane:* Gdy radar jest włączony, prośba o listę obrazów radaru, a potem kafelki obrazu dla fragmentu mapy na ekranie. Każda prośba o kafelek podaje poziom powiększenia, kwadrat mapy i czas tego obrazu. Przy najbliższym powiększeniu kwadrat ma z grubsza 40 km wszerz. W niektórych krajach najbliższy obraz jest mniej szczegółowy, więc kwadrat jest większy. Nie ma nic więcej: żadnego identyfikatora, żadnego konta i żadnych danych z wykrywania.
+    *   *Co jest wysyłane:* Gdy radar jest włączony, prośba o listę obrazów radaru, a potem kafelki obrazu dla fragmentu mapy na ekranie. Każda prośba o kafelek podaje poziom powiększenia, kwadrat mapy i czas tego obrazu. Aplikacja nigdy nie prosi o kwadrat mniejszy niż opisane wyżej kwadraty o boku około 50 km (o wysokości co najmniej pół stopnia, gdziekolwiek Państwo są); gdy powiększają Państwo mapę jeszcze bardziej, aplikacja powiększa ten obraz na telefonie. Strzałki wiatru są rysowane na telefonie Państwa na podstawie wiatru wokół kwadratu o boku około 50 km, który pokazuje mapa; ten kwadrat to jedyne miejsce, które podaje prośba o wiatr. Nie ma nic więcej: żadnego identyfikatora, żadnego konta i żadnych danych z wykrywania.
     *   *Źródło:* Obrazy radarowe i satelitarne krajowych służb meteorologicznych (każda wymieniona ze swoją licencją na [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), dostarczane przez nasz przekaźnik Wingdings, więc telefon Państwa nie kontaktuje się z tymi służbami bezpośrednio.
     *   *Dostawca:* Wingdings, Inc.
 *   **Lista pomocy (koło ratunkowe na mapie)**
-    *   *Co jest wysyłane:* Gdy ją otwierają Państwo, dwuliterowy kod kraju (z lokalizacji Państwa, jeśli aplikacja ją zna, a w przeciwnym razie z ustawienia regionu telefonu) oraz język aplikacji Państwa, żeby lista mogła pokazać właściwy numer alarmowy i organizacje.
-    *   *Dostawca:* Wingdings, Inc.
+    *   *Co jest wysyłane:* Żeby wybrać kraj, telefon pyta usługę map (Apple Maps na iPhonie i iPadzie, Google na Androidzie), w którym kraju leży **środek kwadratu o boku około 50 km**, w którym się znajduje, a w razie potrzeby także, w którym kraju leżą środki sąsiednich kwadratów; sama pozycja Państwa nie jest wysyłana. Android najpierw korzysta z kraju sieci komórkowej, który jest znany na telefonie. Potem, gdy otwierają Państwo listę, do nas wysyłane są dwuliterowy kod kraju i język aplikacji Państwa, żeby lista mogła pokazać właściwy numer alarmowy i organizacje. Blisko granicy, gdzie jeden kwadrat obejmuje dwa kraje, decyduje ustawienie regionu telefonu Państwa.
+    *   *Dostawca:* Apple Maps lub Google dla kraju; Wingdings, Inc. dla listy
 *   **Pobieranie Obsługi napisów (iPhone'y z co najmniej 8 GB pamięci)**
     *   *Co jest wysyłane:* Zwykłe prośby sieciowe o jednorazowe pobranie modeli rozpoznawania mowy (około 1 GB) oraz o listę tych plików. Nie wchodzi w to nic na temat Państwa, lokalizacji Państwa ani dźwięku Państwa. Po pobraniu modele działają na urządzeniu, tak jak reszta napisów.
     *   *Dostawca:* Wingdings, Inc. przez Cloudflare
 *   **Rozpoznawanie muzyki (opcjonalne, Power Pack+)**
     *   *Co jest wysyłane:* Krótki odcisk dźwięku, nigdy samo nagranie, gdy wykryta jest muzyka i Shazam jest włączony. Mogą Państwo wyłączyć to w ustawieniach.
     *   *Dostawca:* Apple Shazam / ShazamKit
-*   **Kontekst drogowy**
-    *   *Co jest wysyłane:* Pozycja, którą telefon zaokrąglił do około **110 metrów**, wewnątrz prośby o drogi w promieniu **500 metrów** od tego punktu, żeby wykryty pojazd dało się postawić na drodze, na której naprawdę jest. Prośba nie zawiera imienia, konta, identyfikatora urządzenia ani niczego o tym, co telefon usłyszał.
-    *   *Dostawca:* Współtwórcy OpenStreetMap, przez publiczne API Overpass
-*   **Trasy drogowe**
-    *   *Co jest wysyłane:* Pozycja Państwa i pozycja śledzonego dźwięku, żeby na mapie dało się narysować trasę przejazdu między nimi. Te pozycje wychodzą z dokładnością, jaką ma telefon, większą niż w prośbie o kontekst drogowy powyżej. Nie ma przy nich imienia ani konta i nie wchodzi w to nic o samym wykryciu.
-    *   *Dostawca:* Apple Maps / MapKit na iPhonie i iPadzie
+*   **Mapa drogowa**
+    *   *Co jest wysyłane:* Nazwa kwadratu o boku około **50 km** (pół stopnia), w którym jest telefon Państwa, żeby pobrać mapę drogową tego obszaru. Telefon ją zachowuje i najwyżej raz w tygodniu sprawdza, czy jest nowsza. Znajdowanie dróg w pobliżu Państwa, stawianie wykrytego pojazdu na drodze, na której jest, i rysowanie trasy, którą prawdopodobnie pojedzie: wszystko to dzieje się **na telefonie Państwa**, na podstawie tej mapy. Pozycja Państwa i pozycja dźwięku nigdy nie są wysyłane.
+    *   *Dostawca:* Dane drogowe od współtwórców OpenStreetMap (Open Database License), przygotowane i hostowane przez Wingdings, Inc.
 *   **Zakupy i uprawnienia**
     *   *Co jest wysyłane:* Tokeny zakupu oraz stan uprawnienia albo próby dla opcjonalnego jednorazowego odblokowania Power Pack+ (to nie jest subskrypcja)
     *   *Dostawca:* Apple App Store na iPhonie i iPadzie; Google Play Billing na Androidzie
@@ -98,7 +95,7 @@ Główne słuchanie i napisy działają na urządzeniu Państwa. **Nie** zbieram
 
 Aplikacja może trzymać na urządzeniu **lokalne** logi debugowania do rozwiązywania problemów. Aplikacja ich nie wysyła. Tekst napisów znika z logu, zanim da się go wyeksportować. Mogą Państwo wybrać wysłanie nam logu e-mailem.
 
-**Research Array i nasze własne usługi.** Gdy Research Array jest włączone, Wingdings otrzymuje ograniczone raporty o zdarzeniach opisane niżej. Osobno niektóre funkcje rozmawiają z serwerami, które prowadzimy: alerty pogodowe i o trzęsieniach ziemi, radar pogodowy, lista pomocy, pobieranie Obsługi napisów oraz zestawienie Remote Link. Te prośby nie niosą konta ani identyfikatora osobistego. Prośba pogodowa zawiera co najwyżej lokalizację zaokrągloną do około 50 km. Nic z tego nie jest reklamą. Każda prośba jest po to, żeby zadziałała jedna funkcja.
+**Research Array i nasze własne usługi.** Gdy Research Array jest włączone, Wingdings otrzymuje ograniczone raporty o zdarzeniach opisane niżej. Osobno niektóre funkcje rozmawiają z serwerami, które prowadzimy: alerty pogodowe i o trzęsieniach ziemi, radar pogodowy i wiatr, mapa drogowa, lista pomocy, pobieranie Obsługi napisów oraz zestawienie Remote Link. Te prośby nie niosą konta ani identyfikatora osobistego. Prośby, które podają miejsce, podają co najwyżej kwadrat o szerokości około 50 km: alerty pogodowe, mapa drogowa i wiatr. Nic z tego nie jest reklamą. Każda prośba jest po to, żeby zadziałała jedna funkcja.
 
 ## Research Array (włączone, dopóki Państwo tego nie wyłączą)
 

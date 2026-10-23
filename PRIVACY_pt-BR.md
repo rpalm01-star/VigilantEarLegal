@@ -45,24 +45,21 @@ Quando você usa certos recursos, ou quando o app precisa deles para funcionar, 
     *   *O que é enviado:* Um pedido de uma lista pública mundial de terremotos, pela mesma retransmissão dos alertas de clima acima, para o seu telefone também não entrar em contato com um servidor do governo por causa deles. O pedido não leva localização nem região. O seu telefone decide sozinho se um tremor informado está perto de você.
     *   *Provedor:* Fontes públicas oficiais de terremotos, retransmitidas pela Wingdings, Inc.
 *   **Radar meteorológico**
-    *   *O que é enviado:* Quando o radar está ligado, um pedido da lista de imagens de radar e, em seguida, os blocos de imagem da parte do mapa na tela. Cada pedido de bloco indica um nível de zoom, um quadrado do mapa e a hora daquela imagem. No zoom mais próximo, o quadrado tem cerca de 40 km de lado. Em alguns países, a imagem mais próxima é mais grosseira, então o quadrado é maior. Nada mais é incluído: nenhum identificador, nenhuma conta e nenhum dado de detecção.
+    *   *O que é enviado:* Quando o radar está ligado, um pedido da lista de imagens de radar e, em seguida, os blocos de imagem da parte do mapa na tela. Cada pedido de bloco indica um nível de zoom, um quadrado do mapa e a hora daquela imagem. O app nunca pede um quadrado menor que os quadrados de cerca de 50 km descritos acima (com pelo menos meio grau de altura, onde quer que você esteja); quando você aproxima mais o zoom, o app amplia essa imagem no telefone. As setas de vento são desenhadas no seu telefone a partir do vento ao redor do quadrado de cerca de 50 km que o mapa está mostrando; esse quadrado é o único lugar que o pedido do vento indica. Nada mais é incluído: nenhum identificador, nenhuma conta e nenhum dado de detecção.
     *   *Fonte:* Imagens de radar e de satélite de serviços meteorológicos nacionais (cada um listado com a sua licença em [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), entregues pela nossa retransmissão da Wingdings, para o seu telefone não entrar em contato direto com essas agências.
     *   *Provedor:* Wingdings, Inc.
 *   **Lista de ajuda (a boia salva-vidas no mapa)**
-    *   *O que é enviado:* Quando você a abre, um código de país de duas letras (a partir da sua localização, se o app a tiver; caso contrário, a configuração de região do seu telefone) e o idioma do app, para a lista poder mostrar o número de emergência e as organizações relevantes.
-    *   *Provedor:* Wingdings, Inc.
+    *   *O que é enviado:* Para escolher o país, o telefone pergunta ao serviço de mapas (Apple Maps no iPhone e no iPad, Google no Android) qual país contém o **centro do quadrado de cerca de 50 km** em que ele está e, quando necessário, qual país contém o centro de cada um dos quadrados ao redor; a sua posição em si não é enviada. O Android usa primeiro o país da rede móvel, que é conhecido no telefone. Depois, quando você abre a lista, um código de país de duas letras e o idioma do app são enviados para nós, para a lista poder mostrar o número de emergência e as organizações relevantes. Perto de uma fronteira, onde um quadrado cobre dois países, quem decide é a configuração de região do seu telefone.
+    *   *Provedor:* Apple Maps ou Google para o país; Wingdings, Inc. para a lista
 *   **Download do Suporte a legendas (iPhones com pelo menos 8 GB de memória)**
     *   *O que é enviado:* Pedidos web comuns para um download único de modelos de reconhecimento de fala (cerca de 1 GB) e para a lista desses arquivos. Nada sobre você, a sua localização ou o seu áudio é incluído. Depois de baixados, os modelos funcionam no dispositivo, como o restante das legendas.
     *   *Provedor:* Wingdings, Inc. via Cloudflare
 *   **Identificação de música (opcional, Power Pack+)**
     *   *O que é enviado:* Uma impressão digital curta do áudio, nunca a gravação em si, quando música é detectada e o Shazam está ligado. Você pode desligar isso nas configurações.
     *   *Provedor:* Apple Shazam / ShazamKit
-*   **Contexto de ruas**
-    *   *O que é enviado:* Uma posição que o telefone arredondou para cerca de **110 metros**, dentro de um pedido das ruas em um raio de **500 metros** desse ponto, para um veículo detectado poder ser colocado na rua em que realmente está. O pedido não inclui nome, conta nem identificador de dispositivo, e nada sobre o que o telefone ouviu.
-    *   *Provedor:* Colaboradores do OpenStreetMap, pela API pública Overpass
-*   **Rotas de carro**
-    *   *O que é enviado:* A sua posição e a posição de um som rastreado, para uma rota de carro entre elas poder ser desenhada no mapa. Essas posições são enviadas na precisão que o telefone tem, que é mais fina do que a do pedido de contexto de ruas acima. Nenhum nome ou conta vai junto, e nada sobre a própria detecção é incluído.
-    *   *Provedor:* Apple Maps / MapKit no iPhone e no iPad
+*   **Mapa de ruas**
+    *   *O que é enviado:* O nome do quadrado de cerca de **50 km** de lado (meio grau) em que o seu telefone está, para baixar o mapa de ruas dessa área. O telefone guarda esse mapa e verifica se há um mais novo no máximo uma vez por semana. Encontrar as ruas perto de você, colocar um veículo detectado na rua em que ele está e desenhar a rota que ele provavelmente vai seguir: tudo isso acontece **no seu telefone**, a partir desse mapa. A sua posição e a posição do som nunca são enviadas.
+    *   *Provedor:* Dados de ruas de colaboradores do OpenStreetMap (Open Database License), preparados e hospedados pela Wingdings, Inc.
 *   **Compras e direitos**
     *   *O que é enviado:* Tokens de compra e o status de direito ou de teste do desbloqueio opcional e único do Power Pack+ (não é uma assinatura)
     *   *Provedor:* a Apple App Store no iPhone e no iPad; Google Play Billing no Android
@@ -98,7 +95,7 @@ A escuta principal e as legendas funcionam no seu dispositivo. **Não** coletamo
 
 O app pode guardar registros de depuração **locais** no dispositivo para resolver problemas. O app não os envia. O texto da legenda é removido de um registro antes que ele possa ser exportado. Você pode escolher nos enviar um registro por e-mail.
 
-**Research Array e os nossos próprios serviços.** Enquanto o Research Array está ligado, a Wingdings recebe os relatórios limitados de eventos descritos abaixo. Separadamente, alguns recursos falam com servidores que operamos: alertas de clima e de terremoto, radar meteorológico, a lista de ajuda, o download do Suporte a legendas e a preparação de um Remote Link. Esses pedidos não levam conta nem identificador pessoal. O pedido de clima inclui, no máximo, uma localização arredondada para cerca de 50 km. Nada disso é publicidade. Cada pedido existe para fazer um recurso funcionar.
+**Research Array e os nossos próprios serviços.** Enquanto o Research Array está ligado, a Wingdings recebe os relatórios limitados de eventos descritos abaixo. Separadamente, alguns recursos falam com servidores que operamos: alertas de clima e de terremoto, radar meteorológico e vento, o mapa de ruas, a lista de ajuda, o download do Suporte a legendas e a preparação de um Remote Link. Esses pedidos não levam conta nem identificador pessoal. Os pedidos que indicam um lugar indicam, no máximo, um quadrado de cerca de 50 km de largura: os alertas de clima, o mapa de ruas e o vento. Nada disso é publicidade. Cada pedido existe para fazer um recurso funcionar.
 
 ## Research Array (ligado até você desligar)
 

@@ -45,24 +45,21 @@ Quando usa determinate funzioni, o quando l'app ne ha bisogno per funzionare, **
     *   *Cosa viene inviato:* Una richiesta di un unico elenco pubblico mondiale dei terremoti, attraverso lo stesso relay degli avvisi meteo sopra, così il suo telefono non contatta un server governativo nemmeno per questi. La richiesta non porta alcuna posizione né alcuna regione. Il suo telefono decide da solo se un terremoto segnalato è vicino a Lei.
     *   *Fornitore:* Feed pubblici ufficiali sui terremoti, inoltrati da Wingdings, Inc.
 *   **Radar meteo**
-    *   *Cosa viene inviato:* Quando il radar è attivo, una richiesta dell'elenco delle immagini radar, poi le tessere delle immagini per la parte di mappa sullo schermo. Ogni richiesta di tessera indica un livello di zoom, un quadrato della mappa e l'ora di quell'immagine. Allo zoom più ravvicinato il quadrato è largo circa 40 km. In alcuni paesi l'immagine più ravvicinata è più grossolana, quindi il quadrato è più grande. Non è incluso nient'altro: nessun identificativo, nessun account e nessun dato di rilevamento.
+    *   *Cosa viene inviato:* Quando il radar è attivo, una richiesta dell'elenco delle immagini radar, poi le tessere delle immagini per la parte di mappa sullo schermo. Ogni richiesta di tessera indica un livello di zoom, un quadrato della mappa e l'ora di quell'immagine. L'app non chiede mai un quadrato più piccolo dei quadrati di circa 50 km descritti sopra (alto almeno mezzo grado, ovunque Lei si trovi); quando Lei avvicina lo zoom, l'app ingrandisce quell'immagine sul telefono. Le frecce del vento vengono disegnate sul suo telefono a partire dal vento intorno al quadrato di circa 50 km mostrato dalla mappa; quel quadrato è l'unico luogo indicato dalla richiesta per il vento. Non è incluso nient'altro: nessun identificativo, nessun account e nessun dato di rilevamento.
     *   *Fonte:* Immagini radar e satellitari dei servizi meteorologici nazionali (ciascuno elencato con la sua licenza su [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), consegnate attraverso il nostro relay Wingdings, così il suo telefono non contatta quelle agenzie direttamente.
     *   *Fornitore:* Wingdings, Inc.
 *   **Elenco di aiuto (il salvagente sulla mappa)**
-    *   *Cosa viene inviato:* Quando lo apre, un codice paese di due lettere (dalla sua posizione se l'app la conosce, altrimenti dall'impostazione della regione del telefono) e la lingua della sua app, così l'elenco può mostrare il numero di emergenza e le organizzazioni pertinenti.
-    *   *Fornitore:* Wingdings, Inc.
+    *   *Cosa viene inviato:* Per scegliere il paese, il telefono chiede al servizio di mappe (Apple Maps su iPhone e iPad, Google su Android) quale paese contiene il **centro del quadrato di circa 50 km** in cui si trova e, quando serve, quale paese contiene il centro di ciascuno dei quadrati intorno; la sua posizione in sé non viene inviata. Android usa prima il paese della rete mobile, che è noto sul telefono. Poi, quando Lei apre l'elenco, ci vengono inviati un codice paese di due lettere e la lingua della sua app, così l'elenco può mostrare il numero di emergenza e le organizzazioni pertinenti. Vicino a un confine, dove un quadrato copre due paesi, decide l'impostazione della regione del suo telefono.
+    *   *Fornitore:* Apple Maps o Google per il paese; Wingdings, Inc. per l'elenco
 *   **Download di Supporto sottotitoli (iPhone con almeno 8 GB di memoria)**
     *   *Cosa viene inviato:* Normali richieste web per un download una tantum dei modelli di riconoscimento vocale (circa 1 GB) e per l'elenco di quei file. Non è incluso nulla su di Lei, sulla sua posizione o sul suo audio. Una volta scaricati, i modelli funzionano sul dispositivo, come il resto dei sottotitoli.
     *   *Fornitore:* Wingdings, Inc. tramite Cloudflare
 *   **Identificazione musicale (facoltativa, Power Pack+)**
     *   *Cosa viene inviato:* Una breve impronta audio, mai la registrazione stessa, quando viene rilevata musica e Shazam è attivo. Può disattivarla nelle impostazioni.
     *   *Fornitore:* Apple Shazam / ShazamKit
-*   **Contesto stradale**
-    *   *Cosa viene inviato:* Una posizione che il telefono ha arrotondato a circa **110 metri**, dentro una richiesta delle strade entro **500 metri** da quel punto, così un veicolo rilevato può essere collocato sulla strada su cui si trova davvero. La richiesta non include nome, account né identificativo del dispositivo, e nulla di ciò che il telefono ha udito.
-    *   *Fornitore:* Contributori di OpenStreetMap, tramite l'API pubblica Overpass
-*   **Percorsi stradali**
-    *   *Cosa viene inviato:* La sua posizione e la posizione di un suono tracciato, così sulla mappa si può disegnare un percorso di guida tra i due. Queste posizioni vengono inviate con la precisione che ha il telefono, più precisa della richiesta di contesto stradale sopra. Non è allegato alcun nome o account, e non è incluso nulla sul rilevamento stesso.
-    *   *Fornitore:* Apple Maps / MapKit su iPhone e iPad
+*   **Mappa stradale**
+    *   *Cosa viene inviato:* Il nome del quadrato di circa **50 km** di lato (mezzo grado) in cui si trova il suo telefono, per scaricare la mappa stradale di quella zona. Il telefono la conserva e controlla al massimo una volta alla settimana se ce n'è una più recente. Trovare le strade vicine a Lei, collocare un veicolo rilevato sulla strada su cui si trova e disegnare il percorso che probabilmente seguirà: tutto questo avviene **sul suo telefono**, a partire da quella mappa. La sua posizione e la posizione del suono non vengono mai inviate.
+    *   *Fornitore:* Dati stradali dei contributori di OpenStreetMap (Open Database License), preparati e ospitati da Wingdings, Inc.
 *   **Acquisti e diritti**
     *   *Cosa viene inviato:* Token di acquisto e stato del diritto o della prova per lo sblocco una tantum facoltativo di Power Pack+ (non un abbonamento)
     *   *Fornitore:* l'Apple App Store su iPhone e iPad; Google Play Billing su Android
@@ -98,7 +95,7 @@ L'ascolto principale e i sottotitoli funzionano sul suo dispositivo. **Non** rac
 
 L'app può tenere sul dispositivo log di debug **locali** per la risoluzione dei problemi. L'app non li carica. Il testo dei sottotitoli viene rimosso da un log prima che possa essere esportato. Può scegliere di inviarci un log per e-mail.
 
-**Research Array e i nostri servizi.** Mentre Research Array è attivo, Wingdings riceve i rapporti limitati sugli eventi descritti più avanti. Separatamente, alcune funzioni parlano con server che gestiamo: avvisi meteo e di terremoto, radar meteo, l'elenco di aiuto, il download di Supporto sottotitoli e l'impostazione di un Remote Link. Quelle richieste non portano un account né un identificativo personale. La richiesta meteo include, al massimo, una posizione arrotondata a circa 50 km. Nulla di questo è pubblicità. Ogni richiesta esiste per far funzionare una funzione.
+**Research Array e i nostri servizi.** Mentre Research Array è attivo, Wingdings riceve i rapporti limitati sugli eventi descritti più avanti. Separatamente, alcune funzioni parlano con server che gestiamo: avvisi meteo e di terremoto, radar meteo e vento, la mappa stradale, l'elenco di aiuto, il download di Supporto sottotitoli e l'impostazione di un Remote Link. Quelle richieste non portano un account né un identificativo personale. Le richieste che indicano un luogo indicano al massimo un quadrato largo circa 50 km: gli avvisi meteo, la mappa stradale e il vento. Nulla di questo è pubblicità. Ogni richiesta esiste per far funzionare una funzione.
 
 ## Research Array (attivo finché non lo spegne)
 

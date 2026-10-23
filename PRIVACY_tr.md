@@ -45,24 +45,21 @@ Belirli özellikleri kullandığınızda veya uygulamanın çalışması için b
     *   *Ne gönderilir:* Yukarıdaki hava uyarılarıyla aynı aktarıcı üzerinden, dünya çapında tek bir kamu deprem listesi isteği; böylece telefonunuz bunlar için de bir devlet sunucusuna bağlanmaz. İstek konum veya bölge taşımaz. Bildirilen bir depremin size yakın olup olmadığına telefonunuz kendisi karar verir.
     *   *Sağlayıcı:* Resmi kamu deprem akışları; Wingdings, Inc. tarafından iletilir
 *   **Hava radarı**
-    *   *Ne gönderilir:* Radar açıkken, radar görüntülerinin listesi için bir istek, ardından ekrandaki harita bölümünün görüntü karoları. Her karo isteği bir yakınlaştırma düzeyini, haritanın bir karesini ve o görüntünün zamanını belirtir. En yakın yakınlaştırmada karenin genişliği kabaca 40 km'dir. Bazı ülkelerde en yakın görüntü daha kabadır, bu yüzden kare daha büyüktür. Başka bir şey eklenmez: tanımlayıcı yok, hesap yok ve algılama verisi yok.
+    *   *Ne gönderilir:* Radar açıkken, radar görüntülerinin listesi için bir istek, ardından ekrandaki harita bölümünün görüntü karoları. Her karo isteği bir yakınlaştırma düzeyini, haritanın bir karesini ve o görüntünün zamanını belirtir. Uygulama hiçbir zaman yukarıdaki yaklaşık 50 km'lik karelerden daha küçük bir kare istemez (nerede olursanız olun, en az yarım derece yüksekliğinde); daha fazla yakınlaştırdığınızda o görüntüyü telefonda büyütür. Rüzgâr okları, haritanın gösterdiği yaklaşık 50 km'lik karenin çevresindeki rüzgârdan telefonunuzda çizilir; bu kare, rüzgâr isteğinin belirttiği tek yerdir. Başka bir şey eklenmez: tanımlayıcı yok, hesap yok ve algılama verisi yok.
     *   *Kaynak:* Ulusal meteoroloji hizmetlerinin radar ve uydu görüntüleri (her biri lisansıyla birlikte [vigilantear.com/en/sources](https://vigilantear.com/en/sources) adresinde listelenir); telefonunuzun bu kurumlara doğrudan bağlanmaması için Wingdings aktarıcımız üzerinden iletilir.
     *   *Sağlayıcı:* Wingdings, Inc.
 *   **Yardım listesi (haritadaki can simidi)**
-    *   *Ne gönderilir:* Açtığınızda, iki harfli bir ülke kodu (uygulama konumunuzu biliyorsa konumunuzdan, yoksa telefonunuzun bölge ayarından) ve uygulama diliniz; böylece liste ilgili acil durum numarasını ve kuruluşları gösterebilir.
-    *   *Sağlayıcı:* Wingdings, Inc.
+    *   *Ne gönderilir:* Ülkeyi seçmek için telefon, harita hizmetine (iPhone ve iPad'de Apple Maps, Android'de Google) içinde bulunduğu **yaklaşık 50 km'lik karenin merkezinin** hangi ülkede olduğunu, gerektiğinde de çevresindeki karelerin merkezlerinin hangi ülkede olduğunu sorar; konumunuzun kendisi gönderilmez. Android önce mobil ağın, telefonda bilinen ülkesini kullanır. Ardından, listeyi açtığınızda iki harfli bir ülke kodu ve uygulama diliniz bize gönderilir; böylece liste ilgili acil durum numarasını ve kuruluşları gösterebilir. Bir sınırın yakınında, bir karenin iki ülkeyi kapsadığı yerde, telefonunuzun bölge ayarı karar verir.
+    *   *Sağlayıcı:* Ülke için Apple Maps veya Google; liste için Wingdings, Inc.
 *   **Altyazı Desteği indirmesi (en az 8 GB belleği olan iPhone'lar)**
     *   *Ne gönderilir:* Konuşma tanıma modellerinin bir kerelik indirilmesi (yaklaşık 1 GB) ve bu dosyaların listesi için olağan web istekleri. Size, konumunuza veya sesinize dair hiçbir şey eklenmez. İndirildikten sonra modeller, altyazının geri kalanı gibi cihazda çalışır.
     *   *Sağlayıcı:* Wingdings, Inc., Cloudflare üzerinden
 *   **Müzik tanıma (isteğe bağlı, Power Pack+)**
     *   *Ne gönderilir:* Müzik algılandığında ve Shazam açıkken kısa bir ses parmak izi; kaydın kendisi asla gönderilmez. Bunu ayarlardan kapatabilirsiniz.
     *   *Sağlayıcı:* Apple Shazam / ShazamKit
-*   **Yol bağlamı**
-    *   *Ne gönderilir:* Telefonun yaklaşık **110 metreye** yuvarladığı bir konum, o noktanın **500 metre** içindeki yollar için yapılan bir isteğin içinde; böylece algılanan bir araç gerçekten bulunduğu yola yerleştirilebilir. İstekte ad, hesap veya cihaz tanımlayıcısı yoktur ve telefonun duyduğuna dair hiçbir şey yoktur.
-    *   *Sağlayıcı:* OpenStreetMap katkıda bulunanları, genel Overpass API aracılığıyla
-*   **Yol tarifi**
-    *   *Ne gönderilir:* Konumunuz ve izlenen bir sesin konumu; böylece aralarındaki bir sürüş rotası haritada çizilebilir. Bu konumlar, telefonun sahip olduğu kesinlikte gönderilir; bu, yukarıdaki yol bağlamı isteğinden daha hassastır. Ad veya hesap eklenmez ve algılamanın kendisine dair hiçbir şey eklenmez.
-    *   *Sağlayıcı:* iPhone ve iPad'de Apple Maps / MapKit
+*   **Yol haritası**
+    *   *Ne gönderilir:* Telefonunuzun içinde bulunduğu, bir kenarı yaklaşık **50 km** (yarım derece) olan karenin adı; o bölgenin yol haritasını indirmek için. Telefon haritayı saklar ve daha yenisi olup olmadığını en fazla haftada bir kontrol eder. Yakınınızdaki yolları bulmak, algılanan bir aracı bulunduğu yola yerleştirmek ve muhtemelen izleyeceği rotayı çizmek: bunların hepsi o haritadan **telefonunuzda** yapılır. Konumunuz ve sesin konumu hiçbir zaman gönderilmez.
+    *   *Sağlayıcı:* OpenStreetMap katkıda bulunanlarının yol verileri (Open Database License), Wingdings, Inc. tarafından hazırlanır ve barındırılır
 *   **Satın almalar ve yetkiler**
     *   *Ne gönderilir:* İsteğe bağlı, bir kerelik Power Pack+ kilidinin açılması için satın alma belirteçleri ve yetki veya deneme durumu (abonelik değildir)
     *   *Sağlayıcı:* iPhone ve iPad'de Apple App Store; Android'de Google Play Billing
@@ -98,7 +95,7 @@ Bu hizmetleri haritalar, hava durumu, müzik adları, satın almalar, bağlı te
 
 Uygulama, sorun giderme için cihazda **yerel** hata ayıklama günlükleri tutabilir. Uygulama bunları yüklemez. Altyazı metni, bir günlük dışa aktarılabilmeden önce günlükten çıkarılır. Bir günlüğü bize e-postayla göndermeyi seçebilirsiniz.
 
-**Research Array ve kendi hizmetlerimiz.** Research Array açıkken Wingdings, aşağıda anlatılan sınırlı olay raporlarını alır. Ayrıca bazı özellikler işlettiğimiz sunucularla konuşur: hava ve deprem uyarıları, hava radarı, yardım listesi, Altyazı Desteği indirmesi ve bir Remote Link kurmak. Bu istekler hesap veya kişisel tanımlayıcı taşımaz. Hava isteği en fazla yaklaşık 50 km'ye yuvarlanmış bir konum içerir. Bunların hiçbiri reklam değildir. Her istek, tek bir özelliğin çalışması için vardır.
+**Research Array ve kendi hizmetlerimiz.** Research Array açıkken Wingdings, aşağıda anlatılan sınırlı olay raporlarını alır. Ayrıca bazı özellikler işlettiğimiz sunucularla konuşur: hava ve deprem uyarıları, hava radarı ve rüzgâr, yol haritası, yardım listesi, Altyazı Desteği indirmesi ve bir Remote Link kurmak. Bu istekler hesap veya kişisel tanımlayıcı taşımaz. Bir yer belirten istekler en fazla yaklaşık 50 km genişliğinde bir kare belirtir: hava uyarıları, yol haritası ve rüzgâr. Bunların hiçbiri reklam değildir. Her istek, tek bir özelliğin çalışması için vardır.
 
 ## Research Array (siz kapatana kadar açık)
 

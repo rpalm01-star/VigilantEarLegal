@@ -45,24 +45,21 @@ Când folosești anumite funcții, sau când aplicația are nevoie de ele ca să
     *   *Ce se trimite:* O cerere pentru o singură listă publică de cutremure, la nivel mondial, prin același releu ca alertele meteo de mai sus, astfel încât telefonul tău să nu contacteze un server guvernamental nici pentru acestea. Cererea nu poartă nicio locație și nicio regiune. Telefonul tău decide singur dacă un cutremur raportat este aproape de tine.
     *   *Furnizor:* Fluxuri publice oficiale de cutremure, retransmise de Wingdings, Inc.
 *   **Radar meteo**
-    *   *Ce se trimite:* Când radarul e pornit, o cerere pentru lista imaginilor radar, apoi dalele de imagine pentru partea de hartă de pe ecran. Fiecare cerere de dală numește un nivel de zoom, un pătrat al hărții și ora acelei imagini. La cel mai apropiat zoom, pătratul măsoară cam 40 km. În unele țări cea mai apropiată imagine e mai grosieră, așa că pătratul e mai mare. Nu e inclus nimic altceva: niciun identificator, niciun cont și niciun fel de date de detecție.
+    *   *Ce se trimite:* Când radarul e pornit, o cerere pentru lista imaginilor radar, apoi dalele de imagine pentru partea de hartă de pe ecran. Fiecare cerere de dală numește un nivel de zoom, un pătrat al hărții și ora acelei imagini. Aplicația nu cere niciodată un pătrat mai mic decât pătratele de circa 50 km de mai sus (înalte de cel puțin o jumătate de grad, oriunde te-ai afla); când apropii zoomul și mai mult, aplicația mărește imaginea aceea pe telefon. Săgețile de vânt sunt desenate pe telefonul tău din vântul din jurul pătratului de circa 50 km pe care îl arată harta; pătratul acesta e singurul loc pe care îl numește cererea pentru vânt. Nu e inclus nimic altceva: niciun identificator, niciun cont și niciun fel de date de detecție.
     *   *Sursă:* Imagini radar și satelit de la serviciile naționale de meteorologie (fiecare listată cu licența ei la [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), livrate prin releul nostru Wingdings, astfel încât telefonul tău să nu contacteze agențiile acelea direct.
     *   *Furnizor:* Wingdings, Inc.
 *   **Lista de ajutor (colacul de salvare de pe hartă)**
-    *   *Ce se trimite:* Când o deschizi, un cod de țară din două litere (din locația ta, dacă aplicația o are, altfel din setarea de regiune a telefonului tău) și limba aplicației tale, ca lista să poată arăta numărul de urgență relevant și organizațiile.
-    *   *Furnizor:* Wingdings, Inc.
+    *   *Ce se trimite:* Ca să aleagă țara, telefonul întreabă serviciul de hărți (Apple Maps pe iPhone și iPad, Google pe Android) ce țară conține **centrul pătratului de circa 50 km** în care se află și, când e nevoie, ce țară conține centrul fiecăruia dintre pătratele din jur; poziția ta însăși nu e trimisă. Android folosește mai întâi țara rețelei mobile, care e cunoscută pe telefon. Apoi, când deschizi lista, ne sunt trimise un cod de țară din două litere și limba aplicației tale, ca lista să poată arăta numărul de urgență relevant și organizațiile. Lângă o graniță, unde un pătrat acoperă două țări, decide setarea de regiune a telefonului tău.
+    *   *Furnizor:* Apple Maps sau Google pentru țară; Wingdings, Inc. pentru listă
 *   **Descărcarea Suport pentru subtitrări (iPhone-uri cu cel puțin 8 GB de memorie)**
     *   *Ce se trimite:* Cereri web obișnuite pentru o descărcare unică a modelelor de recunoaștere a vorbirii (circa 1 GB) și pentru lista acelor fișiere. Nu e inclus nimic despre tine, despre locația ta sau despre audio-ul tău. Odată descărcate, modelele rulează pe dispozitiv, cum face și restul subtitrării.
     *   *Furnizor:* Wingdings, Inc. prin Cloudflare
 *   **Identificarea muzicii (opțional, Power Pack+)**
     *   *Ce se trimite:* O amprentă audio scurtă, niciodată înregistrarea însăși, când e detectată muzică și Shazam e pornit. Poți opri asta în setări.
     *   *Furnizor:* Apple Shazam / ShazamKit
-*   **Context rutier**
-    *   *Ce se trimite:* O poziție pe care telefonul a rotunjit-o la circa **110 de metri**, înăuntrul unei cereri pentru drumurile aflate la cel mult **500 de metri** de punctul acela, ca un vehicul detectat să poată fi așezat pe drumul pe care se află de fapt. Cererea nu include niciun nume, niciun cont și niciun identificator de dispozitiv, și nimic despre ce a auzit telefonul.
-    *   *Furnizor:* Contribuitorii OpenStreetMap, prin API-ul public Overpass
-*   **Rutare rutieră**
-    *   *Ce se trimite:* Poziția ta și poziția unui sunet urmărit, ca pe hartă să se poată desena un traseu de condus între ele. Pozițiile acestea sunt trimise la precizia pe care o are telefonul, care e mai fină decât cererea de context rutier de mai sus. Nu e atașat niciun nume sau cont, și nu e inclus nimic despre detecția însăși.
-    *   *Furnizor:* Apple Maps / MapKit pe iPhone și iPad
+*   **Hartă rutieră**
+    *   *Ce se trimite:* Numele pătratului de circa **50 km** pe latură (o jumătate de grad) în care se află telefonul tău, ca să se descarce harta rutieră a zonei aceleia. Telefonul o păstrează și verifică dacă există una mai nouă cel mult o dată pe săptămână. Găsirea drumurilor de lângă tine, așezarea unui vehicul detectat pe drumul pe care se află și desenarea traseului pe care probabil îl va lua au loc toate **pe telefonul tău**, din harta aceea. Poziția ta și poziția sunetului nu sunt trimise niciodată.
+    *   *Furnizor:* Date rutiere de la contribuitorii OpenStreetMap (Open Database License), pregătite și găzduite de Wingdings, Inc.
 *   **Cumpărături și drepturi**
     *   *Ce se trimite:* Tokenuri de cumpărare și starea dreptului sau a perioadei de probă pentru deblocarea opțională Power Pack+, făcută o singură dată (nu un abonament)
     *   *Furnizor:* Apple App Store pe iPhone și iPad; Google Play Billing pe Android
@@ -98,7 +95,7 @@ Ascultarea de bază și subtitrările rulează pe dispozitivul tău. **Nu** cole
 
 Aplicația poate păstra jurnale de depanare **locale** pe dispozitiv, pentru depanare. Aplicația nu le încarcă. Textul subtitrărilor e scos dintr-un jurnal înainte ca acesta să poată fi exportat. Poți alege să ne trimiți un jurnal prin e-mail.
 
-**Research Array și serviciile noastre.** Cât timp Research Array e pornit, Wingdings primește rapoartele limitate de evenimente descrise mai jos. Separat, unele funcții vorbesc cu serverele pe care le operăm: alertele meteo și de cutremur, radarul meteo, lista de ajutor, descărcarea Suport pentru subtitrări și stabilirea unui Remote Link. Cererile acelea nu poartă niciun cont și niciun identificator personal. Cererea meteo include, cel mult, o locație rotunjită la circa 50 km. Nimic din toate acestea nu e publicitate. Fiecare cerere există ca să facă să meargă o singură funcție.
+**Research Array și serviciile noastre.** Cât timp Research Array e pornit, Wingdings primește rapoartele limitate de evenimente descrise mai jos. Separat, unele funcții vorbesc cu serverele pe care le operăm: alertele meteo și de cutremur, radarul meteo și vântul, harta rutieră, lista de ajutor, descărcarea Suport pentru subtitrări și stabilirea unui Remote Link. Cererile acelea nu poartă niciun cont și niciun identificator personal. Cererile care numesc un loc numesc cel mult un pătrat lat de circa 50 km: alertele meteo, harta rutieră și vântul. Nimic din toate acestea nu e publicitate. Fiecare cerere există ca să facă să meargă o singură funcție.
 
 ## Research Array (pornit până îl oprești)
 

@@ -45,24 +45,21 @@ Wenn Sie bestimmte Funktionen nutzen oder wenn die App sie zum Funktionieren bra
     *   *Was gesendet wird:* Eine Anfrage nach einer einzigen weltweiten öffentlichen Erdbebenliste, über dasselbe Relay wie die Wetterwarnungen oben, sodass Ihr Telefon auch dafür keinen Regierungsserver kontaktiert. Die Anfrage enthält keinen Standort und keine Region. Ihr Telefon entscheidet selbst, ob ein gemeldetes Beben in Ihrer Nähe ist.
     *   *Anbieter:* Amtliche öffentliche Erdbeben-Feeds, weitergeleitet von Wingdings, Inc.
 *   **Wetterradar**
-    *   *Was gesendet wird:* Wenn das Radar eingeschaltet ist, eine Anfrage nach der Liste der Radarbilder und danach die Bildkacheln für den Teil der Karte auf dem Bildschirm. Jede Kachelanfrage nennt eine Zoomstufe, ein Quadrat der Karte und die Zeit dieses Bildes. Bei der stärksten Vergrößerung ist das Quadrat ungefähr 40 km breit. In manchen Ländern ist das feinste Bild gröber, sodass das Quadrat größer ist. Sonst ist nichts enthalten: keine Kennung, kein Konto und keine Erkennungsdaten.
+    *   *Was gesendet wird:* Wenn das Radar eingeschaltet ist, eine Anfrage nach der Liste der Radarbilder und danach die Bildkacheln für den Teil der Karte auf dem Bildschirm. Jede Kachelanfrage nennt eine Zoomstufe, ein Quadrat der Karte und die Zeit dieses Bildes. Die App fragt nie nach einem Quadrat, das kleiner ist als die oben genannten Quadrate von etwa 50 km (mindestens ein halbes Grad hoch, wo immer Sie sind); wenn Sie näher heranzoomen, vergrößert sie dieses Bild auf dem Telefon. Die Windpfeile werden auf Ihrem Telefon gezeichnet, aus dem Wind rund um das Quadrat von etwa 50 km, das die Karte zeigt; dieses Quadrat ist der einzige Ort, den die Anfrage nach dem Wind nennt. Sonst ist nichts enthalten: keine Kennung, kein Konto und keine Erkennungsdaten.
     *   *Quelle:* Radar- und Satellitenbilder nationaler Wetterdienste (jeder mit seiner Lizenz aufgeführt unter [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), geliefert über unser Wingdings-Relay, sodass Ihr Telefon diese Dienste nicht direkt kontaktiert.
     *   *Anbieter:* Wingdings, Inc.
 *   **Hilfeliste (der Rettungsring auf der Karte)**
-    *   *Was gesendet wird:* Wenn Sie sie öffnen, ein Ländercode aus zwei Buchstaben (aus Ihrem Standort, wenn die App ihn hat, sonst aus der Regionseinstellung Ihres Telefons) und Ihre App-Sprache, damit die Liste die passende Notrufnummer und die passenden Organisationen anzeigen kann.
-    *   *Anbieter:* Wingdings, Inc.
+    *   *Was gesendet wird:* Um das Land zu bestimmen, fragt das Telefon den Kartendienst (Apple Maps auf iPhone und iPad, Google auf Android), in welchem Land der **Mittelpunkt des Quadrats von etwa 50 km** liegt, in dem sich das Telefon befindet, und bei Bedarf auch, in welchem Land die Mittelpunkte der umliegenden Quadrate liegen; Ihre Position selbst wird nicht gesendet. Android nutzt zuerst das Land des Mobilfunknetzes, das auf dem Telefon bekannt ist. Danach, wenn Sie die Liste öffnen, werden ein Ländercode aus zwei Buchstaben und Ihre App-Sprache an uns gesendet, damit die Liste die passende Notrufnummer und die passenden Organisationen anzeigen kann. In der Nähe einer Grenze, wo ein Quadrat zwei Länder abdeckt, entscheidet die Regionseinstellung Ihres Telefons.
+    *   *Anbieter:* Apple Maps oder Google für das Land; Wingdings, Inc. für die Liste
 *   **Download der Untertitel-Unterstützung (iPhones mit mindestens 8 GB Arbeitsspeicher)**
     *   *Was gesendet wird:* Gewöhnliche Webanfragen für einen einmaligen Download von Modellen zur Spracherkennung (etwa 1 GB) und für die Liste dieser Dateien. Nichts über Sie, Ihren Standort oder Ihr Audio ist enthalten. Nach dem Download laufen die Modelle auf dem Gerät, so wie die übrige Untertitelung.
     *   *Anbieter:* Wingdings, Inc. über Cloudflare
 *   **Musikidentifikation (optional, Power Pack+)**
     *   *Was gesendet wird:* Ein kurzer Audio-Fingerabdruck, niemals die Aufnahme selbst, wenn Musik erkannt wird und Shazam eingeschaltet ist. Sie können das in den Einstellungen ausschalten.
     *   *Anbieter:* Apple Shazam / ShazamKit
-*   **Straßenkontext**
-    *   *Was gesendet wird:* Eine Position, die das Telefon auf etwa **110 Meter** gerundet hat, innerhalb einer Anfrage nach den Straßen im Umkreis von **500 Metern** um diesen Punkt, damit ein erkanntes Fahrzeug auf die Straße gesetzt werden kann, auf der es tatsächlich ist. Die Anfrage enthält keinen Namen, kein Konto und keine Gerätekennung, und nichts darüber, was das Telefon gehört hat.
-    *   *Anbieter:* Mitwirkende von OpenStreetMap, über die öffentliche Overpass-API
-*   **Straßenrouting**
-    *   *Was gesendet wird:* Ihre Position und die Position eines verfolgten Geräuschs, damit eine Fahrtroute zwischen den beiden auf der Karte gezeichnet werden kann. Diese Positionen werden mit der Genauigkeit gesendet, die das Telefon hat. Sie ist feiner als bei der Anfrage zum Straßenkontext oben. Es werden kein Name und kein Konto angehängt, und nichts über die Erkennung selbst ist enthalten.
-    *   *Anbieter:* Apple Maps / MapKit auf iPhone und iPad
+*   **Straßenkarte**
+    *   *Was gesendet wird:* Die Bezeichnung des Quadrats von etwa **50 km** Seitenlänge (ein halbes Grad), in dem sich Ihr Telefon befindet, um die Straßenkarte dieses Gebiets herunterzuladen. Das Telefon behält sie und prüft höchstens einmal pro Woche, ob es eine neuere gibt. Die Straßen in Ihrer Nähe finden, ein erkanntes Fahrzeug auf die Straße setzen, auf der es ist, und die Route zeichnen, die es wahrscheinlich nehmen wird: All das geschieht **auf Ihrem Telefon**, anhand dieser Karte. Ihre Position und die Position des Geräuschs werden nie gesendet.
+    *   *Anbieter:* Straßendaten von Mitwirkenden von OpenStreetMap (Open Database License), aufbereitet und gehostet von Wingdings, Inc.
 *   **Käufe und Berechtigungen**
     *   *Was gesendet wird:* Kauftoken und der Berechtigungs- oder Teststatus für die optionale einmalige Freischaltung von Power Pack+ (kein Abonnement)
     *   *Anbieter:* der Apple App Store auf iPhone und iPad; Google Play Billing auf Android
@@ -98,7 +95,7 @@ Das zentrale Zuhören und die Untertitel laufen auf Ihrem Gerät. Wir erfassen *
 
 Die App kann zur Fehlersuche **lokale** Debug-Protokolle auf dem Gerät behalten. Die App lädt sie nicht hoch. Untertiteltext wird aus einem Protokoll entfernt, bevor es exportiert werden kann. Sie können uns ein Protokoll per E-Mail senden, wenn Sie das möchten.
 
-**Research Array und unsere eigenen Dienste.** Solange Research Array eingeschaltet ist, erhält Wingdings die unten beschriebenen begrenzten Ereignisberichte. Getrennt davon sprechen einige Funktionen mit Servern, die wir betreiben: Wetter- und Erdbebenwarnungen, das Wetterradar, die Hilfeliste, der Download der Untertitel-Unterstützung und das Einrichten eines Remote Link. Diese Anfragen tragen kein Konto und keine persönliche Kennung. Die Wetteranfrage enthält höchstens einen Standort, der auf etwa 50 km gerundet ist. Nichts davon ist Werbung. Jede Anfrage ist dazu da, eine Funktion zum Laufen zu bringen.
+**Research Array und unsere eigenen Dienste.** Solange Research Array eingeschaltet ist, erhält Wingdings die unten beschriebenen begrenzten Ereignisberichte. Getrennt davon sprechen einige Funktionen mit Servern, die wir betreiben: Wetter- und Erdbebenwarnungen, das Wetterradar und der Wind, die Straßenkarte, die Hilfeliste, der Download der Untertitel-Unterstützung und das Einrichten eines Remote Link. Diese Anfragen tragen kein Konto und keine persönliche Kennung. Anfragen, die einen Ort nennen, nennen höchstens ein Quadrat von etwa 50 km Breite: die Wetterwarnungen, die Straßenkarte und der Wind. Nichts davon ist Werbung. Jede Anfrage ist dazu da, eine Funktion zum Laufen zu bringen.
 
 ## Research Array (eingeschaltet, bis Sie es ausschalten)
 

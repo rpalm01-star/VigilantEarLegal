@@ -45,24 +45,21 @@ When you use certain features, or when the app needs them to function, **limited
     *   *What is sent:* A request for one worldwide public earthquake list, through the same relay as the weather alerts above, so your phone does not contact a government server for these either. The request carries no location and no region. Your phone decides on its own whether a reported quake is near you.
     *   *Provider:* Official public earthquake feeds, relayed by Wingdings, Inc.
 *   **Weather radar**
-    *   *What is sent:* When the radar is on, a request for the list of radar images, then the image tiles for the part of the map on screen. Each tile request names a zoom level, a square of the map, and the time of that image. At the closest zoom the square is roughly 40 km across. In some countries the closest image is coarser, so the square is larger. Nothing else is included: no identifier, no account, and no detection data.
+    *   *What is sent:* When the radar is on, a request for the list of radar images, then the image tiles for the part of the map on screen. Each tile request names a zoom level, a square of the map, and the time of that image. The app never asks for a square smaller than the ~50 km squares above (at least half a degree tall, wherever you are); when you zoom in closer, it enlarges that image on the phone. The wind arrows are drawn on your phone from the wind around the ~50 km square the map is showing, which is the only place that request names. Nothing else is included: no identifier, no account, and no detection data.
     *   *Source:* Radar and satellite images from national weather services (each listed with its license at [vigilantear.com/en/sources](https://vigilantear.com/en/sources)), delivered through our Wingdings relay so your phone does not contact those agencies directly.
     *   *Provider:* Wingdings, Inc.
 *   **Help list (the life ring on the map)**
-    *   *What is sent:* When you open it, a two-letter country code (from your location if the app has it, otherwise your phone's region setting) and your app language, so the list can show the relevant emergency number and organizations.
-    *   *Provider:* Wingdings, Inc.
+    *   *What is sent:* To choose the country, the phone asks the map service (Apple Maps on iPhone and iPad, Google on Android) which country contains the **center of the ~50 km square** it is in, and of the squares around it when needed; your position itself is not sent. Android first uses the mobile network's country, which is known on the phone. Then, when you open the list, a two-letter country code and your app language are sent to us, so the list can show the relevant emergency number and organizations. Near a border, where one square covers two countries, your phone's region setting decides.
+    *   *Provider:* Apple Maps or Google for the country; Wingdings, Inc. for the list
 *   **Caption Support download (iPhones with at least 8 GB of memory)**
     *   *What is sent:* Ordinary web requests for a one-time download of speech-recognition models (about 1 GB), and for the list of those files. Nothing about you, your location, or your audio is included. Once downloaded, the models run on the device, as the rest of captioning does.
     *   *Provider:* Wingdings, Inc. via Cloudflare
 *   **Music identification (optional, Power Pack+)**
     *   *What is sent:* A short audio fingerprint, never the recording itself, when music is detected and Shazam is on. You can turn this off in settings.
     *   *Provider:* Apple Shazam / ShazamKit
-*   **Road context**
-    *   *What is sent:* A position the phone has rounded to about **110 meters**, inside a request for the roads within **500 meters** of that point, so a detected vehicle can be placed on the road it is actually on. The request includes no name, account, or device identifier, and nothing about what the phone heard.
-    *   *Provider:* OpenStreetMap contributors, via the public Overpass API
-*   **Road routing**
-    *   *What is sent:* Your position and the position of a tracked sound, so a driving route between them can be drawn on the map. These positions are sent at the precision the phone has, which is finer than the road-context request above. No name or account is attached, and nothing about the detection itself is included.
-    *   *Provider:* Apple Maps / MapKit on iPhone and iPad
+*   **Road map**
+    *   *What is sent:* The name of the square, about **50 km** on a side (half a degree), that your phone is in, to download that area's road map. The phone keeps it and checks for a newer one at most once a week. Finding the roads near you, placing a detected vehicle on the road it is on, and drawing the route it is likely to take all happen **on your phone**, from that map. Your position and the sound's position are never sent.
+    *   *Provider:* Road data from OpenStreetMap contributors (Open Database License), prepared and hosted by Wingdings, Inc.
 *   **Purchases and entitlements**
     *   *What is sent:* Purchase tokens and entitlement or trial status for the optional one-time Power Pack+ unlock (not a subscription)
     *   *Provider:* the Apple App Store on iPhone and iPad; Google Play Billing on Android
@@ -98,7 +95,7 @@ Core listening and captions run on your device. We do **not** collect remote cra
 
 The app may keep **local** debug logs on the device for troubleshooting. The app does not upload them. Caption text is removed from a log before it can be exported. You may choose to email a log to us.
 
-**Research Array and our own services.** While Research Array is on, Wingdings receives the limited event reports described below. Separately, some features talk to servers we operate: weather and earthquake alerts, weather radar, the help list, the Caption Support download, and setting up a Remote Link. Those requests carry no account and no personal identifier. The weather request includes, at most, a location rounded to about 50 km. None of this is advertising. Each request exists to make one feature work.
+**Research Array and our own services.** While Research Array is on, Wingdings receives the limited event reports described below. Separately, some features talk to servers we operate: weather and earthquake alerts, weather radar and wind, the road map, the help list, the Caption Support download, and setting up a Remote Link. Those requests carry no account and no personal identifier. Requests that name a place name at most a square about 50 km across: the weather alerts, the road map, and the wind. None of this is advertising. Each request exists to make one feature work.
 
 ## Research Array (on until you turn it off)
 
