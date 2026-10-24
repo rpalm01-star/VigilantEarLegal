@@ -1,6 +1,6 @@
 # Sources and Licenses for Vigilant Ear 👂🛰️
 
-**Effective Date:** October 21, 2026
+**Effective Date:** October 24, 2026
 
 ## Agencies
 
@@ -262,6 +262,12 @@ The official warnings in Vigilant Ear come from these agencies. Your phone does 
      - `https://zmd.gov.zm/api/cap/rss.xml`
 127. Zimbabwe: **Meteorological Services Department (Zimbabwe)**
      - `https://www.weatherzw.org.zw/api/cap/rss.xml`
+
+## Map data
+
+The road map in Vigilant Ear. Your phone downloads it from our server, run by Wingdings, Inc., one area at a time, and works with it on the phone.
+
+1. **OpenStreetMap road data** (Placing a detected vehicle on the road it is on, and drawing the route it is likely to take) — OpenStreetMap contributors. © OpenStreetMap contributors. Open Database License (ODbL) 1.0, https://opendatacommons.org/licenses/odbl/1-0/. Changes: Roads only, from Geofabrik's OpenStreetMap extracts, cut into one file per half-degree square (about 50 km across) that keeps each road's class and one-way direction. These road map files are a derivative database, available under the same license at https://models.vigilantear.com/roads/v1/index.json and the files it lists. iOS, Android. https://www.openstreetmap.org/copyright
 
 ## Models
 
