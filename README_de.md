@@ -1,5 +1,7 @@
 # Vigilant Ear 👂🛡️
 
+📲 [Laden im App Store](https://apps.apple.com/app/id6761978703)
+
 *Gültig ab Version 1.1.14 · Oktober 2026.*
 
 ## Ein akustisches Radar für Menschen, die nicht hören können.

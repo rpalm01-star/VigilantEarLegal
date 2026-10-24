@@ -1,5 +1,7 @@
 # Vigilant Ear 👂🛡️
 
+📲 [Preuzmite sa App Store-a](https://apps.apple.com/app/id6761978703)
+
 *Važi od verzije 1.1.14 · oktobar 2026.*
 
 ## Akustični radar za ljude koji ne čuju.

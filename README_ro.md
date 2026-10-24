@@ -1,5 +1,7 @@
 # Vigilant Ear 👂🛡️
 
+📲 [Descarcă din App Store](https://apps.apple.com/app/id6761978703)
+
 *În vigoare începând cu versiunea 1.1.14 · octombrie 2026.*
 
 ## Un radar acustic pentru oamenii care nu pot auzi.

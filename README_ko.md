@@ -1,5 +1,7 @@
 # Vigilant Ear 👂🛡️
 
+📲 [App Store에서 다운로드](https://apps.apple.com/app/id6761978703)
+
 *버전 1.1.14 기준 · 2026년 10월.*
 
 ## 들을 수 없는 사람을 위한 음향 레이더.

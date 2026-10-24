@@ -1,5 +1,7 @@
 # Vigilant Ear 👂🛡️
 
+📲 [App Store'dan indirin](https://apps.apple.com/app/id6761978703)
+
 *1.1.14 sürümü itibarıyla geçerlidir · Ekim 2026.*
 
 ## Duyamayanlar için bir akustik radar.

@@ -1,5 +1,7 @@
 # Vigilant Ear 👂🛡️
 
+📲 [在 App Store 下载](https://apps.apple.com/app/id6761978703)
+
 *自版本 1.1.14 起生效 · 2026 年 10 月。*
 
 ## 给听不见的人用的声学雷达。
